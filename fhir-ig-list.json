@@ -207,7 +207,7 @@
     "name" : "US Breast Cancer Data",
     "category" : "Diagnostics",
     "npm-name" : "us-breastcancer",
-    "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation based on the American Joint Commission on Cancer 8th Edition Staging Manual (AJCC-8), including the traditional TNM staging components (anatomic staging), as well as other factors such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
+    "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation, including the traditional three-component staging involving primary tumor classification, regional lymph nodes and distant metastases, as well as other factors important to prognosis and recurrence risk, such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/breastcancer/history.html",
