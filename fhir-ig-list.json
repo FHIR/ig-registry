@@ -263,5 +263,20 @@
         "fhir-version" : "3.0.1",
         "url" : "http://www.fhir.org/guides/argonaut/scheduling"
        }]
+  },{
+    "name" : "International Patient Summary",
+    "category" : "International Agreements",
+    "npm-name" : "uv-ips",
+    "description" : "The International Patient Summary (IPS) is a minimal and non-exhaustive patient summary, specialty-agnostic, condition-independent, but readily usable by clinicians for the cross-border unscheduled care of a patient.",
+    "authority" : "HL7",
+    "country" : "UV",
+    "history" : "http://hl7.org/fhir/uv/ips/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-ips/index.html",
+    "editions" : [{
+        "name" : "STU Ballot #1",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/uv/ips/index.html"
+       }]
   }]
 }
