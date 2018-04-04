@@ -1,0 +1,282 @@
+{
+  "implementation-guides" : [{
+    "name" : "Argonaut Provider Directory",
+    "category" : "Administration",
+    "npm-name" : "argonaut-pd",
+    "description" : "The Argonaut project Provider Directory  outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
+    "authority" : "Argonaut",
+    "country" : "US",
+    "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
+    "ci-build" : "https://build.fhir.org/ig/argonautproject/provider-directory",
+    "editions" : [{
+        "name" : "Release #1",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "3.0.0",
+        "url" : "http://www.fhir.org/guides/argonaut/pd/release1"
+       }]
+  },{
+    "name" : "US Core",
+    "category" : "Base National Specifications",
+    "npm-name" : "us-core",
+    "description" : "Base US national implementation guide",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/core/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/US-Core/",
+    "editions" : [{
+        "name" : "STU",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/core/"
+       }]
+  },{
+    "name" : "AU Base",
+    "category" : "Base National Specifications",
+    "npm-name" : "au-base",
+    "description" : "Base Australian national implementation guide",
+    "authority" : "HL7",
+    "country" : "AU",
+    "history" : "http://fhir.hl7.org.au/fhir/base/history.html",
+    "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-base",
+    "editions" : [{
+        "name" : "Sept Connectathon",
+        "ig-version" : "2017.09",
+        "fhir-version" : "3.0.1",
+        "url" : "http://fhir.hl7.org.au/fhir/base2017Sep"
+       }]
+  },{
+    "name" : "CCDA on FHIR",
+    "category" : "Clinical Documentation",
+    "npm-name" : "us-ccda",
+    "description" : "US Realm Implementation Guide (IG) addressing the key aspects of Consolidated CDA (C-CDA) required for Meaningful Use (MU). This IG focuses on the clinical document header and narrative constraints necessary for human readability, and references the Data Access Framework (DAF) implementation guide for coded data representation",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/ccda/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/ccda-on-fhir",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "?",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/ccda/2017Jan"
+       }]
+  },{
+    "name" : "SDC (Structured Data Capture)",
+    "category" : "Data Collection",
+    "npm-name" : "us-sdc",
+    "description" : "Defines expectations for sharing of Questionnaires and answers, including mechanisms for automatically populating portions of a questionnaire based on embedded mappings to underlying data elements",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/sdc/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/sdc",
+    "editions" : [{
+        "name" : "STU2",
+        "ig-version" : "2.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/sdc"
+       }]
+  },{
+    "name" : "SDC Data Elements Registry",
+    "category" : "Data Collection",
+    "npm-name" : "us-sdcde",
+    "description" : "Defines expectations for sharing of data elements between registries",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/sdcde/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/sdc-de",
+    "editions" : [{
+        "name" : "STU2",
+        "ig-version" : "2.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/sdcde"
+       }]
+  },{
+    "name" : "US Lab",
+    "category" : "Diagnostics",
+    "npm-name" : "us-lab",
+    "description" : "US Realm Laboratory ordering and reporting between ambulatory care setting and the laboratory and laboratory reporting to public health jurisdictions",
+    "authority" : "HL7",
+    "country" : "US",
+    "editions" : [{
+        "name" : "DSTU2",
+        "ig-version" : "n/a",
+        "fhir-version" : "1.0.2",
+        "url" : "http://hl7.org/fhir/DSTU2/uslab/uslab.html"
+       }]
+  },{
+    "name" : "RCPA Cancer Reports",
+    "category" : "Diagnostics",
+    "npm-name" : "au-rcpa",
+    "description" : "Structured Cancer Reporting Protocols (FHIR adaptation of joint CAP/RCPA protocols)",
+    "authority" : "HL7",
+    "country" : "AU",
+    "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-rcpa/"
+  },{
+    "name" : "DAF",
+    "category" : "EHR Access",
+    "npm-name" : "us-daf",
+    "description" : "Basic arrangements for accessing meaningful use data from EHR systems **NOTE: DAF has been superseded by Argonaut, DAF-Research and US-Core**",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/daf/history.html",
+    "editions" : [{
+        "name" : "DSTU2",
+        "ig-version" : "n/a",
+        "fhir-version" : "1.0.2",
+        "url" : "http://hl7.org/fhir/DSTU2/daf/daf.html"
+       }]
+  },{
+    "name" : "Argonaut Data Query",
+    "category" : "EHR Access",
+    "npm-name" : "argonaut-data-query",
+    "description" : "This implementation guide is based upon DSTU2 FHIR standard and covers the US EHR data access for the ONC Common Clinical Data Set and retrieval of static documents",
+    "authority" : "Argonaut",
+    "country" : "US",
+    "history" : "http://www.fhir.org/guides/argonaut/r2/history.html",
+    "ci-build" : "https://build.fhir.org/ig/argonautproject/data-query",
+    "editions" : [{
+        "name" : "Final Release (R2)",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "1.0.2",
+        "url" : "http://www.fhir.org/guides/argonaut/r2/"
+       }]
+  },{
+    "name" : "HSPC EHR Guide",
+    "category" : "EHR Access",
+    "npm-name" : "hspc-data-query",
+    "description" : "Builds on Argonaut to make agreements around consistent data (in progress)",
+    "authority" : "HSPC",
+    "country" : "US",
+    "history" : "http://fhir.org/guides/hspc/history.html",
+    "editions" : [{
+        "name" : "Draft",
+        "ig-version" : "1.7",
+        "fhir-version" : "3.0.1",
+        "url" : "http://www.fhir.org/guides/hspc/"
+       }]
+  },{
+    "name" : "US Meds Maturity Project",
+    "category" : "Medication Management",
+    "npm-name" : "us-meds",
+    "description" : "US Meds Maturity Project: promote consistent use of the FHIR pharmacy resources in the US Realm",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/meds/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
+    "editions" : [{
+        "name" : "STU1",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/meds"
+       },{
+        "name" : "STU2 Ballot #1",
+        "ig-version" : "1.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/meds/2018May"
+       }]
+  },{
+    "name" : "QICore",
+    "category" : "Quality Measures / Decision Support",
+    "npm-name" : "us-qicore",
+    "description" : "QICore defines a uniform way for quality measurement and decision support knowledge to refer to clinical data. The profiles align as much as possible with DAF and incorporate content from the (Quality Data Model) and the (Virtual Medical Record) specifications",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/qicore/history.html",
+    "ci-build" : "https://build.fhir.org/ig/cqframework/qi-core",
+    "editions" : [{
+        "name" : "STU 2",
+        "ig-version" : "2.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/qicore"
+       }]
+  },{
+    "name" : "DAF-Research",
+    "category" : "Research",
+    "npm-name" : "us-daf-research",
+    "description" : "DAF-Research IG focuses on enabling researchers to access data from multiple organizations",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/daf/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/daf-research",
+    "editions" : [{
+        "name" : "STU",
+        "ig-version" : "2.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/daf-research"
+       }]
+  },{
+    "name" : "US HAI",
+    "category" : "Public Health Reporting",
+    "npm-name" : "us-hai",
+    "description" : "Specifies standards for electronic submission of Healthcare Associated Infection (HAI) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC)",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/hai/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/HAI",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.3.0",
+        "url" : "http://hl7.org/fhir/us/hai"
+       }]
+  },{
+    "name" : "US Breast Cancer Data",
+    "category" : "Diagnostics",
+    "npm-name" : "us-breastcancer",
+    "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation based on the American Joint Commission on Cancer 8th Edition Staging Manual (AJCC-8), including the traditional TNM staging components (anatomic staging), as well as other factors such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
+    "authority" : "HL7",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/breastcancer/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/us-breastcancer",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/breastcancer"
+       }]
+  },{
+    "name" : "Genomics Reporting",
+    "category" : "Diagnostics",
+    "npm-name" : "uv-genomics-reporting",
+    "description" : "This implementation guide tries to provide guidance that will enable improved interoperable and computable sharing of genetic testing results",
+    "authority" : "HL7",
+    "country" : "UV",
+    "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/genomics-reporting",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "2018may",
+        "fhir-version" : "3.3.0",
+        "url" : "https://build.fhir.org/ig/HL7/genomics-reporting/"
+       }]
+  },{
+    "name" : "Arognaut Provider Directory",
+    "category" : "Administration",
+    "npm-name" : "arognaut-pd",
+    "description" : "This implementation guide is based upon STU3 FHIR standard and provides the foundation for a robust provider directory for US usage",
+    "authority" : "Argonaut",
+    "country" : "US",
+    "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
+    "ci-build" : "https://build.fhir.org/ig/argonautproject/provider-directory",
+    "editions" : [{
+        "name" : "Release 1",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://www.fhir.org/guides/argonaut/pd"
+       }]
+  },{
+    "name" : "Argonaut Scheduling",
+    "category" : "Administration",
+    "npm-name" : "argonaut-scheduling",
+    "description" : "This implementation guide is based upon STU3 FHIR standard and provides FHIR RESTful APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users",
+    "authority" : "Argonaut",
+    "country" : "US",
+    "history" : "http://www.fhir.org/guides/argonaut/scheduling/history.html",
+    "ci-build" : "https://build.fhir.org/ig/argonautproject/scheduling",
+    "editions" : [{
+        "name" : "Release 1",
+        "ig-version" : "1.0.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://www.fhir.org/guides/argonaut/scheduling"
+       }]
+  }]
+}
