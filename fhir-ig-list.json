@@ -1,20 +1,5 @@
 {
   "implementation-guides" : [{
-    "name" : "Argonaut Provider Directory",
-    "category" : "Administration",
-    "npm-name" : "argonaut-pd",
-    "description" : "The Argonaut project Provider Directory  outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
-    "authority" : "Argonaut",
-    "country" : "US",
-    "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
-    "ci-build" : "https://build.fhir.org/ig/argonautproject/provider-directory",
-    "editions" : [{
-        "name" : "Release #1",
-        "ig-version" : "1.0.0",
-        "fhir-version" : "3.0.0",
-        "url" : "http://www.fhir.org/guides/argonaut/pd/release1"
-       }]
-  },{
     "name" : "US Core",
     "category" : "Base National Specifications",
     "npm-name" : "us-core",
@@ -249,10 +234,10 @@
         "url" : "https://build.fhir.org/ig/HL7/genomics-reporting/"
        }]
   },{
-    "name" : "Arognaut Provider Directory",
+    "name" : "Argonaut Provider Directory",
     "category" : "Administration",
-    "npm-name" : "arognaut-pd",
-    "description" : "This implementation guide is based upon STU3 FHIR standard and provides the foundation for a robust provider directory for US usage",
+    "npm-name" : "argonaut-pd",
+    "description" : "This implementation guide is based upon STU3 FHIR standard and outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
