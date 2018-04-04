@@ -2,11 +2,15 @@
 
 Registry of published implementation guides. 
 
-This regsitry is published for human convenience at http://www.fhir.org/guides/registry
+This registry is published for human convenience at http://www.fhir.org/guides/registry
 
 Other registries:
 
 * http://registry.fhir.org: a registry of conformance resources, including ones contained in IGs registered here
+
+# Editing the registry 
+
+If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. Alternatively, you can email your changes to fhir-director@hl7.org
 
 # Documentation of Registry
 
