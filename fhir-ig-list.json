@@ -1,5 +1,5 @@
 {
-  "implementation-guides" : [{
+  "guides" : [{
     "name" : "US Core",
     "category" : "Base National Specifications",
     "npm-name" : "us-core",
