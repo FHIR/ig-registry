@@ -24,9 +24,9 @@ Entries for each implementation guide:
 * history : URL to see a list of all published versions of the IG
 * ci-build : URL to see the CI build of the IG (just the base URL - do not include the index.html etc)
 * editions : optional array containing at least 1 published edition information:
- * name : Human name for published edition
- * ig-version : the stated version of the IG itself
- * fhir-version : the version of the FHIR spec that the IG is based on
- * url : where the edition is found (just the base URL - do not include the index.html etc)
+  * name : Human name for published edition
+  * ig-version : the stated version of the IG itself
+  * fhir-version : the version of the FHIR spec that the IG is based on
+  * url : where the edition is found (just the base URL - do not include the index.html etc)
 
 Typically, only milestone releases are published, and for a given ballot sequence, only the last of the sequence - the most recent - will be listed.
