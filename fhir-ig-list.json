@@ -1,5 +1,5 @@
 {
-  "implementation-guides" : [{
+  "guides" : [{
     "name" : "US Core",
     "category" : "Base National Specifications",
     "npm-name" : "us-core",
@@ -207,7 +207,7 @@
     "name" : "US Breast Cancer Data",
     "category" : "Diagnostics",
     "npm-name" : "us-breastcancer",
-    "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation based on the American Joint Commission on Cancer 8th Edition Staging Manual (AJCC-8), including the traditional TNM staging components (anatomic staging), as well as other factors such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
+    "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation, including the traditional three-component staging involving primary tumor classification, regional lymph nodes and distant metastases, as well as other factors important to prognosis and recurrence risk, such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/breastcancer/history.html",
@@ -262,6 +262,21 @@
         "ig-version" : "1.0.0",
         "fhir-version" : "3.0.1",
         "url" : "http://www.fhir.org/guides/argonaut/scheduling"
+       }]
+  },{
+    "name" : "International Patient Summary",
+    "category" : "International Agreements",
+    "npm-name" : "uv-ips",
+    "description" : "The International Patient Summary (IPS) is a minimal and non-exhaustive patient summary, specialty-agnostic, condition-independent, but readily usable by clinicians for the cross-border unscheduled care of a patient.",
+    "authority" : "HL7",
+    "country" : "UV",
+    "history" : "http://hl7.org/fhir/uv/ips/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-ips/index.html",
+    "editions" : [{
+        "name" : "STU Ballot #1",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/uv/ips/index.html"
        }]
   }]
 }

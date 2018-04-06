@@ -2,11 +2,15 @@
 
 Registry of published implementation guides. 
 
-This regsitry is published for human convenience at http://www.fhir.org/guides/registry
+This registry is published for human convenience at http://www.fhir.org/guides/registry
 
 Other registries:
 
 * http://registry.fhir.org: a registry of conformance resources, including ones contained in IGs registered here
+
+# Editing the registry 
+
+If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. Alternatively, you can email your changes to fhir-director@hl7.org
 
 # Documentation of Registry
 
@@ -17,7 +21,7 @@ Entries for each implementation guide:
 
 * name (required) : human name for the implenentation guide
 * category (required) : arbitrary category for sorting/filtering - check existing ones
-* npm-name : NPM Package Name - either without a context, in which case @fhir/ is assumed, and the name is assigned by FHIR product director, or else with a context, as defined by the owner of the context
+* npm-name (required) : NPM Package Name - either without a context, in which case @fhir/ is assumed, and the name is assigned by FHIR product director, or else with a context, as defined by the owner of the context
 * description (required) : a human readable description of the IG contents
 * authority (required) : Who is responsible for publishing the IG. All IGs published by HL7 or affiliates are "HL7"
 * country (required) :ISO 2 letter code, or "UV" for international
