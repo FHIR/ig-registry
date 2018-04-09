@@ -278,5 +278,300 @@
         "fhir-version" : "3.0.1",
         "url" : "http://hl7.org/fhir/uv/ips/index.html"
        }]
+  },{
+    "name" : "Mobile access to Health Documents (MHD)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-mhd",
+    "description" : "Defines a simple HTTP interface to a Document Sharing environment, including XDS/XCA (XDS-on-FHIR).",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
+    "registry-uri" : "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
+       }]
+  },{
+    "name" : "Patient Demographics Qury for Mobile (PDQm)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-pdqm",
+    "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)"
+       }]
+  },{
+    "name" : "Patient Identifier Cross-Reference for Mobile (PIXm)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-pixm",
+    "description" : "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)"
+       }]
+  },{
+    "name" : "FHIR AuditEvent query to ATNA",
+    "category" : "EHR access",
+    "npm-name" : "ihe-atna-query",
+    "description" : "Enable access to ATNA Audit Repository queries using FHIR AuditEvent resource.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA"
+       }]
+    },{
+    "name" : "Mobile Alert Communication Management(mACM)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-macm",
+    "description" : "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)"
+       }]
+    },{
+    "name" : "Mobile Care Services Discovery (mCSD)",
+    "category" : "Administration",
+    "npm-name" : "ihe-mcsd",
+    "description" : "Defines a comprehensive Provider Directory including Organization, Location, Services, and Practitioners. Includes IHE-HPD and IHE-CSD use-cases.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)"
+       }]
+    },{
+    "name" : "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-mxde",
+    "description" : "Provides the means to access data elements extracted from shared structured documents.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
+       }]
+    },{
+    "name" : "Query for Existing Data for Mobile (QEDm)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-qedm",
+    "description" : "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
+       }]
+    },{
+    "name" : "Non-Patient File Sharing (NPFSm)",
+    "category" : "Administration",
+    "npm-name" : "ihe-npfs",
+    "description" : "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, and stylesheets.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)"
+       }]
+    },{
+    "name" : "Standardized Operational Log of Events (SOLE)",
+    "category" : "Administration",
+    "npm-name" : "ihe-sole",
+    "description" : "Defines a way to exchange information about events that can then be collected and displayed using standard methods.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events"
+       }]
+    },{
+    "name" : "Mobile Medication Administration (MMA)",
+    "category" : "Medication Management",
+    "npm-name" : "ihe-mma",
+    "description" : "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_Medication_Administration",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_Medication_Administration"
+       }]
+    },{
+    "name" : "Uniform Barcode Processing (UBP)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-ubp",
+    "description" : "Uniform Barcode Processing for Medications",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Uniform_Barcode_Processing",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Uniform_Barcode_Processing"
+       }]
+    },{
+    "name" : "Mobile Retrieve Form for Data Capture (mRFD)",
+    "category" : "Data Collection",
+    "npm-name" : "ihe-mrfd",
+    "description" : "Povides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture"
+       }]
+    },{
+    "name" : "Vital Records Death Reporting (VRDR)",
+    "category" : "Data Collection",
+    "npm-name" : "ihe-vrdr",
+    "description" : "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Vital_Records_Death_Reporting",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Vital_Records_Death_Reporting"
+       }]
+    },{
+    "name" : "Clinical Mapping (CMAP)",
+    "category" : "Administration",
+    "npm-name" : "ihe-cmap",
+    "description" : "Clinical Mapping Profile supports the need of systems to translate codes from one terminology to another to support exchange of information between different systems.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Clinical_Mapping",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Clinical_Mapping"
+       }]
+    },{
+    "name" : "Dynamic Care Planning (DCP)",
+    "category" : "CarePlan Management",
+    "npm-name" : "ihe-dcp",
+    "description" : "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Dynamic_Care_Planning",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Dynamic_Care_Planning"
+       }]
+    },{
+    "name" : "Dynamic Care Team Management (DCTM)",
+    "category" : "CarePlan Management",
+    "npm-name" : "ihe-dctm",
+    "description" : "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Dynamic_Care_Team_Management",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Dynamic_Care_Team_Management"
+       }]
+    },{
+    "name" : "Point-of-Care Medical Device Tracking (PMDT)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-pmdt",
+    "description" : "provides definition for a mobile Device.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking"
+       }]
+    },{
+    "name" : "Reconciliation of Clinical Content and Care Providers (RECON)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-recon",
+    "description" : "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers"
+       }]
+    },{
+    "name" : "Remote Patient Monitoring (RPM)",
+    "category" : "EHR access",
+    "npm-name" : "ihe-rpm",
+    "description" : "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Remote_Patient_Monitoring"
+       }]
+    },{
+    "name" : "Routine Interfacility Patient Transport (RIPT)",
+    "category" : "EMT access",
+    "npm-name" : "ihe-ript",
+    "description" : "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported.",
+    "authority" : "IHE",
+    "country" : "UV",
+    "history" : "https://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "https://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport"
+       }]
   }]
 }
