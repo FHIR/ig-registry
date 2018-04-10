@@ -294,7 +294,7 @@
         "url" : "https://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
        }]
   },{
-    "name" : "Patient Demographics Qury for Mobile (PDQm)",
+    "name" : "Patient Demographics Query for Mobile (PDQm)",
     "category" : "EHR access",
     "npm-name" : "ihe-pdqm",
     "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications.",
@@ -451,7 +451,7 @@
     "name" : "Mobile Retrieve Form for Data Capture (mRFD)",
     "category" : "Data Collection",
     "npm-name" : "ihe-mrfd",
-    "description" : "Povides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile.",
+    "description" : "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile.",
     "authority" : "IHE",
     "country" : "UV",
     "history" : "https://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
