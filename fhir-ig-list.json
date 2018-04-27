@@ -22,7 +22,7 @@
     "authority" : "HL7",
     "country" : "AU",
     "history" : "http://fhir.hl7.org.au/fhir/base/history.html",
-    "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-base",
+    "ci-build" : "http://build.fhir.org/ig/hl7au/au-fhir-base",
     "editions" : [{
         "name" : "Sept Connectathon",
         "ig-version" : "2017.09",
@@ -37,7 +37,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/ccda/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/ccda-on-fhir",
+    "ci-build" : "http://build.fhir.org/ig/HL7/ccda-on-fhir",
     "editions" : [{
         "name" : "Ballot",
         "ig-version" : "?",
@@ -52,7 +52,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/sdc/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/sdc",
+    "ci-build" : "http://build.fhir.org/ig/HL7/sdc",
     "editions" : [{
         "name" : "STU2",
         "ig-version" : "2.0",
@@ -94,7 +94,7 @@
     "description" : "Structured Cancer Reporting Protocols (FHIR adaptation of joint CAP/RCPA protocols)",
     "authority" : "HL7",
     "country" : "AU",
-    "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-rcpa/"
+    "ci-build" : "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/"
   },{
     "name" : "DAF",
     "category" : "EHR Access",
@@ -117,7 +117,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/r2/history.html",
-    "ci-build" : "https://build.fhir.org/ig/argonautproject/data-query",
+    "ci-build" : "http://build.fhir.org/ig/argonautproject/data-query",
     "editions" : [{
         "name" : "Final Release (R2)",
         "ig-version" : "1.0.0",
@@ -146,7 +146,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/meds/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
+    "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
     "editions" : [{
         "name" : "STU1",
         "ig-version" : "1.0.0",
@@ -166,7 +166,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/qicore/history.html",
-    "ci-build" : "https://build.fhir.org/ig/cqframework/qi-core",
+    "ci-build" : "http://build.fhir.org/ig/cqframework/qi-core",
     "editions" : [{
         "name" : "STU 2",
         "ig-version" : "2.0.0",
@@ -181,7 +181,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/daf/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/daf-research",
+    "ci-build" : "http://build.fhir.org/ig/HL7/daf-research",
     "editions" : [{
         "name" : "STU",
         "ig-version" : "2.0.0",
@@ -196,7 +196,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/hai/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/HAI",
+    "ci-build" : "http://build.fhir.org/ig/HL7/HAI",
     "editions" : [{
         "name" : "Ballot",
         "ig-version" : "0.1.0",
@@ -211,7 +211,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/breastcancer/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/us-breastcancer",
+    "ci-build" : "http://build.fhir.org/ig/HL7/us-breastcancer",
     "editions" : [{
         "name" : "Ballot",
         "ig-version" : "0.1.0",
@@ -226,12 +226,12 @@
     "authority" : "HL7",
     "country" : "UV",
     "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
-    "ci-build" : "https://build.fhir.org/ig/HL7/genomics-reporting",
+    "ci-build" : "http://build.fhir.org/ig/HL7/genomics-reporting",
     "editions" : [{
         "name" : "Ballot",
         "ig-version" : "2018may",
         "fhir-version" : "3.3.0",
-        "url" : "https://build.fhir.org/ig/HL7/genomics-reporting/"
+        "url" : "http://build.fhir.org/ig/HL7/genomics-reporting/"
        }]
   },{
     "name" : "Argonaut Provider Directory",
@@ -241,7 +241,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
-    "ci-build" : "https://build.fhir.org/ig/argonautproject/provider-directory",
+    "ci-build" : "http://build.fhir.org/ig/argonautproject/provider-directory",
     "editions" : [{
         "name" : "Release 1",
         "ig-version" : "1.0.0",
@@ -256,7 +256,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/scheduling/history.html",
-    "ci-build" : "https://build.fhir.org/ig/argonautproject/scheduling",
+    "ci-build" : "http://build.fhir.org/ig/argonautproject/scheduling",
     "editions" : [{
         "name" : "Release 1",
         "ig-version" : "1.0.0",
@@ -572,6 +572,36 @@
         "ig-version" : "0.1.0",
         "fhir-version" : "3.0.1",
         "url" : "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport"
+       }]
+  },{
+    "name" : "Immunization Decision Support",
+    "category" : "Decision Support",
+    "npm-name" : "imm-ds",
+    "description" : "A common FHIR implementation guide that expert systems may use to provide a common consistent interface enable decisioin support recommending which vaccinations a patient is due for next",
+    "authority" : "HL7",
+    "country" : "UV",
+    "history" : "http://hl7.org/fhir/uv/immds/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/uv/immds/2018Jan"
+       }]
+  },{
+    "name" : "Electronic Case Reporting",
+    "category" : "Public Health Reporting",
+    "npm-name" : "ecr",
+    "description" : "The Electronic Case Reporting (eCR) Implementation Guide supports Reporting, investigation, and management via electronic transmission of clinical data from Electronic Health Records to Public Health Agencies, along with the management and processing of population cases. Ths IG covers Bi-directional information exchange and triggering and decision support.",
+    "authority" : "HL7",
+    "country" : "UV",
+    "history" : "http://hl7.org/fhir/uv/ecr/history.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7/case-reporting",
+    "editions" : [{
+        "name" : "Ballot",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/uv/ecr/2018Jan"
        }]
   }]
 }
