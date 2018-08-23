@@ -2,7 +2,7 @@
   "guides" : [{
     "name" : "US Core",
     "category" : "Base National Specifications",
-    "npm-name" : "us-core",
+    "npm-name" : "hl7.fhir.us.core",
     "description" : "Base US national implementation guide",
     "authority" : "HL7",
     "country" : "US",
@@ -17,7 +17,7 @@
   },{
     "name" : "AU Base",
     "category" : "Base National Specifications",
-    "npm-name" : "au-base",
+    "npm-name" : "hl7.fhir.au.base",
     "description" : "Base Australian national implementation guide",
     "authority" : "HL7",
     "country" : "AU",
@@ -32,7 +32,7 @@
   },{
     "name" : "CCDA on FHIR",
     "category" : "Clinical Documentation",
-    "npm-name" : "us-ccda",
+    "npm-name" : "hl7.fhir.us.ccda",
     "description" : "US Realm Implementation Guide (IG) addressing the key aspects of Consolidated CDA (C-CDA) required for Meaningful Use (MU). This IG focuses on the clinical document header and narrative constraints necessary for human readability, and references the Data Access Framework (DAF) implementation guide for coded data representation",
     "authority" : "HL7",
     "country" : "US",
@@ -47,7 +47,7 @@
   },{
     "name" : "SDC (Structured Data Capture)",
     "category" : "Data Collection",
-    "npm-name" : "us-sdc",
+    "npm-name" : "hl7.fhir.us.sdc",
     "description" : "Defines expectations for sharing of Questionnaires and answers, including mechanisms for automatically populating portions of a questionnaire based on embedded mappings to underlying data elements",
     "authority" : "HL7",
     "country" : "US",
@@ -62,7 +62,7 @@
   },{
     "name" : "SDC Data Elements Registry",
     "category" : "Data Collection",
-    "npm-name" : "us-sdcde",
+    "npm-name" : "hl7.fhir.us.sdc-de",
     "description" : "Defines expectations for sharing of data elements between registries",
     "authority" : "HL7",
     "country" : "US",
@@ -77,7 +77,7 @@
   },{
     "name" : "US Lab",
     "category" : "Diagnostics",
-    "npm-name" : "us-lab",
+    "npm-name" : "hl7.fhir.us.lab",
     "description" : "US Realm Laboratory ordering and reporting between ambulatory care setting and the laboratory and laboratory reporting to public health jurisdictions",
     "authority" : "HL7",
     "country" : "US",
@@ -90,7 +90,7 @@
   },{
     "name" : "RCPA Cancer Reports",
     "category" : "Diagnostics",
-    "npm-name" : "au-rcpa",
+    "npm-name" : "hl7.fhir.au.rcpa",
     "description" : "Structured Cancer Reporting Protocols (FHIR adaptation of joint CAP/RCPA protocols)",
     "authority" : "HL7",
     "country" : "AU",
@@ -98,7 +98,7 @@
   },{
     "name" : "DAF",
     "category" : "EHR Access",
-    "npm-name" : "us-daf",
+    "npm-name" : "hl7.fhir.us.daf",
     "description" : "Basic arrangements for accessing meaningful use data from EHR systems **NOTE: DAF has been superseded by Argonaut, DAF-Research and US-Core**",
     "authority" : "HL7",
     "country" : "US",
@@ -112,7 +112,7 @@
   },{
     "name" : "Argonaut Data Query",
     "category" : "EHR Access",
-    "npm-name" : "argonaut-data-query",
+    "npm-name" : "fhir.argonaut.dq",
     "description" : "This implementation guide is based upon DSTU2 FHIR standard and covers the US EHR data access for the ONC Common Clinical Data Set and retrieval of static documents",
     "authority" : "Argonaut",
     "country" : "US",
@@ -127,7 +127,7 @@
   },{
     "name" : "HSPC EHR Guide",
     "category" : "EHR Access",
-    "npm-name" : "hspc-data-query",
+    "npm-name" : "fhir.hspc.ehr",
     "description" : "Builds on Argonaut to make agreements around consistent data (in progress)",
     "authority" : "HSPC",
     "country" : "US",
@@ -141,7 +141,7 @@
   },{
     "name" : "US Meds Maturity Project",
     "category" : "Medication Management",
-    "npm-name" : "us-meds",
+    "npm-name" : "hl7.fhir.us.meds",
     "description" : "US Meds Maturity Project: promote consistent use of the FHIR pharmacy resources in the US Realm",
     "authority" : "HL7",
     "country" : "US",
@@ -161,22 +161,22 @@
   },{
     "name" : "QICore",
     "category" : "Quality Measures / Decision Support",
-    "npm-name" : "us-qicore",
+    "npm-name" : "hl7.fhir.us.qicore",
     "description" : "QICore defines a uniform way for quality measurement and decision support knowledge to refer to clinical data. The profiles align as much as possible with DAF and incorporate content from the (Quality Data Model) and the (Virtual Medical Record) specifications",
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/qicore/history.html",
     "ci-build" : "http://build.fhir.org/ig/cqframework/qi-core",
     "editions" : [{
-        "name" : "STU 2",
-        "ig-version" : "2.0.0",
+        "name" : "STU 3",
+        "ig-version" : "3.1.0",
         "fhir-version" : "3.0.1",
         "url" : "http://hl7.org/fhir/us/qicore"
        }]
   },{
     "name" : "DAF-Research",
     "category" : "Research",
-    "npm-name" : "us-daf-research",
+    "npm-name" : "hl7.fhir.us.daf-research",
     "description" : "DAF-Research IG focuses on enabling researchers to access data from multiple organizations",
     "authority" : "HL7",
     "country" : "US",
@@ -191,7 +191,7 @@
   },{
     "name" : "US HAI",
     "category" : "Public Health Reporting",
-    "npm-name" : "us-hai",
+    "npm-name" : "hl7.fhir.us.hai",
     "description" : "Specifies standards for electronic submission of Healthcare Associated Infection (HAI) reports to the National Healthcare Safety Network (NHSN) of the Centers for Disease Control and Prevention (CDC)",
     "authority" : "HL7",
     "country" : "US",
@@ -206,7 +206,7 @@
   },{
     "name" : "US Breast Cancer Data",
     "category" : "Diagnostics",
-    "npm-name" : "us-breastcancer",
+    "npm-name" : "hl7.fhir.us.breastcancer",
     "description" : "Logical models and FHIR profiles for supporting breast cancer staging estimation, including the traditional three-component staging involving primary tumor classification, regional lymph nodes and distant metastases, as well as other factors important to prognosis and recurrence risk, such as tumor grade, hormone receptor status (progesterone and estrogen), as well as human epidermal growth factor 2 (HER 2) status",
     "authority" : "HL7",
     "country" : "US",
@@ -221,10 +221,10 @@
   },{
     "name" : "Genomics Reporting",
     "category" : "Diagnostics",
-    "npm-name" : "uv-genomics-reporting",
+    "npm-name" : "hl7.fhir.uv.genomics-reporting",
     "description" : "This implementation guide tries to provide guidance that will enable improved interoperable and computable sharing of genetic testing results",
     "authority" : "HL7",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
     "ci-build" : "http://build.fhir.org/ig/HL7/genomics-reporting",
     "editions" : [{
@@ -236,7 +236,7 @@
   },{
     "name" : "Argonaut Provider Directory",
     "category" : "Administration",
-    "npm-name" : "argonaut-pd",
+    "npm-name" : "fhir.argonaut.pd",
     "description" : "This implementation guide is based upon STU3 FHIR standard and outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
     "authority" : "Argonaut",
     "country" : "US",
@@ -251,7 +251,7 @@
   },{
     "name" : "Argonaut Scheduling",
     "category" : "Administration",
-    "npm-name" : "argonaut-scheduling",
+    "npm-name" : "fhir.argonaut.scheduling",
     "description" : "This implementation guide is based upon STU3 FHIR standard and provides FHIR RESTful APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users",
     "authority" : "Argonaut",
     "country" : "US",
@@ -266,25 +266,25 @@
   },{
     "name" : "International Patient Summary",
     "category" : "International Agreements",
-    "npm-name" : "uv-ips",
+    "npm-name" : "hl7.fhir.uv.ips",
     "description" : "The International Patient Summary (IPS) is a minimal and non-exhaustive patient summary, specialty-agnostic, condition-independent, but readily usable by clinicians for the cross-border unscheduled care of a patient.",
     "authority" : "HL7",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/ips/history.html",
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-ips/index.html",
     "editions" : [{
-        "name" : "STU Ballot #1",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
-        "url" : "http://hl7.org/fhir/uv/ips/index.html"
+        "name" : "STU Ballot #2",
+        "ig-version" : "0.2.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/uv/ips/2018Sep"
        }]
   },{
     "name" : "Mobile access to Health Documents (MHD)",
     "category" : "EHR access",
-    "npm-name" : "ihe-mhd",
+    "npm-name" : "ihe.fhir.mhd",
     "description" : "Defines a simple HTTP interface to a Document Sharing environment, including XDS/XCA (XDS-on-FHIR).",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
     "registry-uri" : "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
     "editions" : [{
@@ -296,10 +296,10 @@
   },{
     "name" : "Patient Demographics Query for Mobile (PDQm)",
     "category" : "EHR access",
-    "npm-name" : "ihe-pdqm",
+    "npm-name" : "ihe.fhir.pdqm",
     "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -310,10 +310,10 @@
   },{
     "name" : "Patient Identifier Cross-Reference for Mobile (PIXm)",
     "category" : "EHR access",
-    "npm-name" : "ihe-pixm",
+    "npm-name" : "ihe.fhir.pixm",
     "description" : "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -324,10 +324,10 @@
   },{
     "name" : "FHIR AuditEvent query to ATNA",
     "category" : "EHR access",
-    "npm-name" : "ihe-atna-query",
+    "npm-name" : "ihe.fhir.atna-query",
     "description" : "Enable access to ATNA Audit Repository queries using FHIR AuditEvent resource.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -338,10 +338,10 @@
     },{
     "name" : "Mobile Alert Communication Management(mACM)",
     "category" : "EHR access",
-    "npm-name" : "ihe-macm",
+    "npm-name" : "ihe.fhir.macm",
     "description" : "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -352,10 +352,10 @@
     },{
     "name" : "Mobile Care Services Discovery (mCSD)",
     "category" : "Administration",
-    "npm-name" : "ihe-mcsd",
+    "npm-name" : "ihe.fhir.mcsd",
     "description" : "Defines a comprehensive Provider Directory including Organization, Location, Services, and Practitioners. Includes IHE-HPD and IHE-CSD use-cases.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -366,10 +366,10 @@
     },{
     "name" : "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
     "category" : "EHR access",
-    "npm-name" : "ihe-mxde",
+    "npm-name" : "ihe.fhir.mxde",
     "description" : "Provides the means to access data elements extracted from shared structured documents.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -380,10 +380,10 @@
     },{
     "name" : "Query for Existing Data for Mobile (QEDm)",
     "category" : "EHR access",
-    "npm-name" : "ihe-qedm",
+    "npm-name" : "ihe.fhir.qedm",
     "description" : "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -394,10 +394,10 @@
     },{
     "name" : "Non-Patient File Sharing (NPFSm)",
     "category" : "Administration",
-    "npm-name" : "ihe-npfs",
+    "npm-name" : "ihe.fhir.npfs",
     "description" : "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, and stylesheets.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -408,10 +408,10 @@
     },{
     "name" : "Standardized Operational Log of Events (SOLE)",
     "category" : "Administration",
-    "npm-name" : "ihe-sole",
+    "npm-name" : "ihe.fhir.sole",
     "description" : "Defines a way to exchange information about events that can then be collected and displayed using standard methods.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -422,10 +422,10 @@
     },{
     "name" : "Mobile Medication Administration (MMA)",
     "category" : "Medication Management",
-    "npm-name" : "ihe-mma",
+    "npm-name" : "ihe.fhir.mma",
     "description" : "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Medication_Administration",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -436,10 +436,10 @@
     },{
     "name" : "Uniform Barcode Processing (UBP)",
     "category" : "EHR access",
-    "npm-name" : "ihe-ubp",
+    "npm-name" : "ihe.fhir.ubp",
     "description" : "Uniform Barcode Processing for Medications",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Uniform_Barcode_Processing",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -450,10 +450,10 @@
     },{
     "name" : "Mobile Retrieve Form for Data Capture (mRFD)",
     "category" : "Data Collection",
-    "npm-name" : "ihe-mrfd",
+    "npm-name" : "ihe.fhir.mrfd",
     "description" : "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -464,10 +464,10 @@
     },{
     "name" : "Vital Records Death Reporting (VRDR)",
     "category" : "Data Collection",
-    "npm-name" : "ihe-vrdr",
+    "npm-name" : "ihe.fhir.vrdr",
     "description" : "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Vital_Records_Death_Reporting",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -478,10 +478,10 @@
     },{
     "name" : "Clinical Mapping (CMAP)",
     "category" : "Administration",
-    "npm-name" : "ihe-cmap",
+    "npm-name" : "ihe.fhir.cmap",
     "description" : "Clinical Mapping Profile supports the need of systems to translate codes from one terminology to another to support exchange of information between different systems.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Clinical_Mapping",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -492,10 +492,10 @@
     },{
     "name" : "Dynamic Care Planning (DCP)",
     "category" : "CarePlan Management",
-    "npm-name" : "ihe-dcp",
+    "npm-name" : "ihe.fhir.dcp",
     "description" : "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Dynamic_Care_Planning",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -506,10 +506,10 @@
     },{
     "name" : "Dynamic Care Team Management (DCTM)",
     "category" : "CarePlan Management",
-    "npm-name" : "ihe-dctm",
+    "npm-name" : "ihe.fhir.dctm",
     "description" : "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -520,10 +520,10 @@
     },{
     "name" : "Point-of-Care Medical Device Tracking (PMDT)",
     "category" : "EHR access",
-    "npm-name" : "ihe-pmdt",
+    "npm-name" : "ihe.fhir.pmdt",
     "description" : "provides definition for a mobile Device.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -534,10 +534,10 @@
     },{
     "name" : "Reconciliation of Clinical Content and Care Providers (RECON)",
     "category" : "EHR access",
-    "npm-name" : "ihe-recon",
+    "npm-name" : "ihe.fhir.recon",
     "description" : "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -548,10 +548,10 @@
     },{
     "name" : "Remote Patient Monitoring (RPM)",
     "category" : "EHR access",
-    "npm-name" : "ihe-rpm",
+    "npm-name" : "ihe.fhir.rpm",
     "description" : "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -562,10 +562,10 @@
     },{
     "name" : "Routine Interfacility Patient Transport (RIPT)",
     "category" : "EMT access",
-    "npm-name" : "ihe-ript",
+    "npm-name" : "ihe.fhir.ript",
     "description" : "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported.",
     "authority" : "IHE",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -576,10 +576,10 @@
   },{
     "name" : "Immunization Decision Support",
     "category" : "Decision Support",
-    "npm-name" : "imm-ds",
+    "npm-name" : "hl7.fhir.uv.imm-ds",
     "description" : "A common FHIR implementation guide that expert systems may use to provide a common consistent interface enable decisioin support recommending which vaccinations a patient is due for next",
     "authority" : "HL7",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/immds/history.html",
     "ci-build" : "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
     "editions" : [{
@@ -591,17 +591,122 @@
   },{
     "name" : "Electronic Case Reporting",
     "category" : "Public Health Reporting",
-    "npm-name" : "ecr",
+    "npm-name" : "hl7.fhir.us.ecr",
     "description" : "The Electronic Case Reporting (eCR) Implementation Guide supports Reporting, investigation, and management via electronic transmission of clinical data from Electronic Health Records to Public Health Agencies, along with the management and processing of population cases. Ths IG covers Bi-directional information exchange and triggering and decision support.",
     "authority" : "HL7",
-    "country" : "UV",
+    "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/ecr/history.html",
     "ci-build" : "http://build.fhir.org/ig/HL7/case-reporting",
     "editions" : [{
-        "name" : "Ballot",
+        "name" : "Ballot 2",
+        "ig-version" : "0.2.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://hl7.org/fhir/us/ecr/2018Sep"
+       }]
+  },{
+    "name" : "Loinc/IVD Test mapping",
+    "category" : "Diagnostics",
+    "npm-name" : "hl7.fhir.uv.livd",
+    "description" : "The LIVD Implementation Guide provides a industry standard expression for an IVD device manufacturer's suggestions for a specific device's mapping from the internal, proprietary IVD test codes to suggested LOINC codes when a LIS manager is connecting and configuring a device to the LIS.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/livd/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/livd",
+    "editions" : [{
+        "name" : "Draft for Comment",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/uv/livd/2018Sep"
+       }]
+  },{
+    "name" : "Point of Care Devices",
+    "category" : "Data Collection",
+    "npm-name" : "hl7.fhir.uv.pocd",
+    "description" : "Defines the use of FHIR resources to convey measurements and supporting data from acute care point-of-care medical devices (PoCD) to receiving systems for electronic medical records, clinical decision support, and medical data archiving for aggregate quality measurement and research purposes",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/pocd/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/uv-pocd/",
+    "editions" : [{
+        "name" : "STU1 (Ballot 2)",
+        "ig-version" : "0.2.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/uv/pocd/2018Sep"
+       }]
+  },{
+    "name" : "Potential Drug/Drug Interaction",
+    "category" : "Medication Management",
+    "npm-name" : "hl7.fhir.uv.pddi",
+    "description" : "This implementation guide is targeted at stakeholders who seek to increase the specificity and clinical relevance of drug-drug interaction alerts presented through the electronic health record. The approach is service-oriented and uses Web standards, a minimum information model for potential drug interactions, and emerging Health Information Technology standards including CDS Hooks, FHIR, and Clinical Quality Language (CQL)",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/pddi/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/PDDI-CDS",
+    "editions" : [{
+        "name" : "STU Ballot 1",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/uv/pddi/2018Sep"
+       }]
+  },{
+    "name" : "Validated Healthcare Directory",
+    "category" : "Administration",
+    "npm-name" : "hl7.fhir.uv.vhdir",
+    "description" : "Defines the minimum conformance requirements for accessing or exposing validated healthcare directory data and provides a specification for the exchange of directory data between a source of validated provider data and local workflow environments (e.g. local directories)",
+    "authority" : "HL7",
+    "country" : "http://build.fhir.org/ig/HL7/VhDir/index.html",
+    "history" : "http://hl7.org/fhir/uv/vhdir/history.html",
+    "ci-build" : "",
+    "editions" : [{
+        "name" : "STU Ballot 2",
+        "ig-version" : "0.2.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/uv/vhdir/2018Sep"
+       }]
+  },{
+    "name" : "Coverage Requirements Determination (Da Vinci)",
+    "category" : "Financial",
+    "npm-name" : "hl7.fhir.us.davinci-crd",
+    "description" : "Provides a mechanism for healthcare providers to discover guidelines, pre-authorization requirements and other expectations from payor organizations related to a proposed medication, procedure or other service associated with a patient's insurance coverage. Supports both patient-specific and patient-independent information retrieval.",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/davinci-crd/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/davinci-crd",
+    "editions" : [{
+        "name" : "STU1 Ballot 1",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/us/davinci-crd/2018Sep"
+       }]
+  },{
+    "name" : "Data Exchange for Quality Measures (Da Vinci)",
+    "category" : "Financial",
+    "npm-name" : "hl7.fhir.us.davinci-deqm",
+    "description" : "Provides a mechanism for healthcare providers and data aggregators to exchange quality measure information using subscription, query, and push methods",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/davinci-deqm/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/davinci-deqm-r4",
+    "editions" : [{
+        "name" : "STU1 Ballot 1",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.5.0",
+        "url" : "http://hl7.org/fhir/us/davinci-deqm/2018Sep"
+       }]
+  },{
+    "name" : "Occupational Data for Health",
+    "category" : "Data Collection",
+    "npm-name" : "hl7.fhir.us.odh",
+    "description" : "This IG covers the specific data that covers past or present jobs, usual work, employment status, retirement date and combat zone period for the subject. It also includes the past or present jobs and usual work of other household members.",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/odh/history.html",
+    "ci-build" : "https://build.fhir.org/ig/HL7/us-odh",
+    "editions" : [{
+        "name" : "STU1 Ballot 1",
         "ig-version" : "0.1.0",
         "fhir-version" : "3.0.1",
-        "url" : "http://hl7.org/fhir/uv/ecr/2018Jan"
+        "url" : "http://hl7.org/fhir/us/odh/2018Sep"
        }]
   }]
 }
