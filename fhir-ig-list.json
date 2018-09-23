@@ -654,9 +654,9 @@
     "npm-name" : "hl7.fhir.uv.vhdir",
     "description" : "Defines the minimum conformance requirements for accessing or exposing validated healthcare directory data and provides a specification for the exchange of directory data between a source of validated provider data and local workflow environments (e.g. local directories)",
     "authority" : "HL7",
-    "country" : "http://build.fhir.org/ig/HL7/VhDir/index.html",
+    "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/vhdir/history.html",
-    "ci-build" : "",
+    "ci-build" : "http://build.fhir.org/ig/HL7/VhDir/index.html",
     "editions" : [{
         "name" : "STU Ballot 2",
         "ig-version" : "0.2.0",
