@@ -281,7 +281,7 @@
   },{
     "name" : "Mobile access to Health Documents (MHD)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.mhd",
+    "npm-name" : "ihe.mhd.fhir",
     "description" : "Defines a simple HTTP interface to a Document Sharing environment, including XDS/XCA (XDS-on-FHIR).",
     "authority" : "IHE",
     "country" : "uv",
@@ -296,7 +296,7 @@
   },{
     "name" : "Patient Demographics Query for Mobile (PDQm)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.pdqm",
+    "npm-name" : "ihe.pdqm.fhir",
     "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications.",
     "authority" : "IHE",
     "country" : "uv",
@@ -310,7 +310,7 @@
   },{
     "name" : "Patient Identifier Cross-Reference for Mobile (PIXm)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.pixm",
+    "npm-name" : "ihe.pixm.fhir",
     "description" : "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications.",
     "authority" : "IHE",
     "country" : "uv",
@@ -324,7 +324,7 @@
   },{
     "name" : "FHIR AuditEvent query to ATNA",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.atna-query",
+    "npm-name" : "ihe.atna-query.fhir",
     "description" : "Enable access to ATNA Audit Repository queries using FHIR AuditEvent resource.",
     "authority" : "IHE",
     "country" : "uv",
@@ -338,7 +338,7 @@
     },{
     "name" : "Mobile Alert Communication Management(mACM)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.macm",
+    "npm-name" : "ihe.macm.fhir",
     "description" : "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
     "authority" : "IHE",
     "country" : "uv",
@@ -352,7 +352,7 @@
     },{
     "name" : "Mobile Care Services Discovery (mCSD)",
     "category" : "Administration",
-    "npm-name" : "ihe.fhir.mcsd",
+    "npm-name" : "ihe.mcsd.fhir",
     "description" : "Defines a comprehensive Provider Directory including Organization, Location, Services, and Practitioners. Includes IHE-HPD and IHE-CSD use-cases.",
     "authority" : "IHE",
     "country" : "uv",
@@ -366,7 +366,7 @@
     },{
     "name" : "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.mxde",
+    "npm-name" : "ihe.mxde.fhir",
     "description" : "Provides the means to access data elements extracted from shared structured documents.",
     "authority" : "IHE",
     "country" : "uv",
@@ -380,7 +380,7 @@
     },{
     "name" : "Query for Existing Data for Mobile (QEDm)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.qedm",
+    "npm-name" : "ihe.qedm.fhir",
     "description" : "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises.",
     "authority" : "IHE",
     "country" : "uv",
@@ -394,7 +394,7 @@
     },{
     "name" : "Non-Patient File Sharing (NPFSm)",
     "category" : "Administration",
-    "npm-name" : "ihe.fhir.npfs",
+    "npm-name" : "ihe.npfs.fhir",
     "description" : "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, and stylesheets.",
     "authority" : "IHE",
     "country" : "uv",
@@ -408,7 +408,7 @@
     },{
     "name" : "Standardized Operational Log of Events (SOLE)",
     "category" : "Administration",
-    "npm-name" : "ihe.fhir.sole",
+    "npm-name" : "ihe.sole.fhir",
     "description" : "Defines a way to exchange information about events that can then be collected and displayed using standard methods.",
     "authority" : "IHE",
     "country" : "uv",
@@ -422,7 +422,7 @@
     },{
     "name" : "Mobile Medication Administration (MMA)",
     "category" : "Medication Management",
-    "npm-name" : "ihe.fhir.mma",
+    "npm-name" : "ihe.mma.fhir",
     "description" : "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices.",
     "authority" : "IHE",
     "country" : "uv",
@@ -436,7 +436,7 @@
     },{
     "name" : "Uniform Barcode Processing (UBP)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.ubp",
+    "npm-name" : "ihe.ubp.fhir",
     "description" : "Uniform Barcode Processing for Medications",
     "authority" : "IHE",
     "country" : "uv",
@@ -450,7 +450,7 @@
     },{
     "name" : "Mobile Retrieve Form for Data Capture (mRFD)",
     "category" : "Data Collection",
-    "npm-name" : "ihe.fhir.mrfd",
+    "npm-name" : "ihe.mrfd.fhir",
     "description" : "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile.",
     "authority" : "IHE",
     "country" : "uv",
@@ -464,7 +464,7 @@
     },{
     "name" : "Vital Records Death Reporting (VRDR)",
     "category" : "Data Collection",
-    "npm-name" : "ihe.fhir.vrdr",
+    "npm-name" : "ihe.vrdr.fhir",
     "description" : "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content.",
     "authority" : "IHE",
     "country" : "uv",
@@ -478,7 +478,7 @@
     },{
     "name" : "Clinical Mapping (CMAP)",
     "category" : "Administration",
-    "npm-name" : "ihe.fhir.cmap",
+    "npm-name" : "ihe.cmap.fhir",
     "description" : "Clinical Mapping Profile supports the need of systems to translate codes from one terminology to another to support exchange of information between different systems.",
     "authority" : "IHE",
     "country" : "uv",
@@ -492,7 +492,7 @@
     },{
     "name" : "Dynamic Care Planning (DCP)",
     "category" : "CarePlan Management",
-    "npm-name" : "ihe.fhir.dcp",
+    "npm-name" : "ihe.dcp.fhir",
     "description" : "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers.",
     "authority" : "IHE",
     "country" : "uv",
@@ -506,7 +506,7 @@
     },{
     "name" : "Dynamic Care Team Management (DCTM)",
     "category" : "CarePlan Management",
-    "npm-name" : "ihe.fhir.dctm",
+    "npm-name" : "ihe.dctm.fhir",
     "description" : "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers.",
     "authority" : "IHE",
     "country" : "uv",
@@ -520,7 +520,7 @@
     },{
     "name" : "Point-of-Care Medical Device Tracking (PMDT)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.pmdt",
+    "npm-name" : "ihe.pmdt.fhir",
     "description" : "provides definition for a mobile Device.",
     "authority" : "IHE",
     "country" : "uv",
@@ -534,7 +534,7 @@
     },{
     "name" : "Reconciliation of Clinical Content and Care Providers (RECON)",
     "category" : "EHR access",
-    "npm-name" : "ihe.fhir.recon",
+    "npm-name" : "ihe.recon.fhir",
     "description" : "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes.",
     "authority" : "IHE",
     "country" : "uv",
@@ -545,10 +545,24 @@
         "fhir-version" : "3.0.1",
         "url" : "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers"
        }]
-  },{
+    },{
+    "name" : "Remote Patient Monitoring (RPM)",
+    "category" : "EHR access",
+    "npm-name" : "ihe.rpm.fhir",
+    "description" : "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring"
+       }]
+    },{
     "name" : "Routine Interfacility Patient Transport (RIPT)",
     "category" : "EMT access",
-    "npm-name" : "ihe.fhir.ript",
+    "npm-name" : "ihe.ript.fhir",
     "description" : "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported.",
     "authority" : "IHE",
     "country" : "uv",
