@@ -708,5 +708,47 @@
         "fhir-version" : "3.0.1",
         "url" : "http://hl7.org/fhir/us/odh/2018Sep"
        }]
+  },{
+    "name" : "Paramedicine Care Summary (PCS)",
+    "category" : "EMT access",
+    "npm-name" : "ihe.fhir.pcs",
+    "description" : "Provides means for Emergency Transport to inform destination Hospital with critical and necessary medical information on patient being transported.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary"
+       }]
+  },{
+    "name" : "Birth and Fetal Death Reporting - Enhanced (BFDE)",
+    "category" : "Public Health Reporting",
+    "npm-name" : "ihe.fhir.bfde",
+    "description" : "Provides means for pre-populating of data from electronic health record systems to electronic vital records systems for birth and fetal death reporting.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile"
+       }]
+  },{
+    "name" : "Quality Outcome Reporting for EMS (QORE)",
+    "category" : "Public Health Reporting",
+    "npm-name" : "ihe.fhir.qore",
+    "description" : "Supports transmission of clinical data for use in calculating Emergency Medical Services Quality measures. Focus on Stroke, CPR, and STEMI.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS",
+    "editions" : [{
+        "name" : "STU3 Trial-Implementation",
+        "ig-version" : "0.1.0",
+        "fhir-version" : "3.0.1",
+        "url" : "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS"
+       }]
   }]
 }
