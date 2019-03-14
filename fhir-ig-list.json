@@ -7,6 +7,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/core/history.html",
+    "canonical" : "http://hl7.org/fhir/us/core",
     "ci-build" : "http://build.fhir.org/ig/HL7/US-Core/",
     "editions" : [{
         "name" : "STU",
@@ -22,6 +23,7 @@
     "authority" : "HL7",
     "country" : "AU",
     "history" : "http://fhir.hl7.org.au/fhir/base/history.html",
+    "canonical" : "http://fhir.hl7.org.au/fhir/base",
     "ci-build" : "http://build.fhir.org/ig/hl7au/au-fhir-base",
     "editions" : [{
         "name" : "Sept Connectathon",
@@ -37,6 +39,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/ccda/history.html",
+    "canonical" : "http://hl7.org/fhir/us/ccda",
     "ci-build" : "http://build.fhir.org/ig/HL7/ccda-on-fhir",
     "editions" : [{
         "name" : "Ballot",
@@ -52,6 +55,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/sdc/history.html",
+    "canonical" : "http://hl7.org/fhir/us/sdc",
     "ci-build" : "http://build.fhir.org/ig/HL7/sdc",
     "editions" : [{
         "name" : "STU2",
@@ -67,6 +71,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/sdcde/history.html",
+    "canonical" : "http://hl7.org/fhir/us/sdcde",
     "ci-build" : "http://build.fhir.org/ig/HL7/sdc-de",
     "editions" : [{
         "name" : "STU2",
@@ -103,6 +108,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/daf/history.html",
+    "canonical" : "http://hl7.org/fhir/us/daf",
     "editions" : [{
         "name" : "DSTU2",
         "ig-version" : "n/a",
@@ -117,6 +123,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/r2/history.html",
+    "canonical" : "http://www.fhir.org/guides/argonaut/r2",
     "ci-build" : "http://build.fhir.org/ig/argonautproject/data-query",
     "editions" : [{
         "name" : "Final Release (R2)",
@@ -132,6 +139,7 @@
     "authority" : "HSPC",
     "country" : "US",
     "history" : "http://fhir.org/guides/hspc/history.html",
+    "canonical" : "http://fhir.org/guides/hspc",
     "editions" : [{
         "name" : "Draft",
         "ig-version" : "1.7",
@@ -146,6 +154,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/meds/history.html",
+    "canonical" : "http://hl7.org/fhir/us/meds",
     "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
     "editions" : [{
         "name" : "STU1",
@@ -166,6 +175,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/qicore/history.html",
+    "canonical" : "http://hl7.org/fhir/us/qicore",
     "ci-build" : "http://build.fhir.org/ig/cqframework/qi-core",
     "editions" : [{
         "name" : "STU 3",
@@ -181,6 +191,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/daf/history.html",
+    "canonical" : "http://hl7.org/fhir/us/daf",
     "ci-build" : "http://build.fhir.org/ig/HL7/daf-research",
     "editions" : [{
         "name" : "STU",
@@ -196,6 +207,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/hai/history.html",
+    "canonical" : "http://hl7.org/fhir/us/hai",
     "ci-build" : "http://build.fhir.org/ig/HL7/HAI",
     "editions" : [{
         "name" : "Ballot",
@@ -211,6 +223,7 @@
     "authority" : "HL7",
     "country" : "US",
     "history" : "http://hl7.org/fhir/us/breastcancer/history.html",
+    "canonical" : "http://hl7.org/fhir/us/breastcancer",
     "ci-build" : "http://build.fhir.org/ig/HL7/us-breastcancer",
     "editions" : [{
         "name" : "Ballot",
@@ -226,6 +239,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/genomics-reporting",
     "ci-build" : "http://build.fhir.org/ig/HL7/genomics-reporting",
     "editions" : [{
         "name" : "Ballot",
@@ -241,6 +255,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/pd/history.html",
+    "canonical" : "http://www.fhir.org/guides/argonaut/pd",
     "ci-build" : "http://build.fhir.org/ig/argonautproject/provider-directory",
     "editions" : [{
         "name" : "Release 1",
@@ -256,6 +271,7 @@
     "authority" : "Argonaut",
     "country" : "US",
     "history" : "http://www.fhir.org/guides/argonaut/scheduling/history.html",
+    "canonical" : "http://www.fhir.org/guides/argonaut/scheduling",
     "ci-build" : "http://build.fhir.org/ig/argonautproject/scheduling",
     "editions" : [{
         "name" : "Release 1",
@@ -271,6 +287,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/ips/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/ips",
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-ips/index.html",
     "editions" : [{
         "name" : "STU Ballot #2",
@@ -286,6 +303,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
+    "canonical" : "http://wiki.ihe.net/index.php",
     "registry-uri" : "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
@@ -301,6 +319,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
+    "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -315,6 +334,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
+    "canonical" : "http://wiki.ihe.net/index.php/Patient_Identifier_Cross",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -329,6 +349,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -343,6 +364,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)",
+    "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -357,6 +379,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
+    "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -371,6 +394,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
+    "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -385,6 +409,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -399,6 +424,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)",
+    "canonical" : "http://wiki.ihe.net/index.php/Non",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -413,6 +439,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -427,6 +454,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Medication_Administration",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -441,6 +469,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Uniform_Barcode_Processing",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -455,6 +484,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -469,6 +499,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Vital_Records_Death_Reporting",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -483,6 +514,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Clinical_Mapping",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -497,6 +529,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Dynamic_Care_Planning",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -511,6 +544,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -525,6 +559,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking",
+    "canonical" : "http://wiki.ihe.net/index.php/Point",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -539,6 +574,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -553,6 +589,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -567,6 +604,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -581,6 +619,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/immds/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/immds",
     "ci-build" : "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
     "editions" : [{
         "name" : "Ballot",
@@ -596,6 +635,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/ecr/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/ecr",
     "ci-build" : "http://build.fhir.org/ig/HL7/case-reporting",
     "editions" : [{
         "name" : "Ballot 2",
@@ -611,6 +651,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/livd/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/livd",
     "ci-build" : "https://build.fhir.org/ig/HL7/livd",
     "editions" : [{
         "name" : "Draft for Comment",
@@ -626,6 +667,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/pocd/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/pocd",
     "ci-build" : "https://build.fhir.org/ig/HL7/uv-pocd/",
     "editions" : [{
         "name" : "STU1 (Ballot 2)",
@@ -641,6 +683,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/pddi/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/pddi",
     "ci-build" : "https://build.fhir.org/ig/HL7/PDDI-CDS",
     "editions" : [{
         "name" : "STU Ballot 1",
@@ -656,6 +699,7 @@
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/vhdir/history.html",
+    "canonical" : "http://hl7.org/fhir/uv/vhdir",
     "ci-build" : "http://build.fhir.org/ig/HL7/VhDir/index.html",
     "editions" : [{
         "name" : "STU Ballot 2",
@@ -671,6 +715,7 @@
     "authority" : "HL7",
     "country" : "us",
     "history" : "http://hl7.org/fhir/us/davinci-crd/history.html",
+    "canonical" : "http://hl7.org/fhir/us/davinci-crd",
     "ci-build" : "https://build.fhir.org/ig/HL7/davinci-crd",
     "editions" : [{
         "name" : "STU1 Ballot 1",
@@ -686,6 +731,7 @@
     "authority" : "HL7",
     "country" : "us",
     "history" : "http://hl7.org/fhir/us/davinci-deqm/history.html",
+    "canonical" : "http://hl7.org/fhir/us/davinci-deqm",
     "ci-build" : "https://build.fhir.org/ig/HL7/davinci-deqm-r4",
     "editions" : [{
         "name" : "STU1 Ballot 1",
@@ -701,6 +747,7 @@
     "authority" : "HL7",
     "country" : "us",
     "history" : "http://hl7.org/fhir/us/odh/history.html",
+    "canonical" : "http://hl7.org/fhir/us/odh",
     "ci-build" : "https://build.fhir.org/ig/HL7/us-odh",
     "editions" : [{
         "name" : "STU1 Ballot 1",
@@ -716,6 +763,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -730,6 +778,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
@@ -744,6 +793,7 @@
     "authority" : "IHE",
     "country" : "uv",
     "history" : "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS",
+    "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
         "name" : "STU3 Trial-Implementation",
         "ig-version" : "0.1.0",
