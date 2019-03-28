@@ -306,9 +306,9 @@
     "canonical" : "http://wiki.ihe.net/index.php",
     "registry-uri" : "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
     "editions" : [{
-        "name" : "STU3 Trial-Implementation",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
+        "name" : "R4 Trial-Implementation",
+        "ig-version" : "0.3.1",
+        "fhir-version" : "4.0.0",
         "url" : "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
        }]
   },{
@@ -321,9 +321,9 @@
     "history" : "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
     "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
-        "name" : "STU3 Trial-Implementation",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
+        "name" : "R4 Trial-Implementation",
+        "ig-version" : "0.2.1",
+        "fhir-version" : "4.0.0",
         "url" : "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)"
        }]
   },{
@@ -381,9 +381,9 @@
     "history" : "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
     "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
-        "name" : "STU3 Trial-Implementation",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
+        "name" : "R4 Trial-Implementation",
+        "ig-version" : "0.2.1",
+        "fhir-version" : "4.0.0",
         "url" : "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)"
        }]
     },{
@@ -396,9 +396,9 @@
     "history" : "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
     "canonical" : "http://wiki.ihe.net/index.php",
     "editions" : [{
-        "name" : "STU3 Trial-Implementation",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
+        "name" : "STU3 or R4 Trial-Implementation",
+        "ig-version" : "0.1.2",
+        "fhir-version" : "4.0.0",
         "url" : "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
        }]
     },{
@@ -411,9 +411,9 @@
     "history" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
     "canonical" : "http://wiki.ihe.net/index",
     "editions" : [{
-        "name" : "STU3 Trial-Implementation",
-        "ig-version" : "0.1.0",
-        "fhir-version" : "3.0.1",
+        "name" : "R4 Trial-Implementation",
+        "ig-version" : "0.2.1",
+        "fhir-version" : "4.0.0",
         "url" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
        }]
     },{
