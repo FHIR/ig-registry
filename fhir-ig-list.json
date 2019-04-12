@@ -37,7 +37,7 @@
       "npm-name": "hl7.fhir.au.base",
       "description": "Base Australian national implementation guide",
       "authority": "HL7",
-      "country": "AU",
+      "country": "au",
       "history": "http://fhir.hl7.org.au/fhir/base/history.html",
       "canonical": "http://fhir.hl7.org.au/fhir/base",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
@@ -141,7 +141,7 @@
       "npm-name": "hl7.fhir.au.rcpa",
       "description": "Structured Cancer Reporting Protocols (FHIR adaptation of joint CAP/RCPA protocols)",
       "authority": "HL7",
-      "country": "AU",
+      "country": "au",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/"
     },
     {
