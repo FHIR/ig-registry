@@ -2,7 +2,7 @@
   "guides": [
     {
       "name": "US Core",
-      "category": "Base National Specifications",
+      "category": "National Base",
       "npm-name": "hl7.fhir.us.core",
       "description": "Base US national implementation guide",
       "authority": "HL7",
@@ -33,7 +33,7 @@
     },
     {
       "name": "AU Base",
-      "category": "Base National Specifications",
+      "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
       "description": "Base Australian national implementation guide",
       "authority": "HL7",
@@ -52,7 +52,7 @@
     },
     {
       "name": "CCDA on FHIR",
-      "category": "Clinical Documentation",
+      "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.ccda",
       "description": "US Realm Implementation Guide (IG) addressing the key aspects of Consolidated CDA (C-CDA) required for Meaningful Use (MU). This IG focuses on the clinical document header and narrative constraints necessary for human readability, and references the Data Access Framework (DAF) implementation guide for coded data representation",
       "authority": "HL7",
@@ -71,7 +71,7 @@
     },
     {
       "name": "SDC (Structured Data Capture)",
-      "category": "Data Collection",
+      "category": "Forms Management",
       "npm-name": "hl7.fhir.uv.sdc",
       "description": "Defines expectations for sharing of Questionnaires and answers, including mechanisms for automatically populating portions of a questionnaire based on embedded mappings to underlying data elements",
       "authority": "HL7",
@@ -102,7 +102,7 @@
     },
     {
       "name": "SDC Data Elements Registry",
-      "category": "Data Collection",
+      "category": "Forms Management",
       "npm-name": "hl7.fhir.us.sdcde",
       "description": "Defines expectations for sharing of data elements between registries",
       "authority": "HL7",
@@ -208,7 +208,7 @@
     },
     {
       "name": "US Meds Maturity Project",
-      "category": "Medication Management",
+      "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.meds",
       "description": "US Meds Maturity Project: promote consistent use of the FHIR pharmacy resources in the US Realm",
       "authority": "HL7",
@@ -233,7 +233,7 @@
     },
     {
       "name": "QICore",
-      "category": "Quality Measures / Decision Support",
+      "category": "Quality / CDS",
       "npm-name": "hl7.fhir.us.qicore",
       "description": "QICore defines a uniform way for quality measurement and decision support knowledge to refer to clinical data. The profiles align as much as possible with DAF and incorporate content from the (Quality Data Model) and the (Virtual Medical Record) specifications",
       "authority": "HL7",
@@ -384,7 +384,7 @@
     },
     {
       "name": "International Patient Summary",
-      "category": "International Agreements",
+      "category": "Patient Summary",
       "npm-name": "hl7.fhir.uv.ips",
       "description": "The International Patient Summary (IPS) is a minimal and non-exhaustive patient summary, specialty-agnostic, condition-independent, but readily usable by clinicians for the cross-border unscheduled care of a patient",
       "authority": "HL7",
@@ -403,7 +403,7 @@
     },
     {
       "name": "Mobile access to Health Documents (MHD)",
-      "category": "EHR access",
+      "category": "Clinical Documents",
       "npm-name": "ihe.mhd.fhir",
       "description": "Defines a simple HTTP interface to a Document Sharing environment, including XDS/XCA (XDS-on-FHIR)",
       "authority": "IHE",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Patient Demographics Query for Mobile (PDQm)",
-      "category": "EHR access",
+      "category": "Administration",
       "npm-name": "ihe.pdqm.fhir",
       "description": "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
@@ -440,7 +440,7 @@
     },
     {
       "name": "Patient Identifier Cross-Reference for Mobile (PIXm)",
-      "category": "EHR access",
+      "category": "Administration",
       "npm-name": "ihe.pixm.fhir",
       "description": "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
@@ -458,7 +458,7 @@
     },
     {
       "name": "FHIR AuditEvent query to ATNA",
-      "category": "EHR access",
+      "category": "Administration",
       "npm-name": "ihe.atna-query.fhir",
       "description": "Enable access to ATNA Audit Repository queries using FHIR AuditEvent resource",
       "authority": "IHE",
@@ -476,7 +476,7 @@
     },
     {
       "name": "Mobile Alert Communication Management(mACM)",
-      "category": "EHR access",
+      "category": "Communications",
       "npm-name": "ihe.macm.fhir",
       "description": "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
       "authority": "IHE",
@@ -512,7 +512,7 @@
     },
     {
       "name": "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
-      "category": "EHR access",
+      "category": "Clinical Documents",
       "npm-name": "ihe.mxde.fhir",
       "description": "Provides the means to access data elements extracted from shared structured documents",
       "authority": "IHE",
@@ -530,7 +530,7 @@
     },
     {
       "name": "Query for Existing Data for Mobile (QEDm)",
-      "category": "EHR access",
+      "category": "EHR Access",
       "npm-name": "ihe.qedm.fhir",
       "description": "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises",
       "authority": "IHE",
@@ -584,7 +584,7 @@
     },
     {
       "name": "Mobile Medication Administration (MMA)",
-      "category": "Medication Management",
+      "category": "Medications / Immunizations",
       "npm-name": "ihe.mma.fhir",
       "description": "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices",
       "authority": "IHE",
@@ -602,7 +602,7 @@
     },
     {
       "name": "Uniform Barcode Processing (UBP)",
-      "category": "EHR access",
+      "category": "Medications / Immunizations",
       "npm-name": "ihe.ubp.fhir",
       "description": "Uniform Barcode Processing for Medications",
       "authority": "IHE",
@@ -620,7 +620,7 @@
     },
     {
       "name": "Mobile Retrieve Form for Data Capture (mRFD)",
-      "category": "Data Collection",
+      "category": "Forms Management",
       "npm-name": "ihe.mrfd.fhir",
       "description": "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile",
       "authority": "IHE",
@@ -638,7 +638,7 @@
     },
     {
       "name": "Vital Records Death Reporting (VRDR)",
-      "category": "Data Collection",
+      "category": "Public Health",
       "npm-name": "ihe.vrdr.fhir",
       "description": "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content",
       "authority": "IHE",
@@ -674,7 +674,7 @@
     },
     {
       "name": "Dynamic Care Planning (DCP)",
-      "category": "CarePlan Management",
+      "category": "Care Planning",
       "npm-name": "ihe.dcp.fhir",
       "description": "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers",
       "authority": "IHE",
@@ -692,7 +692,7 @@
     },
     {
       "name": "Dynamic Care Team Management (DCTM)",
-      "category": "CarePlan Management",
+      "category": "Care Planning",
       "npm-name": "ihe.dctm.fhir",
       "description": "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers",
       "authority": "IHE",
@@ -710,7 +710,7 @@
     },
     {
       "name": "Point-of-Care Medical Device Tracking (PMDT)",
-      "category": "EHR access",
+      "category": "Administration",
       "npm-name": "ihe.pmdt.fhir",
       "description": "provides definition for a mobile Device",
       "authority": "IHE",
@@ -728,7 +728,7 @@
     },
     {
       "name": "Reconciliation of Clinical Content and Care Providers (RECON)",
-      "category": "EHR access",
+      "category": "Administration",
       "npm-name": "ihe.recon.fhir",
       "description": "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes",
       "authority": "IHE",
@@ -746,7 +746,7 @@
     },
     {
       "name": "Remote Patient Monitoring (RPM)",
-      "category": "EHR access",
+      "category": "Personal Healthcare",
       "npm-name": "ihe.rpm.fhir",
       "description": "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location",
       "authority": "IHE",
@@ -764,7 +764,7 @@
     },
     {
       "name": "Routine Interfacility Patient Transport (RIPT)",
-      "category": "EMT access",
+      "category": "Communications",
       "npm-name": "ihe.ript.fhir",
       "description": "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported",
       "authority": "IHE",
@@ -782,7 +782,7 @@
     },
     {
       "name": "Immunization Decision Support",
-      "category": "Decision Support",
+      "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.uv.imm-ds",
       "description": "A common FHIR implementation guide that expert systems may use to provide a common consistent interface enable decisioin support recommending which vaccinations a patient is due for next",
       "authority": "HL7",
@@ -839,7 +839,7 @@
     },
     {
       "name": "Point of Care Devices",
-      "category": "Data Collection",
+      "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.pocd",
       "description": "Defines the use of FHIR resources to convey measurements and supporting data from acute care point-of-care medical devices (PoCD) to receiving systems for electronic medical records, clinical decision support, and medical data archiving for aggregate quality measurement and research purposes",
       "authority": "HL7",
@@ -858,7 +858,7 @@
     },
     {
       "name": "Potential Drug/Drug Interaction",
-      "category": "Medication Management",
+      "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.uv.pddi",
       "description": "This implementation guide is targeted at stakeholders who seek to increase the specificity and clinical relevance of drug-drug interaction alerts presented through the electronic health record. The approach is service-oriented and uses Web standards, a minimum information model for potential drug interactions, and emerging Health Information Technology standards including CDS Hooks, FHIR, and Clinical Quality Language (CQL)",
       "authority": "HL7",
@@ -934,7 +934,7 @@
     },
     {
       "name": "Occupational Data for Health",
-      "category": "Data Collection",
+      "category": "Clinical Records",
       "npm-name": "hl7.fhir.us.odh",
       "description": "This IG covers the specific data that covers past or present jobs, usual work, employment status, retirement date and combat zone period for the subject. It also includes the past or present jobs and usual work of other household members",
       "authority": "HL7",
@@ -953,7 +953,7 @@
     },
     {
       "name": "Paramedicine Care Summary (PCS)",
-      "category": "EMT access",
+      "category": "Communications",
       "npm-name": "ihe.fhir.pcs",
       "description": "Provides means for Emergency Transport to inform destination Hospital with critical and necessary medical information on patient being transported",
       "authority": "IHE",
@@ -1083,7 +1083,7 @@
     },
     {
       "name": "Quality Measure Implementation Guide",
-      "category": "Quality Measures / Decision Support",
+      "category": "Quality / CDS",
       "npm-name": "hl7.fhir.us.cqfmeasures",
       "description": "Provides profiles and guidance for the representation of clinical quality measures in FHIR and Clincal Quality Language (CQL)",
       "authority": "HL7",
@@ -1102,7 +1102,7 @@
     },
     {
       "name": "Documentation Templates and Rules",
-      "category": "Financial Workflows (Da Vinci)",
+      "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-dtr",
       "description": "Provides a mechanism for delivering and executing payer rules related to documentation requirements for a proposed medication, procedure or other service associated with a patient's insurance coverage",
       "authority": "HL7",
@@ -1121,7 +1121,7 @@
     },
     {
       "name": "Da Vinci Health Record Exchange",
-      "category": "Financial Workflows (Da Vinci)",
+      "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-hrex",
       "description": "A library of shared artifacts used by other Da Vinci and payer related implementation guides",
       "authority": "HL7",
@@ -1152,7 +1152,7 @@
     },
     {
       "name": "Patient Reported Outcomes (PRO) FHIR IG",
-      "category": "Patient Interactions",
+      "category": "Personal Healthcare",
       "npm-name": "hl7.fhir.us.patient-reported-outcomes",
       "description": "This IG provides the necessary guidance to use FHIR for Patient Reported Outcomes",
       "authority": "HL7",
@@ -1171,9 +1171,9 @@
     },
     {
       "name": "Pharmacist Care Plan FHIR IG",
-      "category": "Medication Management",
+      "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.phcp",
-      "description": "This is an electronic care plan with enhanced medication management content based on the templates in the HL7 Implementation Guide for C-CDA Release 2.1: Consolidated CDA for Clinical Notes, represented using FHIR profiles",
+      "description": "This is an electronic care plan with enhanced Medications / Immunizations content based on the templates in the HL7 Implementation Guide for C-CDA Release 2.1: Consolidated CDA for Clinical Notes, represented using FHIR profiles",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/phcp/history.cfml",
@@ -1228,7 +1228,7 @@
     },
     {
       "name": "CDS-Immunization Forecast FHIR IG",
-      "category": "Medication Management",
+      "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.uv.immds",
       "description": "Clinical Decision Support for Immunizations indicates which vaccinations a patient is due for next",
       "authority": "HL7",
@@ -1247,7 +1247,7 @@
     },
     {
       "name": "Personal Health Device FHIR IG",
-      "category": "Patient Interactions",
+      "category": "Personal Healthcare",
       "npm-name": "hl7.fhir.uv.phd",
       "description": "The IG provides a mapping of IEEE 11073 20601 Personal Health Device data to FHIR",
       "authority": "HL7",
