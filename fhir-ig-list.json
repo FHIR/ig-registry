@@ -378,7 +378,7 @@
           "name": "First Release",
           "ig-version": "1.0.0",
           "fhir-version": "3.0.1",
-          "url": "http://fhir.org/guides/argonaut/r2/release1"
+          "url": "http://fhir.org/guides/argonaut/scheduling/release1"
         }
       ]
     },
