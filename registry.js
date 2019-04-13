@@ -10,14 +10,16 @@ function escapeHTML(s) {
 let url = 'https://raw.githubusercontent.com/FHIR/ig-registry/master/fhir-ig-list.json';
 
 function buildTable(data) {
-  var e = document.getElementById('view-filter');
+  var e = document.getElementById('release-filter');
+  var value = e.options[e.selectedIndex].value;
+  e = document.getElementById('view-filter');
   if (e.checked)
-    return buildTableNoDesc(data);
+    return buildTableNoDesc(data, value);
   else
-    return buildTableDesc(data);
+    return buildTableDesc(data, value);
 }
 
-function buildTableDesc(data) {
+function buildTableDesc(data, release) {
   var table = document.createElement("table");
   table.setAttribute('id', 'content');
   var tr = table.insertRow(-1);
@@ -44,10 +46,12 @@ function buildTableDesc(data) {
       if (g.editions != null) {
         for (var ie = 0; ie < g.editions.length; ie++) {
           var e = g.editions[ie];
-          l = l + "<li><a href=\"" + e.url + "\">" + escapeHTML(e.name) + "<\/a> (" + e['ig-version'] + ")<\/li>";
+          if (release == 'any' || e['fhir-version'].startsWith(release)) {
+             l = l + "<li><a href=\"" + e.url + "\">" + escapeHTML(e.name) + "<\/a> (" + e['ig-version'] + ")<\/li>";
+          }
         }
       }
-      if (g['ci-build'] != null) {
+      if (g['ci-build'] != null && release == 'any') {
         l = l + "<li><a href=\"" + g['ci-build'] + "\">CI Build<\/a><\/li>";
       }
       tc.innerHTML = l + "<\/ul>";
@@ -57,7 +61,7 @@ function buildTableDesc(data) {
   return table;
 }
 
-function buildTableNoDesc(data) {
+function buildTableNoDesc(data, release) {
   var table = document.createElement("table");
   table.setAttribute('id', 'content');
   var tr = table.insertRow(-1);
@@ -84,16 +88,18 @@ function buildTableNoDesc(data) {
     tc = tr.insertCell(-1);
     if (g.editions != null || g['ci-build'] != null || g['history'] != null) {
       var l = "";
-      if (g['history'] != null) {
+      if (g['history'] != null && release == 'any') {
         l = l + "| <a href=\"" + g['history'] + "\">History<\/a> ";
       }
       if (g.editions != null) {
         for (var ie = 0; ie < g.editions.length; ie++) {
           var e = g.editions[ie];
-          l = l + "| <a href=\"" + e.url + "\">" + escapeHTML(e['ig-version']) + "<\/a> ";
+          if (release == 'any' || e['fhir-version'].startsWith(release)) {
+            l = l + "| <a href=\"" + e.url + "\">" + escapeHTML(e['ig-version']) + "<\/a> ";
+          }
         }
       }
-      if (g['ci-build'] != null) {
+      if (g['ci-build'] != null && release == 'any') {
         l = l + "| <a href=\"" + g['ci-build'] + "\">CI Build<\/a> ";
       }
       tc.innerHTML = l.substring(2);
