@@ -45,10 +45,10 @@
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Sept Connectathon",
-          "ig-version": "2017.09",
+          "name": "Release 1 Draft",
+          "ig-version": "1.0.1",
           "fhir-version": "3.0.1",
-          "url": "http://fhir.hl7.org.au/fhir/base2017Sep"
+          "url": "http://hl7.org.au/fhir/base/2019Feb"
         }
       ]
     },
@@ -149,7 +149,16 @@
       "authority": "HL7",
       "country": "au",
       "language": "en",
-      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/"
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/",
+      "canonical": "http://hl7.org.au/fhir/rcpa",
+      "editions": [
+        {
+          "name": "Release 1 Draft",
+          "ig-version": "0.1.0",
+          "fhir-version": "3.0.1",
+          "url": "http://hl7.org.au/fhir/rcpa/0.1.0"
+        }
+      ]
     },
     {
       "name": "DAF",
@@ -207,14 +216,8 @@
       "language": "en",
       "history": "http://fhir.org/guides/hspc/core/history.shtml",
       "canonical": "http://fhir.org/guides/hspc/core",
-      "editions": [
-        {
-          "name": "Draft",
-          "ig-version": "0.1.0",
-          "fhir-version": "1.9.0",
-          "url": "http://www.fhir.org/guides/hspc/core"
-        }
-      ]
+      "ci-build": "https://build.fhir.org/ig/hspc/core",
+      "editions": []
     },
     {
       "name": "US Meds Maturity Project",
@@ -1333,6 +1336,63 @@
           "ig-version": "0.3.0",
           "fhir-version": "4.0.0",
           "url": "http://hl7.org/fhir/uv/phd/2019May"
+        }
+      ]
+    },
+    {
+      "name": "Provider Directory IG",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.au.pd",
+      "description": "This implementation guide is based upon STU3 FHIR standard and is the Australian variant of the Provider Directory IG. It outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
+      "authority": "HL7",
+      "country": "au",
+      "history": "http://hl7.org.au/fhir/pd/history.cfml",
+      "canonical": "http://hl7.org.au/fhir/pd",
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-pd",
+      "editions": [
+        {
+          "name": "Release 1 Qa-preview",
+          "ig-version": "0.6.0",
+          "fhir-version": "3.0.1",
+          "url": "http://hl7.org.au/fhir/"
+        }
+      ]
+    },
+    {
+      "name": "Argonaut Clinical Notes Implementation Guide",
+      "category": "EHR Access",
+      "npm-name": "argonaut.us.clinicalnotes",
+      "description": "This implementation guide provides implementers with FHIR profiles and guidance to create, use, and share Clinical Notes",
+      "authority": "Argonaut",
+      "country": "us",
+      "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.shtml",
+      "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.0.0",
+          "fhir-version": "3.0.1",
+          "url": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Argonaut Questionnaire Implementation Guide",
+      "category": "EHR Access",
+      "npm-name": "argonaut.us.questionnaire",
+      "description": "This implementation guide provides implementers with FHIR RESTful APIs and guidance to create, use and share between organizations standard assessment forms and the assessment responses",
+      "authority": "Argonaut",
+      "country": "us",
+      "history": "http://fhir.org/guides/argonaut/questionnaire/history.shtml",
+      "canonical": "http://fhir.org/guides/argonaut/questionnaire",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.0.0",
+          "fhir-version": "3.0.1",
+          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     }
