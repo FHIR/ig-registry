@@ -10,7 +10,7 @@
       "language": "en",
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
-      "ci-build": "http://build.fhir.org/ig/HL7/US-Core/",
+      "ci-build": "https://build.fhir.org/ig/HL7/US-Core-R4",
       "editions": [
         {
           "name": "STU 2",
