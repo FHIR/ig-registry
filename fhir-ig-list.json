@@ -1395,6 +1395,26 @@
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Swiss Core Implementation Guide",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.core",
+      "description": "Base swiss national implementation guide",
+      "authority": "HL7 Switzerland",
+      "country": "ch",
+      "language": "en",
+      "history": "http://fhir.ch/ig/ch-core/history.html",
+      "canonical": "http://fhir.ch/ig/ch-core",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-core/index.html",
+      "editions": [
+        {
+          "name": "CI-Build",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://build.fhir.org/ig/hl7ch/ch-core/index.html"
+        }
+      ]
     }
   ]
 }
