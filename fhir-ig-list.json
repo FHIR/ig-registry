@@ -1447,6 +1447,25 @@
           "url": "http://hl7.org/fhir/us/Davinci-drug-formulary/Jun2019"
         }
       ]
+    },
+    {
+      "name": "Da Vinci CDex",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.davinci-cdex",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-cdex/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/davinci-cdex",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2019Jun"
+        }
+      ]
     }
   ]
 }
