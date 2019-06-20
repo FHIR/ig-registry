@@ -1428,6 +1428,25 @@
           "url": "http://build.fhir.org/ig/hl7ch/ch-core/index.html"
         }
       ]
+    },
+    {
+      "name": "US Drug Formulary",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.Davinci-drug-formulary",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/Davinci-drug-formulary",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
+      "editions": [
+        {
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/Davinci-drug-formulary/Jun2019"
+        }
+      ]
     }
   ]
 }
