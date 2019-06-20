@@ -1203,7 +1203,14 @@
       "history": "http://hl7.org/fhir/us/davinci-hrex/history.cfml",
       "canonical": "http://hl7.org/fhir/us/davinci-hrex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-hrex/2019Jun"
+        }
+      ]
     },
     {
       "name": "electronic Long-Term Services and Supports Implementation Guide",
