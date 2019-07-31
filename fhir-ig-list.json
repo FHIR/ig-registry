@@ -1485,6 +1485,25 @@
           "url": "http://hl7.org/fhir/us/davinci-pdex/2019Jun"
         }
       ]
+    },
+    {
+      "name": "CDISC Lab Semantics in FHIR",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.cdisc-lab",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/cdisc-lab/history.cfml",
+      "canonical": "http://hl7.org/fhir/uv/cdisc-lab",
+      "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab/",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/uv/cdisc-lab/2019Sep"
+        }
+      ]
     }
   ]
 }
