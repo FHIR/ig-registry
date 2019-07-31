@@ -1504,6 +1504,25 @@
           "url": "http://hl7.org/fhir/uv/cdisc-lab/2019Sep"
         }
       ]
+    },
+    {
+      "name": "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF)",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.hai-ltcf",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/hai-ltcf/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/hai-ltcf",
+      "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/hai-ltcf/2019Sep"
+        }
+      ]
     }
   ]
 }
