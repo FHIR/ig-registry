@@ -1523,6 +1523,25 @@
           "url": "http://hl7.org/fhir/us/hai-ltcf/2019Sep"
         }
       ]
+    },
+    {
+      "name": "Da Vinci Alerts",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.davinci-alerts",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-alerts/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/davinci-alerts",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-alerts/2019Sep"
+        }
+      ]
     }
   ]
 }
