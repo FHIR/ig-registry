@@ -1433,7 +1433,7 @@
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.Davinci-drug-formulary",
-      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.cfml",
@@ -1471,7 +1471,7 @@
       "name": "Da Vinci PDex",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-pdex",
-      "description": "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan's Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
+      "description": "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan\u0027s Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-pdex/history.cfml",
@@ -1540,6 +1540,25 @@
           "ig-version": "0.1.0",
           "fhir-version": "4.0.0",
           "url": "http://hl7.org/fhir/us/davinci-alerts/2019Sep"
+        }
+      ]
+    },
+    {
+      "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.davinci-pcde",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-pcde/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/davinci-pcde",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pcde",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-pcde/2019Sep"
         }
       ]
     }
