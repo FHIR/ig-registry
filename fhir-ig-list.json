@@ -1580,6 +1580,44 @@
           "url": "http://hl7.org/fhir/us/breast-radiology/2019Sep"
         }
       ]
+    },
+    {
+      "name": "FHIR Clinical Guidelines",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.cpg",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/cpg/history.cfml",
+      "canonical": "http://hl7.org/fhir/uv/cpg",
+      "ci-build": "http://build.fhir.org/ig/HL7/cqf-recommendations",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/uv/cpg/2019Sep"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide: minimal Common Oncology Data Elements (mCODE) Release 1 - US Realm | STU Ballot 1",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.mcode",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mcode/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/mcode",
+      "ci-build": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig",
+      "editions": [
+        {
+          "name": "STU 1 Draft",
+          "ig-version": "0.9.1",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/mcode/2019Sep"
+        }
+      ]
     }
   ]
 }
