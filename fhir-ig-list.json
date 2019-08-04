@@ -428,10 +428,10 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ips/index.html",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "fhir-version": "3.5.0",
-          "url": "http://hl7.org/fhir/uv/ips/2018Sep"
+          "name": "STU 1 (FHIR R4) Ballot",
+          "ig-version": "0.3.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/uv/ips/2019Sep"
         }
       ]
     },
