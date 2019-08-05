@@ -1618,6 +1618,25 @@
           "url": "http://hl7.org/fhir/us/mcode/2019Sep"
         }
       ]
+    },
+    {
+      "name": "Da Vinci Prior Authorization Support (PAS) FHIR IG",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.davinci-pas",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-pas/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/davinci-pas",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pas",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-pas/2019Sep"
+        }
+      ]
     }
   ]
 }
