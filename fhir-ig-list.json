@@ -1569,7 +1569,7 @@
       ]
     },
     {
-      "name": "HL7 FHIR Profile: Breast Radiology Report (BRR), Release 0.1.0 (Comment only)",
+      "name": "Breast Radiology Report (BRR)",
       "category": "Care Planning",
       "npm-name": "hl7.fhir.us.breast-radiology",
       "description": "Breast Radiology CIMI Logical Models and FHIR Profiles",
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "name": "HL7 FHIR Implementation Guide: minimal Common Oncology Data Elements (mCODE) Release 1 - US Realm | STU Ballot 1",
+      "name": "Minimal Common Oncology Data Elements (mCODE)",
       "category": "Care Planning",
       "npm-name": "hl7.fhir.us.mcode",
       "description": "This IG specifies a core set of common data elements for cancer that is clinically applicable in every electronic patient record with a cancer diagnosis. It is intended to enable standardized information exchange among EHRs/oncology information systems and reuse of data by other stakeholders (e.g. quality measurement, research).",
