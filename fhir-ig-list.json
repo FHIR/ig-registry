@@ -264,6 +264,12 @@
       "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
       "editions": [
         {
+          "name": "STU 4 Ballot",
+          "ig-version": "3.3.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/qicore/2019Sep"
+        },
+        {
           "name": "STU 3",
           "ig-version": "3.2.0",
           "fhir-version": "3.0.1",
