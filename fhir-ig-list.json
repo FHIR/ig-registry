@@ -1643,6 +1643,25 @@
           "url": "http://hl7.org/fhir/us/davinci-pas/2019Sep"
         }
       ]
+    },
+    {
+      "name": "FHIR Bulk Data Access (Flat FHIR)",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.bulkdata",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/bulkdata/history.cfml",
+      "canonical": "http://hl7.org/fhir/uv/bulkdata",
+      "ci-build": "https://build.fhir.org/ig/HL7/bulk-data",
+      "editions": [
+        {
+          "name": "STU 1 (FHIR R4)",
+          "ig-version": "1.0.0",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/uv/bulkdata/STU1"
+        }
+      ]
     }
   ]
 }
