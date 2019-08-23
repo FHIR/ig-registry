@@ -1656,7 +1656,7 @@
       "ci-build": "https://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
         {
-          "name": "STU 1 (FHIR R4)",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "fhir-version": "4.0.0",
           "url": "http://hl7.org/fhir/uv/bulkdata/STU1"
