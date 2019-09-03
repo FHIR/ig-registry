@@ -13,6 +13,12 @@
       "ci-build": "https://build.fhir.org/ig/HL7/US-Core-R4",
       "editions": [
         {
+          "name": "STU3 Ballot",
+          "ig-version": "3.0.1",
+          "fhir-version": "4.0.0",
+          "url": "http://hl7.org/fhir/us/core/2019Sep"
+        },
+        {
           "name": "STU3",
           "ig-version": "3.0.0",
           "fhir-version": "4.0.0",
