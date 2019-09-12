@@ -1237,10 +1237,10 @@
       "ci-build": "http://build.fhir.org/ig/HL7/eLTSS",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
           "fhir-version": "4.0.0",
-          "url": "http://hl7.org/fhir/us/eLTSS/2019May"
+          "url": "http://hl7.org/fhir/us/eltss/STU1"
         }
       ]
     },
