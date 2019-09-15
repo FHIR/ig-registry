@@ -1668,6 +1668,26 @@
           "url": "http://hl7.org/fhir/uv/bulkdata/STU1"
         }
       ]
+    },
+    {
+      "name": "Basisgegevensset Zorg || Patient Summary",
+      "category": "Patient Summary",
+      "npm-name": "nictiz.fhir.nl.stu3.zib2017",
+      "description": "The Basisgegevensset Zorg, aka BgZ, is the minimum set of patient data that is important for continuity of care and is relevant irrespective of specialism, patient conditions and type of physicians. This set of patient data is recorded comparatively by all healthcare providers. This facilitates information exchange. The BgZ has been made consistent with the European Patient Summary.",
+      "authority": "Nictiz",
+      "country": "nl",
+      "language": ["nl", "en"],
+      "history": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpBGZ_2017#Release_notes",
+      "canonical": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpBGZ_2017",
+      "ci-build": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:Vdraft_OntwerpBGZ_2017",
+      "editions": [
+        {
+          "name": "Normative - MMVN 3",
+          "ig-version": "2.1.3",
+          "fhir-version": "3.0.1",
+          "url": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpBGZ_2017#Use_case_1:_Raadplegen_Basisgegevensset_Zorg_in_persoonlijke_gezondheidsomgeving"
+        }
+      ]
     }
   ]
 }
