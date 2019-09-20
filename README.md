@@ -20,6 +20,7 @@ published by HL7  - any one can register a published implementation guide - just
 Entries for each implementation guide:
 
 * name (required) : human name for the implenentation guide
+* npm-name (optional) : the npm-name for all versions of this IG, if they are all the same (e.g. "hl7.fhir.us.core")
 * category (required) : arbitrary category for sorting/filtering - check existing ones
 * description (required) : a human readable description of the IG contents
 * authority (required) : Who is responsible for publishing the IG. All IGs published by HL7 or affiliates are "HL7"
