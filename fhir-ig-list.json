@@ -1543,6 +1543,90 @@
           "url": "http://build.fhir.org/ig/hl7ch/ch-core/index.html"
         }
       ]
+    },    
+    {
+      "name": "Swiss EPR Metadata (CH:EPR-TERM)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-epr-term",
+      "description": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
+      "authority": "HL7 Switzerland",
+      "country": "ch",
+      "language": ["en"],
+      "history": "http://fhir.ch/ig/ch-epr-term/history.html",
+      "canonical": "http://fhir.ch/ig/ch-epr-term",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term/index.html",
+      "editions": [
+        {
+          "name": "201907.0-stable",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.0",
+          "fhir-version": ["4.0.0"],
+          "url": "http://fhir.ch/ig/ch-epr-term/index.html"
+        }
+      ]
+    },
+    {
+      "name": "Swiss Cancer Registration Implementation Guide (CH:CRL)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.crl",
+      "description": "Implementation guide for the Cancer Registry Law (CRL)",
+      "authority": "FOPH",
+      "country": "ch",
+      "language": ["en"],
+      "history": "http://fhir.ch/ig/ch-crl/history.html",
+      "canonical": "http://fhir.ch/ig/ch-crl",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-crl/index.html",
+      "editions": [
+        {
+          "name": "STU",
+          "ig-version": "0.1.0",
+          "package": "ch.fhir.ig.crl#0.1.0",
+          "fhir-version": ["4.0.0"],
+          "url": "http://fhir.ch/ig/ch-crl/index.html"
+        }
+      ]
+    },     
+    {
+      "name": "Audit Trail Consumption (CH:ATC)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.atc",
+      "description": "National Integration Profile for the Swiss Electronic Patient Record",
+      "authority": "FOPH",
+      "country": "ch",
+      "language": ["en"],
+      "history": "https://www.fhir.ch/ig/ch-atc/index.html",
+      "canonical": "http://fhir.ch/ig/ch-atc",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-atc/index.html",
+      "editions": [
+        {
+          "name": "Release 24.6.2019 (2.0.0)",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.atc#2.0.0",
+          "fhir-version": ["3.0.1"],
+          "url": "http://fhir.ch/ig/ch-atc/index.html"
+        }
+      ]
+    },    
+    {
+      "name": "Order & Referral by Form (CH:ORF)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.orf",
+      "description": "The Order & Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
+      "authority": "eHealth Suisse",
+      "country": "ch",
+      "language": ["en"],
+      "history": "https://www.fhir.ch",
+      "canonical": "http://fhir.ch/ig/ch-orf",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-orf/index.html",
+      "editions": [
+        {
+          "name": "CI-Build",
+          "ig-version": "0.9.1",
+          "package": "ch.fhir.ig.orf#0.9.1",
+          "fhir-version": ["4.0.0"],
+          "url": "http://build.fhir.org/ig/ahdis/ch-orf/index.html"
+        }
+      ]
     },
     {
       "name": "US Drug Formulary",
