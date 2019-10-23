@@ -2136,6 +2136,31 @@
           "url": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpBGZ_2017#Use_case_1:_Raadplegen_Basisgegevensset_Zorg_in_persoonlijke_gezondheidsomgeving"
         }
       ]
+    },
+    {
+      "name": "Davinci pdex Plan Net",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.davinci-pdex-plan-net",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-pdex-plan-net/history.cfml",
+      "canonical": "http://hl7.org/fhir/us/davinci-pdex-plan-net",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-plan-net/",
+      "language": [
+        "en"
+      ],
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "package": "hl7.fhir.us.davinci-pdex-plan-net#4.0.0",
+          "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/2020Feb"
+        }
+      ]
     }
   ]
 }
