@@ -164,8 +164,8 @@ var guides = null;
 
 function loadRegistry() {
   fetch(url)
-    .then(res => res.json())
-    .then((out) => {
+   .then(function(response) { return response.json() })
+   .then(function(out) {
       var properties = {
         categories: {},
         authorities: {},
@@ -207,8 +207,10 @@ function loadRegistry() {
             countryOptions += '<option value="' + country + '">USA</option>';
           else if (country == 'au')
             countryOptions += '<option value="' + country + '">Australia</option>';
+          else if (country == 'ch')
+            countryOptions += '<option value="' + country + '">Switzerland</option>';
           else
-            countryOptions += '<option value="' + country + '">' + country.toUppercase() + '</option>';
+            countryOptions += '<option value="' + country + '">' + country.toUpperCase() + '</option>';
         }
       }
       countryOptions += '</select>';
@@ -272,7 +274,7 @@ function loadRegistry() {
         dropdownFilterHandler(event);
       })
     })
-    .catch(err => {
-      throw err
-    });
+//    .catch(err => {
+//      throw err
+//    });
 }
