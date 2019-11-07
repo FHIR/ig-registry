@@ -297,16 +297,16 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/r2/history.html",
-      "canonical": "http://www.fhir.org/guides/argonaut/r2",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query/",
+      "canonical": "http://fhir.org/guides/argonaut/r2",
       "editions": [
         {
           "name": "First Release",
           "ig-version": "1.0.0",
-          "package": "fhir.argonaut.r2#1.0.0",
           "fhir-version": [
             "1.0.2"
           ],
+          "package": "fhir.argonaut.r2#1.0.0",
           "url": "http://fhir.org/guides/argonaut/r2/1.0"
         }
       ]
@@ -321,7 +321,7 @@
       "language": [
         "en"
       ],
-      "history": "http://fhir.org/guides/hspc/core/history.shtml",
+      "history": "http://fhir.org/guides/hspc/core/history.html",
       "canonical": "http://fhir.org/guides/hspc/core",
       "ci-build": "https://build.fhir.org/ig/hspc/core",
       "editions": []
@@ -541,16 +541,16 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/pd/history.html",
-      "canonical": "http://www.fhir.org/guides/argonaut/pd",
       "ci-build": "http://build.fhir.org/ig/argonautproject/provider-directory",
+      "canonical": "http://fhir.org/guides/argonaut/pd",
       "editions": [
         {
           "name": "Release 1",
           "ig-version": "1.0.0",
-          "package": "fhir.argonaut.pd#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
+          "package": "fhir.argonaut.pd#1.0.0",
           "url": "http://fhir.org/guides/argonaut/pd/release1"
         }
       ]
@@ -566,16 +566,16 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/scheduling/history.html",
-      "canonical": "http://www.fhir.org/guides/argonaut/scheduling",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/scheduling",
+      "ci-build": "https://build.fhir.org/ig/argonautproject/scheduling",
+      "canonical": "http://fhir.org/guides/argonaut/scheduling",
       "editions": [
         {
           "name": "First Release",
           "ig-version": "1.0.0",
-          "package": "fhir.argonaut.scheduling#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
+          "package": "fhir.argonaut.scheduling#1.0.0",
           "url": "http://fhir.org/guides/argonaut/scheduling/release1"
         }
       ]
@@ -1417,7 +1417,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/smart-app-launch/history.cfml",
+      "history": "http://hl7.org/fhir/smart-app-launch/history.html",
       "canonical": "http://hl7.org/fhir/smart-app-launch",
       "ci-build": "https://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
@@ -1442,7 +1442,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/bser/history.cfml",
+      "history": "http://hl7.org/fhir/us/bser/history.html",
       "canonical": "http://hl7.org/fhir/us/bser",
       "ci-build": "http://build.fhir.org/ig/HL7/bser",
       "editions": [
@@ -1467,7 +1467,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/bulkdata/history.cfml",
+      "history": "http://hl7.org/fhir/us/bulkdata/history.html",
       "canonical": "http://hl7.org/fhir/us/bulkdata",
       "ci-build": "https://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
@@ -1492,7 +1492,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/cdmh/history.cfml",
+      "history": "http://hl7.org/fhir/us/cdmh/history.html",
       "canonical": "http://hl7.org/fhir/us/cdmh",
       "ci-build": "https://build.fhir.org/ig/HL7/cdmh",
       "editions": [
@@ -1517,7 +1517,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/cqfmeasures/history.cfml",
+      "history": "http://hl7.org/fhir/us/cqfmeasures/history.html",
       "canonical": "http://hl7.org/fhir/us/cqfmeasures",
       "ci-build": "http://build.fhir.org/ig/HL7/cqfmeasures",
       "editions": [
@@ -1542,7 +1542,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/davinci-dtr/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-dtr/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-dtr",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
       "editions": [
@@ -1567,7 +1567,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/davinci-hrex/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-hrex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-hrex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
       "editions": [
@@ -1592,7 +1592,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/eLTSS/history.cfml",
+      "history": "http://hl7.org/fhir/us/eLTSS/history.html",
       "canonical": "http://hl7.org/fhir/us/eLTSS",
       "ci-build": "http://build.fhir.org/ig/HL7/eLTSS",
       "editions": [
@@ -1617,7 +1617,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/patient-reported-outcomes/history.cfml",
+      "history": "http://hl7.org/fhir/us/patient-reported-outcomes/history.html",
       "canonical": "http://hl7.org/fhir/us/patient-reported-outcomes",
       "ci-build": "https://build.fhir.org/ig/HL7/patient-reported-outcomes",
       "editions": [
@@ -1642,7 +1642,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/phcp/history.cfml",
+      "history": "http://hl7.org/fhir/us/phcp/history.html",
       "canonical": "http://hl7.org/fhir/us/phcp",
       "ci-build": "http://build.fhir.org/ig/HL7/PhCP",
       "editions": [
@@ -1667,7 +1667,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/vrdr/history.cfml",
+      "history": "http://hl7.org/fhir/us/vrdr/history.html",
       "canonical": "http://hl7.org/fhir/us/vrdr",
       "ci-build": "http://build.fhir.org/ig/HL7/vrdr",
       "editions": [
@@ -1692,7 +1692,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/womens-health-registries/history.cfml",
+      "history": "http://hl7.org/fhir/us/womens-health-registries/history.html",
       "canonical": "http://hl7.org/fhir/us/womens-health-registries",
       "ci-build": "https://build.fhir.org/ig/HL7/coordinated-registry-network",
       "editions": [
@@ -1717,7 +1717,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/uv/immds/history.cfml",
+      "history": "http://hl7.org/fhir/uv/immds/history.html",
       "canonical": "http://hl7.org/fhir/uv/immds",
       "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
       "editions": [
@@ -1742,7 +1742,7 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/uv/phd/history.cfml",
+      "history": "http://hl7.org/fhir/uv/phd/history.html",
       "canonical": "http://hl7.org/fhir/uv/phd",
       "ci-build": "https://build.fhir.org/ig/HL7/PHD/",
       "editions": [
@@ -1764,7 +1764,7 @@
       "description": "This implementation guide is based upon STU3 FHIR standard and is the Australian variant of the Provider Directory IG. It outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
       "authority": "HL7",
       "country": "au",
-      "history": "http://hl7.org.au/fhir/pd/history.cfml",
+      "history": "http://hl7.org.au/fhir/pd/history.html",
       "canonical": "http://hl7.org.au/fhir/pd",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-pd",
       "editions": [
@@ -1786,7 +1786,7 @@
       "description": "This implementation guide provides implementers with FHIR profiles and guidance to create, use, and share Clinical Notes",
       "authority": "Argonaut",
       "country": "us",
-      "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.shtml",
+      "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
       "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
       "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
       "editions": [
@@ -1808,7 +1808,7 @@
       "description": "This implementation guide provides implementers with FHIR RESTful APIs and guidance to create, use and share between organizations standard assessment forms and the assessment responses",
       "authority": "Argonaut",
       "country": "us",
-      "history": "http://fhir.org/guides/argonaut/questionnaire/history.shtml",
+      "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
       "canonical": "http://fhir.org/guides/argonaut/questionnaire",
       "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
       "editions": [
@@ -1855,7 +1855,7 @@
       "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.cfml",
+      "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.html",
       "canonical": "http://hl7.org/fhir/us/Davinci-drug-formulary",
       "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
       "editions": [
@@ -1877,7 +1877,7 @@
       "description": "Provider-to-payer and payer-related provider-to-provider data exchange to improve care coordination, support risk adjustment, ease quality management, facilitate claims auditing and confirm medical necessity, improve member experience, and support orders and referrals.",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-cdex/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-cdex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-cdex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
       "editions": [
@@ -1899,7 +1899,7 @@
       "description": "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan\u0027s Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-pdex/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-pdex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pdex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-epdx",
       "editions": [
@@ -1921,7 +1921,7 @@
       "description": "The IG shows how laboratory data in FHIR format can be converted into the CDISC LAB or LB format",
       "authority": "HL7",
       "country": "uv",
-      "history": "http://hl7.org/fhir/uv/cdisc-lab/history.cfml",
+      "history": "http://hl7.org/fhir/uv/cdisc-lab/history.html",
       "canonical": "http://hl7.org/fhir/uv/cdisc-lab",
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab/",
       "editions": [
@@ -1943,7 +1943,7 @@
       "description": "Long term care facility (LTCF) healthcare-associated infection (HAI) reporting to CDC National Healthcare Safety Network (NHSN) to track infections and prevention process measures in a systematic way, which allows identification of problems and care improvement",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/hai-ltcf/history.cfml",
+      "history": "http://hl7.org/fhir/us/hai-ltcf/history.html",
       "canonical": "http://hl7.org/fhir/us/hai-ltcf",
       "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
       "editions": [
@@ -1965,7 +1965,7 @@
       "description": "The goal of this IG is to support the real-time exchange of alerts and notifications that impact patient care and value based or risk based services",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-alerts/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
       "editions": [
@@ -1987,7 +1987,7 @@
       "description": "Payer coverage decision exchange will promote continuity of treatment when a member moves from one covered payer to another without increasing provider burden or cost to the member. This IG enables member-authorized sharing of treatment, conditions, authorizations, relevant guidelines and supporting documentation from an original payer to a new payer when a patient changes coverage plans.",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-pcde/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-pcde/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pcde",
       "ci-build": "https://build.fhir.org/ig/HL7/davinci-pcde",
       "editions": [
@@ -2009,7 +2009,7 @@
       "description": "Breast Radiology CIMI Logical Models and FHIR Profiles",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/breast-radiology/history.cfml",
+      "history": "http://hl7.org/fhir/us/breast-radiology/history.html",
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
       "ci-build": "http://build.hl7.org/fhir/us/breast-radiology/",
       "editions": [
@@ -2031,7 +2031,7 @@
       "description": "This implementation guide is a multi-stakeholder effort to use FHIR resources to build shareable and computable representations of the content of clinical care guidelines. The guide focuses on common patterns in clinical guidelines, establishing profiles, conformance requirements, and guidance for the patient-independent, as well as analogous patterns for the patient-specific representation of guideline recommendations",
       "authority": "HL7",
       "country": "uv",
-      "history": "http://hl7.org/fhir/uv/cpg/history.cfml",
+      "history": "http://hl7.org/fhir/uv/cpg/history.html",
       "canonical": "http://hl7.org/fhir/uv/cpg",
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-recommendations",
       "editions": [
@@ -2053,7 +2053,7 @@
       "description": "This IG specifies a core set of common data elements for cancer that is clinically applicable in every electronic patient record with a cancer diagnosis. It is intended to enable standardized information exchange among EHRs/oncology information systems and reuse of data by other stakeholders (e.g. quality measurement, research).",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/mcode/history.cfml",
+      "history": "http://hl7.org/fhir/us/mcode/history.html",
       "canonical": "http://hl7.org/fhir/us/mcode",
       "ci-build": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig",
       "editions": [
@@ -2075,7 +2075,7 @@
       "description": "This IG allows providers the ability to easily identify the need for payer authorizations, assemble necessary information, identify and supply missing information and submit it to the payer electronically and receive a response in real time within the clinical workflow.",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-pas/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-pas/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pas",
       "ci-build": "https://build.fhir.org/ig/HL7/davinci-pas",
       "editions": [
@@ -2092,12 +2092,12 @@
     },
     {
       "name": "FHIR Bulk Data Access (Flat FHIR)",
-      "category": "??",
+      "category": "EHR Access",
       "npm-name": "hl7.fhir.uv.bulkdata",
-      "description": "??",
+      "description": "Defines a way to efficiently access large volumes of information on a group of individuals from an EHR",
       "authority": "HL7",
       "country": "uv",
-      "history": "http://hl7.org/fhir/uv/bulkdata/history.cfml",
+      "history": "http://hl7.org/fhir/uv/bulkdata/history.html",
       "canonical": "http://hl7.org/fhir/uv/bulkdata",
       "ci-build": "https://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
@@ -2139,12 +2139,12 @@
     },
     {
       "name": "Davinci pdex Plan Net",
-      "category": "??",
+      "category": "Administration",
       "npm-name": "hl7.fhir.us.davinci-pdex-plan-net",
-      "description": "??",
+      "description": "A subset of the functionality described in the Validated healthcare directory IG",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-pdex-plan-net/history.cfml",
+      "history": "http://hl7.org/fhir/us/davinci-pdex-plan-net/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pdex-plan-net",
       "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-plan-net/",
       "language": [
@@ -2159,6 +2159,56 @@
           ],
           "package": "hl7.fhir.us.davinci-pdex-plan-net#4.0.0",
           "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/2020Feb"
+        }
+      ]
+    },
+    {
+      "name": "Argonaut Clinical Notes Implementation Guide",
+      "category": "EHR Access",
+      "npm-name": "fhir.argonaut.clinicalnotes",
+      "description": "This implementation guide provides implementers with FHIR profiles and guidance to create, use, and share Clinical Notes",
+      "authority": "Argonaut",
+      "country": "us",
+      "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
+      "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "language": [
+        "en"
+      ],
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "package": "fhir.argonaut.clinicalnotes#1.0.0",
+          "url": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Argonaut Questionnaire Implementation Guide",
+      "category": "EHR Access",
+      "npm-name": "fhir.argonaut.questionnaire",
+      "description": "Thi IG provides guidance to support interchange of simple forms based on the Questionnaire and QuestionnaireResponse resources: it provides implementers with FHIR RESTful APIs and guidance to create, use and share between organizations standard assessment forms and the assessment responses",
+      "authority": "Argonaut",
+      "country": "us",
+      "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
+      "canonical": "http://fhir.org/guides/argonaut/questionnaire",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "language": [
+        "en"
+      ],
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "package": "fhir.argonaut.questionnaire#1.0.0",
+          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     }
