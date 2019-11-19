@@ -15,8 +15,15 @@
       ]
     },
     {
-      "name": "FHIR Foundation",
+      "name": "FHIR Foundation Guides",
       "url": "http://fhir.org/guides/package-feed.xml",
+      "prefix": [
+        "fhir.*"
+      ]
+    },
+    {
+      "name": "FHIR Foundation Support Packages",
+      "url": "http://fhir.org/packages/package-feed.xml",
       "prefix": [
         "fhir.*"
       ]
