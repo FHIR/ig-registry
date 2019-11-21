@@ -15,8 +15,15 @@
       ]
     },
     {
-      "name": "FHIR Foundation",
+      "name": "FHIR Foundation Guides",
       "url": "http://fhir.org/guides/package-feed.xml",
+      "prefix": [
+        "fhir.*"
+      ]
+    },
+    {
+      "name": "FHIR Foundation Support Packages",
+      "url": "http://fhir.org/packages/package-feed.xml",
       "prefix": [
         "fhir.*"
       ]
@@ -609,14 +616,14 @@
       "name": "Mobile access to Health Documents (MHD)",
       "category": "Clinical Documents",
       "npm-name": "ihe.mhd.fhir",
-      "description": "Defines a simple HTTP interface to a Document Sharing environment, including XDS/XCA (XDS-on-FHIR)",
+      "description": "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
       "authority": "IHE",
       "country": "uv",
       "language": [
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
-      "canonical": "http://wiki.ihe.net/index.php",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
       "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
       "editions": [
         {
@@ -624,7 +631,7 @@
           "ig-version": "0.3.1",
           "package": "ihe.mhd.fhir#0.3.1",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
         }
@@ -641,14 +648,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
-      "canonical": "http://wiki.ihe.net/index.php",
+      "canonical": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
       "editions": [
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.1",
           "package": "ihe.pdqm.fhir#0.2.1",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)"
         }
@@ -665,40 +672,64 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
-      "canonical": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross",
+      "canonical": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.pixm.fhir#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "ihe.pixm.fhir#0.2.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)"
         }
       ]
     },
     {
-      "name": "FHIR AuditEvent query to ATNA",
+      "name": "Patient Master Identity Registry (PMIR)",
       "category": "Administration",
-      "npm-name": "ihe.atna-query.fhir",
-      "description": "Enable access to ATNA Audit Repository queries using FHIR AuditEvent resource",
+      "npm-name": "ihe.pmir.fhir",
+      "description": "Supports the creating, updating and deprecating of patient master identity information about a subject of care, as well as subscribing to these changes, using the HL7 FHIR standard and its RESTful transactions. In PMIR, “patient identity” information includes all information found in the FHIR Patient Resource such as identifier, name, phone, gender, birth date, address, marital status, photo, others to contact, preference for language, general practitioner, and links to other instances of identities. The “patient master identity” is a dominant identity managed centrally among many participating organizations (a.k.a., “Golden Patient Identity”).",
       "authority": "IHE",
       "country": "uv",
       "language": [
         "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA",
-      "canonical": "http://wiki.ihe.net/index",
+      "history": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
+      "canonical": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
+          "name": "R4 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.atna-query.fhir#0.1.0",
+          "package": "ihe.pixm.fhir#0.1.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Add_RESTful_Query_to_ATNA"
+          "url": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)"
+        }
+      ]
+    },
+    {
+      "name": "FHIR AuditEvent query and feed to ATNA",
+      "category": "Administration",
+      "npm-name": "ihe.atna.fhir",
+      "description": "Enable audit log recording (feed) and access to ATNA Audit Repository queries using FHIR AuditEvent resource",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication",
+      "canonical": "https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication",
+      "editions": [
+        {
+          "name": "R4 Trial-Implementation",
+          "ig-version": "0.2.0",
+          "package": "ihe.atna.fhir#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication"
         }
       ]
     },
@@ -713,14 +744,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)",
-      "canonical": "http://wiki.ihe.net/index.php",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.macm.fhir#0.1.0",
+          "name": "R4 Trial-Implementation",
+          "ig-version": "0.2.0",
+          "package": "ihe.macm.fhir#0.2.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)"
         }
@@ -737,14 +768,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
-      "canonical": "http://wiki.ihe.net/index.php",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
       "editions": [
         {
           "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.mcsd.fhir#0.2.1",
+          "ig-version": "0.2.2",
+          "package": "ihe.mcsd.fhir#0.2.2",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)"
         }
@@ -761,7 +792,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "canonical": "http://wiki.ihe.net/index.php",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
       "editions": [
         {
           "name": "STU3 or R4 Trial-Implementation",
@@ -785,40 +816,40 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
       "editions": [
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.1",
           "package": "ihe.qedm.fhir#0.2.1",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
         }
       ]
     },
     {
-      "name": "Non-Patient File Sharing (NPFSm)",
+      "name": "Non-Patient File Sharing (NPFS)",
       "category": "Administration",
       "npm-name": "ihe.npfs.fhir",
-      "description": "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, and stylesheets",
+      "description": "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, blank forms, and stylesheets",
       "authority": "IHE",
       "country": "uv",
       "language": [
         "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)",
-      "canonical": "http://wiki.ihe.net/index.php/Non",
+      "history": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
+      "canonical": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.npfs.fhir#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "ihe.npfs.fhir#0.2.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFSm)"
+          "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)"
         }
       ]
     },
@@ -833,7 +864,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -857,7 +888,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Medication_Administration",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Medication_Administration",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -881,7 +912,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Uniform_Barcode_Processing",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Uniform_Barcode_Processing",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -905,7 +936,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -929,7 +960,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Vital_Records_Death_Reporting",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Vital_Records_Death_Reporting",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -953,14 +984,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Clinical_Mapping",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Clinical_Mapping",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
+          "name": "DSTU2 Trial-Implementation",
           "ig-version": "0.1.0",
           "package": "ihe.cmap.fhir#0.1.0",
           "fhir-version": [
-            "3.0.1"
+            "2.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Clinical_Mapping"
         }
@@ -977,14 +1008,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Dynamic_Care_Planning",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Dynamic_Care_Planning",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.dcp.fhir#0.1.0",
+          "name": "R4 Trial-Implementation",
+          "ig-version": "0.2.0",
+          "package": "ihe.dcp.fhir#0.2.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Dynamic_Care_Planning"
         }
@@ -1001,14 +1032,14 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.dctm.fhir#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "ihe.dctm.fhir#0.2.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management"
         }
@@ -1025,7 +1056,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking",
-      "canonical": "http://wiki.ihe.net/index.php/Point",
+      "canonical": "http://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1049,7 +1080,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1073,7 +1104,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1097,7 +1128,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1107,6 +1138,102 @@
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport"
+        }
+      ]
+    },
+    {
+      "name": "Prescription Repository Query (PRQ)",
+      "category": "Public Health Reporting",
+      "npm-name": "ihe.prq.fhir",
+      "description": "defines services that allow physicians to retrieve their patients’ current dispensed medications.",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
+      "canonical": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
+      "editions": [
+        {
+          "name": "STU3 Trial-Implementation",
+          "ig-version": "0.1.0",
+          "package": "ihe.ript.fhir#0.1.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "https://wiki.ihe.net/index.php/Prescription_Repository_Query"
+        }
+      ]
+    },
+    {
+      "name": "Guideline Appropriate Ordering (GAO)",
+      "category": "EHR Access",
+      "npm-name": "ihe.prq.fhir",
+      "description": "Supports evaluate orders to determine whether these orders conform to guidelines.",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
+      "canonical": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
+      "editions": [
+        {
+          "name": "STU3 Trial-Implementation",
+          "ig-version": "0.1.0",
+          "package": "ihe.ript.fhir#0.1.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering"
+        }
+      ]
+    },
+    {
+      "name": "Assessment Curation and Data Collection (ACDC)",
+      "category": "EHR Access",
+      "npm-name": "ihe.acdc.fhir",
+      "description": "Enables assessment developers and curators a means by which they can distribute assessment instruments to healthcare providers, supporting exchange of assessment data in a standardized form using the HL7 FHIR Questionnaire resource.",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://wiki.ihe.net/index.php/Assessment_Curation_and_Data_Collection",
+      "canonical": "https://wiki.ihe.net/index.php/Assessment_Curation_and_Data_Collection",
+      "editions": [
+        {
+          "name": "R4 Trial-Implementation",
+          "ig-version": "0.1.0",
+          "package": "ihe.ript.fhir#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://wiki.ihe.net/index.php/Assessment_Curation_and_Data_Collection"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Aggregate Data Exchange (mADX)",
+      "category": "EHR Access",
+      "npm-name": "ihe.madx.fhir",
+      "description": "Supports interoperable public health reporting of aggregate health data.",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)",
+      "canonical": "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)",
+      "editions": [
+        {
+          "name": "R4 Trial-Implementation",
+          "ig-version": "0.1.0",
+          "package": "ihe.ript.fhir#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)"
         }
       ]
     },
@@ -1346,7 +1473,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1370,7 +1497,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1394,7 +1521,7 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS",
-      "canonical": "http://wiki.ihe.net/index",
+      "canonical": "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS",
       "editions": [
         {
           "name": "STU3 Trial-Implementation",
@@ -1845,6 +1972,90 @@
             "4.0.0"
           ],
           "url": "http://build.fhir.org/ig/hl7ch/ch-core/index.html"
+        }
+      ]
+    },    
+    {
+      "name": "Swiss EPR Metadata (CH:EPR-TERM)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.ch-epr-term",
+      "description": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
+      "authority": "HL7 Switzerland",
+      "country": "ch",
+      "language": ["en"],
+      "history": "http://fhir.ch/ig/ch-epr-term/history.html",
+      "canonical": "http://fhir.ch/ig/ch-epr-term",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term/index.html",
+      "editions": [
+        {
+          "name": "201907.0-stable",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.0",
+          "fhir-version": ["4.0.0"],
+          "url": "http://fhir.ch/ig/ch-epr-term/index.html"
+        }
+      ]
+    },
+    {
+      "name": "Swiss Cancer Registration Implementation Guide (CH:CRL)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.crl",
+      "description": "Implementation guide for the Cancer Registry Law (CRL)",
+      "authority": "FOPH",
+      "country": "ch",
+      "language": ["en"],
+      "history": "http://fhir.ch/ig/ch-crl/history.html",
+      "canonical": "http://fhir.ch/ig/ch-crl",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-crl/index.html",
+      "editions": [
+        {
+          "name": "STU",
+          "ig-version": "0.1.0",
+          "package": "ch.fhir.ig.crl#0.1.0",
+          "fhir-version": ["4.0.0"],
+          "url": "http://fhir.ch/ig/ch-crl/index.html"
+        }
+      ]
+    },     
+    {
+      "name": "Audit Trail Consumption (CH:ATC)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.atc",
+      "description": "National Integration Profile for the Swiss Electronic Patient Record",
+      "authority": "FOPH",
+      "country": "ch",
+      "language": ["en"],
+      "history": "https://www.fhir.ch/ig/ch-atc/index.html",
+      "canonical": "http://fhir.ch/ig/ch-atc",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-atc/index.html",
+      "editions": [
+        {
+          "name": "Release 24.6.2019 (2.0.0)",
+          "ig-version": "2.0.0",
+          "package": "ch.fhir.ig.atc#2.0.0",
+          "fhir-version": ["3.0.1"],
+          "url": "http://fhir.ch/ig/ch-atc/index.html"
+        }
+      ]
+    },    
+    {
+      "name": "Order & Referral by Form (CH:ORF)",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.orf",
+      "description": "The Order & Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
+      "authority": "eHealth Suisse",
+      "country": "ch",
+      "language": ["en"],
+      "history": "https://www.fhir.ch",
+      "canonical": "http://fhir.ch/ig/ch-orf",
+      "ci-build": "http://build.fhir.org/ig/ahdis/ch-orf/index.html",
+      "editions": [
+        {
+          "name": "CI-Build",
+          "ig-version": "0.9.1",
+          "package": "ch.fhir.ig.orf#0.9.1",
+          "fhir-version": ["4.0.0"],
+          "url": "http://build.fhir.org/ig/ahdis/ch-orf/index.html"
         }
       ]
     },

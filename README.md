@@ -2,7 +2,7 @@
 
 Registry of published implementation guides. 
 
-This registry is published for human convenience at http://www.fhir.org/guides/registry
+This registry is published for human convenience at https://registry.fhir.org/guides
 
 Other registries:
 
