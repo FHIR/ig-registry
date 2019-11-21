@@ -150,7 +150,7 @@
       ],
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
-      "ci-build": "https://build.fhir.org/ig/HL7/sdc",
+      "ci-build": "http://hl7.org/fhir/ig/HL7/sdc",
       "editions": [
         {
           "name": "STU 3 Ballot",
@@ -403,8 +403,8 @@
         },
         {
           "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.qicore#2.0.0",
+          "ig-version": "3.0.1",
+          "package": "hl7.fhir.us.qicore#3.0.1",
           "fhir-version": [
             "3.0.1"
           ],
@@ -520,13 +520,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/genomics-reporting",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.genomics-reporting#0.3.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.genomics-reporting#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/2019Jan"
+          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU1"
         }
       ]
     },
@@ -1519,16 +1519,16 @@
       ],
       "history": "http://hl7.org/fhir/us/cqfmeasures/history.html",
       "canonical": "http://hl7.org/fhir/us/cqfmeasures",
-      "ci-build": "http://build.fhir.org/ig/HL7/cqfmeasures",
+      "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.cqfmeasures#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#1.0.0",
           "fhir-version": [
-            "3.0.1"
+            "3.0.2"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2019May"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU1"
         }
       ]
     },
@@ -1594,16 +1594,16 @@
       ],
       "history": "http://hl7.org/fhir/us/eLTSS/history.html",
       "ci-build": "http://build.fhir.org/ig/HL7/eLTSS",
-      "canonical": "http://hl7.org/fhir/us/eltss",
+      "canonical": "http://hl7.org/fhir/us/eLTSS",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.eltss#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.eltss#0.1.0",
           "fhir-version": [
             "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/eltss/STU1"
+          "url": "http://hl7.org/fhir/us/eLTSS/2019May"
         }
       ]
     },
@@ -2154,10 +2154,10 @@
         {
           "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pdex-plan-net#0.1.0",
           "fhir-version": [
             "4.0.0"
           ],
-          "package": "hl7.fhir.us.davinci-pdex-plan-net#4.0.0",
           "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/2020Feb"
         }
       ]
