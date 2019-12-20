@@ -1982,7 +1982,9 @@
       "description": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
       "authority": "HL7 Switzerland",
       "country": "ch",
-      "language": ["en"],
+      "language": [
+        "en"
+      ],
       "history": "http://fhir.ch/ig/ch-epr-term/history.html",
       "canonical": "http://fhir.ch/ig/ch-epr-term",
       "ci-build": "http://build.fhir.org/ig/hl7ch/ch-epr-term/index.html",
@@ -1991,7 +1993,9 @@
           "name": "201907.0-stable",
           "ig-version": "2.0.0",
           "package": "ch.fhir.ig.ch-epr-term#2.0.0",
-          "fhir-version": ["4.0.0"],
+          "fhir-version": [
+            "4.0.0"
+          ],
           "url": "http://fhir.ch/ig/ch-epr-term/index.html"
         }
       ]
@@ -2003,7 +2007,9 @@
       "description": "Implementation guide for the Cancer Registry Law (CRL)",
       "authority": "FOPH",
       "country": "ch",
-      "language": ["en"],
+      "language": [
+        "en"
+      ],
       "history": "http://fhir.ch/ig/ch-crl/history.html",
       "canonical": "http://fhir.ch/ig/ch-crl",
       "ci-build": "http://build.fhir.org/ig/ahdis/ch-crl/index.html",
@@ -2012,11 +2018,13 @@
           "name": "STU",
           "ig-version": "0.1.0",
           "package": "ch.fhir.ig.crl#0.1.0",
-          "fhir-version": ["4.0.0"],
+          "fhir-version": [
+            "4.0.0"
+          ],
           "url": "http://fhir.ch/ig/ch-crl/index.html"
         }
       ]
-    },     
+    },
     {
       "name": "Audit Trail Consumption (CH:ATC)",
       "category": "National Base",
@@ -2024,7 +2032,9 @@
       "description": "National Integration Profile for the Swiss Electronic Patient Record",
       "authority": "FOPH",
       "country": "ch",
-      "language": ["en"],
+      "language": [
+        "en"
+      ],
       "history": "https://www.fhir.ch/ig/ch-atc/index.html",
       "canonical": "http://fhir.ch/ig/ch-atc",
       "ci-build": "http://build.fhir.org/ig/ahdis/ch-atc/index.html",
@@ -2033,19 +2043,23 @@
           "name": "Release 24.6.2019 (2.0.0)",
           "ig-version": "2.0.0",
           "package": "ch.fhir.ig.atc#2.0.0",
-          "fhir-version": ["3.0.1"],
+          "fhir-version": [
+            "3.0.1"
+          ],
           "url": "http://fhir.ch/ig/ch-atc/index.html"
         }
       ]
-    },    
+    },
     {
-      "name": "Order & Referral by Form (CH:ORF)",
+      "name": "Order \u0026 Referral by Form (CH:ORF)",
       "category": "National Base",
       "npm-name": "ch.fhir.ig.orf",
-      "description": "The Order & Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
+      "description": "The Order \u0026 Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
       "authority": "eHealth Suisse",
       "country": "ch",
-      "language": ["en"],
+      "language": [
+        "en"
+      ],
       "history": "https://www.fhir.ch",
       "canonical": "http://fhir.ch/ig/ch-orf",
       "ci-build": "http://build.fhir.org/ig/ahdis/ch-orf/index.html",
@@ -2054,7 +2068,9 @@
           "name": "CI-Build",
           "ig-version": "0.9.1",
           "package": "ch.fhir.ig.orf#0.9.1",
-          "fhir-version": ["4.0.0"],
+          "fhir-version": [
+            "4.0.0"
+          ],
           "url": "http://build.fhir.org/ig/ahdis/ch-orf/index.html"
         }
       ]
@@ -2420,8 +2436,24 @@
           ],
           "package": "fhir.argonaut.questionnaire#1.0.0",
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
-        }
-      ]
+     },
+	 {
+      "name": "CARIN Real-time Pharmacy Benefit Check",
+      "category": "??",
+      "npm-name": "hl7.fhir.us.carin-rtpbc",
+      "description": "This is a guide for implementing a consumer-focused Real-time Pharmacy Benefit Check (RTPBC) process using HL7 FHIR® R4.Using RTPBC, a patient can learn the cost and insurance coverage related to medications they’ve been prescribed",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/carin-rtpbc/history.html",
+      "canonical": "http://hl7.org/fhir/us/carin-rtpbc",
+      "ci-build": "http://build.fhir.org/ig/HL7/carin-rtpbc",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    }
+	]
+  }
     }
   ]
 }
