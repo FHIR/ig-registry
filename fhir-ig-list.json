@@ -1429,11 +1429,13 @@
         {
           "name": "STU 1 Ballot",
           "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-deqm#0.2.0",
+          "name": "STU2",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-deqm#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-deqm/2019May"
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU2"
         }
       ]
     },
@@ -1974,7 +1976,7 @@
           "url": "http://build.fhir.org/ig/hl7ch/ch-core/index.html"
         }
       ]
-    },    
+    },
     {
       "name": "Swiss EPR Metadata (CH:EPR-TERM)",
       "category": "National Base",
@@ -2436,8 +2438,10 @@
           ],
           "package": "fhir.argonaut.questionnaire#1.0.0",
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
-     },
-	 {
+        }
+      ]
+    },
+	{
       "name": "CARIN Real-time Pharmacy Benefit Check",
       "category": "??",
       "npm-name": "hl7.fhir.us.carin-rtpbc",
@@ -2452,8 +2456,6 @@
       ],
       "editions": []
     }
-	]
-  }
     }
   ]
 }
