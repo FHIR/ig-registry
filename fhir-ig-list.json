@@ -2186,7 +2186,7 @@
       ]
     },
     {
-      "name": "Da Vinci Alerts",
+      "name": "Da Vinci Unsolicited Notifications (Alerts)",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-alerts",
       "description": "The goal of this IG is to support the real-time exchange of alerts and notifications that impact patient care and value based or risk based services",
@@ -2198,12 +2198,12 @@
       "editions": [
         {
           "name": "STU1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-alerts#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-alerts#0.2.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-alerts/2019Sep"
+          "url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
         }
       ]
     },
@@ -2452,7 +2452,17 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [
+			{
+			"name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+        }
+      ]
     },
     {
       "name": "CARIN Blue Button Implementation Guide",
@@ -2467,22 +2477,16 @@
       "language": [
         "en"
       ],
-      "editions": []
-    },
-    {
-      "name": "Da Vinci Notification",
-      "category": "??",
-      "npm-name": "hl7.fhir.us.davinci-notifications",
-      "description": "??",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-notifications/history.html",
-      "canonical": "http://hl7.org/fhir/us/davinci-notifications",
-      "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-      "language": [
-        "en"
-      ],
-      "editions": []
+      "editions": [{
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-bb#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
+        }
+      ]
     },
     {
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
@@ -2497,7 +2501,16 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [{
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-atr#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
+        }
+      ]
     }
   ]
 }
