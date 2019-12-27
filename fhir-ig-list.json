@@ -1427,7 +1427,7 @@
       "ci-build": "https://build.fhir.org/ig/HL7/davinci-deqm",
       "editions": [
         {
-          "name": "STU2",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.davinci-deqm#1.0.0",
           "fhir-version": [
