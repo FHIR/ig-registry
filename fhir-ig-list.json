@@ -1433,7 +1433,7 @@
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-deqm/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU1"
         }
       ]
     },
