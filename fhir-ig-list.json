@@ -1946,7 +1946,7 @@
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
+        "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     },
@@ -2481,7 +2481,7 @@
       "description": "German Base Profiles",
       "authority": "HL7 Deutschland",
       "country": "de",
-      "history": "https://simplifier.net/BasisprofilDE/~packages",
+      "history": "http://ig.fhir.de/basisprofile-de/",
       "canonical": "http://fhir.de/",
       "ci-build": "https://simplifier.net/Basisprofil-DE-R4",
       "language": [
@@ -2495,7 +2495,7 @@
             "3.0.1"
           ],
           "package": "basisprofil.de#0.2.30",
-          "url": "http://ig.fhir.de/basisprofile-de/stable/"
+          "url": "http://ig.fhir.de/basisprofile-de/0.2.30/"
         },
         {
           "name": "R4",
@@ -2504,7 +2504,7 @@
             "4.0.1"
           ],
           "package": "de.basisprofil.r4#0.9.1-alpha2",
-          "url": "https://simplifier.net/guide/basisprofil-de-r4/"
+          "url": "https://simplifier.net/guide/basisprofil-de-r4/home"
       }
    ]
 }
