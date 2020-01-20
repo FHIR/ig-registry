@@ -1946,7 +1946,7 @@
           "fhir-version": [
             "3.0.1"
           ],
-        "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
+          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     },
@@ -2425,7 +2425,7 @@
             "3.0.1"
           ],
           "package": "fhir.argonaut.questionnaire#1.0.0",
-            "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
+          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     },
