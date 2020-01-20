@@ -2425,7 +2425,7 @@
             "3.0.1"
           ],
           "package": "fhir.argonaut.questionnaire#1.0.0",
-          "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
+            "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
     },
@@ -2473,6 +2473,41 @@
         "en"
       ],
       "editions": []
-    }
+    },
+    {
+      "name": "Basisprofil DE",
+      "category": "National Base",
+      "npm-name" : "basisprofil.de",
+      "description": "German Base Profiles",
+      "authority": "HL7 Deutschland",
+      "country": "de",
+      "history": "https://simplifier.net/BasisprofilDE/~packages",
+      "canonical": "http://fhir.de/",
+      "ci-build": "https://simplifier.net/Basisprofil-DE-R4",
+      "language": [
+        "de"
+      ],
+      "editions": [
+        {
+          "name": "STU3",
+          "ig-version": "0.2.30 ",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "package": "basisprofil.de#0.2.30",
+          "url": "http://ig.fhir.de/basisprofile-de/stable/"
+        },
+        {
+          "name": "R4",
+          "ig-version": "0.9.1-alpha2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "package": "de.basisprofil.r4#0.9.1-alpha2",
+          "url": "https://simplifier.net/guide/basisprofil-de-r4/"
+      }
+   ]
+}
+
   ]
 }
