@@ -1281,7 +1281,7 @@
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.ecr#1.0.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/ecr/STU1/"
         }
