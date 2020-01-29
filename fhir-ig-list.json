@@ -1273,17 +1273,17 @@
         "en"
       ],
       "history": "http://hl7.org/fhir/uv/ecr/history.html",
-      "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "canonical": "http://hl7.org/fhir/us/ecr",
+      "ci-build": "https://build.fhir.org/ig/HL7/case-reporting",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.ecr#0.2.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.ecr#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ecr/2018Sep"
+          "url": "http://hl7.org/fhir/us/ecr/STU1/"
         }
       ]
     },
