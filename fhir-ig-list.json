@@ -2,31 +2,19 @@
   "feeds": [
     {
       "name": "HL7.org Publications",
-      "url": "http://hl7.org/fhir/package-feed.xml",
-      "prefix": [
-        "hl7.fhir.*"
-      ]
+      "url": "http://hl7.org/fhir/package-feed.xml"
     },
     {
       "name": "Common HL7 Terminology",
-      "url": "http://terminology.hl7.org/package-feed.xml",
-      "prefix": [
-        "hl7.tx.*"
-      ]
+      "url": "http://terminology.hl7.org/package-feed.xml"
     },
     {
       "name": "FHIR Foundation Guides",
-      "url": "http://fhir.org/guides/package-feed.xml",
-      "prefix": [
-        "fhir.*"
-      ]
+      "url": "http://fhir.org/guides/package-feed.xml"
     },
     {
       "name": "FHIR Foundation Support Packages",
-      "url": "http://fhir.org/packages/package-feed.xml",
-      "prefix": [
-        "fhir.*"
-      ]
+      "url": "http://fhir.org/packages/package-feed.xml"
     },
     {
       "name": "Simplifier",
@@ -37,6 +25,12 @@
       "url" : "http://hl7.org.au/fhir/package-feed.xml"
     }
   ],
+  "package-restrictions", {
+    "hl7.fhir.*" : ["http://hl7.org/fhir/package-feed.xml"],
+    "hl7.tx.*" : ["http://terminology.hl7.org/package-feed.xml"],
+    "fhir.*" : ["http://fhir.org/packages/package-feed.xml"],
+    "hl7.au.fhir.*" : ["http://hl7.org.au/fhir/package-feed.xml"]
+  },
   "guides": [
     {
       "name": "US Core",
