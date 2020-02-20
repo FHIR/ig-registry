@@ -26,7 +26,7 @@
     }
   ],
   "package-restrictions" : {
-    "hl7.fhir.*" : ["http://hl7.org/fhir/package-feed.xml"],
+    "hl7.fhir.*" : ["http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml"],
     "hl7.tx.*" : ["http://terminology.hl7.org/package-feed.xml"],
     "fhir.*" : ["http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml"],
     "hl7.au.fhir.*" : ["http://hl7.org.au/fhir/package-feed.xml"]
