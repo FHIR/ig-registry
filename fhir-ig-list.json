@@ -21,16 +21,43 @@
       "url": "http://simplifier.net/package-feed.xml"
     },
     {
-      "name" : "Hl7 Australia",
-      "url" : "http://hl7.org.au/fhir/package-feed.xml"
+      "name": "Hl7 Australia",
+      "url": "http://hl7.org.au/fhir/package-feed.xml"
     }
   ],
-  "package-restrictions" : [
-    { "mask" : "hl7.fhir.au.*", "feeds" : ["http://hl7.org.au/fhir/package-feed.xml"] },
-    { "mask" : "hl7.fhir.*", "feeds" : ["http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml"] },
-    { "mask" : "hl7.tx.*", "feeds" : ["http://terminology.hl7.org/package-feed.xml"] },
-    { "mask" : "fhir.*", "feeds" : ["http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml"] },
-    { "mask" : "hl7.au.fhir.*", "feeds" : ["http://hl7.org.au/fhir/package-feed.xml"] }
+  "package-restrictions": [
+    {
+      "mask": "hl7.fhir.au.*",
+      "feeds": [
+        "http://hl7.org.au/fhir/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.fhir.*",
+      "feeds": [
+        "http://hl7.org/fhir/package-feed.xml",
+        "http://fhir.org/packages/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.tx.*",
+      "feeds": [
+        "http://terminology.hl7.org/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "fhir.*",
+      "feeds": [
+        "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/guides/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.au.fhir.*",
+      "feeds": [
+        "http://hl7.org.au/fhir/package-feed.xml"
+      ]
+    }
   ],
   "guides": [
     {
@@ -1573,13 +1600,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/bser",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.bser#0.2.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.bser#1.0.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bser/2019May"
+          "url": "http://hl7.org/fhir/us/bser/STU1"
         }
       ]
     },
@@ -2476,7 +2503,7 @@
     {
       "name": "Basisprofil DE",
       "category": "National Base",
-      "npm-name" : "basisprofil.de",
+      "npm-name": "basisprofil.de",
       "description": "German Base Profiles",
       "authority": "HL7 Deutschland",
       "country": "de",
@@ -2504,9 +2531,8 @@
           ],
           "package": "de.basisprofil.r4#0.9.1-alpha2",
           "url": "https://simplifier.net/guide/basisprofil-de-r4/home"
-      }
-   ]
-}
-
+        }
+      ]
+    }
   ]
 }
