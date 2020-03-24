@@ -236,6 +236,15 @@
             "3.0.1"
           ],
           "url": "http://hl7.org/fhir/us/sdcde/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.2",
+          "package": "hl7.fhir.us.sdcde#1.0.2",
+          "fhir-version": [
+            "1.0.2"
+          ],
+          "url": "http://hl7.org/fhir/DSTU2/sdcde/sdcde.html"
         }
       ]
     },
@@ -408,13 +417,13 @@
       "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
       "editions": [
         {
-          "name": "STU 4 Ballot",
-          "ig-version": "3.3.0",
-          "package": "hl7.fhir.us.qicore#3.3.0",
+          "name": "STU 4",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.qicore#4.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/2019Sep"
+          "url": "http://hl7.org/fhir/us/qicore/STU4"
         },
         {
           "name": "STU 3",
@@ -2298,16 +2307,16 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/mcode/history.html",
       "canonical": "http://hl7.org/fhir/us/mcode",
-      "ci-build": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig/",
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.9.1",
-          "package": "hl7.fhir.us.mcode#0.9.1",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.mcode#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/2019Sep"
+          "url": "http://hl7.org/fhir/us/mcode/STU1"
         }
       ]
     },
