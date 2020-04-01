@@ -2542,6 +2542,36 @@
           "url": "https://simplifier.net/guide/basisprofil-de-r4/home"
         }
       ]
+    },
+    {
+      "name": "FHIR Data Segmentation for Privacy",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.security-label-ds4p",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/security-label-ds4p/history.html",
+      "canonical": "http://hl7.org/fhir/uv/security-label-ds4p",
+      "ci-build": "http://hl7.org/fhir/ig/HL7/security-label-ds4p",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "FHIR Shorthand",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.shorthand",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/shorthand/history.html",
+      "canonical": "http://hl7.org/fhir/uv/shorthand",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-shorthand",
+      "language": [
+        "en"
+      ],
+      "editions": []
     }
   ]
 }
