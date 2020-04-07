@@ -2545,9 +2545,9 @@
     },
     {
       "name": "FHIR Data Segmentation for Privacy",
-      "category": "??",
+      "category": "Security",
       "npm-name": "hl7.fhir.uv.security-label-ds4p",
-      "description": "??",
+      "description": "Guidance for applying security labels in FHIR",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/security-label-ds4p/history.html",
@@ -2560,14 +2560,44 @@
     },
     {
       "name": "FHIR Shorthand",
-      "category": "??",
+      "category": "Administration",
       "npm-name": "hl7.fhir.uv.shorthand",
-      "description": "??",
+      "description": "FHIR Shorthand (FSH) is a domain-specific language (DSL) for defining the contents of FHIR IGs to allow the author to express their intent with fewer concerns about underlying FHIR mechanics",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/shorthand/history.html",
       "canonical": "http://hl7.org/fhir/uv/shorthand",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-shorthand",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "Post Acute Orders FHIR IG",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.dme-orders",
+      "description": "Electronic exchange of post-acute orders",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/dme-orders/history.html",
+      "canonical": "http://hl7.org/fhir/us/dme-orders",
+      "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "Application Data Exchange Assessment Framework and Functional Requirements for Mobile Health",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.uv.mhealth-framework",
+      "description": "Document the functional requirements that can be used to assess devices, applications, and FHIR profiles to ensure that the essential data needed for clinical, patient and research uses is present in communications between applications",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/mhealth-framework/history.html",
+      "canonical": "http://hl7.org/fhir/uv/mhealth-framework",
+      "ci-build": "http://hl7.org/fhir/uv/mhealth-framework",
       "language": [
         "en"
       ],
