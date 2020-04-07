@@ -2623,7 +2623,7 @@
     },
     {
       "name": "Application Data Exchange Assessment Framework and Functional Requirements for Mobile Health",
-      "category": "Clinical Records",
+      "category": "Personal Healthcare",
       "npm-name": "hl7.fhir.uv.mhealth-framework",
       "description": "Document the functional requirements that can be used to assess devices, applications, and FHIR profiles to ensure that the essential data needed for clinical, patient and research uses is present in communications between applications",
       "authority": "HL7",
