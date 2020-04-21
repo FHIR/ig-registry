@@ -2,19 +2,23 @@
   "feeds": [
     {
       "name": "HL7.org Publications",
-      "url": "http://hl7.org/fhir/package-feed.xml"
+      "url": "http://hl7.org/fhir/package-feed.xml",
+      "errors": "grahame@fhir.org"
     },
     {
       "name": "Common HL7 Terminology",
-      "url": "http://terminology.hl7.org/package-feed.xml"
+      "url": "http://terminology.hl7.org/package-feed.xml",
+      "errors": "utg@fhir.org"
     },
     {
       "name": "FHIR Foundation Guides",
-      "url": "http://fhir.org/guides/package-feed.xml"
+      "url": "http://fhir.org/guides/package-feed.xml",
+      "errors": "grahame@fhir.org"
     },
     {
       "name": "FHIR Foundation Support Packages",
-      "url": "http://fhir.org/packages/package-feed.xml"
+      "url": "http://fhir.org/packages/package-feed.xml",
+      "errors": "grahame@fhir.org"
     },
     {
       "name": "Simplifier",
