@@ -3,30 +3,32 @@
     {
       "name": "HL7.org Publications",
       "url": "http://hl7.org/fhir/package-feed.xml",
-      "errors": "grahame@fhir.org"
+      "errors": "grahame|fhir_org"
     },
     {
       "name": "Common HL7 Terminology",
       "url": "http://terminology.hl7.org/package-feed.xml",
-      "errors": "utg@fhir.org"
+      "errors": "utg|hl7_org"
     },
     {
       "name": "FHIR Foundation Guides",
       "url": "http://fhir.org/guides/package-feed.xml",
-      "errors": "grahame@fhir.org"
+      "errors": "grahame|fhir_org"
     },
     {
       "name": "FHIR Foundation Support Packages",
       "url": "http://fhir.org/packages/package-feed.xml",
-      "errors": "grahame@fhir.org"
+      "errors": "grahame|fhir_org"
     },
     {
       "name": "Simplifier",
-      "url": "http://simplifier.net/package-feed.xml"
+      "url": "http://simplifier.net/package-feed.xml",
+      "errors": "ward|fire_ly"
     },
     {
       "name": "HL7 Australia",
-      "url": "http://hl7.org.au/fhir/package-feed.xml"
+      "url": "http://hl7.org.au/fhir/package-feed.xml",
+      "errors": "brett_esler|oridashi_com_au "
     }
   ],
   "package-restrictions": [
