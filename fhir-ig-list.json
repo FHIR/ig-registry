@@ -643,6 +643,15 @@
       "ci-build": "https://build.fhir.org/ig/HL7/fhir-ips",
       "editions": [
         {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ips#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ips/STU1"
+        },
+		{
           "name": "STU 1 (FHIR R4) Ballot",
           "ig-version": "0.3.0",
           "package": "hl7.fhir.uv.ips#0.3.0",
@@ -2271,7 +2280,7 @@
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
       "ci-build": "http://build.hl7.org/fhir/us/breast-radiology/",
       "editions": [
-        {
+	    {
           "name": "STU 1 Ballot",
           "ig-version": "0.2.0",
           "package": "hl7.fhir.us.breast-radiology#0.2.0",
@@ -2571,7 +2580,7 @@
       "language": [
         "en"
       ],
-      "editions": [
+       "editions": [
 		{"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
@@ -2594,7 +2603,7 @@
       "language": [
         "en"
       ],
-      "editions": [
+     "editions": [
 	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.12.0",
           "package": "hl7.fhir.uv.shorthand#0.12.0",
@@ -2615,8 +2624,7 @@
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
       "language": [
-        "en"
-      ],
+        "en"      ],
       "editions": [
 	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
@@ -2641,15 +2649,38 @@
         "en"
       ],
       "editions": [
-	  {"name": "STU 1 Ballot",
+	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.mhealth-framework#0.1.0",
+		  "fhir-version": [            "4.0.1"          ],
+          "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
+		  }
+			]
+    },
+    {
+      "name": "US Drug Formulary",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.us.davinci-drug-formulary",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-drug-formulary/history.html",
+      "canonical": "http://hl7.org/fhir/us/davinci-drug-formulary",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
+      "language": [
+        "en"
+      ],
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
+        }
+      ]
     }
-	]
-	}
   ]
 }
