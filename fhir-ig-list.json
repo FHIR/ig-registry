@@ -2000,6 +2000,20 @@
         }
       ]
     },
+	{
+      "name": "Danish Core Implementation Guide",
+      "category": "National Base",
+      "npm-name": "dk.fhir.ig.core",
+      "description": "Base danish national implementation guide",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "language": [
+        "en"
+      ],
+      "history": "http://hl7.dk/fhir/ig/dk-core/history.html",
+      "canonical": "http://hl7.dk/fhir/ig/dk-core",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/dk-core/index.html"
+    },
     {
       "name": "Swiss Core Implementation Guide",
       "category": "National Base",
