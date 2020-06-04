@@ -8,7 +8,7 @@ Other registries:
 
 * http://registry.fhir.org: a registry of conformance resources, including ones contained in IGs registered here
 
-# Editing the registry 
+# Editing the Registry 
 
 If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. JSON validity is checked by python script in the CI/CD, hosted on [Azure Pipelines](https://dev.azure.com/fhir-pipelines/ig-registry). 
 
