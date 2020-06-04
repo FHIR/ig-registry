@@ -10,7 +10,9 @@ Other registries:
 
 # Editing the registry 
 
-If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. Alternatively, you can email your changes to fhir-director@hl7.org
+If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. JSON validity is checked by python script in the CI/CD, hosted on [Azure Pipelines](https://dev.azure.com/fhir-pipelines/ig-registry). 
+
+Alternatively, you can email your changes to fhir-director@hl7.org
 
 # Documentation of Registry
 
