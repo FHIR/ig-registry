@@ -2733,6 +2733,30 @@
           "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
         }
       ]
+    }, {
+	"name": "HL7 Italia FHIR Implementation Guide (base)",
+	"category": "National Base",
+	"npm-name": "hl7.fhir.it.base",
+	"description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
+	"authority": "HL7 Italia",
+	"country": "it",
+	"history": "http://hl7.it/fhir/history.html",
+	"canonical": "http://hl7.it/fhir",
+	"ci-build": "http://hl7.it/fhir/build/base",
+	"language": [
+		"it"
+	],
+	"editions": [
+		{
+			"name": "Initial Public Comment ballot (Jun 2020 Ballot)",
+			"ig-version": "0.1.0",
+			"package": "hl7.fhir.it.base#0.1.0",
+			"fhir-version": [
+				"4.0.1"
+			],
+			"url": "http://hl7.it/fhir/base/2020-06"
+		}
+	]
     }
   ]
 }
