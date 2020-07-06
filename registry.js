@@ -209,6 +209,12 @@ function loadRegistry() {
             countryOptions += '<option value="' + country + '">Australia</option>';
           else if (country == 'ch')
             countryOptions += '<option value="' + country + '">Switzerland</option>';
+          else if (country == 'de')
+            countryOptions += '<option value="' + country + '">Germany</option>';
+          else if (country == 'it')
+            countryOptions += '<option value="' + country + '">Italy</option>';
+          else if (country == 'dk')
+            countryOptions += '<option value="' + country + '">Denmark</option>';
           else
             countryOptions += '<option value="' + country + '">' + country.toUpperCase() + '</option>';
         }
