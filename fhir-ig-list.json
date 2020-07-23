@@ -2297,7 +2297,14 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-alerts#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
           "url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
         }
       ]
