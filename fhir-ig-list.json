@@ -189,7 +189,7 @@
       ],
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
-      "ci-build": "http://hl7.org/fhir/ig/HL7/sdc",
+      "ci-build": "https://build.fhir.org/ig/HL7/sdc/",
       "editions": [
         {
           "name": "STU 3 Ballot",
@@ -649,16 +649,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
-        },
-		{
-          "name": "STU 1 (FHIR R4) Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.ips#0.3.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ips/2019Sep"
+          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -1699,6 +1690,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
       "editions": [
         {
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
+        },
+        {
           "name": "STU1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.cqfmeasures#1.0.0",
@@ -2000,7 +2000,7 @@
         }
       ]
     },
-	{
+    {
       "name": "Danish Core Implementation Guide",
       "category": "National Base",
       "npm-name": "dk.fhir.ig.core",
@@ -2298,6 +2298,9 @@
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
       "editions": []
+          "url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
+        }
+      ]
     },
     {
       "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2332,15 +2335,6 @@
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
       "ci-build": "http://build.hl7.org/fhir/us/breast-radiology/",
       "editions": [
-	    {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.breast-radiology#0.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/breast-radiology/2020May"
-        },
         {
           "name": "Comment Draft",
           "ig-version": "0.1.0",
@@ -2553,7 +2547,17 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [
+			{
+			"name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+        }
+      ]	   
     },
     {
       "name": "CARIN Blue Button Implementation Guide",
@@ -2568,7 +2572,16 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [{
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-bb#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
+        }
+      ]	   
     },
     {
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
@@ -2583,7 +2596,16 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [{
+        "name": "STU 1 Ballot",
+	    "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-atr#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
+        }
+      ]
     },
     {
       "name": "Basisprofil DE",
@@ -2632,8 +2654,8 @@
       "language": [
         "en"
       ],
-       "editions": [
-		{"name": "STU 1 Ballot",
+      "editions": [		{
+		"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
           "fhir-version": [
@@ -2655,8 +2677,8 @@
       "language": [
         "en"
       ],
-     "editions": [
-	  	  {"name": "STU 1 Ballot",
+      "editions": [	  	  {
+		"name": "STU 1 Ballot",
           "ig-version": "0.12.0",
           "package": "hl7.fhir.uv.shorthand#0.12.0",
           "fhir-version": [
@@ -2676,17 +2698,18 @@
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
       "language": [
-        "en"      ],
-      "editions": [
-	  	  {"name": "STU 1 Ballot",
+        "en"
+      ],
+      "editions": [	  	  {
+	  "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.us.dme-orders#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/dme-orders/2020May"
+          "url": "http://hl7.org/fhir/us/dme-orders/2020May"]
     }]
-    },
+	},
     {
       "name": "Application Data Exchange Assessment Framework and Functional Requirements for Mobile Health",
       "category": "Personal Healthcare",
@@ -2713,7 +2736,7 @@
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.davinci-drug-formulary",
-      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-drug-formulary/history.html",
@@ -2733,30 +2756,31 @@
           "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
         }
       ]
-    }, {
-	"name": "HL7 Italia FHIR Implementation Guide (base)",
-	"category": "National Base",
-	"npm-name": "hl7.fhir.it.base",
-	"description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
-	"authority": "HL7 Italia",
-	"country": "it",
-	"history": "http://hl7.it/fhir/history.html",
-	"canonical": "http://hl7.it/fhir",
-	"ci-build": "http://hl7.it/fhir/build/base",
-	"language": [
-		"it"
-	],
-	"editions": [
-		{
-			"name": "Initial Public Comment ballot (Jun 2020 Ballot)",
-			"ig-version": "0.1.0",
-			"package": "hl7.fhir.it.base#0.1.0",
-			"fhir-version": [
-				"4.0.1"
-			],
-			"url": "http://hl7.it/fhir/base/2020-06"
-		}
-	]
+    },
+    {
+      "name": "HL7 Italia FHIR Implementation Guide (base)",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.it.base",
+      "description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
+      "authority": "HL7 Italia",
+      "country": "it",
+      "history": "http://hl7.it/fhir/history.html",
+      "canonical": "http://hl7.it/fhir",
+      "ci-build": "http://hl7.it/fhir/build/base",
+      "language": [
+        "it"
+      ],
+      "editions": [
+        {
+          "name": "Initial Public Comment ballot (Jun 2020 Ballot)",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.it.base#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.it/fhir/base/2020-06"
+        }
+      ]
     }
   ]
 }
