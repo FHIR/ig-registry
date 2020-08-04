@@ -189,9 +189,8 @@
       ],
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
-      "ci-build": "http://hl7.org/fhir/ig/HL7/sdc",
-      "editions": [
-        {
+			"ci-build": "https://build.fhir.org/ig/HL7/sdc/",
+			"editions": [{
           "name": "STU 3 Ballot",
           "ig-version": "2.7.0",
           "package": "hl7.fhir.uv.sdc#2.7.0",
@@ -1697,7 +1696,15 @@
       "history": "http://hl7.org/fhir/us/cqfmeasures/history.html",
       "canonical": "http://hl7.org/fhir/us/cqfmeasures",
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
-      "editions": [
+			"editions": [{
+					"name": "STU2",
+					"ig-version": "2.0.0",
+					"package": "hl7.fhir.us.cqfmeasures#2.0.0",
+					"fhir-version": [
+						"4.0.1"
+					],
+					"url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
+				},
         {
           "name": "STU1",
           "ig-version": "1.0.0",
@@ -2328,7 +2335,15 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-      "editions": []
+			"editions": [{
+				"name": "STU1 Ballot",
+				"ig-version": "0.2.0",
+				"package": "hl7.fhir.us.davinci-alerts#0.2.0",
+				"fhir-version": [
+					"4.0.1"
+				],
+				"url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
+			}]
     },
     {
       "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2584,7 +2599,15 @@
       "language": [
         "en"
       ],
-      "editions": []
+			"editions": [{
+				"name": "STU 1 Ballot",
+				"ig-version": "0.1.0",
+				"package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+				"fhir-version": [
+					"4.0.1"
+				],
+				"url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+			}]
     },
     {
       "name": "CARIN Blue Button Implementation Guide",
@@ -2599,7 +2622,15 @@
       "language": [
         "en"
       ],
-      "editions": []
+			"editions": [{
+				"name": "STU 1 Ballot",
+				"ig-version": "0.1.0",
+				"package": "hl7.fhir.us.carin-bb#0.1.0",
+				"fhir-version": [
+					"4.0.1"
+				],
+				"url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
+			}]
     },
     {
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
@@ -2614,7 +2645,15 @@
       "language": [
         "en"
       ],
-      "editions": []
+			"editions": [{
+				"name": "STU 1 Ballot",
+				"ig-version": "0.1.0",
+				"package": "hl7.fhir.us.davinci-atr#0.1.0",
+				"fhir-version": [
+					"4.0.1"
+				],
+				"url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
+			}]
     },
     {
       "name": "Basisprofil DE",
