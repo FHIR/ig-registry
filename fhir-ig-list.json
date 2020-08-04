@@ -2037,6 +2037,28 @@
       ]
     },
     {
+      "name": "Swiss Guide Template",
+      "category": "National Base",
+      "npm-name": "ch.fhir.ig.template",
+      "description": "HL7 Switzerland FHIR Implementation Guide Template",
+      "authority": "HL7 Switzerland",
+      "country": "ch",
+      "history": "http://fhir.ch/ig/template/history.html",
+      "canonical": "http://fhir.ch/ig/template",
+      "ci-build": "http://build.fhir.org/ig/hl7ch/ig-template/index.html",
+      "editions": [
+        {
+          "name": "STU",
+          "ig-version": "0.4.0",
+          "package": "ch.fhir.ig.template#0.4.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/template/0.4.0"
+        }
+      ]
+    },
+    {
       "name": "Swiss EPR Metadata (CH-EPR-TERM)",
       "category": "National Base",
       "npm-name": "ch.fhir.ig.ch-epr-term",
@@ -2101,13 +2123,22 @@
       "ci-build": "http://build.fhir.org/ig/ahdis/ch-atc/index.html",
       "editions": [
         {
+          "ig-version": "3.1.0",
+          "name": "2020-06-11",
+          "package": "ch.fhir.ig.ch-atc#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ch/ig/ch-atc/index.html"
+        },
+        {
           "name": "Release 24.6.2019",
           "ig-version": "1.2.0",
           "package": "ch.fhir.ig.ch-atc#1.2.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-atc/index.html"
+          "url": "http://fhir.ch/ig/ch-atc/1.2.0/index.html"
         }
       ]
     },
