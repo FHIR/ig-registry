@@ -189,8 +189,9 @@
       ],
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
-			"ci-build": "https://build.fhir.org/ig/HL7/sdc/",
-			"editions": [{
+      "ci-build": "https://build.fhir.org/ig/HL7/sdc/",
+      "editions": [
+        {
           "name": "STU 3 Ballot",
           "ig-version": "2.7.0",
           "package": "hl7.fhir.uv.sdc#2.7.0",
@@ -385,7 +386,7 @@
       ],
       "history": "http://hl7.org/fhir/us/meds/history.html",
       "canonical": "http://hl7.org/fhir/us/meds",
-      "ci-build": "https://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
+      "ci-build": "http://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
       "editions": [
         {
           "name": "STU2",
@@ -397,7 +398,7 @@
           "url": "http://hl7.org/fhir/us/meds/STU2"
         },
         {
-          "name": "STU 1",
+          "name": "STU1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.meds#1.0.0",
           "fhir-version": [
@@ -657,7 +658,7 @@
           "fhir-version": [
             "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/2019Sep"
+          "url": "http://hl7.org/fhir/uv/ips/2019Sep"	  										 
         }
       ]
     },
@@ -1398,7 +1399,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/pddi/history.html",
       "canonical": "http://hl7.org/fhir/uv/pddi",
-      "ci-build": "https://build.fhir.org/ig/HL7/PDDI-CDS",
+      "ci-build": "http://build.fhir.org/ig/HL7/PDDI-CDS",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1696,15 +1697,16 @@
       "history": "http://hl7.org/fhir/us/cqfmeasures/history.html",
       "canonical": "http://hl7.org/fhir/us/cqfmeasures",
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
-			"editions": [{
-					"name": "STU2",
-					"ig-version": "2.0.0",
-					"package": "hl7.fhir.us.cqfmeasures#2.0.0",
-					"fhir-version": [
-						"4.0.1"
-					],
-					"url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
-				},
+      "editions": [
+        {
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
+        },
         {
           "name": "STU1",
           "ig-version": "1.0.0",
@@ -2007,7 +2009,7 @@
         }
       ]
     },
-	{
+    {
       "name": "Danish Core Implementation Guide",
       "category": "National Base",
       "npm-name": "dk.fhir.ig.core",
@@ -2335,7 +2337,7 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-			"editions": [{
+      "editions": [{
 				"name": "STU1 Ballot",
 				"ig-version": "0.2.0",
 				"package": "hl7.fhir.us.davinci-alerts#0.2.0",
@@ -2343,7 +2345,7 @@
 					"4.0.1"
 				],
 				"url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
-			}]
+			}]										  
     },
     {
       "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2599,7 +2601,8 @@
       "language": [
         "en"
       ],
-			"editions": [{
+      "editions": [
+	  {
 				"name": "STU 1 Ballot",
 				"ig-version": "0.1.0",
 				"package": "hl7.fhir.us.carin-rtpbc#0.1.0",
@@ -2613,7 +2616,7 @@
       "name": "CARIN Blue Button Implementation Guide",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.carin-bb",
-      "description": "??",
+      "description": "Implementation guide for an API similar to the CMS Medicare Blue Button 2.0 API, FHIR R3 based, that will allow consumer-directed exchange of commercial Health Plan/Payer adjudicated claims data to meet the requirements of the CMS Interoperability and Patient Access proposed rule.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/carin-bb/history.html",
@@ -2622,7 +2625,7 @@
       "language": [
         "en"
       ],
-			"editions": [{
+      "editions": [{
 				"name": "STU 1 Ballot",
 				"ig-version": "0.1.0",
 				"package": "hl7.fhir.us.carin-bb#0.1.0",
@@ -2636,7 +2639,7 @@
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-atr",
-      "description": "??",
+      "description": "Support the real-time exchange of alerts and notifications that impact patient care and value based or risk based services.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-atr/history.html",
@@ -2645,7 +2648,7 @@
       "language": [
         "en"
       ],
-			"editions": [{
+      "editions": [{
 				"name": "STU 1 Ballot",
 				"ig-version": "0.1.0",
 				"package": "hl7.fhir.us.davinci-atr#0.1.0",
@@ -2702,8 +2705,8 @@
       "language": [
         "en"
       ],
-       "editions": [
-		{"name": "STU 1 Ballot",
+      "editions": [
+	  		{"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
           "fhir-version": [
@@ -2725,7 +2728,7 @@
       "language": [
         "en"
       ],
-     "editions": [
+      "editions": [
 	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.12.0",
           "package": "hl7.fhir.uv.shorthand#0.12.0",
@@ -2746,9 +2749,18 @@
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
       "language": [
-        "en"      ],
+        "en" 
+      ],
       "editions": [
-	  	  {"name": "STU 1 Ballot",
+	  	  	  	  {"name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.dme-orders#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/dme-orders/2020Sep"
+    },
+	  	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.us.dme-orders#0.1.0",
           "fhir-version": [
@@ -2770,20 +2782,18 @@
       "language": [
         "en"
       ],
-      "editions": [
-	  	  {"name": "STU 1 Ballot",
+      "editions": [	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.mhealth-framework#0.1.0",
-		  "fhir-version": [            "4.0.1"          ],
+		  "fhir-version": ["4.0.1"],
           "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
-		  }
-			]
+		  }]
     },
     {
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.davinci-drug-formulary",
-      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-drug-formulary/history.html",
@@ -2803,30 +2813,91 @@
           "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
         }
       ]
-    }, {
-	"name": "HL7 Italia FHIR Implementation Guide (base)",
-	"category": "National Base",
-	"npm-name": "hl7.fhir.it.base",
-	"description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
-	"authority": "HL7 Italia",
-	"country": "it",
-	"history": "http://hl7.it/fhir/history.html",
-	"canonical": "http://hl7.it/fhir",
-	"ci-build": "http://hl7.it/fhir/build/base",
-	"language": [
-		"it"
-	],
-	"editions": [
-		{
-			"name": "Initial Public Comment ballot (Jun 2020 Ballot)",
-			"ig-version": "0.1.0",
-			"package": "hl7.fhir.it.base#0.1.0",
-			"fhir-version": [
-				"4.0.1"
-			],
-			"url": "http://hl7.it/fhir/base/2020-06"
-		}
-	]
+    },
+    {
+      "name": "HL7 Italia FHIR Implementation Guide (base)",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.it.base",
+      "description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
+      "authority": "HL7 Italia",
+      "country": "it",
+      "history": "http://hl7.it/fhir/history.html",
+      "canonical": "http://hl7.it/fhir",
+      "ci-build": "http://hl7.it/fhir/build/base",
+      "language": [
+        "it"
+      ],
+      "editions": [
+        {
+          "name": "Initial Public Comment ballot (Jun 2020 Ballot)",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.it.base#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.it/fhir/base/2020-06"
+        }
+      ]
+    },
+    {
+      "name": "Dental Data Exchange",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.us.dental-data-exchange",
+      "description": "This FHIR R4 IG defines exchange of medical and dental information exchange between medical/dental and dental/dental realms, including referral and corresponding consult note using US-core, CCDAonFHIR, Occupational Data for Health, and Da Vinci profiles.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/dental-data-exchange/history.html",
+      "canonical": "http://hl7.org/fhir/us/dental-data-exchange",
+      "ci-build": "http://build.fhir.org/ig/HL7/dental-data-exchange",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "Vital Signs FHIR IG",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.us.vitalsigns",
+      "description": "US Realm Implementation Guide for Vital Signs observations with extensions for qualifying data.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/vitals/history.html",
+      "canonical": "http://hl7.org/fhir/us/vitals",
+      "ci-build": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "Order Catalog Implementation Guide",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.uv.order-catalog",
+      "description": "An Order Catalog is an administered homogeneous collection of items such as medication products, laboratory tests, procedures, medical devices or knowledge artifacts such as order sets, which support the ordering process, or more generally the healthcare process.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/order-catalog/history.html",
+      "canonical": "http://hl7.org/fhir/uv/order-catalog",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-order-catalog",
+      "language": [
+        "en"
+      ],
+      "editions": []
+    },
+    {
+      "name": "SMART Web Messaging Implementation Guide: STU1",
+      "category": "Communications",
+      "npm-name": "hl7.fhir.uv.smart-web-messaging",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "https://hl7.org/fhir/uv/smart-web-messaging/history.html",
+      "ci-build": "https://build.fhir.org/ig/HL7/smart-web-messaging/",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
+      "editions": []
     }
   ]
 }
