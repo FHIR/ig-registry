@@ -390,8 +390,8 @@
       "editions": [
         {
           "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.meds#2.0.0",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.meds#1.2.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1399,7 +1399,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/pddi/history.html",
       "canonical": "http://hl7.org/fhir/uv/pddi",
-      "ci-build": "https://build.fhir.org/ig/HL7/PDDI-CDS",
+      "ci-build": "http://build.fhir.org/ig/HL7/PDDI-CDS",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2748,7 +2748,9 @@
       "history": "http://hl7.org/fhir/us/dme-orders/history.html",
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
-      "language": ["en"],
+      "language": [
+        "en" 
+      ],
       "editions": [
 	  	  	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.2.0",
@@ -2783,7 +2785,7 @@
       "editions": [	  	  {"name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.mhealth-framework#0.1.0",
-		  "fhir-version": [            "4.0.1"          ],
+		  "fhir-version": ["4.0.1"],
           "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
 		  }]
     },
