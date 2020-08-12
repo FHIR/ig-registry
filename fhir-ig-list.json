@@ -649,16 +649,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
-        },
-		{
-          "name": "STU 1 (FHIR R4) Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.ips#0.3.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ips/2019Sep"	  										 
+          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -1408,7 +1399,7 @@
           "fhir-version": [
             "3.5.0"
           ],
-          "url": "http://hl7.org/fhir/uv/pddi/2018Sep"
+          "url": "http://hl7.org/fhir/uv/pddi/2018Sep/"
         }
       ]
     },
@@ -2337,15 +2328,7 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-      "editions": [{
-				"name": "STU1 Ballot",
-				"ig-version": "0.2.0",
-				"package": "hl7.fhir.us.davinci-alerts#0.2.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
-			}]										  
+      "editions": []
     },
     {
       "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2380,15 +2363,6 @@
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
       "ci-build": "http://build.hl7.org/fhir/us/breast-radiology/",
       "editions": [
-	    {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.breast-radiology#0.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/breast-radiology/2020May"
-        },
         {
           "name": "Comment Draft",
           "ig-version": "0.1.0",
@@ -2601,16 +2575,7 @@
       "language": [
         "en"
       ],
-      "editions": [
-	  {
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.carin-rtpbc#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
-			}]
+      "editions": []
     },
     {
       "name": "CARIN Blue Button Implementation Guide",
@@ -2625,15 +2590,7 @@
       "language": [
         "en"
       ],
-      "editions": [{
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.carin-bb#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
-			}]
+      "editions": []
     },
     {
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
@@ -2648,15 +2605,7 @@
       "language": [
         "en"
       ],
-      "editions": [{
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.davinci-atr#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
-			}]
+      "editions": []
     },
     {
       "name": "Basisprofil DE",
@@ -2705,15 +2654,7 @@
       "language": [
         "en"
       ],
-      "editions": [
-	  		{"name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2020May"
-    }]
+      "editions": []
     },
     {
       "name": "FHIR Shorthand",
@@ -2728,15 +2669,7 @@
       "language": [
         "en"
       ],
-      "editions": [
-	  	  {"name": "STU 1 Ballot",
-          "ig-version": "0.12.0",
-          "package": "hl7.fhir.uv.shorthand#0.12.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2020May"
-    }]
+      "editions": []
     },
     {
       "name": "Post Acute Orders FHIR IG",
@@ -2749,25 +2682,9 @@
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
       "language": [
-        "en" 
+        "en"
       ],
-      "editions": [
-	  	  	  	  {"name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.dme-orders#0.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/dme-orders/2020Sep"
-    },
-	  	  	  {"name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.dme-orders#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/dme-orders/2020May"
-    }]
+      "editions": []
     },
     {
       "name": "Application Data Exchange Assessment Framework and Functional Requirements for Mobile Health",
@@ -2782,12 +2699,7 @@
       "language": [
         "en"
       ],
-      "editions": [	  	  {"name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.mhealth-framework#0.1.0",
-		  "fhir-version": ["4.0.1"],
-          "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
-		  }]
+      "editions": []
     },
     {
       "name": "US Drug Formulary",
@@ -2897,6 +2809,21 @@
         "en"
       ],
       "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
+      "editions": []
+    },
+    {
+      "name": "HL7 Version 2 to FHIR",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.v2mappings",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/v2mappings/history.html",
+      "canonical": "http://hl7.org/fhir/uv/v2mappings",
+      "ci-build": "http://build.fhir.org/ig/HL7/v2-to-fhir",
+      "language": [
+        "en"
+      ],
       "editions": []
     }
   ]
