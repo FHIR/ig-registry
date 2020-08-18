@@ -78,7 +78,7 @@
       ],
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
-      "ci-build": "https://build.fhir.org/ig/HL7/US-Core-R4",
+      "ci-build": "http://build.fhir.org/ig/HL7/US-Core-R4",
       "editions": [
         {
           "name": "STU Update",
@@ -90,7 +90,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3.1"
         },
         {
-          "name": "STU3",
+          "name": "STU 3",
           "ig-version": "3.0.0",
           "package": "hl7.fhir.us.core#3.0.0",
           "fhir-version": [
@@ -189,7 +189,7 @@
       ],
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
-      "ci-build": "https://build.fhir.org/ig/HL7/sdc/",
+      "ci-build": "http://build.fhir.org/ig/HL7/sdc",
       "editions": [
         {
           "name": "STU 3 Ballot",
@@ -312,7 +312,7 @@
       ],
       "history": "http://hl7.org/fhir/us/daf/history.html",
       "canonical": "http://hl7.org/fhir/us/daf",
-      "ci-build": "https://build.fhir.org/ig/HL7/daf-research",
+      "ci-build": "http://build.fhir.org/ig/HL7/daf-research",
       "editions": [
         {
           "name": "STU 2",
@@ -389,7 +389,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
       "editions": [
         {
-          "name": "STU2",
+          "name": "STU 2",
           "ig-version": "1.2.0",
           "package": "hl7.fhir.us.meds#1.2.0",
           "fhir-version": [
@@ -398,7 +398,7 @@
           "url": "http://hl7.org/fhir/us/meds/STU2"
         },
         {
-          "name": "STU1",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.meds#1.0.0",
           "fhir-version": [
@@ -451,8 +451,8 @@
         },
         {
           "name": "STU 2",
-          "ig-version": "3.0.1",
-          "package": "hl7.fhir.us.qicore#3.0.1",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.qicore#2.0.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -640,7 +640,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/ips/history.html",
       "canonical": "http://hl7.org/fhir/uv/ips",
-      "ci-build": "https://build.fhir.org/ig/HL7/fhir-ips",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ips",
       "editions": [
         {
           "name": "STU 1",
@@ -649,16 +649,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
-        },
-		{
-          "name": "STU 1 (FHIR R4) Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.ips#0.3.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ips/2019Sep"	  										 
+          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -1324,7 +1315,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/ecr/history.html",
       "canonical": "http://hl7.org/fhir/us/ecr",
-      "ci-build": "https://build.fhir.org/ig/HL7/case-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "editions": [
         {
           "name": "STU 1",
@@ -1333,7 +1324,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ecr/STU1/"
+          "url": "http://hl7.org/fhir/us/ecr/STU1"
         }
       ]
     },
@@ -1349,7 +1340,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/livd/history.html",
       "canonical": "http://hl7.org/fhir/uv/livd",
-      "ci-build": "https://build.fhir.org/ig/HL7/livd",
+      "ci-build": "http://build.fhir.org/ig/HL7/livd",
       "editions": [
         {
           "name": "STU 1 (FHIR R4) Ballot",
@@ -1374,16 +1365,16 @@
       ],
       "history": "http://hl7.org/fhir/uv/pocd/history.html",
       "canonical": "http://hl7.org/fhir/uv/pocd",
-      "ci-build": "https://build.fhir.org/ig/HL7/uv-pocd",
+      "ci-build": "http://build.fhir.org/ig/HL7/uv-pocd",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.pocd#0.2.0",
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.pocd#0.1.0",
           "fhir-version": [
-            "3.5.0"
+            "3.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/pocd/2018Sep"
+          "url": "http://hl7.org/fhir/uv/pocd/2018Jan"
         }
       ]
     },
@@ -1403,12 +1394,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.pddi#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.pddi#0.2.0",
           "fhir-version": [
-            "3.5.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/pddi/2018Sep"
+          "url": "http://hl7.org/fhir/uv/pddi/2020Sep"
         }
       ]
     },
@@ -1425,17 +1416,7 @@
       "history": "http://hl7.org/fhir/uv/vhdir/history.html",
       "canonical": "http://hl7.org/fhir/uv/vhdir",
       "ci-build": "http://build.fhir.org/ig/HL7/VhDir",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.vhdir#0.2.0",
-          "fhir-version": [
-            "3.5.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/vhdir/2018Sep"
-        }
-      ]
+      "editions": []
     },
     {
       "name": "Coverage Requirements Determination (Da Vinci)",
@@ -1449,7 +1430,7 @@
       ],
       "history": "http://hl7.org/fhir/us/davinci-crd/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-crd",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-crd",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-crd",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1474,8 +1455,26 @@
       ],
       "history": "http://hl7.org/fhir/us/davinci-deqm/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-deqm",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-deqm",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-deqm",
       "editions": [
+        {
+          "name": "STU 3",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.davinci-deqm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2020Sep"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-deqm#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU2"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -1499,7 +1498,7 @@
       ],
       "history": "http://hl7.org/fhir/us/odh/history.html",
       "canonical": "http://hl7.org/fhir/us/odh",
-      "ci-build": "https://build.fhir.org/ig/HL7/us-odh",
+      "ci-build": "http://build.fhir.org/ig/HL7/us-odh",
       "editions": [
         {
           "name": "STU 1",
@@ -1596,7 +1595,7 @@
       ],
       "history": "http://hl7.org/fhir/smart-app-launch/history.html",
       "canonical": "http://hl7.org/fhir/smart-app-launch",
-      "ci-build": "https://build.fhir.org/ig/HL7/smart-app-launch",
+      "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
           "name": "STU 1",
@@ -1624,7 +1623,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/bser",
       "editions": [
         {
-          "name": "STU1",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.bser#1.0.0",
           "fhir-version": [
@@ -1671,7 +1670,7 @@
       ],
       "history": "http://hl7.org/fhir/us/cdmh/history.html",
       "canonical": "http://hl7.org/fhir/us/cdmh",
-      "ci-build": "https://build.fhir.org/ig/HL7/cdmh",
+      "ci-build": "http://build.fhir.org/ig/HL7/cdmh",
       "editions": [
         {
           "name": "Release 4 Ballot",
@@ -1699,7 +1698,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
       "editions": [
         {
-          "name": "STU2",
+          "name": "STU 2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.us.cqfmeasures#2.0.0",
           "fhir-version": [
@@ -1708,7 +1707,7 @@
           "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
         },
         {
-          "name": "STU1",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.cqfmeasures#1.0.0",
           "fhir-version": [
@@ -1733,7 +1732,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.2.0",
           "package": "hl7.fhir.us.davinci-dtr#0.2.0",
           "fhir-version": [
@@ -1758,7 +1757,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.us.davinci-hrex#0.1.0",
           "fhir-version": [
@@ -1783,7 +1782,7 @@
       "canonical": "http://hl7.org/fhir/us/eltss",
       "editions": [
         {
-          "name": "STU1",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.eltss#1.0.0",
           "fhir-version": [
@@ -1805,7 +1804,7 @@
       ],
       "history": "http://hl7.org/fhir/us/patient-reported-outcomes/history.html",
       "canonical": "http://hl7.org/fhir/us/patient-reported-outcomes",
-      "ci-build": "https://build.fhir.org/ig/HL7/patient-reported-outcomes",
+      "ci-build": "http://build.fhir.org/ig/HL7/patient-reported-outcomes",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1880,7 +1879,7 @@
       ],
       "history": "http://hl7.org/fhir/us/womens-health-registries/history.html",
       "canonical": "http://hl7.org/fhir/us/womens-health-registries",
-      "ci-build": "https://build.fhir.org/ig/HL7/coordinated-registry-network",
+      "ci-build": "http://build.fhir.org/ig/HL7/coordinated-registry-network",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1908,7 +1907,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.2.0",
           "package": "hl7.fhir.uv.immds#0.2.0",
           "fhir-version": [
@@ -1930,7 +1929,7 @@
       ],
       "history": "http://hl7.org/fhir/uv/phd/history.html",
       "canonical": "http://hl7.org/fhir/uv/phd",
-      "ci-build": "https://build.fhir.org/ig/HL7/PHD/",
+      "ci-build": "http://build.fhir.org/ig/HL7/PHD",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2251,7 +2250,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.us.davinci-cdex#0.1.0",
           "fhir-version": [
@@ -2273,7 +2272,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-epdx",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.us.davinci-pdex#0.1.0",
           "fhir-version": [
@@ -2292,10 +2291,10 @@
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/cdisc-lab/history.html",
       "canonical": "http://hl7.org/fhir/uv/cdisc-lab",
-      "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab/",
+      "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.cdisc-lab#0.1.0",
           "fhir-version": [
@@ -2337,15 +2336,17 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
-      "editions": [{
-				"name": "STU1 Ballot",
-				"ig-version": "0.2.0",
-				"package": "hl7.fhir.us.davinci-alerts#0.2.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
-			}]										  
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-alerts#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
+        }
+      ]
     },
     {
       "name": "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2356,7 +2357,7 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-pcde/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pcde",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pcde",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pcde",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2378,17 +2379,8 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/breast-radiology/history.html",
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
-      "ci-build": "http://build.hl7.org/fhir/us/breast-radiology/",
+      "ci-build": "http://build.hl7.org/fhir/us/breast-radiology",
       "editions": [
-	    {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.breast-radiology#0.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/breast-radiology/2020May"
-        },
         {
           "name": "Comment Draft",
           "ig-version": "0.1.0",
@@ -2431,7 +2423,7 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/mcode/history.html",
       "canonical": "http://hl7.org/fhir/us/mcode",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig/",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig",
       "editions": [
         {
           "name": "STU 1",
@@ -2453,7 +2445,7 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-pas/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pas",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pas",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pas",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2475,7 +2467,7 @@
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/bulkdata/history.html",
       "canonical": "http://hl7.org/fhir/uv/bulkdata",
-      "ci-build": "https://build.fhir.org/ig/HL7/bulk-data",
+      "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
         {
           "name": "STU 1",
@@ -2522,10 +2514,10 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-pdex-plan-net/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pdex-plan-net",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-plan-net/",
       "language": [
         "en"
       ],
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-plan-net",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2602,15 +2594,16 @@
         "en"
       ],
       "editions": [
-	  {
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.carin-rtpbc#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
-			}]
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+        }
+      ]
     },
     {
       "name": "CARIN Blue Button Implementation Guide",
@@ -2625,15 +2618,17 @@
       "language": [
         "en"
       ],
-      "editions": [{
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.carin-bb#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
-			}]
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.carin-bb#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
+        }
+      ]
     },
     {
       "name": "Risk Based Contracts Member Attribution List FHIR IG",
@@ -2648,15 +2643,17 @@
       "language": [
         "en"
       ],
-      "editions": [{
-				"name": "STU 1 Ballot",
-				"ig-version": "0.1.0",
-				"package": "hl7.fhir.us.davinci-atr#0.1.0",
-				"fhir-version": [
-					"4.0.1"
-				],
-				"url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
-			}]
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-atr#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
+        }
+      ]
     },
     {
       "name": "Basisprofil DE",
@@ -2706,14 +2703,16 @@
         "en"
       ],
       "editions": [
-	  		{"name": "STU 1 Ballot",
+        {
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/security-label-ds4p/2020May"
-    }]
+        }
+      ]
     },
     {
       "name": "FHIR Shorthand",
@@ -2729,14 +2728,16 @@
         "en"
       ],
       "editions": [
-	  	  {"name": "STU 1 Ballot",
+        {
+          "name": "STU 1 Ballot",
           "ig-version": "0.12.0",
           "package": "hl7.fhir.uv.shorthand#0.12.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/shorthand/2020May"
-    }]
+        }
+      ]
     },
     {
       "name": "Post Acute Orders FHIR IG",
@@ -2749,25 +2750,19 @@
       "canonical": "http://hl7.org/fhir/us/dme-orders",
       "ci-build": "http://build.fhir.org/ig/HL7/dme-orders",
       "language": [
-        "en" 
+        "en"
       ],
       "editions": [
-	  	  	  	  {"name": "STU 1 Ballot",
+        {
+          "name": "STU 1 Ballot",
           "ig-version": "0.2.0",
           "package": "hl7.fhir.us.dme-orders#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/dme-orders/2020Sep"
-    },
-	  	  	  {"name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.dme-orders#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/dme-orders/2020May"
-    }]
+        }
+      ]
     },
     {
       "name": "Application Data Exchange Assessment Framework and Functional Requirements for Mobile Health",
@@ -2782,12 +2777,17 @@
       "language": [
         "en"
       ],
-      "editions": [	  	  {"name": "STU 1 Ballot",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.mhealth-framework#0.1.0",
-		  "fhir-version": ["4.0.1"],
+          "fhir-version": [
+            "4.0.1"
+          ],
           "url": "http://hl7.org/fhir/uv/mhealth-framework/2020May"
-		  }]
+        }
+      ]
     },
     {
       "name": "US Drug Formulary",
@@ -2798,10 +2798,10 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-drug-formulary/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-drug-formulary",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
       "language": [
         "en"
       ],
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-formulary",
       "editions": [
         {
           "name": "STU 1",
@@ -2852,7 +2852,17 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.dental-data-exchange#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/dental-data-exchange/2020Sep"
+        }
+      ]
     },
     {
       "name": "Vital Signs FHIR IG",
@@ -2867,7 +2877,17 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.vitalsigns#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/vitals/2020Sep"
+        }
+      ]
     },
     {
       "name": "Order Catalog Implementation Guide",
@@ -2882,7 +2902,17 @@
       "language": [
         "en"
       ],
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.order-catalog#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/order-catalog/2020Sep"
+        }
+      ]
     },
     {
       "name": "SMART Web Messaging Implementation Guide: STU1",
@@ -2892,12 +2922,47 @@
       "authority": "HL7",
       "country": "uv",
       "history": "https://hl7.org/fhir/uv/smart-web-messaging/history.html",
-      "ci-build": "https://build.fhir.org/ig/HL7/smart-web-messaging/",
       "language": [
         "en"
       ],
       "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
-      "editions": []
+      "ci-build": "http://build.fhir.org/ig/HL7/smart-web-messaging",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.smart-web-messaging#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Version 2 to FHIR",
+      "category": "??",
+      "npm-name": "hl7.fhir.uv.v2mappings",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/v2mappings/history.html",
+      "canonical": "http://hl7.org/fhir/uv/v2mappings",
+      "ci-build": "http://build.fhir.org/ig/HL7/v2-to-fhir",
+      "language": [
+        "en"
+      ],
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.v2mappings#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/v2mappings/2020Sep"
+        }
+      ]
     }
   ]
 }
