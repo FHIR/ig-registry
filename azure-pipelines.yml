@@ -1,0 +1,21 @@
+trigger:
+  - master
+
+pr:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: PythonScript@0
+  displayName: 'Test fhir-ig-list.json is valid json.'
+  inputs:
+    scriptSource: 'inline'
+    script: |
+      import json
+      
+      f = open("fhir-ig-list.json","r")
+      file_contents = f.read()
+      print file_contents
+      json_object = json.loads(file_contents)
