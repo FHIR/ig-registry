@@ -29,7 +29,12 @@
       "name": "HL7 Australia",
       "url": "http://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
-    }
+    },
+    {
+      "name": "HL7 Switzerland",
+      "url": "http://fhir.ch/package-feed.xml",
+      "errors": "oliver_egger|ahdis_ch"
+    }    
   ],
   "package-restrictions": [
     {
@@ -62,6 +67,12 @@
       "mask": "hl7.au.fhir.*",
       "feeds": [
         "http://hl7.org.au/fhir/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "ch.fhir.ig.*",
+      "feeds": [
+          "http://fhir.ch/package-feed.xml"
       ]
     }
   ],
@@ -2079,12 +2090,12 @@
       "editions": [
         {
           "name": "STU",
-          "ig-version": "2.0.3",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.3",
+          "ig-version": "2.0.4",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.4",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.3"
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.4"
         }
       ]
     },
@@ -2207,12 +2218,12 @@
       "editions": [
         {
           "name": "DSTU",
-          "ig-version": "0.1.0",
-          "package": "ch.fhir.ig.ch-emed#0.1.0",
+          "ig-version": "0.1.1",
+          "package": "ch.fhir.ig.ch-emed#0.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-emed/0.1.0"
+          "url": "http://fhir.ch/ig/ch-emed/0.1.1"
         }
       ]
     },
