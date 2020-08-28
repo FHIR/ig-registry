@@ -34,7 +34,7 @@
       "name": "HL7 Switzerland",
       "url": "http://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
-    }    
+    }
   ],
   "package-restrictions": [
     {
@@ -72,7 +72,7 @@
     {
       "mask": "ch.fhir.ig.*",
       "feeds": [
-          "http://fhir.ch/package-feed.xml"
+        "http://fhir.ch/package-feed.xml"
       ]
     }
   ],
@@ -91,6 +91,15 @@
       "canonical": "http://hl7.org/fhir/us/core",
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core-R4",
       "editions": [
+        {
+          "name": "STU 3",
+          "ig-version": "3.1.1",
+          "package": "hl7.fhir.us.core#3.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU3.1.1"
+        },
         {
           "name": "STU Update",
           "ig-version": "3.1.0",
@@ -297,7 +306,7 @@
       "language": [
         "en"
       ],
-      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/",
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa",
       "canonical": "http://hl7.org.au/fhir/rcpa",
       "editions": [
         {
@@ -356,7 +365,7 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/r2/history.html",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query",
       "canonical": "http://fhir.org/guides/argonaut/r2",
       "editions": [
         {
@@ -1769,12 +1778,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-hrex#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-hrex#0.2.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-hrex/2019Jun"
+          "url": "http://hl7.org/fhir/us/davinci-hrex/2020Sep"
         }
       ]
     },
@@ -1971,7 +1980,7 @@
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/"
+          "url": "http://hl7.org.au/fhir"
         }
       ]
     },
@@ -1984,7 +1993,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
       "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes",
       "editions": [
         {
           "name": "Release 1",
@@ -2006,7 +2015,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
       "canonical": "http://fhir.org/guides/argonaut/questionnaire",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire",
       "editions": [
         {
           "name": "Release 1",
@@ -2236,7 +2245,7 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.html",
       "canonical": "http://hl7.org/fhir/us/Davinci-drug-formulary",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary",
       "editions": [
         {
           "name": "STU 1",
@@ -2305,13 +2314,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.cdisc-lab#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cdisc-lab#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cdisc-lab/2019Sep"
+          "url": "http://hl7.org/fhir/uv/cdisc-lab/STU1"
         }
       ]
     },
@@ -2550,7 +2559,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
       "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes",
       "language": [
         "en"
       ],
@@ -2575,7 +2584,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
       "canonical": "http://fhir.org/guides/argonaut/questionnaire",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire",
       "language": [
         "en"
       ],
@@ -2606,13 +2615,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.carin-rtpbc#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+          "url": "http://hl7.org/fhir/us/carin-rtpbc/STU1"
         }
       ]
     },
@@ -2673,8 +2682,8 @@
       "description": "German Base Profiles",
       "authority": "HL7 Deutschland",
       "country": "de",
-      "history": "http://ig.fhir.de/basisprofile-de/",
-      "canonical": "http://fhir.de/",
+      "history": "http://ig.fhir.de/basisprofile-de",
+      "canonical": "http://fhir.de",
       "ci-build": "https://simplifier.net/Basisprofil-DE-R4",
       "language": [
         "de"
@@ -2687,7 +2696,7 @@
             "3.0.1"
           ],
           "package": "basisprofil.de#0.2.30",
-          "url": "http://ig.fhir.de/basisprofile-de/0.2.30/"
+          "url": "http://ig.fhir.de/basisprofile-de/0.2.30"
         },
         {
           "name": "R4",
