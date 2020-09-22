@@ -79,12 +79,6 @@
       "feeds": [
         "http://fhir.ch/package-feed.xml"
       ]
-    },
-    {
-      "mask": "swiss.mednet.fhir.*",
-      "feeds": [
-        "https://mednet.swiss/fhir/package-feed.xml"
-      ]
     }
   ],
   "guides": [
@@ -2253,7 +2247,9 @@
       "npm-name": "swiss.mednet.fhir",
       "description": "The mednet.swiss implementation guide describes the FHIR profiles used to interface with the mednet software",
       "authority": "novcom AG",
-      "country": "ch"
+      "country": "ch",
+      "history": "https://mednet.swiss/fhir/history.html",
+      "canonical": "https://mednet.swiss/fhir"
     },
     {
       "name": "US Drug Formulary",
