@@ -89,7 +89,7 @@
       ],
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
-      "ci-build": "http://build.fhir.org/ig/HL7/US-Core-R4",
+      "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
       "editions": [
         {
           "name": "STU 3",
@@ -669,7 +669,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
+          "url": "http://hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -1622,7 +1622,7 @@
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "3.0.1"
           ],
           "url": "http://hl7.org/fhir/smart-app-launch/1.0.0"
         }
@@ -1777,7 +1777,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
       "editions": [
         {
-          "name": "STU 1 Ballot",
+          "name": "STU1 Ballot",
           "ig-version": "0.2.0",
           "package": "hl7.fhir.us.davinci-hrex#0.2.0",
           "fhir-version": [
@@ -1850,17 +1850,7 @@
       "history": "http://hl7.org/fhir/us/phcp/history.html",
       "canonical": "http://hl7.org/fhir/us/phcp",
       "ci-build": "http://build.fhir.org/ig/HL7/PhCP",
-      "editions": [
-        {
-          "name": "STU 1 Draft",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.phcp#0.2.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/us/phcp/2019May"
-        }
-      ]
+      "editions": []
     },
     {
       "name": "Vital Records Mortality and Morbidity Reporting FHIR IG",
@@ -2749,13 +2739,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.12.0",
-          "package": "hl7.fhir.uv.shorthand#0.12.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.shorthand#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2020May"
+          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
         }
       ]
     },
@@ -2955,7 +2945,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
@@ -2981,6 +2971,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/v2mappings/2020Sep"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Terminology",
+      "category": "??",
+      "npm-name": "hl7.terminology",
+      "description": "Terminology",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://terminology.hl7.org/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://terminology.hl7.org",
+      "ci-build": "http://build.fhir.org/ig/HL7/UTG",
+      "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.0.0",
+          "package": "hl7.terminology#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://terminology.hl7.org/1.0.0"
         }
       ]
     }
