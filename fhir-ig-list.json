@@ -1204,7 +1204,7 @@
     },
     {
       "name": "Prescription Repository Query (PRQ)",
-      "category": "Public Health Reporting",
+      "category": "Public Health",
       "npm-name": "ihe.prq.fhir",
       "description": "defines services that allow physicians to retrieve their patients’ current dispensed medications.",
       "authority": "IHE",
