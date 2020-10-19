@@ -2951,7 +2951,6 @@
     },
     {
       "name": "HL7 Version 2 to FHIR",
-      "category": "??",
       "npm-name": "hl7.fhir.uv.v2mappings",
       "description": "The HL7 V2 to FHIR Implementation Guide supports the mapping of HL7 Version 2 messages segments, datatypes and vocabulary to HL7 FHIR Release 4.0 Bundles, Resources, Data Types and Coding Systems.",
       "authority": "HL7",
