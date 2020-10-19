@@ -669,7 +669,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
+          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -2945,7 +2945,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
