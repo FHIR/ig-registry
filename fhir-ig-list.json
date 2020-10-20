@@ -669,7 +669,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
+          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -2945,15 +2945,14 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
     {
       "name": "HL7 Version 2 to FHIR",
-      "category": "??",
       "npm-name": "hl7.fhir.uv.v2mappings",
-      "description": "??",
+      "description": "The HL7 V2 to FHIR Implementation Guide supports the mapping of HL7 Version 2 messages segments, datatypes and vocabulary to HL7 FHIR Release 4.0 Bundles, Resources, Data Types and Coding Systems.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/v2mappings/history.html",
@@ -2998,6 +2997,50 @@
           "url": "http://terminology.hl7.org/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Situational Awareness for Novel Epidemic Response",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.uv.saner",
+      "description": "The SANER Implementation Guide enables transmission of high level situational awareness information from inpatient facilities to centralized data repositories to support the treatment of novel influenza-like illness.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/saner/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/saner",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
+      "editions": []
+    },
+    {
+      "name": "PACIO Functional Status Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.us.pacio-fs",
+      "description": "FHIR R4 IG that leverages eLTSS and utilizes the Self-Care, Mobility and Prior Device use sections of CMS assessment forms (IRF-PAI, MDS, OASIS, LTCH) to enable the sharing of functional status information when a patient moves from one clinical care setting to another.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-fs/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-fs",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
+    },
+    {
+      "name": "PACIO Cognitive Status Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.us.pacio-cs",
+      "description": "FHIR R4 IG that leverages eLTSS and utilizes the Confusion Assessment Method (CAM) assessment to enable the sharing of cognitive status information when a patient moves from one clinical care setting to another.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-cs/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-cs",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "editions": []
     }
   ]
 }
