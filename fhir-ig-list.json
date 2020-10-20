@@ -669,7 +669,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
+          "url": "http://hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -2945,7 +2945,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
@@ -2961,6 +2961,7 @@
       "language": [
         "en"
       ],
+      "category": "Mappings to Other Standards",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3011,7 +3012,17 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/saner",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.saner#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/saner/2021Jan"
+        }
+      ]
     },
     {
       "name": "PACIO Functional Status Implementation Guide",
@@ -3025,7 +3036,18 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-fs",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-fs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-fs/2021Jan"
+        }
+      ]
     },
     {
       "name": "PACIO Cognitive Status Implementation Guide",
@@ -3040,7 +3062,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-cs",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-cs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-cs/2021Jan"
+        }
+      ]
     }
   ]
 }
