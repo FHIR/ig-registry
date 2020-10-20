@@ -3025,7 +3025,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-fs",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
     },
     {
       "name": "PACIO Cognitive Status Implementation Guide",
