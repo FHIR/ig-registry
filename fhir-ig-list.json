@@ -34,6 +34,11 @@
       "name": "HL7 Switzerland",
       "url": "http://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
+    },
+    {
+      "name": "mednet.swiss",
+      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "errors": "david_gutknecht|novcom_swiss"
     }
   ],
   "package-restrictions": [
@@ -2234,6 +2239,16 @@
           "url": "http://fhir.ch/ig/ch-emed/0.1.1"
         }
       ]
+    },
+    {
+      "name": "mednet Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "swiss.mednet.fhir",
+      "description": "The mednet.swiss implementation guide describes the FHIR profiles used to interface with the mednet software",
+      "authority": "novcom AG",
+      "country": "ch",
+      "history": "https://mednet.swiss/fhir/history.html",
+      "canonical": "https://mednet.swiss/fhir"
     },
     {
       "name": "US Drug Formulary",
