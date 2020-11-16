@@ -34,6 +34,11 @@
       "name": "HL7 Switzerland",
       "url": "http://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
+    },
+    {
+      "name": "NZ packages",
+      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
+      "errors": "david_hay|clinfhir_com"
     }
   ],
   "package-restrictions": [
