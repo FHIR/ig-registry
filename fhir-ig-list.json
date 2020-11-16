@@ -29,6 +29,11 @@
       "name": "HL7 Australia",
       "url": "http://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
+    },
+    {
+      "name": "HL7 Switzerland",
+      "url": "http://fhir.ch/package-feed.xml",
+      "errors": "oliver_egger|ahdis_ch"
     }
   ],
   "package-restrictions": [
@@ -63,6 +68,12 @@
       "feeds": [
         "http://hl7.org.au/fhir/package-feed.xml"
       ]
+    },
+    {
+      "mask": "ch.fhir.ig.*",
+      "feeds": [
+        "http://fhir.ch/package-feed.xml"
+      ]
     }
   ],
   "guides": [
@@ -78,8 +89,17 @@
       ],
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
-      "ci-build": "http://build.fhir.org/ig/HL7/US-Core-R4",
+      "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
       "editions": [
+        {
+          "name": "STU 3",
+          "ig-version": "3.1.1",
+          "package": "hl7.fhir.us.core#3.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU3.1.1"
+        },
         {
           "name": "STU Update",
           "ig-version": "3.1.0",
@@ -166,6 +186,15 @@
       "canonical": "http://hl7.org/fhir/us/ccda",
       "ci-build": "http://build.fhir.org/ig/HL7/ccda-on-fhir",
       "editions": [
+        {
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.ccda#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ccda/STU1.1"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -286,7 +315,7 @@
       "language": [
         "en"
       ],
-      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa/",
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-rcpa",
       "canonical": "http://hl7.org.au/fhir/rcpa",
       "editions": [
         {
@@ -345,7 +374,7 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/r2/history.html",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/data-query",
       "canonical": "http://fhir.org/guides/argonaut/r2",
       "editions": [
         {
@@ -649,7 +678,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
+          "url": "http://hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -1184,7 +1213,7 @@
     },
     {
       "name": "Prescription Repository Query (PRQ)",
-      "category": "Public Health Reporting",
+      "category": "Public Health",
       "npm-name": "ihe.prq.fhir",
       "description": "defines services that allow physicians to retrieve their patients’ current dispensed medications.",
       "authority": "IHE",
@@ -1602,7 +1631,7 @@
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "3.0.1"
           ],
           "url": "http://hl7.org/fhir/smart-app-launch/1.0.0"
         }
@@ -1757,13 +1786,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-hrex#0.1.0",
+          "name": "STU1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-hrex#0.2.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-hrex/2019Jun"
+          "url": "http://hl7.org/fhir/us/davinci-hrex/2020Sep"
         }
       ]
     },
@@ -1830,17 +1859,7 @@
       "history": "http://hl7.org/fhir/us/phcp/history.html",
       "canonical": "http://hl7.org/fhir/us/phcp",
       "ci-build": "http://build.fhir.org/ig/HL7/PhCP",
-      "editions": [
-        {
-          "name": "STU 1 Draft",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.phcp#0.2.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/us/phcp/2019May"
-        }
-      ]
+      "editions": []
     },
     {
       "name": "Vital Records Mortality and Morbidity Reporting FHIR IG",
@@ -1857,13 +1876,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/vrdr",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.vrdr#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.vrdr#1.0.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vrdr/2019May"
+          "url": "http://hl7.org/fhir/us/vrdr/STU1"
         }
       ]
     },
@@ -1960,7 +1979,7 @@
           "fhir-version": [
             "3.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/"
+          "url": "http://hl7.org.au/fhir"
         }
       ]
     },
@@ -1973,7 +1992,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
       "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes",
       "editions": [
         {
           "name": "Release 1",
@@ -1995,7 +2014,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
       "canonical": "http://fhir.org/guides/argonaut/questionnaire",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire",
       "editions": [
         {
           "name": "Release 1",
@@ -2079,12 +2098,12 @@
       "editions": [
         {
           "name": "STU",
-          "ig-version": "2.0.3",
-          "package": "ch.fhir.ig.ch-epr-term#2.0.3",
+          "ig-version": "2.0.4",
+          "package": "ch.fhir.ig.ch-epr-term#2.0.4",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-epr-term/2.0.3"
+          "url": "http://fhir.ch/ig/ch-epr-term/2.0.4"
         }
       ]
     },
@@ -2207,12 +2226,12 @@
       "editions": [
         {
           "name": "DSTU",
-          "ig-version": "0.1.0",
-          "package": "ch.fhir.ig.ch-emed#0.1.0",
+          "ig-version": "0.1.1",
+          "package": "ch.fhir.ig.ch-emed#0.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.ch/ig/ch-emed/0.1.0"
+          "url": "http://fhir.ch/ig/ch-emed/0.1.1"
         }
       ]
     },
@@ -2225,7 +2244,7 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/Davinci-drug-formulary/history.html",
       "canonical": "http://hl7.org/fhir/us/Davinci-drug-formulary",
-      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary/",
+      "ci-build": "https://build.fhir.org/ig/HL7/davinci-pdex-formulary",
       "editions": [
         {
           "name": "STU 1",
@@ -2294,13 +2313,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.cdisc-lab#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cdisc-lab#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cdisc-lab/2019Sep"
+          "url": "http://hl7.org/fhir/uv/cdisc-lab/STU1"
         }
       ]
     },
@@ -2338,13 +2357,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-alerts#0.2.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-alerts#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-alerts/2020Feb"
+          "url": "http://hl7.org/fhir/us/davinci-alerts/STU1"
         }
       ]
     },
@@ -2539,7 +2558,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/clinicalnotes/history.html",
       "canonical": "http://fhir.org/guides/argonaut/clinicalnotes",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/clinicalnotes",
       "language": [
         "en"
       ],
@@ -2564,7 +2583,7 @@
       "country": "us",
       "history": "http://fhir.org/guides/argonaut/questionnaire/history.html",
       "canonical": "http://fhir.org/guides/argonaut/questionnaire",
-      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire/",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/questionnaire",
       "language": [
         "en"
       ],
@@ -2595,13 +2614,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.carin-rtpbc#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.carin-rtpbc#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/carin-rtpbc/2020Feb"
+          "url": "http://hl7.org/fhir/us/carin-rtpbc/STU1"
         }
       ]
     },
@@ -2662,8 +2681,8 @@
       "description": "German Base Profiles",
       "authority": "HL7 Deutschland",
       "country": "de",
-      "history": "http://ig.fhir.de/basisprofile-de/",
-      "canonical": "http://fhir.de/",
+      "history": "http://ig.fhir.de/basisprofile-de",
+      "canonical": "http://fhir.de",
       "ci-build": "https://simplifier.net/Basisprofil-DE-R4",
       "language": [
         "de"
@@ -2676,7 +2695,7 @@
             "3.0.1"
           ],
           "package": "basisprofil.de#0.2.30",
-          "url": "http://ig.fhir.de/basisprofile-de/0.2.30/"
+          "url": "http://ig.fhir.de/basisprofile-de/0.2.30"
         },
         {
           "name": "R4",
@@ -2729,13 +2748,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.12.0",
-          "package": "hl7.fhir.uv.shorthand#0.12.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.shorthand#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2020May"
+          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
         }
       ]
     },
@@ -2935,15 +2954,14 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
     {
       "name": "HL7 Version 2 to FHIR",
-      "category": "??",
       "npm-name": "hl7.fhir.uv.v2mappings",
-      "description": "??",
+      "description": "The HL7 V2 to FHIR Implementation Guide supports the mapping of HL7 Version 2 messages segments, datatypes and vocabulary to HL7 FHIR Release 4.0 Bundles, Resources, Data Types and Coding Systems.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/v2mappings/history.html",
@@ -2952,6 +2970,7 @@
       "language": [
         "en"
       ],
+      "category": "Mappings to Other Standards",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2981,6 +3000,106 @@
           "fhir-version" : "4.0.0",
           "url" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
          }
+      ]
+    },
+    {
+      "name": "HL7 Terminology",
+      "category": "??",
+      "npm-name": "hl7.terminology",
+      "description": "Terminology",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://terminology.hl7.org/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://terminology.hl7.org",
+      "ci-build": "http://build.fhir.org/ig/HL7/UTG",
+      "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.0.0",
+          "package": "hl7.terminology#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://terminology.hl7.org/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Situational Awareness for Novel Epidemic Response",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.uv.saner",
+      "description": "The SANER Implementation Guide enables transmission of high level situational awareness information from inpatient facilities to centralized data repositories to support the treatment of novel influenza-like illness.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/saner/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/saner",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.saner#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/saner/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "PACIO Functional Status Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.us.pacio-fs",
+      "description": "FHIR R4 IG that leverages eLTSS and utilizes the Self-Care, Mobility and Prior Device use sections of CMS assessment forms (IRF-PAI, MDS, OASIS, LTCH) to enable the sharing of functional status information when a patient moves from one clinical care setting to another.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-fs/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-fs",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-fs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-fs/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "PACIO Cognitive Status Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.us.pacio-cs",
+      "description": "FHIR R4 IG that leverages eLTSS and utilizes the Confusion Assessment Method (CAM) assessment to enable the sharing of cognitive status information when a patient moves from one clinical care setting to another.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-cs/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-cs",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-cs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-cs/2021Jan"
+        }
       ]
     }
   ]
