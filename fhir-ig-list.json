@@ -39,6 +39,10 @@
       "name": "mednet.swiss",
       "url": "https://mednet.swiss/fhir/package-feed.xml",
       "errors": "david_gutknecht|novcom_swiss"
+    },{
+      "name": "David Hay packages (Interim name)",
+      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
+      "errors": "david_hay|clinfhir_com"
     }
   ],
   "package-restrictions": [
