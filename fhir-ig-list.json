@@ -2984,6 +2984,25 @@
       ]
     },
     {
+      "name" : "IHE FormatCode vocabulary",
+      "category" : "EHR access",
+      "npm-name" : "ihe.formatcode.fhir",
+      "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
+      "authority" : "IHE",
+      "country" : "uv",
+      "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
+      "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
+      "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode/",
+      "editions" : [
+        {
+          "name" : "Normative 2020",
+          "ig-version" : "0.2.2",
+          "fhir-version" : "4.0.0",
+          "url" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+         }
+      ]
+    },
+    {
       "name": "HL7 Terminology",
       "category": "??",
       "npm-name": "hl7.terminology",
