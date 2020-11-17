@@ -53,6 +53,12 @@
       ]
     },
     {
+      "mask": "hl7.fhir.nz.*",
+      "feeds": [
+        "http://igs.clinfhir.com/packages/package-feed.xml"
+      ]
+    },
+    {
       "mask": "hl7.fhir.*",
       "feeds": [
         "http://hl7.org/fhir/package-feed.xml",
