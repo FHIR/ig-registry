@@ -3022,7 +3022,7 @@
         {
           "name" : "Normative 2020",
           "ig-version" : "0.2.2",
-          "fhir-version" : "4.0.0",
+          "fhir-version" : ["4.0.0"],
           "url" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
          }
       ]
