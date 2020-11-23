@@ -34,6 +34,19 @@
       "name": "HL7 Switzerland",
       "url": "http://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "name": "mednet.swiss",
+      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "errors": "david_gutknecht|novcom_swiss"
+    },
+    {
+      "name": "David Hay packages (Interim name)",
+      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
+      "errors": "david_hay|clinfhir_com"
+>>>>>>> Stashed changes
     }
   ],
   "package-restrictions": [
@@ -2639,13 +2652,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.carin-bb#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.carin-bb#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/carin-bb/2020Feb"
+          "url": "http://hl7.org/fhir/us/carin-bb/STU1"
         }
       ]
     },
@@ -2983,6 +2996,30 @@
       ]
     },
     {
+<<<<<<< Updated upstream
+=======
+      "name": "IHE FormatCode vocabulary",
+      "category": "EHR access",
+      "npm-name": "ihe.formatcode.fhir",
+      "description": "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
+      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
+      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode/",
+      "editions": [
+        {
+          "name": "Normative 2020",
+          "ig-version": "0.2.2",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+        }
+      ]
+    },
+    {
+>>>>>>> Stashed changes
       "name": "HL7 Terminology",
       "category": "??",
       "npm-name": "hl7.terminology",
