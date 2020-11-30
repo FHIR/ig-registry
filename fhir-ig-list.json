@@ -3078,6 +3078,31 @@
       ]
     },
     {
+      "name": "Making Ehr Data MOre Available to Research and Public Health (MedMorph)",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.fhir-medmorph",
+      "description": "The The MedMorph FHIR IG enables Public Health and Research Organizations to access EHR data without increasing provider burden.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/fhir-medmorph/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/fhir-medmorph",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.fhir-medmorph#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/fhir-medmorph/2021Jan"
+        }
+      ]
+    },
+    {
       "name": "PACIO Functional Status Implementation Guide",
       "category": "Patient Summary",
       "npm-name": "hl7.fhir.us.pacio-fs",
