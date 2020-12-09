@@ -34,8 +34,6 @@
       "name": "HL7 Switzerland",
       "url": "http://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
-<<<<<<< Updated upstream
-=======
     },
     {
       "name": "mednet.swiss",
@@ -46,7 +44,6 @@
       "name": "David Hay packages (Interim name)",
       "url": "http://igs.clinfhir.com/packages/package-feed.xml",
       "errors": "david_hay|clinfhir_com"
->>>>>>> Stashed changes
     }
   ],
   "package-restrictions": [
@@ -54,6 +51,12 @@
       "mask": "hl7.fhir.au.*",
       "feeds": [
         "http://hl7.org.au/fhir/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.fhir.nz.*",
+      "feeds": [
+        "http://igs.clinfhir.com/packages/package-feed.xml"
       ]
     },
     {
@@ -691,7 +694,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://www.hl7.org/fhir/uv/ips/STU1"
+          "url": "http://hl7.org/fhir/uv/ips/STU1"
         }
       ]
     },
@@ -2249,6 +2252,16 @@
       ]
     },
     {
+      "name": "mednet Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "swiss.mednet.fhir",
+      "description": "The mednet.swiss implementation guide describes the FHIR profiles used to interface with the mednet software",
+      "authority": "novcom AG",
+      "country": "ch",
+      "history": "https://mednet.swiss/fhir/history.html",
+      "canonical": "https://mednet.swiss/fhir"
+    },
+    {
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.Davinci-drug-formulary",
@@ -2967,7 +2980,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
         }
       ]
     },
@@ -2983,6 +2996,7 @@
       "language": [
         "en"
       ],
+      "category": "Mappings to Other Standards",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2996,30 +3010,25 @@
       ]
     },
     {
-<<<<<<< Updated upstream
-=======
-      "name": "IHE FormatCode vocabulary",
-      "category": "EHR access",
-      "npm-name": "ihe.formatcode.fhir",
-      "description": "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
-      "authority": "IHE",
-      "country": "uv",
-      "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
-      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
-      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode/",
-      "editions": [
+      "name" : "IHE FormatCode vocabulary",
+      "category" : "EHR access",
+      "npm-name" : "ihe.formatcode.fhir",
+      "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
+      "authority" : "IHE",
+      "country" : "uv",
+      "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
+      "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
+      "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode/",
+      "editions" : [
         {
-          "name": "Normative 2020",
-          "ig-version": "0.2.2",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
-        }
+          "name" : "Normative 2020",
+          "ig-version" : "0.2.2",
+          "fhir-version" : ["4.0.0"],
+          "url" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+         }
       ]
     },
     {
->>>>>>> Stashed changes
       "name": "HL7 Terminology",
       "category": "??",
       "npm-name": "hl7.terminology",
@@ -3057,7 +3066,17 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/saner",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.saner#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/saner/2021Jan"
+        }
+      ]
     },
     {
       "name": "PACIO Functional Status Implementation Guide",
@@ -3071,7 +3090,18 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-fs",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-fs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-fs/2021Jan"
+        }
+      ]
     },
     {
       "name": "PACIO Cognitive Status Implementation Guide",
@@ -3086,7 +3116,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-cs",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-cs#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-cs/2021Jan"
+        }
+      ]
     }
   ]
 }
