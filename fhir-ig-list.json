@@ -2516,6 +2516,15 @@
       "editions": [
         {
           "name": "STU 1",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.uv.bulkdata#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/bulkdata/STU1.0.1"
+        },
+        {
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.bulkdata#1.0.0",
           "fhir-version": [
@@ -3010,22 +3019,24 @@
       ]
     },
     {
-      "name" : "IHE FormatCode vocabulary",
-      "category" : "EHR access",
-      "npm-name" : "ihe.formatcode.fhir",
-      "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
-      "authority" : "IHE",
-      "country" : "uv",
-      "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
-      "canonical" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
-      "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode/",
-      "editions" : [
+      "name": "IHE FormatCode vocabulary",
+      "category": "EHR access",
+      "npm-name": "ihe.formatcode.fhir",
+      "description": "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
+      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
+      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode/",
+      "editions": [
         {
-          "name" : "Normative 2020",
-          "ig-version" : "0.2.2",
-          "fhir-version" : ["4.0.0"],
-          "url" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
-         }
+          "name": "Normative 2020",
+          "ig-version": "0.2.2",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+        }
       ]
     },
     {
@@ -3152,6 +3163,51 @@
           "url": "http://hl7.org/fhir/us/pacio-cs/2021Jan"
         }
       ]
+    },
+    {
+      "name": "Specialty Medication Enrollment",
+      "category": "EHR Access",
+      "npm-name": "hl7.fhir.us.specialty-rx",
+      "description": "This FHIR IG focuses on the exchange of data (Demographic, prescription, clinical and financial) for dispensing specialty medications by pharmacies as well as facilitating the enrollment of patients in programs offered by third parties such as but not limited to Hub vendors and Pharmaceutical manufacturers.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/specialty-rx/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/specialty-rx",
+      "ci-build": "http://build.fhir.org/ig/HL7/specialty-rx",
+      "editions": []
+    },
+    {
+      "name": "Vital Records Common Profile Library",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.vr-common-library",
+      "description": "Library containing profiles used by other Vital Records IGs such as Birth and Fetal Death Reporting and Birth Defects Reporting.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/vr-common-library/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/vr-common-library",
+      "ci-build": "http://build.fhir.org/ig/HL7/vr-common-library",
+      "editions": []
+    },
+    {
+      "name": "Subscriptions R5 Backport",
+      "category": "EHR Access",
+      "npm-name": "hl7.fhir.uv.subscriptions-backport",
+      "description": "This guide defines a standard method of back-porting the R5 subscriptions API to R4 implementations as to bridge for pre-adopting R5 Subscriptions prior to adoption of the R5 FHIR standard.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/subscriptions-backport/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/subscriptions-backport",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-subscription-backport-ig",
+      "editions": []
     }
   ]
 }
