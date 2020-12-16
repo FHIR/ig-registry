@@ -108,6 +108,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
       "editions": [
         {
+          "name": "STU3",
+          "ig-version": "3.2.0",
+          "package": "hl7.fhir.us.core#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/2021Jan"
+        },
+        {
           "name": "STU 3",
           "ig-version": "3.1.1",
           "package": "hl7.fhir.us.core#3.1.1",
@@ -1363,6 +1372,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "editions": [
         {
+          "name": "STU 2 on FHIR R4 Ballot",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.ecr#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ecr/2021Jan"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.ecr#1.0.0",
@@ -2295,13 +2313,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-cdex#0.1.0",
+          "name": "STU1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-cdex#0.2.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2019Jun"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2021Jan"
         }
       ]
     },
@@ -3177,7 +3195,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/specialty-rx",
       "ci-build": "http://build.fhir.org/ig/HL7/specialty-rx",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.specialty-rx#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/specialty-rx/2021Jan"
+        }
+      ]
     },
     {
       "name": "Vital Records Common Profile Library",
@@ -3192,7 +3220,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/vr-common-library",
       "ci-build": "http://build.fhir.org/ig/HL7/vr-common-library",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 on FHIR R4 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.vr-common-library#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/vr-common-library/2021Jan"
+        }
+      ]
     },
     {
       "name": "Subscriptions R5 Backport",
@@ -3207,7 +3245,117 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/subscriptions-backport",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-subscription-backport-ig",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.subscriptions-backport#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/subscriptions-backport/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "Vital Records Birth and Fetal Death Reporting",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.bfdr",
+      "description": "Provides guidance to implementers and states on reporting birth and fetal death information based on the current revisions of the U.S. Standard Certificate of Live Birth and U.S. Standard Report of Fetal Death.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/bfdr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/bfdr",
+      "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
+      "editions": [
+        {
+          "name": "STU 1 on FHIR R4 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.bfdr#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/bfdr/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph)",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.medmorph",
+      "description": "Making EHR Data More Available for Research and Public Health (MedMorph) Reference Architecture enables clinical data exchange between EHR systems, public health systems/authorities, data repositories, and research organizations.  This data exchange utilizes if applicable, knowledge repositories and backend services applications (e.g. FHIR APIs) to determine the triggering event(s) for the data exchange, the process for the data exchange, and validation that the data being exchanged meets a set of rules in order to expedite the data exchange. ",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/medmorph/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/medmorph",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.medmorph#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/medmorph/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "SDOH Clinical Care for Multiple Domains",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.sdoh-clinicalcare",
+      "description": "Profiles on FHIR R4 resources (using US Core as the basis where possible) used to document social determinants of health (SDOH) for an individual which covers many different factors considered social risks and social needs, e.g. Food Insecurity, Housing Stability and Quality, Transportation Access and others. The IG covers use cases identified from the clinical care setting that include : assessment of SDOH risks; evaluation of which risks can be addressed; setting goals,  documenting and tracking to completion SDOH interventions; and sharing SDOH information for an individual with organizations for secondary uses.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/sdoh-clinicalcare/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/sdoh-clinicalcare",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-sdoh-clinicalcare",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/2021Jan"
+        }
+      ]
+    },
+    {
+      "name": "CDISC Mapping FHIR IG",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.cdisc-mapping",
+      "description": "This implementation guide defines authoritative mappings between the CDISC LAB, SDTM and CDASH standards and the corresponding HL7 FHIR resources to ease interoperability and data conversion between systems implementing these standards.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/cdisc-mapping/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/cdisc-mapping",
+      "ci-build": "http://build.fhir.org/ig/HL7/cdisc-map",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.cdisc-mapping#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/cdisc-mapping/2021Jan"
+        }
+      ]
     }
   ]
 }
