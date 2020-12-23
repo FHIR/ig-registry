@@ -1795,13 +1795,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-dtr#0.2.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-dtr#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-dtr/2019Sep"
+          "url": "http://hl7.org/fhir/us/davinci-dtr/STU1"
         }
       ]
     },
@@ -2423,13 +2423,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pcde",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-pcde#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-pcde#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pcde/2019Sep"
+          "url": "http://hl7.org/fhir/us/davinci-pcde/STU1"
         }
       ]
     },
