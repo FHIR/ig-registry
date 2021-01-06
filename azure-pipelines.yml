@@ -23,7 +23,7 @@ steps:
       
       f = open("fhir-ig-list.json","r")
       file_contents = f.read()
-      print file_contents
+      print(file_contents)
       json_object = json.loads(file_contents)
 
 - task: PythonScript@0
