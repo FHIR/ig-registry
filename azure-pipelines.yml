@@ -19,3 +19,29 @@ steps:
       file_contents = f.read()
       print file_contents
       json_object = json.loads(file_contents)
+
+- task: PythonScript@0
+  displayName: 'Test all fhir-version fields are lists.'
+  inputs:
+    scriptSource: 'inline'
+    script: |
+      import json
+
+      def item_generator(json_input, lookup_key):
+          if isinstance(json_input, dict):
+              for k, v in json_input.items():
+                  if k == lookup_key:
+                      yield v
+                  else:
+                      yield from item_generator(v, lookup_key)
+          elif isinstance(json_input, list):
+              for item in json_input:
+                  yield from item_generator(item, lookup_key)
+
+      json_file = open("fhir-ig-list.json", "r")
+      file_contents = json_file.read()
+      jdata = json.loads(file_contents)
+
+      for _ in item_generator(jdata, "fhir-version"):
+          if type(_) != list:
+              raise Exception("one of the fhir-version fields has a non-list value, please fix this")
