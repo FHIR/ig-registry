@@ -138,9 +138,7 @@
           "name": "STU 3",
           "ig-version": "3.0.0",
           "package": "hl7.fhir.us.core#3.0.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
+          "fhir-version": "4.0.0",
           "url": "http://hl7.org/fhir/us/core/STU3"
         },
         {
