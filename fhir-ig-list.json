@@ -1761,6 +1761,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
       "editions": [
         {
+          "name": "STU3 Ballot",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.cqfmeasures#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/2021May"
+        },
+        {
           "name": "STU 2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.us.cqfmeasures#2.0.0",
