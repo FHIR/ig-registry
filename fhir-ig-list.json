@@ -3375,6 +3375,56 @@
           "url": "http://hl7.org/fhir/uv/cdisc-mapping/2021Jan"
         }
       ]
+    },
+    {
+      "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.nhsn-ade",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/nhsn-ade/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/nhsn-ade",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-nhsn-ade-ig/branches/main/index.html",
+      "editions": [
+        {
+          "name": "STU 1 on FHIR R4 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.nhsn-ade#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/nhsn-ade/2021May"
+        }
+      ]
+    },
+    {
+      "name": "NHSN Reporting: Inpatient Medication Administration",
+      "category": "Pharmacy",
+      "npm-name": "hl7.fhir.us.nhsn-med-admin",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/nhsn-med-admin/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/nhsn-med-admin",
+      "ci-build": "http://build.fhir.org/ig/HL7/nhsn-med-admin-ig/branches/main/index.html",
+      "editions": [
+        {
+          "name": "STU 1 on FHIR R4 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.nhsn-med-admin#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/nhsn-med-admin/2021May"
+        }
+      ]
     }
   ]
 }
