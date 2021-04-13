@@ -2787,12 +2787,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.security-label-ds4p#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2020May"
+          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021May"
         }
       ]
     },
