@@ -1670,6 +1670,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.uv.smart-app-launch#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/smart-app-launch/2021May"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
@@ -2569,6 +2578,15 @@
       "canonical": "http://hl7.org/fhir/uv/bulkdata",
       "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
+        {
+          "name": "STU 2 (FHIR R4) Ballot",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.uv.bulkdata#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/bulkdata/2021May"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.1",
