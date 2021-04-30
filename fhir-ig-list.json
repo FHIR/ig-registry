@@ -622,15 +622,6 @@
       "ci-build": "http://build.fhir.org/ig/HL7/genomics-reporting",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.genomics-reporting#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/2021May"
-        },
-        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.genomics-reporting#1.0.0",
@@ -727,17 +718,18 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
       "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
+      "canonical": "http://profiles.ihe.net/ITI/MHD",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.3.1",
-          "package": "ihe.mhd.fhir#0.3.1",
+          "name": "Public Comment Ballot",
+          "ig-version": "4.0.0-comment",
+          "package": "ihe.mhd.fhir#4.0.0-comment",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
+          "url": "http://profiles.ihe.net/ITI/MHD/4.0.0-comment"
         }
       ]
     },
@@ -1416,12 +1408,12 @@
       "editions": [
         {
           "name": "STU 1 (FHIR R4) Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.livd#0.3.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.livd#0.2.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/livd/2021Jan"
+          "url": "http://hl7.org/fhir/uv/livd/2019Sep"
         }
       ]
     },
@@ -1505,13 +1497,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-crd",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-crd#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.us.davinci-crd#0.3.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-crd/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-crd/2019May"
         }
       ]
     },
@@ -1670,15 +1662,6 @@
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.smart-app-launch#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2021May"
-        },
-        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
@@ -1779,15 +1762,6 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
       "editions": [
         {
-          "name": "STU3 Ballot",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.cqfmeasures#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2021May"
-        },
-        {
           "name": "STU 2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.us.cqfmeasures#2.0.0",
@@ -1822,13 +1796,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-dtr#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.davinci-dtr#0.2.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-dtr/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-dtr/2019Sep"
         }
       ]
     },
@@ -1920,17 +1894,7 @@
       "history": "http://hl7.org/fhir/us/phcp/history.html",
       "canonical": "http://hl7.org/fhir/us/phcp",
       "ci-build": "http://build.fhir.org/ig/HL7/PhCP",
-      "editions": [
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.phcp#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/phcp/STU1"
-        }
-      ]
+      "editions": []
     },
     {
       "name": "Vital Records Mortality and Morbidity Reporting FHIR IG",
@@ -2372,13 +2336,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-epdx",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-pdex#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pdex#0.1.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-pdex/2019Jun"
         }
       ]
     },
@@ -2460,13 +2424,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pcde",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-pcde#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pcde#0.1.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pcde/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-pcde/2019Sep"
         }
       ]
     },
@@ -2504,13 +2468,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-recommendations",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.cpg#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.cpg#0.1.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/cpg/STU1"
+          "url": "http://hl7.org/fhir/uv/cpg/2019Sep"
         }
       ]
     },
@@ -2525,15 +2489,6 @@
       "canonical": "http://hl7.org/fhir/us/mcode",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig",
       "editions": [
-        {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.16.0",
-          "package": "hl7.fhir.us.mcode#1.16.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/mcode/2021May"
-        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -2557,13 +2512,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pas",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-pas#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pas#0.1.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pas/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-pas/2019Sep"
         }
       ]
     },
@@ -2578,15 +2533,6 @@
       "canonical": "http://hl7.org/fhir/uv/bulkdata",
       "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
-        {
-          "name": "STU 2 (FHIR R4) Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.bulkdata#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/bulkdata/2021May"
-        },
         {
           "name": "STU 1",
           "ig-version": "1.0.1",
@@ -2647,13 +2593,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-plan-net",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-pdex-plan-net#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pdex-plan-net#0.1.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/2020Feb"
         }
       ]
     },
@@ -2772,13 +2718,13 @@
       ],
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-atr#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-atr#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-atr/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-atr/2020Feb"
         }
       ]
     },
@@ -2832,12 +2778,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#0.2.0",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.security-label-ds4p#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021May"
+          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2020May"
         }
       ]
     },
@@ -2930,15 +2876,6 @@
       ],
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-formulary",
       "editions": [
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1.0.1"
-        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -3108,16 +3045,26 @@
       "authority": "IHE",
       "country": "uv",
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
-      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
-      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode/",
+      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
+      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
       "editions": [
         {
-          "name": "Normative 2020",
-          "ig-version": "0.2.2",
+          "name": "Publications",
+          "ig-version": "0.2.4",
+          "package": "ihe.formatcode.fhir#0.2.4",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
+        },
+        {
+          "name": "Publications",
+          "ig-version": "0.2.2",
+          "package": "ihe.formatcode.fhir#0.2.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
         }
       ]
     },
@@ -3418,56 +3365,6 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/cdisc-mapping/2021Jan"
-        }
-      ]
-    },
-    {
-      "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
-      "category": "Public Health",
-      "npm-name": "hl7.fhir.us.nhsn-ade",
-      "description": "??",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/nhsn-ade/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/nhsn-ade",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-nhsn-ade-ig/branches/main/index.html",
-      "editions": [
-        {
-          "name": "STU 1 on FHIR R4 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.nhsn-ade#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/nhsn-ade/2021May"
-        }
-      ]
-    },
-    {
-      "name": "NHSN Reporting: Inpatient Medication Administration",
-      "category": "Pharmacy",
-      "npm-name": "hl7.fhir.us.nhsn-med-admin",
-      "description": "??",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/nhsn-med-admin/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/nhsn-med-admin",
-      "ci-build": "http://build.fhir.org/ig/HL7/nhsn-med-admin-ig/branches/main/index.html",
-      "editions": [
-        {
-          "name": "STU 1 on FHIR R4 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.nhsn-med-admin#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/nhsn-med-admin/2021May"
         }
       ]
     }
