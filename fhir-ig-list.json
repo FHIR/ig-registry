@@ -727,8 +727,9 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
       "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
+      "canonical": "http://profiles.ihe.net/ITI/MHD",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
       "editions": [
         {
           "name": "R4 Trial-Implementation",
@@ -738,6 +739,15 @@
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
+        },
+        {
+          "name": "Public Comment Ballot",
+          "ig-version": "4.0.0-comment",
+          "package": "ihe.mhd.fhir#4.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/MHD/4.0.0-comment"
         }
       ]
     },
@@ -3109,15 +3119,26 @@
       "country": "uv",
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
-      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode/",
+      "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
+      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
       "editions": [
         {
-          "name": "Normative 2020",
-          "ig-version": "0.2.2",
+          "name": "Publications",
+          "ig-version": "0.2.4",
+          "package": "ihe.formatcode.fhir#0.2.4",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/2020Aug"
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
+        },
+        {
+          "name": "Publications",
+          "ig-version": "0.2.2",
+          "package": "ihe.formatcode.fhir#0.2.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
         }
       ]
     },
