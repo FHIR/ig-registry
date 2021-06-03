@@ -3118,7 +3118,6 @@
       "authority": "IHE",
       "country": "uv",
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
-      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/",
       "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
       "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
       "editions": [
