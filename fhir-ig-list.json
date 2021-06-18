@@ -3499,7 +3499,7 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/nhsn-med-admin/2021May"
-        }
+        },
         {
           "name": "HL7 Norway no-basis",
           "category": "National Base",
