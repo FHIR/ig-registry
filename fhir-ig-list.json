@@ -3500,6 +3500,29 @@
           ],
           "url": "http://hl7.org/fhir/us/nhsn-med-admin/2021May"
         }
+        {
+          "name": "HL7 Norway no-basis",
+          "category": "National Base",
+          "npm-name": "hl7.fhir.no.basis",
+          "description": "HL7 FHIR Base profiles for Norway",
+          "authority": "HL7",
+          "country": "no",
+          "language": [
+            "en"
+          ],
+          "canonical": "http://hl7.no/fhir/",
+          "editions": [
+            {
+              "name": "HL7 Norway no-basis",
+              "ig-version": "2.0.15",
+              "package": "hl7.fhir.no.basis#2.0.15",
+              "fhir-version": [
+                "4.0.1"
+              ],
+              "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
+            }
+          ]
+        }
       ]
     }
   ]
