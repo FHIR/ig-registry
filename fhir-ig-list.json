@@ -743,22 +743,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.3.1",
-          "package": "ihe.mhd.fhir#0.3.1",
+          "name": "Trial Implementation",
+          "ig-version": "4.0.1",
+          "package": "ihe.mhd.fhir#4.0.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)"
-        },
-        {
-          "name": "Public Comment Ballot",
-          "ig-version": "4.0.0-comment",
-          "package": "ihe.mhd.fhir#4.0.0-comment",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/MHD/4.0.0-comment"
+          "url": "http://profiles.ihe.net/ITI/MHD/4.0.1"
         }
       ]
     },
@@ -3132,6 +3123,15 @@
       "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
       "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
       "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.0.0",
+          "package": "ihe.formatcode.fhir#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
+        },
         {
           "name": "Publications",
           "ig-version": "0.2.4",
