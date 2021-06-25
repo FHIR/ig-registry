@@ -1354,31 +1354,6 @@
       ]
     },
     {
-      "name": "Immunization Decision Support",
-      "category": "Medications / Immunizations",
-      "npm-name": "hl7.fhir.uv.imm-ds",
-      "description": "A common FHIR implementation guide that expert systems may use to provide a common consistent interface enable decisioin support recommending which vaccinations a patient is due for next",
-      "authority": "HL7",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://hl7.org/fhir/uv/immds/history.html",
-      "canonical": "http://hl7.org/fhir/uv/immds",
-      "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
-      "editions": [
-        {
-          "name": "Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.imm-ds#0.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/immds/2018Jan"
-        }
-      ]
-    },
-    {
       "name": "Electronic Case Reporting",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.ecr",
@@ -1691,6 +1666,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.uv.smart-app-launch#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/smart-app-launch/2021May"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
@@ -1991,31 +1975,6 @@
             "4.0.0"
           ],
           "url": "http://hl7.org/fhir/us/womens-health-registries/2019May"
-        }
-      ]
-    },
-    {
-      "name": "CDS-Immunization Forecast FHIR IG",
-      "category": "Medications / Immunizations",
-      "npm-name": "hl7.fhir.uv.immds",
-      "description": "Clinical Decision Support for Immunizations indicates which vaccinations a patient is due for next",
-      "authority": "HL7",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://hl7.org/fhir/uv/immds/history.html",
-      "canonical": "http://hl7.org/fhir/uv/immds",
-      "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.immds#0.2.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/immds/2019Sep"
         }
       ]
     },
@@ -3499,31 +3458,81 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/nhsn-med-admin/2021May"
-        },
+        }
+      ]
+    },
+    {
+      "name": "HL7 Norway no-basis",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.no.basis",
+      "description": "HL7 FHIR Base profiles for Norway",
+      "authority": "HL7",
+      "country": "no",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.no/fhir/",
+      "editions": [
         {
           "name": "HL7 Norway no-basis",
-          "category": "National Base",
-          "npm-name": "hl7.fhir.no.basis",
-          "description": "HL7 FHIR Base profiles for Norway",
-          "authority": "HL7",
-          "country": "no",
-          "language": [
-            "en"
+          "ig-version": "2.0.15",
+          "package": "hl7.fhir.no.basis#2.0.15",
+          "fhir-version": [
+            "4.0.1"
           ],
-          "canonical": "http://hl7.no/fhir/",
-          "editions": [
-            {
-              "name": "HL7 Norway no-basis",
-              "ig-version": "2.0.15",
-              "package": "hl7.fhir.no.basis#2.0.15",
-              "fhir-version": [
-                "4.0.1"
-              ],
-              "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
-            }
-          ]
+          "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
+        }
+     ]
+    },
+    {
+      "name": "Clinical Quality Language Specification",
+      "category": "infrastructure",
+      "npm-name": "hl7.cql",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://cql.hl7.org/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://cql.hl7.org",
+      "ci-build": "http://build.fhir.org/ig/HL7/cql",
+      "editions": [
+        {
+          "name": "Normative Normative",
+          "ig-version": "1.5.1",
+          "package": "hl7.cql#1.5.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://cql.hl7.org/N1"
+        }
+      ]
+    },
+    {
+      "name": "Immunization Decision Support Forecast FHIR IG",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.us.immds",
+      "description": "A common FHIR implementation guide that expert systems may use to provide a common consistent interface enable decisioin support recommending which vaccinations a patient is due for next",
+      "authority": "HL7",
+      "country": "us",
+      "language": [
+        "en"
+      ],
+      "history": "http://hl7.org/fhir/us/immds/history.html",
+      "canonical": "http://hl7.org/fhir/us/immds",
+      "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.immds#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/immds/STU1"
         }
       ]
     }
-  ]
+  ] 
 }
