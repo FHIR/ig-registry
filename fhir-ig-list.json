@@ -119,6 +119,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
       "editions": [
         {
+          "name": "STU4",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.core#4.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU4.0.0"
+        },
+        {
           "name": "STU3",
           "ig-version": "3.2.0",
           "package": "hl7.fhir.us.core#3.2.0",
