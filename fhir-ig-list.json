@@ -125,7 +125,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/STU4.0.0"
+          "url": "http://hl7.org/fhir/us/core/STU4"
         },
         {
           "name": "STU3",
@@ -2776,6 +2776,15 @@
         "en"
       ],
       "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.carin-bb#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-bb/STU1.1"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
