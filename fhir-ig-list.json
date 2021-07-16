@@ -3560,6 +3560,31 @@
           "url": "http://hl7.org/fhir/us/immds/STU1"
         }
       ]
+    },
+    {
+      "name": "Vaccination Certificates-TW",
+      "category": "Immunication",
+      "npm-name": "hitstdio.tw.fhir.dgc",
+      "description": "??",
+      "authority": "HITSTD",
+      "country": "tw",
+      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hitstdio.ntunhs.edu.tw/fhir/",
+      "ci-build": "https://build.fhir.org/ig/hitstdio/dgc-tw-test/",
+      "editions": [
+        {
+          "name": "STU 1 on FHIR R4 Ballot",
+          "ig-version": "0.0.1",
+          "package": "hitstdio.tw.fhir.dgc",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://build.fhir.org/ig/hitstdio/dgc-tw-test/"
+        }
+      ]
     }
   ] 
 }
