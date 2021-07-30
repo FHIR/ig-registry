@@ -3509,7 +3509,7 @@
           ],
           "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
         }
-     ]
+      ]
     },
     {
       "name": "Clinical Quality Language Specification",
@@ -3560,6 +3560,40 @@
           "url": "http://hl7.org/fhir/us/immds/STU1"
         }
       ]
+    },
+    {
+      "name": "IHE Patient Identity Cross-Reference for mobile",
+      "category": "EHR Access",
+      "npm-name": "IHE.ITI.PIXm",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://profiles.ihe.net/ITI/PIXm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
+      "editions": [
+        {
+          "name": "Public Comment Ballot",
+          "ig-version": "2.2.0",
+          "package": "IHE.ITI.PIXm#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/PIXm/2.2.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.1.0",
+          "package": "IHE.ITI.PIXm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
+        }
+      ]
     }
-  ] 
+  ]
 }
