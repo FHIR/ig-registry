@@ -3558,6 +3558,15 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/immds/STU1"
+        },
+		{
+          "name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.immds#0.2.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/immds/2019Sep"
         }
       ]
     },
@@ -3592,6 +3601,31 @@
             "4.0.1"
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Profiles for ICSR Transfusion and Vaccination Adverse Event Detection and Reporting",
+      "category": "Pharmaceutical",
+      "npm-name": "hl7.fhir.us.icsr-ae-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/icsr-ae-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/icsr-ae-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/icsr-ae-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.icsr-ae-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/2021Sep"
         }
       ]
     }
