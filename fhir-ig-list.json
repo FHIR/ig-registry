@@ -3403,13 +3403,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-sdoh-clinicalcare",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/2021Jan"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
         }
       ]
     },
@@ -3626,6 +3626,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/icsr-ae-reporting/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "Immunization Decision Support Forecast FHIR IG",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.uv.immds",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/immds/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/immds",
+      "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.immds#0.2.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/immds/2019Sep"
         }
       ]
     }
