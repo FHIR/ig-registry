@@ -3653,6 +3653,31 @@
           "url": "http://hl7.org/fhir/uv/immds/2019Sep"
         }
       ]
+    },
+    {
+      "name": "Security for Scalable Registration, Authentication, and Authorization",
+      "category": "Security",
+      "npm-name": "hl7.fhir.us.udap-security",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/udap-security/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.udap-security#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/udap-security/2021Sep"
+        }
+      ]
     }
   ]
 }
