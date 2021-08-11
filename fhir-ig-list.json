@@ -3737,6 +3737,31 @@
           "url": "http://hl7.org/fhir/us/cancer-reporting/2021Sep"
         }
       ]
+    },
+    {
+      "name": "HL7 FHIR® Implementation Guide: Ophthalmology Retinal, Release 1",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.eyecare",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/eyecare/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/eyecare",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-eyecare-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.eyecare#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/eyecare/2021Sep"
+        }
+      ]
     }
   ]
 }
