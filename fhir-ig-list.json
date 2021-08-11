@@ -3596,7 +3596,7 @@
       ]
     },
     {
-      "name": "Vaccination Certificates-TW",
+      "name": "Taiwan Digital COVID-19 Certificate",
       "category": "Immunication and Observation",
       "npm-name": "hitstdio.tw.fhir.dcc",
       "description": "Taiwan Digital COVID-19 Certificate",
