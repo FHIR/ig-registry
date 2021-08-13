@@ -3762,6 +3762,31 @@
           "url": "http://hl7.org/fhir/uv/eyecare/2021Sep"
         }
       ]
+    },
+    {
+      "name": "SMART Health Cards Vaccination and Testing, Release 1 | STU 1",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.uv.shc-vaccination",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/shc-vaccination/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/shc-vaccination",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-shc-vaccination-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.6.2",
+          "package": "hl7.fhir.uv.shc-vaccination#0.6.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/shc-vaccination/2021Sep"
+        }
+      ]
     }
   ]
 }
