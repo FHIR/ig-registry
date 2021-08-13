@@ -3787,6 +3787,31 @@
           "url": "http://hl7.org/fhir/uv/shc-vaccination/2021Sep"
         }
       ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide for Military Service History and Status",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.us.military-service",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/military-service/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/military-service",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-military-service",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.military-service#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/military-service/2021Sep"
+        }
+      ]
     }
   ]
 }
