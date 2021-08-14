@@ -1439,10 +1439,12 @@
           "name": "STU 1 Draft",
           "ig-version": "0.1.0",
           "package": "hl7.fhir.uv.pocd#0.1.0",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.pocd#0.3.0",
           "fhir-version": [
-            "3.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/pocd/2018Jan"
+          "url": "http://hl7.org/fhir/uv/pocd/2021Sep"
         }
       ]
     },
