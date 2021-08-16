@@ -3594,6 +3594,31 @@
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
         }
       ]
+    },
+    {
+      "name": "Taiwan Digital COVID-19 Certificate",
+      "category": "Immunication and Observation",
+      "npm-name": "hitstdio.tw.fhir.dcc",
+      "description": "Taiwan Digital COVID-19 Certificate",
+      "authority": "HITSTD (will be replaced by Taiwan Ministry of Health and Welfare)",
+      "country": "tw",
+      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hitstdio.ntunhs.edu.tw/fhir/",
+      "ci-build": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
+      "editions": [
+        {
+          "name": "draft for testing",
+          "ig-version": "0.0.1",
+          "package": "hitstdio.tw.fhir.dcc",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/"
+        }
+      ]
     }
   ]
 }
