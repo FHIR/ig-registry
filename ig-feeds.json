@@ -1,0 +1,115 @@
+{
+  "feeds": [
+    {
+      "name": "HL7.org Publications",
+      "url": "http://hl7.org/fhir/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
+      "name": "Common HL7 Terminology",
+      "url": "http://terminology.hl7.org/package-feed.xml",
+      "errors": "utg|hl7_org"
+    },
+    {
+      "name": "FHIR Foundation Guides",
+      "url": "http://fhir.org/guides/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
+      "name": "FHIR Foundation Support Packages",
+      "url": "http://fhir.org/packages/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
+      "name": "FHIR Foundation Publishing Templates",
+      "url": "http://fhir.org/templates/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
+      "name": "Simplifier",
+      "url": "http://simplifier.net/package-feed.xml",
+      "errors": "ward|fire_ly"
+    },
+    {
+      "name": "HL7 Australia",
+      "url": "http://hl7.org.au/fhir/package-feed.xml",
+      "errors": "brett_esler|oridashi_com_au "
+    },
+    {
+      "name": "HL7 Switzerland",
+      "url": "http://fhir.ch/package-feed.xml",
+      "errors": "oliver_egger|ahdis_ch"
+    },
+    {
+      "name": "mednet.swiss",
+      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "errors": "david_gutknecht|novcom_swiss"
+    },
+    {
+      "name": "David Hay packages (Interim name)",
+      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
+      "errors": "david_hay|clinfhir_com"
+    },
+    {
+      "name": "IHE International",
+      "url": "https://profiles.ihe.net/fhir/package-feed.xml",
+      "errors": "secretary|ihe_net"
+    }
+  ],
+  "package-restrictions": [
+    {
+      "mask": "hl7.fhir.au.*",
+      "feeds": [
+        "http://hl7.org.au/fhir/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.fhir.nz.*",
+      "feeds": [
+        "http://igs.clinfhir.com/packages/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.fhir.*",
+      "feeds": [
+        "http://hl7.org/fhir/package-feed.xml",
+        "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.tx.*",
+      "feeds": [
+        "http://terminology.hl7.org/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "fhir.*",
+      "feeds": [
+        "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml",
+        "http://fhir.org/guides/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hl7.au.fhir.*",
+      "feeds": [
+        "http://hl7.org.au/fhir/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "ch.fhir.ig.*",
+      "feeds": [
+        "http://fhir.ch/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "ihe.*",
+      "feeds": [
+        "http://profiles.ihe.net/fhir/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
+      ]
+    }
+  ]
+}  
