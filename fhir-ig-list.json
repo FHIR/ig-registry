@@ -87,6 +87,7 @@
       "mask": "fhir.*",
       "feeds": [
         "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml",
         "http://fhir.org/guides/package-feed.xml"
       ]
     },
