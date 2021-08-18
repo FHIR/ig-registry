@@ -94,7 +94,8 @@
     {
       "mask": "hl7.au.fhir.*",
       "feeds": [
-        "http://hl7.org.au/fhir/package-feed.xml"
+        "http://hl7.org.au/fhir/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
       ]
     },
     {
