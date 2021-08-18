@@ -73,7 +73,8 @@
       "mask": "hl7.fhir.*",
       "feeds": [
         "http://hl7.org/fhir/package-feed.xml",
-        "http://fhir.org/packages/package-feed.xml"
+        "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
       ]
     },
     {
