@@ -21,6 +21,11 @@
       "errors": "grahame|fhir_org"
     },
     {
+      "name": "FHIR Foundation Publishing Templates",
+      "url": "http://fhir.org/templates/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "Simplifier",
       "url": "http://simplifier.net/package-feed.xml",
       "errors": "ward|fire_ly"
