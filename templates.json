@@ -1,0 +1,23 @@
+{
+  "explanation" : "This file defines the authoritative GitHub repositories for known templates",
+  "ch.fhir.ig.template" : "hl7ch/ig-template",
+	"cqf.fhir.content.template" : "cqframework/cqf-content-ig-template",
+	"cqf.fhir.template" : "cqframework/cqf-ig-template",
+	"cqf.opioidcds.fhir.template" : "cqframework/cqf-opioidcds-ig-template",
+	"derm.template" : "liambarnes/dermatology-ig",
+	"fhir.base.template" : "HL7/ig-template-base",
+	"fhir.ca.template" : "HL7/ig-template-ca/branches/main",
+	"fhir.test.template" : "FHIR/test-template",
+	"hl7.au.base.template" : "hl7au/hl7.au.base.template",
+	"hl7.au.fhir.template" : "hl7au/hl7.au.fhir.template",
+	"hl7.base.template" : "HL7/ig-template-hl7",
+	"hl7.be.fhir.template" : "hl7-be/hl7.be.fhir.template",
+	"hl7.cda.template" : "HL7/ig-template-cda",
+	"hl7.davinci.template" : "HL7/ig-template-davinci",
+	"hl7.fhir.template" : "HL7/ig-template-fhir",
+	"hl7.gravity.template" : "HL7/ig-template-gravity",
+	"hl7.utg.template" : "HL7/ig-template-utg",
+	"ihe.fhir.template" : "IHE/ihe-ig-template",
+	"openhie.fhir.template" : "openhie/openhie-ig-template",
+	"who.fhir.template" : "WorldHealthOrganization/smart-ig"
+}
