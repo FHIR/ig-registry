@@ -1436,9 +1436,7 @@
       "ci-build": "http://build.fhir.org/ig/HL7/uv-pocd",
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.pocd#0.1.0",
+          "name": "STU 1 Ballot",
           "ig-version": "0.3.0",
           "package": "hl7.fhir.uv.pocd#0.3.0",
           "fhir-version": [
