@@ -51,6 +51,11 @@
       "errors": "david_hay|clinfhir_com"
     },
     {
+      "name": "HITSTDIO IG Packages",
+      "url": "http://leelab.ntunhs.edu.tw/ig/packages/package-feed.xml",
+      "errors": "hitstd|hitstd_tw"
+    },
+    {
       "name": "IHE International",
       "url": "https://profiles.ihe.net/fhir/package-feed.xml",
       "errors": "secretary|ihe_net"
@@ -102,6 +107,12 @@
       "mask": "ch.fhir.ig.*",
       "feeds": [
         "http://fhir.ch/package-feed.xml"
+      ]
+    },
+    {
+      "mask": "hitstdio.tw.fhir.*",
+      "feeds": [
+        "http://leelab.ntunhs.edu.tw/ig/packages/package-feed.xml"
       ]
     },
     {
@@ -1445,9 +1456,9 @@
       "ci-build": "http://build.fhir.org/ig/HL7/uv-pocd",
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.pocd#0.1.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.pocd#0.3.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1971,8 +1982,8 @@
       "editions": [
         {
           "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.vrdr#1.1.0",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.vrdr#1.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -3455,13 +3466,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-map",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.cdisc-mapping#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cdisc-mapping#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cdisc-mapping/2021Jan"
+          "url": "http://hl7.org/fhir/uv/cdisc-mapping/STU1"
         }
       ]
     },
@@ -3827,23 +3838,48 @@
       "category": "Immunication and Observation",
       "npm-name": "hitstdio.tw.fhir.dcc",
       "description": "Taiwan Digital COVID-19 Certificate",
-      "authority": "HITSTD (will be replaced by Taiwan Ministry of Health and Welfare)",
+      "authority": "HITSTD",
       "country": "tw",
       "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
       "language": [
         "en"
       ],
-      "canonical": "http://hitstdio.ntunhs.edu.tw/fhir/",
+      "canonical": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
       "ci-build": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
       "editions": [
         {
-          "name": "draft for testing",
+          "name": "0.0.1",
           "ig-version": "0.0.1",
-          "package": "hitstdio.tw.fhir.dcc",
+          "package": "hitstdio.tw.fhir.dcc#0.0.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/"
+        }
+      ]
+    },
+    {
+      "name": "Logica COVID-19 FHIR Profile Library IG",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.covid19library",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/covid19library/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/covid19library",
+      "ci-build": "http://build.fhir.org/ig/HL7/covid19library",
+      "editions": [
+        {
+          "name": "Drafts Ballot",
+          "ig-version": "0.13.0",
+          "package": "hl7.fhir.us.covid19library#0.13.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
         }
       ]
     }
