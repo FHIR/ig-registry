@@ -3380,13 +3380,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
       "editions": [
         {
-          "name": "STU 1 on FHIR R4 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.bfdr#0.1.0",
+          "name": "STU 1 on FHIR R4",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.bfdr#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/2021Jan"
+          "url": "http://hl7.org/fhir/us/bfdr/STU1"
         }
       ]
     },
