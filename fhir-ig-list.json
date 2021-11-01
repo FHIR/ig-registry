@@ -3604,6 +3604,40 @@
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
         }
       ]
+    },
+    {
+      "name": "IHE Patient Identifier Cross-referencing for mobile",
+      "category": "EHR Access",
+      "npm-name": "IHE.ITI.PIXm",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://profiles.ihe.net/ITI/PIXm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
+      "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.2.1",
+          "package": "IHE.ITI.PIXm#2.2.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/PIXm/2.2.1"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.1.0",
+          "package": "IHE.ITI.PIXm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
+        }
+      ]
     }
   ]
 }
