@@ -773,16 +773,26 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
-      "canonical": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
+      "canonical": "http://profiles.ihe.net/ITI/PDQm",
+      "ci-build": "http://build.fhir.org/ig/IHE/PDQm",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.pdqm.fhir#0.2.1",
+          "name": "Public Comment",
+          "ig-version": "2.2.2",
+          "package": "ihe.pdqm.fhir#2.2.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)"
+          "url": "http://profiles.ihe.net/ITI/PDQm/2.2.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.2.0",
+          "package": "ihe.pdqm.fhir#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
         }
       ]
     },
@@ -3509,7 +3519,7 @@
           ],
           "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
         }
-     ]
+      ]
     },
     {
       "name": "Clinical Quality Language Specification",
@@ -3560,6 +3570,40 @@
           "url": "http://hl7.org/fhir/us/immds/STU1"
         }
       ]
+    },
+    {
+      "name": "Patient Demographics Query for Mobile",
+      "category": "??",
+      "npm-name": "IHE.ITI.PDQm",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://profiles.ihe.net/ITI/PDQm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://profiles.ihe.net/ITI/PDQm",
+      "ci-build": "http://build.fhir.org/ig/IHE/PDQm",
+      "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.2.2",
+          "package": "IHE.ITI.PDQm#2.2.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.2.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.2.0",
+          "package": "IHE.ITI.PDQm#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
+        }
+      ]
     }
-  ] 
+  ]
 }
