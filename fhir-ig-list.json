@@ -753,6 +753,15 @@
       "editions": [
         {
           "name": "Trial Implementation",
+          "ig-version": "4.0.2",
+          "package": "ihe.mhd.fhir#4.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/MHD/4.0.2"
+        },
+        {
+          "name": "Trial Implementation",
           "ig-version": "4.0.1",
           "package": "ihe.mhd.fhir#4.0.1",
           "fhir-version": [
