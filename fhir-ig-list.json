@@ -3255,13 +3255,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.pacio-fs#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.pacio-fs#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-fs/2021Jan"
+          "url": "http://hl7.org/fhir/us/pacio-fs/STU1"
         }
       ]
     },
@@ -3280,13 +3280,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.pacio-cs#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.pacio-cs#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-cs/2021Jan"
+          "url": "http://hl7.org/fhir/us/pacio-cs/STU1"
         }
       ]
     },
