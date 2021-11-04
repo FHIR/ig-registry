@@ -3591,17 +3591,17 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/PDQm",
       "ci-build": "http://build.fhir.org/ig/IHE/PDQm",
+      "canonical": "https://profiles.ihe.net/ITI/PDQm",
       "editions": [
         {
           "name": "Trial Implementation",
-          "ig-version": "2.2.2",
-          "package": "IHE.ITI.PDQm#2.2.2",
+          "ig-version": "2.3.0",
+          "package": "IHE.ITI.PDQm#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/2.2.2"
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
         },
         {
           "name": "Trial Implementation",
