@@ -768,6 +768,15 @@
             "4.0.1"
           ],
           "url": "http://profiles.ihe.net/ITI/MHD/4.0.1"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.2.0",
+          "package": "ihe.mhd.fhir#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
         }
       ]
     },
@@ -3591,8 +3600,8 @@
       "language": [
         "en"
       ],
-      "ci-build": "http://build.fhir.org/ig/IHE/PDQm",
       "canonical": "https://profiles.ihe.net/ITI/PDQm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PDQm/branches/main",
       "editions": [
         {
           "name": "Trial Implementation",
@@ -3610,7 +3619,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
         }
       ]
     },
@@ -3625,17 +3634,17 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/PIXm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
+      "canonical": "http://profiles.ihe.net/ITI/PIXm",
       "editions": [
         {
           "name": "Trial Implementation",
-          "ig-version": "2.2.1",
-          "package": "IHE.ITI.PIXm#2.2.1",
+          "ig-version": "3.0.0",
+          "package": "IHE.ITI.PIXm#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/PIXm/2.2.1"
+          "url": "http://profiles.ihe.net/ITI/PIXm/3.0.0"
         },
         {
           "name": "Trial Implementation",
@@ -3644,7 +3653,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
         }
       ]
     }
