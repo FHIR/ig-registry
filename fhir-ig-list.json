@@ -21,6 +21,11 @@
       "errors": "grahame|fhir_org"
     },
     {
+      "name": "FHIR Foundation Publishing Templates",
+      "url": "http://fhir.org/templates/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "Simplifier",
       "url": "http://simplifier.net/package-feed.xml",
       "errors": "ward|fire_ly"
@@ -46,6 +51,11 @@
       "errors": "david_hay|clinfhir_com"
     },
     {
+      "name": "HITSTDIO IG Packages",
+      "url": "http://leelab.ntunhs.edu.tw/ig/packages/package-feed.xml",
+      "errors": "hitstd|hitstd_tw"
+    },
+    {
       "name": "IHE International",
       "url": "https://profiles.ihe.net/fhir/package-feed.xml",
       "errors": "secretary|ihe_net"
@@ -68,7 +78,8 @@
       "mask": "hl7.fhir.*",
       "feeds": [
         "http://hl7.org/fhir/package-feed.xml",
-        "http://fhir.org/packages/package-feed.xml"
+        "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
       ]
     },
     {
@@ -81,13 +92,15 @@
       "mask": "fhir.*",
       "feeds": [
         "http://fhir.org/packages/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml",
         "http://fhir.org/guides/package-feed.xml"
       ]
     },
     {
       "mask": "hl7.au.fhir.*",
       "feeds": [
-        "http://hl7.org.au/fhir/package-feed.xml"
+        "http://hl7.org.au/fhir/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
       ]
     },
     {
@@ -97,9 +110,16 @@
       ]
     },
     {
+      "mask": "hitstdio.tw.fhir.*",
+      "feeds": [
+        "http://leelab.ntunhs.edu.tw/ig/packages/package-feed.xml"
+      ]
+    },
+    {
       "mask": "ihe.*",
       "feeds": [
-        "http://profiles.ihe.net/fhir/package-feed.xml"
+        "http://profiles.ihe.net/fhir/package-feed.xml",
+        "http://fhir.org/templates/package-feed.xml"
       ]
     }
   ],
@@ -1464,13 +1484,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/uv-pocd",
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.pocd#0.1.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.pocd#0.3.0",
           "fhir-version": [
-            "3.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/pocd/2018Jan"
+          "url": "http://hl7.org/fhir/uv/pocd/2021Sep"
         }
       ]
     },
@@ -1988,6 +2008,15 @@
       "canonical": "http://hl7.org/fhir/us/vrdr",
       "ci-build": "http://build.fhir.org/ig/HL7/vrdr",
       "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.vrdr#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/vrdr/2021Sep"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -2858,12 +2887,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#0.2.0",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.security-label-ds4p#0.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021May"
+          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021Sep"
         }
       ]
     },
@@ -2881,6 +2910,15 @@
         "en"
       ],
       "editions": [
+        {
+          "name": "N1 Ballot",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.uv.shorthand#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/shorthand/2021Sep"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -3206,13 +3244,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.saner#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.saner#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/saner/2021Jan"
+          "url": "http://hl7.org/fhir/uv/saner/STU1"
         }
       ]
     },
@@ -3431,13 +3469,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-sdoh-clinicalcare",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/2021Jan"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
         }
       ]
     },
@@ -3456,13 +3494,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-map",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.cdisc-mapping#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cdisc-mapping#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cdisc-mapping/2021Jan"
+          "url": "http://hl7.org/fhir/uv/cdisc-mapping/STU1"
         }
       ]
     },
@@ -3654,6 +3692,257 @@
             "4.0.1"
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Profiles for ICSR Transfusion and Vaccination Adverse Event Detection and Reporting",
+      "category": "Pharmaceutical",
+      "npm-name": "hl7.fhir.us.icsr-ae-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/icsr-ae-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/icsr-ae-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/icsr-ae-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.icsr-ae-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "Immunization Decision Support Forecast FHIR IG",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.uv.immds",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/immds/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/immds",
+      "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.immds#0.2.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/immds/2019Sep"
+        }
+      ]
+    },
+    {
+      "name": "Security for Scalable Registration, Authentication, and Authorization",
+      "category": "Security",
+      "npm-name": "hl7.fhir.us.udap-security",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/udap-security/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.udap-security#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/udap-security/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "Single Institutional Review Board (sIRB) Implementation Guide",
+      "category": "Research",
+      "npm-name": "hl7.fhir.us.sirb",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/sirb/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/sirb",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-sirb",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.sirb#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/sirb/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "Sharing eCC Data from Pathology Labs to EHR",
+      "category": "Documents",
+      "npm-name": "hl7.fhir.us.cancer-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/cancer-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/cancer-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/cancer-reporting",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.cancer-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cancer-reporting/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR® Implementation Guide: Ophthalmology Retinal, Release 1",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.eyecare",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/eyecare/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/eyecare",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-eyecare-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.eyecare#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/eyecare/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "SMART Health Cards Vaccination and Testing, Release 1 | STU 1",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.uv.shc-vaccination",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/shc-vaccination/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/shc-vaccination",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-shc-vaccination-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.6.2",
+          "package": "hl7.fhir.uv.shc-vaccination#0.6.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/shc-vaccination/2021Sep"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide for Military Service History and Status",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.us.military-service",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/military-service/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/military-service",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-military-service",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.military-service#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/military-service/2021Sep"
+        }  
+      ]
+    },
+    {
+      "name": "Taiwan Digital COVID-19 Certificate",
+      "category": "Immunication and Observation",
+      "npm-name": "hitstdio.tw.fhir.dcc",
+      "description": "Taiwan Digital COVID-19 Certificate",
+      "authority": "HITSTD",
+      "country": "tw",
+      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
+      "ci-build": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
+      "editions": [
+        {
+          "name": "0.0.1",
+          "ig-version": "0.0.1",
+          "package": "hitstdio.tw.fhir.dcc#0.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/"
+        }
+      ]
+    },
+    {
+      "name": "Logica COVID-19 FHIR Profile Library IG",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.covid19library",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/covid19library/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/covid19library",
+      "ci-build": "http://build.fhir.org/ig/HL7/covid19library",
+      "editions": [
+        {
+          "name": "Drafts Ballot",
+          "ig-version": "0.13.0",
+          "package": "hl7.fhir.us.covid19library#0.13.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
+
         }
       ]
     }
