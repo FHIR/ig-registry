@@ -766,11 +766,20 @@
       "language": [
         "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)",
+      "history": "http://profiles.ihe.net/ITI/MHD/history.html",
       "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
       "canonical": "http://profiles.ihe.net/ITI/MHD",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
       "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "4.0.2",
+          "package": "ihe.mhd.fhir#4.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/MHD/4.0.2"
+        },
         {
           "name": "Trial Implementation",
           "ig-version": "4.0.1",
@@ -779,54 +788,92 @@
             "4.0.1"
           ],
           "url": "http://profiles.ihe.net/ITI/MHD/4.0.1"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.2.0",
+          "package": "ihe.mhd.fhir#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
         }
       ]
     },
     {
       "name": "Patient Demographics Query for Mobile (PDQm)",
       "category": "Administration",
-      "npm-name": "ihe.pdqm.fhir",
+      "npm-name": "IHE.ITI.PDQm",
       "description": "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
       "language": [
         "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
-      "canonical": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)",
+      "history": "http://profiles.ihe.net/ITI/PDQm/history.html",
+      "canonical": "http://profiles.ihe.net/ITI/PDQm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PDQm/branches/main",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.pdqm.fhir#0.2.1",
+          "name": "Trial Implementation",
+          "ig-version": "2.3.0",
+          "package": "IHE.ITI.PDQm#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Patient_Demographics_Query_for_Mobile_(PDQm)"
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
+        },
+        {
+          "name": "Public Comment",
+          "ig-version": "2.2.2",
+          "package": "ihe.pdqm.fhir#2.2.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/PDQm/2.2.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.2.0",
+          "package": "ihe.pdqm.fhir#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
         }
       ]
     },
     {
       "name": "Patient Identifier Cross-Reference for Mobile (PIXm)",
       "category": "Administration",
-      "npm-name": "ihe.pixm.fhir",
+      "npm-name": "IHE.ITI.PIXm",
       "description": "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
+      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
       "language": [
         "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
-      "canonical": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
+      "canonical": "http://profiles.ihe.net/ITI/PIXm",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.2.0",
-          "package": "ihe.pixm.fhir#0.2.0",
+          "name": "Trial Implementation",
+          "ig-version": "3.0.0",
+          "package": "IHE.ITI.PIXm#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Patient_Identifier_Cross-Reference_for_Mobile_(PIXm)"
+          "url": "http://profiles.ihe.net/ITI/PIXm/3.0.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.1.0",
+          "package": "IHE.ITI.PIXm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
         }
       ]
     },
@@ -3600,40 +3647,6 @@
       ]
     },
     {
-      "name": "IHE Patient Identity Cross-Reference for mobile",
-      "category": "EHR Access",
-      "npm-name": "IHE.ITI.PIXm",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
-      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://profiles.ihe.net/ITI/PIXm",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
-      "editions": [
-        {
-          "name": "Public Comment Ballot",
-          "ig-version": "2.2.0",
-          "package": "IHE.ITI.PIXm#2.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/PIXm/2.2.0"
-        },
-        {
-          "name": "Trial Implementation",
-          "ig-version": "2.1.0",
-          "package": "IHE.ITI.PIXm#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm.pdf"
-        }
-      ]
-    },
-    {
       "name": "Profiles for ICSR Transfusion and Vaccination Adverse Event Detection and Reporting",
       "category": "Pharmaceutical",
       "npm-name": "hl7.fhir.us.icsr-ae-reporting",
@@ -3880,6 +3893,7 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
+
         }
       ]
     }
