@@ -465,7 +465,7 @@
       ],
       "history": "http://fhir.org/guides/hspc/core/history.html",
       "canonical": "http://fhir.org/guides/hspc/core",
-      "ci-build": "https://build.fhir.org/ig/hspc/core",
+      "ci-build": "http://build.fhir.org/ig/hspc/core",
       "editions": []
     },
     {
@@ -717,7 +717,7 @@
         "en"
       ],
       "history": "http://www.fhir.org/guides/argonaut/scheduling/history.html",
-      "ci-build": "https://build.fhir.org/ig/argonautproject/scheduling",
+      "ci-build": "http://build.fhir.org/ig/argonautproject/scheduling",
       "canonical": "http://fhir.org/guides/argonaut/scheduling",
       "editions": [
         {
@@ -3852,7 +3852,7 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/military-service/2021Sep"
-        }  
+        }
       ]
     },
     {
@@ -3903,6 +3903,31 @@
           ],
           "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
 
+        }
+      ]
+    },
+    {
+      "name": "Clinical Quality Framework Common FHIR Assets",
+      "category": "Quality / CDS",
+      "npm-name": "fhir.cqf.common",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.org/guides/cqf/common/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.org/guides/cqf/common",
+      "ci-build": "http://build.fhir.org/ig/cqframework/cqf",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "4.0.1",
+          "package": "fhir.cqf.common#4.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.org/guides/cqf/common/4.0.1"
         }
       ]
     }
