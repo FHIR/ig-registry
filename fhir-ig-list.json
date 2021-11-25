@@ -445,10 +445,10 @@
         {
           "name": "First Release",
           "ig-version": "1.0.0",
+          "package": "fhir.argonaut.r2#1.0.0",
           "fhir-version": [
             "1.0.2"
           ],
-          "package": "fhir.argonaut.r2#1.0.0",
           "url": "http://fhir.org/guides/argonaut/r2/1.0"
         }
       ]
@@ -698,10 +698,10 @@
         {
           "name": "Release 1",
           "ig-version": "1.0.0",
+          "package": "fhir.argonaut.pd#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "package": "fhir.argonaut.pd#1.0.0",
           "url": "http://fhir.org/guides/argonaut/pd/release1"
         }
       ]
@@ -723,10 +723,10 @@
         {
           "name": "First Release",
           "ig-version": "1.0.0",
+          "package": "fhir.argonaut.scheduling#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "package": "fhir.argonaut.scheduling#1.0.0",
           "url": "http://fhir.org/guides/argonaut/scheduling/release1"
         }
       ]
@@ -1751,13 +1751,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.smart-app-launch#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2021May"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2"
         },
         {
           "name": "STU 1",
@@ -2644,13 +2644,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
         {
-          "name": "STU 2 (FHIR R4) Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.bulkdata#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.bulkdata#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/bulkdata/2021May"
+          "url": "http://hl7.org/fhir/uv/bulkdata/STU2"
         },
         {
           "name": "STU 1",
@@ -2739,10 +2739,10 @@
         {
           "name": "Release 1",
           "ig-version": "1.0.0",
+          "package": "fhir.argonaut.clinicalnotes#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "package": "fhir.argonaut.clinicalnotes#1.0.0",
           "url": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
         }
       ]
@@ -2764,10 +2764,10 @@
         {
           "name": "Release 1",
           "ig-version": "1.0.0",
+          "package": "fhir.argonaut.questionnaire#1.0.0",
           "fhir-version": [
             "3.0.1"
           ],
-          "package": "fhir.argonaut.questionnaire#1.0.0",
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
       ]
@@ -3902,7 +3902,6 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
-
         }
       ]
     },
@@ -3910,9 +3909,9 @@
       "name": "Clinical Quality Framework Common FHIR Assets",
       "category": "Quality / CDS",
       "npm-name": "fhir.cqf.common",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "This implementation guide contains common FHIR assets for use in CQFramework content IGs, including FHIRHelpers and the FHIR-ModelInfo libraries",
+      "authority": "CQF",
+      "country": "us",
       "history": "http://fhir.org/guides/cqf/common/history.html",
       "language": [
         "en"
@@ -3928,6 +3927,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.org/guides/cqf/common/4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "CDC Opioid MME Calculator",
+      "category": "Quality / CDS",
+      "npm-name": "fhir.cdc.opioid-mme-r4",
+      "description": "This implementation guide provides Morphine Milligram Equivalent (MME) calculation logic as described by the Centers For Disease Control and Prevention (CDC) Guideline for Prescribing Opioids for Chronic Pain — United States, 2016",
+      "authority": "CQF",
+      "country": "us",
+      "history": "http://fhir.org/guides/cdc/opioid-mme-r4/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.org/guides/cdc/opioid-mme-r4",
+      "ci-build": "http://build.fhir.org/ig/cqframework/opioid-mme-r4",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "3.0.0",
+          "package": "fhir.cdc.opioid-mme-r4#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0"
         }
       ]
     }
