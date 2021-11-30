@@ -51,9 +51,9 @@
       "errors": "david_hay|clinfhir_com"
     },
     {
-      "name": "HITSTDIO IG Packages",
-      "url": "http://leelab.ntunhs.edu.tw/ig/packages/package-feed.xml",
-      "errors": "hitstd|hitstd_tw"
+      "name": "MOWH IG Packages",
+      "url": "https://dccfhir.mohw.gov.tw/ig/packages/package-feed.xml",
+      "errors": "mohw|mohw_tw"
     },
     {
       "name": "IHE International",
@@ -3858,25 +3858,25 @@
     {
       "name": "Taiwan Digital COVID-19 Certificate",
       "category": "Immunication and Observation",
-      "npm-name": "hitstdio.tw.fhir.dcc",
+      "npm-name": "dccfhirig.mohw.gov.tw",
       "description": "Taiwan Digital COVID-19 Certificate",
-      "authority": "HITSTD",
+      "authority": "MOHW",
       "country": "tw",
-      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "history": "https://dccfhirig.mohw.gov.tw/fhir/history.html",
       "language": [
         "en"
       ],
-      "canonical": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
-      "ci-build": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/",
+      "canonical": "https://dccfhirig.mohw.gov.tw/ig",
+      "ci-build": "https://dccfhirig.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "0.0.1",
-          "ig-version": "0.0.1",
-          "package": "hitstdio.tw.fhir.dcc#0.0.1",
+          "name": "1.0.0",
+          "ig-version": "1.0.0",
+          "package": "dccfhirig.mohw.gov.tw#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://build.fhir.org/ig/hitstdio/dcc-tw-test/"
+          "url": "https://dccfhirig.mohw.gov.tw/ig"
         }
       ]
     },
