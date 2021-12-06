@@ -4023,6 +4023,56 @@
           "url": "http://hl7.org/fhir/uv/ipa/2022Jan"
         }
       ]
+    },
+    {
+      "name": "PACIO Advance Directive Information Implementation Guide",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.us.pacio-adi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-adi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-adi",
+      "ci-build": "http://build.fhir.org/ig/HL7/pacio-adi",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-adi#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "CARIN Digital Insurance Card",
+      "category": "Financial",
+      "npm-name": "hl7.fhir.us.insurance-card",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/insurance-card/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/insurance-card",
+      "ci-build": "http://build.fhir.org/ig/HL7/insurance-card",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.insurance-card#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/insurance-card/2022Jan"
+        }
+      ]
     }
   ]
 }
