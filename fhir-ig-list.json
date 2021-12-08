@@ -4082,6 +4082,31 @@
           "url": "http://hl7.org/fhir/us/insurance-card/2022Jan"
         }
       ]
+    },
+    {
+      "name": "Radiation Dose Summary for Diagnostic Procedures on FHIR",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.radiation-dose-summary",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/radiation-dose-summary/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/radiation-dose-summary",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-radiation-dose-summary-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.radiation-dose-summary#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/radiation-dose-summary/2022Jan"
+        }
+      ]
     }
   ]
 }
