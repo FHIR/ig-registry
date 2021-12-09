@@ -4107,6 +4107,81 @@
           "url": "http://hl7.org/fhir/uv/radiation-dose-summary/2022Jan"
         }
       ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Central Cancer Registry Reporting Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.central-cancer-registry-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/central-cancer-registry-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/central-cancer-registry-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-central-cancer-registry-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.central-cancer-registry-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/central-cancer-registry-reporting/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Healthcare Surveys Reporting Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.health-care-surveys-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/health-care-surveys-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/health-care-surveys-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-health-care-surveys-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Research Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.medmorph-research-dex",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/medmorph-research-dex/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/medmorph-research-dex",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph-research-dex",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.medmorph-research-dex#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/medmorph-research-dex/2022Jan"
+        }
+      ]
     }
   ]
 }
