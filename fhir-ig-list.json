@@ -3720,7 +3720,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
       "editions": [
         {
           "name": "STU 1 Ballot",
