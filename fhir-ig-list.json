@@ -2173,9 +2173,20 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.dk/fhir/ig/dk-core/history.html",
-      "canonical": "http://hl7.dk/fhir/ig/dk-core",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/dk-core/index.html"
+      "history": "http://hl7.dk/fhir/core/history.html",
+      "canonical": "http://hl7.dk/fhir/core",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/dk-core/index.html",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.dk.core#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/1.1.0"
+        }
+      ]
     },
     {
       "name": "Swiss Core Implementation Guide",
