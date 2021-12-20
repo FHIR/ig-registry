@@ -2564,6 +2564,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pas",
       "editions": [
         {
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-pas#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pas/STU1.1"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.davinci-pas#1.0.0",
