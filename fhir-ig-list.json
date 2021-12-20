@@ -139,6 +139,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
       "editions": [
         {
+          "name": "STU5 Ballot",
+          "ig-version": "4.1.0",
+          "package": "hl7.fhir.us.core#4.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/2022Jan"
+        },
+        {
           "name": "STU4",
           "ig-version": "4.0.0",
           "package": "hl7.fhir.us.core#4.0.0",
@@ -1835,13 +1844,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cdmh",
       "editions": [
         {
-          "name": "Release 4 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.cdmh#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.cdmh#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cdmh/2019May"
+          "url": "http://hl7.org/fhir/us/cdmh/STU1"
         }
       ]
     },
@@ -2823,6 +2832,15 @@
       ],
       "editions": [
         {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.carin-bb#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/carin-bb/2022Jan"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.1.0",
           "package": "hl7.fhir.us.carin-bb#1.1.0",
@@ -3024,6 +3042,15 @@
       ],
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-formulary",
       "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/2022Jan"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.1.0",
@@ -3483,13 +3510,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.medmorph#0.1.0",
+          "name": "STU 1 Draft",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.medmorph#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/medmorph/2021Jan"
+          "url": "http://hl7.org/fhir/us/medmorph/2022Jan"
         }
       ]
     },
@@ -3507,6 +3534,15 @@
       "canonical": "http://hl7.org/fhir/us/sdoh-clinicalcare",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-sdoh-clinicalcare",
       "editions": [
+        {
+          "name": "STU 2 Ballot",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/2022Jan"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -3728,7 +3764,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3907,12 +3943,312 @@
       "editions": [
         {
           "name": "Drafts Ballot",
-          "ig-version": "0.13.0",
-          "package": "hl7.fhir.us.covid19library#0.13.0",
+          "ig-version": "0.14.0",
+          "package": "hl7.fhir.us.covid19library#0.14.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/covid19library/2021Sep"
+          "url": "http://hl7.org/fhir/us/covid19library/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "FHIR for FAIR - FHIR Implementation Guide",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.fhir-for-fair",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/fhir-for-fair/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/fhir-for-fair",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-for-fair",
+      "editions": [
+        {
+          "name": "STU 1 (FHIR R4b) Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.fhir-for-fair#0.1.0",
+          "fhir-version": [
+            "4.1.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/fhir-for-fair/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Da Vinci Patient Cost Transparency Implementation Guide",
+      "category": "Financial",
+      "npm-name": "hl7.fhir.us.davinci-pct",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-pct/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/davinci-pct",
+      "ci-build": "http://hl7.org/fhir/us/davinci-pct",
+      "editions": [
+        {
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pct#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pct/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Hybrid / Intermediary Exchange",
+      "category": "EHR Access",
+      "npm-name": "hl7.fhir.us.exchange-routing",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/exchange-routing/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/exchange-routing",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-exchange-routing-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.exchange-routing#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/exchange-routing/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "PACIO Re-Assessment Timepoints Implementation Guide",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.us.pacio-rt",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-rt/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-rt",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-rt",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-rt#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-rt/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Da Vinci Risk Adjustment FHIR Implementation Guide",
+      "category": "Financial",
+      "npm-name": "hl7.fhir.us.davinci-ra",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-ra/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/davinci-ra",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-ra",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-ra#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-ra/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "International Patient Access",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.uv.ipa",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ipa/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ipa",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ipa",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.ipa#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ipa/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "PACIO Advance Directive Information Implementation Guide",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.us.pacio-adi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-adi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-adi",
+      "ci-build": "http://build.fhir.org/ig/HL7/pacio-adi",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.pacio-adi#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "CARIN Digital Insurance Card",
+      "category": "Financial",
+      "npm-name": "hl7.fhir.us.insurance-card",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/insurance-card/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/insurance-card",
+      "ci-build": "http://build.fhir.org/ig/HL7/insurance-card",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.insurance-card#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/insurance-card/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Radiation Dose Summary for Diagnostic Procedures on FHIR",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.radiation-dose-summary",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/radiation-dose-summary/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/radiation-dose-summary",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-radiation-dose-summary-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.radiation-dose-summary#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/radiation-dose-summary/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Central Cancer Registry Reporting Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.central-cancer-registry-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/central-cancer-registry-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/central-cancer-registry-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-central-cancer-registry-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.central-cancer-registry-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/central-cancer-registry-reporting/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Healthcare Surveys Reporting Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.health-care-surveys-reporting",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/health-care-surveys-reporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/health-care-surveys-reporting",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-health-care-surveys-reporting",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Research Content IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.medmorph-research-dex",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/medmorph-research-dex/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/medmorph-research-dex",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph-research-dex",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.medmorph-research-dex#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/medmorph-research-dex/2022Jan"
         }
       ]
     },
