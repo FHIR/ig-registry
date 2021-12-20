@@ -3931,6 +3931,31 @@
       ]
     },
     {
+      "name": "eHealth Platform Federal Core Profiles",
+      "category": "Public Health",
+      "npm-name": "be.ehealthplatform.fihr.be-core",
+      "description": "eHealth Platform Federal Core Profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir",
+      "ci-build": "build.fhir.org/ig/hl7-be/be-core",
+      "editions": [
+        {
+          "name": "Official Releases",
+          "ig-version": "1.2.3",
+          "package": "be.ehealthplatform.fihr.be-core#1.2.3",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/1.2.3"
+        }
+      ]
+    },
+    {
       "name": "CDC Opioid MME Calculator",
       "category": "Quality / CDS",
       "npm-name": "fhir.cdc.opioid-mme-r4",
