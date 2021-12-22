@@ -2175,7 +2175,7 @@
     {
       "name": "Danish Core Implementation Guide",
       "category": "National Base",
-      "npm-name": "dk.fhir.ig.core",
+      "npm-name": "hl7.fhir.dk.core",
       "description": "Base danish national implementation guide",
       "authority": "HL7 Denmark",
       "country": "dk",
