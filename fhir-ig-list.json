@@ -59,6 +59,11 @@
       "name": "IHE International",
       "url": "https://profiles.ihe.net/fhir/package-feed.xml",
       "errors": "secretary|ihe_net"
+    },
+    {
+      "name": "HL7 Denmark",
+      "url": "https://hl7.dk/fhir/package-feed.xml",
+      "errors": "jvi|trifork_com"
     }
   ],
   "package-restrictions": [
