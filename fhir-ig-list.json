@@ -52,7 +52,7 @@
     },
     {
       "name": "MOWH IG Packages",
-      "url": "https://dccfhir.mohw.gov.tw/ig/packages/package-feed.xml",
+      "url": "https://dccfhirig.mohw.gov.tw/ig/packages/package-feed.xml",
       "errors": "mohw|mohw_tw"
     },
     {
@@ -3931,7 +3931,7 @@
       "ci-build": "https://dccfhirig.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "1.0.0",
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "dccfhirig.mohw.gov.tw#1.0.0",
           "fhir-version": [
