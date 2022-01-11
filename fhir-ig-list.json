@@ -4211,6 +4211,74 @@
           "url": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0"
         }
       ]
+    },
+    {
+      "name": "Mobile Health Document Sharing",
+      "category": "Clinical Documents",
+      "npm-name": "ihe.iti.mhds",
+      "description": "This Implementation Guide shows how to build a Document Sharing Exchange using IHE-profiled FHIR standard, rather than the legacy IHE profiles that are dominated by XDS and HL7 v2. This Implementation Guide assembles other IHE Implementation guides (Profiles) and defines a Document Registry Actor.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "http://profiles.ihe.net/ITI/MHDS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://profiles.ihe.net/ITI/MHDS",
+      "ci-build": "http://build.fhir.org/ig/IHE/MHDS",
+      "editions": [
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "2.2.0",
+          "package": "ihe.iti.mhds#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/MHDS/2.2.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "2.1.0",
+          "package": "ihe.iti.mhds#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
+        }
+      ]
+    },
+    {
+      "name": "IHE ITI Mobile Care Services Discovery",
+      "category": "Administration",
+      "npm-name": "ihe.iti.mcsd",
+      "description": "The IHE Mobile Care Services Discovery (mCSD) IG provides a transaction for mobile and lightweight browser-based applications to find and update care services resources.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "http://profiles.ihe.net/ITI/mCSD/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://profiles.ihe.net/ITI/mCSD",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.mCSD/branches/main",
+      "editions": [
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "3.4.0",
+          "package": "ihe.iti.mcsd#3.4.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://profiles.ihe.net/ITI/mCSD/3.4.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.3.0",
+          "package": "ihe.iti.mcsd#3.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf"
+        }
+      ]
     }
   ]
 }
