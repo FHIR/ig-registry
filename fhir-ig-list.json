@@ -1693,13 +1693,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.smart-app-launch#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2021May"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2"
         },
         {
           "name": "STU 1",
@@ -2533,13 +2533,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.16.0",
-          "package": "hl7.fhir.us.mcode#1.16.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.mcode#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/2021May"
+          "url": "http://hl7.org/fhir/us/mcode/STU2"
         },
         {
           "name": "STU 1",
@@ -2595,13 +2595,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
       "editions": [
         {
-          "name": "STU 2 (FHIR R4) Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.bulkdata#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.bulkdata#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/bulkdata/2021May"
+          "url": "http://hl7.org/fhir/uv/bulkdata/STU2"
         },
         {
           "name": "STU 1",
@@ -3729,7 +3729,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
       "editions": [
         {
           "name": "STU 1 Ballot",
