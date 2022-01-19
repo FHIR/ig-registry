@@ -3691,13 +3691,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/icsr-ae-reporting",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.icsr-ae-reporting#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/2021Sep"
+          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/STU1"
         }
       ]
     },
