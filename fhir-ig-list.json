@@ -403,6 +403,15 @@
       "editions": [
         {
           "name": "STU 4",
+          "ig-version": "4.1.0",
+          "package": "hl7.fhir.us.qicore#4.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1"
+        },
+        {
+          "name": "STU 4",
           "ig-version": "4.0.0",
           "package": "hl7.fhir.us.qicore#4.0.0",
           "fhir-version": [
@@ -1329,13 +1338,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "editions": [
         {
-          "name": "STU 2 on FHIR R4 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.ecr#1.1.0",
+          "name": "STU 2 on FHIR R4",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.ecr#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ecr/2021Jan"
+          "url": "http://hl7.org/fhir/us/ecr/STU2"
         },
         {
           "name": "STU 1",
@@ -2487,13 +2496,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.16.0",
-          "package": "hl7.fhir.us.mcode#1.16.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.mcode#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/2021May"
+          "url": "http://hl7.org/fhir/us/mcode/STU2"
         },
         {
           "name": "STU 1",
@@ -3602,13 +3611,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/icsr-ae-reporting",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.icsr-ae-reporting#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/2021Sep"
+          "url": "http://hl7.org/fhir/us/icsr-ae-reporting/STU1"
         }
       ]
     },
@@ -3649,7 +3658,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
       "editions": [
         {
           "name": "STU 1 Ballot",
