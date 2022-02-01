@@ -3811,9 +3811,9 @@
       "ci-build": "https://dccfhirig.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "dccfhirig.mohw.gov.tw#1.0.0",
+          "name": "DSTU 1",
+          "ig-version": "1.0.1",
+          "package": "dccfhirig.mohw.gov.tw#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
