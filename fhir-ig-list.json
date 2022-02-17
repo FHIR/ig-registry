@@ -4297,7 +4297,7 @@
       "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
       "authority": "Canada Health Infoway",
       "country": "ca",
-      "history": "http://profiles.ihe.net/ITI/mCSD/history.html",
+      "history": "https://simplifier.net/PS-CA-R1/~guides",
       "language": [
         "en"
       ],
