@@ -4288,6 +4288,66 @@
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf"
         }
       ]
+    },
+    
+    {
+      "name": "Pan-Canadian Patient Summary",
+      "category": "Patient Summary",
+      "npm-name": "ca.infoway.io.psca",
+      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
+      "authority": "Canada Health Infoway",
+      "country": "ca",
+      "history": "https://simplifier.net/PS-CA-R1/~guides",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.infoway-inforoute.ca/io/psca",
+      "ci-build": "https://simplifier.net/PS-CA-R1/~introduction",
+      "editions": [
+        {
+          "name": "Public Comment 0.2",
+          "ig-version": "0.0.4",
+          "package": "ca.infoway.io.psca#0.0.4",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://simplifier.net/packages/ca.infoway.io.psca/0.0.4"
+        },
+        {
+          "name": "Public Comment 0.1",
+          "ig-version": "0.0.3",
+          "package": "ca.infoway.vc.ps#0.0.3",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://simplifier.net/packages/ca.infoway.vc.ps/0.0.3"
+        }
+      ]
+    },
+    {
+      "name": "Canadian Baseline",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.ca.baseline",
+      "description": "Base Canadian national implementation guide",
+      "authority": "HL7 Canada",
+      "country": "ca",
+      "history": "https://simplifier.net/canadianfhirbaselineprofilesca-core",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/ca/baseline",
+      "ci-build": "https://build.fhir.org/ig/HL7-Canada/ca-baseline",
+      "editions": [
+        {
+          "name": "Public Comment",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.ca.baseline#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://simplifier.net/packages/hl7.fhir.ca.baseline/1.0.0"
+        }
+      ]
     }
   ]
 }
