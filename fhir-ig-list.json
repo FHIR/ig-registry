@@ -171,13 +171,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/sdc",
       "editions": [
         {
-          "name": "STU 3 Ballot",
-          "ig-version": "2.7.0",
-          "package": "hl7.fhir.uv.sdc#2.7.0",
+          "name": "STU 3 Draft",
+          "ig-version": "3.0.0-preview",
+          "package": "hl7.fhir.uv.sdc#3.0.0-preview",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/sdc/2019May"
+          "url": "http://hl7.org/fhir/uv/sdc/3.0.0-preview"
         },
         {
           "name": "STU 2",
@@ -1462,6 +1462,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-crd",
       "editions": [
         {
+          "name": "STU 1.1 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-crd#1.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-crd/2022May"
+        },
+        {
           "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.davinci-crd#1.0.0",
@@ -1796,6 +1805,15 @@
       "canonical": "http://hl7.org/fhir/us/davinci-dtr",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
       "editions": [
+        {
+          "name": "STU 1.1 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-dtr#1.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-dtr/2022May"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -2342,6 +2360,15 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-epdx",
       "editions": [
         {
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-pdex#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pdex/2022May"
+        },
+        {
           "name": "STU1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.davinci-pdex#1.0.0",
@@ -2526,6 +2553,15 @@
       "canonical": "http://hl7.org/fhir/us/davinci-pas",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pas",
       "editions": [
+        {
+          "name": "STU 1.2 Ballot",
+          "ig-version": "1.2.0-ballot",
+          "package": "hl7.fhir.us.davinci-pas#1.2.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pas/2022May"
+        },
         {
           "name": "STU 1.1",
           "ig-version": "1.1.0",
@@ -2853,13 +2889,13 @@
       ],
       "editions": [
         {
-          "name": "N1 Ballot",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.uv.shorthand#1.2.0",
+          "name": "N1 Normative+trial-use",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.shorthand#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2021Sep"
+          "url": "http://hl7.org/fhir/uv/shorthand/N1"
         },
         {
           "name": "STU 1",
