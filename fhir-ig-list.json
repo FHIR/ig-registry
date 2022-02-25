@@ -4324,13 +4324,11 @@
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf"
         }
       ]
-    },
-    
+    }, 
     {
       "name": "Pan-Canadian Patient Summary",
       "category": "Patient Summary",
-      "npm-name": "ca.infoway.io.psca",
-      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
+      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying PS-CA specification (https://www.infoway-inforoute.ca/en/digital-health-initiatives/interoperability/patient-summary) adapt the HL7 International Patient Summary (IPS) for use in a Canadian context.",
       "authority": "Canada Health Infoway",
       "country": "ca",
       "history": "https://simplifier.net/PS-CA-R1/~guides",
@@ -4338,7 +4336,7 @@
         "en"
       ],
       "canonical": "http://fhir.infoway-inforoute.ca/io/psca",
-      "ci-build": "https://simplifier.net/PS-CA-R1/~introduction",
+      "ci-build": "https://simplifier.net/PS-CA-R1",
       "editions": [
         {
           "name": "Public Comment 0.2",
@@ -4347,7 +4345,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.io.psca/0.0.4"
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.0.4"
         },
         {
           "name": "Public Comment 0.1",
@@ -4356,7 +4354,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.vc.ps/0.0.3"
+          "url": "https://packages.simplifier.net/ca.infoway.vc.ps/0.0.3"
         }
       ]
     },
@@ -4381,7 +4379,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/hl7.fhir.ca.baseline/1.0.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.0"
         }
       ]
     }
