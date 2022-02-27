@@ -697,7 +697,7 @@
     {
       "name": "Patient Demographics Query for Mobile (PDQm)",
       "category": "Administration",
-      "npm-name": "IHE.ITI.PDQm",
+      "npm-name": "ihe.iti.pdqm",
       "description": "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
@@ -705,65 +705,74 @@
         "en"
       ],
       "history": "http://profiles.ihe.net/ITI/PDQm/history.html",
-      "canonical": "http://profiles.ihe.net/ITI/PDQm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PDQm/branches/main",
+      "canonical": "https://profiles.ihe.net/ITI/PDQm",
       "editions": [
         {
           "name": "Trial Implementation",
+          "ig-version": "2.4.0",
+          "package": "ihe.iti.pdqm#2.4.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
+        },
+        {
+          "name": "Trial Implementation",
           "ig-version": "2.3.0",
-          "package": "IHE.ITI.PDQm#2.3.0",
+          "package": "ihe.iti.pdqm#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
         },
         {
-          "name": "Public Comment",
-          "ig-version": "2.2.2",
-          "package": "ihe.pdqm.fhir#2.2.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/PDQm/2.2.2"
-        },
-        {
           "name": "Trial Implementation",
           "ig-version": "2.2.0",
-          "package": "ihe.pdqm.fhir#2.2.0",
+          "package": "ihe.iti.pdqm#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
         }
       ]
     },
     {
-      "name": "Patient Identifier Cross-Reference for Mobile (PIXm)",
+      "name": "IHE Patient Identifier Cross-referencing for Mobile",
       "category": "Administration",
-      "npm-name": "IHE.ITI.PIXm",
+      "npm-name": "ihe.iti.pixm",
       "description": "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
-      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
+      "history": "https://profiles.ihe.net/ITI/PIXm/history.html",
       "language": [
         "en"
       ],
+      "canonical": "https://profiles.ihe.net/ITI/PIXm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
-      "canonical": "http://profiles.ihe.net/ITI/PIXm",
       "editions": [
         {
           "name": "Trial Implementation",
-          "ig-version": "3.0.0",
-          "package": "IHE.ITI.PIXm#3.0.0",
+          "ig-version": "3.0.2",
+          "package": "ihe.iti.pixm#3.0.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/PIXm/3.0.0"
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.0.0",
+          "package": "ihe.iti.pixm#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.0"
         },
         {
           "name": "Trial Implementation",
           "ig-version": "2.1.0",
-          "package": "IHE.ITI.PIXm#2.1.0",
+          "package": "ihe.iti.pixm#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -3169,8 +3178,17 @@
       "country": "uv",
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
-      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+      "canonical": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir",
       "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.1.0",
+          "package": "ihe.formatcode.fhir#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.0"
+        },
         {
           "name": "Publications",
           "ig-version": "1.0.0",
@@ -3178,7 +3196,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
         },
         {
           "name": "Publications",
@@ -3187,7 +3205,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
         },
         {
           "name": "Publications",
@@ -3196,7 +3214,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
         }
       ]
     },
@@ -4302,17 +4320,17 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/mCSD",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.mCSD/branches/main",
+      "canonical": "https://profiles.ihe.net/ITI/mCSD",
       "editions": [
         {
-          "name": "Public-Comment Ballot",
-          "ig-version": "3.4.0",
-          "package": "ihe.iti.mcsd#3.4.0",
+          "name": "Trial Implementation",
+          "ig-version": "3.5.0",
+          "package": "ihe.iti.mcsd#3.5.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/mCSD/3.4.0"
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.5.0"
         },
         {
           "name": "Trial Implementation",
@@ -4321,16 +4339,15 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD_Rev3-3_TI_2021-07-02.pdf"
         }
       ]
     },
-    
     {
       "name": "Pan-Canadian Patient Summary",
       "category": "Patient Summary",
       "npm-name": "ca.infoway.io.psca",
-      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
+      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId\u003d149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
       "authority": "Canada Health Infoway",
       "country": "ca",
       "history": "https://simplifier.net/PS-CA-R1/~guides",
