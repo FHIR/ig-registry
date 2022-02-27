@@ -4355,7 +4355,7 @@
         "en"
       ],
       "canonical": "http://fhir.infoway-inforoute.ca/io/psca",
-      "ci-build": "https://simplifier.net/PS-CA-R1/~introduction",
+      "ci-build": "https://simplifier.net/PS-CA-R1",
       "editions": [
         {
           "name": "Public Comment 0.2",
@@ -4364,7 +4364,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.io.psca/0.0.4"
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.0.4"
         },
         {
           "name": "Public Comment 0.1",
@@ -4373,7 +4373,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.vc.ps/0.0.3"
+          "url": "https://packages.simplifier.net/ca.infoway.vc.ps/0.0.3"
         }
       ]
     },
@@ -4398,7 +4398,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/hl7.fhir.ca.baseline/1.0.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.0"
         }
       ]
     },
