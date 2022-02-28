@@ -4286,17 +4286,17 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/MHDS",
       "ci-build": "http://build.fhir.org/ig/IHE/MHDS",
+      "canonical": "https://profiles.ihe.net/ITI/MHDS",
       "editions": [
         {
-          "name": "Public-Comment Ballot",
-          "ig-version": "2.2.0",
-          "package": "ihe.iti.mhds#2.2.0",
+          "name": "Trial Implementation",
+          "ig-version": "2.3.0",
+          "package": "ihe.iti.mhds#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/MHDS/2.2.0"
+          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
         },
         {
           "name": "Trial Implementation",
