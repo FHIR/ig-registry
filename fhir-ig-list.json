@@ -122,6 +122,20 @@
         }
       ]
     },
+        {
+      "name": "NZ Base",
+      "category": "National Base",
+      "npm-name": "fhir.org.nz.ig.base",
+      "description": "Base New Zealand national implementation guide",
+      "authority": "HL7",
+      "country": "nz",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.org.nz/ig/base",
+      "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
+      "editions": []
+    },
     {
       "name": "CCDA on FHIR",
       "category": "Clinical Documents",
