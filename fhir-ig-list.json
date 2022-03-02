@@ -4324,6 +4324,15 @@
       "canonical": "https://profiles.ihe.net/ITI/mCSD",
       "editions": [
         {
+          "name": "Public-Comment Ballot",
+          "ig-version": "3.6.1",
+          "package": "ihe.iti.mcsd#3.6.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.6.1"
+        },
+        {
           "name": "Trial Implementation",
           "ig-version": "3.5.0",
           "package": "ihe.iti.mcsd#3.5.0",
@@ -4451,6 +4460,31 @@
             "4.0.1"
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
+        }
+      ]
+    },
+    {
+      "name": "IHE Basic AuditEvent Implementation Guide",
+      "category": "Security",
+      "npm-name": "ihe.iti.basicaudit",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/basicaudit/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/basicaudit",
+      "ci-build": "http://build.fhir.org/ig/IHE/BasicAudit",
+      "editions": [
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "1.0.1",
+          "package": "ihe.iti.basicaudit#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/basicaudit/1.0.1"
         }
       ]
     }
