@@ -195,13 +195,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/sdc",
       "editions": [
         {
-          "name": "STU 3 Draft",
-          "ig-version": "3.0.0-preview",
-          "package": "hl7.fhir.uv.sdc#3.0.0-preview",
+          "name": "STU 3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.uv.sdc#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/sdc/3.0.0-preview"
+          "url": "http://hl7.org/fhir/uv/sdc/STU3"
         },
         {
           "name": "STU 2",
