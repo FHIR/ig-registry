@@ -4251,6 +4251,15 @@
       "ci-build": "https://simplifier.net/PS-CA-R1",
       "editions": [
         {
+          "name": "Public Comment 0.3",
+          "ig-version": "0.3.0",
+          "package": "ca.infoway.io.psca#0.3.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.1"
+        },
+        {
           "name": "Public Comment 0.2",
           "ig-version": "0.0.4",
           "package": "ca.infoway.io.psca#0.0.4",
