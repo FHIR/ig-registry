@@ -675,51 +675,7 @@
       ]
     },
     {
-      "name": "Mobile access to Health Documents (MHD)",
-      "category": "Clinical Documents",
-      "npm-name": "ihe.mhd.fhir",
-      "description": "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://profiles.ihe.net/ITI/MHD/history.html",
-      "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
-      "canonical": "http://profiles.ihe.net/ITI/MHD",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
-      "editions": [
-        {
-          "name": "Trial Implementation",
-          "ig-version": "4.0.2",
-          "package": "ihe.mhd.fhir#4.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/MHD/4.0.2"
-        },
-        {
-          "name": "Trial Implementation",
-          "ig-version": "4.0.1",
-          "package": "ihe.mhd.fhir#4.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/MHD/4.0.1"
-        },
-        {
-          "name": "Trial Implementation",
-          "ig-version": "3.2.0",
-          "package": "ihe.mhd.fhir#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
-        }
-      ]
-    },
-    {
-      "name": "Patient Demographics Query for Mobile (PDQm)",
+      "name": "IHE Patient Demographics Query for Mobile (PDQm)",
       "category": "Administration",
       "npm-name": "ihe.iti.pdqm",
       "description": "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
@@ -762,7 +718,7 @@
       ]
     },
     {
-      "name": "IHE Patient Identifier Cross-referencing for Mobile",
+      "name": "IHE Patient Identifier Cross-referencing for Mobile (PIXm)",
       "category": "Administration",
       "npm-name": "ihe.iti.pixm",
       "description": "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
@@ -805,9 +761,9 @@
       ]
     },
     {
-      "name": "Patient Master Identity Registry (PMIR)",
+      "name": "IHE Patient Master Identity Registry (PMIR)",
       "category": "Administration",
-      "npm-name": "ihe.pmir.fhir",
+      "npm-name": "ihe.iti.pmir",
       "description": "Supports the creating, updating and deprecating of patient master identity information about a subject of care, as well as subscribing to these changes, using the HL7 FHIR standard and its RESTful transactions. In PMIR, “patient identity” information includes all information found in the FHIR Patient Resource such as identifier, name, phone, gender, birth date, address, marital status, photo, others to contact, preference for language, general practitioner, and links to other instances of identities. The “patient master identity” is a dominant identity managed centrally among many participating organizations (a.k.a., “Golden Patient Identity”).",
       "authority": "IHE",
       "country": "uv",
@@ -820,7 +776,7 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.pixm.fhir#0.1.0",
+          "package": "ihe.iti.pmir#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -829,9 +785,9 @@
       ]
     },
     {
-      "name": "FHIR AuditEvent query and feed to ATNA",
-      "category": "Administration",
-      "npm-name": "ihe.atna.fhir",
+      "name": "IHE FHIR AuditEvent query and feed to ATNA",
+      "category": "Security",
+      "npm-name": "ihe.iti.atna",
       "description": "Enable audit log recording (feed) and access to ATNA Audit Repository queries using FHIR AuditEvent resource",
       "authority": "IHE",
       "country": "uv",
@@ -844,7 +800,7 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.atna.fhir#0.2.0",
+          "package": "ihe.iti.atna#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -853,9 +809,9 @@
       ]
     },
     {
-      "name": "Mobile Alert Communication Management(mACM)",
+      "name": "IHE Mobile Alert Communication Management(mACM)",
       "category": "Communications",
-      "npm-name": "ihe.macm.fhir",
+      "npm-name": "ihe.iti.macm",
       "description": "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
       "authority": "IHE",
       "country": "uv",
@@ -868,7 +824,7 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.macm.fhir#0.2.0",
+          "package": "ihe.iti.macm#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -877,33 +833,9 @@
       ]
     },
     {
-      "name": "Mobile Care Services Discovery (mCSD)",
-      "category": "Administration",
-      "npm-name": "ihe.mcsd.fhir",
-      "description": "Defines a comprehensive Provider Directory including Organization, Location, Services, and Practitioners. Includes IHE-HPD and IHE-CSD use-cases",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
-      "editions": [
-        {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.2",
-          "package": "ihe.mcsd.fhir#0.2.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)"
-        }
-      ]
-    },
-    {
-      "name": "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
+      "name": "IHE Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
       "category": "Clinical Documents",
-      "npm-name": "ihe.mxde.fhir",
+      "npm-name": "ihe.iti.mxde",
       "description": "Provides the means to access data elements extracted from shared structured documents",
       "authority": "IHE",
       "country": "uv",
@@ -916,7 +848,7 @@
         {
           "name": "STU3 or R4 Trial-Implementation",
           "ig-version": "0.1.2",
-          "package": "ihe.mxde.fhir#0.1.2",
+          "package": "ihe.iti.mxde#0.1.2",
           "fhir-version": [
             "4.0.0"
           ],
@@ -925,9 +857,9 @@
       ]
     },
     {
-      "name": "Query for Existing Data for Mobile (QEDm)",
+      "name": "IHE Query for Existing Data for Mobile (QEDm)",
       "category": "EHR Access",
-      "npm-name": "ihe.qedm.fhir",
+      "npm-name": "ihe.pcc.qedm",
       "description": "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises",
       "authority": "IHE",
       "country": "uv",
@@ -940,7 +872,7 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.1",
-          "package": "ihe.qedm.fhir#0.2.1",
+          "package": "ihe.pcc.qedm#0.2.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -949,9 +881,9 @@
       ]
     },
     {
-      "name": "Non-Patient File Sharing (NPFS)",
+      "name": "IHE Non-Patient File Sharing (NPFS)",
       "category": "Administration",
-      "npm-name": "ihe.npfs.fhir",
+      "npm-name": "ihe.iti.npfs",
       "description": "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, blank forms, and stylesheets",
       "authority": "IHE",
       "country": "uv",
@@ -964,7 +896,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.npfs.fhir#0.2.0",
+          "package": "ihe.iti.npfs#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -973,9 +905,9 @@
       ]
     },
     {
-      "name": "Standardized Operational Log of Events (SOLE)",
+      "name": "IHE Standardized Operational Log of Events (SOLE)",
       "category": "Administration",
-      "npm-name": "ihe.sole.fhir",
+      "npm-name": "ihe.rad.sole",
       "description": "Defines a way to exchange information about events that can then be collected and displayed using standard methods",
       "authority": "IHE",
       "country": "uv",
@@ -988,7 +920,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.sole.fhir#0.1.0",
+          "package": "ihe.rad.sole#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -997,9 +929,9 @@
       ]
     },
     {
-      "name": "Mobile Medication Administration (MMA)",
+      "name": "IHE Mobile Medication Administration (MMA)",
       "category": "Medications / Immunizations",
-      "npm-name": "ihe.mma.fhir",
+      "npm-name": "ihe.pharm.mma",
       "description": "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices",
       "authority": "IHE",
       "country": "uv",
@@ -1012,7 +944,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.mma.fhir#0.1.0",
+          "package": "ihe.pharm.mma#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1021,9 +953,9 @@
       ]
     },
     {
-      "name": "Uniform Barcode Processing (UBP)",
+      "name": "IHE Uniform Barcode Processing (UBP)",
       "category": "Medications / Immunizations",
-      "npm-name": "ihe.ubp.fhir",
+      "npm-name": "ihe.pharm.ubp",
       "description": "Uniform Barcode Processing for Medications",
       "authority": "IHE",
       "country": "uv",
@@ -1036,7 +968,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.ubp.fhir#0.1.0",
+          "package": "ihe.pharm.ubp#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1045,9 +977,9 @@
       ]
     },
     {
-      "name": "Mobile Retrieve Form for Data Capture (mRFD)",
+      "name": "IHE Mobile Retrieve Form for Data Capture (mRFD)",
       "category": "Forms Management",
-      "npm-name": "ihe.mrfd.fhir",
+      "npm-name": "ihe.qrph.mrfd",
       "description": "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile",
       "authority": "IHE",
       "country": "uv",
@@ -1060,7 +992,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.mrfd.fhir#0.1.0",
+          "package": "ihe.qrph.mrfd#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1069,9 +1001,9 @@
       ]
     },
     {
-      "name": "Vital Records Death Reporting (VRDR)",
+      "name": "IHE Vital Records Death Reporting (VRDR)",
       "category": "Public Health",
-      "npm-name": "ihe.vrdr.fhir",
+      "npm-name": "ihe.qrph.vrdr",
       "description": "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content",
       "authority": "IHE",
       "country": "uv",
@@ -1084,7 +1016,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.vrdr.fhir#0.1.0",
+          "package": "ihe.qrph.vrdr#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1093,33 +1025,9 @@
       ]
     },
     {
-      "name": "Clinical Mapping (CMAP)",
-      "category": "Administration",
-      "npm-name": "ihe.cmap.fhir",
-      "description": "Clinical Mapping Profile supports the need of systems to translate codes from one terminology to another to support exchange of information between different systems",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://wiki.ihe.net/index.php/Clinical_Mapping",
-      "canonical": "http://wiki.ihe.net/index.php/Clinical_Mapping",
-      "editions": [
-        {
-          "name": "DSTU2 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.cmap.fhir#0.1.0",
-          "fhir-version": [
-            "2.0.1"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Clinical_Mapping"
-        }
-      ]
-    },
-    {
-      "name": "Dynamic Care Planning (DCP)",
+      "name": "IHE Dynamic Care Planning (DCP)",
       "category": "Care Planning",
-      "npm-name": "ihe.dcp.fhir",
+      "npm-name": "ihe.pcc.dcp",
       "description": "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers",
       "authority": "IHE",
       "country": "uv",
@@ -1132,7 +1040,7 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.dcp.fhir#0.2.0",
+          "package": "ihe.pcc.dcp#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1141,9 +1049,9 @@
       ]
     },
     {
-      "name": "Dynamic Care Team Management (DCTM)",
+      "name": "IHE Dynamic Care Team Management (DCTM)",
       "category": "Care Planning",
-      "npm-name": "ihe.dctm.fhir",
+      "npm-name": "ihe.pcc.dctm",
       "description": "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers",
       "authority": "IHE",
       "country": "uv",
@@ -1156,7 +1064,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.dctm.fhir#0.2.0",
+          "package": "ihe.pcc.dctm#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1167,7 +1075,7 @@
     {
       "name": "Point-of-Care Medical Device Tracking (PMDT)",
       "category": "Administration",
-      "npm-name": "ihe.pmdt.fhir",
+      "npm-name": "ihe.pcc.pmdt",
       "description": "provides definition for a mobile Device",
       "authority": "IHE",
       "country": "uv",
@@ -1180,7 +1088,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.pmdt.fhir#0.1.0",
+          "package": "ihe.pcc.pmdt#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1189,9 +1097,9 @@
       ]
     },
     {
-      "name": "Reconciliation of Clinical Content and Care Providers (RECON)",
+      "name": "IHE Reconciliation of Clinical Content and Care Providers (RECON)",
       "category": "Administration",
-      "npm-name": "ihe.recon.fhir",
+      "npm-name": "ihe.pcc.recon",
       "description": "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes",
       "authority": "IHE",
       "country": "uv",
@@ -1204,7 +1112,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.recon.fhir#0.1.0",
+          "package": "ihe.pcc.recon#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1213,9 +1121,9 @@
       ]
     },
     {
-      "name": "Remote Patient Monitoring (RPM)",
+      "name": "IHE Remote Patient Monitoring (RPM)",
       "category": "Personal Healthcare",
-      "npm-name": "ihe.rpm.fhir",
+      "npm-name": "ihe.pcc.rpm",
       "description": "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location",
       "authority": "IHE",
       "country": "uv",
@@ -1228,7 +1136,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.rpm.fhir#0.1.0",
+          "package": "ihe.pcc.rpm#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1237,9 +1145,9 @@
       ]
     },
     {
-      "name": "Routine Interfacility Patient Transport (RIPT)",
+      "name": "IHE Routine Interfacility Patient Transport (RIPT)",
       "category": "Communications",
-      "npm-name": "ihe.ript.fhir",
+      "npm-name": "ihe.pcc.ript",
       "description": "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported",
       "authority": "IHE",
       "country": "uv",
@@ -1252,7 +1160,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "package": "ihe.pcc.ript#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1261,57 +1169,9 @@
       ]
     },
     {
-      "name": "Prescription Repository Query (PRQ)",
-      "category": "Public Health",
-      "npm-name": "ihe.prq.fhir",
-      "description": "defines services that allow physicians to retrieve their patients’ current dispensed medications.",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
-      "canonical": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
-      "editions": [
-        {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "https://wiki.ihe.net/index.php/Prescription_Repository_Query"
-        }
-      ]
-    },
-    {
-      "name": "Guideline Appropriate Ordering (GAO)",
+      "name": "IHE Assessment Curation and Data Collection (ACDC)",
       "category": "EHR Access",
-      "npm-name": "ihe.prq.fhir",
-      "description": "Supports evaluate orders to determine whether these orders conform to guidelines.",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
-      "canonical": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
-      "editions": [
-        {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering"
-        }
-      ]
-    },
-    {
-      "name": "Assessment Curation and Data Collection (ACDC)",
-      "category": "EHR Access",
-      "npm-name": "ihe.acdc.fhir",
+      "npm-name": "ihe.iti.acdc",
       "description": "Enables assessment developers and curators a means by which they can distribute assessment instruments to healthcare providers, supporting exchange of assessment data in a standardized form using the HL7 FHIR Questionnaire resource.",
       "authority": "IHE",
       "country": "uv",
@@ -1323,8 +1183,8 @@
       "editions": [
         {
           "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.pcc.acdc#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1333,9 +1193,9 @@
       ]
     },
     {
-      "name": "Mobile Aggregate Data Exchange (mADX)",
+      "name": "IHE Mobile Aggregate Data Exchange (mADX)",
       "category": "EHR Access",
-      "npm-name": "ihe.madx.fhir",
+      "npm-name": "ihe.qrph.madx",
       "description": "Supports interoperable public health reporting of aggregate health data.",
       "authority": "IHE",
       "country": "uv",
@@ -1347,8 +1207,8 @@
       "editions": [
         {
           "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.qrph.madx#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1601,9 +1461,9 @@
       ]
     },
     {
-      "name": "Paramedicine Care Summary (PCS)",
+      "name": "IHE Paramedicine Care Summary (PCS)",
       "category": "Communications",
-      "npm-name": "ihe.fhir.pcs",
+      "npm-name": "ihe.pcc.pcs",
       "description": "Provides means for Emergency Transport to inform destination Hospital with critical and necessary medical information on patient being transported",
       "authority": "IHE",
       "country": "uv",
@@ -1616,7 +1476,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.pcs#0.1.0",
+          "package": "ihe.pcc.pcs#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1625,9 +1485,9 @@
       ]
     },
     {
-      "name": "Birth and Fetal Death Reporting - Enhanced (BFDE)",
+      "name": "IHE Birth and Fetal Death Reporting - Enhanced (BFDE)",
       "category": "Public Health",
-      "npm-name": "ihe.fhir.bfde",
+      "npm-name": "ihe.pcc.bfde",
       "description": "Provides means for pre-populating of data from electronic health record systems to electronic vital records systems for birth and fetal death reporting",
       "authority": "IHE",
       "country": "uv",
@@ -1640,7 +1500,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.bfde#0.1.0",
+          "package": "ihe.pcc.bfde#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -1649,9 +1509,9 @@
       ]
     },
     {
-      "name": "Quality Outcome Reporting for EMS (QORE)",
+      "name": "IHE Quality Outcome Reporting for EMS (QORE)",
       "category": "Public Health",
-      "npm-name": "ihe.fhir.qore",
+      "npm-name": "ihe.qrph.qore",
       "description": "Supports transmission of clinical data for use in calculating Emergency Medical Services Quality measures. Focus on Stroke, CPR, and STEMI",
       "authority": "IHE",
       "country": "uv",
@@ -1664,7 +1524,7 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.qore#0.1.0",
+          "package": "ihe.qrph.qore#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
@@ -4300,7 +4160,7 @@
       ]
     },
     {
-      "name": "Mobile Health Document Sharing",
+      "name": "IHE Mobile Health Document Sharing (MHDS)",
       "category": "Clinical Documents",
       "npm-name": "ihe.iti.mhds",
       "description": "This Implementation Guide shows how to build a Document Sharing Exchange using IHE-profiled FHIR standard, rather than the legacy IHE profiles that are dominated by XDS and HL7 v2. This Implementation Guide assembles other IHE Implementation guides (Profiles) and defines a Document Registry Actor.",
@@ -4329,12 +4189,12 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS_Rev2-1_TI_2020-05-29.pdf"
         }
       ]
     },
     {
-      "name": "IHE ITI Mobile Care Services Discovery",
+      "name": "IHE Mobile Care Services Discovery (mCSD)",
       "category": "Administration",
       "npm-name": "ihe.iti.mcsd",
       "description": "The IHE Mobile Care Services Discovery (mCSD) IG provides a transaction for mobile and lightweight browser-based applications to find and update care services resources.",
@@ -4436,16 +4296,16 @@
       ]
     },
     {
-      "name": "IHE Mobile Access to Health Documents",
+      "name": "IHE Mobile Access to Health Documents (MHD)",
       "category": "EHR Access",
       "npm-name": "ihe.iti.mhd",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
-      "history": "https://profiles.ihe.net/ITI/MHD/history.html",
+      "description": "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
+      "authority": "IHE",
+      "country": "uv",
       "language": [
         "en"
       ],
+      "history": "https://profiles.ihe.net/ITI/MHD/history.html",
       "canonical": "https://profiles.ihe.net/ITI/MHD",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
       "editions": [
@@ -4488,12 +4348,12 @@
       ]
     },
     {
-      "name": "IHE Basic AuditEvent Implementation Guide",
-      "category": "Security",
+      "name": "IHE Basic Audit Log Patterns (BasicAudit)",
+      "category": "Privacy / Security",
       "npm-name": "ihe.iti.basicaudit",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "The Basic Audit Log Patterns (BasicAudit) **Content Profile** defines some basic and reusable AuditEvent patterns. This includes basic audit log profiles for FHIR RESTful operations, to be used when there is not a more specific audit event defined. Where a more specific audit event can be defined it should be derived off of these basic patterns.",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/ITI/basicaudit/history.html",
       "language": [
         "en"
