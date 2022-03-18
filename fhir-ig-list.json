@@ -122,7 +122,7 @@
         }
       ]
     },
-        {
+    {
       "name": "NZ Base",
       "category": "National Base",
       "npm-name": "fhir.org.nz.ig.base",
@@ -135,7 +135,7 @@
       "canonical": "http://fhir.org.nz/ig/base",
       "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
       "editions": [
-       {
+        {
           "name": "Release 1",
           "ig-version": "1.0.0",
           "package": "fhir.org.nz.ig.base#1.0.0",
@@ -4189,7 +4189,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS_Rev2-1_TI_2020-05-29.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
         }
       ]
     },
@@ -4378,6 +4378,31 @@
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/ITI/basicaudit/1.0.1"
+        }
+      ]
+    },
+    {
+      "name": "IHE Interactive Multimedia Report (IMR)",
+      "category": "Imaging",
+      "npm-name": "ihe.rad.imr",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/RAD/IMR/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/RAD/IMR",
+      "ci-build": "http://build.fhir.org/ig/IHE/RAD.IMR",
+      "editions": [
+        {
+          "name": "Public Comment Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.rad.imr#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/RAD/IMR/1.0.0-comment"
         }
       ]
     }
