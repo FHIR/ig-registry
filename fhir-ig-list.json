@@ -2231,13 +2231,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-cdex#0.2.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-cdex#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2021Jan"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1"
         }
       ]
     },
@@ -4085,6 +4085,31 @@
       ]
     },
     {
+      "name": "Medicolegal Death Investigation (MDI)",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.mdi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mdi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mdi",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mdi-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mdi#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mdi/2022May"
+        }
+      ]
+    },
+    {
       "name": "Clinical Quality Framework Common FHIR Assets",
       "category": "Quality / CDS",
       "npm-name": "fhir.cqf.common",
@@ -4106,6 +4131,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.org/guides/cqf/common/4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "Maternal and Infant Health Research",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.mihr",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mihr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mihr",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mmm-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mihr/2022May"
         }
       ]
     },
