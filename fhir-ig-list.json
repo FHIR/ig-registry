@@ -4261,6 +4261,31 @@
           "url": "http://hl7.org/fhir/us/mdi/2022May"
         }
       ]
+    },
+    {
+      "name": "Maternal and Infant Health Research",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.mihr",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mihr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mihr",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mmm-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mihr/2022May"
+        }
+      ]
     }
   ]
 }
