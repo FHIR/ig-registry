@@ -4284,18 +4284,32 @@
       ],
       "canonical": "http://hl7.org/fhir/us/mihr",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mmm-ig",
+      "editions": []
+    },
+    {
+      "name": "Patient Request for Corrections Implementation Guide",
+      "category": "tbd",
+      "npm-name": "hl7.fhir.uv.patient-corrections",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/patient-corrections/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/patient-corrections",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-patient-correction",
       "editions": [
         {
-          "name": "STU1 Ballot",
+          "name": "STU 1 Ballot",
           "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
+          "package": "hl7.fhir.uv.patient-corrections#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mihr/2022May"
+          "url": "http://hl7.org/fhir/uv/patient-corrections/2022May"
         }
       ]
-      "editions": []
     }
   ]
 }
