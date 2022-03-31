@@ -4320,6 +4320,31 @@
           "url": "http://hl7.org/fhir/uv/patient-corrections/2022May"
         }
       ]
+    },
+    {
+      "name": "Interoperable Digital Identity and Patient Matching",
+      "category": "Security",
+      "npm-name": "hl7.fhir.us.identity-matching",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/identity-matching/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/identity-matching",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-identity-matching-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/identity-matching/2022May"
+        }
+      ]
     }
   ]
 }
