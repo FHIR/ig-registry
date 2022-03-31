@@ -507,6 +507,15 @@
       "editions": [
         {
           "name": "STU 4",
+          "ig-version": "4.1.1",
+          "package": "hl7.fhir.us.qicore#4.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1.1"
+        },
+        {
+          "name": "STU 4",
           "ig-version": "4.1.0",
           "package": "hl7.fhir.us.qicore#4.1.0",
           "fhir-version": [
