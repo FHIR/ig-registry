@@ -4479,6 +4479,29 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
         }
       ]
+    },
+    {
+      "name": "jp-core",
+      "category": "National Draft",
+      "npm-name": "jp-core.draft",
+      "description": "Japan core draft v1.0.8",
+      "authority": "JAMI FHIR Draft WG",
+      "country": "ja",
+      "language": [
+        "ja"
+      ],
+      "canonical": "http://jpfhir.jp/fhir/core",
+      "editions": [
+        {
+          "name": "jp-core.draft",
+          "ig-version": "1.0.8",
+          "package": "jp-core.draft#1.0.8",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/jpcoreV1/packages"
+        }
+      ]
     }
   ]
 }
