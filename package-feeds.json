@@ -64,6 +64,11 @@
       "name": "HL7 Belgium/eHealth Platform",
       "url": "https://www.ehealth.fgov.be/standards/fhir/package-feed.xml",
       "errors": "message-structure|ehealth_fgov_be"
+    },
+    {
+      "name": "Japan JAMI JP-Core WG",
+      "url": "https://jpfhir.jp/fhir/package-feed.xml",
+      "errors": "kazuhiko-ohe|jpfhir_jp"
     }
   ],
   "package-restrictions": [
