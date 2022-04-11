@@ -427,6 +427,15 @@
       "editions": [
         {
           "name": "STU 4",
+          "ig-version": "4.1.1",
+          "package": "hl7.fhir.us.qicore#4.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1.1"
+        },
+        {
+          "name": "STU 4",
           "ig-version": "4.1.0",
           "package": "hl7.fhir.us.qicore#4.1.0",
           "fhir-version": [
@@ -2565,6 +2574,15 @@
       "editions": [
         {
           "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-pdex-plan-net#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.1"
+        },
+        {
+          "name": "STU 1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.davinci-pdex-plan-net#1.0.0",
           "fhir-version": [
@@ -4156,7 +4174,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/mihr",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mmm-ig",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mihr/2022May"
+        }
+      ]
     },
     {
       "name": "Patient Request for Corrections Implementation Guide",
@@ -4184,6 +4212,31 @@
       ]
     },
     {
+      "name": "Interoperable Digital Identity and Patient Matching",
+      "category": "Security",
+      "npm-name": "hl7.fhir.us.identity-matching",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/identity-matching/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/identity-matching",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-identity-matching-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/identity-matching/2022May"
+        }
+      ]
+    },
+    {
       "name": "CDC Opioid MME Calculator",
       "category": "Quality / CDS",
       "npm-name": "fhir.cdc.opioid-mme-r4",
@@ -4205,6 +4258,49 @@
             "4.0.1"
           ],
           "url": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "FHIRcast",
+      "category": "Imaging",
+      "npm-name": "hl7.fhir.uv.fhircast",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/fhircast/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/fhircast",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhircast-docs",
+      "editions": [
+        {
+          "name": "STU3 Ballot",
+          "ig-version": "2.1.0-ballot",
+          "package": "hl7.fhir.uv.fhircast#2.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/fhircast/2022May"
+        },
+        {
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.fhircast#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://fhircast.hl7.org/specification/STU2"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.fhircast#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://fhircast.hl7.org/specification/STU1"
         }
       ]
     },
