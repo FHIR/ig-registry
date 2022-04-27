@@ -10,6 +10,10 @@
       "language": [
         "en"
       ],
+      "implementations" : [
+        { "name" : "Test Server", "type" : "server", "url" : "http://test.fhir.org"},
+        { "name" : "Source Code", "type" : "source", "url" : "http://github.com/HealthIntersections/fhirserver"}
+      ]
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
