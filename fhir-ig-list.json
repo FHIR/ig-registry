@@ -1,4 +1,4 @@
-﻿{
+{
   "guides": [
     {
       "name": "US Core",
@@ -10,9 +10,17 @@
       "language": [
         "en"
       ],
-      "implementations" : [
-        { "name" : "Test Server", "type" : "server", "url" : "http://test.fhir.org"},
-        { "name" : "Source Code", "type" : "source", "url" : "http://github.com/HealthIntersections/fhirserver"}
+      "implementations": [
+        {
+          "name": "Test Server",
+          "type": "server",
+          "url": "http://test.fhir.org"
+        },
+        {
+          "name": "Source Code",
+          "type": "source",
+          "url": "http://github.com/HealthIntersections/fhirserver"
+        }
       ],
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
@@ -848,6 +856,13 @@
       "history": "http://profiles.ihe.net/ITI/PDQm/history.html",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PDQm/branches/main",
       "canonical": "https://profiles.ihe.net/ITI/PDQm",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 3,
+        "examples": 4
+      },
       "editions": [
         {
           "name": "Trial Implementation",
@@ -876,14 +891,7 @@
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "profiles": 3,
-        "examples": 4
-      }
+      ]
     },
     {
       "name": "IHE Patient Identifier Cross-referencing for Mobile (PIXm)",
@@ -898,6 +906,14 @@
       ],
       "canonical": "https://profiles.ihe.net/ITI/PIXm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 8,
+        "operations": 1,
+        "examples": 17
+      },
       "editions": [
         {
           "name": "Trial Implementation",
@@ -926,15 +942,7 @@
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "profiles": 8,
-        "operations": 1,
-        "examples": 17
-      }
+      ]
     },
     {
       "name": "IHE Patient Master Identity Registry (PMIR)",
@@ -3860,6 +3868,10 @@
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
       "canonical": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+      "analysis": {
+        "valuesets": 1,
+        "codeSystems": 1
+      },
       "editions": [
         {
           "name": "Publications",
@@ -3897,11 +3909,7 @@
           ],
           "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
         }
-      ],
-      "analysis": {
-        "valuesets": 1,
-        "codeSystems": 1
-      }
+      ]
     },
     {
       "name": "HL7 Terminology",
@@ -5465,6 +5473,9 @@
       ],
       "ci-build": "http://build.fhir.org/ig/IHE/MHDS",
       "canonical": "https://profiles.ihe.net/ITI/MHDS",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
           "name": "Trial Implementation",
@@ -5484,10 +5495,7 @@
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
         }
-      ],
-      "analysis": {
-        "rest": true
-      }
+      ]
     },
     {
       "name": "IHE Mobile Care Services Discovery (mCSD)",
@@ -5502,6 +5510,16 @@
       ],
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.mCSD/branches/main",
       "canonical": "https://profiles.ihe.net/ITI/mCSD",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 14,
+        "extensions": 2,
+        "valuesets": 3,
+        "codeSystems": 3,
+        "examples": 21
+      },
       "editions": [
         {
           "name": "Public-Comment Ballot",
@@ -5530,17 +5548,7 @@
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD_Rev3-3_TI_2021-07-02.pdf"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "profiles": 14,
-        "extensions": 2,
-        "valuesets": 3,
-        "codeSystems": 3,
-        "examples": 21
-      }
+      ]
     },
     {
       "name": "Pan-Canadian Patient Summary",
@@ -5643,6 +5651,16 @@
       "history": "https://profiles.ihe.net/ITI/MHD/history.html",
       "canonical": "https://profiles.ihe.net/ITI/MHD",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "profiles": 24,
+        "extensions": 4,
+        "valuesets": 3,
+        "codeSystems": 1,
+        "examples": 48
+      },
       "editions": [
         {
           "name": "Trial Implementation",
@@ -5680,17 +5698,7 @@
           ],
           "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "documents": true,
-        "profiles": 24,
-        "extensions": 4,
-        "valuesets": 3,
-        "codeSystems": 1,
-        "examples": 48
-      }
+      ]
     },
     {
       "name": "IHE Basic Audit Log Patterns (BasicAudit)",
@@ -5738,6 +5746,16 @@
       ],
       "canonical": "https://profiles.ihe.net/RAD/IMR",
       "ci-build": "http://build.fhir.org/ig/IHE/RAD.IMR",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "diagnostics": true,
+        "profiles": 8,
+        "extensions": 2,
+        "valuesets": 7,
+        "examples": 19
+      },
       "editions": [
         {
           "name": "Public Comment Ballot",
@@ -5748,17 +5766,7 @@
           ],
           "url": "https://profiles.ihe.net/RAD/IMR/1.0.0-comment"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "diagnostics": true,
-        "profiles": 8,
-        "extensions": 2,
-        "valuesets": 7,
-        "examples": 19
-      }
+      ]
     },
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Core profiles",
@@ -5827,6 +5835,31 @@
         "extensions": 28,
         "codeSystems": 1
       }
+    },
+    {
+      "name": "IHE Basic Audit Log Patterns (BALP)",
+      "category": "Privacy / Security",
+      "npm-name": "ihe.iti.balp",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/BALP/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/BALP",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit",
+      "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "1.1.0",
+          "package": "ihe.iti.balp#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
+        }
+      ]
     }
   ]
 }
