@@ -3807,11 +3807,11 @@
       "description": "??",
       "authority": "HL7",
       "country": "uv",
-      "history": "https://hl7.org/fhir/uv/smart-web-messaging/history.html",
+      "history": "http://hl7.org/fhir/uv/smart-web-messaging/history.html",
       "language": [
         "en"
       ],
-      "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
+      "canonical": "http://hl7.org/fhir/uv/smart-web-messaging",
       "ci-build": "http://build.fhir.org/ig/HL7/smart-web-messaging",
       "editions": [
         {
