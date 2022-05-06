@@ -3194,17 +3194,17 @@
       "language": [
         "en"
       ],
-      "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
       "ci-build": "http://build.fhir.org/ig/HL7/smart-web-messaging",
+      "canonical": "http://hl7.org/fhir/uv/smart-web-messaging",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.smart-web-messaging#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.smart-web-messaging#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/STU1"
         }
       ]
     },
