@@ -5523,12 +5523,12 @@
       "editions": [
         {
           "name": "Public-Comment Ballot",
-          "ig-version": "3.6.1",
-          "package": "ihe.iti.mcsd#3.6.1",
+          "ig-version": "3.7.0",
+          "package": "ihe.iti.mcsd#3.7.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/mCSD/3.6.1"
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.7.0"
         },
         {
           "name": "Trial Implementation",
