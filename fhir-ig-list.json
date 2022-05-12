@@ -954,22 +954,32 @@
       "language": [
         "en"
       ],
-      "history": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
-      "canonical": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
+      "history": "https://profiles.ihe.net/ITI/PMIR/history.html",
+      "analysis": {
+        "error": "Error fetching package directly (https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz), or fetching package list for ihe.iti.pmir from https://profiles.ihe.net/ITI/PMIR/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-23.log)"
+      },
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PMIR/branches/master/index.html",
+      "canonical": "https://profiles.ihe.net/ITI/PMIR",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.iti.pmir#0.1.0",
+          "name": "Public Comment Ballot",
+          "ig-version": "1.4.0",
+          "package": "ihe.iti.pmir#1.4.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)"
+          "url": "https://profiles.ihe.net/ITI/PMIR/1.4.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.pmir#1.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/wp-content/uploads/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PMIR_Rev1-3_TI_2020-12-11.pdf"
         }
-      ],
-      "analysis": {
-        "error": "Error fetching package directly (https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz), or fetching package list for ihe.iti.pmir from https://profiles.ihe.net/ITI/PMIR/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-23.log)"
-      }
+      ]
     },
     {
       "name": "IHE FHIR AuditEvent query and feed to ATNA",
@@ -5523,12 +5533,12 @@
       "editions": [
         {
           "name": "Public-Comment Ballot",
-          "ig-version": "3.6.1",
-          "package": "ihe.iti.mcsd#3.6.1",
+          "ig-version": "3.7.0",
+          "package": "ihe.iti.mcsd#3.7.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/mCSD/3.6.1"
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.7.0"
         },
         {
           "name": "Trial Implementation",
@@ -5701,27 +5711,36 @@
       ]
     },
     {
-      "name": "IHE Basic Audit Log Patterns (BasicAudit)",
+      "name": "IHE Basic Audit Log Patterns (BALP)",
       "category": "Privacy / Security",
-      "npm-name": "ihe.iti.basicaudit",
-      "description": "The Basic Audit Log Patterns (BasicAudit) **Content Profile** defines some basic and reusable AuditEvent patterns. This includes basic audit log profiles for FHIR RESTful operations, to be used when there is not a more specific audit event defined. Where a more specific audit event can be defined it should be derived off of these basic patterns.",
+      "npm-name": "ihe.iti.balp",
+      "description": "The Basic Audit Log Patterns (BALP) **Content Profile** defines some basic and reusable AuditEvent patterns. This includes basic audit log profiles for FHIR RESTful operations, to be used when there is not a more specific audit event defined. Where a more specific audit event can be defined it should be derived off of these basic patterns.",
       "authority": "IHE",
       "country": "uv",
-      "history": "https://profiles.ihe.net/ITI/basicaudit/history.html",
+      "history": "https://profiles.ihe.net/ITI/BALP/history.html",
       "language": [
         "en"
       ],
-      "canonical": "https://profiles.ihe.net/ITI/basicaudit",
-      "ci-build": "http://build.fhir.org/ig/IHE/BasicAudit",
+      "canonical": "https://profiles.ihe.net/ITI/BALP",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit",
       "editions": [
         {
-          "name": "Public-Comment Ballot",
-          "ig-version": "1.0.1",
-          "package": "ihe.iti.basicaudit#1.0.1",
+          "name": "Trial Implementation",
+          "ig-version": "1.1.0",
+          "package": "ihe.iti.balp#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/basicaudit/1.0.1"
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
+        },
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "1.0.1",
+          "package": "ihe.iti.balp#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/BALP/1.0.1"
         }
       ],
       "analysis": {
@@ -5835,31 +5854,6 @@
         "extensions": 28,
         "codeSystems": 1
       }
-    },
-    {
-      "name": "IHE Basic Audit Log Patterns (BALP)",
-      "category": "Privacy / Security",
-      "npm-name": "ihe.iti.balp",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
-      "history": "https://profiles.ihe.net/ITI/BALP/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://profiles.ihe.net/ITI/BALP",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit",
-      "editions": [
-        {
-          "name": "Trial Implementation",
-          "ig-version": "1.1.0",
-          "package": "ihe.iti.balp#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
-        }
-      ]
     }
   ]
 }
