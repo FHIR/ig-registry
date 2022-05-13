@@ -40,13 +40,13 @@
       },
       "editions": [
         {
-          "name": "STU5 Ballot",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.us.core#4.1.0",
+          "name": "STU4",
+          "ig-version": "5.0.0",
+          "package": "hl7.fhir.us.core#5.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2022Jan"
+          "url": "http://hl7.org/fhir/us/core/STU5"
         },
         {
           "name": "STU4",
