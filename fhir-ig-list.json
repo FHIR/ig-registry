@@ -40,13 +40,13 @@
       },
       "editions": [
         {
-          "name": "STU5 Ballot",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.us.core#4.1.0",
+          "name": "STU5",
+          "ig-version": "5.0.0",
+          "package": "hl7.fhir.us.core#5.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2022Jan"
+          "url": "http://hl7.org/fhir/us/core/STU5"
         },
         {
           "name": "STU4",
@@ -59,15 +59,6 @@
         },
         {
           "name": "STU3",
-          "ig-version": "3.2.0",
-          "package": "hl7.fhir.us.core#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/2021Jan"
-        },
-        {
-          "name": "STU 3",
           "ig-version": "3.1.1",
           "package": "hl7.fhir.us.core#3.1.1",
           "fhir-version": [
@@ -76,7 +67,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3.1.1"
         },
         {
-          "name": "STU Update",
+          "name": "STU3",
           "ig-version": "3.1.0",
           "package": "hl7.fhir.us.core#3.1.0",
           "fhir-version": [
@@ -85,7 +76,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3.1"
         },
         {
-          "name": "STU 3",
+          "name": "STU3",
           "ig-version": "3.0.0",
           "package": "hl7.fhir.us.core#3.0.0",
           "fhir-version": [
@@ -94,7 +85,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3"
         },
         {
-          "name": "STU 2",
+          "name": "STU2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.us.core#2.0.0",
           "fhir-version": [
@@ -103,7 +94,7 @@
           "url": "http://hl7.org/fhir/us/core/STU2"
         },
         {
-          "name": "STU 1",
+          "name": "STU1",
           "ig-version": "1.0.1",
           "package": "hl7.fhir.us.core#1.0.1",
           "fhir-version": [
@@ -112,7 +103,7 @@
           "url": "http://hl7.org/fhir/us/core/1.0.1"
         },
         {
-          "name": "STU 1",
+          "name": "STU1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.core#1.0.0",
           "fhir-version": [
