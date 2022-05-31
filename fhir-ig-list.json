@@ -10,18 +10,43 @@
       "language": [
         "en"
       ],
+      "implementations": [
+        {
+          "name": "Test Server",
+          "type": "server",
+          "url": "http://test.fhir.org"
+        },
+        {
+          "name": "Source Code",
+          "type": "source",
+          "url": "http://github.com/HealthIntersections/fhirserver"
+        }
+      ],
       "history": "http://hl7.org/fhir/us/core/history.html",
       "canonical": "http://hl7.org/fhir/us/core",
       "ci-build": "http://build.fhir.org/ig/HL7/US-Core",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 42,
+        "extensions": 5,
+        "operations": 1,
+        "valuesets": 31,
+        "codeSystems": 4,
+        "examples": 111
+      },
       "editions": [
         {
-          "name": "STU5 Ballot",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.us.core#4.1.0",
+          "name": "STU5",
+          "ig-version": "5.0.0",
+          "package": "hl7.fhir.us.core#5.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2022Jan"
+          "url": "http://hl7.org/fhir/us/core/STU5"
         },
         {
           "name": "STU4",
@@ -34,15 +59,6 @@
         },
         {
           "name": "STU3",
-          "ig-version": "3.2.0",
-          "package": "hl7.fhir.us.core#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/2021Jan"
-        },
-        {
-          "name": "STU 3",
           "ig-version": "3.1.1",
           "package": "hl7.fhir.us.core#3.1.1",
           "fhir-version": [
@@ -51,7 +67,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3.1.1"
         },
         {
-          "name": "STU Update",
+          "name": "STU3",
           "ig-version": "3.1.0",
           "package": "hl7.fhir.us.core#3.1.0",
           "fhir-version": [
@@ -60,7 +76,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3.1"
         },
         {
-          "name": "STU 3",
+          "name": "STU3",
           "ig-version": "3.0.0",
           "package": "hl7.fhir.us.core#3.0.0",
           "fhir-version": [
@@ -69,7 +85,7 @@
           "url": "http://hl7.org/fhir/us/core/STU3"
         },
         {
-          "name": "STU 2",
+          "name": "STU2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.us.core#2.0.0",
           "fhir-version": [
@@ -78,7 +94,7 @@
           "url": "http://hl7.org/fhir/us/core/STU2"
         },
         {
-          "name": "STU 1",
+          "name": "STU1",
           "ig-version": "1.0.1",
           "package": "hl7.fhir.us.core#1.0.1",
           "fhir-version": [
@@ -87,7 +103,7 @@
           "url": "http://hl7.org/fhir/us/core/1.0.1"
         },
         {
-          "name": "STU 1",
+          "name": "STU1",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.us.core#1.0.0",
           "fhir-version": [
@@ -120,7 +136,37 @@
           ],
           "url": "http://hl7.org.au/fhir/base/2019Feb"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "JsonObject"
+      }
+    },
+    {
+      "name": "NZ Base",
+      "category": "National Base",
+      "npm-name": "fhir.org.nz.ig.base",
+      "description": "Base New Zealand national implementation guide",
+      "authority": "HL7",
+      "country": "nz",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.org.nz/ig/base",
+      "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "1.0.0",
+          "package": "fhir.org.nz.ig.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.org.nz/ig/base"
+        }
+      ],
+      "analysis": {
+        "error": "Error fetching package directly (http://fhir.org.nz/ig/base/1.0.0/package.tgz), or fetching package list for fhir.org.nz.ig.base from http://fhir.org.nz/ig/base/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://fhir.org.nz/ig/base/1.0.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-6.log)"
+      }
     },
     {
       "name": "CCDA on FHIR",
@@ -135,6 +181,14 @@
       "history": "http://hl7.org/fhir/us/ccda/history.html",
       "canonical": "http://hl7.org/fhir/us/ccda",
       "ci-build": "http://build.fhir.org/ig/HL7/ccda-on-fhir",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "profiles": 12,
+        "extensions": 8,
+        "valuesets": 10,
+        "examples": 32
+      },
       "editions": [
         {
           "name": "STU 1.1",
@@ -169,15 +223,29 @@
       "history": "http://hl7.org/fhir/us/sdc/history.html",
       "canonical": "http://hl7.org/fhir/uv/sdc",
       "ci-build": "http://build.fhir.org/ig/HL7/sdc",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "questionnaire": true,
+        "profiles": 26,
+        "extensions": 42,
+        "logicals": 2,
+        "operations": 7,
+        "valuesets": 9,
+        "codeSystems": 7,
+        "examples": 48
+      },
       "editions": [
         {
-          "name": "STU 3 Draft",
-          "ig-version": "3.0.0-preview",
-          "package": "hl7.fhir.uv.sdc#3.0.0-preview",
+          "name": "STU 3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.uv.sdc#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/sdc/3.0.0-preview"
+          "url": "http://hl7.org/fhir/uv/sdc/STU3"
         },
         {
           "name": "STU 2",
@@ -212,6 +280,9 @@
       "history": "http://hl7.org/fhir/us/sdcde/history.html",
       "canonical": "http://hl7.org/fhir/us/sdcde",
       "ci-build": "http://build.fhir.org/ig/HL7/sdc-de",
+      "analysis": {
+        "error": "Unable to resolve package id hl7.fhir.us.sdcde#1.0.2"
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -253,7 +324,10 @@
           ],
           "url": "http://hl7.org/fhir/DSTU2/uslab/uslab.html"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id hl7.fhir.us.lab#n/a"
+      }
     },
     {
       "name": "RCPA Cancer Reports",
@@ -277,7 +351,8 @@
           ],
           "url": "http://hl7.org.au/fhir/rcpa/0.1.0"
         }
-      ]
+      ],
+      "analysis": {}
     },
     {
       "name": "DAF",
@@ -292,6 +367,17 @@
       "history": "http://hl7.org/fhir/us/daf/history.html",
       "canonical": "http://hl7.org/fhir/us/daf",
       "ci-build": "http://build.fhir.org/ig/HL7/daf-research",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 5,
+        "extensions": 2,
+        "operations": 3,
+        "valuesets": 2,
+        "codeSystems": 2
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -336,7 +422,18 @@
           ],
           "url": "http://fhir.org/guides/argonaut/r2/1.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 17,
+        "extensions": 5,
+        "operations": 1,
+        "valuesets": 25
+      }
     },
     {
       "name": "HSPC EHR Guide",
@@ -351,7 +448,8 @@
       "history": "http://fhir.org/guides/hspc/core/history.html",
       "canonical": "http://fhir.org/guides/hspc/core",
       "ci-build": "http://build.fhir.org/ig/hspc/core",
-      "editions": []
+      "editions": [],
+      "analysis": {}
     },
     {
       "name": "US Meds Maturity Project",
@@ -366,6 +464,13 @@
       "history": "http://hl7.org/fhir/us/meds/history.html",
       "canonical": "http://hl7.org/fhir/us/meds",
       "ci-build": "http://build.fhir.org/ig/HL7/FHIR-ONC-Meds",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 2
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -400,7 +505,29 @@
       "history": "http://hl7.org/fhir/us/qicore/history.html",
       "canonical": "http://hl7.org/fhir/us/qicore",
       "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 51,
+        "extensions": 8,
+        "valuesets": 21,
+        "codeSystems": 5,
+        "examples": 66
+      },
       "editions": [
+        {
+          "name": "STU 4",
+          "ig-version": "4.1.1",
+          "package": "hl7.fhir.us.qicore#4.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1.1"
+        },
         {
           "name": "STU 4",
           "ig-version": "4.1.0",
@@ -480,7 +607,10 @@
           ],
           "url": "http://hl7.org/fhir/us/daf-research"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id hl7.fhir.us.daf-research#2.0.0"
+      }
     },
     {
       "name": "US HAI",
@@ -495,6 +625,13 @@
       "history": "http://hl7.org/fhir/us/hai/history.html",
       "canonical": "http://hl7.org/fhir/us/hai",
       "ci-build": "http://build.fhir.org/ig/HL7/HAI",
+      "analysis": {
+        "content": true,
+        "questionnaire": true,
+        "profiles": 4,
+        "valuesets": 15,
+        "codeSystems": 2
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -529,6 +666,17 @@
       "history": "http://hl7.org/fhir/us/breastcancer/history.html",
       "canonical": "http://hl7.org/fhir/us/breastcancer",
       "ci-build": "http://build.fhir.org/ig/HL7/us-breastcancer",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 57,
+        "extensions": 46,
+        "logicals": 260,
+        "valuesets": 35,
+        "codeSystems": 9
+      },
       "editions": [
         {
           "name": "STU 1 Draft",
@@ -554,15 +702,26 @@
       "history": "http://hl7.org/fhir/uv/genomics-reporting/history.html",
       "canonical": "http://hl7.org/fhir/uv/genomics-reporting",
       "ci-build": "http://build.fhir.org/ig/HL7/genomics-reporting",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 18,
+        "extensions": 4,
+        "operations": 1,
+        "valuesets": 10,
+        "codeSystems": 3,
+        "examples": 65
+      },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.genomics-reporting#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.genomics-reporting#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/2021May"
+          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU2"
         },
         {
           "name": "STU 1",
@@ -598,7 +757,10 @@
           ],
           "url": "http://fhir.org/guides/argonaut/pd/release1"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unknown FHIRVersion code \u0027STU3\u0027"
+      }
     },
     {
       "name": "Argonaut Scheduling",
@@ -623,7 +785,18 @@
           ],
           "url": "http://fhir.org/guides/argonaut/scheduling/release1"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "financials": true,
+        "scheduling": true,
+        "profiles": 7,
+        "extensions": 4,
+        "operations": 4,
+        "valuesets": 7,
+        "codeSystems": 3
+      }
     },
     {
       "name": "International Patient Summary",
@@ -638,6 +811,17 @@
       "history": "http://hl7.org/fhir/uv/ips/history.html",
       "canonical": "http://hl7.org/fhir/uv/ips",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ips",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 33,
+        "extensions": 1,
+        "valuesets": 44,
+        "codeSystems": 1,
+        "examples": 33
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -651,53 +835,9 @@
       ]
     },
     {
-      "name": "Mobile access to Health Documents (MHD)",
-      "category": "Clinical Documents",
-      "npm-name": "ihe.mhd.fhir",
-      "description": "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "http://profiles.ihe.net/ITI/MHD/history.html",
-      "registry-uri": "http://ihe.net/fhir/ImplementationGuide/IHE.MHD",
-      "canonical": "http://profiles.ihe.net/ITI/MHD",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
-      "editions": [
-        {
-          "name": "Trial Implementation",
-          "ig-version": "4.0.2",
-          "package": "ihe.mhd.fhir#4.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/MHD/4.0.2"
-        },
-        {
-          "name": "Trial Implementation",
-          "ig-version": "4.0.1",
-          "package": "ihe.mhd.fhir#4.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/MHD/4.0.1"
-        },
-        {
-          "name": "Trial Implementation",
-          "ig-version": "3.2.0",
-          "package": "ihe.mhd.fhir#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
-        }
-      ]
-    },
-    {
-      "name": "Patient Demographics Query for Mobile (PDQm)",
+      "name": "IHE Patient Demographics Query for Mobile (PDQm)",
       "category": "Administration",
-      "npm-name": "IHE.ITI.PDQm",
+      "npm-name": "ihe.iti.pdqm",
       "description": "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
@@ -705,65 +845,89 @@
         "en"
       ],
       "history": "http://profiles.ihe.net/ITI/PDQm/history.html",
-      "canonical": "http://profiles.ihe.net/ITI/PDQm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PDQm/branches/main",
+      "canonical": "https://profiles.ihe.net/ITI/PDQm",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 3,
+        "examples": 4
+      },
       "editions": [
         {
           "name": "Trial Implementation",
+          "ig-version": "2.4.0",
+          "package": "ihe.iti.pdqm#2.4.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
+        },
+        {
+          "name": "Trial Implementation",
           "ig-version": "2.3.0",
-          "package": "IHE.ITI.PDQm#2.3.0",
+          "package": "ihe.iti.pdqm#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
         },
         {
-          "name": "Public Comment",
-          "ig-version": "2.2.2",
-          "package": "ihe.pdqm.fhir#2.2.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://profiles.ihe.net/ITI/PDQm/2.2.2"
-        },
-        {
           "name": "Trial Implementation",
           "ig-version": "2.2.0",
-          "package": "ihe.pdqm.fhir#2.2.0",
+          "package": "ihe.iti.pdqm#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
         }
       ]
     },
     {
-      "name": "Patient Identifier Cross-Reference for Mobile (PIXm)",
+      "name": "IHE Patient Identifier Cross-referencing for Mobile (PIXm)",
       "category": "Administration",
-      "npm-name": "IHE.ITI.PIXm",
+      "npm-name": "ihe.iti.pixm",
       "description": "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority": "IHE",
       "country": "uv",
-      "history": "http://profiles.ihe.net/ITI/PIXm/history.html",
+      "history": "https://profiles.ihe.net/ITI/PIXm/history.html",
       "language": [
         "en"
       ],
+      "canonical": "https://profiles.ihe.net/ITI/PIXm",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PIXm",
-      "canonical": "http://profiles.ihe.net/ITI/PIXm",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 8,
+        "operations": 1,
+        "examples": 17
+      },
       "editions": [
         {
           "name": "Trial Implementation",
-          "ig-version": "3.0.0",
-          "package": "IHE.ITI.PIXm#3.0.0",
+          "ig-version": "3.0.2",
+          "package": "ihe.iti.pixm#3.0.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/PIXm/3.0.0"
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.0.0",
+          "package": "ihe.iti.pixm#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.0"
         },
         {
           "name": "Trial Implementation",
           "ig-version": "2.1.0",
-          "package": "IHE.ITI.PIXm#2.1.0",
+          "package": "ihe.iti.pixm#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -772,33 +936,46 @@
       ]
     },
     {
-      "name": "Patient Master Identity Registry (PMIR)",
+      "name": "IHE Patient Master Identity Registry (PMIR)",
       "category": "Administration",
-      "npm-name": "ihe.pmir.fhir",
+      "npm-name": "ihe.iti.pmir",
       "description": "Supports the creating, updating and deprecating of patient master identity information about a subject of care, as well as subscribing to these changes, using the HL7 FHIR standard and its RESTful transactions. In PMIR, “patient identity” information includes all information found in the FHIR Patient Resource such as identifier, name, phone, gender, birth date, address, marital status, photo, others to contact, preference for language, general practitioner, and links to other instances of identities. The “patient master identity” is a dominant identity managed centrally among many participating organizations (a.k.a., “Golden Patient Identity”).",
       "authority": "IHE",
       "country": "uv",
       "language": [
         "en"
       ],
-      "history": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
-      "canonical": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)",
+      "history": "https://profiles.ihe.net/ITI/PMIR/history.html",
+      "analysis": {
+        "error": "Error fetching package directly (https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz), or fetching package list for ihe.iti.pmir from https://profiles.ihe.net/ITI/PMIR/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/ITI/PMIR/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-23.log)"
+      },
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PMIR/branches/master/index.html",
+      "canonical": "https://profiles.ihe.net/ITI/PMIR",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.pixm.fhir#0.1.0",
+          "name": "Public Comment Ballot",
+          "ig-version": "1.4.0",
+          "package": "ihe.iti.pmir#1.4.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://wiki.ihe.net/index.php/Patient_Master_Identity_Registry_(PMIR)"
+          "url": "https://profiles.ihe.net/ITI/PMIR/1.4.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.pmir#1.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/wp-content/uploads/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PMIR_Rev1-3_TI_2020-12-11.pdf"
         }
       ]
     },
     {
-      "name": "FHIR AuditEvent query and feed to ATNA",
-      "category": "Administration",
-      "npm-name": "ihe.atna.fhir",
+      "name": "IHE FHIR AuditEvent query and feed to ATNA",
+      "category": "Security",
+      "npm-name": "ihe.iti.atna",
       "description": "Enable audit log recording (feed) and access to ATNA Audit Repository queries using FHIR AuditEvent resource",
       "authority": "IHE",
       "country": "uv",
@@ -811,18 +988,21 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.atna.fhir#0.2.0",
+          "package": "ihe.iti.atna#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.atna#0.2.0"
+      }
     },
     {
-      "name": "Mobile Alert Communication Management(mACM)",
+      "name": "IHE Mobile Alert Communication Management(mACM)",
       "category": "Communications",
-      "npm-name": "ihe.macm.fhir",
+      "npm-name": "ihe.iti.macm",
       "description": "Provides the infrastructural components needed to send short, unstructured text alerts to human recipients and can record the outcomes of any human interactions upon receipt of the alert. ",
       "authority": "IHE",
       "country": "uv",
@@ -835,42 +1015,21 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.macm.fhir#0.2.0",
+          "package": "ihe.iti.macm#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Alert_Communication_Management(mACM)"
         }
-      ]
-    },
-    {
-      "name": "Mobile Care Services Discovery (mCSD)",
-      "category": "Administration",
-      "npm-name": "ihe.mcsd.fhir",
-      "description": "Defines a comprehensive Provider Directory including Organization, Location, Services, and Practitioners. Includes IHE-HPD and IHE-CSD use-cases",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)",
-      "editions": [
-        {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.2",
-          "package": "ihe.mcsd.fhir#0.2.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_Care_Services_Discovery_(mCSD)"
-        }
-      ]
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.macm#0.2.0"
+      }
     },
     {
-      "name": "Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
+      "name": "IHE Mobile Cross-Enterprise Document Data Element Extraction (mXDE)",
       "category": "Clinical Documents",
-      "npm-name": "ihe.mxde.fhir",
+      "npm-name": "ihe.iti.mxde",
       "description": "Provides the means to access data elements extracted from shared structured documents",
       "authority": "IHE",
       "country": "uv",
@@ -883,18 +1042,21 @@
         {
           "name": "STU3 or R4 Trial-Implementation",
           "ig-version": "0.1.2",
-          "package": "ihe.mxde.fhir#0.1.2",
+          "package": "ihe.iti.mxde#0.1.2",
           "fhir-version": [
             "4.0.0"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.mxde#0.1.2"
+      }
     },
     {
-      "name": "Query for Existing Data for Mobile (QEDm)",
+      "name": "IHE Query for Existing Data for Mobile (QEDm)",
       "category": "EHR Access",
-      "npm-name": "ihe.qedm.fhir",
+      "npm-name": "ihe.pcc.qedm",
       "description": "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises",
       "authority": "IHE",
       "country": "uv",
@@ -907,18 +1069,21 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.1",
-          "package": "ihe.qedm.fhir#0.2.1",
+          "package": "ihe.pcc.qedm#0.2.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
+      }
     },
     {
-      "name": "Non-Patient File Sharing (NPFS)",
+      "name": "IHE Non-Patient File Sharing (NPFS)",
       "category": "Administration",
-      "npm-name": "ihe.npfs.fhir",
+      "npm-name": "ihe.iti.npfs",
       "description": "Defines how to enable the sharing of non-patient files such as workflow definitions, privacy policies, blank forms, and stylesheets",
       "authority": "IHE",
       "country": "uv",
@@ -931,18 +1096,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.npfs.fhir#0.2.0",
+          "package": "ihe.iti.npfs#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
+      }
     },
     {
-      "name": "Standardized Operational Log of Events (SOLE)",
+      "name": "IHE Standardized Operational Log of Events (SOLE)",
       "category": "Administration",
-      "npm-name": "ihe.sole.fhir",
+      "npm-name": "ihe.rad.sole",
       "description": "Defines a way to exchange information about events that can then be collected and displayed using standard methods",
       "authority": "IHE",
       "country": "uv",
@@ -955,18 +1123,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.sole.fhir#0.1.0",
+          "package": "ihe.rad.sole#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Standardized_Operational_Log_of_Events"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.rad.sole#0.1.0"
+      }
     },
     {
-      "name": "Mobile Medication Administration (MMA)",
+      "name": "IHE Mobile Medication Administration (MMA)",
       "category": "Medications / Immunizations",
-      "npm-name": "ihe.mma.fhir",
+      "npm-name": "ihe.pharm.mma",
       "description": "Defines the integration between healthcare systems and mobile (or any other) clients using RESTful web services. This allows connecting EHRs with smartphones, smart pill boxes, and other personal or professional devices",
       "authority": "IHE",
       "country": "uv",
@@ -979,18 +1150,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.mma.fhir#0.1.0",
+          "package": "ihe.pharm.mma#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Medication_Administration"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pharm.mma#0.1.0"
+      }
     },
     {
-      "name": "Uniform Barcode Processing (UBP)",
+      "name": "IHE Uniform Barcode Processing (UBP)",
       "category": "Medications / Immunizations",
-      "npm-name": "ihe.ubp.fhir",
+      "npm-name": "ihe.pharm.ubp",
       "description": "Uniform Barcode Processing for Medications",
       "authority": "IHE",
       "country": "uv",
@@ -1003,18 +1177,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.ubp.fhir#0.1.0",
+          "package": "ihe.pharm.ubp#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Uniform_Barcode_Processing"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pharm.ubp#0.1.0"
+      }
     },
     {
-      "name": "Mobile Retrieve Form for Data Capture (mRFD)",
+      "name": "IHE Mobile Retrieve Form for Data Capture (mRFD)",
       "category": "Forms Management",
-      "npm-name": "ihe.mrfd.fhir",
+      "npm-name": "ihe.qrph.mrfd",
       "description": "Provides a method for gathering data within a user’s current application to meet the requirements of an external system. mRFD supports RESTful retrieval of forms from a form source, display and completion of a form, and return of instance data from the display application to the source application. The workflows defined in this profile are based on those defined by the Retrieve Form for Data Capture (RFD) profile",
       "authority": "IHE",
       "country": "uv",
@@ -1027,18 +1204,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.mrfd.fhir#0.1.0",
+          "package": "ihe.qrph.mrfd#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Mobile_Retrieve_Form_for_Data_Capture"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.qrph.mrfd#0.1.0"
+      }
     },
     {
-      "name": "Vital Records Death Reporting (VRDR)",
+      "name": "IHE Vital Records Death Reporting (VRDR)",
       "category": "Public Health",
-      "npm-name": "ihe.vrdr.fhir",
+      "npm-name": "ihe.qrph.vrdr",
       "description": "Defines a Retrieve Form for Data Capture (RFD) content profile that will specify derivation of source content from a medical summary document. by defining requirements for form filler content and form manager handling of the content",
       "authority": "IHE",
       "country": "uv",
@@ -1051,42 +1231,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.vrdr.fhir#0.1.0",
+          "package": "ihe.qrph.vrdr#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Vital_Records_Death_Reporting"
         }
-      ]
-    },
-    {
-      "name": "Clinical Mapping (CMAP)",
-      "category": "Administration",
-      "npm-name": "ihe.cmap.fhir",
-      "description": "Clinical Mapping Profile supports the need of systems to translate codes from one terminology to another to support exchange of information between different systems",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
       ],
-      "history": "http://wiki.ihe.net/index.php/Clinical_Mapping",
-      "canonical": "http://wiki.ihe.net/index.php/Clinical_Mapping",
-      "editions": [
-        {
-          "name": "DSTU2 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.cmap.fhir#0.1.0",
-          "fhir-version": [
-            "2.0.1"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Clinical_Mapping"
-        }
-      ]
+      "analysis": {
+        "error": "Unable to resolve package id ihe.qrph.vrdr#0.1.0"
+      }
     },
     {
-      "name": "Dynamic Care Planning (DCP)",
+      "name": "IHE Dynamic Care Planning (DCP)",
       "category": "Care Planning",
-      "npm-name": "ihe.dcp.fhir",
+      "npm-name": "ihe.pcc.dcp",
       "description": "Provides the structures and transactions for care planning, sharing Care Plans that meet the needs of many, such as providers, patients and payers",
       "authority": "IHE",
       "country": "uv",
@@ -1099,18 +1258,21 @@
         {
           "name": "R4 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.dcp.fhir#0.2.0",
+          "package": "ihe.pcc.dcp#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Dynamic_Care_Planning"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.dcp#0.2.0"
+      }
     },
     {
-      "name": "Dynamic Care Team Management (DCTM)",
+      "name": "IHE Dynamic Care Team Management (DCTM)",
       "category": "Care Planning",
-      "npm-name": "ihe.dctm.fhir",
+      "npm-name": "ihe.pcc.dctm",
       "description": "Provides the means for sharing care team information about a patient’s care teams that meet the needs of many users, such as providers, patients and payers",
       "authority": "IHE",
       "country": "uv",
@@ -1123,18 +1285,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.2.0",
-          "package": "ihe.dctm.fhir#0.2.0",
+          "package": "ihe.pcc.dctm#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Dynamic_Care_Team_Management"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.dctm#0.2.0"
+      }
     },
     {
       "name": "Point-of-Care Medical Device Tracking (PMDT)",
       "category": "Administration",
-      "npm-name": "ihe.pmdt.fhir",
+      "npm-name": "ihe.pcc.pmdt",
       "description": "provides definition for a mobile Device",
       "authority": "IHE",
       "country": "uv",
@@ -1147,18 +1312,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.pmdt.fhir#0.1.0",
+          "package": "ihe.pcc.pmdt#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Point-of-Care_Medical_Device_Tracking"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.pmdt#0.1.0"
+      }
     },
     {
-      "name": "Reconciliation of Clinical Content and Care Providers (RECON)",
+      "name": "IHE Reconciliation of Clinical Content and Care Providers (RECON)",
       "category": "Administration",
-      "npm-name": "ihe.recon.fhir",
+      "npm-name": "ihe.pcc.recon",
       "description": "Provides the ability to communicate lists of clinical data that were reconciled, when they were reconciled and who did the reconciliation using CDA® constructs and FHIR® Resource attributes",
       "authority": "IHE",
       "country": "uv",
@@ -1171,18 +1339,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.recon.fhir#0.1.0",
+          "package": "ihe.pcc.recon#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Reconciliation_of_Clinical_Content_and_Care_Providers"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.recon#0.1.0"
+      }
     },
     {
-      "name": "Remote Patient Monitoring (RPM)",
+      "name": "IHE Remote Patient Monitoring (RPM)",
       "category": "Personal Healthcare",
-      "npm-name": "ihe.rpm.fhir",
+      "npm-name": "ihe.pcc.rpm",
       "description": "Provides means of reporting measurements taken by Personal Healthcare Devices in a remote location",
       "authority": "IHE",
       "country": "uv",
@@ -1195,18 +1366,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.rpm.fhir#0.1.0",
+          "package": "ihe.pcc.rpm#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Remote_Patient_Monitoring"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.rpm#0.1.0"
+      }
     },
     {
-      "name": "Routine Interfacility Patient Transport (RIPT)",
+      "name": "IHE Routine Interfacility Patient Transport (RIPT)",
       "category": "Communications",
-      "npm-name": "ihe.ript.fhir",
+      "npm-name": "ihe.pcc.ript",
       "description": "Provides means of updating a Transport team with critical and necessary medical information on a patient to be transported",
       "authority": "IHE",
       "country": "uv",
@@ -1219,66 +1393,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "package": "ihe.pcc.ript#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Routine_Interfacility_Patient_Transport"
         }
-      ]
-    },
-    {
-      "name": "Prescription Repository Query (PRQ)",
-      "category": "Public Health",
-      "npm-name": "ihe.prq.fhir",
-      "description": "defines services that allow physicians to retrieve their patients’ current dispensed medications.",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
       ],
-      "history": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
-      "canonical": "https://wiki.ihe.net/index.php/Prescription_Repository_Query",
-      "editions": [
-        {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "https://wiki.ihe.net/index.php/Prescription_Repository_Query"
-        }
-      ]
+      "analysis": {
+        "error": "Error fetching package directly (http://profiles.ihe.net/PCC/RIPT/0.1.0/package.tgz), or fetching package list for ihe.pcc.ript from http://profiles.ihe.net/PCC/RIPT/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/PCC/RIPT/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-73.log)"
+      }
     },
     {
-      "name": "Guideline Appropriate Ordering (GAO)",
+      "name": "IHE Assessment Curation and Data Collection (ACDC)",
       "category": "EHR Access",
-      "npm-name": "ihe.prq.fhir",
-      "description": "Supports evaluate orders to determine whether these orders conform to guidelines.",
-      "authority": "IHE",
-      "country": "uv",
-      "language": [
-        "en"
-      ],
-      "history": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
-      "canonical": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering",
-      "editions": [
-        {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "https://wiki.ihe.net/index.php/Guideline_Appropriate_Ordering"
-        }
-      ]
-    },
-    {
-      "name": "Assessment Curation and Data Collection (ACDC)",
-      "category": "EHR Access",
-      "npm-name": "ihe.acdc.fhir",
+      "npm-name": "ihe.iti.acdc",
       "description": "Enables assessment developers and curators a means by which they can distribute assessment instruments to healthcare providers, supporting exchange of assessment data in a standardized form using the HL7 FHIR Questionnaire resource.",
       "authority": "IHE",
       "country": "uv",
@@ -1290,19 +1419,22 @@
       "editions": [
         {
           "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.pcc.acdc#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://wiki.ihe.net/index.php/Assessment_Curation_and_Data_Collection"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.acdc#1.1.0"
+      }
     },
     {
-      "name": "Mobile Aggregate Data Exchange (mADX)",
+      "name": "IHE Mobile Aggregate Data Exchange (mADX)",
       "category": "EHR Access",
-      "npm-name": "ihe.madx.fhir",
+      "npm-name": "ihe.qrph.madx",
       "description": "Supports interoperable public health reporting of aggregate health data.",
       "authority": "IHE",
       "country": "uv",
@@ -1314,14 +1446,17 @@
       "editions": [
         {
           "name": "R4 Trial-Implementation",
-          "ig-version": "0.1.0",
-          "package": "ihe.ript.fhir#0.1.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.qrph.madx#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.qrph.madx#0.1.0"
+      }
     },
     {
       "name": "Electronic Case Reporting",
@@ -1336,6 +1471,19 @@
       "history": "http://hl7.org/fhir/uv/ecr/history.html",
       "canonical": "http://hl7.org/fhir/us/ecr",
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 57,
+        "extensions": 25,
+        "operations": 1,
+        "valuesets": 8,
+        "codeSystems": 8,
+        "examples": 94
+      },
       "editions": [
         {
           "name": "STU 2 on FHIR R4",
@@ -1370,6 +1518,15 @@
       "history": "http://hl7.org/fhir/uv/livd/history.html",
       "canonical": "http://hl7.org/fhir/uv/livd",
       "ci-build": "http://build.fhir.org/ig/HL7/livd",
+      "analysis": {
+        "content": true,
+        "diagnostics": true,
+        "profiles": 10,
+        "extensions": 4,
+        "valuesets": 6,
+        "codeSystems": 5,
+        "examples": 8
+      },
       "editions": [
         {
           "name": "STU 1 (FHIR R4) Ballot",
@@ -1395,6 +1552,16 @@
       "history": "http://hl7.org/fhir/uv/pocd/history.html",
       "canonical": "http://hl7.org/fhir/uv/pocd",
       "ci-build": "http://build.fhir.org/ig/HL7/uv-pocd",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 13,
+        "extensions": 12,
+        "valuesets": 8,
+        "codeSystems": 5,
+        "examples": 21
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1420,6 +1587,11 @@
       "history": "http://hl7.org/fhir/uv/pddi/history.html",
       "canonical": "http://hl7.org/fhir/uv/pddi",
       "ci-build": "http://build.fhir.org/ig/HL7/PDDI-CDS",
+      "analysis": {
+        "valuesets": 88,
+        "codeSystems": 1,
+        "examples": 36
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1445,6 +1617,7 @@
       "history": "http://hl7.org/fhir/uv/vhdir/history.html",
       "canonical": "http://hl7.org/fhir/uv/vhdir",
       "ci-build": "http://build.fhir.org/ig/HL7/VhDir",
+      "analysis": {},
       "editions": []
     },
     {
@@ -1460,6 +1633,19 @@
       "history": "http://hl7.org/fhir/us/davinci-crd/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-crd",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-crd",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "scheduling": true,
+        "profiles": 18,
+        "extensions": 1,
+        "valuesets": 8,
+        "codeSystems": 3,
+        "examples": 19
+      },
       "editions": [
         {
           "name": "STU 1.1 Ballot",
@@ -1494,6 +1680,21 @@
       "history": "http://hl7.org/fhir/us/davinci-deqm/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-deqm",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-deqm",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "measures": true,
+        "profiles": 11,
+        "extensions": 8,
+        "operations": 1,
+        "valuesets": 2,
+        "codeSystems": 2,
+        "examples": 87
+      },
       "editions": [
         {
           "name": "STU 3",
@@ -1546,6 +1747,15 @@
       "history": "http://hl7.org/fhir/us/odh/history.html",
       "canonical": "http://hl7.org/fhir/us/odh",
       "ci-build": "http://build.fhir.org/ig/HL7/us-odh",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 6,
+        "extensions": 2,
+        "valuesets": 9,
+        "codeSystems": 1,
+        "examples": 8
+      },
       "editions": [
         {
           "name": "STU 1.1 on FHIR R4",
@@ -1568,9 +1778,9 @@
       ]
     },
     {
-      "name": "Paramedicine Care Summary (PCS)",
+      "name": "IHE Paramedicine Care Summary (PCS)",
       "category": "Communications",
-      "npm-name": "ihe.fhir.pcs",
+      "npm-name": "ihe.pcc.pcs",
       "description": "Provides means for Emergency Transport to inform destination Hospital with critical and necessary medical information on patient being transported",
       "authority": "IHE",
       "country": "uv",
@@ -1583,18 +1793,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.pcs#0.1.0",
+          "package": "ihe.pcc.pcs#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Paramedicine_Care_Summary"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Error fetching package directly (https://profiles.ihe.net/PCC/PCS/0.1.0/package.tgz), or fetching package list for ihe.pcc.pcs from https://profiles.ihe.net/PCC/PCS/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/PCC/PCS/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-84.log)"
+      }
     },
     {
-      "name": "Birth and Fetal Death Reporting - Enhanced (BFDE)",
+      "name": "IHE Birth and Fetal Death Reporting - Enhanced (BFDE)",
       "category": "Public Health",
-      "npm-name": "ihe.fhir.bfde",
+      "npm-name": "ihe.pcc.bfde",
       "description": "Provides means for pre-populating of data from electronic health record systems to electronic vital records systems for birth and fetal death reporting",
       "authority": "IHE",
       "country": "uv",
@@ -1607,18 +1820,21 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.bfde#0.1.0",
+          "package": "ihe.pcc.bfde#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Birth_and_Fetal_Death_Reporting_Enhanced_Profile"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.bfde#0.1.0"
+      }
     },
     {
-      "name": "Quality Outcome Reporting for EMS (QORE)",
+      "name": "IHE Quality Outcome Reporting for EMS (QORE)",
       "category": "Public Health",
-      "npm-name": "ihe.fhir.qore",
+      "npm-name": "ihe.qrph.qore",
       "description": "Supports transmission of clinical data for use in calculating Emergency Medical Services Quality measures. Focus on Stroke, CPR, and STEMI",
       "authority": "IHE",
       "country": "uv",
@@ -1631,13 +1847,16 @@
         {
           "name": "STU3 Trial-Implementation",
           "ig-version": "0.1.0",
-          "package": "ihe.fhir.qore#0.1.0",
+          "package": "ihe.qrph.qore#0.1.0",
           "fhir-version": [
             "3.0.1"
           ],
           "url": "http://wiki.ihe.net/index.php/Quality_Outcome_Reporting_for_EMS"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Error fetching package directly (http://profiles.ihe.net/QRPH/QORE/0.1.0/package.tgz), or fetching package list for ihe.qrph.qore from http://profiles.ihe.net/QRPH/QORE/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://profiles.ihe.net/QRPH/QORE/0.1.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-92.log)"
+      }
     },
     {
       "name": "Smart App Launch Implementation Guide",
@@ -1652,6 +1871,7 @@
       "history": "http://hl7.org/fhir/smart-app-launch/history.html",
       "canonical": "http://hl7.org/fhir/smart-app-launch",
       "ci-build": "http://build.fhir.org/ig/HL7/smart-app-launch",
+      "analysis": {},
       "editions": [
         {
           "name": "STU 2",
@@ -1686,6 +1906,19 @@
       "history": "http://hl7.org/fhir/us/bser/history.html",
       "canonical": "http://hl7.org/fhir/us/bser",
       "ci-build": "http://build.fhir.org/ig/HL7/bser",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 40,
+        "valuesets": 2,
+        "codeSystems": 2,
+        "examples": 59
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -1721,7 +1954,10 @@
           ],
           "url": "http://hl7.org/fhir/us/bulkdata/2019May"
         }
-      ]
+      ],
+      "analysis": {
+        "operations": 3
+      }
     },
     {
       "name": "Common Data Models Harmonization FHIR IG",
@@ -1736,6 +1972,19 @@
       "history": "http://hl7.org/fhir/us/cdmh/history.html",
       "canonical": "http://hl7.org/fhir/us/cdmh",
       "ci-build": "http://build.fhir.org/ig/HL7/cdmh",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "trials": true,
+        "profiles": 15,
+        "extensions": 22,
+        "valuesets": 25,
+        "codeSystems": 38,
+        "examples": 15
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -1761,15 +2010,27 @@
       "history": "http://hl7.org/fhir/us/cqfmeasures/history.html",
       "canonical": "http://hl7.org/fhir/us/cqfmeasures",
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-measures",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "measures": true,
+        "profiles": 21,
+        "extensions": 36,
+        "operations": 6,
+        "valuesets": 5,
+        "codeSystems": 5,
+        "examples": 61
+      },
       "editions": [
         {
-          "name": "STU3 Ballot",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.cqfmeasures#2.1.0",
+          "name": "STU3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2021May"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU3"
         },
         {
           "name": "STU 2",
@@ -1804,6 +2065,16 @@
       "history": "http://hl7.org/fhir/us/davinci-dtr/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-dtr",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-dtr",
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "financials": true,
+        "questionnaire": true,
+        "profiles": 6,
+        "extensions": 2,
+        "operations": 1,
+        "examples": 12
+      },
       "editions": [
         {
           "name": "STU 1.1 Ballot",
@@ -1838,15 +2109,28 @@
       "history": "http://hl7.org/fhir/us/davinci-hrex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-hrex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ehrx",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "profiles": 11,
+        "extensions": 4,
+        "operations": 1,
+        "valuesets": 2,
+        "codeSystems": 1,
+        "examples": 22
+      },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-hrex#0.2.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-hrex#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-hrex/2020Sep"
+          "url": "http://hl7.org/fhir/us/davinci-hrex/STU1"
         }
       ]
     },
@@ -1863,6 +2147,19 @@
       "history": "http://hl7.org/fhir/us/eLTSS/history.html",
       "ci-build": "http://build.fhir.org/ig/HL7/eLTSS",
       "canonical": "http://hl7.org/fhir/us/eltss",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "questionnaire": true,
+        "profiles": 13,
+        "extensions": 3,
+        "logicals": 3,
+        "valuesets": 2,
+        "codeSystems": 2,
+        "examples": 5
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -1888,6 +2185,9 @@
       "history": "http://hl7.org/fhir/us/patient-reported-outcomes/history.html",
       "canonical": "http://hl7.org/fhir/us/patient-reported-outcomes",
       "ci-build": "http://build.fhir.org/ig/HL7/patient-reported-outcomes",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1913,6 +2213,16 @@
       "history": "http://hl7.org/fhir/us/phcp/history.html",
       "canonical": "http://hl7.org/fhir/us/phcp",
       "ci-build": "http://build.fhir.org/ig/HL7/PhCP",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 10,
+        "examples": 16
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -1938,6 +2248,14 @@
       "history": "http://hl7.org/fhir/us/vrdr/history.html",
       "canonical": "http://hl7.org/fhir/us/vrdr",
       "ci-build": "http://build.fhir.org/ig/HL7/vrdr",
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "profiles": 34,
+        "extensions": 4,
+        "examples": 34
+      },
       "editions": [
         {
           "name": "STU 2 Ballot",
@@ -1972,6 +2290,12 @@
       "history": "http://hl7.org/fhir/us/womens-health-registries/history.html",
       "canonical": "http://hl7.org/fhir/us/womens-health-registries",
       "ci-build": "http://build.fhir.org/ig/HL7/coordinated-registry-network",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 3
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -1997,15 +2321,23 @@
       "history": "http://hl7.org/fhir/uv/phd/history.html",
       "canonical": "http://hl7.org/fhir/uv/phd",
       "ci-build": "http://build.fhir.org/ig/HL7/PHD",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 11,
+        "valuesets": 7,
+        "codeSystems": 4
+      },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.phd#0.3.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.phd#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/phd/2019May"
+          "url": "http://hl7.org/fhir/uv/phd/STU1"
         }
       ]
     },
@@ -2029,7 +2361,10 @@
           ],
           "url": "http://hl7.org.au/fhir"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to find package hl7.fhir.au.pd#0.6.0"
+      }
     },
     {
       "name": "Argonaut Clinical Notes Implementation Guide",
@@ -2051,7 +2386,10 @@
           ],
           "url": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id argonaut.us.clinicalnotes#1.0.0"
+      }
     },
     {
       "name": "Argonaut Questionnaire Implementation Guide",
@@ -2073,7 +2411,10 @@
           ],
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id argonaut.us.questionnaire#1.0.0"
+      }
     },
     {
       "name": "Danish Core Implementation Guide",
@@ -2098,7 +2439,16 @@
           ],
           "url": "http://hl7.dk/fhir/core/1.1.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 10,
+        "extensions": 2,
+        "valuesets": 6,
+        "codeSystems": 15,
+        "examples": 12
+      }
     },
     {
       "name": "Swiss Core Implementation Guide",
@@ -2120,7 +2470,18 @@
           ],
           "url": "http://fhir.ch/ig/ch-core/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 21,
+        "extensions": 16,
+        "valuesets": 16,
+        "codeSystems": 13,
+        "examples": 18
+      }
     },
     {
       "name": "Swiss Guide Template",
@@ -2142,7 +2503,10 @@
           ],
           "url": "http://fhir.ch/ig/template/0.4.0"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to find package ch.fhir.ig.template#0.4.0"
+      }
     },
     {
       "name": "Swiss EPR Metadata (CH-EPR-TERM)",
@@ -2164,7 +2528,11 @@
           ],
           "url": "http://fhir.ch/ig/ch-epr-term/2.0.4"
         }
-      ]
+      ],
+      "analysis": {
+        "valuesets": 20,
+        "codeSystems": 10
+      }
     },
     {
       "name": "Swiss Cancer Registration Implementation Guide (CH-CRL)",
@@ -2195,7 +2563,19 @@
           ],
           "url": "http://fhir.ch/ig/ch-crl/0.1.1"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 34,
+        "extensions": 1,
+        "logicals": 1,
+        "valuesets": 15,
+        "codeSystems": 15,
+        "examples": 137
+      }
     },
     {
       "name": "Audit Trail Consumption (CH-ATC)",
@@ -2226,7 +2606,10 @@
           ],
           "url": "http://fhir.ch/ig/ch-atc/1.2.0/index.html"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Attempt to import a mis-identified package. Expected ch.fhir.ig.ch-atc, got ch.fhir.ig.atc"
+      }
     },
     {
       "name": "Order \u0026 Referral by Form (CH-ORF)",
@@ -2248,7 +2631,18 @@
           ],
           "url": "http://fhir.ch/ig/ch-orf/0.9.1"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "questionnaire": true,
+        "profiles": 5,
+        "extensions": 7,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 9
+      }
     },
     {
       "name": "CHMED20AF (R4)",
@@ -2270,7 +2664,10 @@
           ],
           "url": "http://chmed16af.emediplan.ch/fhir/0.2.0"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ch.chmed16af.emediplan#0.2.0"
+      }
     },
     {
       "name": "Swiss eMedication Implementation Guide",
@@ -2292,7 +2689,18 @@
           ],
           "url": "http://fhir.ch/ig/ch-emed/0.1.1"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 23,
+        "extensions": 9,
+        "valuesets": 3,
+        "codeSystems": 2,
+        "examples": 37
+      }
     },
     {
       "name": "mednet Implementation Guide",
@@ -2302,7 +2710,8 @@
       "authority": "novcom AG",
       "country": "ch",
       "history": "https://mednet.swiss/fhir/history.html",
-      "canonical": "https://mednet.swiss/fhir"
+      "canonical": "https://mednet.swiss/fhir",
+      "analysis": {}
     },
     {
       "name": "US Drug Formulary",
@@ -2324,7 +2733,16 @@
           ],
           "url": "http://hl7.org/fhir/us/Davinci-drug-formulary/STU1"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "medsMgmt": true,
+        "profiles": 2,
+        "extensions": 13,
+        "valuesets": 4,
+        "codeSystems": 4,
+        "examples": 11
+      }
     },
     {
       "name": "Da Vinci CDex",
@@ -2336,15 +2754,34 @@
       "history": "http://hl7.org/fhir/us/davinci-cdex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-cdex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ecdx",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "carePlanning": true,
+        "profiles": 1,
+        "operations": 1,
+        "valuesets": 3,
+        "codeSystems": 1,
+        "examples": 19
+      },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.davinci-cdex#0.2.0",
+          "name": "STU2 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-cdex#1.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2021Jan"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2022May"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-cdex#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1"
         }
       ]
     },
@@ -2358,6 +2795,19 @@
       "history": "http://hl7.org/fhir/us/davinci-pdex/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pdex",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-epdx",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 5,
+        "extensions": 6,
+        "operations": 1,
+        "valuesets": 12,
+        "codeSystems": 13,
+        "examples": 36
+      },
       "editions": [
         {
           "name": "STU2 Ballot",
@@ -2389,6 +2839,9 @@
       "history": "http://hl7.org/fhir/uv/cdisc-lab/history.html",
       "canonical": "http://hl7.org/fhir/uv/cdisc-lab",
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-lab",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
           "name": "STU1",
@@ -2411,6 +2864,10 @@
       "history": "http://hl7.org/fhir/us/hai-ltcf/history.html",
       "canonical": "http://hl7.org/fhir/us/hai-ltcf",
       "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
+      "analysis": {
+        "valuesets": 4,
+        "codeSystems": 2
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2433,6 +2890,16 @@
       "history": "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-alerts",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-alerts",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 8,
+        "valuesets": 4,
+        "codeSystems": 1,
+        "examples": 11
+      },
       "editions": [
         {
           "name": "STU1",
@@ -2455,6 +2922,16 @@
       "history": "http://hl7.org/fhir/us/davinci-pcde/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pcde",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pcde",
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 5,
+        "valuesets": 3,
+        "codeSystems": 1,
+        "examples": 5
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -2477,6 +2954,9 @@
       "history": "http://hl7.org/fhir/us/breast-radiology/history.html",
       "canonical": "http://hl7.org/fhir/us/breast-radiology",
       "ci-build": "http://build.hl7.org/fhir/us/breast-radiology",
+      "analysis": {
+        "examples": 125
+      },
       "editions": [
         {
           "name": "Comment Draft",
@@ -2499,6 +2979,21 @@
       "history": "http://hl7.org/fhir/uv/cpg/history.html",
       "canonical": "http://hl7.org/fhir/uv/cpg",
       "ci-build": "http://build.fhir.org/ig/HL7/cqf-recommendations",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "medsMgmt": true,
+        "measures": true,
+        "questionnaire": true,
+        "profiles": 102,
+        "extensions": 38,
+        "operations": 5,
+        "valuesets": 9,
+        "codeSystems": 7,
+        "examples": 441
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -2521,6 +3016,19 @@
       "history": "http://hl7.org/fhir/us/mcode/history.html",
       "canonical": "http://hl7.org/fhir/us/mcode",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-mCODE-ig",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 28,
+        "extensions": 14,
+        "operations": 1,
+        "valuesets": 96,
+        "codeSystems": 2,
+        "examples": 97
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -2552,6 +3060,19 @@
       "history": "http://hl7.org/fhir/us/davinci-pas/history.html",
       "canonical": "http://hl7.org/fhir/us/davinci-pas",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pas",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 23,
+        "extensions": 37,
+        "operations": 2,
+        "valuesets": 12,
+        "codeSystems": 6,
+        "examples": 29
+      },
       "editions": [
         {
           "name": "STU 1.2 Ballot",
@@ -2592,6 +3113,12 @@
       "history": "http://hl7.org/fhir/uv/bulkdata/history.html",
       "canonical": "http://hl7.org/fhir/uv/bulkdata",
       "ci-build": "http://build.fhir.org/ig/HL7/bulk-data",
+      "analysis": {
+        "rest": true,
+        "operations": 3,
+        "valuesets": 1,
+        "codeSystems": 1
+      },
       "editions": [
         {
           "name": "STU 2",
@@ -2645,7 +3172,20 @@
           ],
           "url": "https://informatiestandaarden.nictiz.nl/wiki/MedMij:V2019.01_OntwerpBGZ_2017#Use_case_1:_Raadplegen_Basisgegevensset_Zorg_in_persoonlijke_gezondheidsomgeving"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 144,
+        "extensions": 70,
+        "valuesets": 261
+      }
     },
     {
       "name": "Davinci pdex Plan Net",
@@ -2660,7 +3200,27 @@
         "en"
       ],
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-plan-net",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 9,
+        "extensions": 12,
+        "valuesets": 24,
+        "codeSystems": 14,
+        "examples": 49
+      },
       "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-pdex-plan-net#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.1"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -2695,7 +3255,16 @@
           ],
           "url": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "profiles": 2,
+        "valuesets": 3,
+        "codeSystems": 1
+      }
     },
     {
       "name": "Argonaut Questionnaire Implementation Guide",
@@ -2720,7 +3289,15 @@
           ],
           "url": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "questionnaire": true,
+        "profiles": 4,
+        "extensions": 5,
+        "operations": 1
+      }
     },
     {
       "name": "CARIN Real-time Pharmacy Benefit Check",
@@ -2735,6 +3312,19 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "messaging": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 10,
+        "extensions": 2,
+        "valuesets": 9,
+        "codeSystems": 3,
+        "examples": 16
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -2760,6 +3350,16 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 10,
+        "valuesets": 48,
+        "codeSystems": 36,
+        "examples": 28
+      },
       "editions": [
         {
           "name": "STU 2 Ballot",
@@ -2803,6 +3403,17 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 8,
+        "extensions": 5,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 14
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -2847,7 +3458,17 @@
           "package": "de.basisprofil.r4#0.9.1-alpha2",
           "url": "https://simplifier.net/guide/basisprofil-de-r4/home"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "no core dependency or FHIR Version found in the Package definition",
+        "content": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 17,
+        "extensions": 17,
+        "valuesets": 10,
+        "codeSystems": 17
+      }
     },
     {
       "name": "FHIR Data Segmentation for Privacy",
@@ -2862,6 +3483,12 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "extensions": 6,
+        "valuesets": 8,
+        "examples": 8
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2887,6 +3514,7 @@
       "language": [
         "en"
       ],
+      "analysis": {},
       "editions": [
         {
           "name": "N1 Normative+trial-use",
@@ -2921,6 +3549,18 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 11,
+        "extensions": 3,
+        "valuesets": 2,
+        "codeSystems": 1,
+        "examples": 26
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2946,6 +3586,11 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 2
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -2971,6 +3616,18 @@
         "en"
       ],
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-pdex-formulary",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 5,
+        "extensions": 11,
+        "valuesets": 10,
+        "codeSystems": 8,
+        "examples": 22
+      },
       "editions": [
         {
           "name": "STU 2 Ballot",
@@ -3033,7 +3690,10 @@
           ],
           "url": "http://hl7.it/fhir/base/2020-06"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id hl7.fhir.it.base#0.1.0"
+      }
     },
     {
       "name": "Dental Data Exchange",
@@ -3048,6 +3708,17 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 7,
+        "valuesets": 5,
+        "codeSystems": 1,
+        "examples": 64
+      },
       "editions": [
         {
           "name": "STU1",
@@ -3073,6 +3744,15 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 15,
+        "extensions": 11,
+        "valuesets": 27,
+        "codeSystems": 3,
+        "examples": 15
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3098,6 +3778,17 @@
       "language": [
         "en"
       ],
+      "analysis": {
+        "content": true,
+        "carePlanning": true,
+        "financials": true,
+        "diagnostics": true,
+        "profiles": 11,
+        "extensions": 8,
+        "valuesets": 4,
+        "codeSystems": 3,
+        "examples": 60
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3117,21 +3808,24 @@
       "description": "??",
       "authority": "HL7",
       "country": "uv",
-      "history": "https://hl7.org/fhir/uv/smart-web-messaging/history.html",
+      "history": "http://hl7.org/fhir/uv/smart-web-messaging/history.html",
       "language": [
         "en"
       ],
-      "canonical": "https://hl7.org/fhir/uv/smart-web-messaging",
       "ci-build": "http://build.fhir.org/ig/HL7/smart-web-messaging",
+      "canonical": "http://hl7.org/fhir/uv/smart-web-messaging",
+      "analysis": {
+        "examples": 1
+      },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.smart-web-messaging#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.smart-web-messaging#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/smart-web-messaging/2020Sep"
+          "url": "http://hl7.org/fhir/uv/smart-web-messaging/STU1"
         }
       ]
     },
@@ -3148,6 +3842,11 @@
         "en"
       ],
       "category": "Mappings to Other Standards",
+      "analysis": {
+        "content": true,
+        "extensions": 57,
+        "examples": 175
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3169,8 +3868,21 @@
       "country": "uv",
       "history": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build": "http://build.fhir.org/ig/IHE/FormatCode",
-      "canonical": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+      "canonical": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+      "analysis": {
+        "valuesets": 1,
+        "codeSystems": 1
+      },
       "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.1.0",
+          "package": "ihe.formatcode.fhir#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.0"
+        },
         {
           "name": "Publications",
           "ig-version": "1.0.0",
@@ -3178,7 +3890,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
         },
         {
           "name": "Publications",
@@ -3187,7 +3899,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
         },
         {
           "name": "Publications",
@@ -3196,7 +3908,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
         }
       ]
     },
@@ -3223,7 +3935,13 @@
           ],
           "url": "http://terminology.hl7.org/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "extensions": 9,
+        "valuesets": 2483,
+        "codeSystems": 1078
+      }
     },
     {
       "name": "Situational Awareness for Novel Epidemic Response",
@@ -3238,6 +3956,17 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/saner",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-saner",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "measures": true,
+        "profiles": 10,
+        "extensions": 5,
+        "operations": 5,
+        "valuesets": 49,
+        "codeSystems": 6,
+        "examples": 169
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -3273,7 +4002,10 @@
           ],
           "url": "http://hl7.org/fhir/us/fhir-medmorph/2021Jan"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id hl7.fhir.us.fhir-medmorph#0.1.0"
+      }
     },
     {
       "name": "PACIO Functional Status Implementation Guide",
@@ -3288,6 +4020,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-fs",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 4,
+        "extensions": 3,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 84
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -3313,6 +4055,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-cs",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 4,
+        "extensions": 3,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 68
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -3338,6 +4090,19 @@
       ],
       "canonical": "http://hl7.org/fhir/us/specialty-rx",
       "ci-build": "http://build.fhir.org/ig/HL7/specialty-rx",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "messaging": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "financials": true,
+        "medsMgmt": true,
+        "profiles": 18,
+        "valuesets": 2,
+        "codeSystems": 4,
+        "examples": 16
+      },
       "editions": [
         {
           "name": "STU1",
@@ -3363,6 +4128,14 @@
       ],
       "canonical": "http://hl7.org/fhir/us/vr-common-library",
       "ci-build": "http://build.fhir.org/ig/HL7/vr-common-library",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 30,
+        "extensions": 4,
+        "valuesets": 5,
+        "examples": 35
+      },
       "editions": [
         {
           "name": "STU 1 on FHIR R4",
@@ -3388,6 +4161,16 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/subscriptions-backport",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-subscription-backport-ig",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "profiles": 4,
+        "extensions": 7,
+        "operations": 2,
+        "valuesets": 4,
+        "codeSystems": 4,
+        "examples": 9
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3413,6 +4196,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/bfdr",
       "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 49,
+        "extensions": 6,
+        "valuesets": 1,
+        "examples": 137
+      },
       "editions": [
         {
           "name": "STU 1 on FHIR R4",
@@ -3438,6 +4232,18 @@
       ],
       "canonical": "http://hl7.org/fhir/us/medmorph",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 13,
+        "extensions": 9,
+        "operations": 4,
+        "valuesets": 4,
+        "codeSystems": 5,
+        "examples": 18
+      },
       "editions": [
         {
           "name": "STU 1 Draft",
@@ -3463,6 +4269,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/sdoh-clinicalcare",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-sdoh-clinicalcare",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 9,
+        "valuesets": 6,
+        "codeSystems": 1,
+        "examples": 31
+      },
       "editions": [
         {
           "name": "STU 2 Ballot",
@@ -3497,6 +4313,7 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/cdisc-mapping",
       "ci-build": "http://build.fhir.org/ig/HL7/cdisc-map",
+      "analysis": {},
       "editions": [
         {
           "name": "STU 1",
@@ -3522,6 +4339,13 @@
       ],
       "canonical": "http://hl7.org/fhir/us/nhsn-ade",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-nhsn-ade-ig/branches/main/index.html",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 3,
+        "examples": 17
+      },
       "editions": [
         {
           "name": "STU 1 on FHIR R4",
@@ -3547,6 +4371,13 @@
       ],
       "canonical": "http://hl7.org/fhir/us/nhsn-med-admin",
       "ci-build": "http://build.fhir.org/ig/HL7/nhsn-med-admin-ig/branches/main/index.html",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 5,
+        "examples": 15
+      },
       "editions": [
         {
           "name": "STU 1 on FHIR R4",
@@ -3580,7 +4411,18 @@
           ],
           "url": "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 17,
+        "extensions": 8,
+        "valuesets": 6,
+        "codeSystems": 4
+      }
     },
     {
       "name": "Clinical Quality Language Specification",
@@ -3605,7 +4447,10 @@
           ],
           "url": "http://cql.hl7.org/N1"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
+      }
     },
     {
       "name": "Immunization Decision Support Forecast FHIR IG",
@@ -3620,6 +4465,16 @@
       "history": "http://hl7.org/fhir/us/immds/history.html",
       "canonical": "http://hl7.org/fhir/us/immds",
       "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 4,
+        "operations": 1,
+        "valuesets": 4,
+        "codeSystems": 3,
+        "examples": 6
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -3645,6 +4500,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/icsr-ae-reporting",
       "ci-build": "http://build.fhir.org/ig/HL7/icsr-ae-reporting",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 22,
+        "extensions": 20,
+        "valuesets": 13,
+        "codeSystems": 2,
+        "examples": 42
+      },
       "editions": [
         {
           "name": "STU 1",
@@ -3670,6 +4536,14 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/immds",
       "ci-build": "http://build.fhir.org/ig/HL7/ImmunizationFHIRDS",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 3,
+        "operations": 1
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3695,6 +4569,9 @@
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
       "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3720,6 +4597,10 @@
       ],
       "canonical": "http://hl7.org/fhir/us/sirb",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-sirb",
+      "analysis": {
+        "codeSystems": 1,
+        "examples": 16
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3745,6 +4626,15 @@
       ],
       "canonical": "http://hl7.org/fhir/us/cancer-reporting",
       "ci-build": "http://build.fhir.org/ig/HL7/cancer-reporting",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "diagnostics": true,
+        "profiles": 6,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 27
+      },
       "editions": [
         {
           "name": "STU1 Ballot",
@@ -3770,6 +4660,15 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/eyecare",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-eyecare-ig",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "diagnostics": true,
+        "profiles": 15,
+        "valuesets": 13,
+        "codeSystems": 3,
+        "examples": 32
+      },
       "editions": [
         {
           "name": "STU1 Ballot",
@@ -3795,6 +4694,13 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/shc-vaccination",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-shc-vaccination-ig",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 16,
+        "valuesets": 10,
+        "codeSystems": 1
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3820,6 +4726,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/military-service",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-military-service",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 5,
+        "extensions": 1,
+        "operations": 1,
+        "valuesets": 7,
+        "codeSystems": 1,
+        "examples": 5
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3855,7 +4771,10 @@
           ],
           "url": "https://dccfhirig.mohw.gov.tw/ig"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Error fetching package directly (https://dccfhirig.mohw.gov.tw/fhir/1.0.1/package.tgz), or fetching package list for dccfhirig.mohw.gov.tw from https://dccfhirig.mohw.gov.tw/fhir/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://dccfhirig.mohw.gov.tw/fhir/1.0.1/package.tgz (null) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-132.log)"
+      }
     },
     {
       "name": "Logica COVID-19 FHIR Profile Library IG",
@@ -3870,6 +4789,15 @@
       ],
       "canonical": "http://hl7.org/fhir/us/covid19library",
       "ci-build": "http://build.fhir.org/ig/HL7/covid19library",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 146,
+        "extensions": 4,
+        "valuesets": 43,
+        "codeSystems": 2,
+        "examples": 141
+      },
       "editions": [
         {
           "name": "Drafts Ballot",
@@ -3895,6 +4823,9 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/fhir-for-fair",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-for-fair",
+      "analysis": {
+        "error": "Unsupported version: 4.1.0"
+      },
       "editions": [
         {
           "name": "STU 1 (FHIR R4b) Ballot",
@@ -3920,6 +4851,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/davinci-pct",
       "ci-build": "http://hl7.org/fhir/us/davinci-pct",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 11,
+        "extensions": 17,
+        "operations": 1,
+        "valuesets": 18,
+        "codeSystems": 14,
+        "examples": 18
+      },
       "editions": [
         {
           "name": "STU 1 Draft",
@@ -3945,6 +4887,9 @@
       ],
       "canonical": "http://hl7.org/fhir/us/exchange-routing",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-exchange-routing-ig",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
           "name": "STU1 Ballot",
@@ -3970,6 +4915,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-rt",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-rt",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 1,
+        "extensions": 1,
+        "valuesets": 4,
+        "codeSystems": 3,
+        "examples": 241
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -3995,6 +4950,18 @@
       ],
       "canonical": "http://hl7.org/fhir/us/davinci-ra",
       "ci-build": "http://build.fhir.org/ig/HL7/davinci-ra",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "measures": true,
+        "profiles": 4,
+        "extensions": 6,
+        "operations": 1,
+        "valuesets": 3,
+        "codeSystems": 3,
+        "examples": 72
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4020,6 +4987,16 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/ipa",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ipa",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 11,
+        "operations": 1,
+        "examples": 13
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4045,6 +5022,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/pacio-adi",
       "ci-build": "http://build.fhir.org/ig/HL7/pacio-adi",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "clinicalCore": true,
+        "profiles": 15,
+        "extensions": 13,
+        "valuesets": 17,
+        "codeSystems": 2,
+        "examples": 65
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4070,6 +5058,17 @@
       ],
       "canonical": "http://hl7.org/fhir/us/insurance-card",
       "ci-build": "http://build.fhir.org/ig/HL7/insurance-card",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "profiles": 3,
+        "extensions": 10,
+        "valuesets": 5,
+        "codeSystems": 5,
+        "examples": 4
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4095,6 +5094,16 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/radiation-dose-summary",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-radiation-dose-summary-ig",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 9,
+        "valuesets": 5,
+        "codeSystems": 1,
+        "tests": 3,
+        "examples": 15
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4120,6 +5129,16 @@
       ],
       "canonical": "http://hl7.org/fhir/us/central-cancer-registry-reporting",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-central-cancer-registry-reporting",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "profiles": 6,
+        "extensions": 1,
+        "valuesets": 1,
+        "examples": 10
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4145,6 +5164,15 @@
       ],
       "canonical": "http://hl7.org/fhir/us/health-care-surveys-reporting",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-health-care-surveys-reporting",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "carePlanning": true,
+        "medsMgmt": true,
+        "profiles": 4,
+        "examples": 13
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4170,6 +5198,13 @@
       ],
       "canonical": "http://hl7.org/fhir/us/medmorph-research-dex",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-medmorph-research-dex",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "carePlanning": true,
+        "profiles": 1,
+        "examples": 6
+      },
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -4179,6 +5214,42 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/medmorph-research-dex/2022Jan"
+        }
+      ]
+    },
+    {
+      "name": "Medicolegal Death Investigation (MDI)",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.mdi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mdi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mdi",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mdi-ig",
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "diagnostics": true,
+        "profiles": 16,
+        "extensions": 2,
+        "valuesets": 7,
+        "codeSystems": 2,
+        "examples": 40
+      },
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mdi#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mdi/2022May"
         }
       ]
     },
@@ -4205,30 +5276,105 @@
           ],
           "url": "http://fhir.org/guides/cqf/common/4.0.1"
         }
-      ]
+      ],
+      "analysis": {
+        "valuesets": 2
+      }
     },
     {
-      "name": "eHealth Platform Federal Core Profiles",
+      "name": "Maternal and Infant Health Research",
       "category": "Public Health",
-      "npm-name": "be.ehealthplatform.fihr.be-core",
-      "description": "eHealth Platform Federal Core Profiles",
-      "authority": "eHealth Platform",
-      "country": "be",
-      "history": "https://www.ehealth.fgov.be/standards/fhir/history.html",
+      "npm-name": "hl7.fhir.us.mihr",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mihr/history.html",
       "language": [
         "en"
       ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir",
-      "ci-build": "build.fhir.org/ig/hl7-be/be-core",
+      "canonical": "http://hl7.org/fhir/us/mihr",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-mmm-ig",
+      "analysis": {
+        "valuesets": 9,
+        "examples": 24
+      },
       "editions": [
         {
-          "name": "Official Releases",
-          "ig-version": "1.2.3",
-          "package": "be.ehealthplatform.fihr.be-core#1.2.3",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/1.2.3"
+          "url": "http://hl7.org/fhir/us/mihr/2022May"
+        }
+      ]
+    },
+    {
+      "name": "Patient Request for Corrections Implementation Guide",
+      "category": "tbd",
+      "npm-name": "hl7.fhir.uv.patient-corrections",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/patient-corrections/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/patient-corrections",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-patient-correction",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "carePlanning": true,
+        "profiles": 3,
+        "operations": 1,
+        "valuesets": 4,
+        "codeSystems": 4,
+        "examples": 17
+      },
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.patient-corrections#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/patient-corrections/2022May"
+        }
+      ]
+    },
+    {
+      "name": "Interoperable Digital Identity and Patient Matching",
+      "category": "Security",
+      "npm-name": "hl7.fhir.us.identity-matching",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/identity-matching/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/identity-matching",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-identity-matching-ig",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 3,
+        "valuesets": 1,
+        "codeSystems": 1,
+        "examples": 3
+      },
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/identity-matching/2022May"
         }
       ]
     },
@@ -4255,10 +5401,68 @@
           ],
           "url": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0"
         }
+      ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 1,
+        "codeSystems": 3,
+        "examples": 12
+      }
+    },
+    {
+      "name": "FHIRcast",
+      "category": "Imaging",
+      "npm-name": "hl7.fhir.uv.fhircast",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/fhircast/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/fhircast",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhircast-docs",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 2,
+        "extensions": 1,
+        "examples": 1
+      },
+      "editions": [
+        {
+          "name": "STU3 Ballot",
+          "ig-version": "2.1.0-ballot",
+          "package": "hl7.fhir.uv.fhircast#2.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/fhircast/2022May"
+        },
+        {
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.fhircast#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://fhircast.hl7.org/specification/STU2"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.fhircast#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://fhircast.hl7.org/specification/STU1"
+        }
       ]
     },
     {
-      "name": "Mobile Health Document Sharing",
+      "name": "IHE Mobile Health Document Sharing (MHDS)",
       "category": "Clinical Documents",
       "npm-name": "ihe.iti.mhds",
       "description": "This Implementation Guide shows how to build a Document Sharing Exchange using IHE-profiled FHIR standard, rather than the legacy IHE profiles that are dominated by XDS and HL7 v2. This Implementation Guide assembles other IHE Implementation guides (Profiles) and defines a Document Registry Actor.",
@@ -4268,17 +5472,20 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/MHDS",
       "ci-build": "http://build.fhir.org/ig/IHE/MHDS",
+      "canonical": "https://profiles.ihe.net/ITI/MHDS",
+      "analysis": {
+        "rest": true
+      },
       "editions": [
         {
-          "name": "Public-Comment Ballot",
-          "ig-version": "2.2.0",
-          "package": "ihe.iti.mhds#2.2.0",
+          "name": "Trial Implementation",
+          "ig-version": "2.3.0",
+          "package": "ihe.iti.mhds#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/MHDS/2.2.0"
+          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
         },
         {
           "name": "Trial Implementation",
@@ -4292,7 +5499,7 @@
       ]
     },
     {
-      "name": "IHE ITI Mobile Care Services Discovery",
+      "name": "IHE Mobile Care Services Discovery (mCSD)",
       "category": "Administration",
       "npm-name": "ihe.iti.mcsd",
       "description": "The IHE Mobile Care Services Discovery (mCSD) IG provides a transaction for mobile and lightweight browser-based applications to find and update care services resources.",
@@ -4302,17 +5509,36 @@
       "language": [
         "en"
       ],
-      "canonical": "http://profiles.ihe.net/ITI/mCSD",
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.mCSD/branches/main",
+      "canonical": "https://profiles.ihe.net/ITI/mCSD",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "profiles": 14,
+        "extensions": 2,
+        "valuesets": 3,
+        "codeSystems": 3,
+        "examples": 21
+      },
       "editions": [
         {
           "name": "Public-Comment Ballot",
-          "ig-version": "3.4.0",
-          "package": "ihe.iti.mcsd#3.4.0",
+          "ig-version": "3.7.0",
+          "package": "ihe.iti.mcsd#3.7.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://profiles.ihe.net/ITI/mCSD/3.4.0"
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.7.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.5.0",
+          "package": "ihe.iti.mcsd#3.5.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.5.0"
         },
         {
           "name": "Trial Implementation",
@@ -4321,7 +5547,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf"
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD_Rev3-3_TI_2021-07-02.pdf"
         }
       ]
     },
@@ -4337,8 +5563,17 @@
         "en"
       ],
       "canonical": "http://fhir.infoway-inforoute.ca/io/psca",
-      "ci-build": "https://simplifier.net/PS-CA-R1/~introduction",
+      "ci-build": "https://simplifier.net/PS-CA-R1",
       "editions": [
+        {
+          "name": "Public Comment 0.3",
+          "ig-version": "0.3.0",
+          "package": "ca.infoway.io.psca#0.3.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.1"
+        },
         {
           "name": "Public Comment 0.2",
           "ig-version": "0.0.4",
@@ -4346,7 +5581,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.io.psca/0.0.4"
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.0.4"
         },
         {
           "name": "Public Comment 0.1",
@@ -4355,9 +5590,19 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/ca.infoway.vc.ps/0.0.3"
+          "url": "https://packages.simplifier.net/ca.infoway.vc.ps/0.0.3"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 19,
+        "extensions": 3,
+        "valuesets": 24,
+        "codeSystems": 1
+      }
     },
     {
       "name": "Canadian Baseline",
@@ -4380,7 +5625,156 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://simplifier.net/packages/hl7.fhir.ca.baseline/1.0.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.0"
+        }
+      ],
+      "analysis": {
+        "content": true,
+        "documents": true,
+        "clinicalCore": true,
+        "medsMgmt": true,
+        "profiles": 31,
+        "extensions": 13,
+        "valuesets": 9,
+        "codeSystems": 2
+      }
+    },
+    {
+      "name": "IHE Mobile Access to Health Documents (MHD)",
+      "category": "EHR Access",
+      "npm-name": "ihe.iti.mhd",
+      "description": "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
+      "authority": "IHE",
+      "country": "uv",
+      "language": [
+        "en"
+      ],
+      "history": "https://profiles.ihe.net/ITI/MHD/history.html",
+      "canonical": "https://profiles.ihe.net/ITI/MHD",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHD",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "documents": true,
+        "profiles": 24,
+        "extensions": 4,
+        "valuesets": 3,
+        "codeSystems": 1,
+        "examples": 48
+      },
+      "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "4.1.0",
+          "package": "ihe.iti.mhd#4.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.1.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "4.0.2",
+          "package": "ihe.iti.mhd#4.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.0.2"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "4.0.1",
+          "package": "ihe.iti.mhd#4.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.0.1"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "3.2.0",
+          "package": "ihe.iti.mhd#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
+        }
+      ]
+    },
+    {
+      "name": "IHE Basic Audit Log Patterns (BALP)",
+      "category": "Privacy / Security",
+      "npm-name": "ihe.iti.balp",
+      "description": "The Basic Audit Log Patterns (BALP) **Content Profile** defines some basic and reusable AuditEvent patterns. This includes basic audit log profiles for FHIR RESTful operations, to be used when there is not a more specific audit event defined. Where a more specific audit event can be defined it should be derived off of these basic patterns.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "https://profiles.ihe.net/ITI/BALP/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/BALP",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit",
+      "editions": [
+        {
+          "name": "Trial Implementation",
+          "ig-version": "1.1.0",
+          "package": "ihe.iti.balp#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
+        },
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "1.0.1",
+          "package": "ihe.iti.balp#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/BALP/1.0.1"
+        }
+      ],
+      "analysis": {
+        "content": true,
+        "profiles": 20,
+        "extensions": 2,
+        "valuesets": 6,
+        "codeSystems": 5,
+        "examples": 63
+      }
+    },
+    {
+      "name": "IHE Interactive Multimedia Report (IMR)",
+      "category": "Imaging",
+      "npm-name": "ihe.rad.imr",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/RAD/IMR/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/RAD/IMR",
+      "ci-build": "http://build.fhir.org/ig/IHE/RAD.IMR",
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "diagnostics": true,
+        "profiles": 8,
+        "extensions": 2,
+        "valuesets": 7,
+        "examples": 19
+      },
+      "editions": [
+        {
+          "name": "Public Comment Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.rad.imr#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/RAD/IMR/1.0.0-comment"
         }
       ]
     },
@@ -4482,7 +5876,50 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
         }
-      ]
+      ],
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 6,
+        "extensions": 1,
+        "valuesets": 3,
+        "codeSystems": 5,
+        "examples": 6
+      }
+    },
+    {
+      "name": "jp-core",
+      "category": "National Draft",
+      "npm-name": "jp-core.draft",
+      "description": "Japan core draft v1.0.8",
+      "authority": "JAMI FHIR Draft WG",
+      "country": "ja",
+      "language": [
+        "ja"
+      ],
+      "canonical": "http://jpfhir.jp/fhir/core",
+      "editions": [
+        {
+          "name": "jp-core.draft",
+          "ig-version": "1.0.8",
+          "package": "jp-core.draft#1.0.8",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/jpcoreV1/packages"
+        }
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 30,
+        "extensions": 28,
+        "codeSystems": 1
+      }
     }
   ]
 }
