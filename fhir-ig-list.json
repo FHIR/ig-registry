@@ -4325,12 +4325,11 @@
         }
       ]
     },
-    
     {
       "name": "Pan-Canadian Patient Summary",
       "category": "Patient Summary",
       "npm-name": "ca.infoway.io.psca",
-      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
+      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId\u003d149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
       "authority": "Canada Health Infoway",
       "country": "ca",
       "history": "https://simplifier.net/PS-CA-R1/~guides",
@@ -4382,6 +4381,106 @@
             "4.0.1"
           ],
           "url": "https://simplifier.net/packages/hl7.fhir.ca.baseline/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Core profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.core",
+      "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/core",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/core",
+      "editions": [
+        {
+          "name": "Trial Use Test",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.be.core#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.core-clinical",
+      "description": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/core-clinical",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.core-clinical#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.medication",
+      "description": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/medication/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/medication",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.medication#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/medication/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.vaccination",
+      "description": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
         }
       ]
     }
