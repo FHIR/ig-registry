@@ -5568,11 +5568,11 @@
         {
           "name": "Public Comment 0.3",
           "ig-version": "0.3.0",
-          "package": "ca.infoway.io.psca#0.3.1",
+          "package": "ca.infoway.io.psca#0.3.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.1"
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.2"
         },
         {
           "name": "Public Comment 0.2",
@@ -5620,12 +5620,21 @@
       "editions": [
         {
           "name": "Public Comment",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.ca.baseline#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.ca.baseline#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.1.0"
+        },
+        {
+          "name": "Public Comment",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.ca.baseline#1.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.2"
         }
       ],
       "analysis": {
