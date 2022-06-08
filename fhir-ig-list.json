@@ -5621,11 +5621,11 @@
         {
           "name": "Public Comment",
           "ig-version": "1.1.0",
-          "package": "hl7.fhir.ca.baseline#1.1.0",
+          "package": "hl7.fhir.ca.baseline#1.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.1.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.1.1"
         },
         {
           "name": "Public Comment",
