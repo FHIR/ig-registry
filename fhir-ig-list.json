@@ -5789,9 +5789,9 @@
     },
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Core profiles",
-      "category": "test",
+	  "category": "National Base",
       "npm-name": "hl7.fhir.be.core",
-      "description": "Belgian Federal Core Profiles",
+	  "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
       "authority": "eHealth Platform",
       "country": "be",
       "history": "https://www.ehealth.fgov.be/standards/fhir/core/history.html",
@@ -5810,7 +5810,71 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
         }
+      ]
+	},  
+	{
+      "name": "HL7 Belgium FHIR Implementation Guide - Clinical Core profiles - Transversal",
+      "category": "National Base",
+	  "npm-name": "hl7.fhir.be.core-clinical",
+	  "name": "HL7 Belgium FHIR Implementation Guide - Clinical Core profiles - Transversal",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
+      "language": [
+        "en"
+      ],  
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/core-clinical",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.core-clinical#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.medication",
+      "description": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/medication/history.html",
+      "language": [
+        "en"
       ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/medication",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.medication#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/medication/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.vaccination",
+      "description": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -5819,7 +5883,18 @@
         "valuesets": 3,
         "codeSystems": 5,
         "examples": 6
-      }
+      },
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
+        }
+      ]
     },
     {
       "name": "jp-core",
@@ -5854,6 +5929,31 @@
         "extensions": 28,
         "codeSystems": 1
       }
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.allergy",
+      "description": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/allergy/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/allergy",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/allergy",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.allergy#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
+        }
+      ]
     }
   ]
 }
