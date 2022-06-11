@@ -5815,8 +5815,7 @@
 	{
       "name": "HL7 Belgium FHIR Implementation Guide - Clinical Core profiles - Transversal",
       "category": "National Base",
-	  "npm-name": "hl7.fhir.be.core-clinical",
-	  "name": "HL7 Belgium FHIR Implementation Guide - Clinical Core profiles - Transversal",
+  	  "npm-name": "hl7.fhir.be.core-clinical",
       "authority": "eHealth Platform",
       "country": "be",
       "history": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
