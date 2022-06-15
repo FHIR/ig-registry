@@ -10,7 +10,7 @@ Other registries:
 
 ### Editing the Registry 
 
-If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. JSON validity is checked by python script in the CI/CD, hosted on [Azure Pipelines](https://dev.azure.com/fhir-pipelines/ig-registry). 
+If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. JSON validity is checked by a python script in the [CI/CD pipelines](#cicd).
 
 Alternatively, you can email your changes to fhir-director@hl7.org
 
@@ -37,3 +37,10 @@ Entries for each implementation guide:
   * url (required) : where the edition is found (just the base URL - do not include the index.html etc)
 
 Typically, only milestone releases are published, and for a given ballot sequence, only the last of the sequence - the most recent - will be listed.
+
+### CI/CD
+
+This project has pipelines hosted on [Azure Pipelines](https://dev.azure.com/fhir-pipelines/ig-registry). 
+
+* **JSON Validation Check** is automatically run for every Pull Request to check the validity of the fhir-ig-list.json file. [[Azure Pipeline]](https://dev.azure.com/fhir-pipelines/ig-registry/_build?definitionId=19) [[source]](azure-pipelines.yml)
+
