@@ -2320,7 +2320,6 @@
       ],
       "history": "http://hl7.org/fhir/uv/phd/history.html",
       "canonical": "http://hl7.org/fhir/uv/phd",
-      "ci-build": "http://build.fhir.org/ig/HL7/PHD",
       "analysis": {
         "content": true,
         "rest": true,
@@ -2329,6 +2328,7 @@
         "valuesets": 7,
         "codeSystems": 4
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/phd",
       "editions": [
         {
           "name": "STU 1",
@@ -4964,13 +4964,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-ra#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-ra#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-ra/2022Jan"
+          "url": "http://hl7.org/fhir/us/davinci-ra/STU1"
         }
       ]
     },
