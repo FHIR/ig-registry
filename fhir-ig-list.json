@@ -41,6 +41,15 @@
       "editions": [
         {
           "name": "STU5",
+          "ig-version": "5.0.1",
+          "package": "hl7.fhir.us.core#5.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU5.0.1"
+        },
+        {
+          "name": "STU5",
           "ig-version": "5.0.0",
           "package": "hl7.fhir.us.core#5.0.0",
           "fhir-version": [
