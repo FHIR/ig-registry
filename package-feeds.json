@@ -64,6 +64,11 @@
       "name": "HL7 Belgium/eHealth Platform",
       "url": "https://www.ehealth.fgov.be/standards/fhir/package-feed.xml",
       "errors": "message-structure|ehealth_fgov_be"
+    },
+    {
+      "name": "HL7 Germany",
+      "url": "https://github.com/hl7germany/hl7-de-package-feed/blob/main/package-feed.xml?raw=true",
+      "errors": "cto|hl7_de"
     }
   ],
   "package-restrictions": [

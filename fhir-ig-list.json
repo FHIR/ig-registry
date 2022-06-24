@@ -41,6 +41,15 @@
       "editions": [
         {
           "name": "STU5",
+          "ig-version": "5.0.1",
+          "package": "hl7.fhir.us.core#5.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU5.0.1"
+        },
+        {
+          "name": "STU5",
           "ig-version": "5.0.0",
           "package": "hl7.fhir.us.core#5.0.0",
           "fhir-version": [
@@ -2320,7 +2329,6 @@
       ],
       "history": "http://hl7.org/fhir/uv/phd/history.html",
       "canonical": "http://hl7.org/fhir/uv/phd",
-      "ci-build": "http://build.fhir.org/ig/HL7/PHD",
       "analysis": {
         "content": true,
         "rest": true,
@@ -2329,6 +2337,7 @@
         "valuesets": 7,
         "codeSystems": 4
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/phd",
       "editions": [
         {
           "name": "STU 1",
@@ -4964,13 +4973,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-ra#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-ra#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-ra/2022Jan"
+          "url": "http://hl7.org/fhir/us/davinci-ra/STU1"
         }
       ]
     },
@@ -5568,11 +5577,11 @@
         {
           "name": "Public Comment 0.3",
           "ig-version": "0.3.0",
-          "package": "ca.infoway.io.psca#0.3.1",
+          "package": "ca.infoway.io.psca#0.3.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.1"
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/0.3.2"
         },
         {
           "name": "Public Comment 0.2",
@@ -5620,12 +5629,21 @@
       "editions": [
         {
           "name": "Public Comment",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.ca.baseline#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.ca.baseline#1.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.0"
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.1.1"
+        },
+        {
+          "name": "Public Comment",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.ca.baseline#1.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://packages.simplifier.net/hl7.fhir.ca.baseline/1.0.2"
         }
       ],
       "analysis": {
@@ -5877,6 +5895,8 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
         }
       ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -5885,7 +5905,18 @@
         "valuesets": 3,
         "codeSystems": 5,
         "examples": 6
-      }
+      },
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
+        }
+      ]
     },
     {
       "name": "jp-core",
@@ -5920,6 +5951,31 @@
         "extensions": 28,
         "codeSystems": 1
       }
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.allergy",
+      "description": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/allergy/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/allergy",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/allergy",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.allergy#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
+        }
+      ]
     }
   ]
 }
