@@ -5798,9 +5798,9 @@
     },
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Core profiles",
-	  "category": "National Base",
+      "category": "National Base",
       "npm-name": "hl7.fhir.be.core",
-	  "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
+      "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
       "authority": "eHealth Platform",
       "country": "be",
       "history": "https://www.ehealth.fgov.be/standards/fhir/core/history.html",
@@ -5820,17 +5820,18 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
         }
       ]
-	},  
-	{
-      "name": "HL7 Belgium FHIR Implementation Guide - Clinical Core profiles - Transversal",
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
       "category": "National Base",
-  	  "npm-name": "hl7.fhir.be.core-clinical",
+      "npm-name": "hl7.fhir.be.core-clinical",
+      "description": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
       "authority": "eHealth Platform",
       "country": "be",
       "history": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
       "language": [
         "en"
-      ],  
+      ],
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
       "ci-build": "http://build.fhir.org/ig/hl7-be/core-clinical",
       "editions": [
@@ -5880,6 +5881,19 @@
       "history": "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
       "language": [
         "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
+        }
       ],
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
       "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
