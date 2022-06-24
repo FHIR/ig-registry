@@ -5884,19 +5884,6 @@
       ],
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
       "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
-      "editions": [
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.vaccination#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
-        }
-      ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
-      "ci-build": "http://build.fhir.org/ig/hl7-be/vaccination",
       "analysis": {
         "content": true,
         "clinicalCore": true,
