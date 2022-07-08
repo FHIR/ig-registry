@@ -4773,17 +4773,14 @@
       "editions": [
         {
           "name": "DSTU 1",
-          "ig-version": "1.0.1",
-          "package": "dccfhirig.mohw.gov.tw#1.0.1",
+          "ig-version": "1.1.1",
+          "package": "dccfhirig.mohw.gov.tw#1.1.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "https://dccfhirig.mohw.gov.tw/ig"
         }
-      ],
-      "analysis": {
-        "error": "Error fetching package directly (https://dccfhirig.mohw.gov.tw/fhir/1.0.1/package.tgz), or fetching package list for dccfhirig.mohw.gov.tw from https://dccfhirig.mohw.gov.tw/fhir/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://dccfhirig.mohw.gov.tw/fhir/1.0.1/package.tgz (null) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-132.log)"
-      }
+      ]
     },
     {
       "name": "Logica COVID-19 FHIR Profile Library IG",
