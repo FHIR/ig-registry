@@ -5478,11 +5478,11 @@
       "language": [
         "en"
       ],
-      "ci-build": "http://build.fhir.org/ig/IHE/MHDS",
       "canonical": "https://profiles.ihe.net/ITI/MHDS",
       "analysis": {
         "rest": true
       },
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHDS/branches/master/index.html",
       "editions": [
         {
           "name": "Trial Implementation",
@@ -5728,7 +5728,15 @@
         "en"
       ],
       "canonical": "https://profiles.ihe.net/ITI/BALP",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit",
+      "analysis": {
+        "content": true,
+        "profiles": 20,
+        "extensions": 2,
+        "valuesets": 6,
+        "codeSystems": 5,
+        "examples": 63
+      },
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit/branches/main/index.html",
       "editions": [
         {
           "name": "Trial Implementation",
@@ -5738,25 +5746,8 @@
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
-        },
-        {
-          "name": "Public-Comment Ballot",
-          "ig-version": "1.0.1",
-          "package": "ihe.iti.balp#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.0.1"
         }
-      ],
-      "analysis": {
-        "content": true,
-        "profiles": 20,
-        "extensions": 2,
-        "valuesets": 6,
-        "codeSystems": 5,
-        "examples": 63
-      }
+      ]
     },
     {
       "name": "IHE Interactive Multimedia Report (IMR)",
@@ -5783,13 +5774,13 @@
       },
       "editions": [
         {
-          "name": "Public Comment Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.rad.imr#1.0.0-comment",
+          "name": "Trial Implementation",
+          "ig-version": "1.0.0",
+          "package": "ihe.rad.imr#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/RAD/IMR/1.0.0-comment"
+          "url": "https://profiles.ihe.net/RAD/IMR/1.0.0"
         }
       ]
     },
