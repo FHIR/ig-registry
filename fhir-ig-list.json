@@ -4799,13 +4799,13 @@
       },
       "editions": [
         {
-          "name": "Drafts Ballot",
-          "ig-version": "0.14.0",
-          "package": "hl7.fhir.us.covid19library#0.14.0",
+          "name": "Informative Informative",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.covid19library#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/covid19library/2022Jan"
+          "url": "http://hl7.org/fhir/us/covid19library/informative1"
         }
       ]
     },
