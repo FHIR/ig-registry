@@ -5951,6 +5951,31 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         }
       ]
+    },
+    {
+      "name": "TW Core",
+      "category": "National Base",
+      "npm-name": "twcore.mohw.gov.tw",
+      "description": "Taiwan Core Implementation Guide",
+      "authority": "MOHW",
+      "country": "tw",
+      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "language": [
+        "zh-tw"
+      ],
+      "canonical": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
+      "ci-build": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
+      "editions": [
+        {
+          "name": "DSTU 1",
+          "ig-version": "0.0.1",
+          "package": "twcore.mohw.gov.tw#0.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hitstdio.ntunhs.edu.tw/ig/twcore"
+        }
+      ]
     }
   ]
 }
