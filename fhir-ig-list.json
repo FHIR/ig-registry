@@ -5951,6 +5951,54 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         }
       ]
+    },
+    {
+      "name": "HL7 UK FHIR UKCore Implementation Guide",
+      "category": "National Base",
+      "npm-name": "fhir.r4.ukcore.stu1",
+      "description": "HL7 UK FHIR UKCore Implementation Guide",
+      "authority": "HL7 UK",
+      "country": "gb",
+      "history": "https://simplifier.net/guide/ukcoreversionhistory/home",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://fhir.hl7.org.uk",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "0.5.1",
+          "package": "fhir.r4.ukcore.stu1#0.5.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://simplifier.net/guide/hl7fhirukcorer4release1/home"
+        }
+      ]
+    },
+    {
+      "name": "NHS Digital FHIR R4 Implementation Guide",
+      "category": "National Base",
+      "npm-name": "nhs.digital.r4",
+      "description": "NHS Digital FHIR R4 Implementation Guide",
+      "authority": "NHS Digital",
+      "country": "gb",
+      "history": "https://simplifier.net/guide/NHSDigital",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://fhir.nhs.uk",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "2.5.0",
+          "package": "nhs.digital.r4#2.5.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://simplifier.net/guide/NHSDigital/"
+        }
+      ]
     }
   ]
 }
