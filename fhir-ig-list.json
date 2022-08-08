@@ -2774,6 +2774,15 @@
       },
       "editions": [
         {
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-cdex#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2022Sep"
+        },
+        {
           "name": "STU1.1",
           "ig-version": "1.1.0",
           "package": "hl7.fhir.us.davinci-cdex#1.1.0",
