@@ -3814,7 +3814,7 @@
       "name": "SMART Web Messaging Implementation Guide: STU1",
       "category": "Communications",
       "npm-name": "hl7.fhir.uv.smart-web-messaging",
-      "description": "??",
+      "description": "SMART Web Messaging enables tight UI integration between EHRs and embedded SMART apps via HTML5’s Web Messaging. SMART Web Messaging allows applications to push unsigned orders, note snippets, risk scores, or UI suggestions directly to the clinician’s EHR session. Built on the browser’s javascript window.postMessage function, SMART Web Messaging is a simple, native API for health apps embedded within the user’s workflow",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/smart-web-messaging/history.html",
@@ -3923,7 +3923,7 @@
     },
     {
       "name": "HL7 Terminology",
-      "category": "??",
+      "category": "infrastructure",
       "npm-name": "hl7.terminology",
       "description": "Terminology",
       "authority": "HL7",
@@ -4448,7 +4448,7 @@
       "npm-name": "hl7.cql",
       "description": "??",
       "authority": "HL7",
-      "country": "??",
+      "country": "uv",
       "history": "http://cql.hl7.org/history.html",
       "language": [
         "en"
@@ -5763,8 +5763,8 @@
       "category": "Imaging",
       "npm-name": "ihe.rad.imr",
       "description": "??",
-      "authority": "??",
-      "country": "??",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/RAD/IMR/history.html",
       "language": [
         "en"
