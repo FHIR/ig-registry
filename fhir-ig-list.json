@@ -529,6 +529,15 @@
       },
       "editions": [
         {
+          "name": "STU 5 Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#5.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/2022Sep"
+        },
+        {
           "name": "STU 4",
           "ig-version": "4.1.1",
           "package": "hl7.fhir.us.qicore#4.1.1",
@@ -2776,12 +2785,21 @@
       "editions": [
         {
           "name": "STU2 Ballot",
-          "ig-version": "1.1.0-ballot",
-          "package": "hl7.fhir.us.davinci-cdex#1.1.0-ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-cdex#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2022May"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2022Sep"
+        },
+        {
+          "name": "STU1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-cdex#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1.1"
         },
         {
           "name": "STU1",
@@ -6083,6 +6101,56 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/directory-query/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "National Healthcare Directory Exchange",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.us.directory-exchange",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/directory-exchange/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/directory-exchange",
+      "ci-build": "http://build.fhir.org/ig/HL7/directory-exchange",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.directory-exchange#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/directory-exchange/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "National Healthcare Directory Attestation",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.us.directory-attestation",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/directory-attestation/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/directory-attestation",
+      "ci-build": "http://build.fhir.org/ig/HL7/directory-attestation",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.directory-attestation#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/directory-attestation/2022Sep"
         }
       ]
     }
