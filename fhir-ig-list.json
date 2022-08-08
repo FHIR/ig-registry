@@ -6062,6 +6062,31 @@
           "url": "http://hl7.org/fhir/us/directory-attestation/2022Sep"
         }
       ]
+    },
+    {
+      "name": "IHE SDC/eCC on FHIR",
+      "category": "Orders and Observaitons",
+      "npm-name": "hl7.fhir.uv.ihe-sdc-ecc",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ihe-sdc-ecc/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ihe-sdc-ecc",
+      "ci-build": "http://build.fhir.org/ig/HL7/ihe-sdc-ecc-on-fhir",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/2022Sep"
+        }
+      ]
     }
   ]
 }
