@@ -971,13 +971,13 @@
       "canonical": "https://profiles.ihe.net/ITI/PMIR",
       "editions": [
         {
-          "name": "Public Comment Ballot",
-          "ig-version": "1.4.0",
-          "package": "ihe.iti.pmir#1.4.0",
+          "name": "Trial Implementation",
+          "ig-version": "1.5.0",
+          "package": "ihe.iti.pmir#1.5.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PMIR/1.4.0"
+          "url": "https://profiles.ihe.net/ITI/PMIR/1.5.0"
         },
         {
           "name": "Trial Implementation",
