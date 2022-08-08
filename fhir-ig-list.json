@@ -3814,7 +3814,7 @@
       "name": "SMART Web Messaging Implementation Guide: STU1",
       "category": "Communications",
       "npm-name": "hl7.fhir.uv.smart-web-messaging",
-      "description": "??",
+      "description": "SMART Web Messaging enables tight UI integration between EHRs and embedded SMART apps via HTML5’s Web Messaging. SMART Web Messaging allows applications to push unsigned orders, note snippets, risk scores, or UI suggestions directly to the clinician’s EHR session. Built on the browser’s javascript window.postMessage function, SMART Web Messaging is a simple, native API for health apps embedded within the user’s workflow",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/smart-web-messaging/history.html",
@@ -3923,7 +3923,7 @@
     },
     {
       "name": "HL7 Terminology",
-      "category": "??",
+      "category": "infrastructure",
       "npm-name": "hl7.terminology",
       "description": "Terminology",
       "authority": "HL7",
@@ -4113,6 +4113,15 @@
         "examples": 16
       },
       "editions": [
+        {
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.specialty-rx#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/specialty-rx/2022Sep"
+        },
         {
           "name": "STU1",
           "ig-version": "1.0.0",
@@ -4439,7 +4448,7 @@
       "npm-name": "hl7.cql",
       "description": "??",
       "authority": "HL7",
-      "country": "??",
+      "country": "uv",
       "history": "http://cql.hl7.org/history.html",
       "language": [
         "en"
@@ -5754,8 +5763,8 @@
       "category": "Imaging",
       "npm-name": "ihe.rad.imr",
       "description": "??",
-      "authority": "??",
-      "country": "??",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/RAD/IMR/history.html",
       "language": [
         "en"
@@ -5949,6 +5958,131 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "CodeX™ Radiation Therapy",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.codex-radiation-therapy",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/codex-radiation-therapy/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/codex-radiation-therapy",
+      "ci-build": "http://build.fhir.org/ig/codex-radiation-therapy",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "At-Home In-Vitro Test Report",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.us.home-lab-report",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/home-lab-report/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/home-lab-report",
+      "ci-build": "http://build.fhir.org/ig/HL7/home-lab-report",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.home-lab-report#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/home-lab-report/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "PACIO Personal Functioning and Engagement Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.fhir.us.pacio-pfe",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pacio-pfe/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pacio-pfe",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.pacio-pfe#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-pfe/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "US Public Health Profiles Library",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.ph-library",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/ph-library/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/ph-library",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ph-library",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.ph-library#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ph-library/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "National Healthcare Query",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.us.directory-query",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/directory-query/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/directory-query",
+      "ci-build": "http://build.fhir.org/ig/HL7/directory-query",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.directory-query#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/directory-query/2022Sep"
         }
       ]
     }
