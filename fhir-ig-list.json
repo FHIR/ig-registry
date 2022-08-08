@@ -529,6 +529,15 @@
       },
       "editions": [
         {
+          "name": "STU 5 Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#5.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/2022Sep"
+        },
+        {
           "name": "STU 4",
           "ig-version": "4.1.1",
           "package": "hl7.fhir.us.qicore#4.1.1",
