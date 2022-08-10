@@ -6000,7 +6000,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/directory-query",
-      "ci-build": "http://build.fhir.org/ig/HL7/directory-query",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-directory-query",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -6025,7 +6025,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/directory-exchange",
-      "ci-build": "http://build.fhir.org/ig/HL7/directory-exchange",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-directory-exchange",
       "editions": [
         {
           "name": "STU 1 Ballot",
@@ -6050,7 +6050,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/directory-attestation",
-      "ci-build": "http://build.fhir.org/ig/HL7/directory-attestation",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-directory-attestation",
       "editions": [
         {
           "name": "STU 1 Ballot",
