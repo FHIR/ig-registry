@@ -1766,6 +1766,15 @@
       },
       "editions": [
         {
+          "name": "STU 1.2 on FHIR R4",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.odh#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/odh/STU1.2"
+        },
+        {
           "name": "STU 1.1 on FHIR R4",
           "ig-version": "1.1.0",
           "package": "hl7.fhir.us.odh#1.1.0",
