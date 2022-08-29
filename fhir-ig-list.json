@@ -1776,6 +1776,15 @@
       },
       "editions": [
         {
+          "name": "STU 1.2 on FHIR R4",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.odh#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/odh/STU1.2"
+        },
+        {
           "name": "STU 1.1 on FHIR R4",
           "ig-version": "1.1.0",
           "package": "hl7.fhir.us.odh#1.1.0",
@@ -3657,13 +3666,13 @@
       },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.us.davinci-drug-formulary#1.2.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/2022Jan"
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2"
         },
         {
           "name": "STU 1",
@@ -5978,6 +5987,31 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         }
       ]
+    },
+    {
+      "name": "TW Core",
+      "category": "National Base",
+      "npm-name": "twcore.mohw.gov.tw",
+      "description": "Taiwan Core Implementation Guide",
+      "authority": "MOHW",
+      "country": "tw",
+      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "language": [
+        "zh-tw"
+      ],
+      "canonical": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
+      "ci-build": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
+      "editions": [
+        {
+          "name": "DSTU 1",
+          "ig-version": "0.0.1",
+          "package": "twcore.mohw.gov.tw#0.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hitstdio.ntunhs.edu.tw/ig/twcore"
+        }
+      ]  
     },
     {
       "name": "CodeX™ Radiation Therapy",
