@@ -971,13 +971,13 @@
       "canonical": "https://profiles.ihe.net/ITI/PMIR",
       "editions": [
         {
-          "name": "Public Comment Ballot",
-          "ig-version": "1.4.0",
-          "package": "ihe.iti.pmir#1.4.0",
+          "name": "Trial Implementation",
+          "ig-version": "1.5.0",
+          "package": "ihe.iti.pmir#1.5.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PMIR/1.4.0"
+          "url": "https://profiles.ihe.net/ITI/PMIR/1.5.0"
         },
         {
           "name": "Trial Implementation",
@@ -5565,13 +5565,13 @@
       },
       "editions": [
         {
-          "name": "Public-Comment Ballot",
-          "ig-version": "3.7.0",
-          "package": "ihe.iti.mcsd#3.7.0",
+          "name": "Public-Comment",
+          "ig-version": "3.8.0",
+          "package": "ihe.iti.mcsd#3.8.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/mCSD/3.7.0"
+          "url": "https://profiles.ihe.net/ITI/mCSD/3.8.0"
         },
         {
           "name": "Trial Implementation",
@@ -5789,7 +5789,7 @@
       "name": "IHE Interactive Multimedia Report (IMR)",
       "category": "Imaging",
       "npm-name": "ihe.rad.imr",
-      "description": "??",
+      "description": "Support encoding and presentation of an interactive multimedia report",
       "authority": "IHE",
       "country": "uv",
       "history": "https://profiles.ihe.net/RAD/IMR/history.html",
@@ -6185,6 +6185,40 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/directory-attestation/2022Sep"
+        }
+      ]
+    },
+    {
+      "name": "Sharing Valuesets, Codes, and Maps (SVCM)",
+      "category": "Terminologies",
+      "npm-name": "ihe.iti.svcm",
+      "description": "The Sharing Valuesets, Codes, and Maps (SVCM) Profile defines a lightweight interface through which healthcare systems may retrieve centrally managed uniform nomenclature and mappings between code systems based on the HL7 Fast Healthcare Interoperability Resources (FHIR) specification.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "https://profiles.ihe.net/ITI/SVCM/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/SVCM",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.SVCM",
+      "editions": [
+        {
+          "name": "Public-Comment Ballot",
+          "ig-version": "1.4.0",
+          "package": "ihe.iti.svcm#1.4.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/SVCM/1.4.0"
+        },
+        {
+          "name": "Trial Implementation",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.svcm#1.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_SVCM_Rev1-3_TI_2022-06-17.pdf"
         }
       ]
     },
