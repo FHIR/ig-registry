@@ -5995,12 +5995,12 @@
       "description": "Taiwan Core Implementation Guide",
       "authority": "MOHW",
       "country": "tw",
-      "history": "http://hitstdio.ntunhs.edu.tw/fhir/history.html",
+      "history": "https://twcore.mohw.gov.tw/fhir/history.html",
       "language": [
         "zh-tw"
       ],
-      "canonical": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
-      "ci-build": "http://hitstdio.ntunhs.edu.tw/ig/twcore",
+      "canonical": "https://twcore.mohw.gov.tw/ig",
+      "ci-build": "https://twcore.mohw.gov.tw/ig",
       "editions": [
         {
           "name": "DSTU 1",
@@ -6009,7 +6009,7 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hitstdio.ntunhs.edu.tw/ig/twcore"
+          "url": "https://twcore.mohw.gov.tw/ig"
         }
       ]  
     },
