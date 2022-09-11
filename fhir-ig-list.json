@@ -5939,6 +5939,56 @@
       ]
     },
     {
+      "name": "HL7 Belgium FHIR Implementation Guide - MyCareNet profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.mycarenet",
+      "description": "HL7 Belgium FHIR Implementation Guide - MyCareNet profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/mycarenet",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/mycarenet",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.be.mycarenet#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/mycarenet/2.0.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Belgium FHIR Implementation Guide - Lab related profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.lab",
+      "description": "HL7 Belgium FHIR Implementation Guide - Lab related profiles",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/lab/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/lab",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/lab",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.lab#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/lab/1.0.0"
+        }
+      ]
+    },
+    {
       "name": "jp-core",
       "category": "National Draft",
       "npm-name": "jp-core.draft",
