@@ -6305,6 +6305,31 @@
           "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/2022Sep"
         }
       ]
+    },
+    {
+      "name": "Vital Signs FHIR IG",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.us.vitals",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/vitals/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/vitals",
+      "ci-build": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.vitals#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/vitals/STU1"
+        }
+      ]
     }
   ]
 }
