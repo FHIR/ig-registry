@@ -3777,40 +3777,6 @@
       ]
     },
     {
-      "name": "Vital Signs FHIR IG",
-      "category": "Clinical Records",
-      "npm-name": "hl7.fhir.us.vitalsigns",
-      "description": "US Realm Implementation Guide for Vital Signs observations with extensions for qualifying data.",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/vitals/history.html",
-      "canonical": "http://hl7.org/fhir/us/vitals",
-      "ci-build": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
-      "language": [
-        "en"
-      ],
-      "analysis": {
-        "content": true,
-        "clinicalCore": true,
-        "profiles": 15,
-        "extensions": 11,
-        "valuesets": 27,
-        "codeSystems": 3,
-        "examples": 15
-      },
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.vitalsigns#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/vitals/2020Sep"
-        }
-      ]
-    },
-    {
       "name": "Order Catalog Implementation Guide",
       "category": "Administration",
       "npm-name": "hl7.fhir.uv.order-catalog",
@@ -6310,15 +6276,24 @@
       "name": "Vital Signs FHIR IG",
       "category": "Clinical Records",
       "npm-name": "hl7.fhir.us.vitals",
-      "description": "??",
+      "description": "US Realm Implementation Guide for Vital Signs observations with extensions for qualifying data.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/vitals/history.html",
+      "canonical": "http://hl7.org/fhir/us/vitals",
+      "ci-build": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
       "language": [
         "en"
       ],
-      "canonical": "http://hl7.org/fhir/us/vitals",
-      "ci-build": "http://build.fhir.org/ig/HL7/cimi-vital-signs",
+      "analysis": {
+        "content": true,
+        "clinicalCore": true,
+        "profiles": 15,
+        "extensions": 11,
+        "valuesets": 27,
+        "codeSystems": 3,
+        "examples": 15
+      },
       "editions": [
         {
           "name": "STU1",
