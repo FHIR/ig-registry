@@ -2464,18 +2464,6 @@
       ],
       "history": "http://hl7.dk/fhir/core/history.html",
       "canonical": "http://hl7.dk/fhir/core",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/dk-core/index.html",
-      "editions": [
-        {
-          "name": "Release 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.dk.core#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.dk/fhir/core/1.1.0"
-        }
-      ],
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -2484,7 +2472,28 @@
         "valuesets": 6,
         "codeSystems": 15,
         "examples": 12
-      }
+      },
+      "ci-build": "http://build.fhir.org/ig/hl7dk/dk-core",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.dk.core#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/2.0.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.dk.core#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/1.1.0"
+        }
+      ]
     },
     {
       "name": "Swiss Core Implementation Guide",
