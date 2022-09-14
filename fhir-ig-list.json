@@ -6036,7 +6036,7 @@
           ],
           "url": "https://twcore.mohw.gov.tw/ig"
         }
-      ]  
+      ]
     },
     {
       "name": "CodeX™ Radiation Therapy",
@@ -6303,6 +6303,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/vitals/STU1"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Cross Paradigm IG: Gender Harmony - Sex and Gender Representation",
+      "category": "Administration",
+      "npm-name": "hl7.xprod.uv.gender-harmony",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/xprod/ig/uv/gender-harmony/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/xprod/ig/uv/gender-harmony",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-gender-harmony",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.xprod.uv.gender-harmony#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0-ballot"
+          ],
+          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/2022Sep"
         }
       ]
     }
