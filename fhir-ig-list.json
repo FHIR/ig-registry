@@ -6337,7 +6337,7 @@
       "name": "HL7 Cross Paradigm IG: Gender Harmony - Sex and Gender Representation",
       "category": "Administration",
       "npm-name": "hl7.xprod.uv.gender-harmony",
-      "description": "??",
+      "description": "Provide profile components and guidance on how to properly represent Gender Identity as distinct from clinical sex characterization via Sex For Clinical Use, as well as other aligned sex- or gender-related data elements (Recorded Sex or Gender, Name to Use, Pronouns, etc.) Covers implementation approaches for FHIR, CDA, and V2.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/xprod/ig/uv/gender-harmony/history.html",
