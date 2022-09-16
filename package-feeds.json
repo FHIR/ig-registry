@@ -1,8 +1,14 @@
 {
+  "comment" : "The order of the feeds does not matter, but the order of the package-restrictions does",
   "feeds": [
     {
-      "name": "HL7.org Publications",
+      "name": "HL7.org FHIR Publications",
       "url": "http://hl7.org/fhir/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
+      "name": "HL7.org Cross-Product Publications",
+      "url": "http://hl7.org/xprod/ig/package-feed.xml",
       "errors": "grahame|fhir_org"
     },
     {
@@ -91,6 +97,10 @@
     {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/templates/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.xprod.*",
+      "feeds": [ "http://hl7.org/xprod/ig/package-feed.xml" ]
     },
     {
       "mask": "hl7.tx.*",
