@@ -4872,13 +4872,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 (FHIR R4b) Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.fhir-for-fair#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.fhir-for-fair#1.0.0",
           "fhir-version": [
-            "4.1.0"
+            "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/fhir-for-fair/2022Jan"
+          "url": "http://hl7.org/fhir/uv/fhir-for-fair/STU1"
         }
       ]
     },
@@ -4971,13 +4971,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.pacio-rt#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.pacio-rt#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-rt/2022Jan"
+          "url": "http://hl7.org/fhir/us/pacio-rt/STU1"
         }
       ]
     },
