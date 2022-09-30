@@ -4612,7 +4612,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
       "analysis": {
         "rest": true
       },
