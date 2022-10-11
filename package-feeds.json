@@ -79,7 +79,7 @@
     {
       "name": "Taiwan FHIR Publications",
       "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
-      "errors": "mohw|tw"
+      "errors": "CCYU|mohw_gov_tw"
     }
   ],
   "package-restrictions": [
