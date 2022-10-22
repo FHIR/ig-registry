@@ -6179,6 +6179,15 @@
       },
       "editions": [
         {
+          "name": "Public Comment Ballot",
+          "ig-version": "4.2.0-ballot",
+          "package": "ihe.iti.mhd#4.2.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0-ballot"
+        },
+        {
           "name": "Trial Implementation",
           "ig-version": "4.1.0",
           "package": "ihe.iti.mhd#4.1.0",
