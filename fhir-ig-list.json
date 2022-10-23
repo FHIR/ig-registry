@@ -4984,19 +4984,19 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/udap-security",
-      "ci-build": "http://build.fhir.org/ig/HL7/udap-security",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
       "analysis": {
         "rest": true
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.udap-security#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.udap-security#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/udap-security/2021Sep"
+          "url": "http://hl7.org/fhir/us/udap-security/STU1"
         }
       ]
     },
@@ -5265,13 +5265,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 (FHIR R4b) Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.fhir-for-fair#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.fhir-for-fair#1.0.0",
           "fhir-version": [
-            "4.1.0"
+            "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/fhir-for-fair/2022Jan"
+          "url": "http://hl7.org/fhir/uv/fhir-for-fair/STU1"
         }
       ]
     },
@@ -5373,13 +5373,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.pacio-rt#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.pacio-rt#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-rt/2022Jan"
+          "url": "http://hl7.org/fhir/us/pacio-rt/STU1"
         }
       ]
     },
@@ -5716,13 +5716,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.mdi#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.mdi#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mdi/2022May"
+          "url": "http://hl7.org/fhir/us/mdi/STU1"
         }
       ]
     },
