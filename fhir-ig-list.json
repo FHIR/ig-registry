@@ -6066,6 +6066,15 @@
       "ci-build": "https://simplifier.net/PS-CA-R1",
       "editions": [
         {
+          "name": "Trial Implementation",
+          "ig-version": "1.0.0",
+          "package": "ca.infoway.io.psca#1.0.0-pre",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://packages.simplifier.net/ca.infoway.io.psca/1.0.0-pre"
+        },
+        {
           "name": "Public Comment 0.3",
           "ig-version": "0.3.0",
           "package": "ca.infoway.io.psca#0.3.2",
