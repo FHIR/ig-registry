@@ -2684,6 +2684,15 @@
       "editions": [
         {
           "name": "Release",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.dk.core#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/2.1.0"
+        },
+        {
+          "name": "Release",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.dk.core#2.0.0",
           "fhir-version": [
