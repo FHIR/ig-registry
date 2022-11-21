@@ -3280,13 +3280,13 @@
       },
       "editions": [
         {
-          "name": "Comment Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.breast-radiology#0.1.0",
+          "name": "STU1 Ballot",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.breast-radiology#0.2.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/breast-radiology/2019Sep"
+          "url": "http://hl7.org/fhir/us/breast-radiology/2020May"
         }
       ]
     },
@@ -4679,13 +4679,13 @@
       },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#1.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/2022Jan"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
         },
         {
           "name": "STU 1",
