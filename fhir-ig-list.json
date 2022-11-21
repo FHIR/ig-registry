@@ -1869,6 +1869,15 @@
       "editions": [
         {
           "name": "STU 3",
+          "ig-version": "3.1.0",
+          "package": "hl7.fhir.us.davinci-deqm#3.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU3.1"
+        },
+        {
+          "name": "STU 3",
           "ig-version": "3.0.0",
           "package": "hl7.fhir.us.davinci-deqm#3.0.0",
           "fhir-version": [
