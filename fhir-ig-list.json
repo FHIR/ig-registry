@@ -1877,6 +1877,15 @@
       },
       "editions": [
         {
+          "name": "STU4 (v4.0.0) Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-deqm#4.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2023Jan"
+        },
+        {
           "name": "STU 3",
           "ig-version": "3.1.0",
           "package": "hl7.fhir.us.davinci-deqm#3.1.0",
@@ -7005,6 +7014,73 @@
             "4.0.1"
           ],
           "url": "https://simplifier.net/guide/NHSDigital/"
+        }
+      ]
+      "history": "http://hl7.org/fhir/uv/emedicinal-product-info/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/emedicinal-product-info",
+      "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0-ballot"
+          ],
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "Retrieval of Real World Data for Clinical Research",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.vulcan-rwd",
+      "description": "This IG provides profiles that define the data needed from EHRs to answer research questions arising from clinical studies.  It will demonstrate how FHIR and EHRs can directly support clinical trials.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/vulcan-rwd/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/vulcan-rwd",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/vulcan-rwd/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "MCC eCare Plan Implementation Guide",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.mcc",
+      "description": "Provides representation of clinical and social data elements in the FHIR Care Plan format. Focuses on 4 common chronic conditions: 1) chronic kidney disease (CKD), 2) type 2 diabetes mellitus (T2DM), 3) cardiovascular diseases (specifically, hypertension, ischemic heart disease and heart failure), and 4) pain.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mcc/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mcc",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-mcc",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mcc#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mcc/2023Jan"
         }
       ]
     }
