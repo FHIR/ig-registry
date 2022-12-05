@@ -43,6 +43,15 @@
       },
       "editions": [
         {
+          "name": "STU6 Ballot",
+          "ig-version": "6.0.0-ballot",
+          "package": "hl7.fhir.us.core#6.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/2023Jan"
+        },
+        {
           "name": "STU5",
           "ig-version": "5.0.1",
           "package": "hl7.fhir.us.core#5.0.1",
@@ -1877,6 +1886,15 @@
       },
       "editions": [
         {
+          "name": "STU4 (v4.0.0) Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-deqm#4.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2023Jan"
+        },
+        {
           "name": "STU 3",
           "ig-version": "3.1.0",
           "package": "hl7.fhir.us.davinci-deqm#3.1.0",
@@ -2087,6 +2105,15 @@
       "analysis": {},
       "editions": [
         {
+          "name": "STU 2.1 Draft",
+          "ig-version": "2.1.0-ballot",
+          "package": "hl7.fhir.uv.smart-app-launch#2.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/smart-app-launch/2023Jan"
+        },
+        {
           "name": "STU 2",
           "ig-version": "2.0.0",
           "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
@@ -2248,6 +2275,15 @@
         "examples": 61
       },
       "editions": [
+        {
+          "name": "STU 4 Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.cqfmeasures#4.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/2023Jan"
+        },
         {
           "name": "STU3",
           "ig-version": "3.0.0",
@@ -3731,13 +3767,13 @@
       },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.us.carin-bb#1.2.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.carin-bb#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/carin-bb/2022Jan"
+          "url": "http://hl7.org/fhir/us/carin-bb/STU2"
         },
         {
           "name": "STU 1",
@@ -3787,6 +3823,15 @@
         "examples": 14
       },
       "editions": [
+        {
+          "name": "STU2 Release 1 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-atr#2.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-atr/2023Jan"
+        },
         {
           "name": "STU 1",
           "ig-version": "1.0.0",
@@ -7005,6 +7050,106 @@
             "4.0.1"
           ],
           "url": "https://simplifier.net/guide/NHSDigital/"
+        }
+      ]
+    },
+    {
+      "name": "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
+      "category": "Pharmaceutical",
+      "npm-name": "hl7.fhir.uv.emedicinal-product-info",
+      "description": "This guide provides best practice guidance for creating and representing electronic product information for medicinal products.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/emedicinal-product-info/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/emedicinal-product-info",
+      "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0-ballot"
+          ],
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "Retrieval of Real World Data for Clinical Research",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.vulcan-rwd",
+      "description": "This IG provides profiles that define the data needed from EHRs to answer research questions arising from clinical studies.  It will demonstrate how FHIR and EHRs can directly support clinical trials.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/vulcan-rwd/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/vulcan-rwd",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/vulcan-rwd/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "MCC eCare Plan Implementation Guide",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.mcc",
+      "description": "Provides representation of clinical and social data elements in the FHIR Care Plan format. Focuses on 4 common chronic conditions: 1) chronic kidney disease (CKD), 2) type 2 diabetes mellitus (T2DM), 3) cardiovascular diseases (specifically, hypertension, ischemic heart disease and heart failure), and 4) pain.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/mcc/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/mcc",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-mcc",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mcc#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mcc/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "Clinical Study Schedule of Activities",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.vulcan-schedule",
+      "description": "This guide provides best practice guidance for representing the schedule of activities (visits/encounters) in a Research Study and for relating EHR data to that schedule.  It also includes definition of blocks of standard activities that can subsequently be used as components of studies.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/vulcan-schedule/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/vulcan-schedule",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.vulcan-schedule#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/vulcan-schedule/2023Jan"
         }
       ]
     }
