@@ -7152,6 +7152,31 @@
           "url": "http://hl7.org/fhir/uv/vulcan-schedule/2023Jan"
         }
       ]
+    },
+    {
+      "name": "EHRS Functional Model - Record Lifecycle Events Implementation Guide",
+      "category": "Mapping to Other Standards",
+      "npm-name": "hl7.fhir.uv.ehrs-rle",
+      "description": "This implementation guide describes the expected capabilities for an Electronic Health Record System (EHR-S) that intends to adhere to the ISO/HL7 10781 Electronic Health Record System Functional Model Release 2 which covers the logging of record lifecycle events.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ehrs-rle/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ehrs-rle",
+      "ci-build": "hhttps://build.fhir.org/ig/HL7/ehrs-rle-ig",
+      "editions": [
+        {
+          "name": "Informative Release 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ehrs-rle#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
+        }
+      ]
     }
   ]
 }
