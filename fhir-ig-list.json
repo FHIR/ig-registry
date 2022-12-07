@@ -7166,7 +7166,17 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/ehrs-rle",
       "ci-build": "http://build.fhir.org/ig/HL7/ehrs-rle-ig",
-      "editions": []
+      "editions": [
+         {
+           "name": "Informative Release 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.ehrs-rle#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
+         }
+       ]
     },
     {
       "name": "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
