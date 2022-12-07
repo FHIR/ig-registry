@@ -7165,7 +7165,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/ehrs-rle",
-      "ci-build": "hhttps://build.fhir.org/ig/HL7/ehrs-rle-ig",
+      "ci-build": "https://build.fhir.org/ig/HL7/ehrs-rle-ig",
       "editions": [
         {
           "name": "Informative Release 1 Ballot",
