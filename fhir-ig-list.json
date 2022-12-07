@@ -1775,12 +1775,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.pddi#0.2.0",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.pddi#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/pddi/2020Sep"
+          "url": "http://hl7.org/fhir/uv/pddi/2023Jan"
         }
       ]
     },
@@ -7165,18 +7165,23 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/ehrs-rle",
-      "ci-build": "https://build.fhir.org/ig/HL7/ehrs-rle-ig",
-      "editions": [
-        {
-          "name": "Informative Release 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ehrs-rle#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
-        }
-      ]
+      "ci-build": "http://build.fhir.org/ig/HL7/ehrs-rle-ig",
+      "editions": []
+    },
+    {
+      "name": "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
+      "category": "Measure Set",
+      "npm-name": "hl7.fhir.uv.ichom-breast-cancer",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ichom-breast-cancer",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
+      "editions": []
     }
   ]
 }
