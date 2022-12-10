@@ -7191,7 +7191,42 @@
       ],
       "canonical": "http://hl7.org/fhir/uv/ichom-breast-cancer",
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
-      "editions": []
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "FHIR IG Human Services Directory",
+      "category": "Mappings to Other Standards",
+      "npm-name": "hl7.fhir.us.hsds",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/hsds/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/hsds",
+      "ci-build": "http://build.fhir.org/ig/HL7/FHIR-IG-Human-Services-Directory",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.hsds#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/hsds/2023Jan"
+        }
+      ]
     }
   ]
 }
