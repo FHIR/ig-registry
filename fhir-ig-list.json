@@ -7227,6 +7227,228 @@
           "url": "http://hl7.org/fhir/us/hsds/2023Jan"
         }
       ]
+    },
+    {
+      "name": "DK MedCom CareCommunication",
+      "category": "MedCom CareCommunication",
+      "npm-name": "medcom.fhir.dk.carecommunication",
+      "description": "This IG includes profiles used in MedCom's CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and social area.",
+      "authority": "??",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/carecommunication/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/carecommunication",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.carecommunication#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/carecommunication/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.carecommunication#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-carecommunication"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom Core",
+      "category": "MedCom Core",
+      "npm-name": "medcom.fhir.dk.core",
+      "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom's FHIR standards.",
+      "authority": "??",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/core",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-core",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.1.0",
+          "package": "medcom.fhir.dk.core#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/core/2.1.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.core#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/core/2.0.0"
+        }
+      ]
+    },
+    {
+      "name": "MedCom Terminology",
+      "category": "MedCom Terminology",
+      "npm-name": "medcom.fhir.dk.terminology",
+      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedComs FHIR standards.",
+      "authority": "??",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/terminology/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/terminology",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-terminology",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "1.1.1",
+          "package": "medcom.fhir.dk.terminology#1.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.1.1"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.1.0",
+          "package": "medcom.fhir.dk.terminology#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.1.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.terminology#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom HospitalNotification",
+      "category": "MedCom HospitalNotification",
+      "npm-name": "medcom.fhir.dk.hospitalnotification",
+      "description": "This IG includes profiles used in MedCom's HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start and end of the citizen’s stay at the hospital. The communication is messagebased.",
+      "authority": "??",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/hospitalnotification/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/hospitalnotification",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "3.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/hospitalnotification/3.0.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/hospitalnotification/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-hospitalnotification"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom Acknowledgement",
+        "category": "MedCom Acknowledgement",
+        "npm-name": "medcom.fhir.dk.acknowledgement",
+        "description": "This IG includes profiles used in MedCom's Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
+        "authority": "??",
+        "country": "Denmark",
+        "history": "http://medcomfhir.dk/ig/acknowledgement/history.html",
+        "language": [
+          "en"
+        ],
+        "canonical": "http://medcomfhir.dk/ig/acknowledgement/",
+        "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement",
+        "editions": [
+              {
+            "name": "Release",
+            "ig-version": "2.0.0",
+            "package": "medcom.fhir.dk.acknowledgement#2.0.0",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "http://medcomfhir.dk/ig/acknowledgement/2.0.0"
+          },
+          {
+            "name": "STU",
+            "ig-version": "1.0.0",
+            "package": "medcom.fhir.dk.acknowledgement#1.0.0",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-acknowledgement"
+          }
+      ]
+    },
+    {
+      "name": "DK MedCom acknowledgement",
+        "category": "MedCom Acknowledgement",
+        "npm-name": "medcom.fhir.dk.messaging",
+        "description": "This IG includes messaging profiles defined by MedCom. These profiles are used in messagebased communication.",
+        "authority": "??",
+        "country": "Denmark",
+        "history": "http://medcomfhir.dk/ig/messaging/history.html",
+        "language": [
+          "en"
+        ],
+        "canonical": "http://medcomfhir.dk/ig/messaging/",
+        "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-messaging",
+        "editions": [
+              {
+            "name": "Release",
+            "ig-version": "2.0.0",
+            "package": "medcom.fhir.dk.messaging#2.0.0",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "http://medcomfhir.dk/ig/messaging/2.0.0"
+          },
+          {
+            "name": "STU",
+            "ig-version": "1.0.0",
+            "package": "medcom.fhir.dk.messaging#1.0.0",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-messaging"
+          }
+      ]
     }
   ]
 }
