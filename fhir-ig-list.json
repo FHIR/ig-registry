@@ -7230,10 +7230,10 @@
     },
     {
       "name": "DK MedCom CareCommunication",
-      "category": "MedCom CareCommunication",
+      "category": "CareCommunication",
       "npm-name": "medcom.fhir.dk.carecommunication",
-      "description": "This IG includes profiles used in MedCom's CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and social area.",
-      "authority": "??",
+      "description": "This IG includes profiles used in MedCom's CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and the social area.",
+      "authority": "MedCom",
       "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/carecommunication/history.html",
       "language": [
@@ -7264,10 +7264,10 @@
     },
     {
       "name": "DK MedCom Core",
-      "category": "MedCom Core",
+      "category": "Core",
       "npm-name": "medcom.fhir.dk.core",
       "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom's FHIR standards.",
-      "authority": "??",
+      "authority": "MedCom",
       "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/core/history.html",
       "language": [
@@ -7298,10 +7298,10 @@
     },
     {
       "name": "MedCom Terminology",
-      "category": "MedCom Terminology",
+      "category": "Terminology",
       "npm-name": "medcom.fhir.dk.terminology",
-      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedComs FHIR standards.",
-      "authority": "??",
+      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.",
+      "authority": "MedCom",
       "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/terminology/history.html",
       "language": [
@@ -7341,10 +7341,10 @@
     },
     {
       "name": "DK MedCom HospitalNotification",
-      "category": "MedCom HospitalNotification",
+      "category": "HospitalNotification",
       "npm-name": "medcom.fhir.dk.hospitalnotification",
-      "description": "This IG includes profiles used in MedCom's HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start and end of the citizen’s stay at the hospital. The communication is messagebased.",
-      "authority": "??",
+      "description": "This IG includes profiles used in MedCom's HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start, end, and period of leave of the citizen’s stay at the hospital. The communication is messagebased.",
+      "authority": "MedCom",
       "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/hospitalnotification/history.html",
       "language": [
@@ -7384,10 +7384,10 @@
     },
     {
       "name": "DK MedCom Acknowledgement",
-        "category": "MedCom Acknowledgement",
+        "category": "Acknowledgement",
         "npm-name": "medcom.fhir.dk.acknowledgement",
         "description": "This IG includes profiles used in MedCom's Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
-        "authority": "??",
+        "authority": "MedCom",
         "country": "Denmark",
         "history": "http://medcomfhir.dk/ig/acknowledgement/history.html",
         "language": [
@@ -7417,11 +7417,11 @@
       ]
     },
     {
-      "name": "DK MedCom acknowledgement",
-        "category": "MedCom Acknowledgement",
+      "name": "DK MedCom Messaging",
+        "category": "Messaging",
         "npm-name": "medcom.fhir.dk.messaging",
         "description": "This IG includes messaging profiles defined by MedCom. These profiles are used in messagebased communication.",
-        "authority": "??",
+        "authority": "MedCom",
         "country": "Denmark",
         "history": "http://medcomfhir.dk/ig/messaging/history.html",
         "language": [
