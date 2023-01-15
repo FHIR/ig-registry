@@ -7140,7 +7140,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/vulcan-schedule",
-      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-schedule",
       "editions": [
         {
           "name": "STU1 Ballot",
