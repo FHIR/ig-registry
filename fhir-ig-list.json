@@ -6667,9 +6667,9 @@
       "ci-build": "https://twcore.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "DSTU 1",
-          "ig-version": "0.0.1",
-          "package": "twcore.mohw.gov.tw#0.0.1",
+          "name": "CI Build",
+          "ig-version": "0.1.0-Trial Use",
+          "package": "twcore.mohw.gov.tw#0.1.0-Trial Use",
           "fhir-version": [
             "4.0.1"
           ],
