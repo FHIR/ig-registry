@@ -6516,6 +6516,15 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
+        },
+		{
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
         }
       ]
     },
@@ -6638,7 +6647,7 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         },
-        {
+		{
           "name": "Trial Use",
           "ig-version": "1.0.1",
           "package": "hl7.fhir.be.allergy#1.0.1",
@@ -6646,6 +6655,15 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
+        },
+		{
+          "name": "Trial Use",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.be.allergy#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
         }
       ]
     },
