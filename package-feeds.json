@@ -111,7 +111,7 @@
     },
     {
       "mask": "hl7.cda.*",
-      "feeds": [ "http://hl7.org/cda/stds/package-feed.xml", "http://fhir.org/packages/package-feed.xml"]
+      "feeds": [ "http://hl7.org/cda/stds/package-feed.xml", "http://fhir.org/templates/package-feed.xml"]
     },
     {
       "mask": "hl7.xprod.*",
