@@ -561,7 +561,7 @@
       ],
       "history": "http://hl7.org/fhir/us/qicore/history.html",
       "canonical": "http://hl7.org/fhir/us/qicore",
-      "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-qi-core",
       "analysis": {
         "content": true,
         "clinicalCore": true,
