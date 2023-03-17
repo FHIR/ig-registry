@@ -7508,7 +7508,9 @@
         {
           "name": "Release 17.3.2023 (3.0.0)",
           "ig-version": "3.0.0",
-          "fhir-version": "4.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
           "package": "ans.fhir.fr.pdsm#3.0.0",
           "url": "https://interop.esante.gouv.fr/ig/fhir/pdsm/3.0.0"
         }
