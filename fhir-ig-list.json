@@ -561,7 +561,7 @@
       ],
       "history": "http://hl7.org/fhir/us/qicore/history.html",
       "canonical": "http://hl7.org/fhir/us/qicore",
-      "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-qi-core",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -955,7 +955,7 @@
       },
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.4.0",
           "package": "ihe.iti.pdqm#2.4.0",
           "fhir-version": [
@@ -964,7 +964,7 @@
           "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.3.0",
           "package": "ihe.iti.pdqm#2.3.0",
           "fhir-version": [
@@ -973,7 +973,7 @@
           "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.2.0",
           "package": "ihe.iti.pdqm#2.2.0",
           "fhir-version": [
@@ -1009,7 +1009,7 @@
       },
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "3.0.2",
           "package": "ihe.iti.pixm#3.0.2",
           "fhir-version": [
@@ -1018,7 +1018,7 @@
           "url": "https://profiles.ihe.net/ITI/PIXm/3.0.2"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "3.0.0",
           "package": "ihe.iti.pixm#3.0.0",
           "fhir-version": [
@@ -1027,7 +1027,7 @@
           "url": "https://profiles.ihe.net/ITI/PIXm/3.0.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.1.0",
           "package": "ihe.iti.pixm#2.1.0",
           "fhir-version": [
@@ -1058,7 +1058,7 @@
       "canonical": "https://profiles.ihe.net/ITI/PMIR",
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.5.0",
           "package": "ihe.iti.pmir#1.5.0",
           "fhir-version": [
@@ -1067,7 +1067,7 @@
           "url": "https://profiles.ihe.net/ITI/PMIR/1.5.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.3.0",
           "package": "ihe.iti.pmir#1.3.0",
           "fhir-version": [
@@ -1775,12 +1775,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.uv.pddi#0.2.0",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.pddi#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/pddi/2020Sep"
+          "url": "http://hl7.org/fhir/uv/pddi/2023Jan"
         }
       ]
     },
@@ -3229,20 +3229,20 @@
       "country": "us",
       "history": "http://hl7.org/fhir/us/hai-ltcf/history.html",
       "canonical": "http://hl7.org/fhir/us/hai-ltcf",
-      "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
       "analysis": {
         "valuesets": 4,
         "codeSystems": 2
       },
+      "ci-build": "http://hl7.org/fhir/us/hai-ltcf/STU1",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.hai-ltcf#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.hai-ltcf#1.0.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hai-ltcf/2019Sep"
+          "url": "http://hl7.org/fhir/us/hai-ltcf/STU1"
         }
       ]
     },
@@ -4347,23 +4347,23 @@
       ],
       "canonical": "http://terminology.hl7.org",
       "ci-build": "http://build.fhir.org/ig/HL7/UTG",
-      "editions": [
-        {
-          "name": "Publications",
-          "ig-version": "1.0.0",
-          "package": "hl7.terminology#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://terminology.hl7.org/1.0.0"
-        }
-      ],
       "analysis": {
         "content": true,
         "extensions": 9,
         "valuesets": 2483,
         "codeSystems": 1078
-      }
+      },
+      "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "5.1.0",
+          "package": "hl7.terminology#5.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://terminology.hl7.org/5.1.0"
+        }
+      ]
     },
     {
       "name": "Situational Awareness for Novel Epidemic Response",
@@ -4625,13 +4625,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.subscriptions-backport#1.0.0",
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.uv.subscriptions-backport#1.1.0",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/subscriptions-backport/STU1"
+          "url": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1"
         }
       ]
     },
@@ -6045,7 +6045,7 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.MHDS/branches/master/index.html",
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.3.0",
           "package": "ihe.iti.mhds#2.3.0",
           "fhir-version": [
@@ -6054,7 +6054,7 @@
           "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "2.1.0",
           "package": "ihe.iti.mhds#2.1.0",
           "fhir-version": [
@@ -6092,7 +6092,7 @@
       },
       "editions": [
         {
-          "name": "Public-Comment",
+          "name": "Publication",
           "ig-version": "3.8.0",
           "package": "ihe.iti.mcsd#3.8.0",
           "fhir-version": [
@@ -6101,7 +6101,7 @@
           "url": "https://profiles.ihe.net/ITI/mCSD/3.8.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "3.5.0",
           "package": "ihe.iti.mcsd#3.5.0",
           "fhir-version": [
@@ -6110,7 +6110,7 @@
           "url": "https://profiles.ihe.net/ITI/mCSD/3.5.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "3.3.0",
           "package": "ihe.iti.mcsd#3.3.0",
           "fhir-version": [
@@ -6260,16 +6260,16 @@
       },
       "editions": [
         {
-          "name": "Public Comment Ballot",
-          "ig-version": "4.2.0-ballot",
-          "package": "ihe.iti.mhd#4.2.0-ballot",
+          "name": "Publication",
+          "ig-version": "4.2.0",
+          "package": "ihe.iti.mhd#4.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0-ballot"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "4.1.0",
           "package": "ihe.iti.mhd#4.1.0",
           "fhir-version": [
@@ -6278,7 +6278,7 @@
           "url": "https://profiles.ihe.net/ITI/MHD/4.1.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "4.0.2",
           "package": "ihe.iti.mhd#4.0.2",
           "fhir-version": [
@@ -6287,7 +6287,7 @@
           "url": "https://profiles.ihe.net/ITI/MHD/4.0.2"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "4.0.1",
           "package": "ihe.iti.mhd#4.0.1",
           "fhir-version": [
@@ -6296,7 +6296,7 @@
           "url": "https://profiles.ihe.net/ITI/MHD/4.0.1"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "3.2.0",
           "package": "ihe.iti.mhd#3.2.0",
           "fhir-version": [
@@ -6332,7 +6332,7 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.BasicAudit/branches/main/index.html",
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.1.1",
           "package": "ihe.iti.balp#1.1.1",
           "fhir-version": [
@@ -6341,7 +6341,7 @@
           "url": "https://profiles.ihe.net/ITI/BALP/1.1.1"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.1.0",
           "package": "ihe.iti.balp#1.1.0",
           "fhir-version": [
@@ -6379,7 +6379,7 @@
       },
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.0.0",
           "package": "ihe.rad.imr#1.0.0",
           "fhir-version": [
@@ -6516,6 +6516,15 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
+        },
+		{
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
         }
       ]
     },
@@ -6638,7 +6647,7 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         },
-        {
+		{
           "name": "Trial Use",
           "ig-version": "1.0.1",
           "package": "hl7.fhir.be.allergy#1.0.1",
@@ -6646,6 +6655,15 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
+        },
+		{
+          "name": "Trial Use",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.be.allergy#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
         }
       ]
     },
@@ -6667,9 +6685,9 @@
       "ci-build": "https://twcore.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "DSTU 1",
-          "ig-version": "0.0.1",
-          "package": "twcore.mohw.gov.tw#0.0.1",
+          "name": "CI Build",
+          "ig-version": "0.1.0-Trial Use",
+          "package": "twcore.mohw.gov.tw#0.1.0-Trial Use",
           "fhir-version": [
             "4.0.1"
           ],
@@ -6891,7 +6909,7 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.SVCM",
       "editions": [
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.5.0",
           "package": "ihe.iti.svcm#1.5.0",
           "fhir-version": [
@@ -6900,7 +6918,7 @@
           "url": "https://profiles.ihe.net/ITI/SVCM/1.5.0"
         },
         {
-          "name": "Trial Implementation",
+          "name": "Publication",
           "ig-version": "1.3.0",
           "package": "ihe.iti.svcm#1.3.0",
           "fhir-version": [
@@ -7140,7 +7158,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/vulcan-schedule",
-      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-schedule",
       "editions": [
         {
           "name": "STU1 Ballot",
@@ -7165,7 +7183,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/ehrs-rle",
-      "ci-build": "hhttps://build.fhir.org/ig/HL7/ehrs-rle-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/ehrs-rle-ig",
       "editions": [
         {
           "name": "Informative Release 1 Ballot",
@@ -7175,6 +7193,303 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
+      "category": "Measure Set",
+      "npm-name": "hl7.fhir.uv.ichom-breast-cancer",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ichom-breast-cancer",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "FHIR IG Human Services Directory",
+      "category": "Mappings to Other Standards",
+      "npm-name": "hl7.fhir.us.hsds",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/hsds/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/hsds",
+      "ci-build": "http://build.fhir.org/ig/HL7/FHIR-IG-Human-Services-Directory",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.hsds#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/hsds/2023Jan"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom CareCommunication",
+      "category": "CareCommunication",
+      "npm-name": "medcom.fhir.dk.carecommunication",
+      "description": "This IG includes profiles used in MedCom\u0027s CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and the social area.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/carecommunication/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/carecommunication",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.carecommunication#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/carecommunication/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.carecommunication#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-carecommunication"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom Core",
+      "category": "Core",
+      "npm-name": "medcom.fhir.dk.core",
+      "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom\u0027s FHIR standards.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/core",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-core",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.1.0",
+          "package": "medcom.fhir.dk.core#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/core/2.1.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.core#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/core/2.0.0"
+        }
+      ]
+    },
+    {
+      "name": "MedCom Terminology",
+      "category": "Terminology",
+      "npm-name": "medcom.fhir.dk.terminology",
+      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom\u0027s FHIR standards.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/terminology/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/terminology",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-terminology",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "1.1.1",
+          "package": "medcom.fhir.dk.terminology#1.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.1.1"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.1.0",
+          "package": "medcom.fhir.dk.terminology#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.1.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.terminology#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/terminology/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom HospitalNotification",
+      "category": "HospitalNotification",
+      "npm-name": "medcom.fhir.dk.hospitalnotification",
+      "description": "This IG includes profiles used in MedCom\u0027s HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start, end, and period of leave of the citizen’s stay at the hospital. The communication is messagebased.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/hospitalnotification/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/hospitalnotification",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "3.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/hospitalnotification/3.0.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/hospitalnotification/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.hospitalnotification#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-hospitalnotification"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom Acknowledgement",
+      "category": "Acknowledgement",
+      "npm-name": "medcom.fhir.dk.acknowledgement",
+      "description": "This IG includes profiles used in MedCom\u0027s Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/acknowledgement/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/acknowledgement/",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.acknowledgement#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/acknowledgement/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.acknowledgement#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-acknowledgement"
+        }
+      ]
+    },
+    {
+      "name": "DK MedCom Messaging",
+      "category": "Messaging",
+      "npm-name": "medcom.fhir.dk.messaging",
+      "description": "This IG includes messaging profiles defined by MedCom. These profiles are used in messagebased communication.",
+      "authority": "MedCom",
+      "country": "Denmark",
+      "history": "http://medcomfhir.dk/ig/messaging/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://medcomfhir.dk/ig/messaging/",
+      "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-messaging",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "medcom.fhir.dk.messaging#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/ig/messaging/2.0.0"
+        },
+        {
+          "name": "STU",
+          "ig-version": "1.0.0",
+          "package": "medcom.fhir.dk.messaging#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://medcomfhir.dk/fhir/ig/dk-medcom-messaging"
+        }
+      ]
+    },
+    {
+      "name": "CDA: Clinical Document Architecture",
+      "category": "CDA",
+      "npm-name": "hl7.cda.uv.core",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://hl7.org/cda/stds/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/cda/stds/core",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-2.0",
+      "editions": [
+        {
+          "name": "CDA 2.1 Draft",
+          "ig-version": "2.1.0-draft1",
+          "package": "hl7.cda.uv.core#2.1.0-draft1",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/cda/stds/core/draft1"
         }
       ]
     }
