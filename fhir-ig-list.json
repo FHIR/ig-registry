@@ -6517,7 +6517,7 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
         },
-		{
+        {
           "name": "Trial Use",
           "ig-version": "1.0.0",
           "package": "hl7.fhir.be.vaccination#1.0.1",
@@ -6647,7 +6647,7 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
         },
-		{
+        {
           "name": "Trial Use",
           "ig-version": "1.0.1",
           "package": "hl7.fhir.be.allergy#1.0.1",
@@ -6656,7 +6656,7 @@
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
         },
-		{
+        {
           "name": "Trial Use",
           "ig-version": "1.1.0",
           "package": "hl7.fhir.be.allergy#1.1.0",
@@ -7493,6 +7493,31 @@
         }
       ]
     },
+    {
+      "name": "Integrated Reporting Applications",
+      "category": "Imaging",
+      "npm-name": "ihe.rad.ira",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/RAD/IRA/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/RAD/IRA",
+      "ci-build": "http://build.fhir.org/ig/IHE/RAD.IRA/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Releases Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.rad.ira#1.0.0-comment",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0-comment"
+        }
+      ]
+    }, 
     {
       "name": "PDSm",
       "category": "Clinical Documents",
