@@ -7492,6 +7492,29 @@
           "url": "http://hl7.org/cda/stds/core/draft1"
         }
       ]
+    },
+    {
+      "name": "PDSm",
+      "category": "Clinical Documents",
+      "npm-name": "ans.fhir.fr.pdsm",
+      "description": "Partage de Documents de Santé en mobilité (PDSm)",
+      "authority": "ANS",
+      "country": "FR",
+      "language": "fr",
+      "history": "https://interop.esante.gouv.fr/ig/fhir/pdsm/history.html",
+      "canonical": "https://interop.esante.gouv.fr/ig/fhir/pdsm",
+      "ci-build": "https://build.interop.esante.gouv.fr/ig/fhir/pdsm",
+      "editions": [
+        {
+          "name": "Release 17.3.2023 (3.0.0)",
+          "ig-version": "3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "package": "ans.fhir.fr.pdsm#3.0.0",
+          "url": "https://interop.esante.gouv.fr/ig/fhir/pdsm/3.0.0"
+        }
+      ]
     }
   ]
 }
