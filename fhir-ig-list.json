@@ -7527,13 +7527,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
       "editions": [
         {
-          "name": "Releases Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.extensions#0.1.0",
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.extensions#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/0.1.0"
+          "url": "http://hl7.org/fhir/extensions/1.0.0"
         }
       ]
     }
