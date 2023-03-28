@@ -7479,6 +7479,31 @@
       ]
     },
     {
+      "name": "U.S. Physical Activity IG",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.physical-activity",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/physical-activity/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/physical-activity",
+      "ci-build": "http://build.fhir.org/ig/HL7/physical-activity",
+      "editions": [
+        {
+          "name": "STU 1.0 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.physical-activity#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/physical-activity/2023May"
+        }
+      ]
+    },
+    {
       "name": "CCDA: Consolidated CDA Release",
       "category": "CDA",
       "npm-name": "hl7.cda.us.ccda",
