@@ -221,22 +221,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.ccda#1.1.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.2.0-ballot",
+          "package": "hl7.fhir.us.ccda#1.2.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ccda/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.ccda#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/ccda/STU1"
+          "url": "http://hl7.org/fhir/us/ccda/2023May"
         }
       ]
     },
@@ -5431,13 +5422,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-ra#1.0.0",
+          "name": "STU2 (v2.0.0) Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-ra#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-ra/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-ra/2023May"
         }
       ]
     },
@@ -5469,13 +5460,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.ipa#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ipa#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ipa/2022Jan"
+          "url": "http://hl7.org/fhir/uv/ipa/STU1"
         }
       ]
     },
@@ -7484,6 +7475,31 @@
           ],
           "package": "ans.fhir.fr.pdsm#3.0.0",
           "url": "https://interop.esante.gouv.fr/ig/fhir/pdsm/3.0.0"
+        }
+      ]
+    },
+    {
+      "name": "U.S. Physical Activity IG",
+      "category": "Care Planning",
+      "npm-name": "hl7.fhir.us.physical-activity",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/physical-activity/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/physical-activity",
+      "ci-build": "http://build.fhir.org/ig/HL7/physical-activity",
+      "editions": [
+        {
+          "name": "STU 1.0 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.physical-activity#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/physical-activity/2023May"
         }
       ]
     },
