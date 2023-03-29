@@ -7124,12 +7124,12 @@
       "editions": [
         {
           "name": "Informative Release 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ehrs-rle#1.0.0-ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.uv.ehrs-rle#1.1.0-ballot",
           "fhir-version": [
-            "4.0.1"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
+          "url": "http://hl7.org/fhir/uv/ehrs-rle/2023May"
         }
       ]
     },
