@@ -7538,6 +7538,31 @@
           "url": "http://hl7.org/fhir/us/physical-activity/2023May"
         }
       ]
+    },
+    {
+      "name": "Protocols for Clinical Registry Extraction and Data Submission (CREDS) IG",
+      "category": "Public Health and Research",
+      "npm-name": "hl7.fhir.us.registry-protocols",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/registry-protocols/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/registry-protocols",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-registry-protocols-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.registry-protocols#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/registry-protocols/2023May"
+        }
+      ]
     }
   ]
 }
