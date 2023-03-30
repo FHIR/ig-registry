@@ -5335,7 +5335,6 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/davinci-pct",
-      "ci-build": "http://hl7.org/fhir/us/davinci-pct",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -5347,15 +5346,16 @@
         "codeSystems": 14,
         "examples": 18
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pct",
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.davinci-pct#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-pct#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pct/2022Jan"
+          "url": "http://hl7.org/fhir/us/davinci-pct/STU1"
         }
       ]
     },
