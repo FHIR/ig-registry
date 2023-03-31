@@ -1959,31 +1959,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.2 on FHIR R4",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.us.odh#1.2.0",
+          "name": "STU 1.3 on FHIR R4",
+          "ig-version": "1.3.0",
+          "package": "hl7.fhir.us.odh#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/odh/STU1.2"
-        },
-        {
-          "name": "STU 1.1 on FHIR R4",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.odh#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/odh/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.odh#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/odh/STU1"
+          "url": "http://hl7.org/fhir/us/odh/STU1.3"
         }
       ]
     },
@@ -3096,31 +3078,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-cdex#2.0.0-ballot",
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-cdex#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2022Sep"
-        },
-        {
-          "name": "STU1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.davinci-cdex#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1.1"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-cdex#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU2"
         }
       ]
     },
@@ -4886,20 +4850,20 @@
       ],
       "canonical": "http://cql.hl7.org",
       "ci-build": "http://build.fhir.org/ig/HL7/cql",
+      "analysis": {
+        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
+      },
       "editions": [
         {
           "name": "Normative Normative",
-          "ig-version": "1.5.1",
-          "package": "hl7.cql#1.5.1",
+          "ig-version": "1.5.2",
+          "package": "hl7.cql#1.5.2",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://cql.hl7.org/N1"
         }
-      ],
-      "analysis": {
-        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
-      }
+      ]
     },
     {
       "name": "Immunization Decision Support Forecast FHIR IG",
@@ -7586,6 +7550,56 @@
             "5.0.0"
           ],
           "url": "http://hl7.org/fhir/uv/rtls/2023May"
+        }
+      ]
+    },
+    {
+      "name": "CCDA: Consolidated CDA Release",
+      "category": "CDA",
+      "npm-name": "hl7.cda.us.ccda",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://hl7.org/cda/stds/ccda/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/cda/stds/ccda",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
+      "editions": [
+        {
+          "name": "CCDA 2.1 Draft",
+          "ig-version": "2.1.0-draft1",
+          "package": "hl7.cda.us.ccda#2.1.0-draft1",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/cda/stds/ccda/draft1"
+        }
+      ]
+    },
+    {
+      "name": "FHIR Core Extensions Registry",
+      "category": "Extensions",
+      "npm-name": "hl7.fhir.uv.extensions",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://hl7.org/fhir/extensions/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/extensions",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.extensions#1.0.0",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/extensions/1.0.0"
         }
       ]
     }

@@ -52,6 +52,11 @@
       "errors": "oliver_egger|ahdis_ch"
     },
     {
+      "name": "Agence du Numérique en Santé",
+      "url": "https://interop.esante.gouv.fr/ig/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    },
+    {
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
@@ -133,6 +138,10 @@
     {
       "mask": "ch.fhir.ig.*",
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
+    },
+    {
+      "mask": "ans.fhir.fr.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
     },
     {
       "mask": "ihe.*",
