@@ -2033,31 +2033,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.1 Draft",
-          "ig-version": "2.1.0-ballot",
-          "package": "hl7.fhir.uv.smart-app-launch#2.1.0-ballot",
+          "name": "STU 2.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2023Jan"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/smart-app-launch/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/smart-app-launch/1.0.0"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2.1"
         }
       ]
     },
