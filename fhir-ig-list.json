@@ -568,76 +568,13 @@
       },
       "editions": [
         {
-          "name": "STU 5 Ballot",
-          "ig-version": "5.0.0-ballot",
-          "package": "hl7.fhir.us.qicore#5.0.0-ballot",
+          "name": "STU5 (v5.0.0)",
+          "ig-version": "5.0.0",
+          "package": "hl7.fhir.us.qicore#5.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/2022Sep"
-        },
-        {
-          "name": "STU 4",
-          "ig-version": "4.1.1",
-          "package": "hl7.fhir.us.qicore#4.1.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU4.1.1"
-        },
-        {
-          "name": "STU 4",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.us.qicore#4.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU4.1"
-        },
-        {
-          "name": "STU 4",
-          "ig-version": "4.0.0",
-          "package": "hl7.fhir.us.qicore#4.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU4"
-        },
-        {
-          "name": "STU 3",
-          "ig-version": "3.2.0",
-          "package": "hl7.fhir.us.qicore#3.2.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU32"
-        },
-        {
-          "name": "STU 3",
-          "ig-version": "3.1.0",
-          "package": "hl7.fhir.us.qicore#3.1.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU3"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.qicore#2.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/qicore/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.2",
-          "package": "hl7.fhir.us.qicore#1.0.2",
-          "fhir-version": [
-            "1.0.2"
-          ],
-          "url": "http://hl7.org/fhir/DSTU2/qicore/qicore.html"
+          "url": "http://hl7.org/fhir/us/qicore/STU5"
         }
       ]
     },
@@ -2078,31 +2015,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.1 Draft",
-          "ig-version": "2.1.0-ballot",
-          "package": "hl7.fhir.uv.smart-app-launch#2.1.0-ballot",
+          "name": "STU 2.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2023Jan"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/smart-app-launch/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/smart-app-launch/1.0.0"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2.1"
         }
       ]
     },
@@ -3851,13 +3770,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#0.3.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.security-label-ds4p#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021Sep"
+          "url": "http://hl7.org/fhir/uv/security-label-ds4p/STU1"
         }
       ]
     },
