@@ -7526,9 +7526,9 @@
       "name": "HL7 Sweden base profiles",
       "category": "National Base",
       "npm-name": "hl7se.fhir.base",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Implementation Guide for Swedish Base Profiles",
+      "authority": "HL7",
+      "country": "Sweden",
       "history": "http://hl7.se/fhir/ig/base/history.html",
       "language": [
         "en"
