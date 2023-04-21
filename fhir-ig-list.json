@@ -3098,16 +3098,16 @@
         "valuesets": 4,
         "codeSystems": 2
       },
-      "ci-build": "http://hl7.org/fhir/us/hai-ltcf/STU1",
+      "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.hai-ltcf#1.0.0",
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.hai-ltcf#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hai-ltcf/STU1"
+          "url": "http://hl7.org/fhir/us/hai-ltcf/STU1.1"
         }
       ]
     },
@@ -4950,13 +4950,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.sirb#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.sirb#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sirb/2021Sep"
+          "url": "http://hl7.org/fhir/us/sirb/STU1"
         }
       ]
     },
@@ -7017,13 +7017,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/Vulcan-schedule-ig",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.vulcan-schedule#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.vulcan-schedule#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/vulcan-schedule/2023Jan"
+          "url": "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
         }
       ]
     },
