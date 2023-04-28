@@ -7521,6 +7521,31 @@
           "url": "http://hl7.org/fhir/extensions/1.0.0"
         }
       ]
+    },
+    {
+      "name": "KLTerm",
+      "category": "Terminology",
+      "npm-name": "kl.dk.fhir.term",
+      "description": "Base Terminology for KL",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/term/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/term",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-term",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.term#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/term/1.0.0"
+        }
+      ]
     }
   ]
 }
