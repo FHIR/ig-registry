@@ -7547,6 +7547,31 @@
           "url": "http://fhir.kl.dk/term/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Privacy Consent on FHIR (PCF)",
+      "category": "Privacy / Security",
+      "npm-name": "ihe.iti.pcf",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/PCF/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/PCF",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.pcf#1.0.0-comment",
+          "fhir-version": [
+            "4.3.0"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
+        }
+      ]
     }
   ]
 }
