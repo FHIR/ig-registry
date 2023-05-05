@@ -60,7 +60,12 @@
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
-      },
+    },	
+    {
+        "name": "Kommunernes Landsforening",
+        "url": "https://fhir.kl.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },  
     {
       "name": "mednet.swiss",
       "url": "https://mednet.swiss/fhir/package-feed.xml",
@@ -108,6 +113,10 @@
     {
         "mask": "hl7.fhir.dk.*",
         "feeds": [ "https://hl7.dk/fhir/package-feed.xml" ]
+    },  
+    {
+        "mask": "kl.dk.fhir.*",
+        "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.*",
