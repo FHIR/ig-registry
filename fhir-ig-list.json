@@ -998,21 +998,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "editions": [
-        {
-          "name": "STU3 or R4 Trial-Implementation",
-          "ig-version": "0.1.2",
-          "package": "ihe.iti.mxde#0.1.2",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
-        }
-      ],
       "analysis": {
         "error": "Unable to resolve package id ihe.iti.mxde#0.1.2"
-      }
+      },
+      "canonical": "https://profiles.ihe.net/ITI/mXDE",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.mXDE/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.3.0-comment",
+          "package": "ihe.iti.mxde#1.3.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0-comment"
+        }
+      ]
     },
     {
       "name": "IHE Query for Existing Data for Mobile (QEDm)",
@@ -7454,6 +7455,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.kl.dk/term/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Privacy Consent on FHIR (PCF)",
+      "category": "Privacy / Security",
+      "npm-name": "ihe.iti.pcf",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/PCF/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/PCF",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.pcf#1.0.0-comment",
+          "fhir-version": [
+            "4.3.0"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
         }
       ]
     },
