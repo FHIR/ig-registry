@@ -7456,6 +7456,31 @@
           "url": "http://fhir.kl.dk/term/1.0.0"
         }
       ]
+    },
+    {
+      "name": "HL7 Sweden base profiles",
+      "category": "National Base",
+      "npm-name": "hl7se.fhir.base",
+      "description": "Implementation Guide for Swedish Base Profiles",
+      "authority": "HL7",
+      "country": "se",
+      "history": "http://hl7.se/fhir/ig/base/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.se/fhir/ig/base",
+      "ci-build": "http://build.fhir.org/ig/HL7Sweden/basprofiler-r4",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7se.fhir.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.se/fhir/ig/base/1.0.0"
+        }
+      ]
     }
   ]
 }
