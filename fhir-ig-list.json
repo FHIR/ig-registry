@@ -43,94 +43,13 @@
       },
       "editions": [
         {
-          "name": "STU6 Ballot",
-          "ig-version": "6.0.0-ballot",
-          "package": "hl7.fhir.us.core#6.0.0-ballot",
+          "name": "STU6",
+          "ig-version": "6.0.0",
+          "package": "hl7.fhir.us.core#6.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2023Jan"
-        },
-        {
-          "name": "STU5",
-          "ig-version": "5.0.1",
-          "package": "hl7.fhir.us.core#5.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU5.0.1"
-        },
-        {
-          "name": "STU5",
-          "ig-version": "5.0.0",
-          "package": "hl7.fhir.us.core#5.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU5"
-        },
-        {
-          "name": "STU4",
-          "ig-version": "4.0.0",
-          "package": "hl7.fhir.us.core#4.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU4"
-        },
-        {
-          "name": "STU3",
-          "ig-version": "3.1.1",
-          "package": "hl7.fhir.us.core#3.1.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU3.1.1"
-        },
-        {
-          "name": "STU3",
-          "ig-version": "3.1.0",
-          "package": "hl7.fhir.us.core#3.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU3.1"
-        },
-        {
-          "name": "STU3",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.us.core#3.0.0",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU3"
-        },
-        {
-          "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.core#2.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU2"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.us.core#1.0.1",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/1.0.1"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.core#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/core/STU1"
+          "url": "http://hl7.org/fhir/us/core/STU6"
         }
       ]
     },
@@ -4383,7 +4302,6 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/specialty-rx",
-      "ci-build": "http://build.fhir.org/ig/HL7/specialty-rx",
       "analysis": {
         "content": true,
         "rest": true,
@@ -4397,24 +4315,16 @@
         "codeSystems": 4,
         "examples": 16
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-specialty-rx",
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.specialty-rx#2.0.0-ballot",
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.specialty-rx#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/specialty-rx/2022Sep"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.specialty-rx#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/specialty-rx/STU1"
+          "url": "http://hl7.org/fhir/us/specialty-rx/STU2"
         }
       ]
     },
@@ -7570,6 +7480,31 @@
             "4.3.0"
           ],
           "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Sweden base profiles",
+      "category": "National Base",
+      "npm-name": "hl7se.fhir.base",
+      "description": "Implementation Guide for Swedish Base Profiles",
+      "authority": "HL7",
+      "country": "se",
+      "history": "http://hl7.se/fhir/ig/base/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.se/fhir/ig/base",
+      "ci-build": "http://build.fhir.org/ig/HL7Sweden/basprofiler-r4",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7se.fhir.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.se/fhir/ig/base/1.0.0"
         }
       ]
     }

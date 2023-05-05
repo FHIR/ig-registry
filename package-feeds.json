@@ -60,7 +60,12 @@
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
-      },
+    },	
+    {
+        "name": "Kommunernes Landsforening",
+        "url": "https://fhir.kl.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },  
     {
       "name": "mednet.swiss",
       "url": "https://mednet.swiss/fhir/package-feed.xml",
@@ -90,6 +95,11 @@
       "name": "Taiwan FHIR Publications",
       "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
       "errors": "CCYU|mohw_gov_tw"
+    },
+    {
+      "name": "Estonian FHIR Publications",
+      "url": "https://fhir.ee/packages/package-feed.xml",
+      "errors": "fhir|kodality_com"
     }
   ],
   "package-restrictions": [
@@ -108,6 +118,10 @@
     {
         "mask": "hl7.fhir.dk.*",
         "feeds": [ "https://hl7.dk/fhir/package-feed.xml" ]
+    },  
+    {
+        "mask": "kl.dk.fhir.*",
+        "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.*",
@@ -150,6 +164,10 @@
     {
       "mask": "twcore.mohw.gov.*",
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.fhir.ee.*",
+      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
     }
   ]
 }  
