@@ -43,13 +43,13 @@
       },
       "editions": [
         {
-          "name": "STU6",
-          "ig-version": "6.0.0",
-          "package": "hl7.fhir.us.core#6.0.0",
+          "name": "STU Update",
+          "ig-version": "6.1.0-snapshot1",
+          "package": "hl7.fhir.us.core#6.1.0-snapshot1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/STU6"
+          "url": "http://hl7.org/fhir/us/core/STU6.1-snapshot1"
         }
       ]
     },
@@ -6860,13 +6860,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/vulcan-rwd/2023Jan"
+          "url": "http://hl7.org/fhir/uv/vulcan-rwd/STU1"
         }
       ]
     },
