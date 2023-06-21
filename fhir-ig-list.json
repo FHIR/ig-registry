@@ -4453,13 +4453,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Draft",
-          "ig-version": "0.2.0",
-          "package": "hl7.fhir.us.medmorph#0.2.0",
+          "name": "STU1 Release 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.medmorph#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/medmorph/2022Jan"
+          "url": "http://hl7.org/fhir/us/medmorph/STU1"
         }
       ]
     },
