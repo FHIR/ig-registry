@@ -7489,6 +7489,56 @@
           "url": "http://hl7.se/fhir/ig/base/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Finnish Implementation Guide for SMART App Launch",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.fi.smart",
+      "description": "Guidelines for using the SMART App Launch mechanism in Finland, published and maintained by HL7 Finland.",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-smart/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-smart",
+      "ci-build": "https://fhir.fi/finnish-smart/",
+      "editions": [
+        {
+          "name": "Release 1.0.0, STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fi.smart#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-smart/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Base Profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.fi.smart",
+      "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-base-profiles/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-base-profiles+",
+      "ci-build": "https://fhir.fi/finnish-base-profiles/",
+      "editions": [
+        {
+          "name" : "Release 1.0.0, STU 1",
+          "ig-version" : "1.0.0",
+          "package": "hl7.fi.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url" : "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
+        }
+      ]
     }
   ]
 }
