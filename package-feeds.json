@@ -105,6 +105,11 @@
       "name": "HL7 Sweden",
       "url": "https://hl7.se/fhir/ig/package-feed.xml",
       "errors": "petur_valdimarsson|chorus_se"
+    },
+    {
+      "name": "HL7 Finland",
+      "url": "https://hl7.fi/fhir/package-feed.xml",
+      "errors": "mikael|sensotrend_com"
     }
   ],
   "package-restrictions": [
@@ -173,6 +178,10 @@
     {
       "mask": "hl7.fhir.ee.*",
       "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.fhir.fi.*",
+      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     }
   ]
 }  
