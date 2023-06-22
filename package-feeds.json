@@ -100,6 +100,11 @@
       "name": "Estonian FHIR Publications",
       "url": "https://fhir.ee/packages/package-feed.xml",
       "errors": "fhir|kodality_com"
+    },
+    {
+      "name": "HL7 Sweden",
+      "url": "https://hl7.se/fhir/ig/package-feed.xml",
+      "errors": "petur_valdimarsson|chorus_se"
     }
   ],
   "package-restrictions": [
