@@ -7415,31 +7415,7 @@
         }
       ]
     },
-    {
-      "name": "KLTerm",
-      "category": "Terminology",
-      "npm-name": "kl.dk.fhir.term",
-      "description": "Base Terminology for KL",
-      "authority": "Kommunernes Landsforening",
-      "country": "Denmark",
-      "history": "http://fhir.kl.dk/term/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/term",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-term",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.term#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/term/1.0.0"
-        }
-      ]
-    },
+
     {
       "name": "Privacy Consent on FHIR (PCF)",
       "category": "Privacy / Security",
@@ -7487,6 +7463,81 @@
             "4.0.1"
           ],
           "url": "http://hl7.se/fhir/ig/base/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLTerm",
+      "category": "Terminology",
+      "npm-name": "kl.dk.fhir.term",
+      "description": "Base Terminology for KL",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/term/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/term",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-term",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.term#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/term/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLCore",
+      "category": "Core",
+      "npm-name": "kl.dk.fhir.core",
+      "description": "Base Profiles for KL",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/core",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk/branches/1.2.0",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.2.0",
+          "package": "kl.dk.fhir.core#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/core/1.2.0"
+        }
+      ]
+    },
+    {
+      "name": "KLGateway",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.gateway",
+      "description": "KL Submission Guide of data for reporting of various elements",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/gateway/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/gateway",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway/branches/main",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.1.0",
+          "package": "kl.dk.fhir.gateway#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/gateway/1.1.0"
         }
       ]
     }
