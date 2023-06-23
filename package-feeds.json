@@ -105,6 +105,11 @@
       "name": "HL7 Sweden",
       "url": "https://hl7.se/fhir/ig/package-feed.xml",
       "errors": "petur_valdimarsson|chorus_se"
+    },
+    {
+      "name": "HL7 Chile",
+      "url": "https://hl7chile.cl/fhir/ig/package-feed.xml",
+      "errors": "jorge_mansilla|hl7chile_cl"
     }
   ],
   "package-restrictions": [
