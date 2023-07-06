@@ -6419,28 +6419,28 @@
     {
       "name": "TW Core",
       "category": "National Base",
-      "npm-name": "twcore.mohw.gov.tw",
+      "npm-name": "tw.gov.mohw.twcore",
       "description": "Taiwan Core Implementation Guide",
       "authority": "MOHW",
       "product": [
         "fhir"
       ],
       "country": "tw",
-      "history": "https://twcore.mohw.gov.tw/fhir/history.html",
+      "history": "https://twcore.mohw.gov.tw/ig/twcore/history.html",
       "language": [
-        "zh-tw"
+        "zh-TW"
       ],
-      "canonical": "https://twcore.mohw.gov.tw/ig",
-      "ci-build": "https://twcore.mohw.gov.tw/ig",
+      "canonical": "https://twcore.mohw.gov.tw/ig/twcore",
+      "ci-build": "https://twcore.mohw.gov.tw/ig/twcore",
       "editions": [
         {
-          "name": "CI Build",
-          "ig-version": "0.1.0-Trial Use",
-          "package": "twcore.mohw.gov.tw#0.1.0-Trial Use",
+          "name": "Trial Use",
+          "ig-version": "0.1.0",
+          "package": "tw.gov.mohw.twcore#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://twcore.mohw.gov.tw/ig"
+          "url": "https://twcore.mohw.gov.tw/ig/twcore"
         }
       ]
     },
