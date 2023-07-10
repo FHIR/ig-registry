@@ -7502,7 +7502,7 @@
         "en"
       ],
       "canonical": "http://fhir.kl.dk/core",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk/branches/1.2.0",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk",
       "editions": [
         {
           "name": "Releases",
@@ -7527,7 +7527,7 @@
         "en"
       ],
       "canonical": "http://fhir.kl.dk/gateway",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway/branches/main",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway",
       "editions": [
         {
           "name": "Releases",
