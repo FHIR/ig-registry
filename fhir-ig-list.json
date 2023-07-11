@@ -43,13 +43,13 @@
       },
       "editions": [
         {
-          "name": "STU6",
-          "ig-version": "6.0.0",
-          "package": "hl7.fhir.us.core#6.0.0",
+          "name": "STU Update",
+          "ig-version": "6.1.0",
+          "package": "hl7.fhir.us.core#6.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/STU6"
+          "url": "http://hl7.org/fhir/us/core/STU6.1"
         }
       ]
     },
@@ -4933,13 +4933,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.cancer-reporting#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.cancer-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cancer-reporting/2021Sep"
+          "url": "http://hl7.org/fhir/us/cancer-reporting/STU1"
         }
       ]
     },
