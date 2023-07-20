@@ -4114,12 +4114,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.1.0",
-          "package": "hl7.terminology#5.1.0",
+          "ig-version": "5.2.0",
+          "package": "hl7.terminology#5.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.1.0"
+          "url": "http://terminology.hl7.org/5.2.0"
         }
       ]
     },
@@ -7415,7 +7415,6 @@
         }
       ]
     },
-
     {
       "name": "Privacy Consent on FHIR (PCF)",
       "category": "Privacy / Security",
