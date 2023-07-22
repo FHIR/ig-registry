@@ -1,0 +1,19 @@
+{
+  "version" : "1",
+  "publisher" : "HL7",
+  "servers" : [{
+    "name" : "tx.fhir.org",
+    "access_info" : "This server is open to the public",
+    "url" : "http://tx.fhir.org",
+    "versions" : [{
+      "version" : "R4",
+      "url" : "http://tx.fhir.org/r4"
+    },{
+      "version" : "R3",
+      "url" : "http://tx.fhir.org/r3"
+    },{
+      "version" : "R2",
+      "url" : "http://tx.fhir.org/r2"
+    }]
+  }]
+}
