@@ -7,7 +7,7 @@
     "authority" : "Published by HL7",
     "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
   }],
-  "explanation" : "each url points to a json file that is structured as shown in the dummy. Access_info is markdown that explains to a human how they get access to the server",
+  "explanation" : "each url points to a json file that is structured as shown in the dummy. Access_info is markdown that explains to a human how they get access to the server. Any named server must return a CapabilityStatement and a TerminologyCapabilities statement without requiring authentication, and these must tbd",
   "dummy" : {
     "version" : "1",
     "publisher" : "ACME Industries",
