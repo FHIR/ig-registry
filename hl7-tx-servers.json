@@ -1,15 +1,15 @@
 {
   "version" : "1",
   "publisher" : "HL7",
-  "authoritative" : [
-    "http://hl7.org/*",
-    "http://terminology.hl7.org/*"
-  ],
   "servers" : [{
     "code" : "tx.fhir.org",
     "name" : "tx.fhir.org",
     "access_info" : "This server is open to the public",
     "url" : "http://tx.fhir.org",
+    "authoritative" : [
+      "http://hl7.org/*",
+      "http://terminology.hl7.org/*"
+    ],
     "versions" : [{
       "version" : "R4",
       "url" : "http://tx.fhir.org/r4"
