@@ -1,6 +1,6 @@
 {
   "version" : "1",
-  "publisher" : "HL7",
+  "description" : "HL7's list of published terminology servers",
   "servers" : [{
     "code" : "tx.fhir.org",
     "name" : "tx.fhir.org",

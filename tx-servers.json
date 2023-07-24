@@ -1,26 +1,11 @@
 {
   "version" : "1",
   "description" : "This JSON-5 file contains a list of the lists of terminology servers available for use across the FHIR tooling eco-system",
-  "documentation" : "See HL7 Confluence: ",
+  "documentation" : "See https://github.com/FHIR/ig-registry/blob/master/tx-registry-doco.json",
   "registries" : [{
     "code" : "hl7",
     "name" : "HL7 Terminology Services",
     "authority" : "Published by HL7",
     "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
-  }],
-  "explanation" : "each url points to a json file that is structured as shown in the dummy. Access_info is markdown that explains to a human how they get access to the server. Any named server must return a CapabilityStatement and a TerminologyCapabilities statement without requiring authentication, and these must tbd",
-  "dummy" : {
-    "version" : "1",
-    "publisher" : "ACME Industries",
-    "servers" : [{
-      "code" : "acme",
-      "name" : "Acme Servers Best Server",
-      "access_info" : "This server is open to the public",
-      "url" : "http://acme.example.org/tx",
-      "versions" : [{
-        "version" : "R4",
-        "url" : "http://acme.example.org/tx/R4"
-      }]
-    }]
-  }
+  }]
 }
