@@ -6888,13 +6888,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0",
           "fhir-version": [
-            "5.0.0-ballot"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
         }
       ]
     },
