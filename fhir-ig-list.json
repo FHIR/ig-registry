@@ -4544,22 +4544,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
+          "name": "STU 2.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
         }
       ]
     },
