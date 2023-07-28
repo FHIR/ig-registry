@@ -4491,22 +4491,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
+          "name": "STU 2.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
         }
       ]
     },
@@ -6480,13 +6471,13 @@
       "ci-build": "http://build.fhir.org/ig/codex-radiation-therapy",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/2022Sep"
+          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/STU1"
         }
       ]
     },
@@ -6853,13 +6844,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0",
           "fhir-version": [
-            "5.0.0-ballot"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
         }
       ]
     },
@@ -6904,12 +6895,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.mcc#1.0.0-ballot",
+          "ig-version": "1.0.0-ballot2",
+          "package": "hl7.fhir.us.mcc#1.0.0-ballot2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcc/2023Jan"
+          "url": "http://hl7.org/fhir/us/mcc/2023Sep"
         }
       ]
     },
