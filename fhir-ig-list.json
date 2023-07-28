@@ -7408,6 +7408,31 @@
           "url": "http://hl7.org/fhir/uv/rtls/2023May"
         }
       ]
+    },
+    {
+      "name": "Adverse Event Clinical Research R4 Backport",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.ae-research-backport-ig",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ae-research-backport-ig/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ae-research-backport-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-backport-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ae-research-backport-ig/2023Sep"
+        }
+      ]
     }
   ]
 }
