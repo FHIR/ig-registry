@@ -3754,22 +3754,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "N1 Normative+trial-use",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.shorthand#2.0.0",
+          "name": "Release 3 Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "hl7.fhir.uv.shorthand#3.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/N1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.shorthand#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
+          "url": "http://hl7.org/fhir/uv/shorthand/2023Sep"
         }
       ]
     },
