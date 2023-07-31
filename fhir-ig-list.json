@@ -1976,13 +1976,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.bser#1.0.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.bser#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bser/STU1"
+          "url": "http://hl7.org/fhir/us/bser/2023Sep"
         }
       ]
     },
@@ -3701,22 +3701,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "N1 Normative+trial-use",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.shorthand#2.0.0",
+          "name": "Release 3 Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "hl7.fhir.uv.shorthand#3.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/N1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.shorthand#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
+          "url": "http://hl7.org/fhir/uv/shorthand/2023Sep"
         }
       ]
     },
@@ -7375,6 +7366,31 @@
       ]
     },
     {
+      "name": "Adverse Event Clinical Research R4 Backport",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.ae-research-backport-ig",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ae-research-backport-ig/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ae-research-backport-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-backport-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ae-research-backport-ig/2023Sep"
+        }
+      ]
+    },
+    {
       "name": "CCDA: Consolidated CDA Release",
       "category": "CDA",
       "npm-name": "hl7.cda.us.ccda",
@@ -7400,6 +7416,31 @@
       ]
     },
     {
+      "name": "Adverse Event Clinical Research",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.ae-research-ig",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ae-research-ig/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ae-research-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ae-research-ig#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/ae-research-ig/2023Sep"
+        }
+      ]
+    },
+    {
       "name": "FHIR Core Extensions Registry",
       "category": "Extensions",
       "npm-name": "hl7.fhir.uv.extensions",
@@ -7421,6 +7462,31 @@
             "5.0.0"
           ],
           "url": "http://hl7.org/fhir/extensions/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.us.ndh",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/ndh/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/ndh",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ndh",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.ndh#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ndh/2023Sep"
         }
       ]
     },
@@ -7471,6 +7537,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.se/fhir/ig/base/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Da Vinci Value-Based Performance Reporting Implementation Guide",
+      "category": "quality and financial management",
+      "npm-name": "hl7.fhir.us.davinci-vbpr",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-vbpr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/davinci-vbpr",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-vbpr",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-vbpr#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-vbpr/2023Sep"
         }
       ]
     },
