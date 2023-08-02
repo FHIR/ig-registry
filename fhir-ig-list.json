@@ -1059,21 +1059,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
-      "canonical": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
+      },
+      "canonical": "https://profiles.ihe.net/ITI/NPFS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.NPFS/branches/master/index.html",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.2.0",
-          "package": "ihe.iti.npfs#0.2.0",
+          "name": "Publication Ballot",
+          "ig-version": "2.2.0-comment",
+          "package": "ihe.iti.npfs#2.2.0-comment",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)"
+          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0-comment"
         }
-      ],
-      "analysis": {
-        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
-      }
+      ]
     },
     {
       "name": "IHE Standardized Operational Log of Events (SOLE)",
@@ -7496,13 +7497,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.pcf#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.iti.pcf#1.0.0",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0"
         }
       ]
     },
