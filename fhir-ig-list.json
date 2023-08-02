@@ -5993,48 +5993,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "4.2.0",
-          "package": "ihe.iti.mhd#4.2.0",
+          "ig-version": "4.2.1",
+          "package": "ihe.iti.mhd#4.2.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.1.0",
-          "package": "ihe.iti.mhd#4.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.1.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.0.2",
-          "package": "ihe.iti.mhd#4.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.0.2"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.0.1",
-          "package": "ihe.iti.mhd#4.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.0.1"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "3.2.0",
-          "package": "ihe.iti.mhd#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.1"
         }
       ]
     },
