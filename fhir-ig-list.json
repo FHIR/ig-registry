@@ -998,21 +998,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "canonical": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "editions": [
-        {
-          "name": "STU3 or R4 Trial-Implementation",
-          "ig-version": "0.1.2",
-          "package": "ihe.iti.mxde#0.1.2",
-          "fhir-version": [
-            "4.0.0"
-          ],
-          "url": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
-        }
-      ],
       "analysis": {
         "error": "Unable to resolve package id ihe.iti.mxde#0.1.2"
-      }
+      },
+      "canonical": "https://profiles.ihe.net/ITI/mXDE",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.mXDE/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.3.0-comment",
+          "package": "ihe.iti.mxde#1.3.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0-comment"
+        }
+      ]
     },
     {
       "name": "IHE Query for Existing Data for Mobile (QEDm)",
@@ -1815,31 +1816,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.2 on FHIR R4",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.us.odh#1.2.0",
+          "name": "STU 1.3 on FHIR R4",
+          "ig-version": "1.3.0",
+          "package": "hl7.fhir.us.odh#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/odh/STU1.2"
-        },
-        {
-          "name": "STU 1.1 on FHIR R4",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.odh#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/odh/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.odh#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/odh/STU1"
+          "url": "http://hl7.org/fhir/us/odh/STU1.3"
         }
       ]
     },
@@ -2558,30 +2541,12 @@
       "editions": [
         {
           "name": "Release",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.dk.core#2.1.0",
+          "ig-version": "2.2.0",
+          "package": "hl7.fhir.dk.core#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.dk/fhir/core/2.1.0"
-        },
-        {
-          "name": "Release",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.dk.core#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.dk/fhir/core/2.0.0"
-        },
-        {
-          "name": "Release",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.dk.core#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.dk/fhir/core/1.1.0"
+          "url": "http://hl7.dk/fhir/core/2.2.0"
         }
       ]
     },
@@ -2934,31 +2899,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-cdex#2.0.0-ballot",
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-cdex#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/2022Sep"
-        },
-        {
-          "name": "STU1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.davinci-cdex#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1.1"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-cdex#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU2"
         }
       ]
     },
@@ -4158,12 +4105,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.1.0",
-          "package": "hl7.terminology#5.1.0",
+          "ig-version": "5.2.0",
+          "package": "hl7.terminology#5.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.1.0"
+          "url": "http://terminology.hl7.org/5.2.0"
         }
       ]
     },
@@ -4697,20 +4644,20 @@
       ],
       "canonical": "http://cql.hl7.org",
       "ci-build": "http://build.fhir.org/ig/HL7/cql",
+      "analysis": {
+        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
+      },
       "editions": [
         {
           "name": "Normative Normative",
-          "ig-version": "1.5.1",
-          "package": "hl7.cql#1.5.1",
+          "ig-version": "1.5.2",
+          "package": "hl7.cql#1.5.2",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://cql.hl7.org/N1"
         }
-      ],
-      "analysis": {
-        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
-      }
+      ]
     },
     {
       "name": "Immunization Decision Support Forecast FHIR IG",
@@ -6309,6 +6256,24 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.3",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
         }
       ]
     },
@@ -6454,28 +6419,28 @@
     {
       "name": "TW Core",
       "category": "National Base",
-      "npm-name": "twcore.mohw.gov.tw",
+      "npm-name": "tw.gov.mohw.twcore",
       "description": "Taiwan Core Implementation Guide",
       "authority": "MOHW",
       "product": [
         "fhir"
       ],
       "country": "tw",
-      "history": "https://twcore.mohw.gov.tw/fhir/history.html",
+      "history": "https://twcore.mohw.gov.tw/ig/twcore/history.html",
       "language": [
-        "zh-tw"
+        "zh-TW"
       ],
-      "canonical": "https://twcore.mohw.gov.tw/ig",
-      "ci-build": "https://twcore.mohw.gov.tw/ig",
+      "canonical": "https://twcore.mohw.gov.tw/ig/twcore",
+      "ci-build": "https://twcore.mohw.gov.tw/ig/twcore",
       "editions": [
         {
-          "name": "CI Build",
-          "ig-version": "0.1.0-Trial Use",
-          "package": "twcore.mohw.gov.tw#0.1.0-Trial Use",
+          "name": "Trial Use",
+          "ig-version": "0.1.0",
+          "package": "tw.gov.mohw.twcore#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://twcore.mohw.gov.tw/ig"
+          "url": "https://twcore.mohw.gov.tw/ig/twcore"
         }
       ]
     },
@@ -6895,13 +6860,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/vulcan-rwd/2023Jan"
+          "url": "http://hl7.org/fhir/uv/vulcan-rwd/STU1"
         }
       ]
     },
@@ -7426,6 +7391,31 @@
       ]
     },
     {
+      "name": "CCDA: Consolidated CDA Release",
+      "category": "CDA",
+      "npm-name": "hl7.cda.us.ccda",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://hl7.org/cda/stds/ccda/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/cda/stds/ccda",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
+      "editions": [
+        {
+          "name": "CCDA 2.1 Draft",
+          "ig-version": "2.1.0-draft1",
+          "package": "hl7.cda.us.ccda#2.1.0-draft1",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/cda/stds/ccda/draft1"
+        }
+      ]
+    },
+    {
       "name": "Adverse Event Clinical Research",
       "category": "Research",
       "npm-name": "hl7.fhir.uv.ae-research-ig",
@@ -7451,6 +7441,31 @@
       ]
     },
     {
+      "name": "FHIR Core Extensions Registry",
+      "category": "Extensions",
+      "npm-name": "hl7.fhir.uv.extensions",
+      "description": "??",
+      "authority": "HL7",
+      "country": "??",
+      "history": "http://hl7.org/fhir/extensions/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/extensions",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.extensions#1.0.0",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/extensions/1.0.0"
+        }
+      ]
+    },
+    {
       "name": "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.ndh",
@@ -7472,6 +7487,56 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/ndh/2023Sep"
+        }
+      ]
+    },
+    {
+      "name": "Privacy Consent on FHIR (PCF)",
+      "category": "Privacy / Security",
+      "npm-name": "ihe.iti.pcf",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/PCF/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/PCF",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.pcf#1.0.0-comment",
+          "fhir-version": [
+            "4.3.0"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Sweden base profiles",
+      "category": "National Base",
+      "npm-name": "hl7se.fhir.base",
+      "description": "Implementation Guide for Swedish Base Profiles",
+      "authority": "HL7",
+      "country": "se",
+      "history": "http://hl7.se/fhir/ig/base/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.se/fhir/ig/base",
+      "ci-build": "http://build.fhir.org/ig/HL7Sweden/basprofiler-r4",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "hl7se.fhir.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.se/fhir/ig/base/1.0.0"
         }
       ]
     },
@@ -7522,6 +7587,106 @@
             "5.0.0"
           ],
           "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "KLTerm",
+      "category": "Terminology",
+      "npm-name": "kl.dk.fhir.term",
+      "description": "Base Terminology for KL",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/term/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/term",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-term",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.term#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/term/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLCore",
+      "category": "Core",
+      "npm-name": "kl.dk.fhir.core",
+      "description": "Base Profiles for KL",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/core/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/core",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk/branches/1.2.0",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.2.0",
+          "package": "kl.dk.fhir.core#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/core/1.2.0"
+        }
+      ]
+    },
+    {
+      "name": "KLGateway",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.gateway",
+      "description": "KL Submission Guide of data for reporting of various elements",
+      "authority": "Kommunernes Landsforening",
+      "country": "Denmark",
+      "history": "http://fhir.kl.dk/gateway/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/gateway",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway/branches/main",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.1.0",
+          "package": "kl.dk.fhir.gateway#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/gateway/1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.public-health",
+      "description": "Public Health IG",
+      "authority": "eHealth Platform Belgium",
+      "country": "BE",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/public-health",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/public-health",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.public-health#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
         }
       ]
     }
