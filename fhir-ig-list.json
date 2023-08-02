@@ -6064,21 +6064,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.1.1",
-          "package": "ihe.iti.balp#1.1.1",
+          "ig-version": "1.1.2",
+          "package": "ihe.iti.balp#1.1.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.1"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "1.1.0",
-          "package": "ihe.iti.balp#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.2"
         }
       ]
     },
