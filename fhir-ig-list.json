@@ -7513,6 +7513,31 @@
       ]
     },
     {
+      "name": "International Birth And Child Model Implementation Guide",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.uv.ibcm",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ibcm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ibcm",
+      "ci-build": "http://build.fhir.org/ig/HL7/fetal_records",
+      "editions": [
+        {
+          "name": "Releases Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ibcm#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
+        }
+      ]
+    },
+    {
       "name": "KLTerm",
       "category": "Terminology",
       "npm-name": "kl.dk.fhir.term",
