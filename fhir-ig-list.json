@@ -7524,6 +7524,31 @@
           "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
         }
       ]
+    },
+    {
+      "name": "Canonical Resource Management Infrastructure Implementation Guide",
+      "category": "infrastructure",
+      "npm-name": "hl7.fhir.uv.crmi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/crmi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/crmi",
+      "ci-build": "http://build.fhir.org/ig/HL7/crmi-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.crmi#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/crmi/2023Sep"
+        }
+      ]
     }
   ]
 }
