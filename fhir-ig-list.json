@@ -7643,6 +7643,31 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Sharing of IPS (sIPS)",
+      "category": "Clinical Documents",
+      "npm-name": "ihe.iti.sips",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/sIPS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/sIPS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.sIPS/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.sips#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
+        }
+      ]
     }
   ]
 }
