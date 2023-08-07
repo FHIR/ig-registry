@@ -44,12 +44,12 @@
       "editions": [
         {
           "name": "STU Update",
-          "ig-version": "6.1.0-snapshot1",
-          "package": "hl7.fhir.us.core#6.1.0-snapshot1",
+          "ig-version": "6.1.0",
+          "package": "hl7.fhir.us.core#6.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/STU6.1-snapshot1"
+          "url": "http://hl7.org/fhir/us/core/STU6.1"
         }
       ]
     },
@@ -487,13 +487,13 @@
       },
       "editions": [
         {
-          "name": "STU5 (v5.0.0)",
-          "ig-version": "5.0.0",
-          "package": "hl7.fhir.us.qicore#5.0.0",
+          "name": "STU6 (v6.0.0) Ballot",
+          "ig-version": "6.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#6.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/STU5"
+          "url": "http://hl7.org/fhir/us/qicore/2023Sep"
         }
       ]
     },
@@ -857,30 +857,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "3.0.2",
-          "package": "ihe.iti.pixm#3.0.2",
+          "ig-version": "3.0.3",
+          "package": "ihe.iti.pixm#3.0.3",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.2"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "3.0.0",
-          "package": "ihe.iti.pixm#3.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.1.0",
-          "package": "ihe.iti.pixm#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.3"
         }
       ]
     },
@@ -1059,21 +1041,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
-      "canonical": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
+      },
+      "canonical": "https://profiles.ihe.net/ITI/NPFS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.NPFS/branches/master/index.html",
       "editions": [
         {
-          "name": "STU3 Trial-Implementation",
-          "ig-version": "0.2.0",
-          "package": "ihe.iti.npfs#0.2.0",
+          "name": "Publication Ballot",
+          "ig-version": "2.2.0-comment",
+          "package": "ihe.iti.npfs#2.2.0-comment",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)"
+          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0-comment"
         }
-      ],
-      "analysis": {
-        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
-      }
+      ]
     },
     {
       "name": "IHE Standardized Operational Log of Events (SOLE)",
@@ -1976,13 +1959,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.bser#1.0.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.bser#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bser/STU1"
+          "url": "http://hl7.org/fhir/us/bser/2023Sep"
         }
       ]
     },
@@ -3701,22 +3684,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "N1 Normative+trial-use",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.shorthand#2.0.0",
+          "name": "Release 3 Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "hl7.fhir.uv.shorthand#3.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/N1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.shorthand#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
+          "url": "http://hl7.org/fhir/uv/shorthand/2023Sep"
         }
       ]
     },
@@ -4114,12 +4088,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.1.0",
-          "package": "hl7.terminology#5.1.0",
+          "ig-version": "5.2.0",
+          "package": "hl7.terminology#5.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.1.0"
+          "url": "http://terminology.hl7.org/5.2.0"
         }
       ]
     },
@@ -4491,22 +4465,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
+          "name": "STU 2.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
         }
       ]
     },
@@ -4880,13 +4845,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.cancer-reporting#0.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.cancer-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cancer-reporting/2021Sep"
+          "url": "http://hl7.org/fhir/us/cancer-reporting/STU1"
         }
       ]
     },
@@ -6010,48 +5975,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "4.2.0",
-          "package": "ihe.iti.mhd#4.2.0",
+          "ig-version": "4.2.1",
+          "package": "ihe.iti.mhd#4.2.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.1.0",
-          "package": "ihe.iti.mhd#4.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.1.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.0.2",
-          "package": "ihe.iti.mhd#4.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.0.2"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "4.0.1",
-          "package": "ihe.iti.mhd#4.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.0.1"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "3.2.0",
-          "package": "ihe.iti.mhd#3.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.1"
         }
       ]
     },
@@ -6082,21 +6011,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.1.1",
-          "package": "ihe.iti.balp#1.1.1",
+          "ig-version": "1.1.2",
+          "package": "ihe.iti.balp#1.1.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.1"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "1.1.0",
-          "package": "ihe.iti.balp#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.2"
         }
       ]
     },
@@ -6274,6 +6194,24 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.3",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
         }
       ]
     },
@@ -6462,13 +6400,13 @@
       "ci-build": "http://build.fhir.org/ig/codex-radiation-therapy",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/2022Sep"
+          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/STU1"
         }
       ]
     },
@@ -6659,21 +6597,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.5.0",
-          "package": "ihe.iti.svcm#1.5.0",
+          "ig-version": "1.5.1",
+          "package": "ihe.iti.svcm#1.5.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/SVCM/1.5.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "1.3.0",
-          "package": "ihe.iti.svcm#1.3.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_SVCM_Rev1-3_TI_2022-06-17.pdf"
+          "url": "https://profiles.ihe.net/ITI/SVCM/1.5.1"
         }
       ]
     },
@@ -6835,13 +6764,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0",
           "fhir-version": [
-            "5.0.0-ballot"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
         }
       ]
     },
@@ -6886,12 +6815,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.mcc#1.0.0-ballot",
+          "ig-version": "1.0.0-ballot2",
+          "package": "hl7.fhir.us.mcc#1.0.0-ballot2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcc/2023Jan"
+          "url": "http://hl7.org/fhir/us/mcc/2023Sep"
         }
       ]
     },
@@ -7366,6 +7295,31 @@
       ]
     },
     {
+      "name": "Adverse Event Clinical Research R4 Backport",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.ae-research-backport-ig",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ae-research-backport-ig/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ae-research-backport-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-backport-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/ae-research-backport-ig/2023Sep"
+        }
+      ]
+    },
+    {
       "name": "CCDA: Consolidated CDA Release",
       "category": "CDA",
       "npm-name": "hl7.cda.us.ccda",
@@ -7387,6 +7341,31 @@
             "5.0.0"
           ],
           "url": "http://hl7.org/cda/stds/ccda/draft1"
+        }
+      ]
+    },
+    {
+      "name": "Adverse Event Clinical Research",
+      "category": "Research",
+      "npm-name": "hl7.fhir.uv.ae-research-ig",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ae-research-ig/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ae-research-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ae-research-ig#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/ae-research-ig/2023Sep"
         }
       ]
     },
@@ -7416,6 +7395,31 @@
       ]
     },
     {
+      "name": "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
+      "category": "Administration",
+      "npm-name": "hl7.fhir.us.ndh",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/ndh/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/ndh",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ndh",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.ndh#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ndh/2023Sep"
+        }
+      ]
+    },
+    {
       "name": "Privacy Consent on FHIR (PCF)",
       "category": "Privacy / Security",
       "npm-name": "ihe.iti.pcf",
@@ -7430,13 +7434,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.pcf#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.iti.pcf#1.0.0",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0"
         }
       ]
     },
@@ -7462,6 +7466,81 @@
             "4.0.1"
           ],
           "url": "http://hl7.se/fhir/ig/base/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Da Vinci Value-Based Performance Reporting Implementation Guide",
+      "category": "quality and financial management",
+      "npm-name": "hl7.fhir.us.davinci-vbpr",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/davinci-vbpr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/davinci-vbpr",
+      "ci-build": "http://build.fhir.org/ig/HL7/davinci-vbpr",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-vbpr#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-vbpr/2023Sep"
+        }
+      ]
+    },
+    {
+      "name": "International Birth And Child Model Implementation Guide",
+      "category": "Clinical Records",
+      "npm-name": "hl7.fhir.uv.ibcm",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ibcm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ibcm",
+      "ci-build": "http://build.fhir.org/ig/HL7/fetal_records",
+      "editions": [
+        {
+          "name": "Releases Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ibcm#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "Canonical Resource Management Infrastructure Implementation Guide",
+      "category": "infrastructure",
+      "npm-name": "hl7.fhir.uv.crmi",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/crmi/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/crmi",
+      "ci-build": "http://build.fhir.org/ig/HL7/crmi-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.crmi#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/crmi/2023Sep"
         }
       ]
     },
@@ -7537,6 +7616,56 @@
             "4.0.1"
           ],
           "url": "http://fhir.kl.dk/gateway/1.1.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.public-health",
+      "description": "Public Health IG",
+      "authority": "eHealth Platform Belgium",
+      "country": "BE",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/public-health",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/public-health",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.public-health#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Sharing of IPS (sIPS)",
+      "category": "Clinical Documents",
+      "npm-name": "ihe.iti.sips",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/sIPS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/sIPS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.sIPS/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.sips#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
         }
       ]
     }
