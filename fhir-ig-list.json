@@ -987,13 +987,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.mXDE/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.3.0-comment",
-          "package": "ihe.iti.mxde#1.3.0-comment",
+          "name": "Publication",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.mxde#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0-comment"
+          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0"
         }
       ]
     },
@@ -5760,21 +5760,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "2.3.0",
-          "package": "ihe.iti.mhds#2.3.0",
+          "ig-version": "2.3.1",
+          "package": "ihe.iti.mhds#2.3.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.1.0",
-          "package": "ihe.iti.mhds#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
+          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.1"
         }
       ]
     },
