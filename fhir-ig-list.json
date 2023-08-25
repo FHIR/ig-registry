@@ -5498,13 +5498,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
+          "name": "STU1 Release 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU1"
         }
       ]
     },
@@ -6995,13 +6995,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
         }
       ]
     },
