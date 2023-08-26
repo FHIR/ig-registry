@@ -7659,6 +7659,81 @@
           "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
         }
       ]
+    },
+    {
+      "name": "KLFFBMessaging",
+      "category": "Messaging",
+      "npm-name": "kl.dk.fhir.ffbmessaging",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.kl.dk/ffbmessaging/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffbmessaging",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-messaging",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffbmessaging#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffbmessaging/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLFFinst",
+      "category": "Core",
+      "npm-name": "kl.dk.fhir.ffinst",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.kl.dk/ffinst/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffinst",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk-tools",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffinst#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffinst/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLFFBReporting",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.ffbreporting",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.kl.dk/ffbreporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffbreporting",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-reporting",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffbreporting#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffbreporting/1.0.0"
+        }
+      ]
     }
   ]
 }
