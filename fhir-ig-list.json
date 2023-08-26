@@ -7664,9 +7664,9 @@
       "name": "KLFFBMessaging",
       "category": "Messaging",
       "npm-name": "kl.dk.fhir.ffbmessaging",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Danish municipalities implementation guide for FFB messaging. A standard for exchanging social information from citizen journals between municipalities. The aim is to support citizens continuously, e.g. when they move, or receives interventions outside their home municipality.",
+      "authority": "HL7 Denmark",
+      "country": "dk",
       "history": "http://fhir.kl.dk/ffbmessaging/history.html",
       "language": [
         "en"
@@ -7689,9 +7689,9 @@
       "name": "KLFFinst",
       "category": "Core",
       "npm-name": "kl.dk.fhir.ffinst",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Danish municipalities implementation guide for FFInst ",
+      "authority": "HL7 Denmark",
+      "country": "dk",
       "history": "http://fhir.kl.dk/ffinst/history.html",
       "language": [
         "en"
@@ -7714,9 +7714,9 @@
       "name": "KLFFBReporting",
       "category": "Clinical Registries",
       "npm-name": "kl.dk.fhir.ffbreporting",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Danish municipalities implementation guide for FFB reporting. A standard for reporting social information from citizen journals to a gateway. The aim is to use the data in population based studies and management information systems",
+      "authority": "HL7 Denmark",
+      "country": "dk",
       "history": "http://fhir.kl.dk/ffbreporting/history.html",
       "language": [
         "en"
