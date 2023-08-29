@@ -4752,9 +4752,9 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
+          "name": "STU Update",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
