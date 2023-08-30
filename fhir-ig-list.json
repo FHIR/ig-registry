@@ -2071,40 +2071,13 @@
       },
       "editions": [
         {
-          "name": "STU 4 Ballot",
-          "ig-version": "4.0.0-ballot",
-          "package": "hl7.fhir.us.cqfmeasures#4.0.0-ballot",
+          "name": "STU4 (v4.0.0)",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#4.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2023Jan"
-        },
-        {
-          "name": "STU3",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#3.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU3"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#1.0.0",
-          "fhir-version": [
-            "3.0.2"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU1"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU4"
         }
       ]
     },
@@ -4709,9 +4682,9 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
+          "name": "STU Update",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5428,13 +5401,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
+          "name": "STU1 Release 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU1"
         }
       ]
     },
@@ -6880,13 +6853,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
         }
       ]
     },
@@ -7225,13 +7198,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/physical-activity",
       "editions": [
         {
-          "name": "STU 1.0 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.physical-activity#1.0.0-ballot",
+          "name": "STU 1.0",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.physical-activity#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/physical-activity/2023May"
+          "url": "http://hl7.org/fhir/us/physical-activity/STU1"
         }
       ]
     },
