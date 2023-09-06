@@ -553,22 +553,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.hai#2.0.0",
+          "name": "STU2",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.hai#2.1.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hai/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.hai#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/hai/STU1"
+          "url": "http://hl7.org/fhir/us/hai/STU2.1"
         }
       ]
     },
