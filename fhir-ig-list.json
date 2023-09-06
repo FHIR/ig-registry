@@ -1457,11 +1457,11 @@
       "product": [
         "fhir"
       ],
-      "country": "uv",
+      "country": "us",
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/uv/ecr/history.html",
+      "history": "http://hl7.org/fhir/us/ecr/history.html",
       "canonical": "http://hl7.org/fhir/us/ecr",
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "analysis": {
