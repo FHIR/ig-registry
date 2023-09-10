@@ -110,6 +110,11 @@
       "name": "HL7 Chile",
       "url": "https://hl7chile.cl/fhir/ig/package-feed.xml",
       "errors": "jorge_mansilla|hl7chile_cl"
+    },
+    {
+      "name": "Thailand SIL-TH",
+      "url": "https://fhir-ig.sil-th.org/package-feed.xml",
+      "errors": "rath|sil-th_org"
     }
   ],
   "package-restrictions": [
@@ -178,6 +183,10 @@
     {
       "mask": "hl7.fhir.ee.*",
       "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "silth.fhir.*",
+      "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
     }
   ]
 }  
