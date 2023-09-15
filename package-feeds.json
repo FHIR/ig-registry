@@ -120,6 +120,11 @@
       "name": "CGIS (UFG) Brasil",
       "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
       "errors": "kyriosdata|ufg_br"
+    },
+    {
+      "name": "MedCom",
+      "url": "https://medcomfhir.dk/ig/package-feed.xml",
+      "errors": "tms|medcom_dk"
     }
   ],
   "package-restrictions": [
