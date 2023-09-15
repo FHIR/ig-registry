@@ -115,6 +115,11 @@
       "name": "Thailand SIL-TH",
       "url": "https://fhir-ig.sil-th.org/package-feed.xml",
       "errors": "rath|sil-th_org"
+    },
+    {
+      "name": "CGIS (UFG) Brasil",
+      "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
+      "errors": "kyriosdata|ufg_br"
     }
   ],
   "package-restrictions": [
