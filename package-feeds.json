@@ -80,6 +80,11 @@
       "name": "Taiwan FHIR Publications",
       "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
       "errors": "CCYU|mohw_gov_tw"
+    },
+    {
+      "name": "MedCom",
+      "url": "https://medcomfhir.dk/ig/package-feed.xml",
+      "errors": "tms|medcom_dk"
     }
   ],
   "package-restrictions": [
