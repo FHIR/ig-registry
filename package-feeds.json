@@ -7,6 +7,11 @@
       "errors": "grahame|fhir_org"
     },
     {
+      "name": "HL7.org CDA Publications",
+      "url": "http://hl7.org/cda/stds/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "HL7.org Cross-Product Publications",
       "url": "http://hl7.org/xprod/ig/package-feed.xml",
       "errors": "grahame|fhir_org"
@@ -47,10 +52,20 @@
       "errors": "oliver_egger|ahdis_ch"
     },
     {
+      "name": "Agence du Numérique en Santé",
+      "url": "https://interop.esante.gouv.fr/ig/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    },
+    {
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
-      },
+    },	
+    {
+        "name": "Kommunernes Landsforening",
+        "url": "https://fhir.kl.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },  
     {
       "name": "mednet.swiss",
       "url": "https://mednet.swiss/fhir/package-feed.xml",
@@ -82,6 +97,31 @@
       "errors": "CCYU|mohw_gov_tw"
     },
     {
+      "name": "Estonian FHIR Publications",
+      "url": "https://fhir.ee/packages/package-feed.xml",
+      "errors": "fhir|kodality_com"
+    },
+    {
+      "name": "HL7 Sweden",
+      "url": "https://hl7.se/fhir/ig/package-feed.xml",
+      "errors": "petur_valdimarsson|chorus_se"
+    },
+    {
+      "name": "HL7 Chile",
+      "url": "https://hl7chile.cl/fhir/ig/package-feed.xml",
+      "errors": "jorge_mansilla|hl7chile_cl"
+    },
+    {
+      "name": "Thailand SIL-TH",
+      "url": "https://fhir-ig.sil-th.org/package-feed.xml",
+      "errors": "rath|sil-th_org"
+    },
+    {
+      "name": "CGIS (UFG) Brasil",
+      "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
+      "errors": "kyriosdata|ufg_br"
+    },
+    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -103,11 +143,19 @@
     {
         "mask": "hl7.fhir.dk.*",
         "feeds": [ "https://hl7.dk/fhir/package-feed.xml" ]
+    },  
+    {
+        "mask": "kl.dk.fhir.*",
+        "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
 	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml"]
+    },
+    {
+      "mask": "hl7.cda.*",
+      "feeds": [ "http://hl7.org/cda/stds/package-feed.xml", "http://fhir.org/templates/package-feed.xml"]
     },
     {
       "mask": "hl7.xprod.*",
@@ -131,12 +179,24 @@
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
     },
     {
+      "mask": "ans.fhir.fr.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
+    },
+    {
       "mask": "ihe.*",
       "feeds": [ "http://profiles.ihe.net/fhir/package-feed.xml", "http://fhir.org/templates/package-feed.xml"  ]
     },
     {
-      "mask": "twcore.mohw.gov.*",
+      "mask": "tw.gov.mohw.*",
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.fhir.ee.*",
+      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "silth.fhir.*",
+      "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
     }
   ]
 }  

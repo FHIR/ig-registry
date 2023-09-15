@@ -1,0 +1,11 @@
+{
+  "version" : "1",
+  "description" : "This JSON-5 file contains a list of the lists of terminology servers available for use across the FHIR tooling eco-system",
+  "documentation" : "See https://github.com/FHIR/ig-registry/blob/master/tx-registry-doco.json",
+  "registries" : [{
+    "code" : "hl7",
+    "name" : "HL7 Terminology Services",
+    "authority" : "Published by HL7",
+    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
+  }]
+}
