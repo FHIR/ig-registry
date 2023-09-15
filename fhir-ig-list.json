@@ -7719,6 +7719,31 @@
           "url": "https://kyriosdata.github.io/profiling"
         }
       ]
+    },
+    {
+      "name": "Common FHIR profile vendor collaboration",
+      "category": "EHR Access",
+      "npm-name": "care.commonprofiles.fhir",
+      "description": "ImplementationGuide published by a collaborative group of Swedish stakeholders of healthcare IT systems.",
+      "authority": "CommonProfiles.care",
+      "country": "SE",
+      "history": "https://commonprofiles.care/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://commonprofiles.care/fhir",
+      "ci-build": "https://build.fhir.org/ig/commonprofiles-care/fhir/",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.1",
+          "package": "care.commonprofiles.fhir#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://commonprofiles.care/fhir/1.0.1/"
+        }
+      ]
     }
   ]
 }
