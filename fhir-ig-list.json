@@ -7744,6 +7744,34 @@
           "url": "https://commonprofiles.care/fhir/1.0.1/"
         }
       ]
+    },
+    {
+      "name": "KR Core Implementation Guide",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.kr.core",
+      "description": "Base Korean national implementation guide",
+      "authority": "HL7 Korea",
+      "product": [
+        "fhir"
+      ],
+      "country": "kr",
+      "language": [
+        "kr",
+        "en"
+      ],
+      "history": "http://www.hl7korea.or.kr/fhir/krcore/history.html",
+      "canonical": "http://www.hl7korea.or.kr/fhir/krcore",
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.kr.core#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1/"
+        }
+      ]
     }
   ]
 }
