@@ -10,7 +10,7 @@ The master registration file has content like this:
 
 ```json
 {
-  "version" : "1", // fixed value. Mandatory
+  "formatVersion" : "1", // fixed value. Mandatory
   "description" : "some description of this registry set", // purpose etc. Optional
   "documentation" : "See https://github.com/FHIR/ig-registry/blob/master/tx-registry-doco.json", // recommended reference to this page. Optional
   "registries" : [{ // list of the registries
@@ -24,7 +24,7 @@ The master registration file has content like this:
 
 Notes:
 
-* Version number is 1. This might be changed in the future if breaking changes are made to the format. 
+* The formatVersion number is 1. This might be changed in the future if breaking changes are made to the format. 
 * Each of the entries in the list of registries points to a json document as documented in the next section
 
 There is a single master registration file at https://github.com/FHIR/ig-registry/blob/master/tx-servers.json
@@ -35,7 +35,7 @@ may exist elsewhere.
 
 ```json
 {
-  "version" : "1",// fixed value. Mandatory
+  "formatVersion" : "1",// fixed value. Mandatory
   "description" : "something", // purpose etc. Optional
   "servers" : [{ // list of actual servers
     "code" : "code",  // code never changes - it is a persistent identifer. alphanumerics only, no spaces. Mandatory
@@ -45,7 +45,7 @@ may exist elsewhere.
     "authoritative" : [ // a list of terminologies that the server claims to be authoritative for (see below). Optional
       "http://domain/*" // simple mask, * is a wildcard
     ],
-    "versions" : [{ // list of actual endpoint by FHIR version
+    "fhirVersions" : [{ // list of actual endpoint by FHIR version
       "version" : "R4", // can be RX or M.n.p semver 
       "url" : "http://server/endpoint" // actual FHIR end-point of the server for that version
     }]
@@ -55,7 +55,7 @@ may exist elsewhere.
 
 Notes:
 
-* Version number is 1. This might be changed in the future if breaking changes are made to the format.
+* The formatVersion number is 1. This might be changed in the future if breaking changes are made to the format.
 * Servers may and often do support a terminology without claiming to be authoritative for it. Being authoritative is a human decision, so is made in the registry. See below for notes about resolving a code system
 * Most servers will only have one end-point, that is, they will only support one FHIR version, but some support more than one
 * if the different end-points have different authoritative lists, that's really different servers
@@ -107,9 +107,9 @@ For tx.fhir.org, the ```root``` of this API is at http://tx.fhir.org/tx-reg/
 
 Optional parameters:
 
-* registry: return only those end-points that can from a nominated registry (by the code in the master registration file)
+* registry: return only those end-points that come from a nominated registry (by the code in the master registration file)
 * server: return only those end-points that have the code given
-* version: return only those end-points that are based on the given FHIR version (RX or M.n.p)
+* fhirVersion: return only those end-points that are based on the given FHIR version (RX or M.n.p)
 * url: return only those end-points that support a particular code system (by canonical, so url or url|version)
 
 When the ```Accept``` header is ```application/json```, the return value is a JSON object:
@@ -124,9 +124,8 @@ When the ```Accept``` header is ```application/json```, the return value is a JS
     "registry-name": "HL7 Terminology Services",
     "registry-code": "persistent code for the registry",
     "registry-url": "http://somewhere",
-
     "url": "http://server/endpoint", // actual end-point for the server
-    "version": "4.0.1", // FHIR version - semver
+    "fhirVersion": "4.0.1", // FHIR version - semver
     "error": "string", // details of error last time server was scanned, or null
     "last-success": int, // number of milliseconds since the server was last seen up
     "systems": int, // number of code systems found on the server
@@ -150,18 +149,20 @@ A client can also ask which server to use for a particular code system.
 
 Mandatory parameters:
 
-* version: return only those end-points that are based on the given FHIR version (RX or M.n.p)
+* fhirVersion: return only those end-points that are based on the given FHIR version (RX or M.n.p)
 * url: return only those end-points that support a particular code system (by canonical, so url or url|version)
+* authoritativeOnly: return only those end-points that are authoritative (true or false; default is false)
 
 When the ```Accept``` header is ```application/json```, the return value is a JSON object:
 
 ```json
 {
-  "version" : version,
-  "url" : url,
+  "formatVersion" : version,
+  "registry-url" : url,
   "authoritative" : [{
     "server-name" : "Human name for server",
     "url" : "http://server/endpoint" // actual FHIR end-point of the server 
+    "fhirVersion" : "4.0.1", // FHIR version - semver
     "open" | "password" | "token" | "oauth" | "smart | "cert": true // as above
   }],
   "candidate" : [{
