@@ -7750,8 +7750,8 @@
       "category": "Clinical Registries",
       "npm-name": "kl.dk.fhir.rehab",
       "description": "??",
-      "authority": "??",
-      "country": "??",
+      "authority": "HL7 Denmark",
+      "country": "dk",
       "history": "http://fhir.kl.dk/rehab/history.html",
       "language": [
         "en"
@@ -7775,8 +7775,8 @@
       "category": "Clinical Registries",
       "npm-name": "kl.dk.fhir.prevention",
       "description": "??",
-      "authority": "??",
-      "country": "??",
+      "authority": "HL7 Denmark",
+      "country": "dk",
       "history": "http://fhir.kl.dk/prevention/history.html",
       "language": [
         "en"
