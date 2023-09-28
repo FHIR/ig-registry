@@ -7744,6 +7744,56 @@
           "url": "https://commonprofiles.care/fhir/1.0.1/"
         }
       ]
+    },
+    {
+      "name": "KLGatewayRehab",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.rehab",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.kl.dk/rehab/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/rehab",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-rehab",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.rehab#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/rehab/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLGatewayPrevention",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.prevention",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.kl.dk/prevention/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/prevention",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-prevention",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.prevention#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/prevention/1.0.0"
+        }
+      ]
     }
   ]
 }
