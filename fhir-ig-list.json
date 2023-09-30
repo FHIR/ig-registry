@@ -7707,7 +7707,9 @@
       "authority": "CGIS (UFG)",
       "country": "br",
       "history": "https://kyriosdata.github.io/profiling/history.html",
-      "language": ["pt"],
+      "language": [
+        "pt"
+      ],
       "canonical": "https://kyriosdata.github.io/profiling",
       "ci-build": "https://kyriosdata.github.io/profiling",
       "editions": [
@@ -7715,7 +7717,9 @@
           "name": "Releases",
           "ig-version": "0.1.0",
           "package": "animal.terapeuta#0.1.0",
-          "fhir-version": ["4.0.1"],
+          "fhir-version": [
+            "4.0.1"
+          ],
           "url": "https://kyriosdata.github.io/profiling"
         }
       ]
@@ -7792,6 +7796,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.kl.dk/prevention/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLChildren",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.children",
+      "description": "??",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/children/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/children",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-children",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.children#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/children/1.0.0"
         }
       ]
     }
