@@ -553,22 +553,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.hai#2.0.0",
+          "name": "STU2",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.hai#2.1.0",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hai/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.hai#1.0.0",
-          "fhir-version": [
-            "3.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/hai/STU1"
+          "url": "http://hl7.org/fhir/us/hai/STU2.1"
         }
       ]
     },
@@ -987,13 +978,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.mXDE/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.3.0-comment",
-          "package": "ihe.iti.mxde#1.3.0-comment",
+          "name": "Publication",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.mxde#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0-comment"
+          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0"
         }
       ]
     },
@@ -1457,11 +1448,11 @@
       "product": [
         "fhir"
       ],
-      "country": "uv",
+      "country": "us",
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/uv/ecr/history.html",
+      "history": "http://hl7.org/fhir/us/ecr/history.html",
       "canonical": "http://hl7.org/fhir/us/ecr",
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "analysis": {
@@ -2071,40 +2062,13 @@
       },
       "editions": [
         {
-          "name": "STU 4 Ballot",
-          "ig-version": "4.0.0-ballot",
-          "package": "hl7.fhir.us.cqfmeasures#4.0.0-ballot",
+          "name": "STU4 (v4.0.0)",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#4.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2023Jan"
-        },
-        {
-          "name": "STU3",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#3.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU3"
-        },
-        {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#1.0.0",
-          "fhir-version": [
-            "3.0.2"
-          ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU1"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU4"
         }
       ]
     },
@@ -4088,12 +4052,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.2.0",
-          "package": "hl7.terminology#5.2.0",
+          "ig-version": "5.3.0",
+          "package": "hl7.terminology#5.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.2.0"
+          "url": "http://terminology.hl7.org/5.3.0"
         }
       ]
     },
@@ -4709,9 +4673,9 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
+          "name": "STU Update",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5428,13 +5392,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
+          "name": "STU1 Release 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU1"
         }
       ]
     },
@@ -5760,21 +5724,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "2.3.0",
-          "package": "ihe.iti.mhds#2.3.0",
+          "ig-version": "2.3.1",
+          "package": "ihe.iti.mhds#2.3.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.1.0",
-          "package": "ihe.iti.mhds#2.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
+          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.1"
         }
       ]
     },
@@ -6484,13 +6439,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ph-library",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.ph-library#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.ph-library#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ph-library/2022Sep"
+          "url": "http://hl7.org/fhir/us/ph-library/STU1"
         }
       ]
     },
@@ -6889,13 +6844,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
         }
       ]
     },
@@ -7234,13 +7189,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/physical-activity",
       "editions": [
         {
-          "name": "STU 1.0 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.physical-activity#1.0.0-ballot",
+          "name": "STU 1.0",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.physical-activity#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/physical-activity/2023May"
+          "url": "http://hl7.org/fhir/us/physical-activity/STU1"
         }
       ]
     },
@@ -7560,12 +7515,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.term#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "kl.dk.fhir.term#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/term/1.0.0"
+          "url": "http://fhir.kl.dk/term/1.1.0"
         }
       ]
     },
@@ -7581,7 +7536,7 @@
         "en"
       ],
       "canonical": "http://fhir.kl.dk/core",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk/branches/1.2.0",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk",
       "editions": [
         {
           "name": "Releases",
@@ -7606,7 +7561,7 @@
         "en"
       ],
       "canonical": "http://fhir.kl.dk/gateway",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway/branches/main",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway",
       "editions": [
         {
           "name": "Releases",
@@ -7666,6 +7621,206 @@
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "KLFFBMessaging",
+      "category": "Messaging",
+      "npm-name": "kl.dk.fhir.ffbmessaging",
+      "description": "Danish municipalities implementation guide for FFB messaging. A standard for exchanging social information from citizen journals between municipalities. The aim is to support citizens continuously, e.g. when they move, or receives interventions outside their home municipality.",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/ffbmessaging/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffbmessaging",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-messaging",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffbmessaging#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffbmessaging/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLFFinst",
+      "category": "Core",
+      "npm-name": "kl.dk.fhir.ffinst",
+      "description": "Danish municipalities implementation guide for FFInst ",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/ffinst/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffinst",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk-tools",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffinst#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffinst/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLFFBReporting",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.ffbreporting",
+      "description": "Danish municipalities implementation guide for FFB reporting. A standard for reporting social information from citizen journals to a gateway. The aim is to use the data in population based studies and management information systems",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/ffbreporting/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/ffbreporting",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-reporting",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.ffbreporting#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/ffbreporting/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Animal terapeuta (não humano)",
+      "category": "Research",
+      "npm-name": "animal.terapeuta",
+      "description": "Cadastro de animais terapeutas visando a facilidade de localização deles pelas habilidades.",
+      "authority": "CGIS (UFG)",
+      "country": "br",
+      "history": "https://kyriosdata.github.io/profiling/history.html",
+      "language": [
+        "pt"
+      ],
+      "canonical": "https://kyriosdata.github.io/profiling",
+      "ci-build": "https://kyriosdata.github.io/profiling",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "0.1.0",
+          "package": "animal.terapeuta#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://kyriosdata.github.io/profiling"
+        }
+      ]
+    },
+    {
+      "name": "Common FHIR profile vendor collaboration",
+      "category": "EHR Access",
+      "npm-name": "care.commonprofiles.fhir",
+      "description": "ImplementationGuide published by a collaborative group of Swedish stakeholders of healthcare IT systems.",
+      "authority": "CommonProfiles.care",
+      "country": "SE",
+      "history": "https://commonprofiles.care/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://commonprofiles.care/fhir",
+      "ci-build": "https://build.fhir.org/ig/commonprofiles-care/fhir/",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.1",
+          "package": "care.commonprofiles.fhir#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://commonprofiles.care/fhir/1.0.1/"
+        }
+      ]
+    },
+    {
+      "name": "KLGatewayRehab",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.rehab",
+      "description": "This implementation guide describes the delivery of §140 rehabilitation data to KL Gateway.",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/rehab/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/rehab",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-rehab",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.rehab#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/rehab/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLGatewayPrevention",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.prevention",
+      "description": "This implementation guide describes the delivery of §119 prevention/health promotion data to KL Gateway.",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/prevention/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/prevention",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-prevention",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.prevention#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/prevention/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "KLChildren",
+      "category": "Clinical Registries",
+      "npm-name": "kl.dk.fhir.children",
+      "description": "This implementation guide describes the delivery of children health data to KL Gateway.",
+      "authority": "HL7 Denmark",
+      "country": "dk",
+      "history": "http://fhir.kl.dk/children/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.kl.dk/children",
+      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-children",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "1.0.0",
+          "package": "kl.dk.fhir.children#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.kl.dk/children/1.0.0"
         }
       ]
     }

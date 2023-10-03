@@ -110,6 +110,26 @@
       "name": "HL7 Chile",
       "url": "https://hl7chile.cl/fhir/ig/package-feed.xml",
       "errors": "jorge_mansilla|hl7chile_cl"
+    },
+    {
+      "name": "Thailand SIL-TH",
+      "url": "https://fhir-ig.sil-th.org/package-feed.xml",
+      "errors": "rath|sil-th_org"
+    },
+    {
+      "name": "CGIS (UFG) Brasil",
+      "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
+      "errors": "kyriosdata|ufg_br"
+    },
+    {
+      "name": "MedCom",
+      "url": "https://medcomfhir.dk/ig/package-feed.xml",
+      "errors": "tms|medcom_dk"
+    },
+    {
+      "name": "Common FHIR profile vendor collaboration",
+      "url": "https://commonprofiles.care/package-feed.xml",
+      "errors": "info|commonprofiles.care"
     }
   ],
   "package-restrictions": [
@@ -178,6 +198,10 @@
     {
       "mask": "hl7.fhir.ee.*",
       "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "silth.fhir.*",
+      "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
     }
   ]
 }  
