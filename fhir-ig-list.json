@@ -7141,13 +7141,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/RAD.IRA/branches/master/index.html",
       "editions": [
         {
-          "name": "Releases Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.rad.ira#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.rad.ira#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0-comment"
+          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0"
         }
       ]
     },
