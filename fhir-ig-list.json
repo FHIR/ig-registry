@@ -6939,13 +6939,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/FHIR-IG-Human-Services-Directory",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.hsds#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.hsds#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hsds/2023Jan"
+          "url": "http://hl7.org/fhir/us/hsds/STU1"
         }
       ]
     },
