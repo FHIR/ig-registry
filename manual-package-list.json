@@ -1,0 +1,11 @@
+{
+  "introduction" : "This JSON file contains information about packages that are not available through the package registry",
+  "simplifier-description" : "registry.packages.org contains all the packages from the Simplifier system, but it does not make them discoverable. They can be downloaded if you know what they are, but they can't be found. So tools scanning all the packages miss them. 'simplifier-packages' contains a list of package Ids that can be found on registry.fhir.org",
+  "simplifier-packages" : [
+
+  ],
+  "manual-packages-description" : "This contains a list of packages that don't come from simplifier, and aren't registered in an RSS feed registered with package-feeds.json. Each entry is an object that has 4 properties: 'package-id', 'version', 'npm-url', and 'web-link'. npn-link points directly at the package npm file, and web-link is the relevant link for a human seeing the package.",
+  "manual-packages" : [
+
+  ]
+}
