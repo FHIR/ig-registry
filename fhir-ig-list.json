@@ -7530,13 +7530,38 @@
       "ci-build": "https://fhir.fi/finnish-base-profiles",
       "editions": [
         {
-          "name": "Release 1.0.0, STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.fi.base#1.0.0",
+          "name": "STU 1 Qa-preview",
+          "ig-version": "1.0.0-rc20",
+          "package": "hl7.fhir.fi.base#1.0.0-rc20",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
+          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0-rc20"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Scheduling",
+      "category": "Workflow",
+      "npm-name": "hl7.fhir.fi.scheduling",
+      "description": "Finnish HL7 FHIR implementation guide for scheduling, published and maintained by HL7 Finland",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-scheduling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-scheduling",
+      "ci-build": "https://fhir.fi/finnish-scheduling",
+      "editions": [
+        {
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.fi.scheduling#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
         }
       ]
     }
