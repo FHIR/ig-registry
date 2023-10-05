@@ -130,6 +130,11 @@
       "name": "Common FHIR profile vendor collaboration",
       "url": "https://commonprofiles.care/package-feed.xml",
       "errors": "info|commonprofiles.care"
+    },
+    {
+      "name": "HL7 Korea",
+      "url": "http://www.hl7korea.or.kr/fhir/package-feed.xml",
+      "errors": "jhsong|healthall_co_kr"
     }
   ],
   "package-restrictions": [
@@ -202,6 +207,10 @@
     {
       "mask": "silth.fhir.*",
       "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.kr.*",
+      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
     }
   ]
 }  
