@@ -4376,13 +4376,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 on FHIR R4",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.bfdr#1.0.0",
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.bfdr#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/STU1"
+          "url": "http://hl7.org/fhir/us/bfdr/STU1.1"
         }
       ]
     },
