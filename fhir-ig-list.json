@@ -7806,6 +7806,94 @@
           "url": "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1/"
         }
       ]
+    },
+    {
+      "name": "FHIRJPCoreImplementationGuide",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.jp.core",
+      "description": "HL7 FHIR JP Core ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "implementations": [
+        {
+          "name": "Source Code",
+          "type": "source",
+          "url": "https://github.com/jami-fhir-jp-wg/jp-core-v1x"
+        }
+      ],
+      "history": "https://jpfhir.jp/fhir/core/history.html",
+      "canonical": "http://jpfhir.jp/fhir/core",
+      "editions": [
+        {
+          "name": "jp-core.r4",
+          "ig-version": "1.1.1",
+          "package": "hl7.fhir.r4.core#1.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/core/1.1.1"
+        }
+      ]
+    },
+    {
+      "name": "HL7Japan_JAMIeReferralImplementationGuide",
+      "category": "Clinical Documents",
+      "npm-name": "eReferral",
+      "description": "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "history": "https://jpfhir.jp/fhir/eReferral/igv1/updateHistory.html",
+      "canonical": "https://jpfhir.jp/fhir/eReferral",
+      "editions": [
+        {
+          "name": "eReferral",
+          "ig-version": "1.1.4",
+          "package": "eReferral#1.1.4",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/eReferral/igv1"
+        }
+      ]
+    },
+    {
+      "name": "HL7JapanJAMIeDischargeSummaryImplementationGuide",
+      "category": "Clinical Documents",
+      "npm-name": "eDischargeSummary",
+      "description": "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "history": "https://jpfhir.jp/fhir/eDisSummary/igv1/updateHistory.html",
+      "canonical": "https://jpfhir.jp/fhir/eDisSummary",
+      "editions": [
+        {
+          "name": "eDischargeSummary",
+          "ig-version": "1.1.4",
+          "package": "eDischargeSummary#1.1.4",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/eDisSummary/igv1"
+        }
+      ]
     }
   ]
 }
