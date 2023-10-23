@@ -38,8 +38,8 @@
     },
     {
       "name": "Simplifier",
-      "url": "http://simplifier.net/package-feed.xml",
-      "errors": "ward|fire_ly"
+      "url": "https://packages.simplifier.net/rssfeed",
+      "errors": "simplifier|fire_ly"
     },
     {
       "name": "HL7 Australia",
