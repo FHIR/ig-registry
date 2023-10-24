@@ -7885,6 +7885,31 @@
           "url": "https://jpfhir.jp/fhir/eDisSummary/igv1"
         }
       ]
+    },
+    {
+      "name": "HL7 Europe Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "hl7.fhir.eu.laboratory",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the European Context, coherently with the European eHN Guidelines",
+      "authority": "HL7 Europe",
+      "country": "Europe",
+      "history": "http://hl7.eu/fhir/laboratory/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.eu/fhir/laboratory",
+      "ci-build": "http://build.fhir.org/ig/hl7-eu/laboratory",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0-ballot",
+          "package": "hl7.fhir.eu.laboratory#0.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.eu/fhir/laboratory/0.1.0-ballot"
+        }
+      ]
     }
   ]
 }
