@@ -134,7 +134,12 @@
     {
       "name": "HL7 Korea",
       "url": "http://www.hl7korea.or.kr/fhir/package-feed.xml",
-      "errors": "jhsong|healthall_co_kr"
+      "errors": "jhsong|healthall_co_kr",
+    },
+    {
+      "name": "HL7 Europe",
+      "url": "http://hl7.eu/fhir/package-feed.xml",
+      "errors": "gcangioli|hl7_eu"
     }
   ],
   "package-restrictions": [
@@ -211,6 +216,10 @@
     {
       "mask": "hl7.fhir.kr.*",
       "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.eu.*",
+      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
     }
   ]
 }  
