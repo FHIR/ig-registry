@@ -6592,13 +6592,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-gender-harmony",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.xprod.uv.gender-harmony#1.0.0-ballot",
+          "name": "Informative Edition 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.xprod.uv.gender-harmony#1.0.0",
           "fhir-version": [
-            "5.0.0-ballot"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/2022Sep"
+          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/informative1"
         }
       ]
     },

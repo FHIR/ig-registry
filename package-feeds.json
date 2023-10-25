@@ -134,7 +134,7 @@
     {
       "name": "HL7 Korea",
       "url": "http://www.hl7korea.or.kr/fhir/package-feed.xml",
-      "errors": "jhsong|healthall_co_kr",
+      "errors": "jhsong|healthall_co_kr"
     },
     {
       "name": "HL7 Europe",
