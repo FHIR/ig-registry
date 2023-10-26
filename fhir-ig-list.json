@@ -7062,13 +7062,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-2.0",
       "editions": [
         {
-          "name": "CDA 2.1 Draft",
-          "ig-version": "2.1.0-draft1",
-          "package": "hl7.cda.uv.core#2.1.0-draft1",
+          "name": "CDA 2.0 Ballot",
+          "ig-version": "2.0.0-sd-ballot",
+          "package": "hl7.cda.uv.core#2.0.0-sd-ballot",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/stds/core/draft1"
+          "url": "http://hl7.org/cda/stds/core/2023Sep"
         }
       ]
     },
