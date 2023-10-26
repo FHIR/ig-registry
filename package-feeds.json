@@ -37,11 +37,6 @@
       "errors": "grahame|fhir_org"
     },
     {
-      "name": "Simplifier",
-      "url": "https://packages.simplifier.net/rssfeed",
-      "errors": "simplifier|fire_ly"
-    },
-    {
       "name": "HL7 Australia",
       "url": "http://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
@@ -145,6 +140,11 @@
       "name": "HL7 Europe",
       "url": "http://hl7.eu/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_eu"
+    },
+    {
+      "name": "Simplifier",
+      "url": "https://packages.simplifier.net/rssfeed",
+      "errors": "simplifier|fire_ly"
     }
   ],
   "package-restrictions": [
