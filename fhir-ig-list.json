@@ -57,7 +57,7 @@
       "name": "AU Base",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
-      "description": "Base Australian national implementation guide",
+      "description":"AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -66,18 +66,49 @@
       "language": [
         "en"
       ],
-      "history": "http://fhir.hl7.org.au/fhir/base/history.html",
-      "canonical": "http://fhir.hl7.org.au/fhir/base",
+      "history": "http://hl7.org.au/fhir/history.html",
+      "canonical": "http://hl7.org.au/fhir",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Release 1 Draft",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.au.base#1.0.1",
+          "name": "Trial Use",
+          "ig-version": "4.1.0",
+          "package": "hl7.fhir.au.base#4.1.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/base/2019Feb"
+          "url": "http://hl7.org.au/fhir/4.1.0"
+        }
+      ],
+      "analysis": {
+        "error": "JsonObject"
+      }
+    },
+    {
+      "name": "AU Core",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.au.core",
+      "description":"AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
+      "authority": "HL7",
+      "product": [
+        "fhir"
+      ],
+      "country": "au",
+      "language": [
+        "en"
+      ],
+      "history": "http://hl7.org.au/fhir/core/history.html",
+      "canonical": "http://hl7.org.au/fhir/core",
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-core",
+      "editions": [
+        {
+          "name": "Preview",
+          "ig-version": "0.2.1-preview",
+          "package": "hl7.fhir.au.core#0.2.1-preview",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org.au/fhir/core/0.2.1-preview"
         }
       ],
       "analysis": {
