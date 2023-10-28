@@ -6204,43 +6204,6 @@
       ]
     },
     {
-      "name": "jp-core",
-      "category": "National Draft",
-      "npm-name": "jp-core.draft",
-      "description": "Japan core draft v1.0.8",
-      "authority": "JAMI FHIR Draft WG",
-      "product": [
-        "fhir"
-      ],
-      "country": "ja",
-      "language": [
-        "ja"
-      ],
-      "canonical": "http://jpfhir.jp/fhir/core",
-      "editions": [
-        {
-          "name": "jp-core.draft",
-          "ig-version": "1.0.8",
-          "package": "jp-core.draft#1.0.8",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://jpfhir.jp/jpcoreV1/packages"
-        }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "financials": true,
-        "medsMgmt": true,
-        "diagnostics": true,
-        "profiles": 30,
-        "extensions": 28,
-        "codeSystems": 1
-      }
-    },
-    {
       "name": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
       "category": "National Base",
       "npm-name": "hl7.fhir.be.allergy",
