@@ -57,7 +57,7 @@
       "name": "AU Base",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
-      "description": "Base Australian national implementation guide",
+      "description":"AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -66,18 +66,49 @@
       "language": [
         "en"
       ],
-      "history": "http://fhir.hl7.org.au/fhir/base/history.html",
-      "canonical": "http://fhir.hl7.org.au/fhir/base",
+      "history": "http://hl7.org.au/fhir/history.html",
+      "canonical": "http://hl7.org.au/fhir",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Release 1 Draft",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.au.base#1.0.1",
+          "name": "Trial Use",
+          "ig-version": "4.1.0",
+          "package": "hl7.fhir.au.base#4.1.0",
           "fhir-version": [
-            "3.0.1"
+            "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/base/2019Feb"
+          "url": "http://hl7.org.au/fhir/4.1.0"
+        }
+      ],
+      "analysis": {
+        "error": "JsonObject"
+      }
+    },
+    {
+      "name": "AU Core",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.au.core",
+      "description":"AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
+      "authority": "HL7",
+      "product": [
+        "fhir"
+      ],
+      "country": "au",
+      "language": [
+        "en"
+      ],
+      "history": "http://hl7.org.au/fhir/core/history.html",
+      "canonical": "http://hl7.org.au/fhir/core",
+      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-core",
+      "editions": [
+        {
+          "name": "Preview",
+          "ig-version": "0.2.1-preview",
+          "package": "hl7.fhir.au.core#0.2.1-preview",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org.au/fhir/core/0.2.1-preview"
         }
       ],
       "analysis": {
@@ -1656,22 +1687,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.1 Ballot",
-          "ig-version": "1.1.0-ballot",
-          "package": "hl7.fhir.us.davinci-crd#1.1.0-ballot",
+          "name": "STU 2.0",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-crd#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-crd/2022May"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-crd#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-crd/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-crd/STU2"
         }
       ]
     },
@@ -2055,22 +2077,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.1 Ballot",
-          "ig-version": "1.1.0-ballot",
-          "package": "hl7.fhir.us.davinci-dtr#1.1.0-ballot",
+          "name": "STU 2.0",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-dtr#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-dtr/2022May"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-dtr#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-dtr/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-dtr/STU2"
         }
       ]
     },
@@ -2252,12 +2265,12 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.vrdr#2.1.0",
+          "ig-version": "2.2.0",
+          "package": "hl7.fhir.us.vrdr#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vrdr/STU2.1"
+          "url": "http://hl7.org/fhir/us/vrdr/STU2.2"
         }
       ]
     },
@@ -3081,13 +3094,13 @@
       },
       "editions": [
         {
-          "name": "STU 3 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.fhir.us.mcode#3.0.0-ballot",
+          "name": "STU 3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.us.mcode#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/2023May"
+          "url": "http://hl7.org/fhir/us/mcode/STU3"
         }
       ]
     },
@@ -4229,13 +4242,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 on FHIR R4",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.vr-common-library#1.0.0",
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.vr-common-library#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vr-common-library/STU1"
+          "url": "http://hl7.org/fhir/us/vr-common-library/STU1.1"
         }
       ]
     },
@@ -4306,13 +4319,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 on FHIR R4",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.bfdr#1.0.0",
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.bfdr#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/STU1"
+          "url": "http://hl7.org/fhir/us/bfdr/STU1.1"
         }
       ]
     },
@@ -6182,43 +6195,6 @@
       ]
     },
     {
-      "name": "jp-core",
-      "category": "National Draft",
-      "npm-name": "jp-core.draft",
-      "description": "Japan core draft v1.0.8",
-      "authority": "JAMI FHIR Draft WG",
-      "product": [
-        "fhir"
-      ],
-      "country": "ja",
-      "language": [
-        "ja"
-      ],
-      "canonical": "http://jpfhir.jp/fhir/core",
-      "editions": [
-        {
-          "name": "jp-core.draft",
-          "ig-version": "1.0.8",
-          "package": "jp-core.draft#1.0.8",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://jpfhir.jp/jpcoreV1/packages"
-        }
-      ],
-      "analysis": {
-        "content": true,
-        "rest": true,
-        "clinicalCore": true,
-        "financials": true,
-        "medsMgmt": true,
-        "diagnostics": true,
-        "profiles": 30,
-        "extensions": 28,
-        "codeSystems": 1
-      }
-    },
-    {
       "name": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
       "category": "National Base",
       "npm-name": "hl7.fhir.be.allergy",
@@ -6601,13 +6577,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-gender-harmony",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.xprod.uv.gender-harmony#1.0.0-ballot",
+          "name": "Informative Edition 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.xprod.uv.gender-harmony#1.0.0",
           "fhir-version": [
-            "5.0.0-ballot"
+            "5.0.0"
           ],
-          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/2022Sep"
+          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/informative1"
         }
       ]
     },
@@ -6824,13 +6800,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/FHIR-IG-Human-Services-Directory",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.hsds#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.hsds#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hsds/2023Jan"
+          "url": "http://hl7.org/fhir/us/hsds/STU1"
         }
       ]
     },
@@ -7071,13 +7047,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-2.0",
       "editions": [
         {
-          "name": "CDA 2.1 Draft",
-          "ig-version": "2.1.0-draft1",
-          "package": "hl7.cda.uv.core#2.1.0-draft1",
+          "name": "CDA 2.0 Ballot",
+          "ig-version": "2.0.0-sd-ballot",
+          "package": "hl7.cda.uv.core#2.0.0-sd-ballot",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/stds/core/draft1"
+          "url": "http://hl7.org/cda/stds/core/2023Sep"
         }
       ]
     },
@@ -7096,13 +7072,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/RAD.IRA/branches/master/index.html",
       "editions": [
         {
-          "name": "Releases Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.rad.ira#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.rad.ira#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0-comment"
+          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0"
         }
       ]
     },
@@ -7780,27 +7756,193 @@
       ]
     },
     {
-      "name": "Finnish Base Profiles",
+      "name": "KR Core Implementation Guide",
       "category": "National Base",
-      "npm-name": "hl7.fhir.fi.base",
-      "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
-      "authority": "HL7",
-      "country": "FI",
-      "history": "https://hl7.fi/fhir/finnish-base-profiles/history.html",
+      "npm-name": "hl7.fhir.kr.core",
+      "description": "Base Korean national implementation guide",
+      "authority": "HL7 Korea",
+      "product": [
+        "fhir"
+      ],
+      "country": "kr",
       "language": [
+        "kr",
         "en"
       ],
-      "canonical": "https://hl7.fi/fhir/finnish-base-profiles",
-      "ci-build": "https://fhir.fi/finnish-base-profiles",
+      "history": "http://www.hl7korea.or.kr/fhir/krcore/history.html",
+      "canonical": "http://www.hl7korea.or.kr/fhir/krcore",
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.fi.base#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.kr.core#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
+          "url": "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1/"
+        }
+      ]
+    },
+    {
+      "name": "FHIRJPCoreImplementationGuide",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.jp.core",
+      "description": "HL7 FHIR JP Core ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "implementations": [
+        {
+          "name": "Source Code",
+          "type": "source",
+          "url": "https://github.com/jami-fhir-jp-wg/jp-core-v1x"
+        }
+      ],
+      "history": "https://jpfhir.jp/fhir/core/history.html",
+      "canonical": "http://jpfhir.jp/fhir/core",
+      "editions": [
+        {
+          "name": "jp-core.r4",
+          "ig-version": "1.1.1",
+          "package": "hl7.fhir.r4.core#1.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/core/1.1.1"
+        }
+      ]
+    },
+    {
+      "name": "HL7Japan_JAMIeReferralImplementationGuide",
+      "category": "Clinical Documents",
+      "npm-name": "eReferral",
+      "description": "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "history": "https://jpfhir.jp/fhir/eReferral/igv1/updateHistory.html",
+      "canonical": "https://jpfhir.jp/fhir/eReferral",
+      "editions": [
+        {
+          "name": "eReferral",
+          "ig-version": "1.1.4",
+          "package": "eReferral#1.1.4",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/eReferral/igv1"
+        }
+      ]
+    },
+    {
+      "name": "HL7JapanJAMIeDischargeSummaryImplementationGuide",
+      "category": "Clinical Documents",
+      "npm-name": "eDischargeSummary",
+      "description": "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
+      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "product": [
+        "fhir"
+      ],
+      "country": "jp",
+      "language": [
+        "ja"
+      ],
+      "history": "https://jpfhir.jp/fhir/eDisSummary/igv1/updateHistory.html",
+      "canonical": "https://jpfhir.jp/fhir/eDisSummary",
+      "editions": [
+        {
+          "name": "eDischargeSummary",
+          "ig-version": "1.1.4",
+          "package": "eDischargeSummary#1.1.4",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/fhir/eDisSummary/igv1"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Europe Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "hl7.fhir.eu.laboratory",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the European Context, coherently with the European eHN Guidelines",
+      "authority": "HL7 Europe",
+      "country": "Europe",
+      "history": "http://hl7.eu/fhir/laboratory/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.eu/fhir/laboratory",
+      "ci-build": "http://build.fhir.org/ig/hl7-eu/laboratory",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0-ballot",
+          "package": "hl7.fhir.eu.laboratory#0.1.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.eu/fhir/laboratory/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.public-health",
+      "description": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
+      "authority": "eHealth Platform Belgium",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/public-health",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/public-health",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.2",
+          "package": "hl7.fhir.be.public-health#1.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
+        }
+      ]
+    },
+    {
+      "name": "eHealth FHIR Infrastructure and Security Profiles for Belgium",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.infsec",
+      "description": "eHealth FHIR Infrastructure and Security Profiles for Belgium",
+      "authority": "eHealth Platform Belgium",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/infsec/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/infsec",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/infsec",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.infsec#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
         }
       ]
     },
@@ -7826,6 +7968,31 @@
             "4.0.1"
           ],
           "url": "https://hl7.fi/fhir/finnish-smart/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Base Profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.fi.base",
+      "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-base-profiles/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-base-profiles",
+      "ci-build": "https://fhir.fi/finnish-base-profiles",
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.fi.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
         }
       ]
     },
