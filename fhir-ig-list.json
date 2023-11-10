@@ -7945,6 +7945,81 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
         }
       ]
+    },
+    {
+      "name": "Finnish Implementation Guide for SMART App Launch",
+      "npm-name": "hl7.fhir.fi.smart",
+      "category": "National Base",
+      "description": "Guidelines for using the SMART App Launch mechanism in Finland, published and maintained by HL7 Finland.",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-smart/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-smart",
+      "ci-build": "https://fhir.fi/finnish-smart",
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.fi.smart#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-smart/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Base Profiles",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.fi.base",
+      "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-base-profiles/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-base-profiles",
+      "ci-build": "https://fhir.fi/finnish-base-profiles",
+      "editions": [
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.fi.base#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Finnish Scheduling",
+      "category": "Workflow",
+      "npm-name": "hl7.fhir.fi.scheduling",
+      "description": "Finnish HL7 FHIR implementation guide for scheduling, published and maintained by HL7 Finland",
+      "authority": "HL7",
+      "country": "FI",
+      "history": "https://hl7.fi/fhir/finnish-scheduling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.fi/fhir/finnish-scheduling",
+      "ci-build": "https://fhir.fi/finnish-scheduling",
+      "editions": [
+        {
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.fi.scheduling#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+        }
+      ]
     }
   ]
 }
