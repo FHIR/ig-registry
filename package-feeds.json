@@ -145,6 +145,11 @@
       "name": "Simplifier",
       "url": "https://packages.simplifier.net/rssfeed",
       "errors": "simplifier|fire_ly"
+    },
+    {
+      "name": "University Medicine Greifswald, Department of Anesthesiology and Intensive Care Medicine",
+      "url": "https://raw.githubusercontent.com/umg-minai/fhir-package-feed/main/package-feed.xml",
+      "errors": "gregor_lichtner|med_uni-greifswald_de"
     }
   ],
   "package-restrictions": [
