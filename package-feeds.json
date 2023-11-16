@@ -37,11 +37,6 @@
       "errors": "grahame|fhir_org"
     },
     {
-      "name": "Simplifier",
-      "url": "http://simplifier.net/package-feed.xml",
-      "errors": "ward|fire_ly"
-    },
-    {
       "name": "HL7 Australia",
       "url": "http://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
@@ -117,6 +112,11 @@
       "errors": "rath|sil-th_org"
     },
     {
+      "name": "Thailand SIL-TH Terminology",
+      "url": "https://terms.sil-th.org/package-feed.xml",
+      "errors": "rath|sil-th_org"
+    },
+    {
       "name": "CGIS (UFG) Brasil",
       "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
       "errors": "kyriosdata|ufg_br"
@@ -130,6 +130,31 @@
       "name": "Common FHIR profile vendor collaboration",
       "url": "https://commonprofiles.care/package-feed.xml",
       "errors": "info|commonprofiles.care"
+    },
+    {
+      "name": "HL7 Korea",
+      "url": "http://www.hl7korea.or.kr/fhir/package-feed.xml",
+      "errors": "jhsong|healthall_co_kr"
+    },
+    {
+      "name": "HL7 Europe",
+      "url": "http://hl7.eu/fhir/package-feed.xml",
+      "errors": "gcangioli|hl7_eu"
+    },
+    {
+      "name": "Simplifier",
+      "url": "https://packages.simplifier.net/rssfeed",
+      "errors": "simplifier|fire_ly"
+    },
+    {
+      "name": "HL7 Finland",
+      "url": "https://hl7.fi/fhir/package-feed.xml",
+      "errors": "mikael|sensotrend_com"      
+    },
+    {
+      "name": "University Medicine Greifswald - Department of Anesthesia, Intensive Care, Emergency and Pain Medicine",
+      "url": "https://github.com/umg-minai/fhir-package-feed/blob/main/package-feed.xml?raw=true",
+      "errors": "gregor_lichtner|med_uni-greifswald_de"
     }
   ],
   "package-restrictions": [
@@ -156,7 +181,7 @@
     {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
-	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml"]
+	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml", "https://packages.simplifier.net/rssfeed"]
     },
     {
       "mask": "hl7.cda.*",
@@ -202,6 +227,18 @@
     {
       "mask": "silth.fhir.*",
       "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.kr.*",
+      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.eu.*",
+      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.fi.*",
+      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     }
   ]
 }  

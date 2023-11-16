@@ -14,6 +14,7 @@
 	"hl7.be.fhir.template" : "hl7-be/hl7.be.fhir.template",
 	"hl7.cda.template" : "HL7/ig-template-cda",
 	"hl7.davinci.template" : "HL7/ig-template-davinci",
+	"hl7.fi.fhir.template" : "fhir-fi/ig-template-fhir-fi",
 	"hl7.fhir.template" : "HL7/ig-template-fhir",
 	"hl7.gravity.template" : "HL7/ig-template-gravity",
 	"hl7.utg.template" : "HL7/ig-template-utg",
