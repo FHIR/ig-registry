@@ -57,7 +57,7 @@
       "name": "AU Base",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
-      "description":"AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
+      "description": "AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -88,7 +88,7 @@
       "name": "AU Core",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.core",
-      "description":"AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
+      "description": "AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -824,31 +824,13 @@
       },
       "editions": [
         {
-          "name": "Publication",
-          "ig-version": "2.4.0",
-          "package": "ihe.iti.pdqm#2.4.0",
+          "name": "Publication Ballot",
+          "ig-version": "3.0.0-comment",
+          "package": "ihe.iti.pdqm#3.0.0-comment",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.3.0",
-          "package": "ihe.iti.pdqm#2.3.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.2.0",
-          "package": "ihe.iti.pdqm#2.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
+          "url": "https://profiles.ihe.net/ITI/PDQm/3.0.0-comment"
         }
       ]
     },
@@ -1070,13 +1052,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.NPFS/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "2.2.0-comment",
-          "package": "ihe.iti.npfs#2.2.0-comment",
+          "name": "Publication",
+          "ig-version": "2.2.0",
+          "package": "ihe.iti.npfs#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0-comment"
+          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0"
         }
       ]
     },
