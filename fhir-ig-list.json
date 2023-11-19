@@ -57,7 +57,7 @@
       "name": "AU Base",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
-      "description":"AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
+      "description": "AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -88,7 +88,7 @@
       "name": "AU Core",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.core",
-      "description":"AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
+      "description": "AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4020,12 +4020,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.3.0",
-          "package": "hl7.terminology#5.3.0",
+          "ig-version": "5.4.0",
+          "package": "hl7.terminology#5.4.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.3.0"
+          "url": "http://terminology.hl7.org/5.4.0"
         }
       ]
     },
