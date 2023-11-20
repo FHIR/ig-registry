@@ -4002,12 +4002,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.3.0",
-          "package": "hl7.terminology#5.3.0",
+          "ig-version": "5.4.0",
+          "package": "hl7.terminology#5.4.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://terminology.hl7.org/5.3.0"
+          "url": "http://terminology.hl7.org/5.4.0"
         }
       ]
     },
