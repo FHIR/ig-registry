@@ -824,31 +824,13 @@
       },
       "editions": [
         {
-          "name": "Publication",
-          "ig-version": "2.4.0",
-          "package": "ihe.iti.pdqm#2.4.0",
+          "name": "Publication Ballot",
+          "ig-version": "3.0.0-comment",
+          "package": "ihe.iti.pdqm#3.0.0-comment",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.3.0",
-          "package": "ihe.iti.pdqm#2.3.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
-        },
-        {
-          "name": "Publication",
-          "ig-version": "2.2.0",
-          "package": "ihe.iti.pdqm#2.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
+          "url": "https://profiles.ihe.net/ITI/PDQm/3.0.0-comment"
         }
       ]
     },
@@ -1070,13 +1052,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.NPFS/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "2.2.0-comment",
-          "package": "ihe.iti.npfs#2.2.0-comment",
+          "name": "Publication",
+          "ig-version": "2.2.0",
+          "package": "ihe.iti.npfs#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0-comment"
+          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0"
         }
       ]
     },
@@ -7545,13 +7527,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.sIPS/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.sips#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.iti.sips#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0"
         }
       ]
     },
@@ -8018,6 +8000,31 @@
             "4.0.1"
           ],
           "url": "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "Document Subscription for Mobile (DSUBm)",
+      "category": "Clinical Document",
+      "npm-name": "ihe.iti.dsubm",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/DSUBm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/DSUBm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.DSUBm/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.dsubm#1.0.0-comment",
+          "fhir-version": [
+            "4.3.0"
+          ],
+          "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0-comment"
         }
       ]
     }
