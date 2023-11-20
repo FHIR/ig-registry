@@ -7527,13 +7527,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.sIPS/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.sips#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.iti.sips#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0"
         }
       ]
     },
@@ -8000,6 +8000,31 @@
             "4.0.1"
           ],
           "url": "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "Document Subscription for Mobile (DSUBm)",
+      "category": "Clinical Document",
+      "npm-name": "ihe.iti.dsubm",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/DSUBm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/DSUBm",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.DSUBm/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.dsubm#1.0.0-comment",
+          "fhir-version": [
+            "4.3.0"
+          ],
+          "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0-comment"
         }
       ]
     }
