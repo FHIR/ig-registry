@@ -7752,7 +7752,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.jp.core",
       "description": "HL7 FHIR JP Core ImplementationGuide",
-      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "authority": "FHIR Japan / JAMI",
       "product": [
         "fhir"
       ],
@@ -7786,7 +7786,7 @@
       "category": "Clinical Documents",
       "npm-name": "eReferral",
       "description": "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
-      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "authority": "FHIR Japan / JAMI",
       "product": [
         "fhir"
       ],
