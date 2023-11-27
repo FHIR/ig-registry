@@ -5473,7 +5473,7 @@
     },
     {
       "name": "Patient Request for Corrections Implementation Guide",
-      "category": "tbd",
+      "category": "Personal Healthcare",
       "npm-name": "hl7.fhir.uv.patient-corrections",
       "description": "??",
       "authority": "HL7",
@@ -7121,7 +7121,7 @@
     },
     {
       "name": "Real Time Location Services Implementation Guide",
-      "category": "administration",
+      "category": "Administration",
       "npm-name": "hl7.fhir.uv.rtls",
       "description": "This implementation guide defines the use of FHIR resources to exchange real time data about where patients, staff, device, or other assets are located within a hospital or other healthcare facility. This data is typically exchanged between a healthcare system and a Real Time Location System (RTLS) that captures, processes, and stores information about the location of tracking tags.",
       "authority": "HL7",
@@ -7813,7 +7813,7 @@
       "category": "Clinical Documents",
       "npm-name": "eDischargeSummary",
       "description": "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
-      "authority": "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+      "authority": "FHIR Japan / JAMI",
       "product": [
         "fhir"
       ],
