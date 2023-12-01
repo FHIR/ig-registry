@@ -3172,8 +3172,8 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-pas#2.0.0",
+          "ig-version": "2.0.1",
+          "package": "hl7.fhir.us.davinci-pas#2.0.1",
           "fhir-version": [
             "4.0.1"
           ],
