@@ -8009,6 +8009,31 @@
           "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0-comment"
         }
       ]
+    },
+    {
+      "name": "HRSA Uniform Data System (UDS) Patient Level Submission (PLS) (UDS+ or uds-plus) FHIR IG",
+      "category": "Govt Reporting",
+      "npm-name": "fhir.hrsa.uds-plus",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://fhir.org/guides/hrsa/uds-plus/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.org/guides/hrsa/uds-plus",
+      "ci-build": "http://build.fhir.org/ig/drajer-health/uds-plus",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "1.0.1",
+          "package": "fhir.hrsa.uds-plus#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"
+        }
+      ]
     }
   ]
 }
