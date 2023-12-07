@@ -52,6 +52,11 @@
       "errors": "nicolas_riss|esante_gouv_fr"
     },
     {
+      "name": "Agence du Numérique en Santé - FHIR IG",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    },
+    {
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
