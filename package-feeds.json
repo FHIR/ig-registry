@@ -214,7 +214,7 @@
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
     },
     {
-      "mask": "ans.fhir.*",
+      "mask": "ans.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
     },
     {
