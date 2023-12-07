@@ -214,8 +214,12 @@
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
     },
     {
-      "mask": "ans.fhir.fr.*",
+      "mask": "ans.fhir.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "ans.fhir.fr.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml" ]
     },
     {
       "mask": "ihe.*",
