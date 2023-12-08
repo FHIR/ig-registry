@@ -3115,8 +3115,8 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-pas#2.0.0",
+          "ig-version": "2.0.1",
+          "package": "hl7.fhir.us.davinci-pas#2.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -3694,39 +3694,12 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-drug-formulary#2.0.0",
+          "ig-version": "2.0.1",
+          "package": "hl7.fhir.us.davinci-drug-formulary#2.0.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.davinci-drug-formulary#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1.0.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.0.1"
         }
       ]
     },
