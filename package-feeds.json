@@ -184,6 +184,22 @@
         "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
     },
     {
+      "mask": "hl7.fhir.ee.*",
+      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.fhir.kr.*",
+      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.eu.*",
+      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.fi.*",
+      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
+    },
+    {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
 	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml", "https://packages.simplifier.net/rssfeed"]
@@ -230,24 +246,8 @@
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml"  ]
     },
     {
-      "mask": "hl7.fhir.ee.*",
-      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
-    },
-    {
       "mask": "silth.fhir.*",
       "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.kr.*",
-      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.eu.*",
-      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.fi.*",
-      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     }
   ]
 }  
