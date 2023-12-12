@@ -6586,13 +6586,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/ihe-sdc-ecc-on-fhir",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/2022Sep"
+          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/STU1"
         }
       ]
     },
