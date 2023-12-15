@@ -2024,13 +2024,13 @@
       },
       "editions": [
         {
-          "name": "STU4 (v4.0.0)",
-          "ig-version": "4.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#4.0.0",
+          "name": "STU5 (v5.0.0) Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.cqfmeasures#5.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU4"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/2024Jan"
         }
       ]
     },
