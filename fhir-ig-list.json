@@ -1484,30 +1484,12 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.ecr#2.1.0",
+          "ig-version": "2.1.1",
+          "package": "hl7.fhir.us.ecr#2.1.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/ecr/STU2.1"
-        },
-        {
-          "name": "STU 2 on FHIR R4",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.ecr#2.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/ecr/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.ecr#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/ecr/STU1"
         }
       ]
     },
@@ -2021,13 +2003,13 @@
       },
       "editions": [
         {
-          "name": "STU4 (v4.0.0)",
-          "ig-version": "4.0.0",
-          "package": "hl7.fhir.us.cqfmeasures#4.0.0",
+          "name": "STU5 (v5.0.0) Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.cqfmeasures#5.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/STU4"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/2024Jan"
         }
       ]
     },
@@ -2141,13 +2123,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.eltss#1.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.eltss#2.0.0-ballot",
           "fhir-version": [
-            "4.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/eltss/STU1"
+          "url": "http://hl7.org/fhir/us/eltss/2024Jan"
         }
       ]
     },
@@ -6447,13 +6429,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/ihe-sdc-ecc-on-fhir",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/2022Sep"
+          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/STU1"
         }
       ]
     },
