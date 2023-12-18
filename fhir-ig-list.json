@@ -662,22 +662,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.uv.genomics-reporting#2.0.0",
+          "name": "STU 3 Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "hl7.fhir.uv.genomics-reporting#3.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.genomics-reporting#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU1"
+          "url": "http://hl7.org/fhir/uv/genomics-reporting/2024Jan"
         }
       ]
     },
@@ -4199,13 +4190,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.subscriptions-backport#1.1.0",
+          "name": "STU 1.2 Ballot",
+          "ig-version": "1.2.0-ballot",
+          "package": "hl7.fhir.uv.subscriptions-backport#1.2.0-ballot",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1"
+          "url": "http://hl7.org/fhir/uv/subscriptions-backport/2024Jan"
         }
       ]
     },
@@ -4224,7 +4215,6 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/bfdr",
-      "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
       "analysis": {
         "content": true,
         "rest": true,
@@ -4236,15 +4226,16 @@
         "valuesets": 1,
         "examples": 137
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-bfdr",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.bfdr#1.1.0",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.bfdr#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/STU1.1"
+          "url": "http://hl7.org/fhir/us/bfdr/2024Jan"
         }
       ]
     },
@@ -7350,6 +7341,31 @@
       ]
     },
     {
+      "name": "Evidence Based Medicine on FHIR Implementation Guide",
+      "category": "Evidence",
+      "npm-name": "hl7.fhir.uv.ebm",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/ebm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/ebm",
+      "ci-build": "http://build.fhir.org/ig/HL7/ebm",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ebm#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/ebm/2024Jan"
+        }
+      ]
+    },
+    {
       "name": "KLTerm",
       "category": "Terminology",
       "npm-name": "kl.dk.fhir.term",
@@ -7987,6 +8003,31 @@
             "4.0.1"
           ],
           "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"
+        }
+      ]
+    },
+    {
+      "name": "Pharmaceutical Quality (Industry)",
+      "category": "Pharmaceutical",
+      "npm-name": "hl7.fhir.uv.pharm-quality",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/pharm-quality/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/pharm-quality",
+      "ci-build": "http://build.fhir.org/ig/HL7/uv-dx-pq",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.pharm-quality#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/pharm-quality/2024Jan"
         }
       ]
     }
