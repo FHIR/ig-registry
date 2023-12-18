@@ -4199,13 +4199,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.subscriptions-backport#1.1.0",
+          "name": "STU 1.2 Ballot",
+          "ig-version": "1.2.0-ballot",
+          "package": "hl7.fhir.uv.subscriptions-backport#1.2.0-ballot",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1"
+          "url": "http://hl7.org/fhir/uv/subscriptions-backport/2024Jan"
         }
       ]
     },
