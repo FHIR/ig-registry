@@ -8014,6 +8014,31 @@
           "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"
         }
       ]
+    },
+    {
+      "name": "Pharmaceutical Quality (Industry)",
+      "category": "Pharmaceutical",
+      "npm-name": "hl7.fhir.uv.pharm-quality",
+      "description": "??",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/pharm-quality/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/pharm-quality",
+      "ci-build": "http://build.fhir.org/ig/HL7/uv-dx-pq",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.pharm-quality#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/pharm-quality/2024Jan"
+        }
+      ]
     }
   ]
 }
