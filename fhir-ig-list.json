@@ -4224,7 +4224,6 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/bfdr",
-      "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
       "analysis": {
         "content": true,
         "rest": true,
@@ -4236,15 +4235,16 @@
         "valuesets": 1,
         "examples": 137
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-bfdr",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.bfdr#1.1.0",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.bfdr#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/STU1.1"
+          "url": "http://hl7.org/fhir/us/bfdr/2024Jan"
         }
       ]
     },
@@ -8011,7 +8011,8 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"       }
+          "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"
+        }
       ]
     }
   ]
