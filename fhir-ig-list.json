@@ -7189,13 +7189,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
       "editions": [
         {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.extensions#1.0.0",
+          "name": "Releases Ballot",
+          "ig-version": "5.1.0-ballot",
+          "package": "hl7.fhir.uv.extensions#5.1.0-ballot",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/1.0.0"
+          "url": "http://hl7.org/fhir/extensions/5.1.0-ballot"
         }
       ]
     },
