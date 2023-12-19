@@ -43,13 +43,13 @@
       },
       "editions": [
         {
-          "name": "STU Update",
-          "ig-version": "6.1.0",
-          "package": "hl7.fhir.us.core#6.1.0",
+          "name": "STU7 Ballot",
+          "ig-version": "7.0.0-ballot",
+          "package": "hl7.fhir.us.core#7.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/STU6.1"
+          "url": "http://hl7.org/fhir/us/core/2024Jan"
         }
       ]
     },
@@ -1841,13 +1841,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.1",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.uv.smart-app-launch#2.1.0",
+          "name": "STU 2.2 Ballot",
+          "ig-version": "2.2.0-ballot",
+          "package": "hl7.fhir.uv.smart-app-launch#2.2.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/STU2.1"
+          "url": "http://hl7.org/fhir/smart-app-launch/2024Jan"
         }
       ]
     },
@@ -3011,13 +3011,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.cpg#1.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.uv.cpg#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cpg/STU1"
+          "url": "http://hl7.org/fhir/uv/cpg/2024Jan"
         }
       ]
     },
