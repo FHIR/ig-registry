@@ -7319,7 +7319,7 @@
       "name": "Canonical Resource Management Infrastructure Implementation Guide",
       "category": "infrastructure",
       "npm-name": "hl7.fhir.uv.crmi",
-      "description": "??",
+      "description": "The Canonical Resource Management Infrastructure implementation guide defines profiles, operations, capability statements and guidance to facilitate the content management lifecycle for authoring, publishing, distribution, and implementation of FHIR knowledge artifacts such as value sets, profiles, libraries, rules, and measures. The guide is intended to be used by specification and content implementation guide authors as both a dependency for validation of published artifacts, and a guide for construction and publication of content.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/crmi/history.html",
@@ -7344,7 +7344,7 @@
       "name": "Evidence Based Medicine on FHIR Implementation Guide",
       "category": "Evidence",
       "npm-name": "hl7.fhir.uv.ebm",
-      "description": "??",
+      "description": "This implementation guide covers the broad scope of representation of scientific knowledge, including (1) citations to represent identification, location, classification, and attribution for knowledge artifacts; (2) components of research study design including study eligibility criteria (cohort definitions) and endpoint analysis plans; (3) research results including the statistic findings, definition of variables for which those findings apply, and the certainty of these findings; (4) assessments of research results; (5) aggregation and synthesis of research results; (6) judgments regarding evidence syntheses and contextual factors related to recommendations; (7) recommendations; and (8) compositions of combinations of these types of knowledge. The types of interoperability covered include syntactic (Resource StructureDefinitions) and semantic (value sets).",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ebm/history.html",
@@ -8010,7 +8010,7 @@
       "name": "Pharmaceutical Quality (Industry)",
       "category": "Pharmaceutical",
       "npm-name": "hl7.fhir.uv.pharm-quality",
-      "description": "??",
+      "description": "The FHIR resource profiles specified in this implementation guide represent data in the ICH Quality Guidelines (https://www.ich.org/page/quality-guidelines). This implementation guide defines universal realm structured data elements to support structured authoring (e.g., master data; advanced analysis) for the creation and exchange of Quality information internationally.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/pharm-quality/history.html",
@@ -8035,7 +8035,7 @@
       "name": "Using CQL with FHIR Implementation Guide",
       "category": "infrastructure",
       "npm-name": "hl7.fhir.uv.cql",
-      "description": "??",
+      "description": "The Using CQL with FHIR implementation guide defines profiles, operations and guidance for the use of CQL with FHIR, both as a mechanism for querying, as well as inline and integrated usage as part of knowledge artifacts.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/cql/history.html",
@@ -8053,6 +8053,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/cql/2024Jan"
+        }
+      ]
+    },
+    {
+      "name": "Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Content Implementation Guide",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.resp-net",
+      "description": "The Respiratory Virus Hospitalization Surveillance Network (RESP-NET) comprises three platforms that conduct population-based surveillance for laboratory-confirmed hospitalizations associated with COVID-19, Influenza, and Respiratory Syncytial Virus (RSV) among children and adults.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/resp-net/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/resp-net",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-resp-net-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.resp-net#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/resp-net/2024Jan"
         }
       ]
     }
