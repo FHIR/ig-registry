@@ -1511,13 +1511,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 (FHIR R4) Ballot",
-          "ig-version": "0.3.0",
-          "package": "hl7.fhir.uv.livd#0.3.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.livd#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/livd/2021Jan"
+          "url": "http://hl7.org/fhir/uv/livd/2024Jan"
         }
       ]
     },
