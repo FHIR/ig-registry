@@ -2807,22 +2807,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-pdex#2.0.0-ballot",
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-pdex#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex/2022May"
-        },
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-pdex#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-pdex/STU2"
         }
       ]
     },
