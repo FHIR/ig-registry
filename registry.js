@@ -160,6 +160,30 @@ function replaceContent(replacement) {
   oldContent.parentNode.replaceChild(replacement, oldContent);
 }
 
+function cn(code) {
+  switch (code) {
+    case 'us' : return 'USA';
+    case 'au' : return 'Australia';
+    case 'nz' : return 'New Zealand';
+    case 'ch' : return 'Switzerland';
+    case 'de' : return 'Germany';
+    case 'it' : return 'Italy';
+    case 'nl' : return 'Netherlands';
+    case 'ca' : return 'Canada';
+    case 'no' : return 'Norway';
+    case 'dk' : return 'Denmark';
+    case 'gb' : return 'Great Britain';
+    case 'fr' : return 'France';
+    case 'sw' : return 'Sweden';
+    case 'br' : return 'Brazil';
+    case 'kr' : return 'Korea';
+    case 'jp' : return 'Japan';
+    case 'fi' : return 'Finland';
+    default:
+      return code.toUpperCase();
+  }
+}
+
 var guides = null;
 
 function loadRegistry() {
@@ -199,24 +223,17 @@ function loadRegistry() {
       }
       authorityOptions += '</select>';
 
+      countryOptions += '<option value="uv">All</option>';
+      countryOptions += '<option value="eu">Europe</option>';
+      
+      properties.countries.sort();
       for (var country in properties.countries) {
         if (properties.countries.hasOwnProperty(country)) {
-          if (country == 'uv')
-            countryOptions += '<option value="' + country + '">All</option>';
-          else if (country == 'us')
-            countryOptions += '<option value="' + country + '">USA</option>';
-          else if (country == 'au')
-            countryOptions += '<option value="' + country + '">Australia</option>';
-          else if (country == 'ch')
-            countryOptions += '<option value="' + country + '">Switzerland</option>';
-          else if (country == 'de')
-            countryOptions += '<option value="' + country + '">Germany</option>';
-          else if (country == 'it')
-            countryOptions += '<option value="' + country + '">Italy</option>';
-          else if (country == 'dk')
-            countryOptions += '<option value="' + country + '">Denmark</option>';
-          else
-            countryOptions += '<option value="' + country + '">' + country.toUpperCase() + '</option>';
+          if (country == 'uv' || country == 'eu')
+            ; // nothing - done out of order
+          else {
+            countryOptions += '<option value="' + country + '">'+cn(country)+'</option>';
+          }
         }
       }
       countryOptions += '</select>';
