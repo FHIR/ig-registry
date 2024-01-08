@@ -4341,7 +4341,7 @@
       "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.nhsn-ade",
-      "description": "??",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4376,7 +4376,7 @@
       "name": "NHSN Reporting: Inpatient Medication Administration",
       "category": "Pharmacy",
       "npm-name": "hl7.fhir.us.nhsn-med-admin",
-      "description": "??",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4448,7 +4448,7 @@
       "name": "Clinical Quality Language Specification",
       "category": "infrastructure",
       "npm-name": "hl7.cql",
-      "description": "??",
+      "description": "Clinical Quality Language (CQL) is a high-level, domain-specific language focused on clinical quality and targeted at measure and decision support artifact authors. In addition, this specification describes a machine-readable canonical representation called Expression Logical Model (ELM) targeted at implementations and designed to enable sharing of clinical knowledge.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4517,7 +4517,7 @@
       "name": "Profiles for ICSR Transfusion and Vaccination Adverse Event Detection and Reporting",
       "category": "Pharmaceutical",
       "npm-name": "hl7.fhir.us.icsr-ae-reporting",
-      "description": "??",
+      "description": "This Implementation Guide provides a set of profiles and algorithms around the detection, validation, and reporting, as well as the eventual recording and persisting of Adverse Events associated with blood transfusions and vaccinations.  EHRs and Provider Networks can use this guide to understand the data elements needed to facilitate the electronic reporting of these adverse events as well as ways of mining their data to detect adverse events",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4556,7 +4556,7 @@
       "name": "Immunization Decision Support Forecast FHIR IG",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.uv.immds",
-      "description": "??",
+      "description": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in Immunization Decision Support Forecast.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4592,7 +4592,7 @@
       "name": "Security for Scalable Registration, Authentication, and Authorization",
       "category": "Security",
       "npm-name": "hl7.fhir.us.udap-security",
-      "description": "??",
+      "description": "This implementation guide describes how to extend OAuth 2.0 to support secure and scalable workflows for business-to-business (B2B) apps that implement the client credentials flow or authorization code flow. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4623,7 +4623,7 @@
       "name": "Single Institutional Review Board (sIRB) Implementation Guide",
       "category": "Research",
       "npm-name": "hl7.fhir.us.sirb",
-      "description": "??",
+      "description": "This IG covers questionnaires and questionnaire responses in support of capturing and exchange of standardized forms in support of a single IRB (Institutional Review Board) where a single IRB will expedite approval for a project but still need to send all documentation to multiple relying IRBs.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4655,7 +4655,7 @@
       "name": "Sharing eCC Data from Pathology Labs to EHR",
       "category": "Documents",
       "npm-name": "hl7.fhir.us.cancer-reporting",
-      "description": "??",
+      "description": "Integrating the Healthcare Enterprise (IHE) Structured Data Capture (SDC) on FHIR uses a form-driven workflow to capture and transmit encoded data by creating FHIR Observations. The primary use case for this is transmitting data captured in College of American Pathologists electronic Cancer Checklists (eCCs), which are distributed as IHE SDC templates.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4692,7 +4692,7 @@
       "name": "HL7 FHIR® Implementation Guide: Ophthalmology Retinal, Release 1",
       "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.eyecare",
-      "description": "??",
+      "description": "Provides representation of ophthalmic domain and related clinical and administrative data elements in the FHIR format to support effective collaborative and continuity of care of patients suffering from eye conditions. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4729,7 +4729,7 @@
       "name": "SMART Health Cards Vaccination and Testing, Release 1 | STU 1",
       "category": "Public Health",
       "npm-name": "hl7.fhir.uv.shc-vaccination",
-      "description": "??",
+      "description": "Defines the clinical and patient information contained within a SMART Health Card (SHC) related to vaccination and lab results related to an infectious disease like COVID-19.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4764,7 +4764,7 @@
       "name": "HL7 FHIR Implementation Guide for Military Service History and Status",
       "category": "Clinical Records",
       "npm-name": "hl7.fhir.us.military-service",
-      "description": "??",
+      "description": "Supports Military Service History and Status reporting consistent with US regulatory requirements (i.e. Title 38 Veteran Benefits)",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4830,7 +4830,7 @@
       "name": "Logica COVID-19 FHIR Profile Library IG",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.covid19library",
-      "description": "??",
+      "description": "Support for exchanges of COVD-19 Patient Specific Data.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4867,7 +4867,7 @@
       "name": "FHIR for FAIR - FHIR Implementation Guide",
       "category": "Research",
       "npm-name": "hl7.fhir.uv.fhir-for-fair",
-      "description": "??",
+      "description": "The FHIR for FAIR Implementation Guide provides guidance on how the HL7 FHIR standard can be used for supporting the implementation and the assessment of the FAIR principles for health data",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4898,7 +4898,7 @@
       "name": "Da Vinci Patient Cost Transparency Implementation Guide",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-pct",
-      "description": "??",
+      "description": "Enables standard exchange of healthcare cost for items, services, and collection of services among stakeholders such as payers, providers, and patients in support of driving transparency for patients with accurate, timely access to cost of medical care prior to delivery of care in order to become better stewards of their healthcare dollars.   This guide creates a standard exchange to reduce administrative burden for communicating Good Faith Estimates (GFE) from providers of costs and services to payers and then, payers creating and returning an Advanced Explanation of Benefits (AEOB) back to the patient as required by law.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4937,7 +4937,7 @@
       "name": "Hybrid / Intermediary Exchange",
       "category": "EHR Access",
       "npm-name": "hl7.fhir.us.exchange-routing",
-      "description": "??",
+      "description": "This IG is meant to define the standard for how providers, payers, intermediaries, and other actors will use  routing information about the transaction originator and destination to support a hybrid model of point-to-point interaction as well as intermediary brokered interactions without the actors in either side needing detailed knowledge of how intermediary routing works.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4968,7 +4968,7 @@
       "name": "PACIO Re-Assessment Timepoints Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-rt",
-      "description": "??",
+      "description": "The Re-assessment Timepoints FHIR implementation guide (IG) describes how to create definitions for sub-periods of time within an extended post-acute care (PAC) admission and encounter. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5006,7 +5006,7 @@
       "name": "Da Vinci Risk Adjustment FHIR Implementation Guide",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-ra",
-      "description": "??",
+      "description": "Enable standard exchange of risk-based coding gaps among stakeholders such as payers, providers, and government care programs in support of driving towards accurate and complete documentation of health conditions that would lead to more accurate risk-adjustment payment calculations, reduced administrative burden, and improved quality of care.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5046,7 +5046,7 @@
       "name": "International Patient Access",
       "category": "Patient Summary",
       "npm-name": "hl7.fhir.uv.ipa",
-      "description": "??",
+      "description": "International Patient Access (IPA) defines a minimal, base set of FHIR profiles specifically intended to be used as-is, or built on top of by countries looking to enable patient access and patient-facing apps accessing data via FHIR",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5084,7 +5084,7 @@
       "name": "PACIO Advance Directive Information Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-adi",
-      "description": "??",
+      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual's advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5123,7 +5123,7 @@
       "name": "CARIN Digital Insurance Card",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.insurance-card",
-      "description": "??",
+      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a "Digital Insurance Card" Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5162,7 +5162,7 @@
       "name": "Radiation Dose Summary for Diagnostic Procedures on FHIR",
       "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.radiation-dose-summary",
-      "description": "??",
+      "description": "Provides a summary of the DICOM radiation dose report in FHIR related to imaging procedures.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5200,7 +5200,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Central Cancer Registry Reporting Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.central-cancer-registry-reporting",
-      "description": "??",
+      "description": "This guide defines how healthcare organizations onboard a new research data partner. It provides guidance to extract data from EHRs, transform the data, and populate data marts",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5238,7 +5238,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Healthcare Surveys Reporting Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.health-care-surveys-reporting",
-      "description": "??",
+      "description": "This guide focuses on the National Hospital Care Survey (NHCS) and National Ambulatory Medical Care Survey (NAMCS) data that will be extracted from EHRs and/or clinical data repositories via FHIR and APIs and sent to a system hosted at the federal level.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5275,7 +5275,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Research Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.medmorph-research-dex",
-      "description": "??",
+      "description": "This guide focuses on the National Hospital Care Survey (NHCS) and National Ambulatory Medical Care Survey (NAMCS) data that will be extracted from EHRs and/or clinical data repositories via FHIR and APIs and sent to a system hosted at the federal level.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5310,7 +5310,7 @@
       "name": "Medicolegal Death Investigation (MDI)",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.mdi",
-      "description": "??",
+      "description": "This US-specific IG supports exchange of data for medicolegal death investigations, for example from a toxicology lab to a case management system (upstream), and from a case management system to a  jurisdictional electronic death registration system (EDRS)(downstream).",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5380,7 +5380,7 @@
       "name": "Maternal and Infant Health Research",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.mihr",
-      "description": "??",
+      "description": "This guide focuses on calculation of maternal-related cohorts from available maternal care information sources. It specifies how to calculate two maternal-related cohort measures and link to maternal longitudinal record with associated child record(s). Initial use cases focus on pregnancy and subsequent death within a specific time frame and hypertensive disorders of pregnancy pre, ante, and postpartum. The IG leverages MedMorph, SANER, US Core profiles, and broader public health IGs",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5412,7 +5412,7 @@
       "name": "Patient Request for Corrections Implementation Guide",
       "category": "Personal Healthcare",
       "npm-name": "hl7.fhir.uv.patient-corrections",
-      "description": "??",
+      "description": "The Patient Corrections FHIR implementation guide standardizes the method of electronically exchanging the required information to facilitate the patient’s request for corrections and the electronic communication that reflects the workflow of the correction process. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5450,7 +5450,7 @@
       "name": "Interoperable Digital Identity and Patient Matching",
       "category": "Security",
       "npm-name": "hl7.fhir.us.identity-matching",
-      "description": "??",
+      "description": "This FHIR implementation Guide provides guidance on leveraging Patient Matching and Digital Identity capabilities together to improve match quality and overall identity assurance in FHIR transactions. It defines methods to inform and execute cross organizational and internal patient matches via FHIR when requested for a permitted purpose or authorized by the Patient directly or by the Patient’s delegate. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5522,7 +5522,7 @@
       "name": "FHIRcast",
       "category": "Imaging",
       "npm-name": "hl7.fhir.uv.fhircast",
-      "description": "??",
+      "description": "FHIRcast synchronizes healthcare applications in real time to show the same clinical content to a common user.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6208,7 +6208,7 @@
       "name": "CodeX™ Radiation Therapy",
       "category": "Care Planning",
       "npm-name": "hl7.fhir.us.codex-radiation-therapy",
-      "description": "??",
+      "description": "The CodeX Radiation Therapy (RT) Implementation Guide (IG) describes how to represent and exchange radiation therapy treatment information. The CodeX RT IG enables radiation oncology information systems to generate treatment summaries that are retrievable by health systems, or other information systems, for display within the EHR interface to be used for care coordination and data reuse. ",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6236,7 +6236,7 @@
       "name": "At-Home In-Vitro Test Report",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.home-lab-report",
-      "description": "??",
+      "description": "This Implementation Guide describes a framework for use for transmitting At-Home Point-of-Care lab test results to local, state, territorial and federal health agencies. This version also contains workflow description and profiles and vocabulary for transmitting Covid-At-Home tests.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6264,7 +6264,7 @@
       "name": "PACIO Personal Functioning and Engagement Implementation Guide",
       "category": "Patient Summary",
       "npm-name": "hl7.fhir.us.pacio-pfe",
-      "description": "??",
+      "description": "The Personal Functioning and Engagement IG provides a framework for communicating the functioning of an individual, including their body functions and structure and their activities and participation in society, as well as related clinical care. The IG draws on the health and health-related domains defined within the International Classification of Functioning, Disability and Health (commonly known as ICF).",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6292,7 +6292,7 @@
       "name": "US Public Health Profiles Library",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.ph-library",
-      "description": "??",
+      "description": "The US Public Health Profiles Library is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It provides a framework for inclusion in multiple use case specific implementation guides focused on the exchange of Public Health information.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6320,7 +6320,7 @@
       "name": "National Healthcare Query",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-query",
-      "description": "??",
+      "description": "Standard for endpoint query request and response for Validated National Directory federated access directories",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6348,7 +6348,7 @@
       "name": "National Healthcare Directory Exchange",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-exchange",
-      "description": "??",
+      "description": "Standard for exchange of Health and Social Care Directory information between a Validated National Directory and a federated directory (primarily for workflow integration).",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6376,7 +6376,7 @@
       "name": "National Healthcare Directory Attestation",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-attestation",
-      "description": "??",
+      "description": "Provides the methods and standards for the contribution, attestation, and validation of information in the National Directory.  This applies to individual demographics, organizational demographics, relationship between individuals and organizations, services provided, and electronic endpoint metadata.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6432,7 +6432,7 @@
       "name": "IHE SDC/eCC on FHIR",
       "category": "Orders and Observaitons",
       "npm-name": "hl7.fhir.uv.ihe-sdc-ecc",
-      "description": "??",
+      "description": "Integrating the Healthcare Enterprise (IHE) Structured Data Capture (SDC) on FHIR uses a form-driven workflow to capture and transmit encoded data by creating FHIR Observations. The primary use case for this is transmitting data captured in College of American Pathologists electronic Cancer Checklists (eCCs), which are distributed as IHE SDC templates.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6700,7 +6700,7 @@
       "name": "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
       "category": "Measure Set",
       "npm-name": "hl7.fhir.uv.ichom-breast-cancer",
-      "description": "??",
+      "description": "This Implementation Guide describes the representation of the ICHOM Breast Cancer Patient Centered Outcomes Measures in HL7 FHIR and a description of the use cases for which these are be intended to be used.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html",
@@ -6725,7 +6725,7 @@
       "name": "FHIR IG Human Services Directory",
       "category": "Mappings to Other Standards",
       "npm-name": "hl7.fhir.us.hsds",
-      "description": "??",
+      "description": "FHIR API-based data exchange enabling healthcare provider, community-based organization, payer, and consumer-facing application systems to search standardized directories of organizations providing human and social services, providing foundational support for downstream care planning and management use cases, including closed loop referrals, care coordination and care management activities, consumer-based search for assistance, etc. This guide is a US Realm specification.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/hsds/history.html",
@@ -6972,7 +6972,7 @@
       "name": "CDA: Clinical Document Architecture",
       "category": "CDA",
       "npm-name": "hl7.cda.uv.core",
-      "description": "??",
+      "description": "The base CDA specification republished using the FHIR publication tooling",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/cda/stds/core/history.html",
@@ -6997,7 +6997,7 @@
       "name": "Integrated Reporting Applications",
       "category": "Imaging",
       "npm-name": "ihe.rad.ira",
-      "description": "??",
+      "description": "The Integrated Reporting Applications (IRA) profile helps applications that are used together during reporting (e.g., image display, report creator, clinical applications, AI tools, etc) to share information using a standard called FHIRcast. Each application can share what it is doing and the data it is creating, referred to as Context and Content, respectively. Other applications are notified so they can then intelligently synchronize their behavior or use the new data.",
       "authority": "IHE",
       "country": "uv",
       "history": "https://profiles.ihe.net/RAD/IRA/history.html",
@@ -7120,7 +7120,7 @@
       "name": "Adverse Event Clinical Research R4 Backport",
       "category": "Research",
       "npm-name": "hl7.fhir.uv.ae-research-backport-ig",
-      "description": "??",
+      "description": "This IG is for the clinical research setting. It defines the data elements needed to support the workflow for collecting and reporting serious and non-serious adverse events in clinical research to meet the need for regulatory submission requirements.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ae-research-backport-ig/history.html",
@@ -7145,7 +7145,7 @@
       "name": "CCDA: Consolidated CDA Release",
       "category": "CDA",
       "npm-name": "hl7.cda.us.ccda",
-      "description": "??",
+      "description": "A consolidated library of CDA templates for clinical notes applicable to the US Realm",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/cda/stds/ccda/history.html",
@@ -7170,7 +7170,7 @@
       "name": "Adverse Event Clinical Research",
       "category": "Research",
       "npm-name": "hl7.fhir.uv.ae-research-ig",
-      "description": "??",
+      "description": "This IG is for the clinical research setting. It defines the data elements needed to support the workflow for collecting and reporting serious and non-serious adverse events in clinical research to meet the need for regulatory submission requirements.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ae-research-ig/history.html",
@@ -7195,7 +7195,7 @@
       "name": "FHIR Core Extensions Registry",
       "category": "Extensions",
       "npm-name": "hl7.fhir.uv.extensions",
-      "description": "??",
+      "description": "This package defines the 'core extensions' - the extensions defined globally and available to all implementers",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/extensions/history.html",
@@ -7220,7 +7220,7 @@
       "name": "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.ndh",
-      "description": "??",
+      "description": "Standard for the population, verification and exchange of Health and Social Care Directory information between a Validated National Directory and local directories (primarily for workflow integration).  This applies to individual demographics, organizational demographics, relationship between individuals and organizations, services provided, and electronic endpoint metadata",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/ndh/history.html",
@@ -7245,7 +7245,7 @@
       "name": "Privacy Consent on FHIR (PCF)",
       "category": "Privacy / Security",
       "npm-name": "ihe.iti.pcf",
-      "description": "??",
+      "description": "The Privacy Consent on FHIR (PCF) Profile provides support for patient privacy consents and access control where a FHIR API is used to access Document Sharing Health Information Exchanges.",
       "authority": "IHE",
       "country": "uv",
       "history": "https://profiles.ihe.net/ITI/PCF/history.html",
@@ -7295,7 +7295,7 @@
       "name": "Da Vinci Value-Based Performance Reporting Implementation Guide",
       "category": "quality and financial management",
       "npm-name": "hl7.fhir.us.davinci-vbpr",
-      "description": "??",
+      "description": "This implementation guide enables value-based performance reports to be specified in a standard format and exchanged using standardized mechanisms between payers and providers to support the shift from fee-for-service to value-based care.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/davinci-vbpr/history.html",
@@ -7320,7 +7320,7 @@
       "name": "International Birth And Child Model Implementation Guide",
       "category": "Clinical Records",
       "npm-name": "hl7.fhir.uv.ibcm",
-      "description": "??",
+      "description": "During a pregnancy clinical systems communicate data about the mother, the unborn fetus(es), the pregnancy, and child(ren). This includes information shared among EHR, ultrasound, radiology, lab and pharmacy systems. This IG explains how you model and communicate data and relate the fetus(es) to the mother using the FHIR resource Patient with extension indicating a distinct fetal record. Options for referencing information such as observation about the fetus as a body site within the maternal record will also be included. Examples and diagrams are provided to illustrate the use cases.",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ibcm/history.html",
@@ -7495,7 +7495,7 @@
       "name": "Sharing of IPS (sIPS)",
       "category": "Clinical Documents",
       "npm-name": "ihe.iti.sips",
-      "description": "??",
+      "description": "Defines how HL7 FHIR IPS is communicated using IHE Document Sharing",
       "authority": "IHE",
       "country": "uv",
       "history": "https://profiles.ihe.net/ITI/sIPS/history.html",
@@ -7986,7 +7986,7 @@
       "name": "Document Subscription for Mobile (DSUBm)",
       "category": "Clinical Document",
       "npm-name": "ihe.iti.dsubm",
-      "description": "??",
+      "description": "The Document Subscription for Mobile (DSUBm) profile provides a FHIR based subscription and notification mechanisms for Document Sharing. Enabling a subscription and notification when a document publication event matches the criteria expressed in the subscription.",
       "authority": "IHE",
       "country": "uv",
       "history": "https://profiles.ihe.net/ITI/DSUBm/history.html",
@@ -8011,7 +8011,7 @@
       "name": "HRSA Uniform Data System (UDS) Patient Level Submission (PLS) (UDS+ or uds-plus) FHIR IG",
       "category": "Govt Reporting",
       "npm-name": "fhir.hrsa.uds-plus",
-      "description": "??",
+      "description": "UDS+ is part of HRSA`s modernization initiatives and requires health centers to report data annually as part of the funding grants. UDS is a standard data set that provides consistent information about Federally Qualified Health Centers. It is the source of non duplicated data for the entire scope of services included in the grant or designation for the calendar year. HRSA uses UDS data to assess the impact and performance of the Health Center Program, and to promote data-driven quality improvement",
       "authority": "US Government",
       "country": "us",
       "history": "http://fhir.org/guides/hrsa/uds-plus/history.html",
@@ -8111,7 +8111,7 @@
       "name": "HL7 Tools Extension IG",
       "category": "Infrastructure",
       "npm-name": "hl7.fhir.uv.tools",
-      "description": "??",
+      "description": "Definitions of the code systems and extensions used by the FHIR tools (validators, code generators, IG publication, etc)",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/tools/history.html",
