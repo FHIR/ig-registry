@@ -5885,7 +5885,7 @@
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Core profiles",
       "category": "National Base",
-      "npm-name": ".core",
+      "npm-name": "hl7.fhir.be.core",
       "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
       "authority": "eHealth Platform",
       "product": [
@@ -5902,7 +5902,7 @@
         {
           "name": "Trial Use Test",
           "ig-version": "2.0.0",
-          "package": ".core#2.0.0",
+          "package": "hl7.fhir.be.core#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5911,7 +5911,7 @@
         {
           "name": "Trial Use",
           "ig-version": "2.0.1",
-          "package": ".core#2.0.1",
+          "package": "hl7.fhir.be.core#2.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5922,7 +5922,7 @@
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
       "category": "National Base",
-      "npm-name": ".core-clinical",
+      "npm-name": "hl7.fhir.be.core-clinical",
       "description": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
       "authority": "eHealth Platform",
       "product": [
@@ -5939,7 +5939,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".core-clinical#1.0.0",
+          "package": "hl7.fhir.be.core-clinical#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5950,7 +5950,7 @@
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
       "category": "National Base",
-      "npm-name": ".medication",
+      "npm-name": "hl7.fhir.be.medication",
       "description": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
       "authority": "eHealth Platform",
       "product": [
@@ -5967,7 +5967,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".medication#1.0.0",
+          "package": "hl7.fhir.be.medication#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -5978,7 +5978,7 @@
     {
       "name": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
       "category": "National Base",
-      "npm-name": ".vaccination",
+      "npm-name": "hl7.fhir.be.vaccination",
       "description": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
       "authority": "eHealth Platform",
       "product": [
@@ -6004,7 +6004,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".vaccination#1.0.0",
+          "package": "hl7.fhir.be.vaccination#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -6013,7 +6013,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".vaccination#1.0.1",
+          "package": "hl7.fhir.be.vaccination#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -6022,7 +6022,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".vaccination#1.0.2",
+          "package": "hl7.fhir.be.vaccination#1.0.2",
           "fhir-version": [
             "4.0.1"
           ],
@@ -6031,7 +6031,7 @@
         {
           "name": "Trial Use",
           "ig-version": "1.0.0",
-          "package": ".vaccination#1.0.3",
+          "package": "hl7.fhir.be.vaccination#1.0.3",
           "fhir-version": [
             "4.0.1"
           ],
