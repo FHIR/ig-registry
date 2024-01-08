@@ -6138,9 +6138,44 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.be.allergy#1.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0"
         }
       ]
     },
+    {
+      "name": "eHealth FHIR Patient Will Profiles for Belgium",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.be.patientwill",
+      "description": "eHealth FHIR Patient Will Profiles for Belgium",
+      "authority": "eHealth Platform",
+      "country": "be",
+      "history": "https://www.ehealth.fgov.be/standards/fhir/patientwill/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/patientwill",
+      "ci-build": "http://build.fhir.org/ig/hl7-be/patientwill",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.be.patientwill#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ehealth.fgov.be/standards/fhir/patientwill/1.0.0"
+        }
+      ]
+    }
+    ,
     {
       "name": "TW Core",
       "category": "National Base",
