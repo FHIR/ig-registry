@@ -2411,12 +2411,12 @@
       "editions": [
         {
           "name": "Release",
-          "ig-version": "2.2.0",
-          "package": "hl7.fhir.dk.core#2.2.0",
+          "ig-version": "3.1.0",
+          "package": "hl7.fhir.dk.core#3.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.dk/fhir/core/2.2.0"
+          "url": "http://hl7.dk/fhir/core/3.1.0"
         }
       ]
     },
