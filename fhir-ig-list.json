@@ -43,13 +43,94 @@
       },
       "editions": [
         {
-          "name": "STU7 Ballot",
-          "ig-version": "7.0.0-ballot",
-          "package": "hl7.fhir.us.core#7.0.0-ballot",
+          "name": "STU6 Ballot",
+          "ig-version": "6.0.0-ballot",
+          "package": "hl7.fhir.us.core#6.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2024Jan"
+          "url": "http://hl7.org/fhir/us/core/2023Jan"
+        },
+        {
+          "name": "STU5",
+          "ig-version": "5.0.1",
+          "package": "hl7.fhir.us.core#5.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU5.0.1"
+        },
+        {
+          "name": "STU5",
+          "ig-version": "5.0.0",
+          "package": "hl7.fhir.us.core#5.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU5"
+        },
+        {
+          "name": "STU4",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.core#4.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU4"
+        },
+        {
+          "name": "STU3",
+          "ig-version": "3.1.1",
+          "package": "hl7.fhir.us.core#3.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU3.1.1"
+        },
+        {
+          "name": "STU3",
+          "ig-version": "3.1.0",
+          "package": "hl7.fhir.us.core#3.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU3.1"
+        },
+        {
+          "name": "STU3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.us.core#3.0.0",
+          "fhir-version": [
+            "4.0.0"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU3"
+        },
+        {
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.core#2.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU2"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.core#1.0.1",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/1.0.1"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.core#1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/core/STU1"
         }
       ]
     },
@@ -57,7 +138,7 @@
       "name": "AU Base",
       "category": "National Base",
       "npm-name": "hl7.fhir.au.base",
-      "description": "AU Base implementation guide provides support for the use of FHIR®© in an Australian context.",
+      "description": "Base Australian national implementation guide",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -66,49 +147,18 @@
       "language": [
         "en"
       ],
-      "history": "http://hl7.org.au/fhir/history.html",
-      "canonical": "http://hl7.org.au/fhir",
+      "history": "http://fhir.hl7.org.au/fhir/base/history.html",
+      "canonical": "http://fhir.hl7.org.au/fhir/base",
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Trial Use",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.au.base#4.1.0",
+          "name": "Release 1 Draft",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.au.base#1.0.1",
           "fhir-version": [
-            "4.0.1"
+            "3.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/4.1.0"
-        }
-      ],
-      "analysis": {
-        "error": "JsonObject"
-      }
-    },
-    {
-      "name": "AU Core",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.au.core",
-      "description": "AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
-      "authority": "HL7",
-      "product": [
-        "fhir"
-      ],
-      "country": "au",
-      "language": [
-        "en"
-      ],
-      "history": "http://hl7.org.au/fhir/core/history.html",
-      "canonical": "http://hl7.org.au/fhir/core",
-      "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-core",
-      "editions": [
-        {
-          "name": "Preview",
-          "ig-version": "0.2.1-preview",
-          "package": "hl7.fhir.au.core#0.2.1-preview",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org.au/fhir/core/0.2.1-preview"
+          "url": "http://hl7.org.au/fhir/base/2019Feb"
         }
       ],
       "analysis": {
@@ -171,13 +221,22 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.2.0-ballot",
-          "package": "hl7.fhir.us.ccda#1.2.0-ballot",
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.ccda#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ccda/2023May"
+          "url": "http://hl7.org/fhir/us/ccda/STU1.1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.ccda#1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ccda/STU1"
         }
       ]
     },
@@ -390,7 +449,7 @@
       "category": "EHR Access",
       "npm-name": "fhir.argonaut.r2",
       "description": "This implementation guide is based upon DSTU2 FHIR standard and covers the US EHR data access for the ONC Common Clinical Data Set and retrieval of static documents",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -429,7 +488,7 @@
       "category": "EHR Access",
       "npm-name": "fhir.hspc.core",
       "description": "Builds on Argonaut to make agreements around consistent data (in progress)",
-      "authority": "HSPC (USA)",
+      "authority": "HSPC",
       "product": [
         "fhir"
       ],
@@ -502,7 +561,7 @@
       ],
       "history": "http://hl7.org/fhir/us/qicore/history.html",
       "canonical": "http://hl7.org/fhir/us/qicore",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-qi-core",
+      "ci-build": "http://build.fhir.org/ig/cqframework/qi-core",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -518,13 +577,76 @@
       },
       "editions": [
         {
-          "name": "STU6 (v6.0.0) Ballot",
-          "ig-version": "6.0.0-ballot",
-          "package": "hl7.fhir.us.qicore#6.0.0-ballot",
+          "name": "STU 5 Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#5.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/2023Sep"
+          "url": "http://hl7.org/fhir/us/qicore/2022Sep"
+        },
+        {
+          "name": "STU 4",
+          "ig-version": "4.1.1",
+          "package": "hl7.fhir.us.qicore#4.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1.1"
+        },
+        {
+          "name": "STU 4",
+          "ig-version": "4.1.0",
+          "package": "hl7.fhir.us.qicore#4.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4.1"
+        },
+        {
+          "name": "STU 4",
+          "ig-version": "4.0.0",
+          "package": "hl7.fhir.us.qicore#4.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU4"
+        },
+        {
+          "name": "STU 3",
+          "ig-version": "3.2.0",
+          "package": "hl7.fhir.us.qicore#3.2.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU32"
+        },
+        {
+          "name": "STU 3",
+          "ig-version": "3.1.0",
+          "package": "hl7.fhir.us.qicore#3.1.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU3"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.qicore#2.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/qicore/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.2",
+          "package": "hl7.fhir.us.qicore#1.0.2",
+          "fhir-version": [
+            "1.0.2"
+          ],
+          "url": "http://hl7.org/fhir/DSTU2/qicore/qicore.html"
         }
       ]
     },
@@ -584,13 +706,22 @@
       },
       "editions": [
         {
-          "name": "STU2",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.hai#2.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.hai#2.0.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/hai/STU2.1"
+          "url": "http://hl7.org/fhir/us/hai/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.hai#1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/hai/STU1"
         }
       ]
     },
@@ -662,13 +793,22 @@
       },
       "editions": [
         {
-          "name": "STU 3 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.fhir.uv.genomics-reporting#3.0.0-ballot",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.genomics-reporting#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/genomics-reporting/2024Jan"
+          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.genomics-reporting#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/genomics-reporting/STU1"
         }
       ]
     },
@@ -677,7 +817,7 @@
       "category": "Administration",
       "npm-name": "fhir.argonaut.pd",
       "description": "This implementation guide is based upon STU3 FHIR standard and outlines the key data elements for any provider directory and basic query guidance. The components developed in this guide are intended to provide a foundation for a central or distributed Provider or Healthcare Directory",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -708,7 +848,7 @@
       "category": "Administration",
       "npm-name": "fhir.argonaut.scheduling",
       "description": "This implementation guide is based upon STU3 FHIR standard and provides FHIR RESTful APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -815,13 +955,31 @@
       },
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "3.0.0-comment",
-          "package": "ihe.iti.pdqm#3.0.0-comment",
+          "name": "Publication",
+          "ig-version": "2.4.0",
+          "package": "ihe.iti.pdqm#2.4.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/3.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.4.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "2.3.0",
+          "package": "ihe.iti.pdqm#2.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PDQm/2.3.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "2.2.0",
+          "package": "ihe.iti.pdqm#2.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PDQm_Rev2-2_TI_2020-08-28.pdf"
         }
       ]
     },
@@ -852,12 +1010,30 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "3.0.3",
-          "package": "ihe.iti.pixm#3.0.3",
+          "ig-version": "3.0.2",
+          "package": "ihe.iti.pixm#3.0.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.3"
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.2"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "3.0.0",
+          "package": "ihe.iti.pixm#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "2.1.0",
+          "package": "ihe.iti.pixm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PIXm_Rev2-1_TI_2019-12-05.pdf"
         }
       ]
     },
@@ -975,22 +1151,21 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
-      "analysis": {
-        "error": "Unable to resolve package id ihe.iti.mxde#0.1.2"
-      },
-      "canonical": "https://profiles.ihe.net/ITI/mXDE",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.mXDE/branches/master/index.html",
+      "canonical": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction",
       "editions": [
         {
-          "name": "Publication",
-          "ig-version": "1.3.0",
-          "package": "ihe.iti.mxde#1.3.0",
+          "name": "STU3 or R4 Trial-Implementation",
+          "ig-version": "0.1.2",
+          "package": "ihe.iti.mxde#0.1.2",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "https://profiles.ihe.net/ITI/mXDE/1.3.0"
+          "url": "http://wiki.ihe.net/index.php/Mobile_Cross-Enterprise_Document_Data_Element_Extraction"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.mxde#0.1.2"
+      }
     },
     {
       "name": "IHE Query for Existing Data for Mobile (QEDm)",
@@ -1036,22 +1211,21 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
-      "analysis": {
-        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
-      },
-      "canonical": "https://profiles.ihe.net/ITI/NPFS",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.NPFS/branches/master/index.html",
+      "canonical": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)",
       "editions": [
         {
-          "name": "Publication",
-          "ig-version": "2.2.0",
-          "package": "ihe.iti.npfs#2.2.0",
+          "name": "STU3 Trial-Implementation",
+          "ig-version": "0.2.0",
+          "package": "ihe.iti.npfs#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/NPFS/2.2.0"
+          "url": "http://wiki.ihe.net/index.php/Non-patient_File_Sharing_(NPFS)"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Unable to resolve package id ihe.iti.npfs#0.2.0"
+      }
     },
     {
       "name": "IHE Standardized Operational Log of Events (SOLE)",
@@ -1452,11 +1626,11 @@
       "product": [
         "fhir"
       ],
-      "country": "us",
+      "country": "uv",
       "language": [
         "en"
       ],
-      "history": "http://hl7.org/fhir/us/ecr/history.html",
+      "history": "http://hl7.org/fhir/uv/ecr/history.html",
       "canonical": "http://hl7.org/fhir/us/ecr",
       "ci-build": "http://build.fhir.org/ig/HL7/case-reporting",
       "analysis": {
@@ -1475,12 +1649,30 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.1.1",
-          "package": "hl7.fhir.us.ecr#2.1.1",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.ecr#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/ecr/STU2.1"
+        },
+        {
+          "name": "STU 2 on FHIR R4",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.ecr#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ecr/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.ecr#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/ecr/STU1"
         }
       ]
     },
@@ -1511,13 +1703,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.livd#1.0.0-ballot",
+          "name": "STU 1 (FHIR R4) Ballot",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.livd#0.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/livd/2024Jan"
+          "url": "http://hl7.org/fhir/uv/livd/2021Jan"
         }
       ]
     },
@@ -1642,13 +1834,22 @@
       },
       "editions": [
         {
-          "name": "STU 2.0",
-          "ig-version": "2.0.1",
-          "package": "hl7.fhir.us.davinci-crd#2.0.1",
+          "name": "STU 1.1 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-crd#1.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-crd/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-crd/2022May"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-crd#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-crd/STU1"
         }
       ]
     },
@@ -1685,13 +1886,58 @@
       },
       "editions": [
         {
-          "name": "STU4 (v4.0.0)",
-          "ig-version": "4.0.0",
-          "package": "hl7.fhir.us.davinci-deqm#4.0.0",
+          "name": "STU4 (v4.0.0) Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-deqm#4.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-deqm/STU4"
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2023Jan"
+        },
+        {
+          "name": "STU 3",
+          "ig-version": "3.1.0",
+          "package": "hl7.fhir.us.davinci-deqm#3.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU3.1"
+        },
+        {
+          "name": "STU 3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.us.davinci-deqm#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU3"
+        },
+        {
+          "name": "STU 3",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.us.davinci-deqm#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2020Sep"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-deqm#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-deqm#1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/STU1"
         }
       ]
     },
@@ -1722,13 +1968,31 @@
       },
       "editions": [
         {
-          "name": "STU 1.3 on FHIR R4",
-          "ig-version": "1.3.0",
-          "package": "hl7.fhir.us.odh#1.3.0",
+          "name": "STU 1.2 on FHIR R4",
+          "ig-version": "1.2.0",
+          "package": "hl7.fhir.us.odh#1.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/odh/STU1.3"
+          "url": "http://hl7.org/fhir/us/odh/STU1.2"
+        },
+        {
+          "name": "STU 1.1 on FHIR R4",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.odh#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/odh/STU1.1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.odh#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/odh/STU1"
         }
       ]
     },
@@ -1841,13 +2105,31 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.2 Ballot",
-          "ig-version": "2.2.0-ballot",
-          "package": "hl7.fhir.uv.smart-app-launch#2.2.0-ballot",
+          "name": "STU 2.1 Draft",
+          "ig-version": "2.1.0-ballot",
+          "package": "hl7.fhir.uv.smart-app-launch#2.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2024Jan"
+          "url": "http://hl7.org/fhir/smart-app-launch/2023Jan"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.smart-app-launch#1.0.0",
+          "fhir-version": [
+            "3.0.1"
+          ],
+          "url": "http://hl7.org/fhir/smart-app-launch/1.0.0"
         }
       ]
     },
@@ -1882,13 +2164,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.bser#2.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.bser#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bser/2023Sep"
+          "url": "http://hl7.org/fhir/us/bser/STU1"
         }
       ]
     },
@@ -1994,13 +2276,40 @@
       },
       "editions": [
         {
-          "name": "STU5 (v5.0.0) Ballot",
-          "ig-version": "5.0.0-ballot",
-          "package": "hl7.fhir.us.cqfmeasures#5.0.0-ballot",
+          "name": "STU 4 Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.cqfmeasures#4.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cqfmeasures/2024Jan"
+          "url": "http://hl7.org/fhir/us/cqfmeasures/2023Jan"
+        },
+        {
+          "name": "STU3",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#3.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU3"
+        },
+        {
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.cqfmeasures#1.0.0",
+          "fhir-version": [
+            "3.0.2"
+          ],
+          "url": "http://hl7.org/fhir/us/cqfmeasures/STU1"
         }
       ]
     },
@@ -2032,13 +2341,22 @@
       },
       "editions": [
         {
-          "name": "STU 2.0",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-dtr#2.0.0",
+          "name": "STU 1.1 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-dtr#1.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-dtr/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-dtr/2022May"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-dtr#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-dtr/STU1"
         }
       ]
     },
@@ -2114,13 +2432,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.eltss#2.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.eltss#1.0.0",
           "fhir-version": [
-            "4.0.1"
+            "4.0.0"
           ],
-          "url": "http://hl7.org/fhir/us/eltss/2024Jan"
+          "url": "http://hl7.org/fhir/us/eltss/STU1"
         }
       ]
     },
@@ -2220,12 +2538,21 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.2.0",
-          "package": "hl7.fhir.us.vrdr#2.2.0",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.vrdr#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vrdr/STU2.2"
+          "url": "http://hl7.org/fhir/us/vrdr/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.vrdr#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/vrdr/STU1"
         }
       ]
     },
@@ -2332,7 +2659,7 @@
       "category": "EHR Access",
       "npm-name": "argonaut.us.clinicalnotes",
       "description": "This implementation guide provides implementers with FHIR profiles and guidance to create, use, and share Clinical Notes",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -2360,7 +2687,7 @@
       "category": "EHR Access",
       "npm-name": "argonaut.us.questionnaire",
       "description": "This implementation guide provides implementers with FHIR RESTful APIs and guidance to create, use and share between organizations standard assessment forms and the assessment responses",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -2411,12 +2738,30 @@
       "editions": [
         {
           "name": "Release",
-          "ig-version": "3.1.0",
-          "package": "hl7.fhir.dk.core#3.1.0",
+          "ig-version": "2.1.0",
+          "package": "hl7.fhir.dk.core#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.dk/fhir/core/3.1.0"
+          "url": "http://hl7.dk/fhir/core/2.1.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.dk.core#2.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/2.0.0"
+        },
+        {
+          "name": "Release",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.dk.core#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.dk/fhir/core/1.1.0"
         }
       ]
     },
@@ -2518,7 +2863,7 @@
       "category": "National Base",
       "npm-name": "ch.fhir.ig.ch-crl",
       "description": "Implementation guide for the Cancer Registry Law (CRL)",
-      "authority": "FOPH (CH)",
+      "authority": "FOPH",
       "product": [
         "fhir"
       ],
@@ -2564,7 +2909,7 @@
       "category": "National Base",
       "npm-name": "ch.fhir.ig.atc",
       "description": "National Integration Profile for the Swiss Electronic Patient Record",
-      "authority": "FOPH (CH)",
+      "authority": "FOPH",
       "product": [
         "fhir"
       ],
@@ -2637,7 +2982,7 @@
       "category": "National Base",
       "npm-name": "ch.chmed16af.emediplan",
       "description": "eMediplan CHMED16AF Implementation Guide",
-      "authority": "IG eMediplan (CH)",
+      "authority": "IG eMediplan",
       "product": [
         "fhir"
       ],
@@ -2701,7 +3046,7 @@
       "category": "Patient Summary",
       "npm-name": "swiss.mednet.fhir",
       "description": "The mednet.swiss implementation guide describes the FHIR profiles used to interface with the mednet software",
-      "authority": "novcom AG (CH)",
+      "authority": "novcom AG",
       "product": [
         "fhir"
       ],
@@ -2769,13 +3114,31 @@
       },
       "editions": [
         {
-          "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-cdex#2.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-cdex#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-cdex/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-cdex/2022Sep"
+        },
+        {
+          "name": "STU1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-cdex#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1.1"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-cdex#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-cdex/STU1"
         }
       ]
     },
@@ -2807,13 +3170,22 @@
       },
       "editions": [
         {
-          "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-pdex#2.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-pdex#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-pdex/2022May"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-pdex#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pdex/STU1"
         }
       ]
     },
@@ -2861,16 +3233,16 @@
         "valuesets": 4,
         "codeSystems": 2
       },
-      "ci-build": "http://build.fhir.org/ig/HL7/HAI-LTCF",
+      "ci-build": "http://hl7.org/fhir/us/hai-ltcf/STU1",
       "editions": [
         {
-          "name": "STU 1.1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.hai-ltcf#1.1.0",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.hai-ltcf#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hai-ltcf/STU1.1"
+          "url": "http://hl7.org/fhir/us/hai-ltcf/STU1"
         }
       ]
     },
@@ -3002,13 +3374,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.uv.cpg#2.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cpg#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cpg/2024Jan"
+          "url": "http://hl7.org/fhir/uv/cpg/STU1"
         }
       ]
     },
@@ -3040,13 +3412,22 @@
       },
       "editions": [
         {
-          "name": "STU 3",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.us.mcode#3.0.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.mcode#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/STU3"
+          "url": "http://hl7.org/fhir/us/mcode/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.mcode#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/mcode/STU1"
         }
       ]
     },
@@ -3078,13 +3459,31 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.0.1",
-          "package": "hl7.fhir.us.davinci-pas#2.0.1",
+          "name": "STU 1.2 Ballot",
+          "ig-version": "1.2.0-ballot",
+          "package": "hl7.fhir.us.davinci-pas#1.2.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pas/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-pas/2022May"
+        },
+        {
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-pas#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pas/STU1.1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-pas#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-pas/STU1"
         }
       ]
     },
@@ -3141,7 +3540,7 @@
       "name": "Basisgegevensset Zorg || Patient Summary",
       "category": "Patient Summary",
       "description": "The Basisgegevensset Zorg, aka BgZ, is the minimum set of patient data that is important for continuity of care and is relevant irrespective of specialism, patient conditions and type of physicians. This set of patient data is recorded comparatively by all healthcare providers. This facilitates information exchange. The BgZ has been made consistent with the European Patient Summary.",
-      "authority": "Nictiz (NL)",
+      "authority": "Nictiz",
       "product": [
         "fhir"
       ],
@@ -3231,7 +3630,7 @@
       "category": "EHR Access",
       "npm-name": "fhir.argonaut.clinicalnotes",
       "description": "This implementation guide provides implementers with FHIR profiles and guidance to create, use, and share Clinical Notes",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -3268,7 +3667,7 @@
       "category": "EHR Access",
       "npm-name": "fhir.argonaut.questionnaire",
       "description": "Thi IG provides guidance to support interchange of simple forms based on the Questionnaire and QuestionnaireResponse resources: it provides implementers with FHIR RESTful APIs and guidance to create, use and share between organizations standard assessment forms and the assessment responses",
-      "authority": "Argonaut (US)",
+      "authority": "Argonaut",
       "product": [
         "fhir"
       ],
@@ -3515,13 +3914,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.security-label-ds4p#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.3.0",
+          "package": "hl7.fhir.uv.security-label-ds4p#0.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/security-label-ds4p/STU1"
+          "url": "http://hl7.org/fhir/uv/security-label-ds4p/2021Sep"
         }
       ]
     },
@@ -3544,13 +3943,22 @@
       "analysis": {},
       "editions": [
         {
-          "name": "Release 3 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.fhir.uv.shorthand#3.0.0-ballot",
+          "name": "N1 Normative+trial-use",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.uv.shorthand#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2023Sep"
+          "url": "http://hl7.org/fhir/uv/shorthand/N1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.shorthand#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/shorthand/STU1"
         }
       ]
     },
@@ -3658,12 +4066,39 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.0.1",
-          "package": "hl7.fhir.us.davinci-drug-formulary#2.0.1",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.0.1"
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1.1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1.0.1"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-drug-formulary#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/davinci-drug-formulary/STU1"
         }
       ]
     },
@@ -3830,13 +4265,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.v2mappings#1.0.0-ballot",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.v2mappings#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/v2mappings/2024Jan"
+          "url": "http://hl7.org/fhir/uv/v2mappings/2020Sep"
         }
       ]
     },
@@ -3912,23 +4347,23 @@
       ],
       "canonical": "http://terminology.hl7.org",
       "ci-build": "http://build.fhir.org/ig/HL7/UTG",
+      "editions": [
+        {
+          "name": "Publications",
+          "ig-version": "1.0.0",
+          "package": "hl7.terminology#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://terminology.hl7.org/1.0.0"
+        }
+      ],
       "analysis": {
         "content": true,
         "extensions": 9,
         "valuesets": 2483,
         "codeSystems": 1078
-      },
-      "editions": [
-        {
-          "name": "Publications",
-          "ig-version": "5.4.0",
-          "package": "hl7.terminology#5.4.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://terminology.hl7.org/5.4.0"
-        }
-      ]
+      }
     },
     {
       "name": "Situational Awareness for Novel Epidemic Response",
@@ -4091,6 +4526,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/specialty-rx",
+      "ci-build": "http://build.fhir.org/ig/HL7/specialty-rx",
       "analysis": {
         "content": true,
         "rest": true,
@@ -4104,16 +4540,24 @@
         "codeSystems": 4,
         "examples": 16
       },
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-specialty-rx",
       "editions": [
         {
-          "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.specialty-rx#2.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.specialty-rx#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/specialty-rx/STU2"
+          "url": "http://hl7.org/fhir/us/specialty-rx/2022Sep"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.specialty-rx#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/specialty-rx/STU1"
         }
       ]
     },
@@ -4143,13 +4587,13 @@
       },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.vr-common-library#2.0.0-ballot",
+          "name": "STU 1 on FHIR R4",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.vr-common-library#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vr-common-library/2024Jan"
+          "url": "http://hl7.org/fhir/us/vr-common-library/STU1"
         }
       ]
     },
@@ -4181,13 +4625,13 @@
       },
       "editions": [
         {
-          "name": "STU 1.2 Ballot",
-          "ig-version": "1.2.0-ballot",
-          "package": "hl7.fhir.uv.subscriptions-backport#1.2.0-ballot",
+          "name": "STU 1.1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.uv.subscriptions-backport#1.1.0",
           "fhir-version": [
             "4.3.0"
           ],
-          "url": "http://hl7.org/fhir/uv/subscriptions-backport/2024Jan"
+          "url": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1"
         }
       ]
     },
@@ -4206,6 +4650,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/bfdr",
+      "ci-build": "http://build.fhir.org/ig/HL7/bfdr",
       "analysis": {
         "content": true,
         "rest": true,
@@ -4217,16 +4662,15 @@
         "valuesets": 1,
         "examples": 137
       },
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-bfdr",
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.bfdr#2.0.0-ballot",
+          "name": "STU 1 on FHIR R4",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.bfdr#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/bfdr/2024Jan"
+          "url": "http://hl7.org/fhir/us/bfdr/STU1"
         }
       ]
     },
@@ -4260,13 +4704,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Release 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.medmorph#1.0.0",
+          "name": "STU 1 Draft",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.us.medmorph#0.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/medmorph/STU1"
+          "url": "http://hl7.org/fhir/us/medmorph/2022Jan"
         }
       ]
     },
@@ -4298,13 +4742,22 @@
       },
       "editions": [
         {
-          "name": "STU 2.1",
-          "ig-version": "2.1.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
+          "name": "STU 2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
+        },
+        {
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
         }
       ]
     },
@@ -4341,7 +4794,7 @@
       "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.nhsn-ade",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4376,7 +4829,7 @@
       "name": "NHSN Reporting: Inpatient Medication Administration",
       "category": "Pharmacy",
       "npm-name": "hl7.fhir.us.nhsn-med-admin",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4448,7 +4901,7 @@
       "name": "Clinical Quality Language Specification",
       "category": "infrastructure",
       "npm-name": "hl7.cql",
-      "description": "Clinical Quality Language (CQL) is a high-level, domain-specific language focused on clinical quality and targeted at measure and decision support artifact authors. In addition, this specification describes a machine-readable canonical representation called Expression Logical Model (ELM) targeted at implementations and designed to enable sharing of clinical knowledge.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4460,20 +4913,20 @@
       ],
       "canonical": "http://cql.hl7.org",
       "ci-build": "http://build.fhir.org/ig/HL7/cql",
-      "analysis": {
-        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
-      },
       "editions": [
         {
           "name": "Normative Normative",
-          "ig-version": "1.5.2",
-          "package": "hl7.cql#1.5.2",
+          "ig-version": "1.5.1",
+          "package": "hl7.cql#1.5.1",
           "fhir-version": [
             "4.0.1"
           ],
           "url": "http://cql.hl7.org/N1"
         }
-      ]
+      ],
+      "analysis": {
+        "error": "Error reading http://cql.hl7.org/N1/package.tgz: null"
+      }
     },
     {
       "name": "Immunization Decision Support Forecast FHIR IG",
@@ -4517,7 +4970,7 @@
       "name": "Profiles for ICSR Transfusion and Vaccination Adverse Event Detection and Reporting",
       "category": "Pharmaceutical",
       "npm-name": "hl7.fhir.us.icsr-ae-reporting",
-      "description": "This Implementation Guide provides a set of profiles and algorithms around the detection, validation, and reporting, as well as the eventual recording and persisting of Adverse Events associated with blood transfusions and vaccinations.  EHRs and Provider Networks can use this guide to understand the data elements needed to facilitate the electronic reporting of these adverse events as well as ways of mining their data to detect adverse events",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4542,9 +4995,9 @@
       },
       "editions": [
         {
-          "name": "STU Update",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.1",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.icsr-ae-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -4556,7 +5009,7 @@
       "name": "Immunization Decision Support Forecast FHIR IG",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.uv.immds",
-      "description": "The scope of this project is to produce and ballot a Standard for Trial Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in Immunization Decision Support Forecast.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4592,7 +5045,7 @@
       "name": "Security for Scalable Registration, Authentication, and Authorization",
       "category": "Security",
       "npm-name": "hl7.fhir.us.udap-security",
-      "description": "This implementation guide describes how to extend OAuth 2.0 to support secure and scalable workflows for business-to-business (B2B) apps that implement the client credentials flow or authorization code flow. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4623,7 +5076,7 @@
       "name": "Single Institutional Review Board (sIRB) Implementation Guide",
       "category": "Research",
       "npm-name": "hl7.fhir.us.sirb",
-      "description": "This IG covers questionnaires and questionnaire responses in support of capturing and exchange of standardized forms in support of a single IRB (Institutional Review Board) where a single IRB will expedite approval for a project but still need to send all documentation to multiple relying IRBs.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4641,13 +5094,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.sirb#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.sirb#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/sirb/STU1"
+          "url": "http://hl7.org/fhir/us/sirb/2021Sep"
         }
       ]
     },
@@ -4655,7 +5108,7 @@
       "name": "Sharing eCC Data from Pathology Labs to EHR",
       "category": "Documents",
       "npm-name": "hl7.fhir.us.cancer-reporting",
-      "description": "Integrating the Healthcare Enterprise (IHE) Structured Data Capture (SDC) on FHIR uses a form-driven workflow to capture and transmit encoded data by creating FHIR Observations. The primary use case for this is transmitting data captured in College of American Pathologists electronic Cancer Checklists (eCCs), which are distributed as IHE SDC templates.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4678,13 +5131,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.cancer-reporting#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.cancer-reporting#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cancer-reporting/STU1"
+          "url": "http://hl7.org/fhir/us/cancer-reporting/2021Sep"
         }
       ]
     },
@@ -4692,7 +5145,7 @@
       "name": "HL7 FHIR® Implementation Guide: Ophthalmology Retinal, Release 1",
       "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.eyecare",
-      "description": "Provides representation of ophthalmic domain and related clinical and administrative data elements in the FHIR format to support effective collaborative and continuity of care of patients suffering from eye conditions. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4729,7 +5182,7 @@
       "name": "SMART Health Cards Vaccination and Testing, Release 1 | STU 1",
       "category": "Public Health",
       "npm-name": "hl7.fhir.uv.shc-vaccination",
-      "description": "Defines the clinical and patient information contained within a SMART Health Card (SHC) related to vaccination and lab results related to an infectious disease like COVID-19.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4764,7 +5217,7 @@
       "name": "HL7 FHIR Implementation Guide for Military Service History and Status",
       "category": "Clinical Records",
       "npm-name": "hl7.fhir.us.military-service",
-      "description": "Supports Military Service History and Status reporting consistent with US regulatory requirements (i.e. Title 38 Veteran Benefits)",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4788,13 +5241,13 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.military-service#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.military-service#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/military-service/STU1"
+          "url": "http://hl7.org/fhir/us/military-service/2021Sep"
         }
       ]
     },
@@ -4803,7 +5256,7 @@
       "category": "Immunication and Observation",
       "npm-name": "dccfhirig.mohw.gov.tw",
       "description": "Taiwan Digital COVID-19 Certificate",
-      "authority": "MOHW (TW)",
+      "authority": "MOHW",
       "product": [
         "fhir"
       ],
@@ -4830,7 +5283,7 @@
       "name": "Logica COVID-19 FHIR Profile Library IG",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.covid19library",
-      "description": "Support for exchanges of COVD-19 Patient Specific Data.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4867,7 +5320,7 @@
       "name": "FHIR for FAIR - FHIR Implementation Guide",
       "category": "Research",
       "npm-name": "hl7.fhir.uv.fhir-for-fair",
-      "description": "The FHIR for FAIR Implementation Guide provides guidance on how the HL7 FHIR standard can be used for supporting the implementation and the assessment of the FAIR principles for health data",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4898,7 +5351,7 @@
       "name": "Da Vinci Patient Cost Transparency Implementation Guide",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-pct",
-      "description": "Enables standard exchange of healthcare cost for items, services, and collection of services among stakeholders such as payers, providers, and patients in support of driving transparency for patients with accurate, timely access to cost of medical care prior to delivery of care in order to become better stewards of their healthcare dollars.   This guide creates a standard exchange to reduce administrative burden for communicating Good Faith Estimates (GFE) from providers of costs and services to payers and then, payers creating and returning an Advanced Explanation of Benefits (AEOB) back to the patient as required by law.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4909,6 +5362,7 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/davinci-pct",
+      "ci-build": "http://hl7.org/fhir/us/davinci-pct",
       "analysis": {
         "content": true,
         "clinicalCore": true,
@@ -4920,16 +5374,15 @@
         "codeSystems": 14,
         "examples": 18
       },
-      "ci-build": "http://build.fhir.org/ig/HL7/davinci-pct",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.davinci-pct#1.1.0",
+          "name": "STU 1 Draft",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.davinci-pct#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pct/STU1.1"
+          "url": "http://hl7.org/fhir/us/davinci-pct/2022Jan"
         }
       ]
     },
@@ -4937,7 +5390,7 @@
       "name": "Hybrid / Intermediary Exchange",
       "category": "EHR Access",
       "npm-name": "hl7.fhir.us.exchange-routing",
-      "description": "This IG is meant to define the standard for how providers, payers, intermediaries, and other actors will use  routing information about the transaction originator and destination to support a hybrid model of point-to-point interaction as well as intermediary brokered interactions without the actors in either side needing detailed knowledge of how intermediary routing works.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4968,7 +5421,7 @@
       "name": "PACIO Re-Assessment Timepoints Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-rt",
-      "description": "The Re-assessment Timepoints FHIR implementation guide (IG) describes how to create definitions for sub-periods of time within an extended post-acute care (PAC) admission and encounter. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5006,7 +5459,7 @@
       "name": "Da Vinci Risk Adjustment FHIR Implementation Guide",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-ra",
-      "description": "Enable standard exchange of risk-based coding gaps among stakeholders such as payers, providers, and government care programs in support of driving towards accurate and complete documentation of health conditions that would lead to more accurate risk-adjustment payment calculations, reduced administrative burden, and improved quality of care.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5032,13 +5485,13 @@
       },
       "editions": [
         {
-          "name": "STU2 (v2.0.0) Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-ra#2.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.davinci-ra#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-ra/2023May"
+          "url": "http://hl7.org/fhir/us/davinci-ra/STU1"
         }
       ]
     },
@@ -5046,7 +5499,7 @@
       "name": "International Patient Access",
       "category": "Patient Summary",
       "npm-name": "hl7.fhir.uv.ipa",
-      "description": "International Patient Access (IPA) defines a minimal, base set of FHIR profiles specifically intended to be used as-is, or built on top of by countries looking to enable patient access and patient-facing apps accessing data via FHIR",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5070,13 +5523,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ipa#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.ipa#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ipa/STU1"
+          "url": "http://hl7.org/fhir/uv/ipa/2022Jan"
         }
       ]
     },
@@ -5084,7 +5537,7 @@
       "name": "PACIO Advance Directive Information Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-adi",
-      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual's advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5123,7 +5576,7 @@
       "name": "CARIN Digital Insurance Card",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.insurance-card",
-      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a 'Digital Insurance Card' Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5162,7 +5615,7 @@
       "name": "Radiation Dose Summary for Diagnostic Procedures on FHIR",
       "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.radiation-dose-summary",
-      "description": "Provides a summary of the DICOM radiation dose report in FHIR related to imaging procedures.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5200,7 +5653,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Central Cancer Registry Reporting Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.central-cancer-registry-reporting",
-      "description": "This guide defines how healthcare organizations onboard a new research data partner. It provides guidance to extract data from EHRs, transform the data, and populate data marts",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5238,7 +5691,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Healthcare Surveys Reporting Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.health-care-surveys-reporting",
-      "description": "This guide focuses on the National Hospital Care Survey (NHCS) and National Ambulatory Medical Care Survey (NAMCS) data that will be extracted from EHRs and/or clinical data repositories via FHIR and APIs and sent to a system hosted at the federal level.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5261,13 +5714,13 @@
       },
       "editions": [
         {
-          "name": "STU1 Release 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.health-care-surveys-reporting#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.us.health-care-surveys-reporting#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU1"
+          "url": "http://hl7.org/fhir/us/health-care-surveys-reporting/2022Jan"
         }
       ]
     },
@@ -5275,7 +5728,7 @@
       "name": "Making EHR Data MOre available for Research and Public Health (MedMorph) Research Content IG",
       "category": "Public Health and Research",
       "npm-name": "hl7.fhir.us.medmorph-research-dex",
-      "description": "This guide focuses on the National Hospital Care Survey (NHCS) and National Ambulatory Medical Care Survey (NAMCS) data that will be extracted from EHRs and/or clinical data repositories via FHIR and APIs and sent to a system hosted at the federal level.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5310,7 +5763,7 @@
       "name": "Medicolegal Death Investigation (MDI)",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.mdi",
-      "description": "This US-specific IG supports exchange of data for medicolegal death investigations, for example from a toxicology lab to a case management system (upstream), and from a case management system to a  jurisdictional electronic death registration system (EDRS)(downstream).",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5336,12 +5789,12 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.mdi#1.1.0",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.mdi#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mdi/STU1.1"
+          "url": "http://hl7.org/fhir/us/mdi/STU1"
         }
       ]
     },
@@ -5380,7 +5833,7 @@
       "name": "Maternal and Infant Health Research",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.mihr",
-      "description": "This guide focuses on calculation of maternal-related cohorts from available maternal care information sources. It specifies how to calculate two maternal-related cohort measures and link to maternal longitudinal record with associated child record(s). Initial use cases focus on pregnancy and subsequent death within a specific time frame and hypertensive disorders of pregnancy pre, ante, and postpartum. The IG leverages MedMorph, SANER, US Core profiles, and broader public health IGs",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5398,21 +5851,21 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.mihr#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mihr#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mihr/STU1"
+          "url": "http://hl7.org/fhir/us/mihr/2022May"
         }
       ]
     },
     {
       "name": "Patient Request for Corrections Implementation Guide",
-      "category": "Personal Healthcare",
+      "category": "tbd",
       "npm-name": "hl7.fhir.uv.patient-corrections",
-      "description": "The Patient Corrections FHIR implementation guide standardizes the method of electronically exchanging the required information to facilitate the patient’s request for corrections and the electronic communication that reflects the workflow of the correction process. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5450,7 +5903,7 @@
       "name": "Interoperable Digital Identity and Patient Matching",
       "category": "Security",
       "npm-name": "hl7.fhir.us.identity-matching",
-      "description": "This FHIR implementation Guide provides guidance on leveraging Patient Matching and Digital Identity capabilities together to improve match quality and overall identity assurance in FHIR transactions. It defines methods to inform and execute cross organizational and internal patient matches via FHIR when requested for a permitted purpose or authorized by the Patient directly or by the Patient’s delegate. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5472,13 +5925,13 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.identity-matching#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/identity-matching/STU1"
+          "url": "http://hl7.org/fhir/us/identity-matching/2022May"
         }
       ]
     },
@@ -5522,7 +5975,7 @@
       "name": "FHIRcast",
       "category": "Imaging",
       "npm-name": "hl7.fhir.uv.fhircast",
-      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user's session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5593,12 +6046,21 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "2.3.1",
-          "package": "ihe.iti.mhds#2.3.1",
+          "ig-version": "2.3.0",
+          "package": "ihe.iti.mhds#2.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.1"
+          "url": "https://profiles.ihe.net/ITI/MHDS/2.3.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "2.1.0",
+          "package": "ihe.iti.mhds#2.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHDS.pdf"
         }
       ]
     },
@@ -5799,12 +6261,48 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "4.2.1",
-          "package": "ihe.iti.mhd#4.2.1",
+          "ig-version": "4.2.0",
+          "package": "ihe.iti.mhd#4.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.1"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "4.1.0",
+          "package": "ihe.iti.mhd#4.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.1.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "4.0.2",
+          "package": "ihe.iti.mhd#4.0.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.0.2"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "4.0.1",
+          "package": "ihe.iti.mhd#4.0.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/MHD/4.0.1"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "3.2.0",
+          "package": "ihe.iti.mhd#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD_Rev3-2_TI_2020-08-28.pdf"
         }
       ]
     },
@@ -5835,12 +6333,21 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.1.2",
-          "package": "ihe.iti.balp#1.1.2",
+          "ig-version": "1.1.1",
+          "package": "ihe.iti.balp#1.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.2"
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.1"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "1.1.0",
+          "package": "ihe.iti.balp#1.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.0"
         }
       ]
     },
@@ -5887,7 +6394,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.core",
       "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -5924,7 +6431,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.core-clinical",
       "description": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -5952,7 +6459,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.medication",
       "description": "HL7 Belgium FHIR Implementation Guide - Medication profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -5980,7 +6487,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.vaccination",
       "description": "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -6009,33 +6516,6 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
-        },
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.vaccination#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
-        },
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.vaccination#1.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
-        },
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.vaccination#1.0.3",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
         }
       ]
     },
@@ -6044,7 +6524,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.mycarenet",
       "description": "HL7 Belgium FHIR Implementation Guide - MyCareNet profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -6072,7 +6552,7 @@
       "category": "National Base",
       "npm-name": "hl7.fhir.be.lab",
       "description": "HL7 Belgium FHIR Implementation Guide - Lab related profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -6096,11 +6576,48 @@
       ]
     },
     {
+      "name": "jp-core",
+      "category": "National Draft",
+      "npm-name": "jp-core.draft",
+      "description": "Japan core draft v1.0.8",
+      "authority": "JAMI FHIR Draft WG",
+      "product": [
+        "fhir"
+      ],
+      "country": "ja",
+      "language": [
+        "ja"
+      ],
+      "canonical": "http://jpfhir.jp/fhir/core",
+      "editions": [
+        {
+          "name": "jp-core.draft",
+          "ig-version": "1.0.8",
+          "package": "jp-core.draft#1.0.8",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://jpfhir.jp/jpcoreV1/packages"
+        }
+      ],
+      "analysis": {
+        "content": true,
+        "rest": true,
+        "clinicalCore": true,
+        "financials": true,
+        "medsMgmt": true,
+        "diagnostics": true,
+        "profiles": 30,
+        "extensions": 28,
+        "codeSystems": 1
+      }
+    },
+    {
       "name": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
       "category": "National Base",
       "npm-name": "hl7.fhir.be.allergy",
       "description": "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
-      "authority": "eHealth Platform (BE)",
+      "authority": "eHealth Platform",
       "product": [
         "fhir"
       ],
@@ -6129,78 +6646,34 @@
             "4.0.1"
           ],
           "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
-        },
-        {
-          "name": "Trial Use",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.be.allergy#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
-        },
-        {
-          "name": "Trial Use",
-          "ig-version": "1.2.0",
-          "package": "hl7.fhir.be.allergy#1.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0"
         }
       ]
     },
     {
-      "name": "eHealth FHIR Patient Will Profiles for Belgium",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.be.patientwill",
-      "description": "eHealth FHIR Patient Will Profiles for Belgium",
-      "authority": "eHealth Platform (BE)",
-      "country": "be",
-      "history": "https://www.ehealth.fgov.be/standards/fhir/patientwill/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/patientwill",
-      "ci-build": "http://build.fhir.org/ig/hl7-be/patientwill",
-      "editions": [
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.patientwill#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/patientwill/1.0.0"
-        }
-      ]
-    }
-    ,
-    {
       "name": "TW Core",
       "category": "National Base",
-      "npm-name": "tw.gov.mohw.twcore",
+      "npm-name": "twcore.mohw.gov.tw",
       "description": "Taiwan Core Implementation Guide",
-      "authority": "MOHW (TW)",
+      "authority": "MOHW",
       "product": [
         "fhir"
       ],
       "country": "tw",
-      "history": "https://twcore.mohw.gov.tw/ig/twcore/history.html",
+      "history": "https://twcore.mohw.gov.tw/fhir/history.html",
       "language": [
-        "zh-TW"
+        "zh-tw"
       ],
-      "canonical": "https://twcore.mohw.gov.tw/ig/twcore",
-      "ci-build": "https://twcore.mohw.gov.tw/ig/twcore",
+      "canonical": "https://twcore.mohw.gov.tw/ig",
+      "ci-build": "https://twcore.mohw.gov.tw/ig",
       "editions": [
         {
-          "name": "Trial Use",
-          "ig-version": "0.1.0",
-          "package": "tw.gov.mohw.twcore#0.1.0",
+          "name": "CI Build",
+          "ig-version": "0.1.0-Trial Use",
+          "package": "twcore.mohw.gov.tw#0.1.0-Trial Use",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://twcore.mohw.gov.tw/ig/twcore"
+          "url": "https://twcore.mohw.gov.tw/ig"
         }
       ]
     },
@@ -6208,7 +6681,7 @@
       "name": "CodeX™ Radiation Therapy",
       "category": "Care Planning",
       "npm-name": "hl7.fhir.us.codex-radiation-therapy",
-      "description": "The CodeX Radiation Therapy (RT) Implementation Guide (IG) describes how to represent and exchange radiation therapy treatment information. The CodeX RT IG enables radiation oncology information systems to generate treatment summaries that are retrievable by health systems, or other information systems, for display within the EHR interface to be used for care coordination and data reuse. ",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6222,13 +6695,13 @@
       "ci-build": "http://build.fhir.org/ig/codex-radiation-therapy",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.codex-radiation-therapy#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/STU1"
+          "url": "http://hl7.org/fhir/us/codex-radiation-therapy/2022Sep"
         }
       ]
     },
@@ -6236,7 +6709,7 @@
       "name": "At-Home In-Vitro Test Report",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.home-lab-report",
-      "description": "This Implementation Guide describes a framework for use for transmitting At-Home Point-of-Care lab test results to local, state, territorial and federal health agencies. This version also contains workflow description and profiles and vocabulary for transmitting Covid-At-Home tests.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6250,13 +6723,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/home-lab-report",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.home-lab-report#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.home-lab-report#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/home-lab-report/STU1"
+          "url": "http://hl7.org/fhir/us/home-lab-report/2022Sep"
         }
       ]
     },
@@ -6264,7 +6737,7 @@
       "name": "PACIO Personal Functioning and Engagement Implementation Guide",
       "category": "Patient Summary",
       "npm-name": "hl7.fhir.us.pacio-pfe",
-      "description": "The Personal Functioning and Engagement IG provides a framework for communicating the functioning of an individual, including their body functions and structure and their activities and participation in society, as well as related clinical care. The IG draws on the health and health-related domains defined within the International Classification of Functioning, Disability and Health (commonly known as ICF).",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6278,13 +6751,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.pacio-pfe#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.pacio-pfe#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-pfe/STU1"
+          "url": "http://hl7.org/fhir/us/pacio-pfe/2022Sep"
         }
       ]
     },
@@ -6292,7 +6765,7 @@
       "name": "US Public Health Profiles Library",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.ph-library",
-      "description": "The US Public Health Profiles Library is a collection of reusable architecture and content profiles representing common public health concepts and patterns. It provides a framework for inclusion in multiple use case specific implementation guides focused on the exchange of Public Health information.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6306,13 +6779,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ph-library",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.ph-library#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.ph-library#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/ph-library/STU1"
+          "url": "http://hl7.org/fhir/us/ph-library/2022Sep"
         }
       ]
     },
@@ -6320,7 +6793,7 @@
       "name": "National Healthcare Query",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-query",
-      "description": "Standard for endpoint query request and response for Validated National Directory federated access directories",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6348,7 +6821,7 @@
       "name": "National Healthcare Directory Exchange",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-exchange",
-      "description": "Standard for exchange of Health and Social Care Directory information between a Validated National Directory and a federated directory (primarily for workflow integration).",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6376,7 +6849,7 @@
       "name": "National Healthcare Directory Attestation",
       "category": "Administration",
       "npm-name": "hl7.fhir.us.directory-attestation",
-      "description": "Provides the methods and standards for the contribution, attestation, and validation of information in the National Directory.  This applies to individual demographics, organizational demographics, relationship between individuals and organizations, services provided, and electronic endpoint metadata.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6419,12 +6892,21 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.5.1",
-          "package": "ihe.iti.svcm#1.5.1",
+          "ig-version": "1.5.0",
+          "package": "ihe.iti.svcm#1.5.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/SVCM/1.5.1"
+          "url": "https://profiles.ihe.net/ITI/SVCM/1.5.0"
+        },
+        {
+          "name": "Publication",
+          "ig-version": "1.3.0",
+          "package": "ihe.iti.svcm#1.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_SVCM_Rev1-3_TI_2022-06-17.pdf"
         }
       ]
     },
@@ -6432,7 +6914,7 @@
       "name": "IHE SDC/eCC on FHIR",
       "category": "Orders and Observaitons",
       "npm-name": "hl7.fhir.uv.ihe-sdc-ecc",
-      "description": "Integrating the Healthcare Enterprise (IHE) Structured Data Capture (SDC) on FHIR uses a form-driven workflow to capture and transmit encoded data by creating FHIR Observations. The primary use case for this is transmitting data captured in College of American Pathologists electronic Cancer Checklists (eCCs), which are distributed as IHE SDC templates.",
+      "description": "??",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -6446,13 +6928,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/ihe-sdc-ecc-on-fhir",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ihe-sdc-ecc#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/STU1"
+          "url": "http://hl7.org/fhir/uv/ihe-sdc-ecc/2022Sep"
         }
       ]
     },
@@ -6513,13 +6995,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-gender-harmony",
       "editions": [
         {
-          "name": "Informative Edition 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.xprod.uv.gender-harmony#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.xprod.uv.gender-harmony#1.0.0-ballot",
           "fhir-version": [
-            "5.0.0"
+            "5.0.0-ballot"
           ],
-          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/informative1"
+          "url": "http://hl7.org/xprod/ig/uv/gender-harmony/2022Sep"
         }
       ]
     },
@@ -6552,7 +7034,7 @@
       "category": "National Base",
       "npm-name": "nhs.digital.r4",
       "description": "NHS Digital FHIR R4 Implementation Guide",
-      "authority": "NHS Digital (UK)",
+      "authority": "NHS Digital",
       "country": "gb",
       "history": "https://simplifier.net/guide/NHSDigital",
       "language": [
@@ -6586,13 +7068,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/emedicinal-product-info",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot",
           "fhir-version": [
-            "5.0.0"
+            "5.0.0-ballot"
           ],
-          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
+          "url": "http://hl7.org/fhir/uv/emedicinal-product-info/2023Jan"
         }
       ]
     },
@@ -6611,13 +7093,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/vulcan-rwd",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.vulcan-rwd#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/vulcan-rwd/STU1"
+          "url": "http://hl7.org/fhir/uv/vulcan-rwd/2023Jan"
         }
       ]
     },
@@ -6637,12 +7119,12 @@
       "editions": [
         {
           "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot2",
-          "package": "hl7.fhir.us.mcc#1.0.0-ballot2",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.mcc#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcc/2023Sep"
+          "url": "http://hl7.org/fhir/us/mcc/2023Jan"
         }
       ]
     },
@@ -6658,16 +7140,16 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/uv/vulcan-schedule",
-      "ci-build": "http://build.fhir.org/ig/HL7/Vulcan-schedule-ig",
+      "ci-build": "http://build.fhir.org/ig/HL7/vulcan-schedule",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.vulcan-schedule#1.0.0",
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.vulcan-schedule#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
+          "url": "http://hl7.org/fhir/uv/vulcan-schedule/2023Jan"
         }
       ]
     },
@@ -6686,13 +7168,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/ehrs-rle-ig",
       "editions": [
         {
-          "name": "Informative Release 1 Informative",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.ehrs-rle#1.1.0",
+          "name": "Informative Release 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ehrs-rle#1.0.0-ballot",
           "fhir-version": [
-            "5.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ehrs-rle/Informative1"
+          "url": "http://hl7.org/fhir/uv/ehrs-rle/2023Jan"
         }
       ]
     },
@@ -6700,7 +7182,7 @@
       "name": "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
       "category": "Measure Set",
       "npm-name": "hl7.fhir.uv.ichom-breast-cancer",
-      "description": "This Implementation Guide describes the representation of the ICHOM Breast Cancer Patient Centered Outcomes Measures in HL7 FHIR and a description of the use cases for which these are be intended to be used.",
+      "description": "??",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html",
@@ -6711,13 +7193,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ichom-breast-cancer-ig",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.ichom-breast-cancer#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
+          "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/2023Jan"
         }
       ]
     },
@@ -6725,7 +7207,7 @@
       "name": "FHIR IG Human Services Directory",
       "category": "Mappings to Other Standards",
       "npm-name": "hl7.fhir.us.hsds",
-      "description": "FHIR API-based data exchange enabling healthcare provider, community-based organization, payer, and consumer-facing application systems to search standardized directories of organizations providing human and social services, providing foundational support for downstream care planning and management use cases, including closed loop referrals, care coordination and care management activities, consumer-based search for assistance, etc. This guide is a US Realm specification.",
+      "description": "??",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/hsds/history.html",
@@ -6736,13 +7218,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/FHIR-IG-Human-Services-Directory",
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.hsds#1.0.0",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.hsds#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/hsds/STU1"
+          "url": "http://hl7.org/fhir/us/hsds/2023Jan"
         }
       ]
     },
@@ -6751,8 +7233,8 @@
       "category": "CareCommunication",
       "npm-name": "medcom.fhir.dk.carecommunication",
       "description": "This IG includes profiles used in MedCom\u0027s CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and the social area.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/carecommunication/history.html",
       "language": [
         "en"
@@ -6785,8 +7267,8 @@
       "category": "Core",
       "npm-name": "medcom.fhir.dk.core",
       "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom\u0027s FHIR standards.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/core/history.html",
       "language": [
         "en"
@@ -6819,8 +7301,8 @@
       "category": "Terminology",
       "npm-name": "medcom.fhir.dk.terminology",
       "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom\u0027s FHIR standards.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/terminology/history.html",
       "language": [
         "en"
@@ -6862,8 +7344,8 @@
       "category": "HospitalNotification",
       "npm-name": "medcom.fhir.dk.hospitalnotification",
       "description": "This IG includes profiles used in MedCom\u0027s HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start, end, and period of leave of the citizen’s stay at the hospital. The communication is messagebased.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/hospitalnotification/history.html",
       "language": [
         "en"
@@ -6905,8 +7387,8 @@
       "category": "Acknowledgement",
       "npm-name": "medcom.fhir.dk.acknowledgement",
       "description": "This IG includes profiles used in MedCom\u0027s Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/acknowledgement/history.html",
       "language": [
         "en"
@@ -6939,8 +7421,8 @@
       "category": "Messaging",
       "npm-name": "medcom.fhir.dk.messaging",
       "description": "This IG includes messaging profiles defined by MedCom. These profiles are used in messagebased communication.",
-      "authority": "MedCom (DK)",
-      "country": "dk",
+      "authority": "MedCom",
+      "country": "Denmark",
       "history": "http://medcomfhir.dk/ig/messaging/history.html",
       "language": [
         "en"
@@ -6972,1169 +7454,49 @@
       "name": "CDA: Clinical Document Architecture",
       "category": "CDA",
       "npm-name": "hl7.cda.uv.core",
-      "description": "The base CDA specification republished using the FHIR publication tooling",
+      "description": "??",
       "authority": "HL7",
-      "country": "uv",
+      "country": "??",
       "history": "http://hl7.org/cda/stds/core/history.html",
       "language": [
         "en"
       ],
-      "product": [
-        "cda"
-      ],
       "canonical": "http://hl7.org/cda/stds/core",
-      "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-sd",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-2.0",
       "editions": [
         {
-          "name": "CDA2 Draft",
-          "ig-version": "2.0.0-sd-snapshot1",
-          "package": "hl7.cda.uv.core#2.0.0-sd-snapshot1",
+          "name": "CDA 2.1 Draft",
+          "ig-version": "2.1.0-draft1",
+          "package": "hl7.cda.uv.core#2.1.0-draft1",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1"
+          "url": "http://hl7.org/cda/stds/core/draft1"
         }
       ]
     },
     {
-      "name": "Integrated Reporting Applications",
-      "category": "Imaging",
-      "npm-name": "ihe.rad.ira",
-      "description": "The Integrated Reporting Applications (IRA) profile helps applications that are used together during reporting (e.g., image display, report creator, clinical applications, AI tools, etc) to share information using a standard called FHIRcast. Each application can share what it is doing and the data it is creating, referred to as Context and Content, respectively. Other applications are notified so they can then intelligently synchronize their behavior or use the new data.",
-      "authority": "IHE",
-      "country": "uv",
-      "history": "https://profiles.ihe.net/RAD/IRA/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://profiles.ihe.net/RAD/IRA",
-      "ci-build": "http://build.fhir.org/ig/IHE/RAD.IRA/branches/master/index.html",
-      "editions": [
-        {
-          "name": "Publication",
-          "ig-version": "1.0.0",
-          "package": "ihe.rad.ira#1.0.0",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "https://profiles.ihe.net/RAD/IRA/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "PDSm",
-      "category": "Clinical Documents",
-      "npm-name": "ans.fhir.fr.pdsm",
-      "description": "Partage de Documents de Santé en mobilité (PDSm)",
-      "authority": "ANS (FR)",
-      "country": "fr",
-      "language": "fr",
-      "history": "https://interop.esante.gouv.fr/ig/fhir/pdsm/history.html",
-      "canonical": "https://interop.esante.gouv.fr/ig/fhir/pdsm",
-      "ci-build": "https://build.interop.esante.gouv.fr/ig/fhir/pdsm",
-      "editions": [
-        {
-          "name": "Release 17.3.2023 (3.0.0)",
-          "ig-version": "3.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "package": "ans.fhir.fr.pdsm#3.0.0",
-          "url": "https://interop.esante.gouv.fr/ig/fhir/pdsm/3.0.0"
-        }
-      ]
-    },
-    {
-      "name": "U.S. Physical Activity IG",
-      "category": "Care Planning",
-      "npm-name": "hl7.fhir.us.physical-activity",
-      "description": "Defines U.S. interoperability expectations related to physical activity, including primary assessment, supporting measures, plans, goals, referrals and patient-engagement.  Supports interoperability between care managers (e.g. EHRs, community health systems, etc.), service providers (physical activity professionals including exercise physiologists, personal trainers, community fitness centers, etc.), as well as patient-facing applications.",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/physical-activity/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/physical-activity",
-      "ci-build": "http://build.fhir.org/ig/HL7/physical-activity",
-      "editions": [
-        {
-          "name": "STU 1.0",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.physical-activity#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/physical-activity/STU1"
-        }
-      ]
-    },
-    {
-      "name": "Protocols for Clinical Registry Extraction and Data Submission (CREDS) IG",
-      "category": "Public Health and Research",
-      "npm-name": "hl7.fhir.us.registry-protocols",
-      "description": "This guide profiles how a registry says what needs to be sent, and how a healthcare provider organization can use that to automate the collection and formatting the data into a submission, conforming to registry or FHIR implementation guide defined profiles and protocols.",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/registry-protocols/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/registry-protocols",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-registry-protocols-ig",
-      "editions": [
-        {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.registry-protocols#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/registry-protocols/STU1"
-        }
-      ]
-    },
-    {
-      "name": "Real Time Location Services Implementation Guide",
-      "category": "Administration",
-      "npm-name": "hl7.fhir.uv.rtls",
-      "description": "This implementation guide defines the use of FHIR resources to exchange real time data about where patients, staff, device, or other assets are located within a hospital or other healthcare facility. This data is typically exchanged between a healthcare system and a Real Time Location System (RTLS) that captures, processes, and stores information about the location of tracking tags.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/rtls/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/rtls",
-      "ci-build": "http://build.fhir.org/ig/HL7/rtls-ig",
-      "editions": [
-        {
-          "name": "STU 1.0 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.rtls#1.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/rtls/2023May"
-        }
-      ]
-    },
-    {
-      "name": "Adverse Event Clinical Research R4 Backport",
-      "category": "Research",
-      "npm-name": "hl7.fhir.uv.ae-research-backport-ig",
-      "description": "This IG is for the clinical research setting. It defines the data elements needed to support the workflow for collecting and reporting serious and non-serious adverse events in clinical research to meet the need for regulatory submission requirements.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/ae-research-backport-ig/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/ae-research-backport-ig",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-backport-ig",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/ae-research-backport-ig/2023Sep"
-        }
-      ]
-    },
-    {
-      "name": "CCDA: Consolidated CDA Release",
-      "category": "CDA",
-      "npm-name": "hl7.cda.us.ccda",
-      "description": "A consolidated library of CDA templates for clinical notes applicable to the US Realm",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/cda/stds/ccda/history.html",
-      "language": [
-        "en"
-      ],
-      "product": [
-        "cda"
-      ],
-      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
-      "canonical": "http://hl7.org/cda/us/ccda",
-      "editions": [
-        {
-          "name": "CCDA 3.0 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.cda.us.ccda#3.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/cda/us/ccda/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "Adverse Event Clinical Research",
-      "category": "Research",
-      "npm-name": "hl7.fhir.uv.ae-research-ig",
-      "description": "This IG is for the clinical research setting. It defines the data elements needed to support the workflow for collecting and reporting serious and non-serious adverse events in clinical research to meet the need for regulatory submission requirements.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/ae-research-ig/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/ae-research-ig",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-ig",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ae-research-ig#1.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ae-research-ig/2023Sep"
-        }
-      ]
-    },
-    {
-      "name": "FHIR Core Extensions Registry",
-      "category": "Extensions",
-      "npm-name": "hl7.fhir.uv.extensions",
-      "description": "This package defines the 'core extensions' - the extensions defined globally and available to all implementers",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/extensions/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/extensions",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
-      "editions": [
-        {
-          "name": "Releases Ballot",
-          "ig-version": "5.1.0-ballot",
-          "package": "hl7.fhir.uv.extensions#5.1.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/extensions/5.1.0-ballot"
-        }
-      ]
-    },
-    {
-      "name": "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
-      "category": "Administration",
-      "npm-name": "hl7.fhir.us.ndh",
-      "description": "Standard for the population, verification and exchange of Health and Social Care Directory information between a Validated National Directory and local directories (primarily for workflow integration).  This applies to individual demographics, organizational demographics, relationship between individuals and organizations, services provided, and electronic endpoint metadata",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/ndh/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/ndh",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-ndh",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.ndh#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/ndh/2023Sep"
-        }
-      ]
-    },
-    {
-      "name": "Privacy Consent on FHIR (PCF)",
-      "category": "Privacy / Security",
-      "npm-name": "ihe.iti.pcf",
-      "description": "The Privacy Consent on FHIR (PCF) Profile provides support for patient privacy consents and access control where a FHIR API is used to access Document Sharing Health Information Exchanges.",
-      "authority": "IHE",
-      "country": "uv",
-      "history": "https://profiles.ihe.net/ITI/PCF/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://profiles.ihe.net/ITI/PCF",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.PCF/branches/master/index.html",
-      "editions": [
-        {
-          "name": "Publication",
-          "ig-version": "1.0.0",
-          "package": "ihe.iti.pcf#1.0.0",
-          "fhir-version": [
-            "4.3.0"
-          ],
-          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "HL7 Sweden base profiles",
+      "name": "FHIR IG",
       "category": "National Base",
-      "npm-name": "hl7se.fhir.base",
-      "description": "Implementation Guide for Swedish Base Profiles",
-      "authority": "HL7 Sweden",
-      "country": "se",
-      "history": "http://hl7.se/fhir/ig/base/history.html",
+      "npm-name": "ig.in",
+      "description": "Implementation guide for ABDM Preview",
+      "authority": "NRCeS",
+      "country": "IN",
+      "history": "https://nrces.in/pre/ndhm/fhir/r4/history.html",
       "language": [
         "en"
       ],
-      "canonical": "http://hl7.se/fhir/ig/base",
-      "ci-build": "http://build.fhir.org/ig/HL7Sweden/basprofiler-r4",
+      "canonical": "https://nrces.in/pre/ndhm/fhir/r4",
+      "ci-build": "https://nrces.in/pre/ndhm/fhir/r4",
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "hl7se.fhir.base#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.se/fhir/ig/base/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Da Vinci Value-Based Performance Reporting Implementation Guide",
-      "category": "quality and financial management",
-      "npm-name": "hl7.fhir.us.davinci-vbpr",
-      "description": "This implementation guide enables value-based performance reports to be specified in a standard format and exchanged using standardized mechanisms between payers and providers to support the shift from fee-for-service to value-based care.",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/davinci-vbpr/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/davinci-vbpr",
-      "ci-build": "http://build.fhir.org/ig/HL7/davinci-vbpr",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-vbpr#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/davinci-vbpr/2023Sep"
-        }
-      ]
-    },
-    {
-      "name": "International Birth And Child Model Implementation Guide",
-      "category": "Clinical Records",
-      "npm-name": "hl7.fhir.uv.ibcm",
-      "description": "During a pregnancy clinical systems communicate data about the mother, the unborn fetus(es), the pregnancy, and child(ren). This includes information shared among EHR, ultrasound, radiology, lab and pharmacy systems. This IG explains how you model and communicate data and relate the fetus(es) to the mother using the FHIR resource Patient with extension indicating a distinct fetal record. Options for referencing information such as observation about the fetus as a body site within the maternal record will also be included. Examples and diagrams are provided to illustrate the use cases.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/ibcm/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/ibcm",
-      "ci-build": "http://build.fhir.org/ig/HL7/fetal_records",
-      "editions": [
-        {
-          "name": "Releases Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ibcm#1.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
-        }
-      ]
-    },
-    {
-      "name": "Canonical Resource Management Infrastructure Implementation Guide",
-      "category": "infrastructure",
-      "npm-name": "hl7.fhir.uv.crmi",
-      "description": "The Canonical Resource Management Infrastructure implementation guide defines profiles, operations, capability statements and guidance to facilitate the content management lifecycle for authoring, publishing, distribution, and implementation of FHIR knowledge artifacts such as value sets, profiles, libraries, rules, and measures. The guide is intended to be used by specification and content implementation guide authors as both a dependency for validation of published artifacts, and a guide for construction and publication of content.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/crmi/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/crmi",
-      "ci-build": "http://build.fhir.org/ig/HL7/crmi-ig",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot2",
-          "package": "hl7.fhir.uv.crmi#1.0.0-ballot2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/crmi/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "Evidence Based Medicine on FHIR Implementation Guide",
-      "category": "Evidence",
-      "npm-name": "hl7.fhir.uv.ebm",
-      "description": "This implementation guide covers the broad scope of representation of scientific knowledge, including (1) citations to represent identification, location, classification, and attribution for knowledge artifacts; (2) components of research study design including study eligibility criteria (cohort definitions) and endpoint analysis plans; (3) research results including the statistic findings, definition of variables for which those findings apply, and the certainty of these findings; (4) assessments of research results; (5) aggregation and synthesis of research results; (6) judgments regarding evidence syntheses and contextual factors related to recommendations; (7) recommendations; and (8) compositions of combinations of these types of knowledge. The types of interoperability covered include syntactic (Resource StructureDefinitions) and semantic (value sets).",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/ebm/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/ebm",
-      "ci-build": "http://build.fhir.org/ig/HL7/ebm",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ebm#1.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/ebm/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "KLTerm",
-      "category": "Terminology",
-      "npm-name": "kl.dk.fhir.term",
-      "description": "Base Terminology for KL",
-      "authority": "Kommunernes Landsforening (DK)",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/term/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/term",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-term",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.1.0",
-          "package": "kl.dk.fhir.term#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/term/1.1.0"
-        }
-      ]
-    },
-    {
-      "name": "KLCore",
-      "category": "Core",
-      "npm-name": "kl.dk.fhir.core",
-      "description": "Base Profiles for KL",
-      "authority": "Kommunernes Landsforening (DK)",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/core/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/core",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.2.0",
-          "package": "kl.dk.fhir.core#1.2.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/core/1.2.0"
-        }
-      ]
-    },
-    {
-      "name": "KLGateway",
-      "category": "Clinical Registries",
-      "npm-name": "kl.dk.fhir.gateway",
-      "description": "KL Submission Guide of data for reporting of various elements",
-      "authority": "Kommunernes Landsforening (DK)",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/gateway/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/gateway",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.1.0",
-          "package": "kl.dk.fhir.gateway#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/gateway/1.1.0"
-        }
-      ]
-    },
-    {
-      "name": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.be.public-health",
-      "description": "Public Health IG",
-      "authority": "eHealth Platform Belgium",
-      "country": "be",
-      "history": "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/public-health",
-      "ci-build": "http://build.fhir.org/ig/hl7-be/public-health",
-      "editions": [
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.public-health#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Sharing of IPS (sIPS)",
-      "category": "Clinical Documents",
-      "npm-name": "ihe.iti.sips",
-      "description": "Defines how HL7 FHIR IPS is communicated using IHE Document Sharing",
-      "authority": "IHE",
-      "country": "uv",
-      "history": "https://profiles.ihe.net/ITI/sIPS/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://profiles.ihe.net/ITI/sIPS",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.sIPS/branches/master/index.html",
-      "editions": [
-        {
-          "name": "Publication",
-          "ig-version": "1.0.0",
-          "package": "ihe.iti.sips#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/ITI/sIPS/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KLFFBMessaging",
-      "category": "Messaging",
-      "npm-name": "kl.dk.fhir.ffbmessaging",
-      "description": "Danish municipalities implementation guide for FFB messaging. A standard for exchanging social information from citizen journals between municipalities. The aim is to support citizens continuously, e.g. when they move, or receives interventions outside their home municipality.",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/ffbmessaging/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/ffbmessaging",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-messaging",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.ffbmessaging#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/ffbmessaging/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KLFFinst",
-      "category": "Core",
-      "npm-name": "kl.dk.fhir.ffinst",
-      "description": "Danish municipalities implementation guide for FFInst ",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/ffinst/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/ffinst",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/KL-dk-tools",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.ffinst#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/ffinst/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KLFFBReporting",
-      "category": "Clinical Registries",
-      "npm-name": "kl.dk.fhir.ffbreporting",
-      "description": "Danish municipalities implementation guide for FFB reporting. A standard for reporting social information from citizen journals to a gateway. The aim is to use the data in population based studies and management information systems",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/ffbreporting/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/ffbreporting",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-ffb-reporting",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.ffbreporting#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/ffbreporting/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Animal terapeuta (não humano)",
-      "category": "Research",
-      "npm-name": "animal.terapeuta",
-      "description": "Cadastro de animais terapeutas visando a facilidade de localização deles pelas habilidades.",
-      "authority": "CGIS (UFG) (BR)",
-      "country": "br",
-      "history": "https://fhir.fabrica.inf.ufg.br/ig/history.html",
-      "language": [
-        "pt"
-      ],
-      "canonical": "https://fhir.fabrica.inf.ufg.br/ig",
-      "ci-build": "https://fhir.fabrica.inf.ufg.br/ig",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "0.1.2",
-          "package": "animal.terapeuta#0.1.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://fhir.fabrica.inf.ufg.br/ig"
-        }
-      ]
-    },
-    {
-      "name": "Common FHIR profile vendor collaboration",
-      "category": "EHR Access",
-      "npm-name": "care.commonprofiles.fhir",
-      "description": "ImplementationGuide published by a collaborative group of Swedish stakeholders of healthcare IT systems.",
-      "authority": "CommonProfiles.care (SE)",
-      "country": "se",
-      "history": "https://commonprofiles.care/fhir/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://commonprofiles.care/fhir",
-      "ci-build": "https://build.fhir.org/ig/commonprofiles-care/fhir/",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.1",
-          "package": "care.commonprofiles.fhir#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://commonprofiles.care/fhir/1.0.1/"
-        }
-      ]
-    },
-    {
-      "name": "KLGatewayRehab",
-      "category": "Clinical Registries",
-      "npm-name": "kl.dk.fhir.rehab",
-      "description": "This implementation guide describes the delivery of §140 rehabilitation data to KL Gateway.",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/rehab/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/rehab",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-rehab",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.rehab#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/rehab/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KLGatewayPrevention",
-      "category": "Clinical Registries",
-      "npm-name": "kl.dk.fhir.prevention",
-      "description": "This implementation guide describes the delivery of §119 prevention/health promotion data to KL Gateway.",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/prevention/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/prevention",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-gateway-prevention",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.prevention#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/prevention/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KLChildren",
-      "category": "Clinical Registries",
-      "npm-name": "kl.dk.fhir.children",
-      "description": "This implementation guide describes the delivery of children health data to KL Gateway.",
-      "authority": "HL7 Denmark",
-      "country": "dk",
-      "history": "http://fhir.kl.dk/children/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.kl.dk/children",
-      "ci-build": "http://build.fhir.org/ig/hl7dk/kl-children",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.children#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.kl.dk/children/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "KR Core Implementation Guide",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.kr.core",
-      "description": "Base Korean national implementation guide",
-      "authority": "HL7 Korea",
-      "product": [
-        "fhir"
-      ],
-      "country": "kr",
-      "language": [
-        "kr",
-        "en"
-      ],
-      "history": "http://www.hl7korea.or.kr/fhir/krcore/history.html",
-      "canonical": "http://www.hl7korea.or.kr/fhir/krcore",
-      "editions": [
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.1",
-          "package": "hl7.fhir.kr.core#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1/"
-        }
-      ]
-    },
-    {
-      "name": "FHIRJPCoreImplementationGuide",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.jp.core",
-      "description": "HL7 FHIR JP Core ImplementationGuide",
-      "authority": "FHIR Japan / JAMI",
-      "product": [
-        "fhir"
-      ],
-      "country": "jp",
-      "language": [
-        "ja"
-      ],
-      "implementations": [
-        {
-          "name": "Source Code",
-          "type": "source",
-          "url": "https://github.com/jami-fhir-jp-wg/jp-core-v1x"
-        }
-      ],
-      "history": "https://jpfhir.jp/fhir/core/history.html",
-      "canonical": "http://jpfhir.jp/fhir/core",
-      "editions": [
-        {
-          "name": "jp-core.r4",
-          "ig-version": "1.1.1",
-          "package": "hl7.fhir.r4.core#1.1.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://jpfhir.jp/fhir/core/1.1.1"
-        }
-      ]
-    },
-    {
-      "name": "HL7Japan_JAMIeReferralImplementationGuide",
-      "category": "Clinical Documents",
-      "npm-name": "eReferral",
-      "description": "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
-      "authority": "FHIR Japan / JAMI",
-      "product": [
-        "fhir"
-      ],
-      "country": "jp",
-      "language": [
-        "ja"
-      ],
-      "history": "https://jpfhir.jp/fhir/eReferral/igv1/updateHistory.html",
-      "canonical": "https://jpfhir.jp/fhir/eReferral",
-      "editions": [
-        {
-          "name": "eReferral",
-          "ig-version": "1.1.4",
-          "package": "eReferral#1.1.4",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://jpfhir.jp/fhir/eReferral/igv1"
-        }
-      ]
-    },
-    {
-      "name": "HL7JapanJAMIeDischargeSummaryImplementationGuide",
-      "category": "Clinical Documents",
-      "npm-name": "eDischargeSummary",
-      "description": "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
-      "authority": "FHIR Japan / JAMI",
-      "product": [
-        "fhir"
-      ],
-      "country": "jp",
-      "language": [
-        "ja"
-      ],
-      "history": "https://jpfhir.jp/fhir/eDisSummary/igv1/updateHistory.html",
-      "canonical": "https://jpfhir.jp/fhir/eDisSummary",
-      "editions": [
-        {
-          "name": "eDischargeSummary",
-          "ig-version": "1.1.4",
-          "package": "eDischargeSummary#1.1.4",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://jpfhir.jp/fhir/eDisSummary/igv1"
-        }
-      ]
-    },
-    {
-      "name": "HL7 Europe Laboratory Report",
-      "category": "Laboratory Report",
-      "npm-name": "hl7.fhir.eu.laboratory",
-      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the European Context, coherently with the European eHN Guidelines",
-      "authority": "HL7 Europe",
-      "country": "eu",
-      "history": "http://hl7.eu/fhir/laboratory/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.eu/fhir/laboratory",
-      "ci-build": "http://build.fhir.org/ig/hl7-eu/laboratory",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0-ballot",
-          "package": "hl7.fhir.eu.laboratory#0.1.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.eu/fhir/laboratory/0.1.0-ballot"
-        }
-      ]
-    },
-    {
-      "name": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.be.public-health",
-      "description": "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
-      "authority": "eHealth Platform Belgium",
-      "country": "be",
-      "history": "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/public-health",
-      "ci-build": "http://build.fhir.org/ig/hl7-be/public-health",
-      "editions": [
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.2",
-          "package": "hl7.fhir.be.public-health#1.0.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
-        }
-      ]
-    },
-    {
-      "name": "eHealth FHIR Infrastructure and Security Profiles for Belgium",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.be.infsec",
-      "description": "eHealth FHIR Infrastructure and Security Profiles for Belgium",
-      "authority": "eHealth Platform Belgium",
-      "country": "be",
-      "history": "https://www.ehealth.fgov.be/standards/fhir/infsec/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/infsec",
-      "ci-build": "http://build.fhir.org/ig/hl7-be/infsec",
-      "editions": [
-        {
-          "name": "Trial Use",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.be.infsec#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Finnish Implementation Guide for SMART App Launch",
-      "npm-name": "hl7.fhir.fi.smart",
-      "category": "National Base",
-      "description": "Guidelines for using the SMART App Launch mechanism in Finland, published and maintained by HL7 Finland.",
-      "authority": "HL7",
-      "country": "fi",
-      "history": "https://hl7.fi/fhir/finnish-smart/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://hl7.fi/fhir/finnish-smart",
-      "ci-build": "https://fhir.fi/finnish-smart",
-      "editions": [
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.fi.smart#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://hl7.fi/fhir/finnish-smart/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Finnish Base Profiles",
-      "category": "National Base",
-      "npm-name": "hl7.fhir.fi.base",
-      "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
-      "authority": "HL7",
-      "country": "fi",
-      "history": "https://hl7.fi/fhir/finnish-base-profiles/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://hl7.fi/fhir/finnish-base-profiles",
-      "ci-build": "https://fhir.fi/finnish-base-profiles",
-      "editions": [
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.fi.base#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
-        }
-      ]
-    },
-    {
-      "name": "Finnish Scheduling",
-      "category": "Workflow",
-      "npm-name": "hl7.fhir.fi.scheduling",
-      "description": "Finnish HL7 FHIR implementation guide for scheduling, published and maintained by HL7 Finland",
-      "authority": "HL7",
-      "country": "fi",
-      "history": "https://hl7.fi/fhir/finnish-scheduling/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://hl7.fi/fhir/finnish-scheduling",
-      "ci-build": "https://fhir.fi/finnish-scheduling",
-      "editions": [
-        {
-          "name": "STU 1 Draft",
           "ig-version": "0.1.0",
-          "package": "hl7.fhir.fi.scheduling#0.1.0",
+          "package": "ig.in#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
-        }
-      ]
-    },
-    {
-      "name": "Document Subscription for Mobile (DSUBm)",
-      "category": "Clinical Document",
-      "npm-name": "ihe.iti.dsubm",
-      "description": "The Document Subscription for Mobile (DSUBm) profile provides a FHIR based subscription and notification mechanisms for Document Sharing. Enabling a subscription and notification when a document publication event matches the criteria expressed in the subscription.",
-      "authority": "IHE",
-      "country": "uv",
-      "history": "https://profiles.ihe.net/ITI/DSUBm/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://profiles.ihe.net/ITI/DSUBm",
-      "ci-build": "http://build.fhir.org/ig/IHE/ITI.DSUBm/branches/master/index.html",
-      "editions": [
-        {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.dsubm#1.0.0-comment",
-          "fhir-version": [
-            "4.3.0"
-          ],
-          "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0-comment"
-        }
-      ]
-    },
-    {
-      "name": "HRSA Uniform Data System (UDS) Patient Level Submission (PLS) (UDS+ or uds-plus) FHIR IG",
-      "category": "Govt Reporting",
-      "npm-name": "fhir.hrsa.uds-plus",
-      "description": "UDS+ is part of HRSA`s modernization initiatives and requires health centers to report data annually as part of the funding grants. UDS is a standard data set that provides consistent information about Federally Qualified Health Centers. It is the source of non duplicated data for the entire scope of services included in the grant or designation for the calendar year. HRSA uses UDS data to assess the impact and performance of the Health Center Program, and to promote data-driven quality improvement",
-      "authority": "US Government",
-      "country": "us",
-      "history": "http://fhir.org/guides/hrsa/uds-plus/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.org/guides/hrsa/uds-plus",
-      "ci-build": "http://build.fhir.org/ig/drajer-health/uds-plus",
-      "editions": [
-        {
-          "name": "STU1",
-          "ig-version": "1.0.1",
-          "package": "fhir.hrsa.uds-plus#1.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.org/guides/hrsa/uds-plus/STU1"
-        }
-      ]
-    },
-    {
-      "name": "Pharmaceutical Quality (Industry)",
-      "category": "Pharmaceutical",
-      "npm-name": "hl7.fhir.uv.pharm-quality",
-      "description": "The FHIR resource profiles specified in this implementation guide represent data in the ICH Quality Guidelines (https://www.ich.org/page/quality-guidelines). This implementation guide defines universal realm structured data elements to support structured authoring (e.g., master data; advanced analysis) for the creation and exchange of Quality information internationally.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/pharm-quality/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/pharm-quality",
-      "ci-build": "http://build.fhir.org/ig/HL7/uv-dx-pq",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.pharm-quality#1.0.0-ballot",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/uv/pharm-quality/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "Using CQL with FHIR Implementation Guide",
-      "category": "infrastructure",
-      "npm-name": "hl7.fhir.uv.cql",
-      "description": "The Using CQL with FHIR implementation guide defines profiles, operations and guidance for the use of CQL with FHIR, both as a mechanism for querying, as well as inline and integrated usage as part of knowledge artifacts.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/cql/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/cql",
-      "ci-build": "http://build.fhir.org/ig/HL7/cql-ig",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.cql#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/cql/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Content Implementation Guide",
-      "category": "Public Health",
-      "npm-name": "hl7.fhir.us.resp-net",
-      "description": "The Respiratory Virus Hospitalization Surveillance Network (RESP-NET) comprises three platforms that conduct population-based surveillance for laboratory-confirmed hospitalizations associated with COVID-19, Influenza, and Respiratory Syncytial Virus (RSV) among children and adults.",
-      "authority": "HL7",
-      "country": "us",
-      "history": "http://hl7.org/fhir/us/resp-net/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/us/resp-net",
-      "ci-build": "http://build.fhir.org/ig/HL7/fhir-resp-net-ig",
-      "editions": [
-        {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.resp-net#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/resp-net/2024Jan"
-        }
-      ]
-    },
-    {
-      "name": "HL7 Tools Extension IG",
-      "category": "Infrastructure",
-      "npm-name": "hl7.fhir.uv.tools",
-      "description": "Definitions of the code systems and extensions used by the FHIR tools (validators, code generators, IG publication, etc)",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/tools/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/tools",
-      "ci-build": "http://build.fhir.org/ig/FHIR/fhir-tools-ig",
-      "editions": [
-        {
-          "name": "Releases Informative",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.tools#0.1.0",
-          "fhir-version": [
-            "5.0.0"
-          ],
-          "url": "http://hl7.org/fhir/tools/0.1.0"
+          "url": "https://nrces.in/pre/ndhm/fhir/r4/0.1.0"
         }
       ]
     }
