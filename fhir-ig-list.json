@@ -6979,6 +6979,9 @@
       "language": [
         "en"
       ],
+      "product": [
+        "cda"
+      ],
       "canonical": "http://hl7.org/cda/stds/core",
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-sd",
       "editions": [
@@ -7151,6 +7154,9 @@
       "history": "http://hl7.org/cda/stds/ccda/history.html",
       "language": [
         "en"
+      ],
+      "product": [
+        "cda"
       ],
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
       "canonical": "http://hl7.org/cda/us/ccda",
