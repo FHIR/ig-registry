@@ -5522,7 +5522,7 @@
       "name": "FHIRcast",
       "category": "Imaging",
       "npm-name": "hl7.fhir.uv.fhircast",
-      "description": "FHIRcast synchronizes healthcare applications in real time to show the same clinical content to a common user.",
+      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user's session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
       "authority": "HL7",
       "product": [
         "fhir"
