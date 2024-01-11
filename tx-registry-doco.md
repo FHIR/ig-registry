@@ -42,6 +42,7 @@ may exist elsewhere.
     "name" : "Name",  // human readable name. can change, can contain any characters (including html type control chars). Mandatory
     "access_info" : "documentation", // human readable markdown explaining how to get access to the server. Optional
     "url" : "http://server/page", // human landing page for the server. optional
+    "usage" : // if present, a space separated set of usage tags for the intended use of the server. Missing means any use is appropriate. See below for uses
     "authoritative" : [ // a list of terminologies (or terminologies and specific versions) as FHIR canonical URI values that the server claims to be authoritative for (see below). Optional
       "http://domain/*", // simple mask, * is a wildcard which may be used as part of the terminology uri and/or the terminology version 
       "http://domain/*|1.0.0",
@@ -186,7 +187,8 @@ Mandatory parameters:
 * fhirVersion: return only those endpoints that are based on the given FHIR version (RX or M.n.p)
 * url: return only those endpoints that support a particular code system (by canonical, so url or url|version)
 * authoritativeOnly: return only those endpoints that are authoritative (true or false; default is false)
-
+* usage - see below
+  
 When the ```Accept``` header is ```application/json```, the return value is a JSON object:
 
 ```json
@@ -211,4 +213,20 @@ Notes:
 * the resolve operation may return more than one candidate server if more than one server hosts the terminology. Resolving this is up to the client
 * A server listed as authoritative won't also be listed as a candidate
 * Servers are not listed as authoritative unless they actually host the code system in the request 
+
+
+### Usages
+
+If a server is marked as having a restricted use, the server will only be returned in the resolve call above if the client provides a use token that matches one of the tokens in the server's usage property (if it has one).
+
+A client can provide a usage token with the parameter 'usage': ```GET {root}/resolve?fhirVersion={ver}&url={url}&usage=publication```
+
+it's up to the client to provide a usage token that accurately represents it's usage. 
+
+The open source hapi core java tools that support the ecosystem populate usage with one of three values:
+* ```publication``` - the tool is publishing an IG, or building the core FHIR Specification
+* ```validation``` - the tool is validating the content of a resource (this may be in production or from the command line, or validator.fhir.org)
+* ```code-generation``` - the tool is generating some kind of code
+
+The primary purpose of the usage flag is so that an administrator caan deny access to the validator. This *might* be appropriate if the ecosystem is not a production grade system (e.g. tx.fhir.org) but there is concern that some users won't restrict themselves from using it operationally (which is not supported by tx.fhir.org for budget reasons)
 
