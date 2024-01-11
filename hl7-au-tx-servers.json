@@ -11,7 +11,7 @@
     ],
     "fhirVersions" : [{
       "version" : "R4",
-      "url" : "http://r4.ontoserver.csiro.au"
+      "url" : "https://r4.ontoserver.csiro.au"
     }]
   }]
 }
