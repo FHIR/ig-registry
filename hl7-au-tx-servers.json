@@ -7,7 +7,7 @@
     "access_info" : "This server is open to the public",
     "url" : "http://r4.ontoserver.csiro.au",
     "authoritative" : [
-      "http://snomed.info|http://snomed.info/sct/32506021000036107"
+      "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*"
     ],
     "fhirVersions" : [{
       "version" : "R4",
