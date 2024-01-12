@@ -9,6 +9,9 @@
     "authoritative" : [
       "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*"
     ],
+    "authoritative-valuesets" : [
+       "https://healthterminologies.gov.au/fhir/ValueSet*"
+    ],
     "fhirVersions" : [{
       "version" : "R4",
       "url" : "https://r4.ontoserver.csiro.au/fhir"
