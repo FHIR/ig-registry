@@ -7,7 +7,7 @@
     "code" : "hl7",
     "name" : "HL7 Terminology Services",
     "authority" : "Published by HL7",
-    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.md"
+    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
   },{
     "code" : "hl7-au",
     "name" : "HL7 Australia Terminology Services",
