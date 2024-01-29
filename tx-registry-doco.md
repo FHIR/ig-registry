@@ -8,7 +8,7 @@ This documents the registry-of-registries for terminology servers eco-system.
 
 The master registration file has content like this:
 
-```json
+```js
 {
   "formatVersion" : "1", // fixed value. Mandatory
   "description" : "some description of this registry set", // purpose etc. Optional
@@ -33,7 +33,7 @@ may exist elsewhere.
 
 ## The server registries
 
-```json
+```js
 {
   "formatVersion" : "1",// fixed value. Mandatory
   "description" : "something", // purpose etc. Optional
@@ -148,7 +148,7 @@ Optional parameters:
 
 When the ```Accept``` header is ```application/json```, the return value is a JSON object:
 
-```json
+```js
 {
   "last-update": "2023-07-24T04:12:07.710Z", // last time the registries were scanned
   "master-url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/tx-servers.json", // master registry that was scanned
@@ -191,7 +191,7 @@ Mandatory parameters:
   
 When the ```Accept``` header is ```application/json```, the return value is a JSON object:
 
-```json
+```js
 {
   "formatVersion" : version,
   "registry-url" : url,
