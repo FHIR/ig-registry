@@ -1,5 +1,5 @@
 {
-  "version" : "1",
+  "formatVersion" : "1",
   "description" : "HL7's list of published terminology servers",
   "servers" : [{
     "code" : "tx.fhir.org",
@@ -10,7 +10,7 @@
       "http://hl7.org/*",
       "http://terminology.hl7.org/*"
     ],
-    "versions" : [{
+    "fhirVersions" : [{
       "version" : "R4",
       "url" : "http://tx.fhir.org/r4"
     },{
