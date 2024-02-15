@@ -3850,40 +3850,13 @@
       },
       "editions": [
         {
-          "name": "Publications",
-          "ig-version": "1.1.0",
-          "package": "ihe.formatcode.fhir#1.1.0",
+          "name": "Publication",
+          "ig-version": "1.1.1",
+          "package": "ihe.formatcode.fhir#1.1.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.0"
-        },
-        {
-          "name": "Publications",
-          "ig-version": "1.0.0",
-          "package": "ihe.formatcode.fhir#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0"
-        },
-        {
-          "name": "Publications",
-          "ig-version": "0.2.4",
-          "package": "ihe.formatcode.fhir#0.2.4",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.4"
-        },
-        {
-          "name": "Publications",
-          "ig-version": "0.2.2",
-          "package": "ihe.formatcode.fhir#0.2.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/0.2.2"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.1"
         }
       ]
     },
@@ -4332,7 +4305,7 @@
       "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.nhsn-ade",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC\u0027s National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4367,7 +4340,7 @@
       "name": "NHSN Reporting: Inpatient Medication Administration",
       "category": "Pharmacy",
       "npm-name": "hl7.fhir.us.nhsn-med-admin",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC\u0027s National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5075,7 +5048,7 @@
       "name": "PACIO Advance Directive Information Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-adi",
-      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual's advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
+      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual\u0027s advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5114,7 +5087,7 @@
       "name": "CARIN Digital Insurance Card",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.insurance-card",
-      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a 'Digital Insurance Card' Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
+      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a \u0027Digital Insurance Card\u0027 Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5513,7 +5486,7 @@
       "name": "FHIRcast",
       "category": "Imaging",
       "npm-name": "hl7.fhir.uv.fhircast",
-      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user's session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
+      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user\u0027s session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5826,12 +5799,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.1.2",
-          "package": "ihe.iti.balp#1.1.2",
+          "ig-version": "1.1.3",
+          "package": "ihe.iti.balp#1.1.3",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/BALP/1.1.2"
+          "url": "https://profiles.ihe.net/ITI/BALP/1.1.3"
         }
       ]
     },
@@ -6165,8 +6138,7 @@
           "url": "https://www.ehealth.fgov.be/standards/fhir/patientwill/1.0.0"
         }
       ]
-    }
-    ,
+    },
     {
       "name": "TW Core",
       "category": "National Base",
@@ -7192,7 +7164,7 @@
       "name": "FHIR Core Extensions Registry",
       "category": "Extensions",
       "npm-name": "hl7.fhir.uv.extensions",
-      "description": "This package defines the 'core extensions' - the extensions defined globally and available to all implementers",
+      "description": "This package defines the \u0027core extensions\u0027 - the extensions defined globally and available to all implementers",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/extensions/history.html",
