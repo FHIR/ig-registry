@@ -162,11 +162,6 @@
       "errors": "gregor_lichtner|med_uni-greifswald_de"
     },
     {
-      "name": "ABDM Preview Implementation Guide",
-      "url": "https://nrces.in/pre/package-feed.xml",
-      "errors": "ABDM|NRC"      
-    },
-    {
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
       "errors": "ABDM|NRCeS"      
