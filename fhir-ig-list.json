@@ -8125,6 +8125,31 @@
           "url": "https://nrces.in/pre/ndhm/fhir/r4/0.1.0"
         }
       ]
+    },
+    {
+      "name": "FHIR Implementation Guide for ABDM",
+      "category": "National Base",
+      "npm-name": "ndhm.in",
+      "description": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+      "authority": "NRCeS",
+      "country": "in",
+      "history": "https://nrces.in/ndhm/fhir/r4/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://nrces.in/ndhm/fhir/r4",
+      "ci-build": "https://nrces.in/ndhm/fhir/r4",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "6.0.0",
+          "package": "ndhm.in#6.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://nrces.in/ndhm/fhir/r4/6.0.0"
+        }
+      ]
     }
   ]
 }
