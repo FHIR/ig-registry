@@ -8102,31 +8102,6 @@
       ]
     },
     {
-      "name": "FHIR IG",
-      "category": "National Base",
-      "npm-name": "ig.in",
-      "description": "Implementation guide for ABDM Preview",
-      "authority": "NRCeS",
-      "country": "IN",
-      "history": "https://nrces.in/pre/ndhm/fhir/r4/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "https://nrces.in/pre/ndhm/fhir/r4",
-      "ci-build": "https://nrces.in/pre/ndhm/fhir/r4",
-      "editions": [
-        {
-          "name": "Releases",
-          "ig-version": "0.1.0",
-          "package": "ig.in#0.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://nrces.in/pre/ndhm/fhir/r4/0.1.0"
-        }
-      ]
-    },
-    {
       "name": "FHIR Implementation Guide for ABDM",
       "category": "National Base",
       "npm-name": "ndhm.in",
