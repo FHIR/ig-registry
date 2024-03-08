@@ -518,13 +518,13 @@
       },
       "editions": [
         {
-          "name": "STU6 (v6.0.0) Ballot",
-          "ig-version": "6.0.0-ballot",
-          "package": "hl7.fhir.us.qicore#6.0.0-ballot",
+          "name": "STU6 (v6.0.0)",
+          "ig-version": "6.0.0",
+          "package": "hl7.fhir.us.qicore#6.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/2023Sep"
+          "url": "http://hl7.org/fhir/us/qicore/STU6"
         }
       ]
     },
@@ -815,13 +815,13 @@
       },
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "3.0.0-comment",
-          "package": "ihe.iti.pdqm#3.0.0-comment",
+          "name": "Publication",
+          "ig-version": "3.0.0",
+          "package": "ihe.iti.pdqm#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PDQm/3.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/PDQm/3.0.0"
         }
       ]
     },
@@ -852,12 +852,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "3.0.3",
-          "package": "ihe.iti.pixm#3.0.3",
+          "ig-version": "3.0.4",
+          "package": "ihe.iti.pixm#3.0.4",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.3"
+          "url": "https://profiles.ihe.net/ITI/PIXm/3.0.4"
         }
       ]
     },
@@ -7350,12 +7350,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.0.0",
-          "package": "ihe.iti.pcf#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.iti.pcf#1.1.0",
           "fhir-version": [
-            "4.3.0"
+            "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/PCF/1.0.0"
+          "url": "https://profiles.ihe.net/ITI/PCF/1.1.0"
         }
       ]
     },
@@ -8090,13 +8090,13 @@
       "ci-build": "http://build.fhir.org/ig/IHE/ITI.DSUBm/branches/master/index.html",
       "editions": [
         {
-          "name": "Publication Ballot",
-          "ig-version": "1.0.0-comment",
-          "package": "ihe.iti.dsubm#1.0.0-comment",
+          "name": "Publication",
+          "ig-version": "1.0.0",
+          "package": "ihe.iti.dsubm#1.0.0",
           "fhir-version": [
-            "4.3.0"
+            "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0-comment"
+          "url": "https://profiles.ihe.net/ITI/DSUBm/1.0.0"
         }
       ]
     },
