@@ -8274,6 +8274,31 @@
           "url": "http://hl7.eu/fhir/extensions/0.1.0"
         }
       ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "hl7.fhir.it.lab-report",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the Italian Context, coherently with the European FHIR Implementation Guide",
+      "authority": "HL7 Italia",
+      "country": "it",
+      "history": "http://hl7.it/fhir/lab-report/history.html",
+      "language": [
+        "it"
+      ],
+      "canonical": "http://hl7.it/fhir/lab-report",
+      "ci-build": "http://build.fhir.org/ig/hl7-it/lab-report",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.it.lab-report#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.it/fhir/lab-report/0.2.0"
+        }
+      ]
     }
   ]
 }
