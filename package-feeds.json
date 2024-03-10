@@ -52,6 +52,11 @@
       "errors": "nicolas_riss|esante_gouv_fr"
     },
     {
+      "name": "Agence du Numérique en Santé - FHIR IG",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    },
+    {
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
@@ -118,7 +123,7 @@
     },
     {
       "name": "CGIS (UFG) Brasil",
-      "url": "https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml",
+      "url": "https://fhir.fabrica.inf.ufg.br/package-feed.xml",
       "errors": "kyriosdata|ufg_br"
     },
     {
@@ -155,6 +160,11 @@
       "name": "University Medicine Greifswald - Department of Anesthesia, Intensive Care, Emergency and Pain Medicine",
       "url": "https://github.com/umg-minai/fhir-package-feed/blob/main/package-feed.xml?raw=true",
       "errors": "gregor_lichtner|med_uni-greifswald_de"
+    },
+    {
+      "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+      "url": "https://nrces.in/ndhm/package-feed.xml",
+      "errors": "ABDM|NRCeS"      
     }
   ],
   "package-restrictions": [
@@ -177,6 +187,22 @@
     {
         "mask": "kl.dk.fhir.*",
         "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.ee.*",
+      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
+    },
+    {
+      "mask": "hl7.fhir.kr.*",
+      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.eu.*",
+      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.fi.*",
+      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.*",
@@ -209,8 +235,12 @@
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
     },
     {
-      "mask": "ans.fhir.fr.*",
+      "mask": "ans.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "ans.fhir.fr.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml" ]
     },
     {
       "mask": "ihe.*",
@@ -221,24 +251,8 @@
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml"  ]
     },
     {
-      "mask": "hl7.fhir.ee.*",
-      "feeds": [ "https://fhir.ee/packages/package-feed.xml"  ]
-    },
-    {
       "mask": "silth.fhir.*",
       "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.kr.*",
-      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.eu.*",
-      "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.fi.*",
-      "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     }
   ]
 }  
