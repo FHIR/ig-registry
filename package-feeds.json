@@ -261,7 +261,7 @@
     },
     {
       "mask": "hl7.fhir.it.*",
-      "feeds": [ "https://hl7.it/fhir/package-feed.xml" ]
+      "feeds": [ "http://hl7.it/fhir/package-feed.xml" ]
     }
   ]
 }  

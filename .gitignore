@@ -1,2 +1,7 @@
 
 .DS_Store
+/fhir-ig-list-diff.json
+/fhir-ig-list - Copia (2).json
+/fhir-ig-list - Copia.json
+/package-feeds-diff.json
+/*.gitignore
