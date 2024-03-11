@@ -7940,13 +7940,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7-eu/laboratory",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0-ballot",
-          "package": "hl7.fhir.eu.laboratory#0.1.0-ballot",
+          "name": "STU 1",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.eu.laboratory#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.eu/fhir/laboratory/0.1.0-ballot"
+          "url": "http://hl7.eu/fhir/laboratory/0.1.0"
         }
       ]
     },
@@ -8272,6 +8272,56 @@
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/PCC/ODH/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Europe Extensions",
+      "category": "Extensions",
+      "npm-name": "hl7.fhir.eu.extensions",
+      "description": "This guide lists the extensions specified for the European REALM.",
+      "authority": "HL7 Europe",
+      "country": "eu",
+      "history": "http://hl7.eu/fhir/extensions/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.eu/fhir/extensions",
+      "ci-build": "http://build.fhir.org/ig/hl7-eu/extensions",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.eu.extensions#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.eu/fhir/extensions/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "hl7.fhir.it.lab-report",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the Italian Context, coherently with the European FHIR Implementation Guide",
+      "authority": "HL7 Italia",
+      "country": "it",
+      "history": "http://hl7.it/fhir/lab-report/history.html",
+      "language": [
+        "it"
+      ],
+      "canonical": "http://hl7.it/fhir/lab-report",
+      "ci-build": "http://build.fhir.org/ig/hl7-it/lab-report",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.it.lab-report#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.it/fhir/lab-report/0.2.0"
         }
       ]
     }

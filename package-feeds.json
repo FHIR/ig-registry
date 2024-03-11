@@ -165,6 +165,11 @@
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
       "errors": "ABDM|NRCeS"      
+    },
+    {
+      "name": "HL7 Italy",
+      "url": "http://hl7.it/fhir/package-feed.xml",
+      "errors": "gcangioli|hl7_it"
     }
   ],
   "package-restrictions": [
@@ -253,6 +258,10 @@
     {
       "mask": "silth.fhir.*",
       "feeds": [ "https://fhir-ig.sil-th.org/package-feed.xml", "https://terms.sil-th.org/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.it.*",
+      "feeds": [ "http://hl7.it/fhir/package-feed.xml" ]
     }
   ]
 }  
