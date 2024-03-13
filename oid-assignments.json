@@ -7,6 +7,10 @@
     "2.16.840.1.113883.4.642.40.1" : {
       "id" : "hl7.fhir.uv.tools",
       "info" : "Grahame Grieve, 12-Mar 2024"
+    },
+    "2.16.840.1.113883.4.642.40.2" : {
+      "id" : "hl7.fhir.us.core",
+      "info" : "Grahame Grieve, 14-Mar 2024"
     }
   }
 }
