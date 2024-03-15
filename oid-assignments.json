@@ -4,13 +4,11 @@
      "PRs are welcome as long as the form is followed, or you can ask Grahame or Reuben to add to this file",
      "The root from which HL7 assigns OIDs for this purpose is 2.16.840.1.113883.4.642.40.1, but they don't have to be in this root" ],
   "assignments" : {
-    "2.16.840.1.113883.4.642.40.1" : {
-      "id" : "hl7.fhir.uv.tools",
-      "info" : "Grahame Grieve, 12-Mar 2024"
-    },
-    "2.16.840.1.113883.4.642.40.2" : {
-      "id" : "hl7.fhir.us.core",
-      "info" : "Grahame Grieve, 14-Mar 2024"
-    }
+    "2.16.840.1.113883.4.642.40.1" : {   "id" : "hl7.fhir.uv.tools",                   "info" : "Grahame Grieve, 12-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.2" : {   "id" : "hl7.fhir.us.core",                    "info" : "Grahame Grieve, 14-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.3" : {   "id" : "hl7.fhir.us.carin-bb",                "info" : "Grahame Grieve, 16-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.4" : {   "id" : "hl7.fhir.us.davinci-pct",             "info" : "Grahame Grieve, 16-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.5" : {   "id" : "hl7.fhir.us.davinci-drug-formulary",  "info" : "Grahame Grieve, 16-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.6" : {   "id" : "hl7.fhir.us.sdoh-clinicalcare",       "info" : "Grahame Grieve, 16-Mar 2024" }
   }
 }
