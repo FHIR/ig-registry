@@ -2,7 +2,7 @@
   "doco": [
      "This file stores the OIDs assigned to HL7 and other IGs - for use with the auto-oid-root parameter",
      "PRs are welcome as long as the form is followed, or you can ask Grahame or Reuben to add to this file",
-     "The root from which HL7 assigns OIDs for this purpose is 2.16.840.1.113883.4.642.40.1, but they don't have to be in this root" ],
+     "The root from which HL7 assigns OIDs for this purpose is 2.16.840.1.113883.4.642.40, but they don't have to be in this root" ],
   "assignments" : {
     "2.16.840.1.113883.4.642.40.1" : {   "id" : "hl7.fhir.uv.tools",                   "info" : "Grahame Grieve, 12-Mar 2024" },
     "2.16.840.1.113883.4.642.40.2" : {   "id" : "hl7.fhir.us.core",                    "info" : "Grahame Grieve, 14-Mar 2024" },
