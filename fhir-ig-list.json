@@ -3850,13 +3850,13 @@
       },
       "editions": [
         {
-          "name": "Publication",
-          "ig-version": "1.1.1",
-          "package": "ihe.formatcode.fhir#1.1.1",
+          "name": "Publication Normative",
+          "ig-version": "1.2.0",
+          "package": "ihe.formatcode.fhir#1.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.1.1"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.2.0"
         }
       ]
     },
