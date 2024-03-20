@@ -47,6 +47,11 @@
       "errors": "oliver_egger|ahdis_ch"
     },
     {
+      "name": "HL7 France",
+      "url": "https://hl7.fr/ig/fhir/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    },
+    {
       "name": "Agence du Numérique en Santé",
       "url": "https://interop.esante.gouv.fr/ig/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
