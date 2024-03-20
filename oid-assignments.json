@@ -35,6 +35,7 @@
     "2.16.840.1.113883.4.642.40.29" : {   "id" : "hl7.fhir.us.davinci-ra",              "info" : "Grahame Grieve, 20-Mar 2024" },
     "2.16.840.1.113883.4.642.40.30" : {   "id" : "hl7.fhir.us.davinci-vbpr",            "info" : "Grahame Grieve, 20-Mar 2024" },
     "2.16.840.1.113883.4.642.40.31" : {   "id" : "hl7.fhir.us.sdoh-clinicalcare",       "info" : "Grahame Grieve, 20-Mar 2024" },
-    "2.16.840.1.113883.4.642.40.32" : {   "id" : "hl7.fhir.us.home-lab-report",         "info" : "Reuben Daniels, 20-Mar 2024" }
+    "2.16.840.1.113883.4.642.40.32" : {   "id" : "hl7.fhir.us.home-lab-report",         "info" : "Reuben Daniels, 20-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.33" : {   "id" : "hl7.fhir.us.bser",                    "info" : "Reuben Daniels, 20-Mar 2024" }
   }
 }
