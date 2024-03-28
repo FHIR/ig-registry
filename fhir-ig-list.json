@@ -8327,11 +8327,10 @@
     },
     {
       "name": "IG Tooling by GKL",
-      "category": "National Base",
+      "category": "Research",
       "npm-name": "hl7.at.fhir.gkl.ig-tooling",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "This IG is built in order to describe the IG tooling.",
+      "country": "at",
       "history": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/history.html",
       "language": [
         "en"
