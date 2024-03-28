@@ -65,12 +65,12 @@
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },	
+    },
     {
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },  
+    },
     {
       "name": "mednet.swiss",
       "url": "https://mednet.swiss/fhir/package-feed.xml",
@@ -159,7 +159,7 @@
     {
       "name": "HL7 Finland",
       "url": "https://hl7.fi/fhir/package-feed.xml",
-      "errors": "mikael|sensotrend_com"      
+      "errors": "mikael|sensotrend_com"
     },
     {
       "name": "University Medicine Greifswald - Department of Anesthesia, Intensive Care, Emergency and Pain Medicine",
@@ -169,12 +169,17 @@
     {
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
-      "errors": "ABDM|NRCeS"      
+      "errors": "ABDM|NRCeS"
     },
     {
       "name": "HL7 Italy",
       "url": "http://hl7.it/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_it"
+    },
+    {
+      "name": "GKL",
+      "url": "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml",
+      "errors": "gabriel_kleinoscheg|elga_gv_at"
     }
   ],
   "package-restrictions": [
@@ -193,7 +198,7 @@
     {
         "mask": "hl7.fhir.dk.*",
         "feeds": [ "https://hl7.dk/fhir/package-feed.xml" ]
-    },  
+    },
     {
         "mask": "kl.dk.fhir.*",
         "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
@@ -267,6 +272,10 @@
     {
       "mask": "hl7.fhir.it.*",
       "feeds": [ "http://hl7.it/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.gkl.*",
+      "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
     }
   ]
-}  
+}

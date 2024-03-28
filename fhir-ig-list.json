@@ -8324,6 +8324,30 @@
           "url": "http://hl7.it/fhir/lab-report/0.2.0"
         }
       ]
+    },
+    {
+      "name": "IG Tooling by GKL",
+      "category": "Research",
+      "npm-name": "hl7.at.fhir.gkl.ig-tooling",
+      "description": "This IG is built in order to describe the IG tooling.",
+      "country": "at",
+      "history": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
+      "ci-build": "http://build.fhir.org/ig/gabriel0316/ig-tooling",
+      "editions": [
+        {
+          "name": "DSTU 1",
+          "ig-version": "0.1.0",
+          "package": "hl7.at.fhir.gkl.ig-tooling#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.1.0"
+        }
+      ]
     }
   ]
 }
