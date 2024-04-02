@@ -167,11 +167,6 @@
       "errors": "gregor_lichtner|med_uni-greifswald_de"
     },
     {
-      "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
-      "url": "https://nrces.in/ndhm/package-feed.xml",
-      "errors": "ABDM|NRCeS"
-    },
-    {
       "name": "HL7 Italy",
       "url": "http://hl7.it/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_it"
@@ -180,6 +175,11 @@
       "name": "GKL",
       "url": "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml",
       "errors": "gabriel_kleinoscheg|elga_gv_at"
+    },
+    {
+      "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+      "url": "https://nrces.in/ndhm/package-feed.xml",
+      "errors": "ABDM|NRCeS"
     }
   ],
   "package-restrictions": [
