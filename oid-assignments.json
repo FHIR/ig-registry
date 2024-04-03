@@ -39,6 +39,9 @@
     "2.16.840.1.113883.4.642.40.33" : {   "id" : "hl7.fhir.us.bser",                    "info" : "Reuben Daniels, 20-Mar 2024" },
     "2.16.840.1.113883.4.642.40.34" : {   "id" : "hl7.fhir.us.medication-rems",         "info" : "Reuben Daniels, 21-Mar 2024" },
     "2.16.840.1.113883.4.642.40.35" : {   "id" : "hl7.fhir.us.pdmp",                    "info" : "Reuben Daniels, 21-Mar 2024" },
-    "2.16.840.1.113883.4.642.40.36" : {   "id" : "hl7.fhir.us.pq-cmc-fda",              "info" : "Grahame Grieve, 22-Mar 2024" }
+    "2.16.840.1.113883.4.642.40.36" : {   "id" : "hl7.fhir.us.pq-cmc-fda",              "info" : "Grahame Grieve, 22-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.37" : {   "id" : "hl7.fhir.uv.cql",                     "info" : "Grahame Grieve, 03-Apr 2024" },
+    "2.16.840.1.113883.4.642.40.38" : {   "id" : "hl7.fhir.uv.crmi",                    "info" : "Grahame Grieve, 03-Apr 2024" },
+    "2.16.840.1.113883.4.642.40.39" : {   "id" : "hl7.fhir.uv.dicom-sr",                "info" : "Grahame Grieve, 03-Apr 2024" }   
   }
 }
