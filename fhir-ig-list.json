@@ -8067,7 +8067,7 @@
       "name": "US Prescription Drug Monitoring Program (PDMP)",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.pdmp",
-      "description": "Guidance on the use of FHIR resources and search operations to allow requestors (prescribers, pharmacists, others) to obtain a patient's medication records held in one or more Prescription Drug Monitoring Programs (PDMPs).  Also describes how the information supplied by the PDMPs is contained in the other information exchanges in the larger PDMP environment.",
+      "description": "Guidance on the use of FHIR resources and search operations to allow requestors (prescribers, pharmacists, others) to obtain a patient\u0027s medication records held in one or more Prescription Drug Monitoring Programs (PDMPs).  Also describes how the information supplied by the PDMPs is contained in the other information exchanges in the larger PDMP environment.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/pdmp/history.html",
@@ -8085,6 +8085,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/pdmp/2024May"
+        }
+      ]
+    },
+    {
+      "name": "US Medication REMS",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.us.medication-rems",
+      "description": "??",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/medication-rems/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/medication-rems",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medication-rems-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.medication-rems#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/medication-rems/2024May"
         }
       ]
     }
