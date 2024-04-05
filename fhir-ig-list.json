@@ -8272,7 +8272,10 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/cardx-htn-mng/2024May"
-=======
+        }
+      ]
+    },
+    {
       "name": "HL7 Tools Extension IG",
       "category": "Infrastructure",
       "npm-name": "hl7.fhir.uv.tools",
