@@ -8092,7 +8092,7 @@
       "name": "US Medication REMS",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.medication-rems",
-      "description": "??",
+      "description": "A Risk Evaluation and Mitigation Strategies (REMS) is a drug safety program that the U.S. FDA requires for certain medications with serious safety concerns. Complying with REMS can introduce manual work for the provider and potential delays in getting the medication to the patient. This IG provides guidance on using FHIR to automate notifications and information exchange between the provider and the REMS Administrator--to reduce burden on the provider and prevent delays in patient care.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/medication-rems/history.html",
@@ -8110,6 +8110,31 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/medication-rems/2024May"
+        }
+      ]
+    },
+    {
+      "name": "CardX Hypertension Management IG",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.cardx-htn-mng",
+      "description": "This implementation guide is intended to increase the quality of blood pressure data observed by the patient taken in a non-clinical setting or at home.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/cardx-htn-mng/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/cardx-htn-mng",
+      "ci-build": "http://build.fhir.org/ig/HL7/cardx-htn-mng",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.cardx-htn-mng#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/cardx-htn-mng/2024May"
         }
       ]
     }
