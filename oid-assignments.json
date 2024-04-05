@@ -30,7 +30,7 @@
     "2.16.840.1.113883.4.642.40.24" : {   "id" : "hl7.fhir.us.davinci-pas",                       "info" : "Grahame Grieve, 20-Mar 2024" },
     "!2.16.840.1.113883.4.642.40.25" : {   "id" : "!hl7.fhir.us.davinci-pct",                     "info" : "Grahame Grieve, 20-Mar 2024 - WRONGLY DOUBLE ASSIGNED" },
     "!2.16.840.1.113883.4.642.40.26" : {   "id" : "!hl7.fhir.us.davinci-pdex",                    "info" : "Grahame Grieve, 20-Mar 2024 - WRONGLY DOUBLE ASSIGNED" },
-    "2.16.840.1.113883.4.642.40.27" : {   "id" : "hl7.fhir.us.davinci-pdex-formulary",            "info" : "Grahame Grieve, 20-Mar 2024" },
+    "!2.16.840.1.113883.4.642.40.27" : {   "id" : "hl7.fhir.us.davinci-pdex-formulary",            "info" : "Grahame Grieve, 20-Mar 2024 - Issued to the wrong package, and would be a duplicate" },
     "2.16.840.1.113883.4.642.40.28" : {   "id" : "hl7.fhir.us.davinci-pdex-plan-net",             "info" : "Grahame Grieve, 20-Mar 2024" },
     "2.16.840.1.113883.4.642.40.29" : {   "id" : "hl7.fhir.us.davinci-ra",                        "info" : "Grahame Grieve, 20-Mar 2024" },
     "2.16.840.1.113883.4.642.40.30" : {   "id" : "hl7.fhir.us.davinci-vbpr",                      "info" : "Grahame Grieve, 20-Mar 2024" },
