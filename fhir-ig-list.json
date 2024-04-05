@@ -2219,13 +2219,13 @@
       },
       "editions": [
         {
-          "name": "STU 2",
-          "ig-version": "2.2.0",
-          "package": "hl7.fhir.us.vrdr#2.2.0",
+          "name": "STU 3 Ballot",
+          "ig-version": "3.0.0-ballot",
+          "package": "hl7.fhir.us.vrdr#3.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/vrdr/STU2.2"
+          "url": "http://hl7.org/fhir/us/vrdr/2024May"
         }
       ]
     },
@@ -8197,6 +8197,81 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/us/resp-net/2024Jan"
+        }
+      ]
+    },
+    {
+      "name": "US Prescription Drug Monitoring Program (PDMP)",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.us.pdmp",
+      "description": "Guidance on the use of FHIR resources and search operations to allow requestors (prescribers, pharmacists, others) to obtain a patient\u0027s medication records held in one or more Prescription Drug Monitoring Programs (PDMPs).  Also describes how the information supplied by the PDMPs is contained in the other information exchanges in the larger PDMP environment.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/pdmp/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/pdmp",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-pdmp",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.pdmp#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/pdmp/2024May"
+        }
+      ]
+    },
+    {
+      "name": "US Medication REMS",
+      "category": "Medications / Immunizations",
+      "npm-name": "hl7.fhir.us.medication-rems",
+      "description": "A Risk Evaluation and Mitigation Strategies (REMS) is a drug safety program that the U.S. FDA requires for certain medications with serious safety concerns. Complying with REMS can introduce manual work for the provider and potential delays in getting the medication to the patient. This IG provides guidance on using FHIR to automate notifications and information exchange between the provider and the REMS Administrator--to reduce burden on the provider and prevent delays in patient care.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/medication-rems/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/medication-rems",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-medication-rems-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.medication-rems#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/medication-rems/2024May"
+        }
+      ]
+    },
+    {
+      "name": "CardX Hypertension Management IG",
+      "category": "Diagnostics",
+      "npm-name": "hl7.fhir.uv.cardx-htn-mng",
+      "description": "This implementation guide is intended to increase the quality of blood pressure data observed by the patient taken in a non-clinical setting or at home.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/cardx-htn-mng/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/cardx-htn-mng",
+      "ci-build": "http://build.fhir.org/ig/HL7/cardx-htn-mng",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.cardx-htn-mng#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/cardx-htn-mng/2024May"
         }
       ]
     },
