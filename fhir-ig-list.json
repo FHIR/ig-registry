@@ -7449,13 +7449,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/crmi-ig",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot2",
-          "package": "hl7.fhir.uv.crmi#1.0.0-ballot2",
+          "name": "STU1 Draft",
+          "ig-version": "1.0.0-snapshot",
+          "package": "hl7.fhir.uv.crmi#1.0.0-snapshot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/crmi/2024Jan"
+          "url": "http://hl7.org/fhir/uv/crmi/1.0.0-snapshot"
         }
       ]
     },
@@ -8165,13 +8165,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cql-ig",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.cql#1.0.0-ballot",
+          "name": "STU1 Draft",
+          "ig-version": "1.0.0-snapshot",
+          "package": "hl7.fhir.uv.cql#1.0.0-snapshot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cql/2024Jan"
+          "url": "http://hl7.org/fhir/uv/cql/1.0.0-snapshot"
         }
       ]
     },
