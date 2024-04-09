@@ -8164,4 +8164,155 @@
       ]
     }
   ]
+},
+    {
+      "name": "HL7 Tools Extension IG",
+      "category": "Infrastructure",
+      "npm-name": "hl7.fhir.uv.tools",
+      "description": "Definitions of the code systems and extensions used by the FHIR tools (validators, code generators, IG publication, etc)",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/tools/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/tools",
+      "ci-build": "http://build.fhir.org/ig/FHIR/fhir-tools-ig",
+      "editions": [
+        {
+          "name": "Releases Informative",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.uv.tools#0.1.0",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/tools/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "FHIR Implementation Guide for ABDM",
+      "category": "National Base",
+      "npm-name": "ndhm.in",
+      "description": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+      "authority": "NRCeS",
+      "country": "in",
+      "history": "https://nrces.in/ndhm/fhir/r4/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://nrces.in/ndhm/fhir/r4",
+      "ci-build": "https://nrces.in/ndhm/fhir/r4",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "6.0.0",
+          "package": "ndhm.in#6.0.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://nrces.in/ndhm/fhir/r4/6.0.0"
+        }
+      ]
+    },
+    {
+      "name": "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
+      "category": "Clinical Records",
+      "npm-name": "ihe.pcc.odh",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/PCC/ODH/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/PCC/ODH",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.ODH/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.pcc.odh#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/PCC/ODH/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Europe Extensions",
+      "category": "Extensions",
+      "npm-name": "hl7.fhir.eu.extensions",
+      "description": "This guide lists the extensions specified for the European REALM.",
+      "authority": "HL7 Europe",
+      "country": "eu",
+      "history": "http://hl7.eu/fhir/extensions/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.eu/fhir/extensions",
+      "ci-build": "http://build.fhir.org/ig/hl7-eu/extensions",
+      "editions": [
+        {
+          "name": "Release",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.eu.extensions#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.eu/fhir/extensions/0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "HL7 FHIR Implementation Guide Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "hl7.fhir.it.lab-report",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the Italian Context, coherently with the European FHIR Implementation Guide",
+      "authority": "HL7 Italia",
+      "country": "it",
+      "history": "http://hl7.it/fhir/lab-report/history.html",
+      "language": [
+        "it"
+      ],
+      "canonical": "http://hl7.it/fhir/lab-report",
+      "ci-build": "http://build.fhir.org/ig/hl7-it/lab-report",
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.it.lab-report#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.it/fhir/lab-report/0.2.0"
+        }
+      ]
+    },
+    {
+      "name": "IG Tooling by GKL",
+      "category": "Research",
+      "npm-name": "hl7.at.fhir.gkl.ig-tooling",
+      "description": "This IG is built in order to describe the IG tooling.",
+      "country": "at",
+      "history": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
+      "ci-build": "http://build.fhir.org/ig/gabriel0316/ig-tooling",
+      "editions": [
+        {
+          "name": "DSTU 1",
+          "ig-version": "0.2.0",
+          "package": "hl7.at.fhir.gkl.ig-tooling#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
+        }
+      ]
+    }
+  ]
 }
