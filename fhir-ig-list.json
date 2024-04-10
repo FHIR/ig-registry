@@ -3040,13 +3040,13 @@
       },
       "editions": [
         {
-          "name": "STU 3",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.us.mcode#3.0.0",
+          "name": "STU4 Ballot",
+          "ig-version": "4.0.0-ballot",
+          "package": "hl7.fhir.us.mcode#4.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcode/STU3"
+          "url": "http://hl7.org/fhir/us/mcode/2024May"
         }
       ]
     },
