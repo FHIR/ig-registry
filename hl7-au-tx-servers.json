@@ -1,0 +1,20 @@
+{
+  "formatVersion" : "1",
+  "description" : "HL7's Australia's list of published terminology servers",
+  "servers" : [{
+    "code" : "hl7-au-test",
+    "name" : "HL7 Australia Server",
+    "access_info" : "This server is open to the public",
+    "url" : "https://tx.ontoserver.csiro.au/fhir",
+    "authoritative" : [
+      "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*"
+    ],
+    "authoritative-valuesets" : [
+       "https://healthterminologies.gov.au/fhir/ValueSet*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R4",
+      "url" : "https://tx.ontoserver.csiro.au/fhir"
+    }]
+  }]
+}
