@@ -6168,6 +6168,51 @@
       ]
     },
     {
+      "name": "TWIDIR",
+      "category": "Public Health",
+      "npm-name": "tw.gov.mohw.cdc.twidir",
+      "description": "Taiwan Infectious Disease Inspection Report Implementation Guide",
+      "authority": "CDC (TW)",
+      "product": [
+        "fhir"
+      ],
+      "country": "tw",
+      "history": "https://twidir.cdc.gov.tw/twidir/history.html",
+      "language": [
+        "zh-TW"
+      ],
+      "canonical": "https://twidir.cdc.gov.tw/twidir",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "0.1.0",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.0"
+        },
+        {
+            "name": "STU1",
+            "ig-version": "0.1.1",
+            "package": "tw.gov.mohw.cdc.twidir#0.1.1",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "https://twidir.cdc.gov.tw/twidir/0.1.1"
+          },
+          {
+            "name": "STU1",
+            "ig-version": "0.1.2",
+            "package": "tw.gov.mohw.cdc.twidir#0.1.2",
+            "fhir-version": [
+              "4.0.1"
+            ],
+            "url": "https://twidir.cdc.gov.tw/twidir/0.1.2"
+          },
+      ]
+    },
+    {
       "name": "CodeX™ Radiation Therapy",
       "category": "Care Planning",
       "npm-name": "hl7.fhir.us.codex-radiation-therapy",
