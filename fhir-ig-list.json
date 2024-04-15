@@ -7256,13 +7256,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-ae-research-ig",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ae-research-ig#1.0.0-ballot",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.ae-research-ig#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/ae-research-ig/2023Sep"
+          "url": "http://hl7.org/fhir/uv/ae-research-ig/STU1"
         }
       ]
     },
