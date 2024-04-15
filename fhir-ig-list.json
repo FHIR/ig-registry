@@ -6154,7 +6154,7 @@
         "zh-TW"
       ],
       "canonical": "https://twcore.mohw.gov.tw/ig/twcore",
-      "ci-build": "https://twcore.mohw.gov.tw/ig/twcore",
+      "ci-build": "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
       "editions": [
         {
           "name": "Trial Use",
@@ -6163,7 +6163,16 @@
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://twcore.mohw.gov.tw/ig/twcore"
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.2.0"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "0.1.1",
+          "package": "tw.gov.mohw.twcore#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.1.1"
         }
       ]
     },
