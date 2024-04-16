@@ -4643,12 +4643,12 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.cancer-reporting#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.us.cancer-reporting#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/cancer-reporting/STU1"
+          "url": "http://hl7.org/fhir/us/cancer-reporting/STU1.0.1"
         }
       ]
     },
