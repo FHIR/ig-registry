@@ -5098,7 +5098,6 @@
         "en"
       ],
       "canonical": "http://hl7.org/fhir/us/insurance-card",
-      "ci-build": "http://build.fhir.org/ig/HL7/insurance-card",
       "analysis": {
         "content": true,
         "rest": true,
@@ -5110,15 +5109,16 @@
         "codeSystems": 5,
         "examples": 4
       },
+      "ci-build": "http://build.fhir.org/ig/HL7/carin-digital-insurance-card",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.insurance-card#1.0.0",
+          "name": "STU1",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.insurance-card#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/insurance-card/STU1"
+          "url": "http://hl7.org/fhir/us/insurance-card/STU1.1"
         }
       ]
     },
