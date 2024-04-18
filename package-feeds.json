@@ -180,6 +180,11 @@
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
       "errors": "ABDM|NRCeS"
+    },
+    {
+      "name": "RIVO-Noord NL",
+      "url": "http://implementatiegids.zorgviewer.nl/package-feed.xml",
+      "errors": "m_van_der_zel|umcg_nl"
     }
   ],
   "package-restrictions": [
