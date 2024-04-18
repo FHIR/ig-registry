@@ -276,6 +276,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "myhealth.eu.fhir.*",
+      "feeds": [ "http://fhir.ehdsi.eu/package-feed.xml" ]
     }
   ]
 }
