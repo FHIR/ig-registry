@@ -172,6 +172,11 @@
       "errors": "gcangioli|hl7_it"
     },
     {
+      "name": "HL7 Austria",
+      "url": "https://fhir.hl7.at/package-feed.xml",
+      "errors": "tc-fhir|hl7_at"
+    },
+    {
       "name": "GKL",
       "url": "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml",
       "errors": "gabriel_kleinoscheg|elga_gv_at"
@@ -277,6 +282,10 @@
     {
       "mask": "hl7.fhir.it.*",
       "feeds": [ "http://hl7.it/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.*",
+      "feeds": [ "https://fhir.hl7.at/package-feed.xml" ]
     },
     {
       "mask": "hl7.at.fhir.gkl.*",
