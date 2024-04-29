@@ -7336,12 +7336,12 @@
       "editions": [
         {
           "name": "Release 5.1",
-          "ig-version": "5.1.0-snapshot1",
-          "package": "hl7.fhir.uv.extensions#5.1.0-snapshot1",
+          "ig-version": "5.1.0",
+          "package": "hl7.fhir.uv.extensions#5.1.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/5.1.0-snapshot1"
+          "url": "http://hl7.org/fhir/extensions/5.1.0"
         }
       ]
     },
