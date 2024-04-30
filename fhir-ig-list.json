@@ -132,9 +132,9 @@
       "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
       "editions": [
         {
-          "name": "Release 2",
-          "ig-version": "2.0.0",
-          "package": "fhir.org.nz.ig.base#2.0.0",
+          "name": "Release 3",
+          "ig-version": "3.0.0",
+          "package": "fhir.org.nz.ig.base#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
