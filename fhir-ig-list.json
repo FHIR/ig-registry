@@ -7204,8 +7204,8 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
