@@ -1841,13 +1841,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.2 Ballot",
-          "ig-version": "2.2.0-ballot",
-          "package": "hl7.fhir.uv.smart-app-launch#2.2.0-ballot",
+          "name": "STU 2.2",
+          "ig-version": "2.2.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2024Jan"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2.2"
         }
       ]
     },
