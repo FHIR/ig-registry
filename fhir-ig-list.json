@@ -7257,8 +7257,8 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ae-research-ig#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.uv.ae-research-ig#1.0.1",
           "fhir-version": [
             "5.0.0"
           ],
