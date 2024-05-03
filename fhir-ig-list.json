@@ -8484,6 +8484,33 @@
           "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
         }
       ]
-    }
+    },
+    {
+        "name": "RIVO-Noord Zorgviewer",
+        "category": "EHR Access",
+        "description": "De zorgviewer biedt zorgverleners een 360° beeld van de patiënt of cliënt. Opgebouwd uit alle beschikbare zorginformatie, waarvoor de patiënt of cliënt toestemming heeft gegeven.",
+        "authority": "RIVO-Noord (NL)",
+        "product": [
+            "fhir"
+        ],
+        "country": "nl",
+        "language": [
+            "nl"
+        ],
+        "history": "https://implementatiegids.zorgviewer.nl/changes.html",
+        "canonical": "https://implementatiegids.zorgviewer.nl",
+        "ci-build": "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
+        "editions": [
+            {
+                "name": "Trial Use",
+                "ig-version": "0.24.0",
+                "package": "hl7.fhir.nl.zorgviewer",
+                "fhir-version": [
+                    "3.0.2"
+                ],
+                "url": "https://implementatiegids.zorgviewer.nl"
+            }
+        ]
+      }
   ]
 }
