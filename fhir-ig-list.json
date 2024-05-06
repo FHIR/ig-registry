@@ -6205,7 +6205,7 @@
     },
     {
       "name": "EMR",
-      "category": "Public Health",
+      "category": "Clinical Records",
       "npm-name": "tw.gov.mohw.emr",
       "description": "Taiwan EMR Implementation Guide",
       "authority": "MOHW (TW)",
