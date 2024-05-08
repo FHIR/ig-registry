@@ -6218,7 +6218,6 @@
         "zh-TW"
       ],
       "canonical": "https://twcore.mohw.gov.tw/ig/emr",
-      "ci-build": "https://twcore.mohw.gov.tw/ig/emr",
       "editions": [
         {
           "name": "Trial Use",
