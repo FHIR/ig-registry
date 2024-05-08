@@ -8122,13 +8122,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/uv-dx-pq",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.pharm-quality#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.pharm-quality#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/pharm-quality/2024Jan"
+          "url": "http://hl7.org/fhir/uv/pharm-quality/STU1"
         }
       ]
     },
