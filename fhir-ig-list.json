@@ -8531,7 +8531,7 @@
         {
           "name": "Trial Use",
           "ig-version": "0.24.0",
-          "package": "hl7.fhir.nl.zorgviewer",
+          "package": "hl7.fhir.nl.zorgviewer#0.24.0",
           "fhir-version": [
             "3.0.2"
           ],
