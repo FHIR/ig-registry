@@ -7136,13 +7136,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-sd",
       "editions": [
         {
-          "name": "CDA2 Draft",
-          "ig-version": "2.0.0-sd-snapshot1",
-          "package": "hl7.cda.uv.core#2.0.0-sd-snapshot1",
+          "name": "CDA2 Informative",
+          "ig-version": "2.0.0-sd",
+          "package": "hl7.cda.uv.core#2.0.0-sd",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1"
+          "url": "http://hl7.org/cda/stds/core/2.0.0-sd"
         }
       ]
     },
