@@ -3851,12 +3851,12 @@
       "editions": [
         {
           "name": "Publication Normative",
-          "ig-version": "1.2.0",
-          "package": "ihe.formatcode.fhir#1.2.0",
+          "ig-version": "1.3.0",
+          "package": "ihe.formatcode.fhir#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.2.0"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
         }
       ]
     },
@@ -5745,12 +5745,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "4.2.1",
-          "package": "ihe.iti.mhd#4.2.1",
+          "ig-version": "4.2.2",
+          "package": "ihe.iti.mhd#4.2.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.1"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.2"
         }
       ]
     },
