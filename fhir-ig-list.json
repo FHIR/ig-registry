@@ -43,13 +43,13 @@
       },
       "editions": [
         {
-          "name": "STU7 Ballot",
-          "ig-version": "7.0.0-ballot",
-          "package": "hl7.fhir.us.core#7.0.0-ballot",
+          "name": "STU7",
+          "ig-version": "7.0.0",
+          "package": "hl7.fhir.us.core#7.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/core/2024Jan"
+          "url": "http://hl7.org/fhir/us/core/STU7"
         }
       ]
     },
@@ -7308,17 +7308,17 @@
       "product": [
         "cda"
       ],
-      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
       "canonical": "http://hl7.org/cda/us/ccda",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda",
       "editions": [
         {
-          "name": "CCDA 3.0 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.cda.us.ccda#3.0.0-ballot",
+          "name": "CCDA 3.0",
+          "ig-version": "3.0.0",
+          "package": "hl7.cda.us.ccda#3.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/us/ccda/2024Jan"
+          "url": "http://hl7.org/cda/us/ccda/3.0.0"
         }
       ]
     },
@@ -8203,13 +8203,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/uv-dx-pq",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.pharm-quality#1.0.0-ballot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.pharm-quality#1.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/pharm-quality/2024Jan"
+          "url": "http://hl7.org/fhir/uv/pharm-quality/STU1"
         }
       ]
     },
