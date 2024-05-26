@@ -185,6 +185,11 @@
       "name": "RIVO-Noord NL",
       "url": "http://implementatiegids.zorgviewer.nl/package-feed.xml",
       "errors": "m_van_der_zel|umcg_nl"
+    },
+    {
+      "name": "IKNL",
+      "url": "http://iknl.github.io/NkrIG/package-feed.xml",
+      "errors": "fhir|iknl_nl"
     }
   ],
   "package-restrictions": [
