@@ -2114,13 +2114,13 @@
       },
       "editions": [
         {
-          "name": "STU2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.eltss#2.0.0-ballot",
+          "name": "STU2",
+          "ig-version": "2.0.0",
+          "package": "hl7.fhir.us.eltss#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/eltss/2024Jan"
+          "url": "http://hl7.org/fhir/us/eltss/STU2"
         }
       ]
     },
@@ -5188,13 +5188,13 @@
       },
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.us.central-cancer-registry-reporting#0.1.0",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.central-cancer-registry-reporting#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/central-cancer-registry-reporting/2022Jan"
+          "url": "http://hl7.org/fhir/us/central-cancer-registry-reporting/STU1"
         }
       ]
     },
@@ -7512,13 +7512,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/crmi-ig",
       "editions": [
         {
-          "name": "STU1 Draft",
-          "ig-version": "1.0.0-snapshot",
-          "package": "hl7.fhir.uv.crmi#1.0.0-snapshot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.crmi#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/crmi/1.0.0-snapshot"
+          "url": "http://hl7.org/fhir/uv/crmi/STU1"
         }
       ]
     },
@@ -8228,13 +8228,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/cql-ig",
       "editions": [
         {
-          "name": "STU1 Draft",
-          "ig-version": "1.0.0-snapshot",
-          "package": "hl7.fhir.uv.cql#1.0.0-snapshot",
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.uv.cql#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/cql/1.0.0-snapshot"
+          "url": "http://hl7.org/fhir/uv/cql/STU1"
         }
       ]
     },
