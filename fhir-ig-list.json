@@ -8563,6 +8563,31 @@
           "url": "https://profiles.ihe.net/PCC/mAPS/1.0.0-comment"
         }
       ]
+    },
+    {
+      "name": "Mobile Antepartum Summary US Realm",
+      "category": "Maternal Health",
+      "npm-name": "ihe.pcc.maps.us",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/us/PCC/mAPS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/us/PCC/mAPS",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.mAPS.us/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.pcc.maps.us#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
+        }
+      ]
     }
   ]
 }
