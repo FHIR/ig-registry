@@ -7563,12 +7563,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "2.0.0",
-          "package": "kl.dk.fhir.term#2.0.0",
+          "ig-version": "2.1.0",
+          "package": "kl.dk.fhir.term#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/term/2.0.0"
+          "url": "http://fhir.kl.dk/term/2.1.0"
         }
       ]
     },
@@ -7813,12 +7813,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.rehab#1.0.0",
+          "ig-version": "2.0.0",
+          "package": "kl.dk.fhir.rehab#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/rehab/1.0.0"
+          "url": "http://fhir.kl.dk/rehab/2.0.0"
         }
       ]
     },
@@ -7838,12 +7838,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.prevention#1.0.0",
+          "ig-version": "2.0.0",
+          "package": "kl.dk.fhir.prevention#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/prevention/1.0.0"
+          "url": "http://fhir.kl.dk/prevention/2.0.0"
         }
       ]
     },
