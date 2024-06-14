@@ -190,6 +190,11 @@
       "name": "IKNL",
       "url": "http://iknl.github.io/NkrIG/package-feed.xml",
       "errors": "fhir|iknl_nl"
+    },
+    {
+      "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides UAT",
+      "url": "https://fhir-ig-uat.digital.health.nz/package-feed.xml",
+      "errors": "kyle_martin|tewhatuora_govt_nz"
     }
   ],
   "package-restrictions": [
