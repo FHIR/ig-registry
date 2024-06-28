@@ -700,7 +700,7 @@
         }
       ],
       "analysis": {
-        "error": "Unknown FHIRVersion code \u0027STU3\u0027"
+        "error": "Unknown FHIRVersion code 'STU3'"
       }
     },
     {
@@ -1488,7 +1488,7 @@
       "name": "Loinc/IVD Test mapping",
       "category": "Diagnostics",
       "npm-name": "hl7.fhir.uv.livd",
-      "description": "The LIVD Implementation Guide provides a industry standard expression for an IVD device manufacturer\u0027s suggestions for a specific device\u0027s mapping from the internal, proprietary IVD test codes to suggested LOINC codes when a LIS manager is connecting and configuring a device to the LIS",
+      "description": "The LIVD Implementation Guide provides a industry standard expression for an IVD device manufacturer's suggestions for a specific device's mapping from the internal, proprietary IVD test codes to suggested LOINC codes when a LIS manager is connecting and configuring a device to the LIS",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -1615,7 +1615,7 @@
       "name": "Coverage Requirements Determination (Da Vinci)",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-crd",
-      "description": "Provides a mechanism for healthcare providers to discover guidelines, pre-authorization requirements and other expectations from payor organizations related to a proposed medication, procedure or other service associated with a patient\u0027s insurance coverage. Supports both patient-specific and patient-independent information retrieval",
+      "description": "Provides a mechanism for healthcare providers to discover guidelines, pre-authorization requirements and other expectations from payor organizations related to a proposed medication, procedure or other service associated with a patient's insurance coverage. Supports both patient-specific and patient-independent information retrieval",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -2008,7 +2008,7 @@
       "name": "Documentation Templates and Rules",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-dtr",
-      "description": "Provides a mechanism for delivering and executing payer rules related to documentation requirements for a proposed medication, procedure or other service associated with a patient\u0027s insurance coverage",
+      "description": "Provides a mechanism for delivering and executing payer rules related to documentation requirements for a proposed medication, procedure or other service associated with a patient's insurance coverage",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -2087,7 +2087,7 @@
       "name": "electronic Long-Term Services and Supports Implementation Guide",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.eltss",
-      "description": "Provides guidance to US Realm implementers to use the FHIR for implementing access and exchange Electronic Long-Term Services \u0026 Supports (eLTSS) Dataset data elements",
+      "description": "Provides guidance to US Realm implementers to use the FHIR for implementing access and exchange Electronic Long-Term Services & Supports (eLTSS) Dataset data elements",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -2597,10 +2597,10 @@
       }
     },
     {
-      "name": "Order \u0026 Referral by Form (CH-ORF)",
+      "name": "Order & Referral by Form (CH-ORF)",
       "category": "National Base",
       "npm-name": "ch.fhir.ig.ch-orf",
-      "description": "The Order \u0026 Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
+      "description": "The Order & Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
       "authority": "eHealth Suisse",
       "product": [
         "fhir"
@@ -2714,7 +2714,7 @@
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.Davinci-drug-formulary",
-      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -2783,7 +2783,7 @@
       "name": "Da Vinci PDex",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.davinci-pdex",
-      "description": "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan\u0027s Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
+      "description": "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan's Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -3622,7 +3622,7 @@
       "name": "US Drug Formulary",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.davinci-drug-formulary",
-      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan\u0027s Prescription Drug Formulary.",
+      "description": "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4305,7 +4305,7 @@
       "name": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
       "category": "Public Health",
       "npm-name": "hl7.fhir.us.nhsn-ade",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC\u0027s National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -4340,7 +4340,7 @@
       "name": "NHSN Reporting: Inpatient Medication Administration",
       "category": "Pharmacy",
       "npm-name": "hl7.fhir.us.nhsn-med-admin",
-      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC\u0027s National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
+      "description": "US Realm IG providing guidance to implementers on reporting data elements to CDC's National Healthcare Safety Network (NHSN) related to inpatient medication administration for hospitalized patients diagnosed with COVID-19, based on FHIR resources and as part of NHSN COVID-19 reporting pathways.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5048,7 +5048,7 @@
       "name": "PACIO Advance Directive Information Implementation Guide",
       "category": "Clinical Documents",
       "npm-name": "hl7.fhir.us.pacio-adi",
-      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual\u0027s advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
+      "description": "The Advance Directive Interoperability (ADI) with FHIR implementation guide (IG) describes how to represent, exchange, and verify an individual's advance directive information regarding potential future care and treatment in the event the individual is not able to communicate such information directly.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5087,7 +5087,7 @@
       "name": "CARIN Digital Insurance Card",
       "category": "Financial",
       "npm-name": "hl7.fhir.us.insurance-card",
-      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a \u0027Digital Insurance Card\u0027 Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
+      "description": "This IG provides a structured approach to take the data elements on an individual consumer’s health insurance card and represent them using FHIR Resources (i.e., a 'Digital Insurance Card' Bundle). The IG also documents patterns to share Digital Insurance Cards via FHIR APIs, SMART Health Cards, and SMART Health Links. This information can be provided by the health insurance company and presented by the member as proof of insurance when interacting with healthcare providers. Eligibility checks are not in the scope of this IG",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5486,7 +5486,7 @@
       "name": "FHIRcast",
       "category": "Imaging",
       "npm-name": "hl7.fhir.uv.fhircast",
-      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user\u0027s session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
+      "description": "Following a SMART on FHIR launch, FHIRcast enables a SMART app to subscribe to a user's session, synchronizing with other healthcare applications. Using OAuth 2.0, websockets and a few simple events: EHRs, PACS, SMART apps and other systems show the same patient (or study) to the same user at the same time. In advanced imaging integrations, the FHIRcast websocket connection is re-used by synchronized apps to collaboratively create and exchange draft image measurements and similar findings.",
       "authority": "HL7",
       "product": [
         "fhir"
@@ -5608,7 +5608,7 @@
       "name": "Pan-Canadian Patient Summary",
       "category": "Patient Summary",
       "npm-name": "ca.infoway.io.psca",
-      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId\u003d149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
+      "description": "The Pan-Canadian Patient Summary (PS-CA) IG and accompanying [PS-CA specification](https://infoscribe.infoway-inforoute.ca/pages/viewpage.action?pageId=149160290) adapt the HL7 [International Patient Summary](http://hl7.org/fhir/uv/ips/) (IPS) for use in a Canadian context.",
       "authority": "Canada Health Infoway",
       "product": [
         "fhir"
@@ -6776,7 +6776,7 @@
       "name": "DK MedCom CareCommunication",
       "category": "CareCommunication",
       "npm-name": "medcom.fhir.dk.carecommunication",
-      "description": "This IG includes profiles used in MedCom\u0027s CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and the social area.",
+      "description": "This IG includes profiles used in MedCom's CareCommunication standard. The purpose of CareCommunication is to support messagebased, digital communication between parties within Danish healthcare and the social area.",
       "authority": "MedCom (DK)",
       "country": "dk",
       "history": "http://medcomfhir.dk/ig/carecommunication/history.html",
@@ -6819,7 +6819,7 @@
       "name": "DK MedCom Core",
       "category": "Core",
       "npm-name": "medcom.fhir.dk.core",
-      "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom\u0027s FHIR standards.",
+      "description": "This IG includes core profiles defined by MedCom. These profiles are used in MedCom's FHIR standards.",
       "authority": "MedCom (DK)",
       "country": "dk",
       "history": "http://medcomfhir.dk/ig/core/history.html",
@@ -6871,7 +6871,7 @@
       "name": "DK MedCom Terminology",
       "category": "Terminology",
       "npm-name": "medcom.fhir.dk.terminology",
-      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom\u0027s FHIR standards.",
+      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.",
       "authority": "MedCom (DK)",
       "country": "dk",
       "history": "http://medcomfhir.dk/ig/terminology/history.html",
@@ -6959,7 +6959,7 @@
       "name": "DK MedCom HospitalNotification",
       "category": "HospitalNotification",
       "npm-name": "medcom.fhir.dk.hospitalnotification",
-      "description": "This IG includes profiles used in MedCom\u0027s HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start, end, and period of leave of the citizen’s stay at the hospital. The communication is messagebased.",
+      "description": "This IG includes profiles used in MedCom's HospitalNotification standard. The purpose of HospitalNotification is to inform the citizen’s current care and health provider in the primary sector about the start, end, and period of leave of the citizen’s stay at the hospital. The communication is messagebased.",
       "authority": "MedCom (DK)",
       "country": "dk",
       "history": "http://medcomfhir.dk/ig/hospitalnotification/history.html",
@@ -7011,7 +7011,7 @@
       "name": "DK MedCom Acknowledgement",
       "category": "Acknowledgement",
       "npm-name": "medcom.fhir.dk.acknowledgement",
-      "description": "This IG includes profiles used in MedCom\u0027s Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
+      "description": "This IG includes profiles used in MedCom's Acknowledgement standard. An Acknowledgement is used as a receipt in messagebased communication.",
       "authority": "MedCom (DK)",
       "country": "dk",
       "history": "http://medcomfhir.dk/ig/acknowledgement/history.html",
@@ -7351,7 +7351,7 @@
       "name": "FHIR Core Extensions Registry",
       "category": "Extensions",
       "npm-name": "hl7.fhir.uv.extensions",
-      "description": "This package defines the \u0027core extensions\u0027 - the extensions defined globally and available to all implementers",
+      "description": "This package defines the 'core extensions' - the extensions defined globally and available to all implementers",
       "authority": "HL7",
       "country": "uv",
       "history": "http://hl7.org/fhir/extensions/history.html",
@@ -8267,7 +8267,7 @@
       "name": "US Prescription Drug Monitoring Program (PDMP)",
       "category": "Medications / Immunizations",
       "npm-name": "hl7.fhir.us.pdmp",
-      "description": "Guidance on the use of FHIR resources and search operations to allow requestors (prescribers, pharmacists, others) to obtain a patient\u0027s medication records held in one or more Prescription Drug Monitoring Programs (PDMPs).  Also describes how the information supplied by the PDMPs is contained in the other information exchanges in the larger PDMP environment.",
+      "description": "Guidance on the use of FHIR resources and search operations to allow requestors (prescribers, pharmacists, others) to obtain a patient's medication records held in one or more Prescription Drug Monitoring Programs (PDMPs).  Also describes how the information supplied by the PDMPs is contained in the other information exchanges in the larger PDMP environment.",
       "authority": "HL7",
       "country": "us",
       "history": "http://hl7.org/fhir/us/pdmp/history.html",
