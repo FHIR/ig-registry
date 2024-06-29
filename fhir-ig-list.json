@@ -71,13 +71,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Trial Use",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.au.base#4.1.0",
+          "name": "Preview",
+          "ig-version": "4.2.1-preview",
+          "package": "hl7.fhir.au.base#4.2.1-preview",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/4.1.0"
+          "url": "http://hl7.org.au/fhir/4.2.1-preview"
         }
       ],
       "analysis": {
@@ -103,12 +103,12 @@
       "editions": [
         {
           "name": "Preview",
-          "ig-version": "0.2.1-preview",
-          "package": "hl7.fhir.au.core#0.2.1-preview",
+          "ig-version": "0.4.0-preview",
+          "package": "hl7.fhir.au.core#0.4.0-preview",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/core/0.2.1-preview"
+          "url": "http://hl7.org.au/fhir/core/0.4.0-preview"
         }
       ],
       "analysis": {
