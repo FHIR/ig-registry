@@ -3885,12 +3885,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "6.0.1",
-          "package": "hl7.terminology#6.0.1",
+          "ig-version": "6.0.2",
+          "package": "hl7.terminology#6.0.2",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://terminology.hl7.org/6.0.1"
+          "url": "http://terminology.hl7.org/6.0.2"
         }
       ]
     },
