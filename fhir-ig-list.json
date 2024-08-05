@@ -1006,21 +1006,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
-      "canonical": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
+      },
+      "canonical": "https://profiles.ihe.net/PCC/QEDm",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.pcc.qedm#0.2.1",
+          "name": "Publication Ballot",
+          "ig-version": "3.0.0-comment1",
+          "package": "ihe.pcc.qedm#3.0.0-comment1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
+          "url": "https://profiles.ihe.net/PCC/QEDm/3.0.0-comment1"
         }
-      ],
-      "analysis": {
-        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
-      }
+      ]
     },
     {
       "name": "IHE Non-Patient File Sharing (NPFS)",
