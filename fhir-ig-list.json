@@ -8455,6 +8455,31 @@
           "url": "http://hl7.org/fhir/uv/fhir-clinical-document/2024Sep"
         }
       ]
+    },
+    {
+      "name": "SMART Health Cards and Links FHIR IG",
+      "category": "Personal Healthcare",
+      "npm-name": "hl7.fhir.uv.smart-health-cards-and-links",
+      "description": "This Implementation Guide defines secure, standards-based mechanisms for individuals to store, share, and manage their health data. It encompasses SMART Health Cards (SHC) for verifiable clinical records and SMART Health Links (SHL) for flexible sharing of FHIR data, including patient-supplied information, dynamic records, and authorization delegation.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/smart-health-cards-and-links/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/smart-health-cards-and-links",
+      "ci-build": "http://build.fhir.org/ig/HL7/smart-health-cards-and-links",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.smart-health-cards-and-links#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep"
+        }
+      ]
     }
   ]
 }
