@@ -8430,6 +8430,31 @@
           "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
         }
       ]
+    },
+    {
+      "name": "FHIR Clinical Documents",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.uv.fhir-clinical-document",
+      "description": "The FHIR Clinical Document Implementation Guide is a canonical representation of a clinical document in FHIR. The IG serves as a common universal starting point for those creating their own FHIR clinical document specifications, and supports those CDA users wishing to migrate to a FHIR-based representation of clinical documents.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/fhir-clinical-document/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/fhir-clinical-document",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-clinical-document/index.html",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.fhir-clinical-document#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/fhir-clinical-document/2024Sep"
+        }
+      ]
     }
   ]
 }
