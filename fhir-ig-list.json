@@ -6259,12 +6259,12 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.home-lab-report#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.home-lab-report#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/home-lab-report/STU1"
+          "url": "http://hl7.org/fhir/us/home-lab-report/STU1.1"
         }
       ]
     },
@@ -7469,13 +7469,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fetal_records",
       "editions": [
         {
-          "name": "Releases Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.ibcm#1.0.0-ballot",
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot2",
+          "package": "hl7.fhir.uv.ibcm#1.0.0-ballot2",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/uv/ibcm/1.0.0-ballot"
+          "url": "http://hl7.org/fhir/uv/ibcm/2024Sep"
         }
       ]
     },
@@ -8491,6 +8491,56 @@
             "4.0.1"
           ],
           "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
+        }
+      ]
+    },
+    {
+      "name": "FHIR Clinical Documents",
+      "category": "Clinical Documents",
+      "npm-name": "hl7.fhir.uv.fhir-clinical-document",
+      "description": "The FHIR Clinical Document Implementation Guide is a canonical representation of a clinical document in FHIR. The IG serves as a common universal starting point for those creating their own FHIR clinical document specifications, and supports those CDA users wishing to migrate to a FHIR-based representation of clinical documents.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/fhir-clinical-document/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/fhir-clinical-document",
+      "ci-build": "http://build.fhir.org/ig/HL7/fhir-clinical-document/index.html",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.fhir-clinical-document#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/fhir-clinical-document/2024Sep"
+        }
+      ]
+    },
+    {
+      "name": "SMART Health Cards and Links FHIR IG",
+      "category": "Personal Healthcare",
+      "npm-name": "hl7.fhir.uv.smart-health-cards-and-links",
+      "description": "This Implementation Guide defines secure, standards-based mechanisms for individuals to store, share, and manage their health data. It encompasses SMART Health Cards (SHC) for verifiable clinical records and SMART Health Links (SHL) for flexible sharing of FHIR data, including patient-supplied information, dynamic records, and authorization delegation.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/smart-health-cards-and-links/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/smart-health-cards-and-links",
+      "ci-build": "http://build.fhir.org/ig/HL7/smart-health-cards-and-links",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.smart-health-cards-and-links#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep"
         }
       ]
     },
