@@ -42,7 +42,13 @@
     "2.16.840.1.113883.4.642.40.36" : {   "id" : "hl7.fhir.us.pq-cmc-fda",                        "info" : "Grahame Grieve, 22-Mar 2024" },
     "2.16.840.1.113883.4.642.40.37" : {   "id" : "hl7.fhir.uv.cql",                               "info" : "Grahame Grieve, 03-Apr 2024" },
     "2.16.840.1.113883.4.642.40.38" : {   "id" : "hl7.fhir.uv.crmi",                              "info" : "Grahame Grieve, 03-Apr 2024" },
-    "2.16.840.1.113883.4.642.40.39" : {   "id" : "hl7.fhir.uv.dicom-sr",                          "info" : "Grahame Grieve, 03-Apr 2024" } ,
-    "2.16.840.1.113883.4.642.40.40" : {   "id" : "hl7.fhir.us.central-cancer-registry-reporting", "info" : "Grahame Grieve, 06-Apr 2024" }   
+    "2.16.840.1.113883.4.642.40.39" : {   "id" : "hl7.fhir.uv.dicom-sr",                          "info" : "Grahame Grieve, 03-Apr 2024" },
+    "2.16.840.1.113883.4.642.40.40" : {   "id" : "hl7.fhir.us.central-cancer-registry-reporting", "info" : "Grahame Grieve, 06-Apr 2024" },
+    "2.16.840.1.113883.4.642.40.41" : {   "id" : "hl7.fhir.uv.pharm-quality",                     "info" : "Grahame Grieve, 11-Apr 2024" },
+    "2.16.840.1.113883.4.642.40.42" : {   "id" : "hl7.fhir.uv.saner",                             "info" : "Grahame Grieve, 02-May 2024" },
+    "2.16.840.1.113883.4.642.40.43" : {   "id" : "hl7.fhir.us.ndh",                               "info" : "Grahame Grieve, 25-May 2024" },
+    "2.16.840.1.113883.4.642.40.44" : {   "id" : "hl7.fhir.uv.ebm",                               "info" : "Grahame Grieve, 13-Jun 2024" },
+    "2.16.840.1.113883.4.642.40.45" : {   "id" : "hl7.fhir.uv.clinical-document-ig",              "info" : "Grahame Grieve, 09-Jul 2024" }
+    
   }
 }

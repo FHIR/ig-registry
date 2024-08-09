@@ -180,6 +180,21 @@
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
       "errors": "ABDM|NRCeS"
+    },
+    {
+      "name": "RIVO-Noord NL",
+      "url": "http://implementatiegids.zorgviewer.nl/package-feed.xml",
+      "errors": "m_van_der_zel|umcg_nl"
+    },
+    {
+      "name": "IKNL",
+      "url": "http://iknl.github.io/NkrIG/package-feed.xml",
+      "errors": "fhir|iknl_nl"
+    },
+    {
+      "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
+      "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
+      "errors": "integration|tewhatuora_govt_nz"
     }
   ],
   "package-restrictions": [

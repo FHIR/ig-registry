@@ -71,13 +71,13 @@
       "ci-build": "http://build.fhir.org/ig/hl7au/au-fhir-base",
       "editions": [
         {
-          "name": "Trial Use",
-          "ig-version": "4.1.0",
-          "package": "hl7.fhir.au.base#4.1.0",
+          "name": "Preview",
+          "ig-version": "4.2.1-preview",
+          "package": "hl7.fhir.au.base#4.2.1-preview",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/4.1.0"
+          "url": "http://hl7.org.au/fhir/4.2.1-preview"
         }
       ],
       "analysis": {
@@ -103,12 +103,12 @@
       "editions": [
         {
           "name": "Preview",
-          "ig-version": "0.2.1-preview",
-          "package": "hl7.fhir.au.core#0.2.1-preview",
+          "ig-version": "0.4.0-preview",
+          "package": "hl7.fhir.au.core#0.4.0-preview",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org.au/fhir/core/0.2.1-preview"
+          "url": "http://hl7.org.au/fhir/core/0.4.0-preview"
         }
       ],
       "analysis": {
@@ -132,9 +132,9 @@
       "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
       "editions": [
         {
-          "name": "Release 2",
-          "ig-version": "2.0.0",
-          "package": "fhir.org.nz.ig.base#2.0.0",
+          "name": "Release 3",
+          "ig-version": "3.0.0",
+          "package": "fhir.org.nz.ig.base#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -2411,12 +2411,12 @@
       "editions": [
         {
           "name": "Release",
-          "ig-version": "3.1.0",
-          "package": "hl7.fhir.dk.core#3.1.0",
+          "ig-version": "3.2.0",
+          "package": "hl7.fhir.dk.core#3.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.dk/fhir/core/3.1.0"
+          "url": "http://hl7.dk/fhir/core/3.2.0"
         }
       ]
     },
@@ -3369,30 +3369,12 @@
       "editions": [
         {
           "name": "STU 2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.carin-bb#2.0.0",
+          "ig-version": "2.1.0-snapshot1",
+          "package": "hl7.fhir.us.carin-bb#2.1.0-snapshot1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/carin-bb/STU2"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.carin-bb#1.1.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/carin-bb/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.carin-bb#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/carin-bb/STU1"
+          "url": "http://hl7.org/fhir/us/carin-bb/2.1.0-snapshot1"
         }
       ]
     },
@@ -3851,12 +3833,12 @@
       "editions": [
         {
           "name": "Publication Normative",
-          "ig-version": "1.2.0",
-          "package": "ihe.formatcode.fhir#1.2.0",
+          "ig-version": "1.3.0",
+          "package": "ihe.formatcode.fhir#1.3.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.2.0"
+          "url": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
         }
       ]
     },
@@ -3885,12 +3867,12 @@
       "editions": [
         {
           "name": "Publications",
-          "ig-version": "5.5.0",
-          "package": "hl7.terminology#5.5.0",
+          "ig-version": "6.0.1",
+          "package": "hl7.terminology#6.0.1",
           "fhir-version": [
-            "4.0.1"
+            "5.0.0"
           ],
-          "url": "http://terminology.hl7.org/5.5.0"
+          "url": "http://terminology.hl7.org/6.0.1"
         }
       ]
     },
@@ -5299,13 +5281,13 @@
       },
       "editions": [
         {
-          "name": "STU 2 Ballot",
-          "ig-version": "2.0.0-ballot",
-          "package": "hl7.fhir.us.mdi#2.0.0-ballot",
+          "name": "STU 2 Preview",
+          "ig-version": "2.0.0-snapshot1",
+          "package": "hl7.fhir.us.mdi#2.0.0-snapshot1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mdi/2024May"
+          "url": "http://hl7.org/fhir/us/mdi/2.0.0-snapshot1"
         }
       ]
     },
@@ -5745,12 +5727,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "4.2.1",
-          "package": "ihe.iti.mhd#4.2.1",
+          "ig-version": "4.2.2",
+          "package": "ihe.iti.mhd#4.2.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/ITI/MHD/4.2.1"
+          "url": "https://profiles.ihe.net/ITI/MHD/4.2.2"
         }
       ]
     },
@@ -5819,12 +5801,12 @@
       "editions": [
         {
           "name": "Publication",
-          "ig-version": "1.0.0",
-          "package": "ihe.rad.imr#1.0.0",
+          "ig-version": "1.1.0",
+          "package": "ihe.rad.imr#1.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://profiles.ihe.net/RAD/IMR/1.0.0"
+          "url": "https://profiles.ihe.net/RAD/IMR/1.1.0"
         }
       ]
     },
@@ -6136,16 +6118,97 @@
         "zh-TW"
       ],
       "canonical": "https://twcore.mohw.gov.tw/ig/twcore",
-      "ci-build": "https://twcore.mohw.gov.tw/ig/twcore",
+      "ci-build": "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "0.2.0",
+          "package": "tw.gov.mohw.twcore#0.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.2.0"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "0.1.1",
+          "package": "tw.gov.mohw.twcore#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.1.1"
+        }
+      ]
+    },
+    {
+      "name": "TWIDIR",
+      "category": "Public Health",
+      "npm-name": "tw.gov.mohw.cdc.twidir",
+      "description": "Taiwan Infectious Disease Inspection Report Implementation Guide",
+      "authority": "CDC (TW)",
+      "product": [
+        "fhir"
+      ],
+      "country": "tw",
+      "history": "https://twidir.cdc.gov.tw/twidir/history.html",
+      "language": [
+        "zh-TW"
+      ],
+      "canonical": "https://twidir.cdc.gov.tw/twidir",
+      "editions": [
+        {
+          "name": "STU1",
+          "ig-version": "0.1.0",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.0"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "0.1.1",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.1"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "0.1.2",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.2"
+        }
+      ]
+    },
+    {
+      "name": "EMR",
+      "category": "Clinical Records",
+      "npm-name": "tw.gov.mohw.emr",
+      "description": "Taiwan EMR Implementation Guide",
+      "authority": "MOHW (TW)",
+      "product": [
+        "fhir"
+      ],
+      "country": "tw",
+      "history": "https://twcore.mohw.gov.tw/ig/emr/history.html",
+      "language": [
+        "zh-TW"
+      ],
+      "canonical": "https://twcore.mohw.gov.tw/ig/emr",
       "editions": [
         {
           "name": "Trial Use",
           "ig-version": "0.1.0",
-          "package": "tw.gov.mohw.twcore#0.1.0",
+          "package": "tw.gov.mohw.emr#0.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://twcore.mohw.gov.tw/ig/twcore"
+          "url": "https://twcore.mohw.gov.tw/ig/emr/0.1.0"
         }
       ]
     },
@@ -7055,13 +7118,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/CDA-core-sd",
       "editions": [
         {
-          "name": "CDA2 Draft",
-          "ig-version": "2.0.0-sd-snapshot1",
-          "package": "hl7.cda.uv.core#2.0.0-sd-snapshot1",
+          "name": "CDA2 Informative",
+          "ig-version": "2.0.0-sd",
+          "package": "hl7.cda.uv.core#2.0.0-sd",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1"
+          "url": "http://hl7.org/cda/stds/core/2.0.0-sd"
         }
       ]
     },
@@ -7227,17 +7290,17 @@
       "product": [
         "cda"
       ],
-      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda-2.1-sd",
       "canonical": "http://hl7.org/cda/us/ccda",
+      "ci-build": "http://build.fhir.org/ig/HL7/CDA-ccda",
       "editions": [
         {
-          "name": "CCDA 3.0 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.cda.us.ccda#3.0.0-ballot",
+          "name": "CCDA 3.0",
+          "ig-version": "3.0.0",
+          "package": "hl7.cda.us.ccda#3.0.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/cda/us/ccda/2024Jan"
+          "url": "http://hl7.org/cda/us/ccda/3.0.0"
         }
       ]
     },
@@ -7282,12 +7345,12 @@
       "editions": [
         {
           "name": "Release 5.1",
-          "ig-version": "5.1.0-snapshot1",
-          "package": "hl7.fhir.uv.extensions#5.1.0-snapshot1",
+          "ig-version": "5.1.0",
+          "package": "hl7.fhir.uv.extensions#5.1.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/5.1.0-snapshot1"
+          "url": "http://hl7.org/fhir/extensions/5.1.0"
         }
       ]
     },
@@ -7482,12 +7545,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.1.0",
-          "package": "kl.dk.fhir.term#1.1.0",
+          "ig-version": "2.1.0",
+          "package": "kl.dk.fhir.term#2.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/term/1.1.0"
+          "url": "http://fhir.kl.dk/term/2.1.0"
         }
       ]
     },
@@ -7732,12 +7795,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.rehab#1.0.0",
+          "ig-version": "2.0.0",
+          "package": "kl.dk.fhir.rehab#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/rehab/1.0.0"
+          "url": "http://fhir.kl.dk/rehab/2.0.0"
         }
       ]
     },
@@ -7757,12 +7820,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.prevention#1.0.0",
+          "ig-version": "2.0.0",
+          "package": "kl.dk.fhir.prevention#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/prevention/1.0.0"
+          "url": "http://fhir.kl.dk/prevention/2.0.0"
         }
       ]
     },
@@ -7782,12 +7845,12 @@
       "editions": [
         {
           "name": "Releases",
-          "ig-version": "1.0.0",
-          "package": "kl.dk.fhir.children#1.0.0",
+          "ig-version": "2.0.0",
+          "package": "kl.dk.fhir.children#2.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://fhir.kl.dk/children/1.0.0"
+          "url": "http://fhir.kl.dk/children/2.0.0"
         }
       ]
     },
@@ -8298,12 +8361,12 @@
       "editions": [
         {
           "name": "Releases Informative",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.tools#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.tools#0.2.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/tools/0.1.0"
+          "url": "http://hl7.org/fhir/tools/0.2.0"
         }
       ]
     },
@@ -8478,6 +8541,83 @@
             "4.0.1"
           ],
           "url": "http://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep"
+        }
+      ]
+    },
+    {
+      "name": "RIVO-Noord Zorgviewer",
+      "category": "EHR Access",
+      "description": "De zorgviewer biedt zorgverleners een 360° beeld van de patiënt of cliënt. Opgebouwd uit alle beschikbare zorginformatie, waarvoor de patiënt of cliënt toestemming heeft gegeven.",
+      "authority": "RIVO-Noord (NL)",
+      "product": [
+        "fhir"
+      ],
+      "country": "nl",
+      "language": [
+        "nl"
+      ],
+      "history": "https://implementatiegids.zorgviewer.nl/changes.html",
+      "canonical": "https://implementatiegids.zorgviewer.nl",
+      "ci-build": "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
+      "editions": [
+        {
+          "name": "Trial Use",
+          "ig-version": "0.24.0",
+          "package": "hl7.fhir.nl.zorgviewer#0.24.0",
+          "fhir-version": [
+            "3.0.2"
+          ],
+          "url": "https://implementatiegids.zorgviewer.nl"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Antepartum Summary",
+      "category": "Maternal Health",
+      "npm-name": "ihe.pcc.maps",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/PCC/mAPS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/PCC/mAPS",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.mAPS/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.pcc.maps#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/PCC/mAPS/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Antepartum Summary US Realm",
+      "category": "Maternal Health",
+      "npm-name": "ihe.pcc.maps.us",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/us/PCC/mAPS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/us/PCC/mAPS",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.mAPS.us/branches/master/index.html",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.pcc.maps.us#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
         }
       ]
     }
