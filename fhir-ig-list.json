@@ -8620,6 +8620,31 @@
           "url": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
         }
       ]
+    },
+    {
+      "name": "DICOM® SR to FHIR Resource Mapping IG",
+      "category": "Imaging",
+      "npm-name": "hl7.fhir.uv.dicom-sr",
+      "description": "Provides guidance for extracting key content from DICOM Structured Report (SR) objects into FHIR Observations  to make use of the results with  the larger hospital enterprise.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/dicom-sr/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/dicom-sr",
+      "ci-build": "http://build.fhir.org/ig/HL7/dicom-sr",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.dicom-sr#1.0.0-ballot",
+          "fhir-version": [
+            "5.0.0"
+          ],
+          "url": "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
+        }
+      ]
     }
   ]
 }
