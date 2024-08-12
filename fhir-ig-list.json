@@ -518,13 +518,13 @@
       },
       "editions": [
         {
-          "name": "STU6 (v6.0.0)",
-          "ig-version": "6.0.0",
-          "package": "hl7.fhir.us.qicore#6.0.0",
+          "name": "STU7 (v7.0.0) Ballot",
+          "ig-version": "7.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#7.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/STU6"
+          "url": "http://hl7.org/fhir/us/qicore/2024Sep"
         }
       ]
     },
