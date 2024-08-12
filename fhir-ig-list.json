@@ -5418,13 +5418,13 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.identity-matching#1.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/identity-matching/STU1"
+          "url": "http://hl7.org/fhir/us/identity-matching/2024SEP"
         }
       ]
     },
