@@ -8645,6 +8645,31 @@
           "url": "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
         }
       ]
+    },
+    {
+      "name": "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
+      "category": "Public Health",
+      "npm-name": "hl7.fhir.us.nhsn-dqm",
+      "description": "This implementation guide creates a framework for reporting to the National Healthcare Safety Network (NHSN) using digital quality measures (dQMs). NHSN will create FHIR Measure resources that comply with this framework and receive the resulting MeasureReport and related resources. The Measure resources will be processed by a measure evaluation engine, which can either pull data from an EHR FHIR API for evaluation, or be implemented inside an EHR directly.",
+      "authority": "HL7",
+      "country": "us",
+      "history": "http://hl7.org/fhir/us/nhsn-dqm/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/us/nhsn-dqm",
+      "ci-build": "http://build.fhir.org/ig/HL7/nhsn-dqm",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.us.nhsn-dqm#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
+        }
+      ]
     }
   ]
 }
