@@ -8651,9 +8651,9 @@
       "name": "IHE ITI Scheduling",
       "category": "Administration",
       "npm-name": "ihe.iti.scheduling",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "The IHE FHIR Scheduling Profile is a specification providing FHIR APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users. This specification is based on FHIR Version 4 and specifically the Schedule, Slot, and Appointment resources, and on the previous work of the [Argonaut Project](https://fhir.org/guides/argonaut/scheduling/release1/)",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/ITI/Scheduling/history.html",
       "language": [
         "en"
