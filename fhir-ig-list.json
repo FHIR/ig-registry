@@ -8646,6 +8646,31 @@
           "url": "https://profiles.ihe.net/ITI/FAIS/1.0.0-comment"
         }
       ]
+    },
+    {
+      "name": "IHE ITI Scheduling",
+      "category": "Administration",
+      "npm-name": "ihe.iti.scheduling",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://profiles.ihe.net/ITI/Scheduling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/Scheduling",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.Scheduling",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.scheduling#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
+        }
+      ]
     }
   ]
 }
