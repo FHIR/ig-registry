@@ -8661,6 +8661,31 @@
           "url": "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
         }
       ]
+    },
+    {
+      "name": "FHIR Application Feature Framework Implementation Guide",
+      "category": "Infrastructure",
+      "npm-name": "hl7.fhir.uv.application-feature",
+      "description": "This IG defines profiles and extensions to implement features that were formerly considered for what was known as CapabilityStatement2. This includes a terminology-based approach to managing new assertions around system capabilities, which will allow for feature negotiation.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/application-feature/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/application-feature",
+      "ci-build": "http://build.fhir.org/ig/HL7/capstmt",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.application-feature#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/application-feature/2024Sep"
+        }
+      ]
     }
   ]
 }
