@@ -6277,13 +6277,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.pacio-pfe#1.0.0",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.pacio-pfe#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-pfe/STU1"
+          "url": "http://hl7.org/fhir/us/pacio-pfe/2024Sep"
         }
       ]
     },
