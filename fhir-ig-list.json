@@ -8711,6 +8711,31 @@
           "url": "http://hl7.org/fhir/uv/termchangeset/2024Sep"
         }
       ]
+    },
+    {
+      "name": "HL7 Laboratory Report",
+      "category": "Orders and Observations",
+      "npm-name": "hl7.fhir.uv.lab-report",
+      "description": "Universal implementation guide for laboratory reporting using FHIR (based on FHIR document or DiagnosticReport)",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/lab-report/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/lab-report",
+      "ci-build": "http://build.fhir.org/ig/HL7/uv-lab-rep-ig",
+      "editions": [
+        {
+          "name": "STU 1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.lab-report#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/lab-report/2024Sep"
+        }
+      ]
     }
   ]
 }
