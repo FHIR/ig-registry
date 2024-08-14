@@ -8686,6 +8686,31 @@
           "url": "http://hl7.org/fhir/uv/application-feature/2024Sep"
         }
       ]
+    },
+    {
+      "name": "Terminology Change Set Exchange",
+      "category": "Terminologies",
+      "npm-name": "hl7.fhir.uv.termchangeset",
+      "description": "This IG provides profiles and implementation guidance for exchanging terminology change sets that include full semantic detail from the source terminology utilizing the CodeSystem resource.  It also addresses exchanging terminology change sets containing provisional concepts not yet incorporated in source terminologies. Analysis of semantic detail to include in a change set is informed by the Tinkar Standardized Terminology Knowledgebase (https://www.hl7.org/implement/standards/product_brief.cfm?product_id=573) Reference Model, and mappings from that model are included on CodeSystem profiles.",
+      "authority": "HL7",
+      "country": "uv",
+      "history": "http://hl7.org/fhir/uv/termchangeset/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.org/fhir/uv/termchangeset",
+      "ci-build": "http://build.fhir.org/ig/HL7/termchangeset-ig",
+      "editions": [
+        {
+          "name": "STU1 Ballot",
+          "ig-version": "1.0.0-ballot",
+          "package": "hl7.fhir.uv.termchangeset#1.0.0-ballot",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.org/fhir/uv/termchangeset/2024Sep"
+        }
+      ]
     }
   ]
 }
