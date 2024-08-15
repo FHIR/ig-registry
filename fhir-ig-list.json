@@ -518,13 +518,13 @@
       },
       "editions": [
         {
-          "name": "STU6 (v6.0.0)",
-          "ig-version": "6.0.0",
-          "package": "hl7.fhir.us.qicore#6.0.0",
+          "name": "STU7 (v7.0.0) Ballot",
+          "ig-version": "7.0.0-ballot",
+          "package": "hl7.fhir.us.qicore#7.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/qicore/STU6"
+          "url": "http://hl7.org/fhir/us/qicore/2024Sep"
         }
       ]
     },
@@ -771,22 +771,13 @@
       },
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.uv.ips#1.1.0",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.uv.ips#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1.1"
-        },
-        {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ips#1.0.0",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/ips/STU1"
+          "url": "http://hl7.org/fhir/uv/ips/2024Sep"
         }
       ]
     },
@@ -2074,13 +2065,13 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.davinci-hrex#1.0.0",
+          "name": "STU 1.1 Ballot",
+          "ig-version": "1.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-hrex#1.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-hrex/STU1"
+          "url": "http://hl7.org/fhir/us/davinci-hrex/2024Sep"
         }
       ]
     },
@@ -2808,13 +2799,13 @@
       },
       "editions": [
         {
-          "name": "STU2",
-          "ig-version": "2.0.0",
-          "package": "hl7.fhir.us.davinci-pdex#2.0.0",
+          "name": "STU2.1 Ballot",
+          "ig-version": "2.1.0-ballot",
+          "package": "hl7.fhir.us.davinci-pdex#2.1.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/davinci-pdex/STU2"
+          "url": "http://hl7.org/fhir/us/davinci-pdex/2024SEP"
         }
       ]
     },
@@ -5419,13 +5410,13 @@
       },
       "editions": [
         {
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.identity-matching#1.0.0",
+          "name": "STU2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.identity-matching#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/identity-matching/STU1"
+          "url": "http://hl7.org/fhir/us/identity-matching/2024SEP"
         }
       ]
     },
@@ -6287,13 +6278,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
       "editions": [
         {
-          "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.pacio-pfe#1.0.0",
+          "name": "STU 2 Ballot",
+          "ig-version": "2.0.0-ballot",
+          "package": "hl7.fhir.us.pacio-pfe#2.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/pacio-pfe/STU1"
+          "url": "http://hl7.org/fhir/us/pacio-pfe/2024Sep"
         }
       ]
     },
@@ -6645,13 +6636,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-us-mcc",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot2",
-          "package": "hl7.fhir.us.mcc#1.0.0-ballot2",
+          "name": "STU 1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.mcc#1.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/us/mcc/2023Sep"
+          "url": "http://hl7.org/fhir/us/mcc/STU1"
         }
       ]
     },
@@ -8721,6 +8712,131 @@
           "url": "http://ehealth.sundhed.dk/fhir/3.1.0"
         }
       ]
-    }
+    },
+     {
+       "name": "DICOM® SR to FHIR Resource Mapping IG",
+       "category": "Imaging",
+       "npm-name": "hl7.fhir.uv.dicom-sr",
+       "description": "Provides guidance for extracting key content from DICOM Structured Report (SR) objects into FHIR Observations  to make use of the results with  the larger hospital enterprise.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/dicom-sr/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/dicom-sr",
+       "ci-build": "http://build.fhir.org/ig/HL7/dicom-sr",
+       "editions": [
+         {
+           "name": "STU1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.dicom-sr#1.0.0-ballot",
+           "fhir-version": [
+             "5.0.0"
+           ],
+           "url": "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
+       "category": "Public Health",
+       "npm-name": "hl7.fhir.us.nhsn-dqm",
+       "description": "This implementation guide creates a framework for reporting to the National Healthcare Safety Network (NHSN) using digital quality measures (dQMs). NHSN will create FHIR Measure resources that comply with this framework and receive the resulting MeasureReport and related resources. The Measure resources will be processed by a measure evaluation engine, which can either pull data from an EHR FHIR API for evaluation, or be implemented inside an EHR directly.",
+       "authority": "HL7",
+       "country": "us",
+       "history": "http://hl7.org/fhir/us/nhsn-dqm/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/us/nhsn-dqm",
+       "ci-build": "http://build.fhir.org/ig/HL7/nhsn-dqm",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.us.nhsn-dqm#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "FHIR Application Feature Framework Implementation Guide",
+       "category": "Infrastructure",
+       "npm-name": "hl7.fhir.uv.application-feature",
+       "description": "This IG defines profiles and extensions to implement features that were formerly considered for what was known as CapabilityStatement2. This includes a terminology-based approach to managing new assertions around system capabilities, which will allow for feature negotiation.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/application-feature/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/application-feature",
+       "ci-build": "http://build.fhir.org/ig/HL7/capstmt",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.application-feature#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/application-feature/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "Terminology Change Set Exchange",
+       "category": "Terminologies",
+       "npm-name": "hl7.fhir.uv.termchangeset",
+       "description": "This IG provides profiles and implementation guidance for exchanging terminology change sets that include full semantic detail from the source terminology utilizing the CodeSystem resource.  It also addresses exchanging terminology change sets containing provisional concepts not yet incorporated in source terminologies. Analysis of semantic detail to include in a change set is informed by the Tinkar Standardized Terminology Knowledgebase (https://www.hl7.org/implement/standards/product_brief.cfm?product_id\u003d573) Reference Model, and mappings from that model are included on CodeSystem profiles.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/termchangeset/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/termchangeset",
+       "ci-build": "http://build.fhir.org/ig/HL7/termchangeset-ig",
+       "editions": [
+         {
+           "name": "STU1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.termchangeset#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/termchangeset/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "HL7 Laboratory Report",
+       "category": "Orders and Observations",
+       "npm-name": "hl7.fhir.uv.lab-report",
+       "description": "Universal implementation guide for laboratory reporting using FHIR (based on FHIR document or DiagnosticReport)",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/lab-report/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/lab-report",
+       "ci-build": "http://build.fhir.org/ig/HL7/uv-lab-rep-ig",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.lab-report#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/lab-report/2024Sep"
+         }
+       ]
+     }
   ]
 }
