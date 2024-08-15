@@ -997,21 +997,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
-      "canonical": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
+      },
+      "canonical": "https://profiles.ihe.net/PCC/QEDm",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.pcc.qedm#0.2.1",
+          "name": "Publication Ballot",
+          "ig-version": "3.0.0-comment1",
+          "package": "ihe.pcc.qedm#3.0.0-comment1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
+          "url": "https://profiles.ihe.net/PCC/QEDm/3.0.0-comment1"
         }
-      ],
-      "analysis": {
-        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
-      }
+      ]
     },
     {
       "name": "IHE Non-Patient File Sharing (NPFS)",
@@ -7335,13 +7336,13 @@
       "ci-build": "http://build.fhir.org/ig/HL7/fhir-extensions",
       "editions": [
         {
-          "name": "Release 5.1",
-          "ig-version": "5.1.0",
-          "package": "hl7.fhir.uv.extensions#5.1.0",
+          "name": "Release 5.2",
+          "ig-version": "5.2.0-ballot",
+          "package": "hl7.fhir.uv.extensions#5.2.0-ballot",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/5.1.0"
+          "url": "http://hl7.org/fhir/extensions/5.2.0-ballot"
         }
       ]
     },
@@ -8390,9 +8391,9 @@
       "name": "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
       "category": "Clinical Records",
       "npm-name": "ihe.pcc.odh",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "This IG covers the specific data that covers past or present jobs, usual work, employment status, retirement date and combat zone period for the subject. It also includes the past or present jobs and usual work of other household members. This IG is International scope",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/PCC/ODH/history.html",
       "language": [
         "en"
@@ -8566,9 +8567,9 @@
       "name": "Mobile Antepartum Summary",
       "category": "Maternal Health",
       "npm-name": "ihe.pcc.maps",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Antepartum Summary is a content profile that defines the structure for the aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of an antepartum episode.",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/PCC/mAPS/history.html",
       "language": [
         "en"
@@ -8591,9 +8592,9 @@
       "name": "Mobile Antepartum Summary US Realm",
       "category": "Maternal Health",
       "npm-name": "ihe.pcc.maps.us",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Antepartum Summary is a content profile that defines the structure for the aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of an antepartum episode.",
+      "authority": "IHE",
+      "country": "us",
       "history": "https://profiles.ihe.net/us/PCC/mAPS/history.html",
       "language": [
         "en"
@@ -8613,129 +8614,229 @@
       ]
     },
     {
-      "name": "DICOM® SR to FHIR Resource Mapping IG",
-      "category": "Imaging",
-      "npm-name": "hl7.fhir.uv.dicom-sr",
-      "description": "Provides guidance for extracting key content from DICOM Structured Report (SR) objects into FHIR Observations  to make use of the results with  the larger hospital enterprise.",
-      "authority": "HL7",
+      "name": "IHE ITI Finance and Insurance Services",
+      "category": "Financial",
+      "npm-name": "ihe.iti.fais",
+      "description": "The Finance and Insurance Service (FAIS) stores, categorizes, and facilitates the administration of centralized claims and finance data for patient care. The service receives claims/financial data from Point of Service applications (including financing applications acting as a point of service interface outside of other PoS systems) and curates the management of them.",
+      "authority": "IHE",
       "country": "uv",
-      "history": "http://hl7.org/fhir/uv/dicom-sr/history.html",
+      "history": "https://profiles.ihe.net/ITI/FAIS/history.html",
       "language": [
         "en"
       ],
-      "canonical": "http://hl7.org/fhir/uv/dicom-sr",
-      "ci-build": "http://build.fhir.org/ig/HL7/dicom-sr",
+      "canonical": "https://profiles.ihe.net/ITI/FAIS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.Finance ",
       "editions": [
         {
-          "name": "STU1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.dicom-sr#1.0.0-ballot",
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.fais#1.0.0-comment",
           "fhir-version": [
-            "5.0.0"
+            "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
+          "url": "https://profiles.ihe.net/ITI/FAIS/1.0.0-comment"
         }
       ]
     },
     {
-      "name": "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
-      "category": "Public Health",
-      "npm-name": "hl7.fhir.us.nhsn-dqm",
-      "description": "This implementation guide creates a framework for reporting to the National Healthcare Safety Network (NHSN) using digital quality measures (dQMs). NHSN will create FHIR Measure resources that comply with this framework and receive the resulting MeasureReport and related resources. The Measure resources will be processed by a measure evaluation engine, which can either pull data from an EHR FHIR API for evaluation, or be implemented inside an EHR directly.",
+      "name": "IHE ITI Scheduling",
+      "category": "Administration",
+      "npm-name": "ihe.iti.scheduling",
+      "description": "The IHE FHIR Scheduling Profile is a specification providing FHIR APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users. This specification is based on FHIR Version 4 and specifically the Schedule, Slot, and Appointment resources, and on the previous work of the [Argonaut Project](https://fhir.org/guides/argonaut/scheduling/release1/)",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "https://profiles.ihe.net/ITI/Scheduling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/Scheduling",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.Scheduling",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.scheduling#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "US Standardized Medication Profile (SMP)",
+      "category": "Medications ",
+      "npm-name": "hl7.fhir.us.smp",
+      "description": "??",
       "authority": "HL7",
       "country": "us",
-      "history": "http://hl7.org/fhir/us/nhsn-dqm/history.html",
+      "history": "http://hl7.org/fhir/us/smp/history.html",
       "language": [
         "en"
       ],
-      "canonical": "http://hl7.org/fhir/us/nhsn-dqm",
-      "ci-build": "http://build.fhir.org/ig/HL7/nhsn-dqm",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.us.nhsn-dqm#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
-        }
-      ]
-    },
-    {
-      "name": "FHIR Application Feature Framework Implementation Guide",
-      "category": "Infrastructure",
-      "npm-name": "hl7.fhir.uv.application-feature",
-      "description": "This IG defines profiles and extensions to implement features that were formerly considered for what was known as CapabilityStatement2. This includes a terminology-based approach to managing new assertions around system capabilities, which will allow for feature negotiation.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/application-feature/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/application-feature",
-      "ci-build": "http://build.fhir.org/ig/HL7/capstmt",
-      "editions": [
-        {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.application-feature#1.0.0-ballot",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://hl7.org/fhir/uv/application-feature/2024Sep"
-        }
-      ]
-    },
-    {
-      "name": "Terminology Change Set Exchange",
-      "category": "Terminologies",
-      "npm-name": "hl7.fhir.uv.termchangeset",
-      "description": "This IG provides profiles and implementation guidance for exchanging terminology change sets that include full semantic detail from the source terminology utilizing the CodeSystem resource.  It also addresses exchanging terminology change sets containing provisional concepts not yet incorporated in source terminologies. Analysis of semantic detail to include in a change set is informed by the Tinkar Standardized Terminology Knowledgebase (https://www.hl7.org/implement/standards/product_brief.cfm?product_id\u003d573) Reference Model, and mappings from that model are included on CodeSystem profiles.",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/termchangeset/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://hl7.org/fhir/uv/termchangeset",
-      "ci-build": "http://build.fhir.org/ig/HL7/termchangeset-ig",
+      "canonical": "http://hl7.org/fhir/us/smp",
+      "ci-build": "http://build.fhir.org/ig/HL7/smp",
       "editions": [
         {
           "name": "STU1 Ballot",
           "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.termchangeset#1.0.0-ballot",
+          "package": "hl7.fhir.us.smp#1.0.0-ballot",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/termchangeset/2024Sep"
+          "url": "http://hl7.org/fhir/us/smp/2024Sep"
         }
       ]
     },
     {
-      "name": "HL7 Laboratory Report",
-      "category": "Orders and Observations",
-      "npm-name": "hl7.fhir.uv.lab-report",
-      "description": "Universal implementation guide for laboratory reporting using FHIR (based on FHIR document or DiagnosticReport)",
-      "authority": "HL7",
-      "country": "uv",
-      "history": "http://hl7.org/fhir/uv/lab-report/history.html",
+      "name": "FUT Infrastructure",
+      "category": "Core",
+      "npm-name": "dk.ehealth.sundhed.fhir.ig.core",
+      "description": "The Danish eHealth Infrastructure Implementation Guide defines a set of FHIR profiles with extensions and bindings needed to create interoperable, quality-focused applications.",
+      "authority": "Den telemedicinske infrastruktur (eHealth Infrastructure)",
+      "country": "dk",
+      "history": "http://ehealth.sundhed.dk/fhir/history.html",
       "language": [
         "en"
       ],
-      "canonical": "http://hl7.org/fhir/uv/lab-report",
-      "ci-build": "http://build.fhir.org/ig/HL7/uv-lab-rep-ig",
+      "canonical": "http://ehealth.sundhed.dk/fhir",
+      "ci-build": "http://build.fhir.org/ig/fut-infrastructure/implementation-guide",
       "editions": [
         {
-          "name": "STU 1 Ballot",
-          "ig-version": "1.0.0-ballot",
-          "package": "hl7.fhir.uv.lab-report#1.0.0-ballot",
+          "name": "Releases",
+          "ig-version": "3.1.0",
+          "package": "dk.ehealth.sundhed.fhir.ig.core#3.1.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/lab-report/2024Sep"
+          "url": "http://ehealth.sundhed.dk/fhir/3.1.0"
         }
       ]
-    }
+    },
+     {
+       "name": "DICOM® SR to FHIR Resource Mapping IG",
+       "category": "Imaging",
+       "npm-name": "hl7.fhir.uv.dicom-sr",
+       "description": "Provides guidance for extracting key content from DICOM Structured Report (SR) objects into FHIR Observations  to make use of the results with  the larger hospital enterprise.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/dicom-sr/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/dicom-sr",
+       "ci-build": "http://build.fhir.org/ig/HL7/dicom-sr",
+       "editions": [
+         {
+           "name": "STU1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.dicom-sr#1.0.0-ballot",
+           "fhir-version": [
+             "5.0.0"
+           ],
+           "url": "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
+       "category": "Public Health",
+       "npm-name": "hl7.fhir.us.nhsn-dqm",
+       "description": "This implementation guide creates a framework for reporting to the National Healthcare Safety Network (NHSN) using digital quality measures (dQMs). NHSN will create FHIR Measure resources that comply with this framework and receive the resulting MeasureReport and related resources. The Measure resources will be processed by a measure evaluation engine, which can either pull data from an EHR FHIR API for evaluation, or be implemented inside an EHR directly.",
+       "authority": "HL7",
+       "country": "us",
+       "history": "http://hl7.org/fhir/us/nhsn-dqm/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/us/nhsn-dqm",
+       "ci-build": "http://build.fhir.org/ig/HL7/nhsn-dqm",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.us.nhsn-dqm#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "FHIR Application Feature Framework Implementation Guide",
+       "category": "Infrastructure",
+       "npm-name": "hl7.fhir.uv.application-feature",
+       "description": "This IG defines profiles and extensions to implement features that were formerly considered for what was known as CapabilityStatement2. This includes a terminology-based approach to managing new assertions around system capabilities, which will allow for feature negotiation.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/application-feature/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/application-feature",
+       "ci-build": "http://build.fhir.org/ig/HL7/capstmt",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.application-feature#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/application-feature/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "Terminology Change Set Exchange",
+       "category": "Terminologies",
+       "npm-name": "hl7.fhir.uv.termchangeset",
+       "description": "This IG provides profiles and implementation guidance for exchanging terminology change sets that include full semantic detail from the source terminology utilizing the CodeSystem resource.  It also addresses exchanging terminology change sets containing provisional concepts not yet incorporated in source terminologies. Analysis of semantic detail to include in a change set is informed by the Tinkar Standardized Terminology Knowledgebase (https://www.hl7.org/implement/standards/product_brief.cfm?product_id\u003d573) Reference Model, and mappings from that model are included on CodeSystem profiles.",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/termchangeset/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/termchangeset",
+       "ci-build": "http://build.fhir.org/ig/HL7/termchangeset-ig",
+       "editions": [
+         {
+           "name": "STU1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.termchangeset#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/termchangeset/2024Sep"
+         }
+       ]
+     },
+     {
+       "name": "HL7 Laboratory Report",
+       "category": "Orders and Observations",
+       "npm-name": "hl7.fhir.uv.lab-report",
+       "description": "Universal implementation guide for laboratory reporting using FHIR (based on FHIR document or DiagnosticReport)",
+       "authority": "HL7",
+       "country": "uv",
+       "history": "http://hl7.org/fhir/uv/lab-report/history.html",
+       "language": [
+         "en"
+       ],
+       "canonical": "http://hl7.org/fhir/uv/lab-report",
+       "ci-build": "http://build.fhir.org/ig/HL7/uv-lab-rep-ig",
+       "editions": [
+         {
+           "name": "STU 1 Ballot",
+           "ig-version": "1.0.0-ballot",
+           "package": "hl7.fhir.uv.lab-report#1.0.0-ballot",
+           "fhir-version": [
+             "4.0.1"
+           ],
+           "url": "http://hl7.org/fhir/uv/lab-report/2024Sep"
+         }
+       ]
+     }
   ]
 }
