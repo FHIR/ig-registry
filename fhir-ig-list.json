@@ -1006,21 +1006,22 @@
         "en"
       ],
       "history": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
-      "canonical": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
+      "analysis": {
+        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
+      },
+      "canonical": "https://profiles.ihe.net/PCC/QEDm",
+      "ci-build": "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
       "editions": [
         {
-          "name": "R4 Trial-Implementation",
-          "ig-version": "0.2.1",
-          "package": "ihe.pcc.qedm#0.2.1",
+          "name": "Publication Ballot",
+          "ig-version": "3.0.0-comment1",
+          "package": "ihe.pcc.qedm#3.0.0-comment1",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile"
+          "url": "https://profiles.ihe.net/PCC/QEDm/3.0.0-comment1"
         }
-      ],
-      "analysis": {
-        "error": "Unable to resolve package id ihe.pcc.qedm#0.2.1"
-      }
+      ]
     },
     {
       "name": "IHE Non-Patient File Sharing (NPFS)",
@@ -8399,9 +8400,9 @@
       "name": "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
       "category": "Clinical Records",
       "npm-name": "ihe.pcc.odh",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "This IG covers the specific data that covers past or present jobs, usual work, employment status, retirement date and combat zone period for the subject. It also includes the past or present jobs and usual work of other household members. This IG is International scope",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/PCC/ODH/history.html",
       "language": [
         "en"
@@ -8575,9 +8576,9 @@
       "name": "Mobile Antepartum Summary",
       "category": "Maternal Health",
       "npm-name": "ihe.pcc.maps",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Antepartum Summary is a content profile that defines the structure for the aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of an antepartum episode.",
+      "authority": "IHE",
+      "country": "uv",
       "history": "https://profiles.ihe.net/PCC/mAPS/history.html",
       "language": [
         "en"
@@ -8600,9 +8601,9 @@
       "name": "Mobile Antepartum Summary US Realm",
       "category": "Maternal Health",
       "npm-name": "ihe.pcc.maps.us",
-      "description": "??",
-      "authority": "??",
-      "country": "??",
+      "description": "Antepartum Summary is a content profile that defines the structure for the aggregation of significant events, diagnoses, and plans of care derived from the visits over the course of an antepartum episode.",
+      "authority": "IHE",
+      "country": "us",
       "history": "https://profiles.ihe.net/us/PCC/mAPS/history.html",
       "language": [
         "en"
@@ -8618,6 +8619,56 @@
             "4.0.1"
           ],
           "url": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "IHE ITI Finance and Insurance Services",
+      "category": "Financial",
+      "npm-name": "ihe.iti.fais",
+      "description": "The Finance and Insurance Service (FAIS) stores, categorizes, and facilitates the administration of centralized claims and finance data for patient care. The service receives claims/financial data from Point of Service applications (including financing applications acting as a point of service interface outside of other PoS systems) and curates the management of them.",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "https://profiles.ihe.net/ITI/FAIS/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/FAIS",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.Finance ",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.fais#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/FAIS/1.0.0-comment"
+        }
+      ]
+    },
+    {
+      "name": "IHE ITI Scheduling",
+      "category": "Administration",
+      "npm-name": "ihe.iti.scheduling",
+      "description": "The IHE FHIR Scheduling Profile is a specification providing FHIR APIs and guidance for access to and booking of appointments for patients by both patient and practitioner end users. This specification is based on FHIR Version 4 and specifically the Schedule, Slot, and Appointment resources, and on the previous work of the [Argonaut Project](https://fhir.org/guides/argonaut/scheduling/release1/)",
+      "authority": "IHE",
+      "country": "uv",
+      "history": "https://profiles.ihe.net/ITI/Scheduling/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://profiles.ihe.net/ITI/Scheduling",
+      "ci-build": "http://build.fhir.org/ig/IHE/ITI.Scheduling",
+      "editions": [
+        {
+          "name": "Publication Ballot",
+          "ig-version": "1.0.0-comment",
+          "package": "ihe.iti.scheduling#1.0.0-comment",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
         }
       ]
     },
