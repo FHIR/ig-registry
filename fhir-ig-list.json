@@ -3508,13 +3508,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "Release 3 Ballot",
-          "ig-version": "3.0.0-ballot",
-          "package": "hl7.fhir.uv.shorthand#3.0.0-ballot",
+          "name": "Release 3 Normative+trial-use",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.uv.shorthand#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/uv/shorthand/2023Sep"
+          "url": "http://hl7.org/fhir/uv/shorthand/N2"
         }
       ]
     },
