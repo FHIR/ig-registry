@@ -7218,27 +7218,6 @@
       ]
     },
     {
-      "name" : "FUT Infrastructure",
-      "category" : "Core",
-      "npm-name" : "dk.ehealth.sundhed.fhir.ig.core",
-      "description" : "The Danish eHealth Infrastructure Implementation Guide defines a set of FHIR profiles with extensions and bindings needed to create interoperable, quality-focused applications.",
-      "authority" : "Den telemedicinske infrastruktur (eHealth Infrastructure)",
-      "country" : "dk",
-      "history" : "http://ehealth.sundhed.dk/fhir/history.html",
-      "language" : ["en"],
-      "canonical" : "http://ehealth.sundhed.dk/fhir",
-      "ci-build" : "http://build.fhir.org/ig/fut-infrastructure/implementation-guide",
-      "editions" : [
-        {
-          "name" : "Releases",
-          "ig-version" : "3.1.0",
-          "package" : "dk.ehealth.sundhed.fhir.ig.core#3.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://ehealth.sundhed.dk/fhir/3.1.0"
-        }
-      ]
-    },
-    {
       "name" : "DICOM® SR to FHIR Resource Mapping IG",
       "category" : "Imaging",
       "npm-name" : "hl7.fhir.uv.dicom-sr",
@@ -7340,6 +7319,40 @@
           "package" : "hl7.fhir.uv.lab-report#1.0.0-ballot",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/lab-report/2024Sep"
+        }
+      ]
+    },
+    {
+      "name": "FUT Infrastructure",
+      "category": "Core",
+      "npm-name": "dk.ehealth.sundhed.fhir.ig.core",
+      "description": "The Danish eHealth Infrastructure Implementation Guide defines a set of FHIR profiles with extensions and bindings needed to create interoperable, quality-focused applications.",
+      "authority": "Den telemedicinske infrastruktur (eHealth Infrastructure)",
+      "country": "dk",
+      "history": "http://ehealth.sundhed.dk/fhir/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://ehealth.sundhed.dk/fhir",
+      "ci-build": "http://build.fhir.org/ig/fut-infrastructure/implementation-guide",
+      "editions": [
+        {
+          "name": "Releases",
+          "ig-version": "3.2.0",
+          "package": "dk.ehealth.sundhed.fhir.ig.core#3.2.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://ehealth.sundhed.dk/fhir/3.2.0"
+        },
+        {
+          "name": "Releases",
+          "ig-version": "3.1.0",
+          "package": "dk.ehealth.sundhed.fhir.ig.core#3.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://ehealth.sundhed.dk/fhir/3.1.0"
         }
       ]
     }
