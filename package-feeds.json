@@ -70,6 +70,11 @@
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
+    },	  
+    {
+        "name": "Danish FUT Infrastructure",
+        "url": "https://ehealth.sundhed.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
     },
     {
       "name": "mednet.swiss",
@@ -295,6 +300,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "dk.ehealth.sundhed.fhir.ig.*",
+      "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
     }
   ]
 }
