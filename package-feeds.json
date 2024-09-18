@@ -70,6 +70,11 @@
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
+    },	  
+    {
+        "name": "Danish FUT Infrastructure",
+        "url": "https://ehealth.sundhed.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
     },
     {
       "name": "mednet.swiss",
