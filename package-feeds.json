@@ -295,6 +295,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "dk.ehealth.sundhed.fhir.ig.*",
+      "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
     }
   ]
 }
