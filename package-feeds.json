@@ -236,6 +236,10 @@
       "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
     },
     {
+      "mask": "hl7.fhir.fr.*",
+      "feeds": [ "https://hl7.fr/ig/fhir/package-feed.xml" ]
+    },
+    {
       "mask": "hl7.fhir.fi.*",
       "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     },
@@ -276,10 +280,6 @@
     {
       "mask": "ans.fhir.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml" ]
-    },
-    {
-      "mask": "hl7.fhir.fr.*",
-      "feeds": [ "https://hl7.fr/ig/fhir/package-feed.xml" ]
     },
     {
       "mask": "ihe.*",
