@@ -7349,6 +7349,27 @@
           "url" : "http://ehealth.sundhed.dk/fhir/3.1.0"
         }
       ]
+    },
+    {
+      "name" : "SMART Base",
+      "category" : "base",
+      "npm-name" : "smart.who.int.base",
+      "description" : "Base SMART Guidelines implementation guide to be used as the base dependency for all SMART Guidelines IGs",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/base",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-base",
+      "editions" : [
+        {
+          "name" : "Releases Draft",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.base#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/base/0.1.0"
+        }
+      ]
     }
   ]
 }
