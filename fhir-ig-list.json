@@ -1343,11 +1343,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 2.0",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-crd#2.0.1",
+          "name" : "STU 2.1",
+          "ig-version" : "2.1.0-preview",
+          "package" : "hl7.fhir.us.davinci-crd#2.1.0-preview",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2"
+          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2.1-preview"
         }
       ]
     },
@@ -1668,11 +1668,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 2.0",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-dtr#2.0.1",
+          "name" : "STU 2.1 Preview",
+          "ig-version" : "2.1.0-preview",
+          "package" : "hl7.fhir.us.davinci-dtr#2.1.0-preview",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-dtr/STU2"
+          "url" : "http://hl7.org/fhir/us/davinci-dtr/2.1.0-preview"
         }
       ]
     },
@@ -2300,11 +2300,11 @@
       },
       "editions" : [
         {
-          "name" : "STU2",
-          "ig-version" : "2.0.0",
-          "package" : "hl7.fhir.us.davinci-cdex#2.0.0",
+          "name" : "STU2 Preview",
+          "ig-version" : "2.1.0-snapshot",
+          "package" : "hl7.fhir.us.davinci-cdex#2.1.0-snapshot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-cdex/STU2"
+          "url" : "http://hl7.org/fhir/us/davinci-cdex/STU2.1-snapshot"
         }
       ]
     },
@@ -2573,11 +2573,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 2",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-pas#2.0.1",
+          "name" : "STU 2 Preview",
+          "ig-version" : "2.1.0-preview",
+          "package" : "hl7.fhir.us.davinci-pas#2.1.0-preview",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/STU2"
+          "url" : "http://hl7.org/fhir/us/davinci-pas/2.1.0-preview"
         }
       ]
     },
