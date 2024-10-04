@@ -1,5 +1,10 @@
 {
   "comment" : "The order of the feeds does not matter, but the order of the package-restrictions does",
+  "servers" : {
+    "comment" : "This is the known publicly available servers that crawl this package list and make a conformant packages API available",
+    "https://packages.fhir.org" : "Official Package registry (hosted on simplifier.net)",
+    "https://packages2.fhir.org/packages" : "Alternative. Has more packages because it hosts packages associated with non-official releases of FHIR"
+  },
   "feeds": [
     {
       "name": "HL7.org FHIR Publications",
