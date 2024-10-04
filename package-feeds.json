@@ -205,7 +205,12 @@
       "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
       "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
       "errors": "integration|tewhatuora_govt_nz"
-    }
+    },
+    {
+      "name": "World Health Organization",
+      "url": "https://smart.who.int/package-feed.xml",
+      "errors": "smart|who_int"
+    }	  
   ],
   "package-restrictions": [
 	{
