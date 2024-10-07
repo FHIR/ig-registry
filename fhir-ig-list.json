@@ -7391,6 +7391,27 @@
           "url" : "http://smart.who.int/ts/0.1.0"
         }
       ]
+    },
+    {
+      "name" : "SMART ICVP",
+      "category" : "base",
+      "npm-name" : "smart.who.int.icvp",
+      "description" : "SMART Guidelines for International Certificate for Vaccination or Prophylaxis",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/icvp/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/icvp",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-icvp",
+      "editions" : [
+        {
+          "name" : "Releases Draft",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.icvp#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/icvp/0.1.0"
+        }
+      ]
     }
   ]
 }
