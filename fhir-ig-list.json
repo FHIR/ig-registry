@@ -7412,6 +7412,57 @@
           "url" : "http://smart.who.int/icvp/0.1.0"
         }
       ]
+    },
+    {
+      "name" : "CDS Hooks",
+      "category" : "CDS",
+      "npm-name" : "hl7.fhir.uv.cds-hooks",
+      "description" : "CDS Hooks describes a \"hook\"-based pattern for invoking decision support from within a clinician's workflow.",
+      "authority" : "HL7",
+      "product" : ["fhir"],
+      "country" : "uv",
+      "language" : ["en"],
+      "history" : "http://hl7.org/fhir/us/cds-hooks/history.html",
+      "canonical" : "http://hl7.org/fhir/us/cds-hooks",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cds-hooks",
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.cds-hooks#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://cds-hooks.hl7.org/1.0/"
+        },
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.1",
+          "package" : "hl7.fhir.cds-hooks#2.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/cds-hooks/STU2"
+        }
+      ]
+    },
+    {
+      "name" : "CDS Hooks Library",
+      "category" : "CDS",
+      "npm-name" : "hl7.fhir.uv.cds-hooks-library",
+      "description" : "CDS Hooks describes a \"hook\"-based pattern for invoking decision support from within a clinician's workflow. The CDS Hook Library defines hooks standardized across the community.",
+      "authority" : "HL7",
+      "product" : ["fhir"],
+      "country" : "uv",
+      "language" : ["en"],
+      "history" : "http://hl7.org/fhir/us/cds-hooks-library/history.html",
+      "canonical" : "http://hl7.org/fhir/us/cds-hooks-library",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cds-hooks-library",
+      "editions" : [
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.1",
+          "package" : "hl7.fhir.cds-hooks#2.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/cds-hooks/STU2"
+        }
+      ]
     }
   ]
 }
