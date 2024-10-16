@@ -1824,11 +1824,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.us.vrdr#3.0.0-ballot",
+          "name" : "STU3",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.us.vrdr#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/vrdr/2024May"
+          "url" : "http://hl7.org/fhir/us/vrdr/STU3"
         }
       ]
     },
