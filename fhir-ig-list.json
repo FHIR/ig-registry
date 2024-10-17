@@ -7412,6 +7412,27 @@
           "url" : "http://smart.who.int/icvp/0.1.0"
         }
       ]
+    },
+    {
+      "name" : "WHO Digital Documentation of COVID-19 Certificates (DDCC)",
+      "category" : "base",
+      "npm-name" : "who.ddcc",
+      "description" : "This WHO Digital Documentation of COVID-19 Certificates (DDCC) Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of COVID-19 certificates and interoperability",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ddcc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ddcc",
+      "ci-build" : "http://worldhealthorganization.github.io/WorldHealthOrganization/ddcc",
+      "editions" : [
+        {
+          "name" : "releases Draft",
+          "ig-version" : "1.0.0",
+          "package" : "who.ddcc#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ddcc/1.0.0"
+        }
+      ]
     }
   ]
 }
