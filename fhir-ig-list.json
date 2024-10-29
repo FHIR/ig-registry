@@ -1891,7 +1891,8 @@
       ],
       "analysis" : {
         "error" : "Unable to find package hl7.fhir.au.pd#0.6.0"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Argonaut Clinical Notes Implementation Guide",
@@ -1915,7 +1916,8 @@
       ],
       "analysis" : {
         "error" : "Unable to resolve package id argonaut.us.clinicalnotes#1.0.0"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Argonaut Questionnaire Implementation Guide",
@@ -1939,7 +1941,8 @@
       ],
       "analysis" : {
         "error" : "Unable to resolve package id argonaut.us.questionnaire#1.0.0"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Danish Core Implementation Guide",
@@ -2002,7 +2005,8 @@
         "valuesets" : 16,
         "codeSystems" : 13,
         "examples" : 18
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Swiss Guide Template",
@@ -2026,7 +2030,8 @@
       ],
       "analysis" : {
         "error" : "Unable to find package ch.fhir.ig.template#0.4.0"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Swiss EPR Metadata (CH-EPR-TERM)",
@@ -2051,7 +2056,8 @@
       "analysis" : {
         "valuesets" : 20,
         "codeSystems" : 10
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Swiss Cancer Registration Implementation Guide (CH-CRL)",
@@ -2091,7 +2097,8 @@
         "valuesets" : 15,
         "codeSystems" : 15,
         "examples" : 137
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Audit Trail Consumption (CH-ATC)",
@@ -2122,7 +2129,8 @@
       ],
       "analysis" : {
         "error" : "Attempt to import a mis-identified package. Expected ch.fhir.ig.ch-atc, got ch.fhir.ig.atc"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Order & Referral by Form (CH-ORF)",
@@ -2154,7 +2162,8 @@
         "valuesets" : 1,
         "codeSystems" : 1,
         "examples" : 9
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "CHMED20AF (R4)",
@@ -2178,7 +2187,8 @@
       ],
       "analysis" : {
         "error" : "Unable to resolve package id ch.chmed16af.emediplan#0.2.0"
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Swiss eMedication Implementation Guide",
@@ -2210,7 +2220,8 @@
         "valuesets" : 3,
         "codeSystems" : 2,
         "examples" : 37
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "mednet Implementation Guide",
@@ -2223,7 +2234,8 @@
       "history" : "https://mednet.swiss/fhir/history.html",
       "canonical" : "https://mednet.swiss/fhir",
       "analysis" : {
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "US Drug Formulary",
@@ -2253,7 +2265,8 @@
         "valuesets" : 4,
         "codeSystems" : 4,
         "examples" : 11
-      }
+      },
+      "language" : ["en"]
     },
     {
       "name" : "Da Vinci CDex",
@@ -2284,7 +2297,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-cdex/STU2.1-snapshot"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Da Vinci PDex",
@@ -2318,7 +2332,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-pdex/2024SEP"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "CDISC Lab Semantics in FHIR",
@@ -2342,7 +2357,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/cdisc-lab/STU1"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Healthcare Associated Infection Reports (HAI) Long Term Care Facilities (LTCF)",
@@ -2367,7 +2383,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/hai-ltcf/STU1.1"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Da Vinci Unsolicited Notifications (Alerts)",
@@ -2398,7 +2415,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-alerts/STU1"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -2429,7 +2447,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-pcde/STU1"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Breast Radiology Report (BRR)",
@@ -2453,7 +2472,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/breast-radiology/2020May"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "FHIR Clinical Guidelines",
@@ -2489,7 +2509,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/cpg/2024Jan"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Minimal Common Oncology Data Elements (mCODE)",
@@ -2523,7 +2544,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/mcode/2024May"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Da Vinci Prior Authorization Support (PAS) FHIR IG",
@@ -2557,7 +2579,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-pas/2.1.0-preview"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "FHIR Bulk Data Access (Flat FHIR)",
@@ -2598,7 +2621,8 @@
           "fhir-version" : ["4.0.0"],
           "url" : "http://hl7.org/fhir/uv/bulkdata/STU1"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "Basisgegevensset Zorg || Patient Summary",
@@ -3187,7 +3211,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
         }
-      ]
+      ],
+      "language" : ["en"]
     },
     {
       "name" : "HL7 Terminology",
