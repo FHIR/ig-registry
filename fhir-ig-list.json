@@ -1380,11 +1380,11 @@
       },
       "editions" : [
         {
-          "name" : "STU4 (v4.0.0)",
-          "ig-version" : "4.0.0",
-          "package" : "hl7.fhir.us.davinci-deqm#4.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-deqm/STU4"
+          "name": "STU5 (v5.0.0) Ballot",
+          "ig-version": "5.0.0-ballot",
+          "package": "hl7.fhir.us.davinci-deqm#5.0.0-ballot",
+          "fhir-version": [ "4.0.1" ],
+          "url": "http://hl7.org/fhir/us/davinci-deqm/2024Sep"
         }
       ]
     },
@@ -1825,11 +1825,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.us.vrdr#3.0.0-ballot",
+          "name" : "STU3",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.us.vrdr#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/vrdr/2024May"
+          "url" : "http://hl7.org/fhir/us/vrdr/STU3"
         }
       ]
     },
@@ -1883,11 +1883,11 @@
       "ci-build" : "http://build.fhir.org/ig/HL7/phd",
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.uv.phd#2.0.0-ballot",
-          "fhir-version" : ["4.3.0"],
-          "url" : "http://hl7.org/fhir/uv/phd/2024Sep"
+          "name" : "STU 1",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.uv.phd#1.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/phd/STU1.1"
         }
       ]
     },
@@ -2940,11 +2940,11 @@
       },
       "editions" : [
         {
-          "name" : "Release 3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.uv.shorthand#3.0.0-ballot",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/shorthand/2023Sep"
+          "name": "Release 3 Normative+trial-use",
+          "ig-version": "3.0.0",
+          "package": "hl7.fhir.uv.shorthand#3.0.0",
+          "fhir-version": [ "4.0.1" ],
+          "url": "http://hl7.org/fhir/uv/shorthand/N2"
         }
       ]
     },
@@ -3418,11 +3418,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.vr-common-library#2.0.0-ballot",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/vr-common-library/2024Jan"
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.vr-common-library#2.0.0",
+          "fhir-version" : [ "4.0.1" ],
+          "url" : "http://hl7.org/fhir/us/vr-common-library/STU2"
         }
       ]
     },
@@ -3483,11 +3483,11 @@
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-bfdr",
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.bfdr#2.0.0-ballot",
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.bfdr#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/bfdr/2024Jan"
+          "url" : "http://hl7.org/fhir/us/bfdr/STU2"
         }
       ]
     },
@@ -3549,11 +3549,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 2.1",
-          "ig-version" : "2.1.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
+          "name" : "name": "STU 2.2",
+          "ig-version": "2.2.0",
+          "package": "hl7.fhir.us.sdoh-clinicalcare#2.2.0",
+          "fhir-version": [ "4.0.1" ],
+          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2"
         }
       ]
     },
@@ -3807,11 +3807,11 @@
       },
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.udap-security#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/udap-security/STU1"
+          "name": "STU Update",
+          "ig-version": "1.1.0",
+          "package": "hl7.fhir.us.udap-security#1.1.0",
+          "fhir-version": [ "4.0.1" ],
+          "url": "http://hl7.org/fhir/us/udap-security/STU1.1"
         }
       ]
     },
@@ -6853,11 +6853,11 @@
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-pdmp",
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.pdmp#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.pdmp#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/pdmp/2024May"
+          "url" : "http://hl7.org/fhir/us/pdmp/STU1"
         }
       ]
     },
@@ -6873,12 +6873,12 @@
       "canonical" : "http://hl7.org/fhir/us/medication-rems",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-medication-rems-ig",
       "editions" : [
-        {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.medication-rems#1.0.0-ballot",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/medication-rems/2024May"
+        {          
+          "name": "STU1",
+          "ig-version": "1.0.0",
+          "package": "hl7.fhir.us.medication-rems#1.0.0",
+          "fhir-version": [ "4.0.1" ],
+          "url": "http://hl7.org/fhir/us/medication-rems/STU1"
         }
       ]
     },
