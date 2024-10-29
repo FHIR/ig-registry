@@ -1380,11 +1380,11 @@
       },
       "editions" : [
         {
-          "name": "STU5 (v5.0.0) Ballot",
-          "ig-version": "5.0.0-ballot",
-          "package": "hl7.fhir.us.davinci-deqm#5.0.0-ballot",
-          "fhir-version": [ "4.0.1" ],
-          "url": "http://hl7.org/fhir/us/davinci-deqm/2024Sep"
+          "name" : "STU5 (v5.0.0) Ballot",
+          "ig-version" : "5.0.0-ballot",
+          "package" : "hl7.fhir.us.davinci-deqm#5.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/davinci-deqm/2024Sep"
         }
       ]
     },
@@ -2940,11 +2940,11 @@
       },
       "editions" : [
         {
-          "name": "Release 3 Normative+trial-use",
-          "ig-version": "3.0.0",
-          "package": "hl7.fhir.uv.shorthand#3.0.0",
-          "fhir-version": [ "4.0.1" ],
-          "url": "http://hl7.org/fhir/uv/shorthand/N2"
+          "name" : "Release 3 Normative+trial-use",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.uv.shorthand#3.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/shorthand/N2"
         }
       ]
     },
@@ -3421,7 +3421,7 @@
           "name" : "STU2",
           "ig-version" : "2.0.0",
           "package" : "hl7.fhir.us.vr-common-library#2.0.0",
-          "fhir-version" : [ "4.0.1" ],
+          "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/vr-common-library/STU2"
         }
       ]
@@ -3549,11 +3549,11 @@
       },
       "editions" : [
         {
-          "name" : "name": "STU 2.2",
-          "ig-version": "2.2.0",
-          "package": "hl7.fhir.us.sdoh-clinicalcare#2.2.0",
-          "fhir-version": [ "4.0.1" ],
-          "url": "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2"
+          "name" : "STU 2.2",
+          "ig-version" : "2.2.0",
+          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.2.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2"
         }
       ]
     },
@@ -3807,11 +3807,11 @@
       },
       "editions" : [
         {
-          "name": "STU Update",
-          "ig-version": "1.1.0",
-          "package": "hl7.fhir.us.udap-security#1.1.0",
-          "fhir-version": [ "4.0.1" ],
-          "url": "http://hl7.org/fhir/us/udap-security/STU1.1"
+          "name" : "STU Update",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.us.udap-security#1.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/udap-security/STU1.1"
         }
       ]
     },
@@ -5081,7 +5081,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/patientwill/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "TW Core",
@@ -5437,7 +5438,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/hl7fhirukcorer4release1/home"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "NHS Digital FHIR R4 Implementation Guide",
@@ -5457,7 +5459,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/NHSDigital/"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
@@ -5478,7 +5481,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Retrieval of Real World Data for Clinical Research",
@@ -5499,7 +5503,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/vulcan-rwd/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "MCC eCare Plan Implementation Guide",
@@ -5520,7 +5525,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/mcc/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Clinical Study Schedule of Activities",
@@ -5541,7 +5547,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "EHRS Functional Model - Record Lifecycle Events Implementation Guide",
@@ -5562,7 +5569,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/ehrs-rle/Informative1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "ICHOM breast cancer patient-centered outcome measure set FHIR IG",
@@ -5583,7 +5591,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FHIR IG Human Services Directory",
@@ -5604,7 +5613,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/hsds/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom CareCommunication",
@@ -5639,7 +5649,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-carecommunication"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom Core",
@@ -5681,7 +5692,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/core/2.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom Terminology",
@@ -5751,7 +5763,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/terminology/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom HospitalNotification",
@@ -5793,7 +5806,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-hospitalnotification"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom Acknowledgement",
@@ -5828,7 +5842,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-acknowledgement"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom HomeCareObservation",
@@ -5849,7 +5864,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/homecareobservation/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom Messaging",
@@ -5884,7 +5900,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-messaging"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "CDA: Clinical Document Architecture",
@@ -5927,7 +5944,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "https://profiles.ihe.net/RAD/IRA/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "PDSm",
@@ -5948,7 +5966,8 @@
           "package" : "ans.fhir.fr.pdsm#3.0.0",
           "url" : "https://interop.esante.gouv.fr/ig/fhir/pdsm/3.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "U.S. Physical Activity IG",
@@ -5969,7 +5988,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/physical-activity/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Protocols for Clinical Registry Extraction and Data Submission (CREDS) IG",
@@ -5990,7 +6010,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/registry-protocols/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Real Time Location Services Implementation Guide",
@@ -6011,7 +6032,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/rtls/2023May"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Adverse Event Clinical Research R4 Backport",
@@ -6032,7 +6054,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/ae-research-backport-ig/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "CCDA: Consolidated CDA Release",
@@ -6075,7 +6098,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/ae-research-ig/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FHIR Core Extensions Registry",
@@ -6096,7 +6120,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/extensions/5.2.0-ballot"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "National Directory of Healthcare Providers and Services (NDH) Implementation Guide",
@@ -6117,7 +6142,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/ndh/2023Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Privacy Consent on FHIR (PCF)",
@@ -6138,7 +6164,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/ITI/PCF/1.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 Sweden base profiles",
@@ -6159,7 +6186,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.se/fhir/ig/base/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Da Vinci Value-Based Performance Reporting Implementation Guide",
@@ -6180,7 +6208,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/davinci-vbpr/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "International Birth And Child Model Implementation Guide",
@@ -6201,7 +6230,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/ibcm/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Canonical Resource Management Infrastructure Implementation Guide",
@@ -6222,7 +6252,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/crmi/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Evidence Based Medicine on FHIR Implementation Guide",
@@ -6243,7 +6274,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/ebm/2024Jan"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLTerm",
@@ -6264,7 +6296,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/term/2.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLCore",
@@ -6285,7 +6318,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/core/1.2.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLGateway",
@@ -6306,7 +6340,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/gateway/1.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
@@ -6327,7 +6362,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Sharing of IPS (sIPS)",
@@ -6348,7 +6384,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/ITI/sIPS/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLFFBMessaging",
@@ -6369,7 +6406,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/ffbmessaging/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLFFinst",
@@ -6390,7 +6428,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/ffinst/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLFFBReporting",
@@ -6411,7 +6450,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/ffbreporting/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Animal terapeuta (não humano)",
@@ -6432,7 +6472,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://fhir.fabrica.inf.ufg.br/ig"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Common FHIR profile vendor collaboration",
@@ -6453,7 +6494,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://commonprofiles.care/fhir/1.0.1/"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLGatewayRehab",
@@ -6474,7 +6516,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/rehab/2.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLGatewayPrevention",
@@ -6495,7 +6538,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/prevention/2.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KLChildren",
@@ -6516,7 +6560,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.kl.dk/children/2.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "KR Core Implementation Guide",
@@ -6628,7 +6673,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.eu/fhir/laboratory/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
@@ -6649,7 +6695,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "eHealth FHIR Infrastructure and Security Profiles for Belgium",
@@ -6670,7 +6717,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Finnish Implementation Guide for SMART App Launch",
@@ -6691,7 +6739,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://hl7.fi/fhir/finnish-smart/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Finnish Base Profiles",
@@ -6712,7 +6761,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Finnish Scheduling",
@@ -6733,7 +6783,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Document Subscription for Mobile (DSUBm)",
@@ -6754,7 +6805,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/ITI/DSUBm/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HRSA Uniform Data System (UDS) Patient Level Submission (PLS) (UDS+ or uds-plus) FHIR IG",
@@ -6775,7 +6827,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.org/guides/hrsa/uds-plus/STU1.1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Pharmaceutical Quality (Industry)",
@@ -6796,7 +6849,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/pharm-quality/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Using CQL with FHIR Implementation Guide",
@@ -6817,7 +6871,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/cql/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Content Implementation Guide",
@@ -6838,7 +6893,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/resp-net/2024Jan"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "US Prescription Drug Monitoring Program (PDMP)",
@@ -6859,7 +6915,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/pdmp/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "US Medication REMS",
@@ -6873,14 +6930,15 @@
       "canonical" : "http://hl7.org/fhir/us/medication-rems",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-medication-rems-ig",
       "editions" : [
-        {          
-          "name": "STU1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.us.medication-rems#1.0.0",
-          "fhir-version": [ "4.0.1" ],
-          "url": "http://hl7.org/fhir/us/medication-rems/STU1"
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.medication-rems#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/medication-rems/STU1"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "CardX Hypertension Management IG",
@@ -6901,7 +6959,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/cardx-htn-mng/2024May"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Pharmaceutical Quality - Chemistry, Manufacturing and Controls (PQ-CMC) Submissions to FDA",
@@ -6922,7 +6981,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/us/pq-cmc-fda/2024May"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 Tools Extension IG",
@@ -6943,7 +7003,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/tools/0.2.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FHIR Implementation Guide for ABDM",
@@ -6964,7 +7025,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://nrces.in/ndhm/fhir/r4/6.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
@@ -6985,7 +7047,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/PCC/ODH/1.0.0-comment"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 Europe Extensions",
@@ -7006,7 +7069,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.eu/fhir/extensions/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 FHIR Implementation Guide Laboratory Report",
@@ -7027,7 +7091,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.it/fhir/lab-report/0.2.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "IG Tooling by GKL",
@@ -7047,7 +7112,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FHIR Clinical Documents",
@@ -7068,7 +7134,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/fhir-clinical-document/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "SMART Health Cards and Links FHIR IG",
@@ -7089,7 +7156,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "RIVO-Noord Zorgviewer",
@@ -7131,7 +7199,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/PCC/mAPS/1.0.0-comment"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Mobile Antepartum Summary US Realm",
@@ -7152,7 +7221,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "IHE ITI Finance and Insurance Services",
@@ -7173,7 +7243,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/ITI/FAIS/1.0.0-comment"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "IHE ITI Scheduling",
@@ -7194,7 +7265,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "US Standardized Medication Profile (SMP)",
@@ -7215,7 +7287,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/smp/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DICOM® SR to FHIR Resource Mapping IG",
@@ -7236,7 +7309,8 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/fhir/uv/dicom-sr/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
@@ -7257,7 +7331,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/nhsn-dqm/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FHIR Application Feature Framework Implementation Guide",
@@ -7278,7 +7353,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/application-feature/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "Terminology Change Set Exchange",
@@ -7299,7 +7375,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/termchangeset/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "HL7 Laboratory Report",
@@ -7320,7 +7397,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/lab-report/2024Sep"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "FUT Infrastructure",
@@ -7348,7 +7426,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://ehealth.sundhed.dk/fhir/3.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "SMART Base",
@@ -7369,7 +7448,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://smart.who.int/base/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "SMART TS",
@@ -7390,7 +7470,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://smart.who.int/ts/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "SMART ICVP",
@@ -7411,7 +7492,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://smart.who.int/icvp/0.1.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "WHO Digital Documentation of COVID-19 Certificates (DDCC)",
@@ -7432,7 +7514,8 @@
           "fhir-version" : ["4.0.1"],
           "url" : "http://smart.who.int/ddcc/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     }
   ]
 }
