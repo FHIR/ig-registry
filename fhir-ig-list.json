@@ -3655,10 +3655,10 @@
       "editions" : [
         {
           "name" : "HL7 Norway no-basis",
-          "ig-version" : "2.0.15",
-          "package" : "hl7.fhir.no.basis#2.0.15",
+          "ig-version" : "2.2.0",
+          "package" : "hl7.fhir.no.basis#2.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://simplifier.net/guide/no-basis-entities-individuals/introduction"
+          "url" : "https://simplifier.net/guide/no-basis-entities-individuals?version=current"
         }
       ],
       "analysis" : {
@@ -3667,9 +3667,9 @@
         "documents" : true,
         "clinicalCore" : true,
         "medsMgmt" : true,
-        "profiles" : 17,
-        "extensions" : 8,
-        "valuesets" : 6,
+        "profiles" : 20,
+        "extensions" : 13,
+        "valuesets" : 7,
         "codeSystems" : 4
       }
     },
