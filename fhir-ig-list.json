@@ -6291,16 +6291,16 @@
       "language" : ["en"],
       "canonical" : "http://fhir.kl.dk/term",
       "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-term",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "2.1.0",
-          "package" : "kl.dk.fhir.term#2.1.0",
+          "ig-version" : "2.2.0",
+          "package" : "kl.dk.fhir.term#2.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/term/2.1.0"
+          "url" : "http://fhir.kl.dk/term/2.2.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "KLCore",
@@ -6334,17 +6334,17 @@
       "history" : "http://fhir.kl.dk/gateway/history.html",
       "language" : ["en"],
       "canonical" : "http://fhir.kl.dk/gateway",
-      "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-gateway",
+      "product" : ["fhir"],
+      "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-gateway/branches/main",
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "1.1.0",
-          "package" : "kl.dk.fhir.gateway#1.1.0",
+          "ig-version" : "1.2.0",
+          "package" : "kl.dk.fhir.gateway#1.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/gateway/1.1.0"
+          "url" : "http://fhir.kl.dk/gateway/1.2.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
@@ -6511,16 +6511,16 @@
       "language" : ["en"],
       "canonical" : "http://fhir.kl.dk/rehab",
       "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-gateway-rehab",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "2.0.0",
-          "package" : "kl.dk.fhir.rehab#2.0.0",
+          "ig-version" : "2.2.0",
+          "package" : "kl.dk.fhir.rehab#2.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/rehab/2.0.0"
+          "url" : "http://fhir.kl.dk/rehab/2.2.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "KLGatewayPrevention",
@@ -6555,16 +6555,16 @@
       "language" : ["en"],
       "canonical" : "http://fhir.kl.dk/children",
       "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-children",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "2.0.0",
-          "package" : "kl.dk.fhir.children#2.0.0",
+          "ig-version" : "2.1.0",
+          "package" : "kl.dk.fhir.children#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/children/2.0.0"
+          "url" : "http://fhir.kl.dk/children/2.1.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "KR Core Implementation Guide",
