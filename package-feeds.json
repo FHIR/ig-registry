@@ -87,9 +87,9 @@
       "errors": "david_gutknecht|novcom_swiss"
     },
     {
-      "name": "David Hay packages (Interim name)",
-      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
-      "errors": "david_hay|clinfhir_com"
+      "name": "HL7 New Zealand",
+      "url": "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true",
+      "errors": "admin|hl7_org_nz"
     },
     {
       "name": "IHE International",
@@ -223,7 +223,7 @@
     },
     {
       "mask": "hl7.fhir.nz.*",
-      "feeds": [ "http://igs.clinfhir.com/packages/package-feed.xml" ]
+      "feeds": [ "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" ]
     },
     {
         "mask": "hl7.fhir.dk.*",
