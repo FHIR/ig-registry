@@ -83,7 +83,7 @@
     },
     {
       "name": "mednet.swiss",
-      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "url": "https://doc.mednet.swiss/fhir/package-feed.xml",
       "errors": "david_gutknecht|novcom_swiss"
     },
     {
