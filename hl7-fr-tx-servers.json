@@ -16,7 +16,7 @@
     ],
     "fhirVersions" : [{
       "version" : "R4",
-      "url" : "https://smt.esante.gouv.fr/fhir/metadata"
+      "url" : "https://smt.esante.gouv.fr/fhir"
     }]
   }]
 }
