@@ -7519,6 +7519,28 @@
         }
       ],
       "product" : ["fhir"]
+    },
+    {
+      "name" : "How to Publish a FHIR Implementation Guide",
+      "category" : "Infrastructure",
+      "npm-name" : "ca.argentixinfo.howtopub",
+      "description": "An instruction guide showing how to use the HL7 IG Publisher's -go-publish feature to publish an implementation guide to a website.",
+      "authority": "Argentix Informatics, Inc.",
+      "country": "CA",
+      "history" : "http://argentixinfo.com/ig/howtopub/history.html",
+      "language" : ["en"],
+      "canonical" : "http://argentixinfo.com/ig/howtopub",
+      "ci-build" : "http://build.fhir.org/ig/ElliotSilver/how-to-publish",
+      "editions" : [
+        {
+          "name" : "Release 1",
+          "ig-version" : "1.0.0",
+          "package" : "ca.argentixinfo.howtopub#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://argentixinfo.com/ig/howtopub/1.0.0"
+        }
+      ],
+      "product": [ "fhir" ]
     }
   ]
 }

@@ -210,7 +210,12 @@
       "name": "World Health Organization",
       "url": "https://smart.who.int/package-feed.xml",
       "errors": "smart|who_int"
-    }	  
+    },
+    {
+      "name": "Argentix Informatics FHIR Implementation Guides",
+      "url": "http://argentixinfo.com/ig/package-feed.xml",
+      "errors": "elliot|argentixinfo_com"
+    } 
   ],
   "package-restrictions": [
 	{
