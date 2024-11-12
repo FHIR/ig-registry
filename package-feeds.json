@@ -227,7 +227,7 @@
       "feeds": [ "http://hl7.org.au/fhir/package-feed.xml" ]
     },
     {
-      "mask": "hl7.fhir.nz.*",
+      "mask": "fhir.org.nz.ig.*",
       "feeds": [ "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" ]
     },
     {
