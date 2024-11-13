@@ -5101,6 +5101,42 @@
       "ci-build" : "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
       "editions" : [
         {
+          "name": "Trial Use",
+          "ig-version": "0.3.1",
+          "package": "tw.gov.mohw.twcore#0.3.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.3.1"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "0.3.0",
+          "package": "tw.gov.mohw.twcore#0.3.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.3.0"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "0.2.2",
+          "package": "tw.gov.mohw.twcore#0.2.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.2.2"
+        },
+        {
+          "name": "Trial Use",
+          "ig-version": "0.2.1",
+          "package": "tw.gov.mohw.twcore#0.2.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.2.1"
+        },
+        {
           "name" : "Trial Use",
           "ig-version" : "0.2.0",
           "package" : "tw.gov.mohw.twcore#0.2.0",
