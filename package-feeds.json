@@ -215,7 +215,12 @@
       "name": "Argentix Informatics FHIR Implementation Guides",
       "url": "http://argentixinfo.com/ig/package-feed.xml",
       "errors": "elliot|argentixinfo_com"
-    } 
+    },
+    {
+      "name": "HL7 Chile IPS",
+      "url": "https://hl7chile.cl/fhir/ig/clips/package-feed.xml",
+      "errors": "Franco_Ulloa|hl7chile_clips_cl"
+    }  
   ],
   "package-restrictions": [
 	{
