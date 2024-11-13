@@ -13,5 +13,10 @@
     "name" : "HL7 Australia Terminology Services",
     "authority" : "Published by HL7 Australia",
     "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-au-tx-servers.json"
+  },{
+    "code" : "hl7-fr",
+    "name" : "HL7 France Terminology Services",
+    "authority" : "Published by HL7 France",
+    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-fr-tx-servers.json"
   }]
 }
