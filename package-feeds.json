@@ -1,5 +1,10 @@
 {
   "comment" : "The order of the feeds does not matter, but the order of the package-restrictions does",
+  "servers" : {
+    "comment" : "This is the known publicly available servers that crawl this package list and make a conformant packages API available",
+    "https://packages.fhir.org" : "Official Package registry (hosted on simplifier.net)",
+    "https://packages2.fhir.org/packages" : "Alternative. Has more packages because it hosts packages associated with non-official releases of FHIR"
+  },
   "feeds": [
     {
       "name": "HL7.org FHIR Publications",
@@ -65,21 +70,26 @@
         "name": "HL7 Denmark",
         "url": "https://hl7.dk/fhir/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },	
+    },
     {
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },  
+    },	  
+    {
+        "name": "Danish FUT Infrastructure",
+        "url": "https://ehealth.sundhed.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },
     {
       "name": "mednet.swiss",
-      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "url": "https://doc.mednet.swiss/fhir/package-feed.xml",
       "errors": "david_gutknecht|novcom_swiss"
     },
     {
-      "name": "David Hay packages (Interim name)",
-      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
-      "errors": "david_hay|clinfhir_com"
+      "name": "HL7 New Zealand",
+      "url": "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true",
+      "errors": "admin|hl7_org_nz"
     },
     {
       "name": "IHE International",
@@ -159,7 +169,7 @@
     {
       "name": "HL7 Finland",
       "url": "https://hl7.fi/fhir/package-feed.xml",
-      "errors": "mikael|sensotrend_com"      
+      "errors": "mikael|sensotrend_com"
     },
     {
       "name": "University Medicine Greifswald - Department of Anesthesia, Intensive Care, Emergency and Pain Medicine",
@@ -167,15 +177,45 @@
       "errors": "gregor_lichtner|med_uni-greifswald_de"
     },
     {
-      "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
-      "url": "https://nrces.in/ndhm/package-feed.xml",
-      "errors": "ABDM|NRCeS"      
-    },
-    {
       "name": "HL7 Italy",
       "url": "http://hl7.it/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_it"
-    }
+    },
+    {
+      "name": "GKL",
+      "url": "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml",
+      "errors": "gabriel_kleinoscheg|elga_gv_at"
+    },
+    {
+      "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+      "url": "https://nrces.in/ndhm/package-feed.xml",
+      "errors": "ABDM|NRCeS"
+    },
+    {
+      "name": "RIVO-Noord NL",
+      "url": "http://implementatiegids.zorgviewer.nl/package-feed.xml",
+      "errors": "m_van_der_zel|umcg_nl"
+    },
+    {
+      "name": "IKNL",
+      "url": "http://iknl.github.io/NkrIG/package-feed.xml",
+      "errors": "fhir|iknl_nl"
+    },
+    {
+      "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
+      "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
+      "errors": "integration|tewhatuora_govt_nz"
+    },
+    {
+      "name": "World Health Organization",
+      "url": "https://smart.who.int/package-feed.xml",
+      "errors": "smart|who_int"
+    },
+    {
+      "name": "Argentix Informatics FHIR Implementation Guides",
+      "url": "http://argentixinfo.com/ig/package-feed.xml",
+      "errors": "elliot|argentixinfo_com"
+    } 
   ],
   "package-restrictions": [
 	{
@@ -188,12 +228,12 @@
     },
     {
       "mask": "hl7.fhir.nz.*",
-      "feeds": [ "http://igs.clinfhir.com/packages/package-feed.xml" ]
+      "feeds": [ "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" ]
     },
     {
         "mask": "hl7.fhir.dk.*",
         "feeds": [ "https://hl7.dk/fhir/package-feed.xml" ]
-    },  
+    },
     {
         "mask": "kl.dk.fhir.*",
         "feeds": [ "https://fhir.kl.dk/package-feed.xml" ]
@@ -209,6 +249,10 @@
     {
       "mask": "hl7.fhir.eu.*",
       "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.fr.*",
+      "feeds": [ "https://hl7.fr/ig/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.fi.*",
@@ -267,6 +311,14 @@
     {
       "mask": "hl7.fhir.it.*",
       "feeds": [ "http://hl7.it/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.gkl.*",
+      "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "dk.ehealth.sundhed.fhir.ig.*",
+      "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
     }
   ]
-}  
+}
