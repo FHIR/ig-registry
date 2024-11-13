@@ -1614,11 +1614,11 @@
       },
       "editions" : [
         {
-          "name" : "STU5 (v5.0.0) Ballot",
-          "ig-version" : "5.0.0-ballot2",
-          "package" : "hl7.fhir.us.cqfmeasures#5.0.0-ballot2",
+          "name" : "STU5 (v5.0.0)",
+          "ig-version" : "5.0.0",
+          "package" : "hl7.fhir.us.cqfmeasures#5.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cqfmeasures/2024May"
+          "url" : "http://hl7.org/fhir/us/cqfmeasures/STU5"
         }
       ]
     },
