@@ -20,6 +20,14 @@ Other registries:
 
 * http://registry.fhir.org: a registry of conformance resources, including ones contained in IGs registered here
 
+## FHIR Foundation Project Statement
+
+* Maintainers: Grahame Grieve
+* Issues / Discussion: https://chat.fhir.org/#narrow/stream/179239-tooling
+* License: Content is licensed under Creative Commons Public Domain
+* Contribution Policy: Contributions made publicly through github PRs. Json files must be valid. 
+* Security Information: This is only static content, so there should be no security issues. Report any through standard github reporting mechanisms
+
 ### Editing the Registry 
 
 If you want to register a new implementation guide, or a new edition of an existing guide, edit fhir-ig-list.json and then make your changes into a pull request. Note that you must make sure that the JSON file is valid, or your changes will be rejected by the build process. JSON validity is checked by a python script in the [CI/CD pipelines](#cicd).
