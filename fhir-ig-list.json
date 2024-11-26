@@ -2481,7 +2481,6 @@
       "npm-name" : "hl7.fhir.uv.cpg",
       "description" : "This implementation guide is a multi-stakeholder effort to use FHIR resources to build shareable and computable representations of the content of clinical care guidelines. The guide focuses on common patterns in clinical guidelines, establishing profiles, conformance requirements, and guidance for the patient-independent, as well as analogous patterns for the patient-specific representation of guideline recommendations",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/cpg/history.html",
       "canonical" : "http://hl7.org/fhir/uv/cpg",
@@ -2501,16 +2500,17 @@
         "codeSystems" : 7,
         "examples" : 441
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.uv.cpg#2.0.0-ballot",
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.uv.cpg#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/cpg/2024Jan"
+          "url" : "http://hl7.org/fhir/uv/cpg/STU2"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "Minimal Common Oncology Data Elements (mCODE)",
