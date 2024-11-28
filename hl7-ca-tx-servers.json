@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "description": "HL7 Canada's list of published terminology servers",
+  "servers": [
+    {
+      "code": "hl7-ca",
+      "name": "Canada Health Infoway Terminology Server",
+      "access_info": "This server requires an API Key - see https://infocentral.infoway-inforoute.ca/en/tools/standards-tools/terminology-server",
+      "url": "https://terminologystandardsservice.ca/tx/fhir",
+      "authoritative": [
+        "http://snomed.info/sct|http://snomed.info/sct/20611000087101*",
+        "https://fhir.infoway-inforoute.ca/CodeSystem*"
+      ],
+      "authoritative-valuesets": [
+        "https://fhir.infoway-inforoute.ca/ValueSet*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://terminologystandardsservice.ca/tx/fhir"
+        }
+      ]
+    }
+  ]
+}
