@@ -3220,7 +3220,6 @@
       "npm-name" : "hl7.terminology",
       "description" : "Terminology",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://terminology.hl7.org/history.html",
       "language" : ["en"],
@@ -3232,13 +3231,14 @@
         "valuesets" : 2483,
         "codeSystems" : 1078
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Publications",
-          "ig-version" : "6.0.1",
-          "package" : "hl7.terminology#6.0.1",
+          "ig-version" : "6.1.0",
+          "package" : "hl7.terminology#6.1.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://terminology.hl7.org/6.0.1"
+          "url" : "http://terminology.hl7.org/6.1.0"
         }
       ]
     },
