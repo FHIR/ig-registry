@@ -7200,6 +7200,7 @@
     },
     {
       "name" : "RIVO-Noord Zorgviewer",
+      "npm-name" : "hl7.fhir.nl.zorgviewer",
       "category" : "EHR Access",
       "description" : "De zorgviewer biedt zorgverleners een 360° beeld van de patiënt of cliënt. Opgebouwd uit alle beschikbare zorginformatie, waarvoor de patiënt of cliënt toestemming heeft gegeven.",
       "authority" : "RIVO-Noord (NL)",
@@ -7207,13 +7208,13 @@
       "country" : "nl",
       "language" : ["nl"],
       "history" : "https://implementatiegids.zorgviewer.nl/changes.html",
-      "canonical" : "https://implementatiegids.zorgviewer.nl",
+      "canonical" : "http://hl7.nl/fhir/zorgviewer/ImplementationGuide/zorgviewer-ig",
       "ci-build" : "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
       "editions" : [
         {
-          "name" : "Trial Use",
-          "ig-version" : "0.24.0",
-          "package" : "hl7.fhir.nl.zorgviewer#0.24.0",
+          "name" : "Sprint 46",
+          "ig-version" : "1.8.0",
+          "package" : "hl7.fhir.nl.zorgviewer#1.8.0",
           "fhir-version" : ["3.0.2"],
           "url" : "https://implementatiegids.zorgviewer.nl"
         }
