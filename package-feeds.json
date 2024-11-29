@@ -220,7 +220,12 @@
       "name": "HL7 Chile IPS",
       "url": "https://hl7chile.cl/fhir/ig/clips/package-feed.xml",
       "errors": "Franco_Ulloa|hl7chile_clips_cl"
-    }  
+    },
+    {
+      "name": "MINSAL CHILE EIS",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/eis/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_EIS"
+    }   
   ],
   "package-restrictions": [
 	{
