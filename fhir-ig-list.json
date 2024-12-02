@@ -633,7 +633,6 @@
       "npm-name" : "ihe.iti.pdqm",
       "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://profiles.ihe.net/ITI/PDQm/history.html",
@@ -646,13 +645,14 @@
         "profiles" : 3,
         "examples" : 4
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.0.0",
-          "package" : "ihe.iti.pdqm#3.0.0",
+          "ig-version" : "3.1.0",
+          "package" : "ihe.iti.pdqm#3.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/PDQm/3.0.0"
+          "url" : "https://profiles.ihe.net/ITI/PDQm/3.1.0"
         }
       ]
     },
