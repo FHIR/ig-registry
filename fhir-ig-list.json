@@ -4627,7 +4627,6 @@
       "npm-name" : "ihe.iti.mcsd",
       "description" : "The IHE Mobile Care Services Discovery (mCSD) IG provides a transaction for mobile and lightweight browser-based applications to find and update care services resources.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://profiles.ihe.net/ITI/mCSD/history.html",
       "language" : ["en"],
@@ -4643,27 +4642,14 @@
         "codeSystems" : 3,
         "examples" : 21
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.8.0",
-          "package" : "ihe.iti.mcsd#3.8.0",
+          "ig-version" : "3.9.0",
+          "package" : "ihe.iti.mcsd#3.9.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/3.8.0"
-        },
-        {
-          "name" : "Publication",
-          "ig-version" : "3.5.0",
-          "package" : "ihe.iti.mcsd#3.5.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/3.5.0"
-        },
-        {
-          "name" : "Publication",
-          "ig-version" : "3.3.0",
-          "package" : "ihe.iti.mcsd#3.3.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD_Rev3-3_TI_2021-07-02.pdf"
+          "url" : "https://profiles.ihe.net/ITI/mCSD/3.9.0"
         }
       ]
     },
