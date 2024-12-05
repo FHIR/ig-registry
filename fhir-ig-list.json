@@ -797,7 +797,6 @@
       "npm-name" : "ihe.pcc.qedm",
       "description" : "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
@@ -806,13 +805,14 @@
       },
       "canonical" : "https://profiles.ihe.net/PCC/QEDm",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "3.0.0-comment1",
-          "package" : "ihe.pcc.qedm#3.0.0-comment1",
+          "name" : "Publication",
+          "ig-version" : "3.0.0",
+          "package" : "ihe.pcc.qedm#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/PCC/QEDm/3.0.0-comment1"
+          "url" : "https://profiles.ihe.net/PCC/QEDm/3.0.0"
         }
       ]
     },
@@ -7056,16 +7056,16 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/PCC/ODH",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.ODH/branches/master/index.html",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.pcc.odh#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.pcc.odh#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/PCC/ODH/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/PCC/ODH/1.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 Europe Extensions",
