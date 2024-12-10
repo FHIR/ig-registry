@@ -1660,7 +1660,6 @@
       "npm-name" : "hl7.fhir.us.davinci-hrex",
       "description" : "A library of shared artifacts used by other Da Vinci and payer related implementation guides",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-hrex/history.html",
@@ -1679,13 +1678,14 @@
         "codeSystems" : 1,
         "examples" : 22
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 1.1 Ballot",
-          "ig-version" : "1.1.0-ballot",
-          "package" : "hl7.fhir.us.davinci-hrex#1.1.0-ballot",
+          "name" : "STU 1.1",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.us.davinci-hrex#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-hrex/2024Sep"
+          "url" : "http://hl7.org/fhir/us/davinci-hrex/STU1.1"
         }
       ]
     },
