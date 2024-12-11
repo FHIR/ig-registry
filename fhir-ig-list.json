@@ -1950,7 +1950,6 @@
       "npm-name" : "hl7.fhir.dk.core",
       "description" : "Base danish national implementation guide",
       "authority" : "HL7 Denmark",
-      "product" : ["fhir"],
       "country" : "dk",
       "language" : ["en"],
       "history" : "http://hl7.dk/fhir/core/history.html",
@@ -1965,13 +1964,14 @@
         "examples" : 12
       },
       "ci-build" : "http://build.fhir.org/ig/hl7dk/dk-core",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "3.2.0",
-          "package" : "hl7.fhir.dk.core#3.2.0",
+          "ig-version" : "3.3.0",
+          "package" : "hl7.fhir.dk.core#3.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.dk/fhir/core/3.2.0"
+          "url" : "http://hl7.dk/fhir/core/3.3.0"
         }
       ]
     },
