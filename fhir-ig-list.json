@@ -1300,7 +1300,6 @@
       "npm-name" : "hl7.fhir.us.davinci-crd",
       "description" : "Provides a mechanism for healthcare providers to discover guidelines, pre-authorization requirements and other expectations from payor organizations related to a proposed medication, procedure or other service associated with a patient's insurance coverage. Supports both patient-specific and patient-independent information retrieval",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-crd/history.html",
@@ -1319,13 +1318,14 @@
         "codeSystems" : 3,
         "examples" : 19
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "STU 2.1",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-crd#2.1.0-preview",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-crd#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2.1-preview"
+          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2.1"
         }
       ]
     },
