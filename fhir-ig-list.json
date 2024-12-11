@@ -2392,7 +2392,6 @@
       "npm-name" : "hl7.fhir.us.davinci-alerts",
       "description" : "The goal of this IG is to support the real-time exchange of alerts and notifications that impact patient care and value based or risk based services",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-alerts",
@@ -2407,16 +2406,17 @@
         "codeSystems" : 1,
         "examples" : 11
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-alerts#1.0.0",
+          "name" : "STU 1.1 Preview",
+          "ig-version" : "1.1.0-preview",
+          "package" : "hl7.fhir.us.davinci-alerts#1.1.0-preview",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-alerts/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-alerts/STU1.1-snapshot"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
