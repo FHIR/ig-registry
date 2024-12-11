@@ -7004,16 +7004,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/pq-cmc-fda",
       "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-us-pq-cmc-fda",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/2024May"
+          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 Tools Extension IG",
