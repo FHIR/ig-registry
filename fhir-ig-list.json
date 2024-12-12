@@ -1660,7 +1660,6 @@
       "npm-name" : "hl7.fhir.us.davinci-hrex",
       "description" : "A library of shared artifacts used by other Da Vinci and payer related implementation guides",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-hrex/history.html",
@@ -1679,13 +1678,14 @@
         "codeSystems" : 1,
         "examples" : 22
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 1.1 Ballot",
-          "ig-version" : "1.1.0-ballot",
-          "package" : "hl7.fhir.us.davinci-hrex#1.1.0-ballot",
+          "name" : "STU 1.1",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.us.davinci-hrex#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-hrex/2024Sep"
+          "url" : "http://hl7.org/fhir/us/davinci-hrex/STU1.1"
         }
       ]
     },
@@ -1950,7 +1950,6 @@
       "npm-name" : "hl7.fhir.dk.core",
       "description" : "Base danish national implementation guide",
       "authority" : "HL7 Denmark",
-      "product" : ["fhir"],
       "country" : "dk",
       "language" : ["en"],
       "history" : "http://hl7.dk/fhir/core/history.html",
@@ -1965,13 +1964,14 @@
         "examples" : 12
       },
       "ci-build" : "http://build.fhir.org/ig/hl7dk/dk-core",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "3.2.0",
-          "package" : "hl7.fhir.dk.core#3.2.0",
+          "ig-version" : "3.3.0",
+          "package" : "hl7.fhir.dk.core#3.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.dk/fhir/core/3.2.0"
+          "url" : "http://hl7.dk/fhir/core/3.3.0"
         }
       ]
     },
@@ -2392,7 +2392,6 @@
       "npm-name" : "hl7.fhir.us.davinci-alerts",
       "description" : "The goal of this IG is to support the real-time exchange of alerts and notifications that impact patient care and value based or risk based services",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-alerts/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-alerts",
@@ -2407,16 +2406,17 @@
         "codeSystems" : 1,
         "examples" : 11
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-alerts#1.0.0",
+          "name" : "STU 1.1 Preview",
+          "ig-version" : "1.1.0-preview",
+          "package" : "hl7.fhir.us.davinci-alerts#1.1.0-preview",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-alerts/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-alerts/STU1.1-snapshot"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "Da Vinci Payer Coverage Decision Exchange (PCDE) FHIR IG",
@@ -6990,16 +6990,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/pq-cmc-fda",
       "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-us-pq-cmc-fda",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/2024May"
+          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 Tools Extension IG",
