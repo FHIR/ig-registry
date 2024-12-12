@@ -509,7 +509,6 @@
       "npm-name" : "hl7.fhir.uv.genomics-reporting",
       "description" : "This implementation guide tries to provide guidance that will enable improved interoperable and computable sharing of genetic testing results",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
@@ -526,13 +525,14 @@
         "codeSystems" : 3,
         "examples" : 65
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.uv.genomics-reporting#3.0.0-ballot",
+          "name" : "STU3",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.uv.genomics-reporting#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/genomics-reporting/2024Jan"
+          "url" : "http://hl7.org/fhir/uv/genomics-reporting/STU3"
         }
       ]
     },
@@ -4397,7 +4397,6 @@
       "npm-name" : "hl7.fhir.us.mdi",
       "description" : "This US-specific IG supports exchange of data for medicolegal death investigations, for example from a toxicology lab to a case management system (upstream), and from a case management system to a  jurisdictional electronic death registration system (EDRS)(downstream).",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/mdi/history.html",
       "language" : ["en"],
@@ -4414,13 +4413,14 @@
         "codeSystems" : 2,
         "examples" : 40
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Preview",
-          "ig-version" : "2.0.0-snapshot1",
-          "package" : "hl7.fhir.us.mdi#2.0.0-snapshot1",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot2",
+          "package" : "hl7.fhir.us.mdi#2.0.0-ballot2",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/mdi/2.0.0-snapshot1"
+          "url" : "http://hl7.org/fhir/us/mdi/2025Jan"
         }
       ]
     },
@@ -6990,14 +6990,14 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/pq-cmc-fda",
       "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-us-pq-cmc-fda",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir", "fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0",
+          "name" : "STU2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.us.pq-cmc-fda#2.0.0-ballot",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/STU1"
+          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/2025Jan"
         }
       ]
     },
