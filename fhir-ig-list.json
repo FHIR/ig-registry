@@ -6954,16 +6954,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/cardx-htn-mng",
       "ci-build" : "http://build.fhir.org/ig/HL7/cardx-htn-mng",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.cardx-htn-mng#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.cardx-htn-mng#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/cardx-htn-mng/2024May"
+          "url" : "http://hl7.org/fhir/uv/cardx-htn-mng/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Pharmaceutical Quality - Chemistry, Manufacturing and Controls (PQ-CMC) Submissions to FDA",
