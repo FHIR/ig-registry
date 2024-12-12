@@ -509,7 +509,6 @@
       "npm-name" : "hl7.fhir.uv.genomics-reporting",
       "description" : "This implementation guide tries to provide guidance that will enable improved interoperable and computable sharing of genetic testing results",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/uv/genomics-reporting/history.html",
@@ -526,13 +525,14 @@
         "codeSystems" : 3,
         "examples" : 65
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.uv.genomics-reporting#3.0.0-ballot",
+          "name" : "STU3",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.uv.genomics-reporting#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/genomics-reporting/2024Jan"
+          "url" : "http://hl7.org/fhir/uv/genomics-reporting/STU3"
         }
       ]
     },
