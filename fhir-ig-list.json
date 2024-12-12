@@ -7275,16 +7275,16 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/ITI/Scheduling",
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.Scheduling",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.iti.scheduling#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.iti.scheduling#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/ITI/Scheduling/1.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "US Standardized Medication Profile (SMP)",
