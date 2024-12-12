@@ -4397,7 +4397,6 @@
       "npm-name" : "hl7.fhir.us.mdi",
       "description" : "This US-specific IG supports exchange of data for medicolegal death investigations, for example from a toxicology lab to a case management system (upstream), and from a case management system to a  jurisdictional electronic death registration system (EDRS)(downstream).",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/mdi/history.html",
       "language" : ["en"],
@@ -4414,13 +4413,14 @@
         "codeSystems" : 2,
         "examples" : 40
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Preview",
-          "ig-version" : "2.0.0-snapshot1",
-          "package" : "hl7.fhir.us.mdi#2.0.0-snapshot1",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot2",
+          "package" : "hl7.fhir.us.mdi#2.0.0-ballot2",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/mdi/2.0.0-snapshot1"
+          "url" : "http://hl7.org/fhir/us/mdi/2025Jan"
         }
       ]
     },
