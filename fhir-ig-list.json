@@ -633,7 +633,6 @@
       "npm-name" : "ihe.iti.pdqm",
       "description" : "Defines a lightweight RESTful interface to a patient demographics supplier leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://profiles.ihe.net/ITI/PDQm/history.html",
@@ -646,13 +645,14 @@
         "profiles" : 3,
         "examples" : 4
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.0.0",
-          "package" : "ihe.iti.pdqm#3.0.0",
+          "ig-version" : "3.1.0",
+          "package" : "ihe.iti.pdqm#3.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/PDQm/3.0.0"
+          "url" : "https://profiles.ihe.net/ITI/PDQm/3.1.0"
         }
       ]
     },
@@ -797,7 +797,6 @@
       "npm-name" : "ihe.pcc.qedm",
       "description" : "Supports queries for clinical data elements, including observations, allergy and intolerances, conditions, diagnostic results, medications, immunizations, procedures, encounters and provenance by making the information widely available to other systems within and across enterprises",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://wiki.ihe.net/index.php/Query_for_Existing_Data_for_Mobile",
@@ -806,13 +805,14 @@
       },
       "canonical" : "https://profiles.ihe.net/PCC/QEDm",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "3.0.0-comment1",
-          "package" : "ihe.pcc.qedm#3.0.0-comment1",
+          "name" : "Publication",
+          "ig-version" : "3.0.0",
+          "package" : "ihe.pcc.qedm#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/PCC/QEDm/3.0.0-comment1"
+          "url" : "https://profiles.ihe.net/PCC/QEDm/3.0.0"
         }
       ]
     },
@@ -4627,7 +4627,6 @@
       "npm-name" : "ihe.iti.mcsd",
       "description" : "The IHE Mobile Care Services Discovery (mCSD) IG provides a transaction for mobile and lightweight browser-based applications to find and update care services resources.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://profiles.ihe.net/ITI/mCSD/history.html",
       "language" : ["en"],
@@ -4643,27 +4642,14 @@
         "codeSystems" : 3,
         "examples" : 21
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.8.0",
-          "package" : "ihe.iti.mcsd#3.8.0",
+          "ig-version" : "3.9.0",
+          "package" : "ihe.iti.mcsd#3.9.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/3.8.0"
-        },
-        {
-          "name" : "Publication",
-          "ig-version" : "3.5.0",
-          "package" : "ihe.iti.mcsd#3.5.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/3.5.0"
-        },
-        {
-          "name" : "Publication",
-          "ig-version" : "3.3.0",
-          "package" : "ihe.iti.mcsd#3.3.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD_Rev3-3_TI_2021-07-02.pdf"
+          "url" : "https://profiles.ihe.net/ITI/mCSD/3.9.0"
         }
       ]
     },
@@ -7070,16 +7056,16 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/PCC/ODH",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.ODH/branches/master/index.html",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.pcc.odh#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.pcc.odh#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/PCC/ODH/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/PCC/ODH/1.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 Europe Extensions",
@@ -7289,16 +7275,16 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/ITI/Scheduling",
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.Scheduling",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.iti.scheduling#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.iti.scheduling#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/Scheduling/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/ITI/Scheduling/1.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "US Standardized Medication Profile (SMP)",
