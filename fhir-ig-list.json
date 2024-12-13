@@ -6,7 +6,6 @@
       "npm-name" : "hl7.fhir.us.core",
       "description" : "Base US national implementation guide",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "implementations" : [
@@ -37,13 +36,14 @@
         "codeSystems" : 4,
         "examples" : 111
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU7",
-          "ig-version" : "7.0.0",
-          "package" : "hl7.fhir.us.core#7.0.0",
+          "name" : "STU8 Ballot",
+          "ig-version" : "8.0.0-ballot",
+          "package" : "hl7.fhir.us.core#8.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/core/STU7"
+          "url" : "http://hl7.org/fhir/us/core/2025Jan"
         }
       ]
     },
