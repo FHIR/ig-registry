@@ -225,6 +225,11 @@
       "name": "MINSAL CHILE EIS",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/eis/package-feed.xml",
       "errors": "Jorge_Mansilla|MINSAL_EIS"
+    } ,
+    {
+      "name": "MINSAL CHILE NID",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_NID"
     }   
   ],
   "package-restrictions": [
