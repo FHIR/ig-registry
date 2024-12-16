@@ -5102,6 +5102,15 @@
       "editions" : [
         {
           "name": "Trial Use",
+          "ig-version": "0.3.2",
+          "package": "tw.gov.mohw.twcore#0.3.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.3.2"
+        },
+        {
+          "name": "Trial Use",
           "ig-version": "0.3.1",
           "package": "tw.gov.mohw.twcore#0.3.1",
           "fhir-version": [
