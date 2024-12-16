@@ -7519,6 +7519,28 @@
         }
       ],
       "product" : ["fhir"]
+    },
+    {
+      "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
+      "category" : "financial",
+      "npm-name" : "hl7.fhir.us.davinci-pr",
+      "description" : "This IG provides a FHIR API to search for and retrieve a copy of a previously issued postable remittance.",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/davinci-pr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/davinci-pr",
+      "ci-build" : "http://build.fhir.org/ig/HL7/davinci-pr",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.davinci-pr#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/davinci-pr/2025Jan"
+        }
+      ]
     }
   ]
 }
