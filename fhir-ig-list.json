@@ -128,7 +128,6 @@
       "npm-name" : "hl7.fhir.us.ccda",
       "description" : "US Realm Implementation Guide (IG) addressing the key aspects of Consolidated CDA (C-CDA) required for Meaningful Use (MU). This IG focuses on the clinical document header and narrative constraints necessary for human readability, and references the Data Access Framework (DAF) implementation guide for coded data representation",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/ccda/history.html",
@@ -142,13 +141,14 @@
         "valuesets" : 10,
         "examples" : 32
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "1.2.0",
-          "package" : "hl7.fhir.us.ccda#1.2.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.us.ccda#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/ccda/STU1.2"
+          "url" : "http://hl7.org/fhir/us/ccda/2025Jan"
         }
       ]
     },
