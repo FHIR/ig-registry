@@ -6847,16 +6847,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/cql",
       "ci-build" : "http://build.fhir.org/ig/HL7/cql-ig",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.cql#1.0.0",
+          "name" : "STU2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.uv.cql#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/cql/STU1"
+          "url" : "http://hl7.org/fhir/uv/cql/2025Jan"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Respiratory Virus Hospitalization Surveillance Network (RESP-NET) Content Implementation Guide",
@@ -7508,6 +7508,50 @@
         }
       ],
       "product" : ["fhir"]
+    },
+    {
+      "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
+      "category" : "financial",
+      "npm-name" : "hl7.fhir.us.davinci-pr",
+      "description" : "This IG provides a FHIR API to search for and retrieve a copy of a previously issued postable remittance.",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/davinci-pr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/davinci-pr",
+      "ci-build" : "http://build.fhir.org/ig/HL7/davinci-pr",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.davinci-pr#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/davinci-pr/2025Jan"
+        }
+      ]
+    },
+    {
+      "name" : "Quality Measure Implementation Guide",
+      "category" : "Quality/CDS",
+      "npm-name" : "hl7.fhir.uv.cqm",
+      "description" : "The Quality Measure Implementation Guide (QM IG) describes an approach to representing Quality Measures (QMs) using the FHIR Clinical Reasoning Module and Clinical Quality Language (CQL). This Implementation Guide can be used for multiple use cases across many domains.",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/cqm/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/cqm",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-cqm",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 (v1.0.0) Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.cqm#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/cqm/2025Jan"
+        }
+      ]
     },
     {
       "name" : "How to Publish a FHIR Implementation Guide",
