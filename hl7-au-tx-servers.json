@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1",
-  "description" : "HL7's Australia's list of published terminology servers",
+  "description" : "HL7 Australia's list of published terminology servers",
   "servers" : [{
     "code" : "hl7-au-test",
     "name" : "HL7 Australia Server",
