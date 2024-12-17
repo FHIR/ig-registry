@@ -158,7 +158,6 @@
       "npm-name" : "hl7.fhir.uv.sdc",
       "description" : "Defines expectations for sharing of Questionnaires and answers, including mechanisms for automatically populating portions of a questionnaire based on embedded mappings to underlying data elements",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/sdc/history.html",
@@ -178,27 +177,14 @@
         "codeSystems" : 7,
         "examples" : 48
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 3",
-          "ig-version" : "3.0.0",
-          "package" : "hl7.fhir.uv.sdc#3.0.0",
+          "name" : "STU 4 Ballot",
+          "ig-version" : "4.0.0-ballot",
+          "package" : "hl7.fhir.uv.sdc#4.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/sdc/STU3"
-        },
-        {
-          "name" : "STU 2",
-          "ig-version" : "2.0.0",
-          "package" : "hl7.fhir.uv.sdc#2.0.0",
-          "fhir-version" : ["3.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdc/STU2"
-        },
-        {
-          "name" : "DSTU 1",
-          "ig-version" : "1.0.2",
-          "package" : "hl7.fhir.uv.sdc#1.0.2",
-          "fhir-version" : ["1.0.2"],
-          "url" : "http://hl7.org/fhir/DSTU2/sdc/sdc.html"
+          "url" : "http://hl7.org/fhir/uv/sdc/2025Jan"
         }
       ]
     },
@@ -5087,13 +5073,11 @@
       "ci-build" : "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
       "editions" : [
         {
-          "name": "Trial Use",
-          "ig-version": "0.3.2",
-          "package": "tw.gov.mohw.twcore#0.3.2",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "https://twcore.mohw.gov.tw/ig/twcore/0.3.2"
+          "name" : "Trial Use",
+          "ig-version" : "0.3.2",
+          "package" : "tw.gov.mohw.twcore#0.3.2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/twcore/0.3.2"
         }
       ]
     },
