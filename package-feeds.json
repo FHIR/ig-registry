@@ -215,7 +215,22 @@
       "name": "Argentix Informatics FHIR Implementation Guides",
       "url": "http://argentixinfo.com/ig/package-feed.xml",
       "errors": "elliot|argentixinfo_com"
-    } 
+    },
+    {
+      "name": "HL7 Chile IPS",
+      "url": "https://hl7chile.cl/fhir/ig/clips/package-feed.xml",
+      "errors": "Franco_Ulloa|hl7chile_clips_cl"
+    },
+    {
+      "name": "MINSAL CHILE EIS",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/eis/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_EIS"
+    } ,
+    {
+      "name": "MINSAL CHILE NID",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_NID"
+    }   
   ],
   "package-restrictions": [
 	{
@@ -227,7 +242,7 @@
       "feeds": [ "http://hl7.org.au/fhir/package-feed.xml" ]
     },
     {
-      "mask": "hl7.fhir.nz.*",
+      "mask": "fhir.org.nz.ig.*",
       "feeds": [ "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" ]
     },
     {
