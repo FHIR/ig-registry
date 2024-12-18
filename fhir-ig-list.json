@@ -7560,6 +7560,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "Standard Personal Health Record",
+      "category" : "Personal Healthcare",
+      "npm-name" : "hl7.fhir.uv.phr",
+      "description" : "A specifcation for a standard personal health record file format, for collecting and assembling longitudinal records from multiple EHR vendors.",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/phr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/phr",
+      "ci-build" : "http://build.fhir.org/ig/HL7/personal-health-record-format-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.phr#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/phr/2025Jan"
+        }
+      ]
+    },
+    {
       "name" : "FHIRPath Specification",
       "category" : "infrastructure",
       "npm-name" : "hl7.fhirpath",
