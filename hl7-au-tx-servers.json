@@ -11,7 +11,8 @@
       "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|*"
     ],
     "authoritative-valuesets" : [
-       "https://healthterminologies.gov.au/fhir/ValueSet*"
+       "https://healthterminologies.gov.au/fhir/ValueSet*",
+       "http://snomed.info/sct/32506021000036107*"
     ],
     "fhirVersions" : [{
       "version" : "R4",

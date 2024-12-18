@@ -5880,16 +5880,16 @@
       "country" : "uv",
       "history" : "http://hl7.org/cda/stds/core/history.html",
       "language" : ["en"],
-      "product" : ["cda"],
       "canonical" : "http://hl7.org/cda/stds/core",
       "ci-build" : "http://build.fhir.org/ig/HL7/CDA-core-sd",
+      "product" : ["fhir", "fhir", "cda"],
       "editions" : [
         {
-          "name" : "CDA2 Informative",
-          "ig-version" : "2.0.0-sd",
-          "package" : "hl7.cda.uv.core#2.0.0-sd",
+          "name" : "CDA 2.0 Informative",
+          "ig-version" : "2.0.1-sd",
+          "package" : "hl7.cda.uv.core#2.0.1-sd",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/cda/stds/core/2.0.0-sd"
+          "url" : "http://hl7.org/cda/stds/core/2.0.1-sd"
         }
       ]
     },
@@ -7485,10 +7485,10 @@
       "editions" : [
         {
           "name" : "releases Draft",
-          "ig-version" : "1.0.0",
-          "package" : "who.ddcc#1.0.0",
+          "ig-version" : "1.0.1",
+          "package" : "who.ddcc#1.0.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/ddcc/1.0.0"
+          "url" : "http://smart.who.int/ddcc/1.0.1"
         }
       ],
       "product" : ["fhir"]
@@ -7578,6 +7578,28 @@
           "package" : "hl7.fhir.uv.phr#1.0.0-ballot",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/uv/phr/2025Jan"
+        }
+      ]
+    },
+    {
+      "name" : "FHIRPath Specification",
+      "category" : "infrastructure",
+      "npm-name" : "hl7.fhirpath",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "??",
+      "history" : "http://hl7.org/fhirpath/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhirpath",
+      "ci-build" : "http://build.fhir.org/ig/HL7/FHIRPath",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "R2 Ballot",
+          "ig-version" : "3.0.0-ballot",
+          "package" : "hl7.fhirpath#3.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhirpath/2025Jan"
         }
       ]
     }
