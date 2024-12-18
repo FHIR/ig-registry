@@ -5880,16 +5880,16 @@
       "country" : "uv",
       "history" : "http://hl7.org/cda/stds/core/history.html",
       "language" : ["en"],
-      "product" : ["cda"],
       "canonical" : "http://hl7.org/cda/stds/core",
       "ci-build" : "http://build.fhir.org/ig/HL7/CDA-core-sd",
+      "product" : ["fhir", "cda"],
       "editions" : [
         {
-          "name" : "CDA2 Informative",
-          "ig-version" : "2.0.0-sd",
-          "package" : "hl7.cda.uv.core#2.0.0-sd",
+          "name" : "CDA 2.0 Informative",
+          "ig-version" : "2.0.1-sd",
+          "package" : "hl7.cda.uv.core#2.0.1-sd",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/cda/stds/core/2.0.0-sd"
+          "url" : "http://hl7.org/cda/stds/core/2.0.1-sd"
         }
       ]
     },
