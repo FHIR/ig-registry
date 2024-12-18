@@ -7485,10 +7485,10 @@
       "editions" : [
         {
           "name" : "releases Draft",
-          "ig-version" : "1.0.0",
-          "package" : "who.ddcc#1.0.0",
+          "ig-version" : "1.0.1",
+          "package" : "who.ddcc#1.0.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/ddcc/1.0.0"
+          "url" : "http://smart.who.int/ddcc/1.0.1"
         }
       ],
       "product" : ["fhir"]
