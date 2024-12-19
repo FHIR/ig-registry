@@ -1967,31 +1967,20 @@
       "npm-name" : "ch.fhir.ig.ch-core",
       "description" : "Base swiss national implementation guide",
       "authority" : "HL7 Switzerland",
-      "product" : ["fhir"],
       "country" : "ch",
       "history" : "http://fhir.ch/ig/ch-core/history.html",
       "canonical" : "http://fhir.ch/ig/ch-core",
-      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-core/index.html",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-core",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU",
-          "ig-version" : "1.0.0",
-          "package" : "ch.fhir.ig.ch-core#1.0.0",
+          "name" : "STU 5",
+          "ig-version" : "5.0.0",
+          "package" : "ch.fhir.ig.ch-core#5.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.ch/ig/ch-core/1.0.0"
+          "url" : "http://fhir.ch/ig/ch-core/5.0.0"
         }
       ],
-      "analysis" : {
-        "content" : true,
-        "documents" : true,
-        "clinicalCore" : true,
-        "financials" : true,
-        "profiles" : 21,
-        "extensions" : 16,
-        "valuesets" : 16,
-        "codeSystems" : 13,
-        "examples" : 18
-      },
       "language" : ["en"]
     },
     {
@@ -2000,7 +1989,6 @@
       "npm-name" : "ch.fhir.ig.template",
       "description" : "HL7 Switzerland FHIR Implementation Guide Template",
       "authority" : "HL7 Switzerland",
-      "product" : ["fhir"],
       "country" : "ch",
       "history" : "http://fhir.ch/ig/template/history.html",
       "canonical" : "http://fhir.ch/ig/template",
@@ -2014,35 +2002,6 @@
           "url" : "http://fhir.ch/ig/template/0.4.0"
         }
       ],
-      "analysis" : {
-        "error" : "Unable to find package ch.fhir.ig.template#0.4.0"
-      },
-      "language" : ["en"]
-    },
-    {
-      "name" : "Swiss EPR Metadata (CH-EPR-TERM)",
-      "category" : "National Base",
-      "npm-name" : "ch.fhir.ig.ch-epr-term",
-      "description" : "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
-      "authority" : "HL7 Switzerland",
-      "product" : ["fhir"],
-      "country" : "ch",
-      "history" : "http://fhir.ch/ig/ch-epr-term/history.html",
-      "canonical" : "http://fhir.ch/ig/ch-epr-term",
-      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-epr-term/index.html",
-      "editions" : [
-        {
-          "name" : "STU",
-          "ig-version" : "2.0.4",
-          "package" : "ch.fhir.ig.ch-epr-term#2.0.4",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.ch/ig/ch-epr-term/2.0.4"
-        }
-      ],
-      "analysis" : {
-        "valuesets" : 20,
-        "codeSystems" : 10
-      },
       "language" : ["en"]
     },
     {
@@ -2091,17 +2050,16 @@
       "category" : "National Base",
       "npm-name" : "ch.fhir.ig.atc",
       "description" : "National Integration Profile for the Swiss Electronic Patient Record",
-      "authority" : "FOPH (CH)",
-      "product" : ["fhir"],
+      "authority" : "FOPH",
       "country" : "ch",
       "history" : "http://fhir.ch/ig/ch-atc/history.html",
       "canonical" : "http://fhir.ch/ig/ch-atc",
       "ci-build" : "http://build.fhir.org/ig/ahdis/ch-atc/index.html",
       "editions" : [
         {
-          "ig-version" : "3.1.0",
-          "name" : "2020-06-11",
-          "package" : "ch.fhir.ig.ch-atc#1.2.0",
+          "ig-version" : "3.3.0",
+          "name" : "2022-12-28",
+          "package" : "ch.fhir.ig.ch-atc#3.3.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.ch/ig/ch-atc/index.html"
         },
@@ -2112,68 +2070,28 @@
           "fhir-version" : ["3.0.1"],
           "url" : "http://fhir.ch/ig/ch-atc/1.2.0/index.html"
         }
-      ],
-      "analysis" : {
-        "error" : "Attempt to import a mis-identified package. Expected ch.fhir.ig.ch-atc, got ch.fhir.ig.atc"
-      },
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "Order & Referral by Form (CH-ORF)",
       "category" : "National Base",
       "npm-name" : "ch.fhir.ig.ch-orf",
       "description" : "The Order & Referral by Form (CH-ORF) Profile describes how forms for eReferrals, requests for information (such as diagnostic imaging results, lab results, discharge reports etc.) can be defined, deployed and used in order to achieve a syntactical and semantically consistent cross enterprise information exchange.",
-      "authority" : "eHealth Suisse",
-      "product" : ["fhir"],
+      "authority" : "HL7 Switzerland",
       "country" : "ch",
       "history" : "http://fhir.ch/ig/ch-orf/history.html",
       "canonical" : "http://fhir.ch/ig/ch-orf",
-      "ci-build" : "http://build.fhir.org/ig/ahdis/ch-orf/index.html",
-      "editions" : [
-        {
-          "name" : "STU",
-          "ig-version" : "0.9.1",
-          "package" : "ch.fhir.ig.ch-orf#0.9.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.ch/ig/ch-orf/0.9.1"
-        }
-      ],
-      "analysis" : {
-        "content" : true,
-        "documents" : true,
-        "clinicalCore" : true,
-        "questionnaire" : true,
-        "profiles" : 5,
-        "extensions" : 7,
-        "valuesets" : 1,
-        "codeSystems" : 1,
-        "examples" : 9
-      },
-      "language" : ["en"]
-    },
-    {
-      "name" : "CHMED20AF (R4)",
-      "category" : "National Base",
-      "npm-name" : "ch.chmed16af.emediplan",
-      "description" : "eMediplan CHMED16AF Implementation Guide",
-      "authority" : "IG eMediplan (CH)",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-orf",
       "product" : ["fhir"],
-      "country" : "ch",
-      "history" : "http://chmed16af.emediplan.ch/fhir/history.html",
-      "canonical" : "http://chmed16af.emediplan.ch/fhir",
-      "ci-build" : "http://build.fhir.org/ig/ahdis/chmed20af/index.html",
       "editions" : [
         {
-          "name" : "STU",
-          "ig-version" : "0.2.0",
-          "package" : "ch.chmed16af.emediplan#0.2.0",
-          "fhir-version" : ["4.0.0"],
-          "url" : "http://chmed16af.emediplan.ch/fhir/0.2.0"
+          "name" : "STU 3",
+          "ig-version" : "3.0.0",
+          "package" : "ch.fhir.ig.ch-orf#3.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-orf/3.0.0"
         }
       ],
-      "analysis" : {
-        "error" : "Unable to resolve package id ch.chmed16af.emediplan#0.2.0"
-      },
       "language" : ["en"]
     },
     {
@@ -2181,32 +2099,21 @@
       "category" : "National Base",
       "npm-name" : "ch.fhir.ig.ch-emed",
       "description" : "The CH EMED implementation guide describes the FHIR representation of the defined documents for the exchange of medication information",
-      "authority" : "eHealth Suisse",
-      "product" : ["fhir"],
+      "authority" : "HL7 Switzerland",
       "country" : "ch",
       "history" : "http://fhir.ch/ig/ch-emed/history.html",
       "canonical" : "http://fhir.ch/ig/ch-emed",
-      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-emed/index.html",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-emed",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "DSTU",
-          "ig-version" : "0.1.1",
-          "package" : "ch.fhir.ig.ch-emed#0.1.1",
+          "name" : "STU 5",
+          "ig-version" : "5.0.0",
+          "package" : "ch.fhir.ig.ch-emed#5.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.ch/ig/ch-emed/0.1.1"
+          "url" : "http://fhir.ch/ig/ch-emed/5.0.0"
         }
       ],
-      "analysis" : {
-        "content" : true,
-        "documents" : true,
-        "clinicalCore" : true,
-        "medsMgmt" : true,
-        "profiles" : 23,
-        "extensions" : 9,
-        "valuesets" : 3,
-        "codeSystems" : 2,
-        "examples" : 37
-      },
       "language" : ["en"]
     },
     {
@@ -7600,6 +7507,268 @@
           "package" : "hl7.fhirpath#3.0.0-ballot",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhirpath/2025Jan"
+        }
+      ]
+    },    
+    {
+      "name" : "CH VACD (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-vacd",
+      "description" : "The CH VACD implementation guide describes the FHIR representation of the defined documents for the exchange of immuniuzation",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-vacd/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-vacd",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-vacd",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 5",
+          "ig-version" : "5.0.0",
+          "package" : "ch.fhir.ig.ch-vacd#5.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-vacd/5.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH-AllergyIntolerance (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-allergyintolerance",
+      "description" : "Swiss Implementation Guide for Allergy & Intolerance based on the recommendations of the interprofessional working group EPR (IPAG).",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-allergyintolerance/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-allergyintolerance",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-allergyintolerance",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 3",
+          "ig-version" : "3.0.0",
+          "package" : "ch.fhir.ig.ch-allergyintolerance#3.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-allergyintolerance/3.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH LAB-Order (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-lab-order",
+      "description" : "Swiss Implementation Guide for the exchange of order data in the laboratory sector.",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-lab-order/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-lab-order",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-lab-order",
+      "editions" : [
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "ch.fhir.ig.ch-lab-order#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-lab-order/2.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH eTOC (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-etoc",
+      "description" : "Transition of Care Implementation Guide based on the IPAG report.",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-etoc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-etoc",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-etoc",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 3",
+          "ig-version" : "3.0.0",
+          "package" : "ch.fhir.ig.ch-etoc#3.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-etoc/3.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH ATC (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-atc",
+      "description" : "The profile CH ATC defines the audit trail consumption requirements for the EPR in Switzerland which a community has to provide for a patients audit trail.",
+      "authority" : "FOPH",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-atc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-atc",
+      "ci-build" : "http://build.fhir.org/ig/ehealthsuisse/ch-atc",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Draft Draft",
+          "ig-version" : "3.3.0",
+          "package" : "ch.fhir.ig.ch-atc#3.3.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-atc/3.3.0"
+        }
+      ]
+    },
+    {
+      "name" : "Observations of notifiable communicable infectious diseases",
+      "category" : "Public Health",
+      "npm-name" : "ch.fhir.ig.ch-elm",
+      "description" : "CH ELM is a project of the Swiss Federal Office of Public Health (FOPH), Communicable Diseases Division, to enable laboratories to send their observations of notifiable communicable infectious diseases to the FOPH electronically.",
+      "authority" : "FOPH",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-elm/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-elm",
+      "ci-build" : "http://build.fhir.org/ig/ahdis/ch-elm/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "1.7.0",
+          "package" : "ch.fhir.ig.ch-elm#1.7.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-elm/1.7.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH LAB-Report (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-lab-report",
+      "description" : "Implementation Guide for Laboratory Reports in Switzerland.",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-lab-report/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-lab-report",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-lab-report",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "ch.fhir.ig.ch-lab-report#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-lab-report/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "FHIR eMedication exchange formats for the implementation effort of CARA within its EPR community",
+      "category" : "clinical",
+      "npm-name" : "ch.fhir.ig.ch-emed-epr",
+      "description" : "FHIR eMedication exchange formats for the implementation effort of CARA within its EPR community.",
+      "authority" : "CARA",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-emed-epr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-emed-epr",
+      "ci-build" : "http://build.fhir.org/ig/CARA-ch/ch-emed-epr",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "ch.fhir.ig.ch-emed-epr#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-emed-epr/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH Term (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-term",
+      "description" : "FHIR implementation guide containing terminology that is used in Switzerland for the core profiles, various exchange formats and also in the context of the Swiss electronic patient record (EPR).",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-term/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-term",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-term",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU",
+          "ig-version" : "3.1.0",
+          "package" : "ch.fhir.ig.ch-term#3.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-term/3.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH EPR FHIR (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-epr-fhir",
+      "description" : "This national extension provides a FHIR based API for the Swiss EPR by extending the IHE FHIR based mobile profiles.",
+      "authority" : "FOPH",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-epr-fhir/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-epr-fhir",
+      "ci-build" : "http://build.fhir.org/ig/ehealthsuisse/ch-epr-fhir",
+      "product" : ["fhir", "fhir"],
+      "editions" : [
+        {
+          "name" : "DSTU 4",
+          "ig-version" : "4.0.1",
+          "package" : "ch.fhir.ig.ch-epr-fhir#4.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-epr-fhir/4.0.1"
+        }
+      ]
+    },
+    {
+      "name" : "CH IPS (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-ips",
+      "description" : "Swiss IPS based on the International Patient Summary Implementation Guide.",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-ips/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-ips",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-ips/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "ch.fhir.ig.ch-ips#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-ips/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CH RAD-Order (R4)",
+      "category" : "National Base",
+      "npm-name" : "ch.fhir.ig.ch-rad-order",
+      "description" : "Based on the CH ORF Implementation Guide for Order & Referral in the Radiology domain to achieve a syntactical and semantically consistent cross enterprise information exchange.",
+      "authority" : "HL7 Switzerland",
+      "country" : "ch",
+      "history" : "http://fhir.ch/ig/ch-rad-order/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.ch/ig/ch-rad-order",
+      "ci-build" : "http://build.fhir.org/ig/hl7ch/ch-rad-order",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "ch.fhir.ig.ch-rad-order#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.ch/ig/ch-rad-order/2.0.0"
         }
       ]
     }
