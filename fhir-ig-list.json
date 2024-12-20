@@ -2539,7 +2539,6 @@
       "npm-name" : "hl7.fhir.us.davinci-pas",
       "description" : "This IG allows providers the ability to easily identify the need for payer authorizations, assemble necessary information, identify and supply missing information and submit it to the payer electronically and receive a response in real time within the clinical workflow.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-pas/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-pas",
@@ -2557,16 +2556,17 @@
         "codeSystems" : 6,
         "examples" : 29
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Preview",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-pas#2.1.0-preview",
+          "name" : "STU 2",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-pas#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/2.1.0-preview"
+          "url" : "http://hl7.org/fhir/us/davinci-pas/STU2.1"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "FHIR Bulk Data Access (Flat FHIR)",
