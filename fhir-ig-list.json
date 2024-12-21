@@ -1614,7 +1614,6 @@
       "npm-name" : "hl7.fhir.us.davinci-dtr",
       "description" : "Provides a mechanism for delivering and executing payer rules related to documentation requirements for a proposed medication, procedure or other service associated with a patient's insurance coverage",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-dtr/history.html",
@@ -1630,13 +1629,14 @@
         "operations" : 1,
         "examples" : 12
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2.1 Preview",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-dtr#2.1.0-preview",
+          "name" : "STU 2.1",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-dtr#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-dtr/2.1.0-preview"
+          "url" : "http://hl7.org/fhir/us/davinci-dtr/STU2.1"
         }
       ]
     },
