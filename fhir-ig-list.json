@@ -7401,6 +7401,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "SMART Trust",
+      "category" : "trust",
+      "npm-name" : "smart.who.int.trust",
+      "description" : "SMART Trust Implementation Guide",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/trust/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/trust",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-trust",
+      "editions" : [
+        {
+          "name" : "1.1.5 release",
+          "ig-version" : "1.1.5",
+          "package" : "smart.who.int.trust#1.1.5",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/trust/v1.1.5"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
