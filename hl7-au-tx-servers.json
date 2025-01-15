@@ -8,7 +8,8 @@
     "url" : "https://tx.ontoserver.csiro.au/fhir",
     "authoritative" : [
       "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*",
-      "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|*"
+      "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|*",
+      "https://healthterminologies.gov.au/fhir/CodeSystem*"
     ],
     "authoritative-valuesets" : [
        "https://healthterminologies.gov.au/fhir/ValueSet*",
