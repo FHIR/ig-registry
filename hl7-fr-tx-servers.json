@@ -1,0 +1,22 @@
+{
+  "formatVersion" : "1",
+  "description" : "HL7 France's list of published terminology servers",
+  "servers" : [{
+    "code" : "ans-fr-tx",
+    "name" : "Agence du Numérique en Santé (ANS) Terminology Server",
+    "access_info" : "This server is open to the public",
+    "url" : "https://smt.esante.gouv.fr/fhir",
+    "authoritative" : [
+      "https://mos.esante.gouv.fr/*",
+      "https://smt.esante.gouv.fr/*"
+    ],
+    "authoritative-valuesets" : [
+       "https://smt.esante.gouv.fr*",
+       "https://mos.esante.gouv.fr*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R4",
+      "url" : "https://smt.esante.gouv.fr/fhir"
+    }]
+  }]
+}

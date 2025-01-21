@@ -1,17 +1,32 @@
 {
-  "formatVersion" : "1",
-  "description" : "This JSON-5 file contains a list of the lists of terminology servers available for use across the FHIR tooling eco-system",
-  "user-warning" : "The FHIR Tooling eco-system exists to support design time and publication usage. It is not intended to support production use, and should not be used in operational systems",
-  "documentation" : "See https://github.com/FHIR/ig-registry/blob/master/tx-registry-doco.md",
-  "registries" : [{
-    "code" : "hl7",
-    "name" : "HL7 Terminology Services",
-    "authority" : "Published by HL7",
-    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
-  },{
-    "code" : "hl7-au",
-    "name" : "HL7 Australia Terminology Services",
-    "authority" : "Published by HL7 Australia",
-    "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-au-tx-servers.json"
-  }]
+  "formatVersion": "1",
+  "description": "This JSON-5 file contains a list of the lists of terminology servers available for use across the FHIR tooling eco-system",
+  "user-warning": "The FHIR Tooling eco-system exists to support design time and publication usage. It is not intended to support production use, and should not be used in operational systems",
+  "documentation": "See https://github.com/FHIR/ig-registry/blob/master/tx-registry-doco.md",
+  "registries": [
+    {
+      "code": "hl7",
+      "name": "HL7 Terminology Services",
+      "authority": "Published by HL7",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-tx-servers.json"
+    },
+    {
+      "code": "hl7-au",
+      "name": "HL7 Australia Terminology Services",
+      "authority": "Published by HL7 Australia",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-au-tx-servers.json"
+    },
+    {
+      "code": "hl7-ca",
+      "name": "HL7 Canada Terminology Services",
+      "authority": "Published by HL7 Canada/\u2008Canada Health Infoway",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ca-tx-servers.json"
+    },
+    {
+      "code": "hl7-fr",
+      "name": "HL7 France Terminology Services",
+      "authority": "Published by HL7 France",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-fr-tx-servers.json"
+    }
+  ]
 }
