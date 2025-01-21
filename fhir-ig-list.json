@@ -132,9 +132,9 @@
       "ci-build": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
       "editions": [
         {
-          "name": "Release 2",
-          "ig-version": "2.0.0",
-          "package": "fhir.org.nz.ig.base#2.0.0",
+          "name": "Release 3",
+          "ig-version": "3.0.0",
+          "package": "fhir.org.nz.ig.base#3.0.0",
           "fhir-version": [
             "4.0.1"
           ],
@@ -1841,13 +1841,13 @@
       "analysis": {},
       "editions": [
         {
-          "name": "STU 2.2 Ballot",
-          "ig-version": "2.2.0-ballot",
-          "package": "hl7.fhir.uv.smart-app-launch#2.2.0-ballot",
+          "name": "STU 2.2",
+          "ig-version": "2.2.0",
+          "package": "hl7.fhir.uv.smart-app-launch#2.2.0",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "http://hl7.org/fhir/smart-app-launch/2024Jan"
+          "url": "http://hl7.org/fhir/smart-app-launch/STU2.2"
         }
       ]
     },
@@ -6184,23 +6184,23 @@
           "url": "https://twidir.cdc.gov.tw/twidir/0.1.0"
         },
         {
-            "name": "STU1",
-            "ig-version": "0.1.1",
-            "package": "tw.gov.mohw.cdc.twidir#0.1.1",
-            "fhir-version": [
-              "4.0.1"
-            ],
-            "url": "https://twidir.cdc.gov.tw/twidir/0.1.1"
-          },
-          {
-            "name": "STU1",
-            "ig-version": "0.1.2",
-            "package": "tw.gov.mohw.cdc.twidir#0.1.2",
-            "fhir-version": [
-              "4.0.1"
-            ],
-            "url": "https://twidir.cdc.gov.tw/twidir/0.1.2"
-          }
+          "name": "STU1",
+          "ig-version": "0.1.1",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.1"
+        },
+        {
+          "name": "STU1",
+          "ig-version": "0.1.2",
+          "package": "tw.gov.mohw.cdc.twidir#0.1.2",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://twidir.cdc.gov.tw/twidir/0.1.2"
+        }
       ]
     },
     {
@@ -7258,8 +7258,8 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.uv.ae-research-backport-ig#1.0.1",
           "fhir-version": [
             "4.0.1"
           ],
@@ -7311,8 +7311,8 @@
       "editions": [
         {
           "name": "STU 1",
-          "ig-version": "1.0.0",
-          "package": "hl7.fhir.uv.ae-research-ig#1.0.0",
+          "ig-version": "1.0.1",
+          "package": "hl7.fhir.uv.ae-research-ig#1.0.1",
           "fhir-version": [
             "5.0.0"
           ],
@@ -7336,12 +7336,12 @@
       "editions": [
         {
           "name": "Release 5.1",
-          "ig-version": "5.1.0-snapshot1",
-          "package": "hl7.fhir.uv.extensions#5.1.0-snapshot1",
+          "ig-version": "5.1.0",
+          "package": "hl7.fhir.uv.extensions#5.1.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/extensions/5.1.0-snapshot1"
+          "url": "http://hl7.org/fhir/extensions/5.1.0"
         }
       ]
     },
@@ -8352,12 +8352,12 @@
       "editions": [
         {
           "name": "Releases Informative",
-          "ig-version": "0.1.0",
-          "package": "hl7.fhir.uv.tools#0.1.0",
+          "ig-version": "0.2.0",
+          "package": "hl7.fhir.uv.tools#0.2.0",
           "fhir-version": [
             "5.0.0"
           ],
-          "url": "http://hl7.org/fhir/tools/0.1.0"
+          "url": "http://hl7.org/fhir/tools/0.2.0"
         }
       ]
     },
@@ -8484,6 +8484,33 @@
           "url": "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
         }
       ]
-    }
+    },
+    {
+        "name": "RIVO-Noord Zorgviewer",
+        "category": "EHR Access",
+        "description": "De zorgviewer biedt zorgverleners een 360° beeld van de patiënt of cliënt. Opgebouwd uit alle beschikbare zorginformatie, waarvoor de patiënt of cliënt toestemming heeft gegeven.",
+        "authority": "RIVO-Noord (NL)",
+        "product": [
+            "fhir"
+        ],
+        "country": "nl",
+        "language": [
+            "nl"
+        ],
+        "history": "https://implementatiegids.zorgviewer.nl/changes.html",
+        "canonical": "https://implementatiegids.zorgviewer.nl",
+        "ci-build": "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
+        "editions": [
+            {
+                "name": "Trial Use",
+                "ig-version": "0.24.0",
+                "package": "hl7.fhir.nl.zorgviewer",
+                "fhir-version": [
+                    "3.0.2"
+                ],
+                "url": "https://implementatiegids.zorgviewer.nl"
+            }
+        ]
+      }
   ]
 }
