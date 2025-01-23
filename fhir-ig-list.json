@@ -5045,6 +5045,28 @@
       ]
     },
     {
+      "name" : "TWPAS",
+      "category" : "Public Health",
+      "npm-name" : "tw.gov.mohw.nhi.pas",
+      "description" : "Taiwan NHI Cancer Prior Authorization Support Implementation Guide",
+      "authority" : "NHI (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://twcore.mohw.gov.tw/ig/pas/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://twcore.mohw.gov.tw/ig/pas",
+      "ci-build" : "https://hitstdio.ntunhs.edu.tw/pas",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.1",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.1"
+        }
+      ]
+    },
+    {
       "name" : "CodeX™ Radiation Therapy",
       "category" : "Care Planning",
       "npm-name" : "hl7.fhir.us.codex-radiation-therapy",
