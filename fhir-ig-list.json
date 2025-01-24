@@ -7771,6 +7771,28 @@
           "url" : "http://fhir.ch/ig/ch-rad-order/2.0.0"
         }
       ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r5",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r5#2.0.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/2.0.0"
+        }
+      ]
     }
   ]
 }
