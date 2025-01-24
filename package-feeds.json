@@ -230,6 +230,11 @@
       "name": "MINSAL CHILE NID",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
       "errors": "Jorge_Mansilla|MINSAL_NID"
+    },
+    {
+      "name": "BfArM FHIR Packages (Terminologies)",
+      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "errors": "zts|gematik_de"
     }   
   ],
   "package-restrictions": [
@@ -334,6 +339,10 @@
     {
       "mask": "dk.ehealth.sundhed.fhir.ig.*",
       "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
+    },
+    {
+      "mask": "bfarm.terminologies.*",
+      "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
     }
   ]
 }
