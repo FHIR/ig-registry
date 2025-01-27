@@ -6450,6 +6450,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "Guia de Implementação da SES GO - CORE",
+      "category" : "Public Health",
+      "npm-name" : "br.go.ses.core",
+      "description" : "Guia de Implementação da SES GO - CORE",
+      "authority" : "Secretaria de Estado da Saúde de Goiás",
+      "country" : "br",
+      "history" : "https://fhir.saude.go.gov.br/r4/core/history.html",
+      "language" : ["pt"],
+      "canonical" : "https://fhir.saude.go.gov.br/r4/core",
+      "ci-build" : "https://fhir.saude.go.gov.br/r4/core",
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.0.1",
+          "package" : "br.go.ses.core#0.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://fhir.saude.go.gov.br/r4/core"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
       "name" : "Common FHIR profile vendor collaboration",
       "category" : "EHR Access",
       "npm-name" : "care.commonprofiles.fhir",
