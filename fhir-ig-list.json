@@ -7793,6 +7793,28 @@
           "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/2.0.0"
         }
       ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r4",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r4#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/2.0.0"
+        }
+      ]
     }
   ]
 }
