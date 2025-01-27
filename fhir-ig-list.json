@@ -5045,6 +5045,105 @@
       ]
     },
     {
+      "name" : "TWPAS",
+      "category" : "Financial",
+      "npm-name" : "tw.gov.mohw.nhi.pas",
+      "description" : "Taiwan NHI Cancer Prior Authorization Support Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://twcore.mohw.gov.tw/ig/pas/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://twcore.mohw.gov.tw/ig/pas",
+      "ci-build" : "https://hitstdio.ntunhs.edu.tw/pas",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.1",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.1"
+        },
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.2.0",
+          "package" : "tw.gov.mohw.nhi.pas#0.2.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.2.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.1",
+          "package" : "tw.gov.mohw.nhi.pas#0.1.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.1"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.0",
+          "package" : "tw.gov.mohw.nhi.pas#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "IClaim",
+      "category" : "Financial",
+      "npm-name" : "tw.cathay.fhir.iclaim",
+      "description" : "Guidelines for Medical Insurance Claims Implementation",
+      "authority" : "國泰綜合醫院",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://claim.cgh.org.tw/iclaim/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://claim.cgh.org.tw/iclaim",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "tw.cathay.fhir.iclaim#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/1.0.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.3",
+          "package" : "tw.cathay.fhir.iclaim#0.1.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.3"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.2",
+          "package" : "tw.cathay.fhir.iclaim#0.1.2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.2"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.1",
+          "package" : "tw.cathay.fhir.iclaim#0.1.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.1"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.0",
+          "package" : "tw.cathay.fhir.iclaim#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.0"
+        }
+      ]
+    },
+    {
       "name" : "CodeX™ Radiation Therapy",
       "category" : "Care Planning",
       "npm-name" : "hl7.fhir.us.codex-radiation-therapy",
