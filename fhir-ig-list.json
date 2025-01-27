@@ -7652,7 +7652,7 @@
           "url" : "http://hl7.org/fhirpath/2025Jan"
         }
       ]
-    },    
+    },
     {
       "name" : "CH VACD (R4)",
       "category" : "National Base",
@@ -7912,6 +7912,50 @@
           "package" : "ch.fhir.ig.ch-rad-order#2.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.ch/ig/ch-rad-order/2.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r5",
+      "description" : "A FHIR® Implementation Guide for the HL7® Austria FHIR® Core Profiles.",
+      "authority" : "HL7 Austria",
+      "country" : "at",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r5#2.0.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/2.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r4",
+      "description" : "A FHIR® Implementation Guide for the HL7® Austria FHIR® Core Profiles.",
+      "authority" : "HL7 Austria",
+      "country" : "at",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r4#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/2.0.0"
         }
       ]
     }
