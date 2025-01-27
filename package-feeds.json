@@ -230,7 +230,12 @@
       "name": "MINSAL CHILE NID",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
       "errors": "Jorge_Mansilla|MINSAL_NID"
-    }   
+    },
+    {
+      "name": "Clic Sante",
+      "url": "http://clicsante.ca/fhir/package-feed.xml",
+      "errors": "aachik|trimoz_com"
+    }
   ],
   "package-restrictions": [
 	{
