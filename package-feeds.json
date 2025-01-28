@@ -75,7 +75,7 @@
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },	  
+    },
     {
         "name": "Danish FUT Infrastructure",
         "url": "https://ehealth.sundhed.dk/package-feed.xml",
@@ -185,6 +185,11 @@
       "name": "HL7 Italy",
       "url": "http://hl7.it/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_it"
+    },
+    {
+      "name": "HL7 Austria",
+      "url": "https://fhir.hl7.at/package-feed.xml",
+      "errors": "tc-fhir|hl7_at"
     },
     {
       "name": "GKL",
@@ -340,6 +345,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.*",
+      "feeds": [ "https://fhir.hl7.at/package-feed.xml" ]
     },
     {
       "mask": "dk.ehealth.sundhed.fhir.ig.*",
