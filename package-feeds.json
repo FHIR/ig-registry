@@ -142,6 +142,11 @@
       "errors": "kyriosdata|ufg_br"
     },
     {
+      "name": "Secretaria de Estado da Saúde de Goiás | Brasil",
+      "url": "https://fhir.saude.go.gov.br/package-feed.xml",
+      "errors": "ses_go|goias_gov_br"
+    },
+    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -235,6 +240,11 @@
       "name": "MINSAL CHILE NID",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
       "errors": "Jorge_Mansilla|MINSAL_NID"
+    },
+    {
+      "name": "Clic Sante",
+      "url": "http://clicsante.ca/fhir/package-feed.xml",
+      "errors": "aachik|trimoz_com"
     }
   ],
   "package-restrictions": [
