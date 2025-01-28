@@ -341,7 +341,7 @@
       "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
     },
     {
-      "mask": "bfarm.terminologie.*",
+      "mask": "bfarm.terminologien.*",
       "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
     }
   ]
