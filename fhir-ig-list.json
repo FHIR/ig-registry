@@ -1614,7 +1614,6 @@
       "npm-name" : "hl7.fhir.us.davinci-dtr",
       "description" : "Provides a mechanism for delivering and executing payer rules related to documentation requirements for a proposed medication, procedure or other service associated with a patient's insurance coverage",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-dtr/history.html",
@@ -1630,13 +1629,14 @@
         "operations" : 1,
         "examples" : 12
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2.1 Preview",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-dtr#2.1.0-preview",
+          "name" : "STU 2.1",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-dtr#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-dtr/2.1.0-preview"
+          "url" : "http://hl7.org/fhir/us/davinci-dtr/STU2.1"
         }
       ]
     },
@@ -2446,7 +2446,6 @@
       "npm-name" : "hl7.fhir.us.davinci-pas",
       "description" : "This IG allows providers the ability to easily identify the need for payer authorizations, assemble necessary information, identify and supply missing information and submit it to the payer electronically and receive a response in real time within the clinical workflow.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-pas/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-pas",
@@ -2464,16 +2463,17 @@
         "codeSystems" : 6,
         "examples" : 29
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Preview",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-pas#2.1.0-preview",
+          "name" : "STU 2",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-pas#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/2.1.0-preview"
+          "url" : "http://hl7.org/fhir/us/davinci-pas/STU2.1"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "FHIR Bulk Data Access (Flat FHIR)",
@@ -5045,6 +5045,105 @@
       ]
     },
     {
+      "name" : "TWPAS",
+      "category" : "Financial",
+      "npm-name" : "tw.gov.mohw.nhi.pas",
+      "description" : "Taiwan NHI Cancer Prior Authorization Support Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://twcore.mohw.gov.tw/ig/pas/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://twcore.mohw.gov.tw/ig/pas",
+      "ci-build" : "https://hitstdio.ntunhs.edu.tw/pas",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.1",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.1"
+        },
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.2.0",
+          "package" : "tw.gov.mohw.nhi.pas#0.2.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.2.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.1",
+          "package" : "tw.gov.mohw.nhi.pas#0.1.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.1"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.0",
+          "package" : "tw.gov.mohw.nhi.pas#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "IClaim",
+      "category" : "Financial",
+      "npm-name" : "tw.cathay.fhir.iclaim",
+      "description" : "Guidelines for Medical Insurance Claims Implementation",
+      "authority" : "國泰綜合醫院",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://claim.cgh.org.tw/iclaim/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://claim.cgh.org.tw/iclaim",
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "tw.cathay.fhir.iclaim#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/1.0.0"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.3",
+          "package" : "tw.cathay.fhir.iclaim#0.1.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.3"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.2",
+          "package" : "tw.cathay.fhir.iclaim#0.1.2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.2"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.1",
+          "package" : "tw.cathay.fhir.iclaim#0.1.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.1"
+        },
+        {
+          "name" : "Trial Use",
+          "ig-version" : "0.1.0",
+          "package" : "tw.cathay.fhir.iclaim#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://claim.cgh.org.tw/iclaim/0.1.0"
+        }
+      ]
+    },
+    {
       "name" : "CodeX™ Radiation Therapy",
       "category" : "Care Planning",
       "npm-name" : "hl7.fhir.us.codex-radiation-therapy",
@@ -5726,7 +5825,7 @@
       "npm-name" : "medcom.fhir.dk.homecareobservation",
       "description" : "This Implementation Guide contains profiles developed to be part of a production trial of the communication between the general practitioner and municipal acute care team.      ",
       "authority" : "MedCom",
-      "country" : "Denmark",
+      "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/homecareobservation/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/homecareobservation",
@@ -5941,16 +6040,16 @@
       "country" : "us",
       "history" : "http://hl7.org/cda/stds/ccda/history.html",
       "language" : ["en"],
-      "product" : ["cda"],
       "canonical" : "http://hl7.org/cda/us/ccda",
       "ci-build" : "http://build.fhir.org/ig/HL7/CDA-ccda",
+      "product" : ["fhir", "cda"],
       "editions" : [
         {
-          "name" : "CCDA 3.0",
-          "ig-version" : "3.0.0",
-          "package" : "hl7.cda.us.ccda#3.0.0",
+          "name" : "CCDA 4.0 Ballot",
+          "ig-version" : "4.0.0-ballot",
+          "package" : "hl7.cda.us.ccda#4.0.0-ballot",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/cda/us/ccda/3.0.0"
+          "url" : "http://hl7.org/cda/us/ccda/2025Jan"
         }
       ]
     },
@@ -6346,6 +6445,28 @@
           "package" : "animal.terapeuta#0.1.2",
           "fhir-version" : ["4.0.1"],
           "url" : "https://fhir.fabrica.inf.ufg.br/ig"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
+      "name" : "Guia de Implementação da SES GO - CORE",
+      "category" : "Public Health",
+      "npm-name" : "br.go.ses.core",
+      "description" : "Guia de Implementação da SES GO - CORE",
+      "authority" : "Secretaria de Estado da Saúde de Goiás",
+      "country" : "br",
+      "history" : "https://fhir.saude.go.gov.br/r4/core/history.html",
+      "language" : ["pt"],
+      "canonical" : "https://fhir.saude.go.gov.br/r4/core",
+      "ci-build" : "https://fhir.saude.go.gov.br/r4/core",
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.0.1",
+          "package" : "br.go.ses.core#0.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://fhir.saude.go.gov.br/r4/core"
         }
       ],
       "product" : ["fhir"]
@@ -7401,6 +7522,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "SMART Trust",
+      "category" : "trust",
+      "npm-name" : "smart.who.int.trust",
+      "description" : "SMART Trust Implementation Guide",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/trust/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/trust",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-trust",
+      "editions" : [
+        {
+          "name" : "1.1.5 release",
+          "ig-version" : "1.1.5",
+          "package" : "smart.who.int.trust#1.1.5",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/trust/v1.1.5"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
@@ -7450,7 +7593,7 @@
       "npm-name" : "ca.argentixinfo.howtopub",
       "description" : "An instruction guide showing how to use the HL7 IG Publisher's -go-publish feature to publish an implementation guide to a website.",
       "authority" : "Argentix Informatics, Inc.",
-      "country" : "CA",
+      "country" : "ca",
       "history" : "http://argentixinfo.com/ig/howtopub/history.html",
       "language" : ["en"],
       "canonical" : "http://argentixinfo.com/ig/howtopub",
@@ -7492,9 +7635,9 @@
       "name" : "FHIRPath Specification",
       "category" : "infrastructure",
       "npm-name" : "hl7.fhirpath",
-      "description" : "??",
+      "description" : "FHIRPath specification",
       "authority" : "HL7",
-      "country" : "??",
+      "country" : "uv",
       "history" : "http://hl7.org/fhirpath/history.html",
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhirpath",
@@ -7509,7 +7652,7 @@
           "url" : "http://hl7.org/fhirpath/2025Jan"
         }
       ]
-    },    
+    },
     {
       "name" : "CH VACD (R4)",
       "category" : "National Base",
@@ -7769,6 +7912,50 @@
           "package" : "ch.fhir.ig.ch-rad-order#2.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.ch/ig/ch-rad-order/2.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r5",
+      "description" : "A FHIR® Implementation Guide for the HL7® Austria FHIR® Core Profiles.",
+      "authority" : "HL7 Austria",
+      "country" : "at",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r5#2.0.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/2.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7® Austria FHIR® Core Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.at.fhir.core.r4",
+      "description" : "A FHIR® Implementation Guide for the HL7® Austria FHIR® Core Profiles.",
+      "authority" : "HL7 Austria",
+      "country" : "at",
+      "history" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/HL7-AT-FHIR-Core-R4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.at.fhir.core.r4#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/2.0.0"
         }
       ]
     }

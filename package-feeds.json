@@ -75,7 +75,7 @@
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
-    },	  
+    },
     {
         "name": "Danish FUT Infrastructure",
         "url": "https://ehealth.sundhed.dk/package-feed.xml",
@@ -142,6 +142,11 @@
       "errors": "kyriosdata|ufg_br"
     },
     {
+      "name": "Secretaria de Estado da Saúde de Goiás | Brasil",
+      "url": "https://fhir.saude.go.gov.br/package-feed.xml",
+      "errors": "ses_go|goias_gov_br"
+    },
+    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -180,6 +185,11 @@
       "name": "HL7 Italy",
       "url": "http://hl7.it/fhir/package-feed.xml",
       "errors": "gcangioli|hl7_it"
+    },
+    {
+      "name": "HL7 Austria",
+      "url": "https://fhir.hl7.at/package-feed.xml",
+      "errors": "tc-fhir|hl7_at"
     },
     {
       "name": "GKL",
@@ -232,10 +242,15 @@
       "errors": "Jorge_Mansilla|MINSAL_NID"
     },
     {
-      "name": "BfArM FHIR Packages (Terminologies)",
-      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
-      "errors": "zts|gematik_de"
-    }   
+      "name": "Clic Sante",
+      "url": "http://clicsante.ca/fhir/package-feed.xml",
+      "errors": "aachik|trimoz_com"
+    },
+    {
+    "name": "BfArM FHIR Packages (Terminologies)",
+    "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+    "errors": "zts|gematik_de"
+    } 
   ],
   "package-restrictions": [
 	{
@@ -335,6 +350,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.*",
+      "feeds": [ "https://fhir.hl7.at/package-feed.xml" ]
     },
     {
       "mask": "dk.ehealth.sundhed.fhir.ig.*",
