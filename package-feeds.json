@@ -247,9 +247,9 @@
       "errors": "aachik|trimoz_com"
     },
     {
-    "name": "BfArM FHIR Packages (Terminologies)",
-    "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
-    "errors": "zts|gematik_de"
+      "name": "BfArM FHIR Packages (Terminologies)",
+      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "errors": "zts|gematik_de"
     } 
   ],
   "package-restrictions": [
