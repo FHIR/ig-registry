@@ -7544,6 +7544,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "SMART DAK IMMZ",
+      "category" : "base",
+      "npm-name" : "smart.who.int.dak-immz",
+      "description" : "SMART Guidelines DAK for Immunizations",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-immz/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-immz",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-immz",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-immz#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-immz/v1.0.0"
+        }
+      ]
+    },
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
