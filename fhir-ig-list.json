@@ -5415,7 +5415,7 @@
          {
           "name" : "STU 2",
           "ig-version" : "2.0.1",
-          "package" : "	fhir.r4.ukcore.stu2 2.0.1",
+          "package" : "fhir.r4.ukcore.stu2 2.0.1",
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/uk-core-implementation-guide-stu2?version=2.0.1"
         },
