@@ -7958,6 +7958,28 @@
           "url" : "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/2.0.0"
         }
       ]
+    },
+    {
+      "name" : "HL7 Terminology Ecosystem IG",
+      "category" : "Infrastructure",
+      "npm-name" : "hl7.fhir.uv.tx-ecosystem",
+      "description" : "Terminology Ecosystem documentation and test cases",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/tx-ecosystem/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/tx-ecosystem",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-tx-ecosystem-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Informative Release",
+          "ig-version" : "1.7.5",
+          "package" : "hl7.fhir.uv.tx-ecosystem#1.7.5",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.5"
+        }
+      ]
     }
   ]
 }
