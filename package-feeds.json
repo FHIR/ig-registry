@@ -245,7 +245,12 @@
       "name": "Clic Sante",
       "url": "http://clicsante.ca/fhir/package-feed.xml",
       "errors": "aachik|trimoz_com"
-    }
+    },
+    {
+      "name": "BfArM FHIR Packages (Terminologies)",
+      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "errors": "zts|gematik_de"
+    } 
   ],
   "package-restrictions": [
 	{
@@ -353,6 +358,10 @@
     {
       "mask": "dk.ehealth.sundhed.fhir.ig.*",
       "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
+    },
+    {
+      "mask": "bfarm.terminologien.*",
+      "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
     }
   ]
 }
