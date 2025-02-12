@@ -11,7 +11,8 @@
         "http://hl7europe.org/fhir/terminology/ehdsi*"
       ],
       "authoritative-valuesets": [
-        "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*"
+        "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*",
+        "http://terminology.ehdsi.eu/ValueSet*"
       ],
       "fhirVersions": [
         {
