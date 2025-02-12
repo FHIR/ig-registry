@@ -17,7 +17,7 @@
       "fhirVersions": [
         {
           "version": "R4",
-          "url": "http://tx.hl7europe.org/r4"
+          "url": "http://tx.hl7europe.eu/r4"
         }
       ]
     }
