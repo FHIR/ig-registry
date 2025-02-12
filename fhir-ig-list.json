@@ -7158,13 +7158,13 @@
       "country" : "nl",
       "language" : ["nl"],
       "history" : "https://implementatiegids.zorgviewer.nl/changes.html",
-      "canonical" : "http://hl7.nl/fhir/zorgviewer/ImplementationGuide/zorgviewer-ig",
+      "canonical" : "http://fhir.hl7.nl/zorgviewer",
       "ci-build" : "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
       "editions" : [
         {
-          "name" : "Sprint 46",
-          "ig-version" : "1.8.0",
-          "package" : "hl7.fhir.nl.zorgviewer#1.8.0",
+          "name" : "Sprint 49",
+          "ig-version" : "1.11.0",
+          "package" : "hl7.fhir.nl.zorgviewer#1.11.0",
           "fhir-version" : ["3.0.2"],
           "url" : "https://implementatiegids.zorgviewer.nl"
         }
