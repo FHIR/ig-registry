@@ -7973,6 +7973,28 @@
           "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.5"
         }
       ]
+    },
+    {
+      "name" : "HL7 FHIR Implementation Guide: DK SMART",
+      "category" : "National Core",
+      "npm-name" : "hl7.fhir.dk.smart",
+      "description" : "Base danish national implementation guide for SMART",
+      "authority" : "HL7 Denmark",
+      "country" : "dk",
+      "history" : "http://hl7.dk/fhir/smart/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.dk/fhir/smart",
+      "ci-build" : "http://build.fhir.org/ig/hl7dk/dk-smart",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.dk.smart#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.dk/fhir/smart/1.0.0"
+        }
+      ]
     }
   ]
 }
