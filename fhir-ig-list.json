@@ -7509,7 +7509,7 @@
       "history" : "http://smart.who.int/ddcc/history.html",
       "language" : ["en"],
       "canonical" : "http://smart.who.int/ddcc",
-      "ci-build" : "http://worldhealthorganization.github.io/WorldHealthOrganization/ddcc",
+      "ci-build" : "http://worldhealthorganization.github.io/ddcc",
       "editions" : [
         {
           "name" : "releases Draft",
