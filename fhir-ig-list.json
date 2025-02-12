@@ -5397,43 +5397,36 @@
     {
       "name" : "HL7 UK FHIR UKCore Implementation Guide",
       "category" : "National Base",
-      "npm-name" : "fhir.r4.ukcore.stu1",
+      "npm-name" : "fhir.r4.ukcore.stu3.currentbuild",
       "description" : "HL7 UK FHIR UKCore Implementation Guide",
       "authority" : "HL7 UK",
       "country" : "gb",
-      "history" : "https://simplifier.net/guide/ukcoreversionhistory/home",
+      "history" : "https://simplifier.net/guide/ukcoreversionhistory/home?version=current",
       "language" : ["en"],
-      "canonical" : "https://fhir.hl7.org.uk",
+      "canonical" : "https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence?version=current",
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "0.5.1",
-          "package" : "fhir.r4.ukcore.stu1#0.5.1",
+          "name" : "STU 3",
+          "ig-version" : "0.0.18-pre-release",
+          "package" : "fhir.r4.ukcore.stu3.currentbuild 0.0.18-pre-release",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://simplifier.net/guide/hl7fhirukcorer4release1/home"
-        }
-      ],
-      "product" : ["fhir"]
-    },
-    {
-      "name" : "NHS Digital FHIR R4 Implementation Guide",
-      "category" : "National Base",
-      "npm-name" : "nhs.digital.r4",
-      "description" : "NHS Digital FHIR R4 Implementation Guide",
-      "authority" : "NHS Digital (UK)",
-      "country" : "gb",
-      "history" : "https://simplifier.net/guide/NHSDigital",
-      "language" : ["en"],
-      "canonical" : "https://fhir.nhs.uk",
-      "editions" : [
+          "url" : "https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home?version=current"
+        },
+         {
+          "name" : "STU 2",
+          "ig-version" : "2.0.1",
+          "package" : "fhir.r4.ukcore.stu2 2.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://simplifier.net/guide/uk-core-implementation-guide-stu2?version=2.0.1"
+        },
         {
-          "name" : "STU1",
-          "ig-version" : "2.5.0",
-          "package" : "nhs.digital.r4#2.5.0",
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "fhir.r4.ukcore.stu1 1.0.4",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://simplifier.net/guide/NHSDigital/"
+          "url" : "https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0"
         }
-      ],
+     ],
       "product" : ["fhir"]
     },
     {
