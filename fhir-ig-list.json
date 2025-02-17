@@ -2411,7 +2411,6 @@
       "npm-name" : "hl7.fhir.us.mcode",
       "description" : "This IG specifies a core set of common data elements for cancer that is clinically applicable in every electronic patient record with a cancer diagnosis. It is intended to enable standardized information exchange among EHRs/oncology information systems and reuse of data by other stakeholders (e.g. quality measurement, research).",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/mcode/history.html",
       "canonical" : "http://hl7.org/fhir/us/mcode",
@@ -2429,16 +2428,17 @@
         "codeSystems" : 2,
         "examples" : 97
       },
+      "language" : ["en"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU4 Ballot",
-          "ig-version" : "4.0.0-ballot",
-          "package" : "hl7.fhir.us.mcode#4.0.0-ballot",
+          "name" : "STU4",
+          "ig-version" : "4.0.0",
+          "package" : "hl7.fhir.us.mcode#4.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/mcode/2024May"
+          "url" : "http://hl7.org/fhir/us/mcode/STU4"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "Da Vinci Prior Authorization Support (PAS) FHIR IG",
@@ -5412,7 +5412,7 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home?version=current"
         },
-         {
+        {
           "name" : "STU 2",
           "ig-version" : "2.0.1",
           "package" : "fhir.r4.ukcore.stu2 2.0.1",
@@ -5426,7 +5426,7 @@
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0"
         }
-     ],
+      ],
       "product" : ["fhir"]
     },
     {
