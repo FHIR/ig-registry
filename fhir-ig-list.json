@@ -5149,19 +5149,19 @@
       "npm-name" : "hl7.fhir.us.codex-radiation-therapy",
       "description" : "The CodeX Radiation Therapy (RT) Implementation Guide (IG) describes how to represent and exchange radiation therapy treatment information. The CodeX RT IG enables radiation oncology information systems to generate treatment summaries that are retrievable by health systems, or other information systems, for display within the EHR interface to be used for care coordination and data reuse. ",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/codex-radiation-therapy/history.html",
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/codex-radiation-therapy",
       "ci-build" : "http://build.fhir.org/ig/codex-radiation-therapy",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.codex-radiation-therapy#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.codex-radiation-therapy#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/codex-radiation-therapy/2024May"
+          "url" : "http://hl7.org/fhir/us/codex-radiation-therapy/STU2"
         }
       ]
     },
