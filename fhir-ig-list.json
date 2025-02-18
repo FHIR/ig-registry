@@ -2701,7 +2701,6 @@
       "npm-name" : "hl7.fhir.us.carin-bb",
       "description" : "Implementation guide for an API similar to the CMS Medicare Blue Button 2.0 API, FHIR R3 based, that will allow consumer-directed exchange of commercial Health Plan/Payer adjudicated claims data to meet the requirements of the CMS Interoperability and Patient Access proposed rule.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/carin-bb/history.html",
       "canonical" : "http://hl7.org/fhir/us/carin-bb",
@@ -2717,13 +2716,14 @@
         "codeSystems" : 36,
         "examples" : 28
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "STU 2",
-          "ig-version" : "2.1.0-snapshot1",
-          "package" : "hl7.fhir.us.carin-bb#2.1.0-snapshot1",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.carin-bb#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/carin-bb/2.1.0-snapshot1"
+          "url" : "http://hl7.org/fhir/us/carin-bb/STU2.1"
         }
       ]
     },
