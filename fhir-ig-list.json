@@ -1270,7 +1270,6 @@
       "npm-name" : "hl7.fhir.uv.vhdir",
       "description" : "Defines the minimum conformance requirements for accessing or exposing validated healthcare directory data and provides a specification for the exchange of directory data between a source of validated provider data and local workflow environments (e.g. local directories)",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/uv/vhdir/history.html",
@@ -1278,7 +1277,16 @@
       "ci-build" : "http://build.fhir.org/ig/HL7/VhDir",
       "analysis" : {
       },
-      "editions" : []
+      "product" : ["fhir", "fhir"],
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.vhdir#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/vhdir/STU1"
+        }
+      ]
     },
     {
       "name" : "Coverage Requirements Determination (Da Vinci)",
