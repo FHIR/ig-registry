@@ -4042,7 +4042,6 @@
       "npm-name" : "hl7.fhir.us.davinci-ra",
       "description" : "Enable standard exchange of risk-based coding gaps among stakeholders such as payers, providers, and government care programs in support of driving towards accurate and complete documentation of health conditions that would lead to more accurate risk-adjustment payment calculations, reduced administrative burden, and improved quality of care.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-ra/history.html",
       "language" : ["en"],
@@ -4060,13 +4059,14 @@
         "codeSystems" : 3,
         "examples" : 72
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU2 (v2.0.0) Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.davinci-ra#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.davinci-ra#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-ra/2023May"
+          "url" : "http://hl7.org/fhir/us/davinci-ra/STU2"
         }
       ]
     },
