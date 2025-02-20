@@ -7546,7 +7546,7 @@
     },
     {
       "name" : "SMART DAK IMMZ",
-      "category" : "base",
+      "category" : "SMART (WHO)",
       "npm-name" : "smart.who.int.dak-immz",
       "description" : "SMART Guidelines Digital Adaptation Kit (DAK) for Immunizations",
       "authority" : "World Health Organization",
