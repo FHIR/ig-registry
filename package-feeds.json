@@ -243,14 +243,19 @@
     },
     {
       "name": "Clic Sante",
-      "url": "http://clicsante.ca/fhir/package-feed.xml",
+      "url": "http://docs.clicsante.ca/fhir/package-feed.xml",
       "errors": "aachik|trimoz_com"
     },
     {
       "name": "BfArM FHIR Packages (Terminologies)",
       "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
       "errors": "zts|gematik_de"
-    } 
+    },
+    {
+      "name": "HL7 Poland",
+      "url": "http://fhir.hl7.org.pl/packages/package-feed.xml",
+      "errors": "bojanowski|hl7.org.pl"
+    }
   ],
   "package-restrictions": [
 	{
@@ -362,6 +367,10 @@
     {
       "mask": "bfarm.terminologien.*",
       "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.pl.*",
+      "feeds": [ "http://fhir.hl7.org.pl/packages/package-feed.xml" ]
     }
   ]
 }
