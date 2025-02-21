@@ -7599,16 +7599,16 @@
       "language" : ["en"],
       "canonical" : "http://argentixinfo.com/ig/howtopub",
       "ci-build" : "http://build.fhir.org/ig/ElliotSilver/how-to-publish",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release 1",
-          "ig-version" : "1.0.0",
-          "package" : "ca.argentixinfo.howtopub#1.0.0",
+          "ig-version" : "1.1.0",
+          "package" : "ca.argentixinfo.howtopub#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://argentixinfo.com/ig/howtopub/1.0.0"
+          "url" : "http://argentixinfo.com/ig/howtopub/1.1.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Standard Personal Health Record",
