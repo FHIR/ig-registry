@@ -7101,16 +7101,16 @@
       "language" : ["en"],
       "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
       "ci-build" : "http://build.fhir.org/ig/gabriel0316/ig-tooling",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "DSTU 1",
-          "ig-version" : "0.2.0",
-          "package" : "hl7.at.fhir.gkl.ig-tooling#0.2.0",
+          "ig-version" : "0.3.0",
+          "package" : "hl7.at.fhir.gkl.ig-tooling#0.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.2.0"
+          "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.3.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "FHIR Clinical Documents",
