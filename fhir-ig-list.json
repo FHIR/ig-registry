@@ -2565,7 +2565,6 @@
       "npm-name" : "hl7.fhir.us.davinci-pdex-plan-net",
       "description" : "A subset of the functionality described in the Validated healthcare directory IG",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-pdex-plan-net",
@@ -2582,20 +2581,14 @@
         "codeSystems" : 14,
         "examples" : 49
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "STU 1",
-          "ig-version" : "1.1.0",
-          "package" : "hl7.fhir.us.davinci-pdex-plan-net#1.1.0",
+          "ig-version" : "1.2.0",
+          "package" : "hl7.fhir.us.davinci-pdex-plan-net#1.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-pdex-plan-net#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.2"
         }
       ]
     },
