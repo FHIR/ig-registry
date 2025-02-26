@@ -2911,7 +2911,6 @@
       "npm-name" : "hl7.fhir.us.davinci-drug-formulary",
       "description" : "API-based data exchange to Third-Party Applications via Member-authorized sharing of Health Plan's Prescription Drug Formulary.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-drug-formulary/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-drug-formulary",
@@ -2929,13 +2928,14 @@
         "codeSystems" : 8,
         "examples" : 22
       },
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "STU 2",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-drug-formulary#2.0.1",
+          "name" : "STU2",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-drug-formulary#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.0.1"
+          "url" : "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.1"
         }
       ]
     },
