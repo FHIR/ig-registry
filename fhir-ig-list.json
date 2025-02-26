@@ -7993,14 +7993,14 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/tx-ecosystem",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-tx-ecosystem-ig",
-      "product" : ["fhir"],
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
-          "name" : "Informative Release",
-          "ig-version" : "1.7.5",
-          "package" : "hl7.fhir.uv.tx-ecosystem#1.7.5",
+          "name" : "Releases Informative",
+          "ig-version" : "1.7.6",
+          "package" : "hl7.fhir.uv.tx-ecosystem#1.7.6",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.5"
+          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.6"
         }
       ]
     },
