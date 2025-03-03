@@ -58,6 +58,9 @@
     "2.16.840.1.113883.4.642.40.52" : {   "id" : "hl7.fhir.us.resp-net",                          "info" : "Grahame Grieve, 20-Feb 2025" },
     "2.16.840.1.113883.4.642.40.53" : {   "id" : "hl7.fhir.us.safr",                              "info" : "Grahame Grieve, 21-Feb 2025" },
     "2.16.840.1.113883.4.642.40.54" : {   "id" : "hl7.fhir.be.patient-monitoring",                "info" : "Grahame Grieve, 27-Feb 2025" },
+    "2.16.840.1.113883.4.642.40.55" : {   "id" : "hl7.fhir.uv.order-catalog",                     "info" : "Rob Hausam, 03-Mar 2025" },
+    "2.16.840.1.113883.4.642.40.56" : {   "id" : "hl7.fhir.uv.ips",                               "info" : "Rob Hausam, 03-Mar 2025" },
+    "2.16.840.1.113883.4.642.40.57" : {   "id" : "hl7.fhir.uv.v2mappings",                        "info" : "Rob Hausam, 03-Mar 2025" },
 
     "1.3.6.1.4.1.19376.1.5.3.1.3.43" : {  "id" : "ihe.pcc.odh",                                   "info" : "John Moehrke, 04-Nov 2024" }
   }
