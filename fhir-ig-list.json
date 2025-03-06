@@ -7405,6 +7405,13 @@
       "editions" : [
         {
           "name" : "Releases",
+          "ig-version" : "3.4.1",
+          "package" : "dk.ehealth.sundhed.fhir.ig.core#3.4.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://ehealth.sundhed.dk/fhir/3.4.1"
+        },
+        {
+          "name" : "Releases",
           "ig-version" : "3.4.0",
           "package" : "dk.ehealth.sundhed.fhir.ig.core#3.4.0",
           "fhir-version" : ["4.0.1"],
