@@ -36,7 +36,7 @@
         "codeSystems" : 4,
         "examples" : 111
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU8 Ballot",
@@ -141,7 +141,7 @@
         "valuesets" : 10,
         "examples" : 32
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2 Ballot",
@@ -177,7 +177,7 @@
         "codeSystems" : 7,
         "examples" : 48
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 4 Ballot",
@@ -511,7 +511,7 @@
         "codeSystems" : 3,
         "examples" : 65
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU3",
@@ -631,7 +631,7 @@
         "profiles" : 3,
         "examples" : 4
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -791,7 +791,7 @@
       },
       "canonical" : "https://profiles.ihe.net/PCC/QEDm",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.QEDm/branches/master/index.html",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -1277,7 +1277,7 @@
       "ci-build" : "http://build.fhir.org/ig/HL7/VhDir",
       "analysis" : {
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU1",
@@ -1312,7 +1312,7 @@
         "codeSystems" : 3,
         "examples" : 19
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2.1",
@@ -1637,7 +1637,7 @@
         "operations" : 1,
         "examples" : 12
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2.1",
@@ -1672,7 +1672,7 @@
         "codeSystems" : 1,
         "examples" : 22
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 1.1",
@@ -2190,7 +2190,7 @@
         "examples" : 19
       },
       "language" : ["en"],
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU2",
@@ -2308,7 +2308,7 @@
         "examples" : 11
       },
       "language" : ["en"],
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 1.1 Preview",
@@ -2402,7 +2402,7 @@
         "examples" : 441
       },
       "language" : ["en"],
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU2",
@@ -2437,7 +2437,7 @@
         "examples" : 97
       },
       "language" : ["en"],
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU4",
@@ -2472,7 +2472,7 @@
         "examples" : 29
       },
       "language" : ["en"],
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2",
@@ -2581,7 +2581,7 @@
         "codeSystems" : 14,
         "examples" : 49
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 1",
@@ -2709,7 +2709,7 @@
         "codeSystems" : 36,
         "examples" : 28
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2",
@@ -2928,7 +2928,7 @@
         "codeSystems" : 8,
         "examples" : 22
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU2",
@@ -3125,7 +3125,7 @@
         "valuesets" : 2483,
         "codeSystems" : 1078
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publications",
@@ -3701,7 +3701,7 @@
       "analysis" : {
         "rest" : true
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2 Ballot",
@@ -4052,7 +4052,7 @@
         "codeSystems" : 3,
         "examples" : 72
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2",
@@ -4307,7 +4307,7 @@
         "codeSystems" : 2,
         "examples" : 40
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2 Ballot",
@@ -4536,7 +4536,7 @@
         "codeSystems" : 3,
         "examples" : 21
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -5155,7 +5155,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/codex-radiation-therapy",
       "ci-build" : "http://build.fhir.org/ig/codex-radiation-therapy",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 2",
@@ -5882,7 +5882,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/cda/stds/core",
       "ci-build" : "http://build.fhir.org/ig/HL7/CDA-core-sd",
-      "product" : ["fhir", "fhir", "cda"],
+      "product" : ["fhir", "cda"],
       "editions" : [
         {
           "name" : "CDA 2.0 Informative",
@@ -6080,7 +6080,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/extensions",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-extensions",
-      "product" : ["fhir", "fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release 5.2",
@@ -6853,7 +6853,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/cql",
       "ci-build" : "http://build.fhir.org/ig/HL7/cql-ig",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU2 Ballot",
@@ -6941,7 +6941,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/cardx-htn-mng",
       "ci-build" : "http://build.fhir.org/ig/HL7/cardx-htn-mng",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU1",
@@ -6963,7 +6963,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/pq-cmc-fda",
       "ci-build" : "http://build.fhir.org/ig/HL7/FHIR-us-pq-cmc-fda",
-      "product" : ["fhir", "fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU2 Ballot",
@@ -7029,7 +7029,7 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/PCC/ODH",
       "ci-build" : "http://build.fhir.org/ig/IHE/PCC.ODH/branches/master/index.html",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -7094,7 +7094,7 @@
       "language" : ["en"],
       "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
       "ci-build" : "http://build.fhir.org/ig/gabriel0316/ig-tooling",
-      "product" : ["fhir", "fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "DSTU 1",
@@ -7226,7 +7226,7 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/ITI/FAIS",
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.Finance ",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -7248,7 +7248,7 @@
       "language" : ["en"],
       "canonical" : "https://profiles.ihe.net/ITI/Scheduling",
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.Scheduling",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
@@ -7883,7 +7883,7 @@
       "language" : ["en"],
       "canonical" : "http://fhir.ch/ig/ch-epr-fhir",
       "ci-build" : "http://build.fhir.org/ig/ehealthsuisse/ch-epr-fhir",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "DSTU 4",
@@ -7993,7 +7993,7 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/tx-ecosystem",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-tx-ecosystem-ig",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases Informative",
