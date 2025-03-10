@@ -3573,7 +3573,6 @@
       "npm-name" : "hl7.cql",
       "description" : "Clinical Quality Language (CQL) is a high-level, domain-specific language focused on clinical quality and targeted at measure and decision support artifact authors. In addition, this specification describes a machine-readable canonical representation called Expression Logical Model (ELM) targeted at implementations and designed to enable sharing of clinical knowledge.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://cql.hl7.org/history.html",
       "language" : ["en"],
@@ -3582,13 +3581,14 @@
       "analysis" : {
         "error" : "Error reading http://cql.hl7.org/N1/package.tgz: null"
       },
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Normative Normative",
-          "ig-version" : "1.5.2",
-          "package" : "hl7.cql#1.5.2",
+          "ig-version" : "1.5.3",
+          "package" : "hl7.cql#1.5.3",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://cql.hl7.org/N1"
+          "url" : "http://cql.hl7.org/N1A"
         }
       ]
     },
@@ -6985,16 +6985,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/tools",
       "ci-build" : "http://build.fhir.org/ig/FHIR/fhir-tools-ig",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases Informative",
-          "ig-version" : "0.2.0",
-          "package" : "hl7.fhir.uv.tools#0.2.0",
+          "ig-version" : "0.4.0",
+          "package" : "hl7.fhir.uv.tools#0.4.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/tools/0.2.0"
+          "url" : "http://hl7.org/fhir/tools/0.4.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "FHIR Implementation Guide for ABDM",
