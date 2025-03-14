@@ -6989,10 +6989,10 @@
       "editions" : [
         {
           "name" : "Releases Informative",
-          "ig-version" : "0.4.0",
-          "package" : "hl7.fhir.uv.tools#0.4.0",
+          "ig-version" : "0.4.1",
+          "package" : "hl7.fhir.uv.tools#0.4.1",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/tools/0.4.0"
+          "url" : "http://hl7.org/fhir/tools/0.4.1"
         }
       ]
     },
@@ -8030,6 +8030,50 @@
           "package" : "hl7.fhir.dk.smart#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.dk/fhir/smart/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "CDS Hooks Specification",
+      "category" : "Clinical Decision Support",
+      "npm-name" : "hl7.fhir.uv.cds-hooks",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "??",
+      "history" : "http://cds-hooks.hl7.org/history.html",
+      "language" : ["en"],
+      "canonical" : "http://cds-hooks.hl7.org",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cds-hooks",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU2",
+          "ig-version" : "2.0.1",
+          "package" : "hl7.fhir.uv.cds-hooks#2.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://cds-hooks.hl7.org/STU2"
+        }
+      ]
+    },
+    {
+      "name" : "CDS Hooks Hook Library",
+      "category" : "Clinical Decision Support",
+      "npm-name" : "hl7.fhir.uv.cds-hooks-library",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "??",
+      "history" : "http://cds-hooks.hl7.org/hooks/history.html",
+      "language" : ["en"],
+      "canonical" : "http://cds-hooks.hl7.org/hooks",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cds-hooks-library",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.1",
+          "package" : "hl7.fhir.uv.cds-hooks-library#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://cds-hooks.hl7.org/hooks/STU1"
         }
       ]
     }
