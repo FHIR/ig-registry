@@ -4539,11 +4539,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication",
-          "ig-version" : "3.9.0",
-          "package" : "ihe.iti.mcsd#3.9.0",
+          "name" : "Publication Ballot",
+          "ig-version" : "4.0.0-comment",
+          "package" : "ihe.iti.mcsd#4.0.0-comment",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/3.9.0"
+          "url" : "https://profiles.ihe.net/ITI/mCSD/4.0.0-comment"
         }
       ]
     },
