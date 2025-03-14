@@ -1,0 +1,49 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "additional-resources",
+  "url" : "http://hl7.org/fhir/tools/CodeSystem/additional-resources",
+  "version" : "0.1.0",
+  "name" : "AdditionalResource",
+  "title" : "Additional Resources",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-03-14T17:51:03+11:00",
+  "publisher" : "HL7 International / FHIR Management Group",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fmg"
+    }]
+  }],
+  "description" : "The list of approved additional resources (as defined in R6)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "caseSensitive" : true,
+  "hierarchyMeaning" : "is-a",
+  "content" : "complete",
+  "property" : [{
+    "code" : "url",
+    "type" : "string",
+    "description" : "The URL at which the definition can be found"
+  },{
+    "code" : "canonical",
+    "type" : "string",
+    "description" : "The canonical URL for the definition"
+  }],
+  "concept" : [{
+    "code" : "ViewDefinition",
+    "display" : "ViewDefinition",
+    "definition" : "A ViewDefinition represents a tabular projection of a FHIR resource, where the columns and inclusion criteria are defined by FHIRPath expressions.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2/StructureDefinition-ViewDefinition.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/uv/sql-on-fhir/StructureDefinition/ViewDefinition"
+    }]
+ }]
+}
