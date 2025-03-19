@@ -1,5 +1,10 @@
 {
   "comment" : "The order of the feeds does not matter, but the order of the package-restrictions does",
+  "servers" : {
+    "comment" : "This is the known publicly available servers that crawl this package list and make a conformant packages API available",
+    "https://packages.fhir.org" : "Official Package registry (hosted on simplifier.net)",
+    "https://packages2.fhir.org/packages" : "Alternative. Has more packages because it hosts packages associated with non-official releases of FHIR"
+  },
   "feeds": [
     {
       "name": "HL7.org FHIR Publications",
@@ -72,14 +77,19 @@
         "errors": "jvi|trifork_com"
     },
     {
+        "name": "Danish FUT Infrastructure",
+        "url": "https://ehealth.sundhed.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },
+    {
       "name": "mednet.swiss",
-      "url": "https://mednet.swiss/fhir/package-feed.xml",
+      "url": "https://doc.mednet.swiss/fhir/package-feed.xml",
       "errors": "david_gutknecht|novcom_swiss"
     },
     {
-      "name": "David Hay packages (Interim name)",
-      "url": "http://igs.clinfhir.com/packages/package-feed.xml",
-      "errors": "david_hay|clinfhir_com"
+      "name": "HL7 New Zealand",
+      "url": "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true",
+      "errors": "admin|hl7_org_nz"
     },
     {
       "name": "IHE International",
@@ -132,6 +142,11 @@
       "errors": "kyriosdata|ufg_br"
     },
     {
+      "name": "Secretaria de Estado da Saúde de Goiás | Brasil",
+      "url": "https://fhir.saude.go.gov.br/package-feed.xml",
+      "errors": "ses_go|goias_gov_br"
+    },
+    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -172,6 +187,11 @@
       "errors": "gcangioli|hl7_it"
     },
     {
+      "name": "HL7 Austria",
+      "url": "https://fhir.hl7.at/package-feed.xml",
+      "errors": "tc-fhir|hl7_at"
+    },
+    {
       "name": "GKL",
       "url": "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml",
       "errors": "gabriel_kleinoscheg|elga_gv_at"
@@ -180,6 +200,61 @@
       "name": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
       "url": "https://nrces.in/ndhm/package-feed.xml",
       "errors": "ABDM|NRCeS"
+    },
+    {
+      "name": "RIVO-Noord NL",
+      "url": "http://implementatiegids.zorgviewer.nl/package-feed.xml",
+      "errors": "m_van_der_zel|umcg_nl"
+    },
+    {
+      "name": "IKNL",
+      "url": "http://iknl.github.io/NkrIG/package-feed.xml",
+      "errors": "fhir|iknl_nl"
+    },
+    {
+      "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
+      "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
+      "errors": "integration|tewhatuora_govt_nz"
+    },
+    {
+      "name": "World Health Organization",
+      "url": "https://smart.who.int/package-feed.xml",
+      "errors": "smart|who_int"
+    },
+    {
+      "name": "Argentix Informatics FHIR Implementation Guides",
+      "url": "http://argentixinfo.com/ig/package-feed.xml",
+      "errors": "elliot|argentixinfo_com"
+    },
+    {
+      "name": "HL7 Chile IPS",
+      "url": "https://hl7chile.cl/fhir/ig/clips/package-feed.xml",
+      "errors": "Franco_Ulloa|hl7chile_clips_cl"
+    },
+    {
+      "name": "MINSAL CHILE EIS",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/eis/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_EIS"
+    } ,
+    {
+      "name": "MINSAL CHILE NID",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/package-feed.xml",
+      "errors": "Jorge_Mansilla|MINSAL_NID"
+    },
+    {
+      "name": "Clic Sante",
+      "url": "http://docs.clicsante.ca/fhir/package-feed.xml",
+      "errors": "aachik|trimoz_com"
+    },
+    {
+      "name": "BfArM FHIR Packages (Terminologies)",
+      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "errors": "zts|gematik_de"
+    },
+    {
+      "name": "HL7 Poland",
+      "url": "http://fhir.hl7.org.pl/packages/package-feed.xml",
+      "errors": "bojanowski|hl7.org.pl"
     }
   ],
   "package-restrictions": [
@@ -192,8 +267,8 @@
       "feeds": [ "http://hl7.org.au/fhir/package-feed.xml" ]
     },
     {
-      "mask": "hl7.fhir.nz.*",
-      "feeds": [ "http://igs.clinfhir.com/packages/package-feed.xml" ]
+      "mask": "fhir.org.nz.ig.*",
+      "feeds": [ "https://github.com/HL7NZ/hl7-nz-package-feed/blob/main/package-feed.xml?raw=true" ]
     },
     {
         "mask": "hl7.fhir.dk.*",
@@ -214,6 +289,10 @@
     {
       "mask": "hl7.fhir.eu.*",
       "feeds": [ "https://hl7.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.fr.*",
+      "feeds": [ "https://hl7.fr/ig/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.fi.*",
@@ -278,8 +357,20 @@
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
     },
     {
-      "mask": "myhealth.eu.fhir.*",
-      "feeds": [ "http://fhir.ehdsi.eu/package-feed.xml" ]
+      "mask": "hl7.at.fhir.*",
+      "feeds": [ "https://fhir.hl7.at/package-feed.xml" ]
+    },
+    {
+      "mask": "dk.ehealth.sundhed.fhir.ig.*",
+      "feeds": [ "https://ehealth.sundhed.dk/package-feed.xml" ]
+    },
+    {
+      "mask": "bfarm.terminologien.*",
+      "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.pl.*",
+      "feeds": [ "http://fhir.hl7.org.pl/packages/package-feed.xml" ]
     }
   ]
 }

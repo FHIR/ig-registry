@@ -8076,31 +8076,6 @@
           "url" : "http://cds-hooks.hl7.org/hooks/STU1"
         }
       ]
-    },
-    {
-      "name": "MyHealth@Eu Laboratory Report",
-      "category": "Laboratory Report",
-      "npm-name": "myhealth.eu.fhir.laboratory",
-      "description": "This guide defines a set of rules to be applied to HL7 FHIR to represent a Laboratory Report for European cross-borders services, coherently with the European FHIR Implementation Guide",
-      "authority": "MyHealth@Eu",
-      "country": "eu",
-      "history": "http://fhir.ehdsi.eu/laboratory/history.html",
-      "language": [
-        "en"
-      ],
-      "canonical": "http://fhir.ehdsi.eu/laboratory",
-      "ci-build": "http://build.fhir.org/ig/hl7-eu/extensions",
-      "editions": [
-        {
-          "name": "Wave 8 Qa-preview",
-          "ig-version": "0.0.1",
-          "package": "myhealth.eu.fhir.laboratory#0.0.1",
-          "fhir-version": [
-            "4.0.1"
-          ],
-          "url": "http://fhir.ehdsi.eu/laboratory/0.0.1"
-        }
-      ]
     }
   ]
 }
