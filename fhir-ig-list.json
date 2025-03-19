@@ -4069,7 +4069,6 @@
       "npm-name" : "hl7.fhir.uv.ipa",
       "description" : "International Patient Access (IPA) defines a minimal, base set of FHIR profiles specifically intended to be used as-is, or built on top of by countries looking to enable patient access and patient-facing apps accessing data via FHIR",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/ipa/history.html",
       "language" : ["en"],
@@ -4085,13 +4084,14 @@
         "operations" : 1,
         "examples" : 13
       },
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.ipa#1.0.0",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.uv.ipa#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/ipa/STU1"
+          "url" : "http://hl7.org/fhir/uv/ipa/STU1.1"
         }
       ]
     },
