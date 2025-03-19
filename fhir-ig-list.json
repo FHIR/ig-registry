@@ -8076,6 +8076,28 @@
           "url" : "http://cds-hooks.hl7.org/hooks/STU1"
         }
       ]
+    },
+    {
+      "name" : "NIHDI Terminology Profiles for Belgium",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.be.nihdi-terminology",
+      "description" : "NIHDI Terminology Profiles for Belgium",
+      "authority" : "eHealth Platform (BE)",
+      "country" : "be",
+      "history" : "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/history.html",
+      "language" : ["en"],
+      "canonical" : "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology",
+      "ci-build" : "http://build.fhir.org/ig/hl7-be/nihdi-terminology",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Trial Use",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.be.nihdi-terminology#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/1.0.0"
+        }
+      ]
     }
   ]
 }
