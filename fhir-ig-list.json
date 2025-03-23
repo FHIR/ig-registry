@@ -1811,7 +1811,6 @@
       "npm-name" : "hl7.fhir.us.womens-health-registries",
       "description" : "The purpose of the IG to provide the necessary guidance to use FHIR to build registries specific to monitoring Womens Health",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/womens-health-registries/history.html",
@@ -1823,13 +1822,16 @@
         "clinicalCore" : true,
         "profiles" : 3
       },
+      "product" : ["fhir"],
+      "withdrawn" : true,
+      "withDrawalDate" : "2025-03-24",
       "editions" : [
         {
-          "name" : "STU 1 Ballot",
-          "ig-version" : "0.2.0",
-          "package" : "hl7.fhir.us.womens-health-registries#0.2.0",
-          "fhir-version" : ["4.0.0"],
-          "url" : "http://hl7.org/fhir/us/womens-health-registries/2019May"
+          "name" : "STU 1 Withdrawn",
+          "ig-version" : "0.2.0-withdrawal",
+          "package" : "hl7.fhir.us.womens-health-registries#0.2.0-withdrawal",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/womens-health-registries/0.2.0-withdrawal"
         }
       ]
     },
