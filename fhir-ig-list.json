@@ -1121,23 +1121,24 @@
       "npm-name" : "ihe.qrph.madx",
       "description" : "Supports interoperable public health reporting of aggregate health data.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)",
-      "canonical" : "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)",
-      "editions" : [
-        {
-          "name" : "R4 Trial-Implementation",
-          "ig-version" : "1.1.0",
-          "package" : "ihe.qrph.madx#0.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://wiki.ihe.net/index.php/Mobile_Aggregate_Data_Exchange_(mADX)"
-        }
-      ],
       "analysis" : {
         "error" : "Unable to resolve package id ihe.qrph.madx#0.1.0"
-      }
+      },
+      "canonical" : "https://profiles.ihe.net/QRPH/mADX",
+      "ci-build" : "http://build.fhir.org/ig/IHE/QRPH.mADX/branches/master/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Publication Ballot",
+          "ig-version" : "3.0.0-comment",
+          "package" : "ihe.qrph.madx#3.0.0-comment",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://profiles.ihe.net/QRPH/mADX/3.0.0-comment"
+        }
+      ]
     },
     {
       "name" : "Electronic Case Reporting",
