@@ -67,11 +67,6 @@
       "errors": "nicolas_riss|esante_gouv_fr"
     },
     {
-        "name": "HL7 Denmark",
-        "url": "https://hl7.dk/fhir/package-feed.xml",
-        "errors": "jvi|trifork_com"
-    },
-    {
         "name": "Kommunernes Landsforening",
         "url": "https://fhir.kl.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
@@ -142,11 +137,6 @@
       "errors": "kyriosdata|ufg_br"
     },
     {
-      "name": "Secretaria de Estado da Saúde de Goiás | Brasil",
-      "url": "https://fhir.saude.go.gov.br/package-feed.xml",
-      "errors": "ses_go|goias_gov_br"
-    },
-    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -155,11 +145,6 @@
       "name": "Common FHIR profile vendor collaboration",
       "url": "https://commonprofiles.care/package-feed.xml",
       "errors": "info|commonprofiles.care"
-    },
-    {
-      "name": "HL7 Korea",
-      "url": "http://www.hl7korea.or.kr/fhir/package-feed.xml",
-      "errors": "jhsong|healthall_co_kr"
     },
     {
       "name": "HL7 Europe",
@@ -299,6 +284,10 @@
       "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     },
     {
+      "mask": "hl7.fhir.cl.*",
+      "feeds": [ "https://hl7chile.cl/fhir/ig/package-feed.xml" ]
+    },
+    {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
 	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml", "https://packages.simplifier.net/rssfeed"]
@@ -329,6 +318,10 @@
       "feeds": [ "http://fhir.ch/package-feed.xml" ]
     },
     {
+      "mask": "ans.fr.template",
+      "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
+    },
+    {
       "mask": "ans.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
     },
@@ -355,6 +348,10 @@
     {
       "mask": "hl7.at.fhir.gkl.*",
       "feeds": [ "https://gabriel0316.github.io/ig-tooling-pages/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.at.fhir.template",
+      "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
     },
     {
       "mask": "hl7.at.fhir.*",
