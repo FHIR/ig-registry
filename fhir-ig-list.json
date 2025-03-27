@@ -3551,8 +3551,8 @@
       "editions" : [
         {
           "name" : "HL7 Norway no-basis",
-          "ig-version" : "2.2.0",
-          "package" : "hl7.fhir.no.basis#2.2.0",
+          "ig-version" : "2.2.2",
+          "package" : "hl7.fhir.no.basis#2.2.2",
           "fhir-version" : ["4.0.1"],
           "url" : "https://simplifier.net/guide/no-basis-entities-individuals?version=current"
         }
