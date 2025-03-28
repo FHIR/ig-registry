@@ -97,11 +97,6 @@
       "errors": "cto|hl7_de"
     },
     {
-      "name": "Taiwan FHIR Publications",
-      "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
-      "errors": "CCYU|mohw_gov_tw"
-    },
-    {
       "name": "Estonian FHIR Publications",
       "url": "https://fhir.ee/packages/package-feed.xml",
       "errors": "fhir|kodality_com"
