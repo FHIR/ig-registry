@@ -6236,16 +6236,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/ebm",
       "ci-build" : "http://build.fhir.org/ig/HL7/ebm",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.ebm#1.0.0-ballot",
-          "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/ebm/2024Jan"
+          "ig-version" : "1.0.0-ballot2",
+          "package" : "hl7.fhir.uv.ebm#1.0.0-ballot2",
+          "fhir-version" : ["6.0.0"],
+          "url" : "http://hl7.org/fhir/uv/ebm/2025May"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "KLTerm",
