@@ -67,11 +67,6 @@
       "errors": "nicolas_riss|esante_gouv_fr"
     },
     {
-        "name": "Kommunernes Landsforening",
-        "url": "https://fhir.kl.dk/package-feed.xml",
-        "errors": "jvi|trifork_com"
-    },
-    {
         "name": "Danish FUT Infrastructure",
         "url": "https://ehealth.sundhed.dk/package-feed.xml",
         "errors": "jvi|trifork_com"
