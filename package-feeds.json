@@ -167,11 +167,6 @@
       "errors": "gregor_lichtner|med_uni-greifswald_de"
     },
     {
-      "name": "HL7 Italy",
-      "url": "http://hl7.it/fhir/package-feed.xml",
-      "errors": "gcangioli|hl7_it"
-    },
-    {
       "name": "HL7 Austria",
       "url": "https://fhir.hl7.at/package-feed.xml",
       "errors": "tc-fhir|hl7_at"
@@ -280,12 +275,16 @@
       "feeds": [ "https://hl7.fr/ig/fhir/package-feed.xml" ]
     },
     {
+      "mask": "hl7.fhir.nl.*",
+      "feeds": [ "https://implementatiegids.zorgviewer.nl/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
+    },
+    {
       "mask": "hl7.fhir.fi.*",
       "feeds": [ "https://hl7.fi/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.cl.*",
-      "feeds": [ "https://hl7chile.cl/fhir/ig/package-feed.xml" ]
+      "feeds": [ "https://hl7chile.cl/fhir/ig/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.*",
