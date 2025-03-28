@@ -6811,16 +6811,16 @@
       "language" : ["en"],
       "canonical" : "http://fhir.org/guides/hrsa/uds-plus",
       "ci-build" : "http://build.fhir.org/ig/drajer-health/uds-plus",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.1.0",
-          "package" : "fhir.hrsa.uds-plus#1.1.0",
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "fhir.hrsa.uds-plus#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.org/guides/hrsa/uds-plus/STU1.1"
+          "url" : "http://fhir.org/guides/hrsa/uds-plus/STU2"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Pharmaceutical Quality (Industry)",
