@@ -6236,16 +6236,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/uv/ebm",
       "ci-build" : "http://build.fhir.org/ig/HL7/ebm",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.ebm#1.0.0-ballot",
-          "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/ebm/2024Jan"
+          "ig-version" : "1.0.0-ballot2",
+          "package" : "hl7.fhir.uv.ebm#1.0.0-ballot2",
+          "fhir-version" : ["6.0.0"],
+          "url" : "http://hl7.org/fhir/uv/ebm/2025May"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "KLTerm",
@@ -8098,6 +8098,50 @@
           "package" : "hl7.fhir.be.nihdi-terminology#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/nihdi-terminology/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "PACIO Transitions of Care Implementation Guide",
+      "category" : "Clinical Documents",
+      "npm-name" : "hl7.fhir.us.pacio-toc",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/pacio-toc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/pacio-toc",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-transitions-of-care-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.pacio-toc#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/pacio-toc/2025May"
+        }
+      ]
+    },
+    {
+      "name" : "US Situational Awareness Framework for Reporting (US SAFR) Implementation Guide",
+      "category" : "Public Health",
+      "npm-name" : "hl7.fhir.us.safr",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/safr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/safr",
+      "ci-build" : "http://build.fhir.org/ig/HL7/us-safr",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.safr#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/safr/2025May"
         }
       ]
     }
