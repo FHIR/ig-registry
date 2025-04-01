@@ -6657,16 +6657,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.eu/fhir/laboratory",
       "ci-build" : "http://build.fhir.org/ig/hl7-eu/laboratory",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "STU 1",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.eu.laboratory#0.1.0",
+          "ig-version" : "0.1.1",
+          "package" : "hl7.fhir.eu.laboratory#0.1.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/laboratory/0.1.0"
+          "url" : "http://hl7.eu/fhir/laboratory/0.1.1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
