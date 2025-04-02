@@ -7435,7 +7435,7 @@
     },
     {
       "name" : "SMART Base",
-      "category" : "base",
+      "category" : "SMART (WHO)",
       "npm-name" : "smart.who.int.base",
       "description" : "Base SMART Guidelines implementation guide to be used as the base dependency for all SMART Guidelines IGs",
       "authority" : "World Health Organization",
@@ -7444,16 +7444,16 @@
       "language" : ["en"],
       "canonical" : "http://smart.who.int/base",
       "ci-build" : "http://worldhealthorganization.github.io/smart-base",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases Draft",
-          "ig-version" : "0.1.0",
-          "package" : "smart.who.int.base#0.1.0",
+          "ig-version" : "0.2.0",
+          "package" : "smart.who.int.base#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/base/0.1.0"
+          "url" : "http://smart.who.int/base/0.2.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "SMART TS",
