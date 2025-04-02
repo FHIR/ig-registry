@@ -75,6 +75,11 @@
         "name": "HL7 Denmark", 
         "url": "https://hl7.dk/fhir/package-feed.xml", 
         "errors": "jvi|trifork_com" 
+    }, 
+    { 
+        "name": "Kommunernes Landsforening (KL)", 
+        "url": "https://fhir.kl.dk/package-feed.xml", 
+        "errors": "jvi|trifork_com" 
     },
     {
         "name": "Danish FUT Infrastructure",
