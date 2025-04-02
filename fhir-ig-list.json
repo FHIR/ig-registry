@@ -7545,11 +7545,11 @@
       "ci-build" : "http://worldhealthorganization.github.io/smart-trust",
       "editions" : [
         {
-          "name" : "1.1.5 release",
-          "ig-version" : "1.1.5",
-          "package" : "smart.who.int.trust#1.1.5",
+          "name" : "1.2.0 release",
+          "ig-version" : "1.2.0",
+          "package" : "smart.who.int.trust#1.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/trust/v1.1.5"
+          "url" : "http://smart.who.int/trust/v1.2.0"
         }
       ],
       "product" : ["fhir"]
