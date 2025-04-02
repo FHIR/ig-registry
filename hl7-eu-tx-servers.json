@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "description": "HL7 Europe's list of published terminology servers",
+  "servers": [
+    {
+      "code": "hl7-eu",
+      "name": "HL7 Europe Terminology Server",
+      "access_info": "Open",
+      "url": "http://tx.hl7europe.org",
+      "authoritative": [
+        "http://hl7europe.org/fhir/terminology/ehdsi*"
+      ],
+      "authoritative-valuesets": [
+        "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*",
+        "http://terminology.ehdsi.eu/ValueSet*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "http://tx.hl7europe.eu/r4"
+        }
+      ]
+    }
+  ]
+}
