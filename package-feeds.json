@@ -58,6 +58,11 @@
     },
     {
       "name": "Agence du Numérique en Santé",
+      "url": "https://interop.esante.gouv.fr/package-feed.xml",
+      "errors": "mael_priour|esante_gouv_fr"
+    },
+    {
+      "name": "Agence du Numérique en Santé",
       "url": "https://interop.esante.gouv.fr/ig/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
     },
@@ -317,7 +322,7 @@
     },
     {
       "mask": "ans.fr.*",
-      "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml" ]
+      "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml", "https://interop.esante.gouv.fr/package-feed.xml" ]
     },
     {
       "mask": "ans.fhir.fr.*",
