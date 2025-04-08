@@ -8233,6 +8233,50 @@
           "url" : "http://hl7.org/fhir/uv/cow/2025May"
         }
       ]
+    },
+    {
+      "name" : "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
+      "category" : "EHR-S Family",
+      "npm-name" : "hl7.ehrs.uv.ehrsfmr2",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/ehrs/uv/ehrsfmr2/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/ehrs/uv/ehrsfmr2",
+      "ci-build" : "http://build.fhir.org/ig/HL7/ehrsfm-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Normative 1 Ballot",
+          "ig-version" : "2.1.1-ballot",
+          "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/2025May"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Personal Health Record System Functional Model, Release 2",
+      "category" : "EHR-S Family",
+      "npm-name" : "hl7.ehrs.uv.phrsfmr2",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/ehrs/uv/phrsfmr2/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/ehrs/uv/phrsfmr2",
+      "ci-build" : "http://build.fhir.org/ig/HL7/phrsfm-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Normative 1 Ballot",
+          "ig-version" : "2.0.1-ballot",
+          "package" : "hl7.ehrs.uv.phrsfmr2#2.0.1-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/ehrs/uv/phrsfmr2/2025May"
+        }
+      ]
     }
   ]
 }
