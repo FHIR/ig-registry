@@ -1,0 +1,18 @@
+{
+  "formatVersion" : "1",
+  "description" : "HL7 Belgium's list of published terminology servers",
+  "servers" : [{
+    "code" : "fps-be-tx",
+    "name" : "Federal Public Service Health, Food Chain Safety and Environment",
+    "access_info" : "This server is open to publishers of IGs",
+    "url" : "https://apps.health.belgium.be/ontoserver/fhir",
+    "usage": ["publication"],
+    "authoritative" : [
+      "http://snomed.info/sct|http://snomed.info/sct/11000172109*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R4",
+      "url" : "https://apps.health.belgium.be/ontoserver/fhir"
+    }]
+  }]
+}
