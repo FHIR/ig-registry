@@ -6105,16 +6105,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/ndh",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-us-ndh",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.ndh#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.ndh#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/ndh/2023Sep"
+          "url" : "http://hl7.org/fhir/us/ndh/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Privacy Consent on FHIR (PCF)",
