@@ -8233,6 +8233,31 @@
           "url" : "http://hl7.org/fhir/uv/cow/2025May"
         }
       ]
+    },
+    {
+      "name": "MyHealth@Eu Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "myhealth.eu.fhir.laboratory",
+      "description": "This guide defines a set of common rules to be applied to HL7 FHIR to represent a Laboratory Report in the context of MyHealth@EU, for the European cross-border exchange of data",
+      "authority": "eHMSEG STF Architecture WG",
+      "country" : "eu",
+      "history": "http://fhir.ehdsi.eu/laboratory/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ehdsi.eu/laboratory",
+      "ci-build": "https://build-fhir.ehdsi.eu/laboratory",
+      "editions": [
+        {
+          "name": "MyHealth@EU wave 8 trial use release",
+          "ig-version": "0.1.1",
+          "package": "myhealth.eu.fhir.laboratory#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ehdsi.eu/laboratory/0.1.1"
+        }
+      ]
     }
   ]
 }
