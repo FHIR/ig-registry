@@ -6992,10 +6992,10 @@
       "editions" : [
         {
           "name" : "Releases Informative",
-          "ig-version" : "0.4.1",
-          "package" : "hl7.fhir.uv.tools#0.4.1",
+          "ig-version" : "0.5.0",
+          "package" : "hl7.fhir.uv.tools#0.5.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/tools/0.4.1"
+          "url" : "http://hl7.org/fhir/tools/0.5.0"
         }
       ]
     },
