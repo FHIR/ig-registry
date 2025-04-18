@@ -27,6 +27,11 @@
       "errors": "utg|hl7_org"
     },
     {
+      "name": "CDS-Hooks",
+      "url": "https://cds-hooks.hl7.org/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "FHIR Foundation Guides",
       "url": "http://fhir.org/guides/package-feed.xml",
       "errors": "grahame|fhir_org"
