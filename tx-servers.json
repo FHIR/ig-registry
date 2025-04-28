@@ -39,6 +39,12 @@
       "name": "HL7 Europe Terminology Services",
       "authority": "Published by HL7 Europe",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-eu-tx-servers.json"
+    },
+    {
+      "code": "hl7-ch",
+      "name": "HL7 Switzerland Terminology Server",
+      "authority": "Published by HL7 Switzerland",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ch-tx-servers.json"
     }
   ]
 }
