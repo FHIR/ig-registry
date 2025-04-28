@@ -8277,6 +8277,31 @@
           "url" : "http://hl7.org/ehrs/uv/phrsfmr2/2025May"
         }
       ]
+    },
+    {
+      "name": "MyHealth@Eu Laboratory Report",
+      "category": "Laboratory Report",
+      "npm-name": "myhealth.eu.fhir.laboratory",
+      "description": "MyHealth@EU Laboratory Report Implementaion Guide for European Cross border services.",
+      "authority": "eHMSEG STF Architecture WG",
+      "country": "eu",
+      "history": "http://fhir.ehdsi.eu/laboratory/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://fhir.ehdsi.eu/laboratory",
+      "ci-build": "https://build-fhir.ehdsi.eu/laboratory",
+      "editions": [
+        {
+          "name": "MyHealth@EU wave 8 trial use release",
+          "ig-version": "0.1.1",
+          "package": "myhealth.eu.fhir.laboratory#0.1.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://fhir.ehdsi.eu/laboratory/0.1.1"
+        }
+      ]
     }
   ]
 }
