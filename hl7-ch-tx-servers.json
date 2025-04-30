@@ -6,7 +6,7 @@
       "code": "hl7-ch",
       "name": "HL7 Switzerland Terminology Server",
       "access_info": "Open",
-      "url": "http://tx.fhir.ch",
+      "url": "https://tx.fhir.ch",
       "authoritative": [
         "http://fhir.ch/ig/ch-*",
         "http://snomed.info/sct|http://snomed.info/sct/2011000195101/version/20241207*"
@@ -17,7 +17,7 @@
       "fhirVersions": [
         {
           "version": "R4",
-          "url": "http://tx.fhir.ch/r4"
+          "url": "https://tx.fhir.ch/r4"
         }
       ]
     }
