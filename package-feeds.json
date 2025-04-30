@@ -245,6 +245,11 @@
       "name": "HL7 Poland",
       "url": "http://fhir.hl7.org.pl/packages/package-feed.xml",
       "errors": "bojanowski|hl7.org.pl"
+    },
+    {
+      "name": "MyHealth@eu",
+      "url": "https://fhir.ehdsi.eu/package-feed.xml",
+      "errors": "gcangioli|ehdsi_eu"
     }
   ],
   "package-restrictions": [
@@ -373,6 +378,10 @@
     {
       "mask": "hl7.fhir.pl.*",
       "feeds": [ "http://fhir.hl7.org.pl/packages/package-feed.xml" ]
+    },
+    {
+      "mask": "myhealth.eu.fhir.*",
+      "feeds": [ "https://fhir.ehdsi.eu/package-feed.xml" ]
     }
   ]
 }
