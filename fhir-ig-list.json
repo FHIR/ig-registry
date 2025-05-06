@@ -7061,6 +7061,13 @@
           "package" : "hl7.fhir.eu.extensions#0.1.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.eu/fhir/extensions/0.1.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "0.1.1",
+          "package" : "hl7.fhir.eu.extensions#0.1.1",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/extensions/0.1.1"
         }
       ],
       "product" : ["fhir"]
@@ -8296,6 +8303,50 @@
           "package" : "myhealth.eu.fhir.laboratory#0.1.1",
           "fhir-version" : ["4.0.1"],
           "url" : "http://fhir.ehdsi.eu/laboratory/0.1.1"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Base and Core (R4)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.eu.base",
+      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/base",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/base",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.base#0.1.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/base/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Base and Core (R5)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.eu.base-r5",
+      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/base-r5/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/base-r5",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/base-r5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.base-r5#0.1.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
       ]
     }
