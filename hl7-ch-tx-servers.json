@@ -9,7 +9,7 @@
       "url": "https://tx.fhir.ch",
       "authoritative": [
         "http://fhir.ch/ig/ch-*",
-        "http://snomed.info/sct|http://snomed.info/sct/2011000195101/version/20241207*"
+        "http://snomed.info/sct|http://snomed.info/sct/2011000195101*"
       ],
       "authoritative-valuesets": [
         "http://fhir.ch/ig/ch-*"
