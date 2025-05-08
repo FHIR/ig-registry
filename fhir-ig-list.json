@@ -8367,7 +8367,7 @@
         {
           "name" : "Publication",
           "ig-version" : "1.0.0-preview",
-          "package" : "ihe.pharm.mpd#1.0.0-preview",
+          "package" : "ihe.pharm.mpd#1.0.0-comment",
           "fhir-version" : ["5.0.0"],
           "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment"
         }
