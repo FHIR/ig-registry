@@ -8298,6 +8298,28 @@
           "url" : "http://fhir.ehdsi.eu/laboratory/0.1.1"
         }
       ]
+    },
+    {
+      "name" : "Dk Terminology for XDS Metadata",
+      "category" : "MedCom Terminology for XDS Metadata",
+      "npm-name" : "medcom.fhir.dk.xdsmetadata",
+      "description": "null",
+      "authority": "MedCom",
+      "country": "dk",
+      "history" : "http://medcomfhir.dk/ig/xdsmetadata/history.html",
+      "language" : ["en"],
+      "canonical" : "http://medcomfhir.dk/ig/xdsmetadata",
+      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-xds-metadata",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release",
+          "ig-version" : "1.0.1",
+          "package" : "medcom.fhir.dk.xdsmetadata#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/xdsmetadata/1.0.1"
+        }
+      ]
     }
   ]
 }
