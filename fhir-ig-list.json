@@ -8301,9 +8301,9 @@
     },
     {
       "name" : "Dk Terminology for XDS Metadata",
-      "category" : "MedCom Terminology for XDS Metadata",
+      "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.xdsmetadata",
-      "description": "null",
+      "description": "MedCom Terminology for XDS Metadata",
       "authority": "MedCom",
       "country": "dk",
       "history" : "http://medcomfhir.dk/ig/xdsmetadata/history.html",
