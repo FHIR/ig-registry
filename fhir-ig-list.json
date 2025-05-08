@@ -8350,6 +8350,28 @@
           "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
       ]
+    },
+    {
+      "name" : "Medication Prescription and Dispense (MPD)",
+      "category" : "Medication",
+      "npm-name" : "ihe.pharm.mpd",
+      "description" : "The Medication Prescription and Dispense (MPD) profile defines profiles and actors for interoperable systems handling medication ordering and dispensing.",
+      "authority" : "IHE",
+      "country" : "uv",
+      "history" : "https://profiles.ihe.net/PHARM/MPD/history.html",
+      "language" : ["en"],
+      "canonical" : "https://profiles.ihe.net/PHARM/MPD",
+      "ci-build" : "http://build.fhir.org/ig/IHE/pharm-mpd/branches/master/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Publication",
+          "ig-version" : "1.0.0-preview",
+          "package" : "ihe.pharm.mpd#1.0.0-preview",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-preview"
+        }
+      ]
     }
   ]
 }
