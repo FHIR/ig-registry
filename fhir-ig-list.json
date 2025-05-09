@@ -7061,6 +7061,13 @@
           "package" : "hl7.fhir.eu.extensions#0.1.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.eu/fhir/extensions/0.1.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "0.1.1",
+          "package" : "hl7.fhir.eu.extensions#0.1.1",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/extensions/0.1.1"
         }
       ],
       "product" : ["fhir"]
@@ -7093,6 +7100,7 @@
       "npm-name" : "hl7.at.fhir.gkl.ig-tooling",
       "description" : "This IG is built in order to describe the IG tooling.",
       "country" : "at",
+      "authority" : "Unspecified",
       "history" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/history.html",
       "language" : ["en"],
       "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
@@ -7266,7 +7274,7 @@
       "name" : "US Standardized Medication Profile (SMP)",
       "category" : "Medications ",
       "npm-name" : "hl7.fhir.us.smp",
-      "description" : "??",
+      "description" : "Standardized Medication Profile",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/smp/history.html",
@@ -8040,9 +8048,9 @@
       "name" : "CDS Hooks Specification",
       "category" : "Clinical Decision Support",
       "npm-name" : "hl7.fhir.uv.cds-hooks",
-      "description" : "??",
+      "description" : "CDA-Hooks Specification",
       "authority" : "HL7",
-      "country" : "??",
+      "country" : "uv",
       "history" : "http://cds-hooks.hl7.org/history.html",
       "language" : ["en"],
       "canonical" : "http://cds-hooks.hl7.org",
@@ -8062,9 +8070,9 @@
       "name" : "CDS Hooks Hook Library",
       "category" : "Clinical Decision Support",
       "npm-name" : "hl7.fhir.uv.cds-hooks-library",
-      "description" : "??",
+      "description" : "CDS Hooks Hook Library",
       "authority" : "HL7",
-      "country" : "??",
+      "country" : "uv",
       "history" : "http://cds-hooks.hl7.org/hooks/history.html",
       "language" : ["en"],
       "canonical" : "http://cds-hooks.hl7.org/hooks",
@@ -8106,7 +8114,7 @@
       "name" : "PACIO Transitions of Care Implementation Guide",
       "category" : "Clinical Documents",
       "npm-name" : "hl7.fhir.us.pacio-toc",
-      "description" : "??",
+      "description" : "Transitions of Care Implementation Guide",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/pacio-toc/history.html",
@@ -8128,7 +8136,7 @@
       "name" : "US Situational Awareness Framework for Reporting (US SAFR) Implementation Guide",
       "category" : "Public Health",
       "npm-name" : "hl7.fhir.us.safr",
-      "description" : "??",
+      "description" : "Situational Awareness Framework for Reporting (US SAFR)",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/safr/history.html",
@@ -8150,7 +8158,7 @@
       "name" : "Person-Centered Outcomes (PCO) Implementation Guide",
       "category" : "Care Management",
       "npm-name" : "hl7.fhir.us.pco",
-      "description" : "??",
+      "description" : "Person-Centered Outcomes (PCO) Implementation Guide",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/pco/history.html",
@@ -8172,7 +8180,7 @@
       "name" : "Continuous Glucose Monitoring",
       "category" : "Diagnostics",
       "npm-name" : "hl7.fhir.uv.cgm",
-      "description" : "??",
+      "description" : "Continuous Glucose Monitoring",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/cgm/history.html",
@@ -8194,7 +8202,7 @@
       "name" : "Common CQL Assets for FHIR (US-Based)",
       "category" : "Quality/CDS",
       "npm-name" : "hl7.fhir.us.cql",
-      "description" : "??",
+      "description" : "Common CQL Assets for FHIR",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/cql/history.html",
@@ -8216,7 +8224,7 @@
       "name" : "Clinical Order Workflows",
       "category" : "Care Management",
       "npm-name" : "hl7.fhir.uv.cow",
-      "description" : "??",
+      "description" : "Clinical Order Workflows",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/cow/history.html",
@@ -8238,7 +8246,7 @@
       "name" : "HL7 Electronic Health Record System Functional Model, Release 2.1.1",
       "category" : "EHR-S Family",
       "npm-name" : "hl7.ehrs.uv.ehrsfmr2",
-      "description" : "??",
+      "description" : "Electronic Health Record System Functional Model",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/ehrs/uv/ehrsfmr2/history.html",
@@ -8260,7 +8268,7 @@
       "name" : "HL7 Personal Health Record System Functional Model, Release 2",
       "category" : "EHR-S Family",
       "npm-name" : "hl7.ehrs.uv.phrsfmr2",
-      "description" : "??",
+      "description" : "Personal Health Record System Functional Model",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/ehrs/uv/phrsfmr2/history.html",
@@ -8318,6 +8326,50 @@
           "package" : "medcom.fhir.dk.xdsmetadata#1.0.1",
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/xdsmetadata/1.0.1"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Base and Core (R4)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.eu.base",
+      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/base",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/base",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.base#0.1.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/base/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Base and Core (R5)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.eu.base-r5",
+      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/base-r5/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/base-r5",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/base-r5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.base-r5#0.1.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
       ]
     }
