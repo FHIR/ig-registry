@@ -8326,6 +8326,13 @@
           "package" : "medcom.fhir.dk.xdsmetadata#1.0.1",
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/xdsmetadata/1.0.1"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.0.0",
+          "package" : "medcom.fhir.dk.xdsmetadata#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/xdsmetadata/1.0.0"
         }
       ]
     },
