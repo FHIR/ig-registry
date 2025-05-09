@@ -5677,65 +5677,16 @@
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/terminology",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-terminology",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "1.6.0",
-          "package" : "medcom.fhir.dk.terminology#1.6.0",
+          "ig-version" : "1.8.1",
+          "package" : "medcom.fhir.dk.terminology#1.8.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.6.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.5.0",
-          "package" : "medcom.fhir.dk.terminology#1.5.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.5.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.4.0",
-          "package" : "medcom.fhir.dk.terminology#1.4.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.4.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.3.0",
-          "package" : "medcom.fhir.dk.terminology#1.3.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.3.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.2.0",
-          "package" : "medcom.fhir.dk.terminology#1.2.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.2.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.1.1",
-          "package" : "medcom.fhir.dk.terminology#1.1.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.1.1"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.1.0",
-          "package" : "medcom.fhir.dk.terminology#1.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.1.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "1.0.0",
-          "package" : "medcom.fhir.dk.terminology#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.0.0"
+          "url" : "http://medcomfhir.dk/ig/terminology/1.8.1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "DK MedCom HospitalNotification",
