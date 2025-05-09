@@ -5677,16 +5677,65 @@
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/terminology",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-terminology",
-      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Releases",
-          "ig-version" : "1.7.1",
-          "package" : "medcom.fhir.dk.terminology#1.7.1",
+          "name" : "Release",
+          "ig-version" : "1.6.0",
+          "package" : "medcom.fhir.dk.terminology#1.6.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.7.1"
+          "url" : "http://medcomfhir.dk/ig/terminology/1.6.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.5.0",
+          "package" : "medcom.fhir.dk.terminology#1.5.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.5.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.4.0",
+          "package" : "medcom.fhir.dk.terminology#1.4.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.4.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.3.0",
+          "package" : "medcom.fhir.dk.terminology#1.3.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.3.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.2.0",
+          "package" : "medcom.fhir.dk.terminology#1.2.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.2.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.1.1",
+          "package" : "medcom.fhir.dk.terminology#1.1.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.1.1"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.1.0",
+          "package" : "medcom.fhir.dk.terminology#1.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.1.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.0.0",
+          "package" : "medcom.fhir.dk.terminology#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/terminology/1.0.0"
         }
-      ]
+      ],
+      "product" : ["fhir"]
     },
     {
       "name" : "DK MedCom HospitalNotification",
@@ -8262,9 +8311,9 @@
       "name" : "Dk Terminology for XDS Metadata",
       "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.xdsmetadata",
-      "description" : "MedCom Terminology for XDS Metadata",
-      "authority" : "MedCom",
-      "country" : "dk",
+      "description": "MedCom Terminology for XDS Metadata",
+      "authority": "MedCom",
+      "country": "dk",
       "history" : "http://medcomfhir.dk/ig/xdsmetadata/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/xdsmetadata",
@@ -8306,9 +8355,9 @@
       "name" : "HL7 Europe Base and Core (R5)",
       "category" : "Regional Base",
       "npm-name" : "hl7.fhir.eu.base-r5",
-      "description": "This IG includes CodeSystems, ValueSets and ConceptMaps defined by MedCom and used in MedCom's FHIR standards.",
-      "authority": "MedCom",
-      "country": "dk",
+      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
       "history" : "http://hl7.eu/fhir/base-r5/history.html",
       "language" : ["en"],
       "canonical" : "http://hl7.eu/fhir/base-r5",
