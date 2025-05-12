@@ -8306,9 +8306,9 @@
       "name" : "DK MedCom Document",
       "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.document",
-      "description" : "The DK MedCom Document IG",
-      "authority" : "MedCom",
-      "country" : "dk",
+      "description": "The DK MedCom Document IG",
+      "authority": "MedCom",
+      "country": "dk",
       "history" : "http://medcomfhir.dk/ig/document/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/document",
@@ -8321,28 +8321,6 @@
           "package" : "medcom.fhir.dk.document#1.0.1",
           "fhir-version" : ["4.0.1"],
           "url" : "http://medcomfhir.dk/ig/document/1.0.1"
-        }
-      ]
-    },
-    {
-      "name" : "DK MedCom Condition List",
-      "category" : "MedCom ConditionList",
-      "npm-name" : "medcom.fhir.dk.conditionlist",
-      "description": "The MedCom ConditionList Implementation Guide includes profiles developed exchange a patients diagnoses in a FHIR-document",
-      "authority": "MedCom",
-      "country": "dk",
-      "history" : "http://medcomfhir.dk/ig/conditionlist/history.html",
-      "language" : ["en"],
-      "canonical" : "http://medcomfhir.dk/ig/conditionlist",
-      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-conditionlist",
-      "product" : ["fhir"],
-      "editions" : [
-        {
-          "name" : "Release",
-          "ig-version" : "1.0.1",
-          "package" : "medcom.fhir.dk.conditionlist#1.0.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/conditionlist/1.0.1"
         }
       ]
     }
