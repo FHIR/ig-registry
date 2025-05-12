@@ -8304,7 +8304,7 @@
     },
     {
       "name" : "DK MedCom Document",
-      "category" : "MedCom Document",
+      "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.document",
       "description": "The DK MedCom Document IG",
       "authority": "MedCom",
