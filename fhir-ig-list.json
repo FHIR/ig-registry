@@ -8326,7 +8326,7 @@
     },
     {
       "name" : "DK MedCom Condition List",
-      "category" : "Patient Summary",
+      "category" : "MedCom ConditionList",
       "npm-name" : "medcom.fhir.dk.conditionlist",
       "description": "The MedCom ConditionList Implementation Guide includes profiles developed exchange a patients diagnoses in a FHIR-document",
       "authority": "MedCom",
