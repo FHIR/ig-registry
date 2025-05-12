@@ -8301,6 +8301,28 @@
           "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
       ]
+    },
+    {
+      "name" : "DK MedCom Document",
+      "category" : "MedCom Document",
+      "npm-name" : "medcom.fhir.dk.document",
+      "description": "The DK MedCom Document IG",
+      "authority": "MedCom",
+      "country": "dk",
+      "history" : "http://medcomfhir.dk/ig/document/history.html",
+      "language" : ["en"],
+      "canonical" : "http://medcomfhir.dk/ig/document",
+      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-document",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release",
+          "ig-version" : "1.0.1",
+          "package" : "medcom.fhir.dk.document#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/document/1.0.1"
+        }
+      ]
     }
   ]
 }
