@@ -8314,7 +8314,7 @@
       "name" : "DK MedCom Condition List",
       "category" : "MedCom ConditionList",
       "npm-name" : "medcom.fhir.dk.conditionlist",
-      "description" : "The MedCom ConditionList Implementation Guide includes profiles developed exchange a patients diagnoses in a FHIR-document",
+      "description" : "This IG includes messaging profiles defined by MedCom. These profiles are used in messagebased communication.",
       "authority" : "MedCom",
       "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/conditionlist/history.html",
