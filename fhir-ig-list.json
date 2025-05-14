@@ -5798,32 +5798,18 @@
       "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/messaging/history.html",
       "language" : ["en"],
-      "canonical" : "http://medcomfhir.dk/ig/messaging/",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-messaging",
+      "canonical" : "http://medcomfhir.dk/ig/messaging",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "2.1.0",
-          "package" : "medcom.fhir.dk.messaging#2.1.0",
+          "ig-version" : "3.0.0",
+          "package" : "medcom.fhir.dk.messaging#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/messaging/2.1.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "2.0.0",
-          "package" : "medcom.fhir.dk.messaging#2.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/messaging/2.0.0"
-        },
-        {
-          "name" : "STU",
-          "ig-version" : "1.0.0",
-          "package" : "medcom.fhir.dk.messaging#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-messaging"
+          "url" : "http://medcomfhir.dk/ig/messaging/3.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "CDA: Clinical Document Architecture",
