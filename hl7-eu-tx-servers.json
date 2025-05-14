@@ -18,7 +18,11 @@
         {
           "version": "R4",
           "url": "http://tx.hl7europe.eu/r4"
-        }
+        },
+        {
+          "version": "R5",
+          "url": "http://tx.hl7europe.eu/r5"
+        }        
       ]
     }
   ]
