@@ -4313,11 +4313,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Preview",
-          "ig-version" : "2.0.0-snapshot2",
-          "package" : "hl7.fhir.us.mdi#2.0.0-snapshot2",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.mdi#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/mdi/2.0.0-snapshot2"
+          "url" : "http://hl7.org/fhir/us/mdi/STU2"
         }
       ]
     },
