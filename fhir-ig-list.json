@@ -3431,7 +3431,6 @@
       "npm-name" : "hl7.fhir.us.sdoh-clinicalcare",
       "description" : "Profiles on FHIR R4 resources (using US Core as the basis where possible) used to document social determinants of health (SDOH) for an individual which covers many different factors considered social risks and social needs, e.g. Food Insecurity, Housing Stability and Quality, Transportation Access and others. The IG covers use cases identified from the clinical care setting that include : assessment of SDOH risks; evaluation of which risks can be addressed; setting goals,  documenting and tracking to completion SDOH interventions; and sharing SDOH information for an individual with organizations for secondary uses.",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/sdoh-clinicalcare/history.html",
       "language" : ["en"],
@@ -3447,13 +3446,14 @@
         "codeSystems" : 1,
         "examples" : 31
       },
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2.2",
-          "ig-version" : "2.2.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.2.0",
+          "name" : "STU 2.3",
+          "ig-version" : "2.3.0",
+          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2"
+          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.3"
         }
       ]
     },
