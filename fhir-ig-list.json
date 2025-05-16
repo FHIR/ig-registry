@@ -7281,16 +7281,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/smp",
       "ci-build" : "http://build.fhir.org/ig/HL7/smp",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.smp#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.smp#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/smp/2024Sep"
+          "url" : "http://hl7.org/fhir/us/smp/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "DICOM® SR to FHIR Resource Mapping IG",
