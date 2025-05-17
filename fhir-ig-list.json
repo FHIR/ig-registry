@@ -4766,6 +4766,28 @@
       ]
     },
     {
+      "name" : "HL7 Belgium FHIR Implementation Guide - Prescription Search Support profiles",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.be.pss",
+      "description" : "HL7 Belgium FHIR Implementation Guide - Prescription Search Support profiles",
+      "authority" : "eHealth Platform (BE)",
+      "product" : ["fhir"],
+      "country" : "be",
+      "history" : "https://www.ehealth.fgov.be/standards/fhir/pss/history.html",
+      "language" : ["en"],
+      "canonical" : "https://www.ehealth.fgov.be/standards/fhir/pss",
+      "ci-build" : "http://build.fhir.org/ig/hl7-be/pss",
+      "editions" : [
+        {
+          "name" : "Trial Use Test",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.be.pss#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://www.ehealth.fgov.be/standards/fhir/pss/1.0.0"
+        }
+      ]
+    },
+    {
       "name" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
       "category" : "National Base",
       "npm-name" : "hl7.fhir.be.core-clinical",
