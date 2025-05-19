@@ -1330,7 +1330,6 @@
       "npm-name" : "hl7.fhir.us.davinci-deqm",
       "description" : "Provides a mechanism for healthcare providers and data aggregators to exchange quality measure information using subscription, query, and push methods",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/davinci-deqm/history.html",
@@ -1351,13 +1350,14 @@
         "codeSystems" : 2,
         "examples" : 87
       },
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU5 (v5.0.0) Ballot",
-          "ig-version" : "5.0.0-ballot",
-          "package" : "hl7.fhir.us.davinci-deqm#5.0.0-ballot",
+          "name" : "STU5 (v5.0.0)",
+          "ig-version" : "5.0.0",
+          "package" : "hl7.fhir.us.davinci-deqm#5.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-deqm/2024Sep"
+          "url" : "http://hl7.org/fhir/us/davinci-deqm/STU5"
         }
       ]
     },
