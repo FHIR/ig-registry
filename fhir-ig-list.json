@@ -3091,7 +3091,6 @@
       "npm-name" : "ihe.formatcode.fhir",
       "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode",
@@ -3100,16 +3099,17 @@
         "valuesets" : 1,
         "codeSystems" : 1
       },
+      "language" : ["en"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication Normative",
-          "ig-version" : "1.3.0",
-          "package" : "ihe.formatcode.fhir#1.3.0",
+          "ig-version" : "1.4.0",
+          "package" : "ihe.formatcode.fhir#1.4.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
+          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.4.0"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "HL7 Terminology",
