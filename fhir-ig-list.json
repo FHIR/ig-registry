@@ -6156,6 +6156,13 @@
           "package" : "hl7se.fhir.base#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.se/fhir/ig/base/1.0.0"
+        },
+        {
+          "name" : "Releases",
+          "ig-version" : "1.1.0",
+          "package" : "hl7se.fhir.base#1.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.se/fhir/ig/base/1.1.0"
         }
       ],
       "product" : ["fhir"]
