@@ -7028,7 +7028,7 @@
         }
       ]
     },
-    {
+        {
       "name" : "FHIR Implementation Guide for ABDM",
       "category" : "National Base",
       "npm-name" : "ndhm.in",
@@ -7039,16 +7039,16 @@
       "language" : ["en"],
       "canonical" : "https://nrces.in/ndhm/fhir/r4",
       "ci-build" : "https://nrces.in/ndhm/fhir/r4",
+      "product" : ["fhir", "fhir"],
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "6.0.0",
-          "package" : "ndhm.in#6.0.0",
+          "ig-version" : "6.5.0",
+          "package" : "ndhm.in#6.5.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nrces.in/ndhm/fhir/r4/6.0.0"
+          "url" : "https://nrces.in/ndhm/fhir/r4/6.5.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "IHE FHIR Profile: Occupational Data for Health (ODH) - International",
