@@ -5598,30 +5598,16 @@
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/carecommunication",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "3.0.0",
-          "package" : "medcom.fhir.dk.carecommunication#3.0.0",
+          "ig-version" : "4.0.3",
+          "package" : "medcom.fhir.dk.carecommunication#4.0.3",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/carecommunication/3.0.0"
-        },
-        {
-          "name" : "Release",
-          "ig-version" : "2.0.0",
-          "package" : "medcom.fhir.dk.carecommunication#2.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/carecommunication/2.0.0"
-        },
-        {
-          "name" : "STU",
-          "ig-version" : "1.0.0",
-          "package" : "medcom.fhir.dk.carecommunication#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/fhir/ig/dk-medcom-carecommunication"
+          "url" : "http://medcomfhir.dk/ig/carecommunication/4.0.3"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "DK MedCom Core",
