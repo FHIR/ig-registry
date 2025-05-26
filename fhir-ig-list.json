@@ -8379,6 +8379,28 @@
           "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
       ]
+    },
+    {
+      "name" : "ÚNICAS Rare Diseases HL7 FHIR Implementation Guide",
+      "category" : "Rare Diseases",
+      "npm-name" : "unicas-ig",
+      "description" : "This is the implementation guide for ÚNICAS, a project whose objective is to create an ecosystem of partnerships to improve healthcare for pediatric patients with complex rare diseases. Through the network within the National Health System, the project aims to improve the diagnosis and care of patients with rare diseases.",
+      "authority" : "TIC Salut Social, CatSalut Departament de Salut de Catalunya, Sistema Nacional de Salud Ministerio de Sanidad de España",
+      "country" : "es",
+      "history" : "https://unicas-fhir.sanidad.gob.es/history.html",
+      "language" : ["es"],
+      "canonical" : "https://unicas-fhir.sanidad.gob.es",
+      "ci-build" : "https://unicas-fhir.sanidad.gob.es",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Draft",
+          "ig-version" : "0.0.1",
+          "package" : "unicas-ig#0.0.1",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://unicas-fhir.sanidad.gob.es/"
+        }
+      ]
     }
   ]
 }
