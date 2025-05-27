@@ -45,6 +45,12 @@
       "name": "HL7 Switzerland Terminology Server",
       "authority": "Published by HL7 Switzerland",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ch-tx-servers.json"
+    },
+    {
+      "code": "tehik-ee",
+      "name": "TEHIK Terminology Server",
+      "authority": "Published by Estonian Health and Welfare Information Systems Centre (TEHIK)",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ee-tx-servers.json"
     }
   ]
 }
