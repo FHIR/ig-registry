@@ -6,7 +6,7 @@
       "code": "hl7-eu",
       "name": "HL7 Europe Terminology Server",
       "access_info": "Open",
-      "url": "http://tx.hl7europe.org",
+      "url": "http://tx.hl7europe.eu",
       "authoritative": [
         "http://hl7europe.org/fhir/terminology/ehdsi*"
       ],
