@@ -1,0 +1,25 @@
+{
+    "formatVersion": "1",
+    "description": "Estonian list of published terminology servers",
+    "servers": [
+      {
+        "code": "tehik-ee",
+        "name": "TEHIK Terminology Server",
+        "access_info": "Open",
+        "url": "https://term.tehik.ee/fhir",
+        "authoritative": [
+          "https://fhir.ee/CodeSystem*",
+          "http://snomed.info/sct|http://snomed.info/sct/11000181102*"
+        ],
+        "authoritative-valuesets": [
+          "https://fhir.ee/ValueSet*"
+        ],
+        "fhirVersions": [
+          {
+            "version": "R5",
+            "url": "https://term.tehik.ee/fhir"
+          }        
+        ]
+      }
+    ]
+  }
