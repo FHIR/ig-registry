@@ -15,7 +15,8 @@
     ],
     "authoritative-valuesets" : [
        "https://healthterminologies.gov.au/fhir/ValueSet*",
-       "http://snomed.info/sct/32506021000036107*"
+       "http://snomed.info/sct/32506021000036107*",
+       "https://www.rcpa.edu.au/fhir/ValueSet/*"
     ],
     "fhirVersions" : [{
       "version" : "R4",
