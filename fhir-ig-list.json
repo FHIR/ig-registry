@@ -7606,10 +7606,98 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "1.0.0",
-          "package" : "smart.who.int.dak-immz#1.0.0",
+          "ig-version" : "1.1.0",
+          "package" : "smart.who.int.dak-immz#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/dak-immz/v1.0.0"
+          "url" : "http://smart.who.int/dak-immz/v1.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "SMART DAK CCC",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-ccc",
+      "description" : "SMART Guidelines Digital Adaptation Kit (DAK) for Clinical Care in Crises (CCC)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-ccc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-ccc",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-ccc",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-ccc#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-ccc/v1.0.0"
+        }
+      ]
+    }, 
+    {
+      "name" : "SMART DAK TB",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-tb",
+      "description" : "SMART Guidelines Digital Adaptation Kit (DAK) for tuberculosis (TB)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-tb/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-tb",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-tb",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.1",
+          "package" : "smart.who.int.dak-tb#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-tb/v1.0.1"
+        }
+      ]
+    },
+    {
+      "name" : "SMART Verifiable IPS for Pilgrimage",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.ips-pilgrimage",
+      "description" : "SMART Verifiable IPS for Pilgrimage",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ips-pilgrimage/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ips-pilgrimage",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-ips-pilgrimage",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "2.0.3",
+          "package" : "smart.who.int.ips-pilgrimage#2.0.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ips-pilgrimage/2.0.3"
+        }
+      ]
+    },
+    {
+      "name" : "SMART Guidelines Starter Kit",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.ig-starter-kit",
+      "description" : "SMART Guidelines Starter Kit",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ig-starter-kit/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ig-starter-kit",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-ig-starter-kit",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "2.0.0",
+          "package" : "smart.who.int.ig-starter-kit#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ig-starter-kit/v2.0.0"
         }
       ]
     },
