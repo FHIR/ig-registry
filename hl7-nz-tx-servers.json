@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1",
-  "description" : "HL7 New Zealand / Health New Zealand | Te Whatu Ora's list of published terminology servers",
+  "description" : "HL7 New Zealand / Health New Zealand's list of published terminology servers",
   "servers" : [{
     "code" : "nzhts",
     "name" : "New Zealand Health Terminology Server",
