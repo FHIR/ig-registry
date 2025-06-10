@@ -9,9 +9,6 @@
     "authoritative" : [
        "http://snomed.info/sct|http://snomed.info/sct/21000210109*"
     ],
-    "authoritative-valuesets" : [
-       "http://snomed.info/sct/21000210109*"
-    ],
     "fhirVersions" : [{
       "version" : "R4",
       "url" : "https://nzhts.digital.health.nz/fhir"
