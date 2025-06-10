@@ -5078,45 +5078,61 @@
       "authority" : "NHIA (TW)",
       "product" : ["fhir"],
       "country" : "tw",
-      "history" : "https://twcore.mohw.gov.tw/ig/pas/history.html",
+      "history" : "https://nhicore.nhi.gov.tw/pas/history.html",
       "language" : ["zh-TW"],
-      "canonical" : "https://twcore.mohw.gov.tw/ig/pas",
-      "ci-build" : "https://hitstdio.ntunhs.edu.tw/pas",
+      "canonical" : "https://nhicore.nhi.gov.tw/pas/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas/",
       "editions" : [
         {
           "name" : "STU1",
-          "ig-version" : "1.0.1",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.1",
+          "ig-version" : "1.0.4",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.4",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.1"
-        },
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.4"
+        }
+      ]
+    },
+    {
+      "name" : "TWNGS",
+      "category" : "Clinical Documents",
+      "npm-name" : "tw.gov.mohw.nhi.ngs",
+      "description" : "Taiwan NHI Next Generation Sequencing Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/ngs/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/ngs/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ngs/",
+      "editions" : [
         {
-          "name" : "STU1",
+          "name" : "STU1.0.0",
           "ig-version" : "1.0.0",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.0",
+          "package" : "tw.gov.mohw.nhi.ngs#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.0"
-        },
+          "url" : "https://nhicore.nhi.gov.tw/ngs/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "TWCI",
+      "category" : "Clinical Documents",
+      "npm-name" : "tw.gov.mohw.nhi.ci",
+      "description" : "Taiwan NHI Catastrophic Illness Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/ci/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/ci/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ci/",
+      "editions" : [
         {
-          "name" : "Trial Use",
-          "ig-version" : "0.2.0",
-          "package" : "tw.gov.mohw.nhi.pas#0.2.0",
+          "name" : "STU1.0.0",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.nhi.ci#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.2.0"
-        },
-        {
-          "name" : "Trial Use",
-          "ig-version" : "0.1.1",
-          "package" : "tw.gov.mohw.nhi.pas#0.1.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.1"
-        },
-        {
-          "name" : "Trial Use",
-          "ig-version" : "0.1.0",
-          "package" : "tw.gov.mohw.nhi.pas#0.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.0"
+          "url" : "https://nhicore.nhi.gov.tw/ci/1.0.0"
         }
       ]
     },
