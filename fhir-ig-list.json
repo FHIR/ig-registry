@@ -7028,7 +7028,7 @@
         }
       ]
     },
-        {
+    {
       "name" : "FHIR Implementation Guide for ABDM",
       "category" : "National Base",
       "npm-name" : "ndhm.in",
@@ -8340,9 +8340,9 @@
       "name" : "Dk Terminology for XDS Metadata",
       "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.xdsmetadata",
-      "description": "MedCom Terminology for XDS Metadata",
-      "authority": "MedCom",
-      "country": "dk",
+      "description" : "MedCom Terminology for XDS Metadata",
+      "authority" : "MedCom",
+      "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/xdsmetadata/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/xdsmetadata",
@@ -8446,10 +8446,10 @@
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "1.0.0-preview",
-          "package" : "ihe.pharm.mpd#1.0.0-comment",
+          "ig-version" : "1.0.0-comment-2",
+          "package" : "ihe.pharm.mpd#1.0.0-comment-2",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2"
         }
       ]
     },
