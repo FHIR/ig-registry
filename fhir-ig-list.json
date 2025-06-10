@@ -3091,7 +3091,6 @@
       "npm-name" : "ihe.formatcode.fhir",
       "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode",
@@ -3100,16 +3099,17 @@
         "valuesets" : 1,
         "codeSystems" : 1
       },
+      "language" : ["en"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication Normative",
-          "ig-version" : "1.3.0",
-          "package" : "ihe.formatcode.fhir#1.3.0",
+          "ig-version" : "1.4.0",
+          "package" : "ihe.formatcode.fhir#1.4.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
+          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.4.0"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "HL7 Terminology",
@@ -4542,11 +4542,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "4.0.0-comment",
-          "package" : "ihe.iti.mcsd#4.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "4.0.0",
+          "package" : "ihe.iti.mcsd#4.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/4.0.0-comment"
+          "url" : "https://profiles.ihe.net/ITI/mCSD/4.0.0"
         }
       ]
     },
@@ -8407,6 +8407,28 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
         }
+      ]
+    },
+    {
+      "name" : "Computable Care Guidelines (CCG)",
+      "category" : "Computable Care Guidelines",
+      "npm-name" : "ihe.qrph.ccg",
+      "description" : "The IHE Computable Care Guidelines (CCG) Profile specifies a normative grammar and a normative transaction processing model that allows evidence-based care recommendations to be expressed in a way that a digital health solution can ingest and operationalize. This is an implementable and conformance-testable specification. It is targeted to regulated healthcare markets where the support for multiple conditions is an important requirement. The CCG Profile supports jurisdictions that want to leverage digital health to systemically improve the adoption of guideline-adherent best practices across an entire care delivery network.",
+      "authority" : "IHE",
+      "country" : "uv",
+      "history" : "https://profiles.ihe.net/QRPH/CCG/history.html",
+      "language" : ["en"],
+      "canonical" : "https://profiles.ihe.net/QRPH/CCG",
+      "ci-build" : "http://build.fhir.org/ig/IHE/QRPH.CCG",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Publication Ballot",
+          "ig-version" : "1.0.0-comment",
+          "package" : "ihe.qrph.ccg#1.0.0-comment",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"         
+         }
       ]
     },
     {
