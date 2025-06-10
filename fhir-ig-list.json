@@ -3091,7 +3091,6 @@
       "npm-name" : "ihe.formatcode.fhir",
       "description" : "Defines IHE vocabulary for FormatCode and the IHE managed ValueSet for FormatCode for use with Document Sharing such as XDS, XCA, XDM, XDR, and MHD.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/history.html",
       "ci-build" : "http://build.fhir.org/ig/IHE/FormatCode",
@@ -3100,16 +3099,17 @@
         "valuesets" : 1,
         "codeSystems" : 1
       },
+      "language" : ["en"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication Normative",
-          "ig-version" : "1.3.0",
-          "package" : "ihe.formatcode.fhir#1.3.0",
+          "ig-version" : "1.4.0",
+          "package" : "ihe.formatcode.fhir#1.4.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.3.0"
+          "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.4.0"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "HL7 Terminology",
@@ -4542,11 +4542,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "4.0.0-comment",
-          "package" : "ihe.iti.mcsd#4.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "4.0.0",
+          "package" : "ihe.iti.mcsd#4.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/mCSD/4.0.0-comment"
+          "url" : "https://profiles.ihe.net/ITI/mCSD/4.0.0"
         }
       ]
     },
@@ -5078,45 +5078,61 @@
       "authority" : "NHIA (TW)",
       "product" : ["fhir"],
       "country" : "tw",
-      "history" : "https://twcore.mohw.gov.tw/ig/pas/history.html",
+      "history" : "https://nhicore.nhi.gov.tw/pas/history.html",
       "language" : ["zh-TW"],
-      "canonical" : "https://twcore.mohw.gov.tw/ig/pas",
-      "ci-build" : "https://hitstdio.ntunhs.edu.tw/pas",
+      "canonical" : "https://nhicore.nhi.gov.tw/pas/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas/",
       "editions" : [
         {
           "name" : "STU1",
-          "ig-version" : "1.0.1",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.1",
+          "ig-version" : "1.0.4",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.4",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.1"
-        },
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.4"
+        }
+      ]
+    },
+    {
+      "name" : "TWNGS",
+      "category" : "Clinical Documents",
+      "npm-name" : "tw.gov.mohw.nhi.ngs",
+      "description" : "Taiwan NHI Next Generation Sequencing Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/ngs/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/ngs/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ngs/",
+      "editions" : [
         {
-          "name" : "STU1",
+          "name" : "STU1.0.0",
           "ig-version" : "1.0.0",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.0",
+          "package" : "tw.gov.mohw.nhi.ngs#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/1.0.0"
-        },
+          "url" : "https://nhicore.nhi.gov.tw/ngs/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "TWCI",
+      "category" : "Rare Diseases",
+      "npm-name" : "tw.gov.mohw.nhi.ci",
+      "description" : "Taiwan NHI Catastrophic Illness Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/ci/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/ci/",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ci/",
+      "editions" : [
         {
-          "name" : "Trial Use",
-          "ig-version" : "0.2.0",
-          "package" : "tw.gov.mohw.nhi.pas#0.2.0",
+          "name" : "STU1.0.0",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.nhi.ci#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.2.0"
-        },
-        {
-          "name" : "Trial Use",
-          "ig-version" : "0.1.1",
-          "package" : "tw.gov.mohw.nhi.pas#0.1.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.1"
-        },
-        {
-          "name" : "Trial Use",
-          "ig-version" : "0.1.0",
-          "package" : "tw.gov.mohw.nhi.pas#0.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/pas/0.1.0"
+          "url" : "https://nhicore.nhi.gov.tw/ci/1.0.0"
         }
       ]
     },
@@ -7028,7 +7044,7 @@
         }
       ]
     },
-        {
+    {
       "name" : "FHIR Implementation Guide for ABDM",
       "category" : "National Base",
       "npm-name" : "ndhm.in",
@@ -7606,10 +7622,98 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "1.0.0",
-          "package" : "smart.who.int.dak-immz#1.0.0",
+          "ig-version" : "1.1.0",
+          "package" : "smart.who.int.dak-immz#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/dak-immz/v1.0.0"
+          "url" : "http://smart.who.int/dak-immz/v1.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "SMART DAK CCC",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-ccc",
+      "description" : "SMART Guidelines Digital Adaptation Kit (DAK) for Clinical Care in Crises (CCC)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-ccc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-ccc",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-ccc",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-ccc#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-ccc/v1.0.0"
+        }
+      ]
+    }, 
+    {
+      "name" : "SMART DAK TB",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-tb",
+      "description" : "SMART Guidelines Digital Adaptation Kit (DAK) for tuberculosis (TB)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-tb/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-tb",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-tb",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.1",
+          "package" : "smart.who.int.dak-tb#1.0.1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-tb/v1.0.1"
+        }
+      ]
+    },
+    {
+      "name" : "SMART Verifiable IPS for Pilgrimage",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.ips-pilgrimage",
+      "description" : "SMART Verifiable IPS for Pilgrimage",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ips-pilgrimage/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ips-pilgrimage",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-ips-pilgrimage",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "2.0.3",
+          "package" : "smart.who.int.ips-pilgrimage#2.0.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ips-pilgrimage/2.0.3"
+        }
+      ]
+    },
+    {
+      "name" : "SMART Guidelines Starter Kit",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.ig-starter-kit",
+      "description" : "SMART Guidelines Starter Kit",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ig-starter-kit/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ig-starter-kit",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-ig-starter-kit",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "2.0.0",
+          "package" : "smart.who.int.ig-starter-kit#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ig-starter-kit/v2.0.0"
         }
       ]
     },
@@ -8340,9 +8444,9 @@
       "name" : "Dk Terminology for XDS Metadata",
       "category" : "Clinical Documents",
       "npm-name" : "medcom.fhir.dk.xdsmetadata",
-      "description": "MedCom Terminology for XDS Metadata",
-      "authority": "MedCom",
-      "country": "dk",
+      "description" : "MedCom Terminology for XDS Metadata",
+      "authority" : "MedCom",
+      "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/xdsmetadata/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/xdsmetadata",
@@ -8410,6 +8514,28 @@
       ]
     },
     {
+      "name" : "Computable Care Guidelines (CCG)",
+      "category" : "Computable Care Guidelines",
+      "npm-name" : "ihe.qrph.ccg",
+      "description" : "The IHE Computable Care Guidelines (CCG) Profile specifies a normative grammar and a normative transaction processing model that allows evidence-based care recommendations to be expressed in a way that a digital health solution can ingest and operationalize. This is an implementable and conformance-testable specification. It is targeted to regulated healthcare markets where the support for multiple conditions is an important requirement. The CCG Profile supports jurisdictions that want to leverage digital health to systemically improve the adoption of guideline-adherent best practices across an entire care delivery network.",
+      "authority" : "IHE",
+      "country" : "uv",
+      "history" : "https://profiles.ihe.net/QRPH/CCG/history.html",
+      "language" : ["en"],
+      "canonical" : "https://profiles.ihe.net/QRPH/CCG",
+      "ci-build" : "http://build.fhir.org/ig/IHE/QRPH.CCG",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Publication Ballot",
+          "ig-version" : "1.0.0-comment",
+          "package" : "ihe.qrph.ccg#1.0.0-comment",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"         
+         }
+      ]
+    },
+    {
       "name" : "Medication Prescription and Dispense (MPD)",
       "category" : "Medication",
       "npm-name" : "ihe.pharm.mpd",
@@ -8424,10 +8550,10 @@
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "1.0.0-preview",
-          "package" : "ihe.pharm.mpd#1.0.0-comment",
+          "ig-version" : "1.0.0-comment-2",
+          "package" : "ihe.pharm.mpd#1.0.0-comment-2",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2"
         }
       ]
     },
