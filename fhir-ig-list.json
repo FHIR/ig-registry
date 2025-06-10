@@ -5116,7 +5116,7 @@
     },
     {
       "name" : "TWCI",
-      "category" : "Clinical Documents",
+      "category" : "Rare Diseases",
       "npm-name" : "tw.gov.mohw.nhi.ci",
       "description" : "Taiwan NHI Catastrophic Illness Implementation Guide",
       "authority" : "NHIA (TW)",
