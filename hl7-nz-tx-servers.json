@@ -1,0 +1,17 @@
+{
+  "formatVersion" : "1",
+  "description" : "HL7 New Zealand / Health New Zealand's list of published terminology servers",
+  "servers" : [{
+    "code" : "nzhts",
+    "name" : "New Zealand Health Terminology Service (NZHTS)",
+    "access_info" : "This server requires an API Key - see https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/terminology-service",
+    "url" : "https://nzhts.digital.health.nz/fhir",
+    "authoritative" : [
+       "http://snomed.info/sct|http://snomed.info/sct/21000210109*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R4",
+      "url" : "https://nzhts.digital.health.nz/fhir"
+    }]
+  }]
+}
