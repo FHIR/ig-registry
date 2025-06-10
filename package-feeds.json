@@ -382,6 +382,10 @@
     {
       "mask": "myhealth.eu.fhir.*",
       "feeds": [ "https://fhir.ehdsi.eu/package-feed.xml" ]
+    },
+    {
+      "mask": "tw.gov.mohw.*",
+      "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml", "https://nhicore.nhi.gov.tw/packages/package-feed.xml" ]
     }
   ]
 }
