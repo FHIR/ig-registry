@@ -7718,6 +7718,28 @@
       ]
     },
     {
+      "name" : "SMART DAK BDS",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-bds",
+      "description" : "SMART Digital Adaptation Kit (DAK) for birth defects surveillance (BDS)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-bds/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-bds",
+      "ci-build" : "http://worldhealthorganization.github.io/dak-bds",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-bds#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-bds/v1.0.0"
+        }
+      ]
+    },
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "Financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
