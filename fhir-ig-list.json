@@ -7705,7 +7705,7 @@
       "name" : "SMART DAK BDS",
       "category" : "SMART (WHO)",
       "npm-name" : "smart.who.int.dak-bds",
-      "description" : "SMART DAK BDS",
+      "description" : "SMART Digital Adaptation Kit (DAK) for birth defects surveillance (BDS)",
       "authority" : "World Health Organization",
       "country" : "uv",
       "history" : "http://smart.who.int/dak-bds/history.html",
