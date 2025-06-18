@@ -2210,7 +2210,6 @@
       "npm-name" : "hl7.fhir.us.davinci-pdex",
       "description" : "Payer data exchange with providers to support care coordination. Member-authorized sharing to Third-Party applications of Health Plan's Healthcare Service Network, Pharmacy Network and Prescription Drug Formulary",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/davinci-pdex/history.html",
       "canonical" : "http://hl7.org/fhir/us/davinci-pdex",
@@ -2228,16 +2227,17 @@
         "codeSystems" : 13,
         "examples" : 36
       },
+      "language" : ["en"],
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU2.1 Ballot",
-          "ig-version" : "2.1.0-ballot",
-          "package" : "hl7.fhir.us.davinci-pdex#2.1.0-ballot",
+          "name" : "STU2.1",
+          "ig-version" : "2.1.0",
+          "package" : "hl7.fhir.us.davinci-pdex#2.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pdex/2024SEP"
+          "url" : "http://hl7.org/fhir/us/davinci-pdex/STU2.1"
         }
-      ],
-      "language" : ["en"]
+      ]
     },
     {
       "name" : "CDISC Lab Semantics in FHIR",
@@ -7650,7 +7650,7 @@
           "url" : "http://smart.who.int/dak-ccc/v1.0.0"
         }
       ]
-    }, 
+    },
     {
       "name" : "SMART DAK TB",
       "category" : "SMART (WHO)",
@@ -8553,8 +8553,8 @@
           "ig-version" : "1.0.0-comment",
           "package" : "ihe.qrph.ccg#1.0.0-comment",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"         
-         }
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"
+        }
       ]
     },
     {
