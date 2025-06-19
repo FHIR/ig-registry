@@ -373,7 +373,6 @@
       "npm-name" : "hl7.fhir.us.qicore",
       "description" : "QICore defines a uniform way for quality measurement and decision support knowledge to refer to clinical data. The profiles align as much as possible with DAF and incorporate content from the (Quality Data Model) and the (Virtual Medical Record) specifications",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/qicore/history.html",
@@ -392,13 +391,14 @@
         "codeSystems" : 5,
         "examples" : 66
       },
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU7 (v7.0.0) Ballot",
-          "ig-version" : "7.0.0-ballot",
-          "package" : "hl7.fhir.us.qicore#7.0.0-ballot",
+          "name" : "STU7 (v7.0.0)",
+          "ig-version" : "7.0.0",
+          "package" : "hl7.fhir.us.qicore#7.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/qicore/2024Sep"
+          "url" : "http://hl7.org/fhir/us/qicore/STU7"
         }
       ]
     },
