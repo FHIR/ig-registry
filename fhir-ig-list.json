@@ -6923,16 +6923,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/resp-net",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhir-resp-net-ig",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.resp-net#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.resp-net#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/resp-net/2024Jan"
+          "url" : "http://hl7.org/fhir/us/resp-net/STU1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "US Prescription Drug Monitoring Program (PDMP)",
