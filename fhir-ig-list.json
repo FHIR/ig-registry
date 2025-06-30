@@ -8317,6 +8317,28 @@
           "url" : "http://medcomfhir.dk/ig/conditionlist/1.0.1"
         }
       ]
+    },
+    {
+      "name" : "MessageDefinition IG of the MedCom Message profiles",
+      "category" : "Communications",
+      "npm-name" : "medcom.fhir.dk.messagedefinitions",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "http://medcomfhir.dk/ig/messagedefinitions/history.html",
+      "language" : ["en"],
+      "canonical" : "http://medcomfhir.dk/ig/messagedefinitions",
+      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-messagedefinitions",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release 1.0 Draft",
+          "ig-version" : "1.0.0-trial-use",
+          "package" : "medcom.fhir.dk.messagedefinitions#1.0.0-trial-use",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://medcomfhir.dk/ig/messagedefinitions/1.0.0-trial-use"
+        }
+      ]
     }
   ]
 }
