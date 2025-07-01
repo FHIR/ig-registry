@@ -7784,6 +7784,28 @@
       ]
     },
     {
+      "name" : "SMART DAK SMBP",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-smbp",
+      "description" : "SMART Digital Adaptation Kit (DAK) for self-monitoring of blood pressure in pregnancy (SMBP)",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-smbp/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-smbp",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-smbp",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-smbp#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-smbp/v1.0.0"
+        }
+      ]
+    },
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "Financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
