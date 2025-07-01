@@ -7806,6 +7806,50 @@
       ]
     },
     {
+      "name" : "Reference Architecture",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.ra",
+      "description" : "The Reference Architecture Implementation Guide to be used as a starting point for building infrastructure with the SMART Guidelines approach",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/ra/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/ra",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-ra",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.ra#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/ra/v0.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "SMART Product Dataset for Prequalified Vaccines",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.pcmt-vaxprequal",
+      "description" : "Data exchange specifications for Product Catalog supporting the SMART Guidelines",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/pcmt-vaxprequal/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/pcmt-vaxprequal",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-pcmt-vaxprequal",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.pcmt-vaxprequal#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/pcmt-vaxprequal/v0.1.0"
+        }
+      ]
+    }
+    {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "Financial",
       "npm-name" : "hl7.fhir.us.davinci-pr",
