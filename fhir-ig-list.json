@@ -5102,15 +5102,15 @@
       "country" : "tw",
       "history" : "https://nhicore.nhi.gov.tw/pas/history.html",
       "language" : ["zh-TW"],
-      "canonical" : "https://nhicore.nhi.gov.tw/pas/",
-      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas/",
+      "canonical" : "https://nhicore.nhi.gov.tw/pas",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.4",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.4",
+          "name" : "STU1.0.5",
+          "ig-version" : "1.0.5",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.5",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.4"
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.5"
         }
       ]
     },
@@ -5124,8 +5124,8 @@
       "country" : "tw",
       "history" : "https://nhicore.nhi.gov.tw/ngs/history.html",
       "language" : ["zh-TW"],
-      "canonical" : "https://nhicore.nhi.gov.tw/ngs/",
-      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ngs/",
+      "canonical" : "https://nhicore.nhi.gov.tw/ngs",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ngs",
       "editions" : [
         {
           "name" : "STU1.0.0",
@@ -5138,7 +5138,7 @@
     },
     {
       "name" : "TWCI",
-      "category" : "Rare Diseases",
+      "category" : "Administration",
       "npm-name" : "tw.gov.mohw.nhi.ci",
       "description" : "Taiwan NHI Catastrophic Illness Implementation Guide",
       "authority" : "NHIA (TW)",
@@ -5146,8 +5146,8 @@
       "country" : "tw",
       "history" : "https://nhicore.nhi.gov.tw/ci/history.html",
       "language" : ["zh-TW"],
-      "canonical" : "https://nhicore.nhi.gov.tw/ci/",
-      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ci/",
+      "canonical" : "https://nhicore.nhi.gov.tw/ci",
+      "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ci",
       "editions" : [
         {
           "name" : "STU1.0.0",
