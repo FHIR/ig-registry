@@ -5667,10 +5667,10 @@
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "1.8.1",
-          "package" : "medcom.fhir.dk.terminology#1.8.1",
+          "ig-version" : "2.0.0-draft",
+          "package" : "medcom.fhir.dk.terminology#2.0.0-draft",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/terminology/1.8.1"
+          "url" : "http://medcomfhir.dk/ig/terminology/2.0.0-draft"
         }
       ]
     },
