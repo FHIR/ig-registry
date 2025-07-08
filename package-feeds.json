@@ -147,6 +147,11 @@
       "errors": "kyriosdata|ufg_br"
     },
     {
+      "name": "Secretaria de Estado da Saúde de Goiás | Brasil",
+      "url": "https://fhir.saude.go.gov.br/package-feed.xml",
+      "errors": "ses_go|goias_gov_br"
+    },
+    {
       "name": "MedCom",
       "url": "https://medcomfhir.dk/ig/package-feed.xml",
       "errors": "tms|medcom_dk"
@@ -382,6 +387,10 @@
     {
       "mask": "myhealth.eu.fhir.*",
       "feeds": [ "https://fhir.ehdsi.eu/package-feed.xml" ]
+    },
+    {
+      "mask": "tw.gov.mohw.*",
+      "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml", "https://nhicore.nhi.gov.tw/packages/package-feed.xml" ]
     }
   ]
 }

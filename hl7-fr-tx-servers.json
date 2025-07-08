@@ -9,7 +9,7 @@
     "authoritative" : [
       "https://mos.esante.gouv.fr/*",
       "https://smt.esante.gouv.fr/*",
-      "http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20240621*"
+      "http://snomed.info/sct|http://snomed.info/sct/11000315107*"
     ],
     "authoritative-valuesets" : [
        "https://smt.esante.gouv.fr*",
