@@ -5763,17 +5763,17 @@
       "history" : "http://medcomfhir.dk/ig/homecareobservation/history.html",
       "language" : ["en"],
       "canonical" : "http://medcomfhir.dk/ig/homecareobservation",
-      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-homecareobservation",
+      "ci-build" : "http://build.fhir.org/ig/medcomdk/dk_HomeCareObservations",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Release",
-          "ig-version" : "1.0.0",
-          "package" : "medcom.fhir.dk.homecareobservation#1.0.0",
+          "name" : "Release 1.x.x Draft",
+          "ig-version" : "1.1.0-trial-use",
+          "package" : "medcom.fhir.dk.homecareobservation#1.1.0-trial-use",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://medcomfhir.dk/ig/homecareobservation/1.0.0"
+          "url" : "http://medcomfhir.dk/ig/homecareobservation/1.1.0-trial-use"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "DK MedCom Messaging",
