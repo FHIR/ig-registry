@@ -7846,18 +7846,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.pq-cmc-fda#2.0.0-ballot",
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.pq-cmc-fda#2.0.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/2025Jan"
-        },
-        {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.pq-cmc-fda#1.0.0",
-          "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/STU1"
+          "url" : "http://hl7.org/fhir/us/pq-cmc-fda/STU2"
         }
       ]
     },
