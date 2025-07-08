@@ -3132,10 +3132,10 @@
       "editions" : [
         {
           "name" : "Publications",
-          "ig-version" : "6.4.0",
-          "package" : "hl7.terminology#6.4.0",
+          "ig-version" : "6.5.0",
+          "package" : "hl7.terminology#6.5.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://terminology.hl7.org/6.4.0"
+          "url" : "http://terminology.hl7.org/6.5.0"
         }
       ]
     },
