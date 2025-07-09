@@ -7848,7 +7848,7 @@
           "url" : "http://smart.who.int/pcmt-vaxprequal/v0.1.0"
         }
       ]
-    }
+    },
     {
       "name" : "DaVinci Postable Remittance FHIR Implementation Guide",
       "category" : "Financial",
