@@ -255,6 +255,11 @@
       "name": "MyHealth@eu",
       "url": "https://fhir.ehdsi.eu/package-feed.xml",
       "errors": "gcangioli|ehdsi_eu"
+    },
+    {
+      "name": "Taiwan FHIR Packages",
+      "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
+      "errors": "CCYU|mohw_gov_tw"
     }
   ],
   "package-restrictions": [
