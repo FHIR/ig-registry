@@ -8676,7 +8676,7 @@
     },
     {
       "name" : "WHO SMART Guidelines - ANC",
-      "category" : "base",
+      "category" : "SMART (WHO)",
       "npm-name" : "smart.who.int.anc",
       "description" : "SMART Guidelines for Antenatal Care (ANC)",
       "authority" : "World Health Organization",
