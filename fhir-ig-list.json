@@ -8653,6 +8653,28 @@
       ]
     },
     {
+      "name" : "WHO SMART Guidelines - HIV",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.hiv",
+      "description" : "SMART Guidelines for HIV",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/hiv/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/hiv",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-hiv",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.hiv#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/hiv/v1.0.0"
+        }
+      ]
+    },
+    {
       "name" : "SMART DAK PNC",
       "category" : "SMART (WHO)",
       "npm-name" : "smart.who.int.dak-pnc",
