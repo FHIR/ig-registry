@@ -260,6 +260,11 @@
       "name": "Taiwan FHIR Packages",
       "url": "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml",
       "errors": "CCYU|mohw_gov_tw"
+    },
+    {
+      "name": "Taiwan NHI-MOHW FHIR Packages",
+      "url": "https://nhicore.nhi.gov.tw/packages/package-feed.xml",
+      "errors": "TWNHI_FHIR|nhi_gov_tw"
     }
   ],
   "package-restrictions": [
