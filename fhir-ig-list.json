@@ -527,11 +527,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU7 (v7.0.0)",
-          "ig-version" : "7.0.0",
-          "package" : "hl7.fhir.us.qicore#7.0.0",
+          "name" : "STU7 (v7.0.1)",
+          "ig-version" : "7.0.1",
+          "package" : "hl7.fhir.us.qicore#7.0.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/qicore/STU7"
+          "url" : "http://hl7.org/fhir/us/qicore/STU7.0.1"
         }
       ]
     },
