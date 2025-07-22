@@ -9535,6 +9535,28 @@
           "url" : "https://unicas-fhir.sanidad.gob.es/"
         }
       ]
+    },
+    {
+      "name" : "Medication IG DE",
+      "category" : "National Base",
+      "npm-name" : "de.fhir.medication",
+      "description" : "Developed for the German healthcare context, this specification provides a set of profiles and extensions for medication management, currently focused on Dosage and Timing, based on FHIR R4.",
+      "authority" : "HL7 Deutschland e.V.",
+      "country" : "de",
+      "history" : "http://ig.fhir.de/igs/medication/history.html",
+      "language" : ["de"],
+      "canonical" : "http://ig.fhir.de/igs/medication",
+      "ci-build" : "http://build.fhir.org/ig/hl7germany/medication-ig-de-r4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "de.fhir.medication#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://ig.fhir.de/igs/medication/1.0.0-ballot"
+        }
+      ]
     }
   ]
 }
