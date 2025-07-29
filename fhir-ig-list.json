@@ -9528,6 +9528,28 @@
           "url" : "https://unicas-fhir.sanidad.gob.es/"
         }
       ]
+    },
+    {
+      "name" : "Vulcan FHIR to OMOP FHIR Implementation Guide",
+      "category" : "research",
+      "npm-name" : "hl7.fhir.uv.omop",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/omop/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/omop",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "INFORMATIVE 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.omop#1.0.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/fhir/uv/omop/2025Sep"
+        }
+      ]
     }
   ]
 }
