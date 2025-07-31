@@ -9529,6 +9529,28 @@
           "url" : "http://hl7.org/fhir/uv/omop/2025Sep"
         }
       ]
+    },
+    {
+      "name" : "CardX - Cardiac Implantable Electronic Devices",
+      "category" : "Care Management",
+      "npm-name" : "hl7.fhir.uv.cardx-cied",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/cardx-cied/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/cardx-cied",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cardx-cied",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.cardx-cied#1.0.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/fhir/uv/cardx-cied/2025Sep"
+        }
+      ]
     }
   ]
 }
