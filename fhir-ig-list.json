@@ -2945,32 +2945,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2",
-          "ig-version" : "2.1.0",
-          "package" : "hl7.fhir.us.davinci-pas#2.1.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.2.0-ballot",
+          "package" : "hl7.fhir.us.davinci-pas#2.2.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/STU2.1"
-        },
-        {
-          "name" : "STU 2",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-pas#2.0.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/STU2"
-        },
-        {
-          "name" : "STU 1.1",
-          "ig-version" : "1.1.0",
-          "package" : "hl7.fhir.us.davinci-pas#1.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/STU1.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-pas#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pas/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-pas/2025Sep"
         }
       ]
     },
@@ -6033,18 +6012,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.pacio-pfe#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.pacio-pfe#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/pacio-pfe/2024Sep"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.pacio-pfe#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/pacio-pfe/STU1"
+          "url" : "http://hl7.org/fhir/us/pacio-pfe/STU2"
         }
       ]
     },
@@ -6062,11 +6034,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.ph-library#1.0.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.us.ph-library#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/ph-library/STU1"
+          "url" : "http://hl7.org/fhir/us/ph-library/2025Sep"
         }
       ]
     },
@@ -8022,11 +7994,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.smart-health-cards-and-links#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.smart-health-cards-and-links#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep"
+          "url" : "http://hl7.org/fhir/uv/smart-health-cards-and-links/STU1"
         }
       ]
     },
@@ -9555,6 +9527,50 @@
           "package" : "de.fhir.medication#1.0.0-ballot",
           "fhir-version" : ["4.0.1"],
           "url" : "http://ig.fhir.de/igs/medication/1.0.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "Vulcan FHIR to OMOP FHIR Implementation Guide",
+      "category" : "research",
+      "npm-name" : "hl7.fhir.uv.omop",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/omop/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/omop",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "INFORMATIVE 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.omop#1.0.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/fhir/uv/omop/2025Sep"
+        }
+      ]
+    },
+    {
+      "name" : "CardX - Cardiac Implantable Electronic Devices",
+      "category" : "Care Management",
+      "npm-name" : "hl7.fhir.uv.cardx-cied",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/cardx-cied/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/cardx-cied",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cardx-cied",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.cardx-cied#1.0.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.org/fhir/uv/cardx-cied/2025Sep"
         }
       ]
     }

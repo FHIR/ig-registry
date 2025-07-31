@@ -62,11 +62,12 @@
     "2.16.840.1.113883.4.642.40.56" : {   "id" : "hl7.fhir.uv.ips",                               "info" : "Rob Hausam, 03-Mar 2025" },
     "2.16.840.1.113883.4.642.40.57" : {   "id" : "hl7.fhir.uv.v2mappings",                        "info" : "Rob Hausam, 03-Mar 2025" },
     "2.16.840.1.113883.4.642.40.58" : {   "id" : "hl7.fhir.us.ph-library",                        "info" : "Grahame Grieve, 14-May 2025" },
+    "2.16.840.1.113883.4.642.40.59" : {   "id" : "hl7.fhir.us.health-care-surveys-reporting",     "info" : "Reuben Daniels, 23-Jul 2025" },
+    "2.16.840.1.113883.4.642.40.60" : {   "id" : "hl7.fhir.us.qicore",                            "info" : "Grahame Grieve, 25-Jul 2025" },
 
     "1.3.6.1.4.1.19376.1.5.3.1.3.43" : {  "id" : "ihe.pcc.odh",                                   "info" : "John Moehrke, 04-Nov 2024" },
 
     "2.16.840.1.113883.2.51.22.1"   : {  "id" : "hl7.fhir.eu.laboratory",                         "info" : "Giorgio Cangioli, 19-Mar 2025" },
     "2.16.840.1.113883.2.51.22.2"   : {  "id" : "hl7.fhir.be.pss",                                "info" : "Grahame Grieve, 12-May 2025" }
-
   }
 }
