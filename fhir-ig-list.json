@@ -9551,6 +9551,28 @@
           "url" : "http://hl7.org/fhir/uv/cardx-cied/2025Sep"
         }
       ]
+    },
+    {
+      "name" : "Pharmaceutical Clinical Trial Protocols",
+      "category" : "Research",
+      "npm-name" : "hl7.fhir.uv.pharmaceutical-research-protocol",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol",
+      "ci-build" : "https://github.com/HL7/vulcan-udp-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.pharmaceutical-research-protocol#1.0.0-ballot",
+          "fhir-version" : ["6.0.0"],
+          "url" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol/2025Sep"
+        }
+      ]
     }
   ]
 }
