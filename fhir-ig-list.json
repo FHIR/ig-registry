@@ -527,11 +527,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU7 (v7.0.1)",
-          "ig-version" : "7.0.1",
-          "package" : "hl7.fhir.us.qicore#7.0.1",
+          "name" : "STU 8 Ballot",
+          "ig-version" : "8.0.0-ballot",
+          "package" : "hl7.fhir.us.qicore#8.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/qicore/STU7.0.1"
+          "url" : "http://hl7.org/fhir/us/qicore/2025Sep"
         }
       ]
     },
