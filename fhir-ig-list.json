@@ -9573,6 +9573,28 @@
           "url" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol/2025Sep"
         }
       ]
+    },
+    {
+      "name" : "Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids",
+      "category" : "Quality/CDS",
+      "npm-name" : "hl7.fhir.us.cdc-opioid-cpg",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/cdc-opioid-cpg/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/cdc-opioid-cpg",
+      "ci-build" : "http://build.fhir.org/ig/HL7/cdc-opioid-cpg",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.cdc-opioid-cpg#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/cdc-opioid-cpg/2025Sep"
+        }
+      ]
     }
   ]
 }
