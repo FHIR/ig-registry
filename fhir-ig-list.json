@@ -2959,25 +2959,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2",
-          "ig-version" : "2.0.0",
-          "package" : "hl7.fhir.uv.bulkdata#2.0.0",
+          "name" : "STU3 Ballot",
+          "ig-version" : "3.0.0-ballot",
+          "package" : "hl7.fhir.uv.bulkdata#3.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/bulkdata/STU2"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.1",
-          "package" : "hl7.fhir.uv.bulkdata#1.0.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/bulkdata/STU1.0.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.bulkdata#1.0.0",
-          "fhir-version" : ["4.0.0"],
-          "url" : "http://hl7.org/fhir/uv/bulkdata/STU1"
+          "url" : "http://hl7.org/fhir/uv/bulkdata/2025Sep"
         }
       ]
     },
