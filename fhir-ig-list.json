@@ -9567,6 +9567,28 @@
           "url" : "http://hl7.org/fhir/us/cdc-opioid-cpg/2025Sep"
         }
       ]
+    },
+    {
+      "name" : "國家級人體生物資料庫整合平台共同資料模式實作指引(NBCT Common Data Model IG)",
+      "category" : "CDM",
+      "npm-name" : "CDM",
+      "description" : "此IG定義了CDM相關的Profiles。",
+      "authority" : "CDM",
+      "country" : "TW",
+      "history" : "https://www.ghd.tw/cdm-fhir/history.html",
+      "language" : ["en"],
+      "canonical" : "https://www.ghd.tw/cdm-fhir",
+      "ci-build" : "https://www.ghd.tw/cdm-fhir/build",
+      "product" : ["fhir", "fhir", "fhir", "fhir", "fhir", "fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "1.0.0",
+          "package" : "CDM#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://www.ghd.tw/cdm-fhir/1.0.0"
+        }
+      ]
     }
   ]
 }
