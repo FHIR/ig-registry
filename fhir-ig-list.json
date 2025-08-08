@@ -1512,32 +1512,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2.1",
-          "ig-version" : "2.1.0",
-          "package" : "hl7.fhir.us.davinci-crd#2.1.0",
+          "name" : "STU 2.2 Ballot",
+          "ig-version" : "2.2.0-ballot",
+          "package" : "hl7.fhir.us.davinci-crd#2.2.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2.1"
-        },
-        {
-          "name" : "STU 2.1",
-          "ig-version" : "2.1.0-preview",
-          "package" : "hl7.fhir.us.davinci-crd#2.1.0-preview",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2.1-preview"
-        },
-        {
-          "name" : "STU 2.0",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.us.davinci-crd#2.0.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU2"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-crd#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-crd/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-crd/2025Sep"
         }
       ]
     },
@@ -2234,18 +2213,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "1.1.0",
-          "package" : "hl7.fhir.uv.phd#1.1.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot2",
+          "package" : "hl7.fhir.uv.phd#2.0.0-ballot2",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/phd/STU1.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.phd#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/phd/STU1"
+          "url" : "http://hl7.org/fhir/uv/phd/2025Sep"
         }
       ]
     },
@@ -6778,10 +6750,10 @@
       "editions" : [
         {
           "name" : "STU 1.0 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.rtls#1.0.0-ballot",
-          "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/rtls/2023May"
+          "ig-version" : "1.0.0-ballot2",
+          "package" : "hl7.fhir.uv.rtls#1.0.0-ballot2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/rtls/2025Sep"
         }
       ]
     },
