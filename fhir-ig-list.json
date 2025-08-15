@@ -7336,11 +7336,11 @@
       ]
     },
     {
-      "name" : "FHIRJPCoreImplementationGuide",
+      "name" : "Japanese Core Implementation Guide",
       "category" : "National Base",
       "npm-name" : "hl7.fhir.jp.core",
-      "description" : "HL7 FHIR JP Core ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "description" : "A core set of FHIR resources profiled for the Japanese context",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
@@ -7355,11 +7355,18 @@
       "canonical" : "http://jpfhir.jp/fhir/core",
       "editions" : [
         {
-          "name" : "jp-core.r4",
-          "ig-version" : "1.1.1",
-          "package" : "hl7.fhir.r4.core#1.1.1",
+          "name" : "Release",
+          "ig-version" : "1.2.0",
+          "package" : "jpfhir.jp.core#1.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/core/1.1.1"
+          "url" : "https://jpfhir.jp/fhir/core/1.2.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.1.2",
+          "package" : "jpfhir.jp.core#1.1.2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://jpfhir.jp/fhir/core/1.1.2"
         }
       ]
     },
