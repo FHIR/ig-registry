@@ -9533,6 +9533,28 @@
           "url" : "http://hl7.org/xprod/ig/uv/piqi/2025Sep"
         }
       ]
+    },
+    {
+      "name" : "US Behavioral Health Profiles",
+      "category" : "Care Management",
+      "npm-name" : "fhir.astp.bhp",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "http://fhir.org/guides/astp/bhp/history.html",
+      "language" : ["en"],
+      "canonical" : "http://fhir.org/guides/astp/bhp",
+      "ci-build" : " http://build.fhir.org/guides/astp/bhp",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "0.1.0",
+          "ig-version" : "0.1.0",
+          "package" : "fhir.astp.bhp#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://fhir.org/guides/astp/bhp/0.1.0"
+        }
+      ]
     }
   ]
 }
