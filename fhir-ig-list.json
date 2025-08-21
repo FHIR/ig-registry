@@ -7021,10 +7021,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "2.2.0",
-          "package" : "kl.dk.fhir.term#2.2.0",
+          "ig-version" : "2.3.0",
+          "package" : "kl.dk.fhir.term#2.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/term/2.2.0"
+          "url" : "http://fhir.kl.dk/term/2.3.0"
         }
       ]
     },
