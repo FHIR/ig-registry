@@ -392,7 +392,7 @@
     },
     {
       "mask": "hl7.fhir.pl.*",
-      "feeds": [ "http://fhir.hl7.org.pl/packages/package-feed.xml" ]
+      "feeds": [ "https://fhir.hl7.org.pl/packages/package-feed.xml" ]
     },
     {
       "mask": "myhealth.eu.fhir.*",
