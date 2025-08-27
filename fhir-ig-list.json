@@ -3238,7 +3238,7 @@
       "editions" : [
         {
           "name" : "STU3",
-          "ig-version" : "0.2.30 ",
+          "ig-version" : "0.2.30",
           "fhir-version" : ["3.0.1"],
           "package" : "basisprofil.de#0.2.30",
           "url" : "http://ig.fhir.de/basisprofile-de/0.2.30"
