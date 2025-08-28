@@ -270,6 +270,11 @@
       "name": "Taiwan NHI-MOHW FHIR Packages",
       "url": "https://nhicore.nhi.gov.tw/packages/package-feed.xml",
       "errors": "TWNHI_FHIR|nhi_gov_tw"
+    },
+	{
+      "name": "DHP Uzbekistan",
+      "url": "https://vadi2.github.io/DHP-temp/package-feed.xml",
+      "errors": "fhir|vadimperetok.in"
     }
   ],
   "package-restrictions": [
@@ -413,4 +418,3 @@
     }
   ]
 }
-
