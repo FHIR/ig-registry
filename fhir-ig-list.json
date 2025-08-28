@@ -3238,7 +3238,7 @@
       "editions" : [
         {
           "name" : "STU3",
-          "ig-version" : "0.2.30 ",
+          "ig-version" : "0.2.30",
           "fhir-version" : ["3.0.1"],
           "package" : "basisprofil.de#0.2.30",
           "url" : "http://ig.fhir.de/basisprofile-de/0.2.30"
@@ -5762,6 +5762,13 @@
       "editions" : [
         {
           "name" : "Trial Use",
+          "ig-version" : "0.2.0",
+          "package" : "tw.gov.mohw.emr#0.2.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://twcore.mohw.gov.tw/ig/emr/0.2.0"
+        },
+        {
+          "name" : "Trial Use",
           "ig-version" : "0.1.0",
           "package" : "tw.gov.mohw.emr#0.1.0",
           "fhir-version" : ["4.0.1"],
@@ -7021,10 +7028,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "2.2.0",
-          "package" : "kl.dk.fhir.term#2.2.0",
+          "ig-version" : "2.3.0",
+          "package" : "kl.dk.fhir.term#2.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://fhir.kl.dk/term/2.2.0"
+          "url" : "http://fhir.kl.dk/term/2.3.0"
         }
       ]
     },
@@ -7336,11 +7343,11 @@
       ]
     },
     {
-      "name" : "FHIRJPCoreImplementationGuide",
+      "name" : "Japanese Core Implementation Guide",
       "category" : "National Base",
       "npm-name" : "hl7.fhir.jp.core",
-      "description" : "HL7 FHIR JP Core ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "description" : "A core set of FHIR resources profiled for the Japanese context",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
@@ -7355,11 +7362,18 @@
       "canonical" : "http://jpfhir.jp/fhir/core",
       "editions" : [
         {
-          "name" : "jp-core.r4",
-          "ig-version" : "1.1.1",
-          "package" : "hl7.fhir.r4.core#1.1.1",
+          "name" : "Release",
+          "ig-version" : "1.2.0",
+          "package" : "jpfhir.jp.core#1.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/core/1.1.1"
+          "url" : "https://jpfhir.jp/fhir/core/1.2.0"
+        },
+        {
+          "name" : "Release",
+          "ig-version" : "1.1.2",
+          "package" : "jpfhir.jp.core#1.1.2",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://jpfhir.jp/fhir/core/1.1.2"
         }
       ]
     },
@@ -8541,24 +8555,46 @@
       ]
     },
     {
-      "name" : "WHO SMART Guidelines - HIV",
+      "name" : "WHO SMART Guidelines - ANC",
       "category" : "SMART (WHO)",
-      "npm-name" : "smart.who.int.hiv",
-      "description" : "SMART Guidelines for HIV",
+      "npm-name" : "smart.who.int.anc",
+      "description" : "SMART Guidelines for Antenatal Care (ANC)",
       "authority" : "World Health Organization",
       "country" : "uv",
-      "history" : "http://smart.who.int/hiv/history.html",
+      "history" : "http://smart.who.int/anc/history.html",
       "language" : ["en"],
-      "canonical" : "http://smart.who.int/hiv",
-      "ci-build" : "http://worldhealthorganization.github.io/smart-hiv",
+      "canonical" : "http://smart.who.int/anc",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-anc",
       "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "1.0.0",
-          "package" : "smart.who.int.hiv#1.0.0",
+          "ig-version" : "0.3.0",
+          "package" : "smart.who.int.anc#0.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/hiv/v1.0.0"
+          "url" : "http://smart.who.int/anc/v0.3.0"
+        }
+      ]
+    },
+    {
+      "name" : "SMART DAK PNC",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.dak-pnc",
+      "description" : "SMART Digital Adaptation Kit (DAK) for Postnatal Care",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/dak-pnc/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/dak-pnc",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-dak-pnc",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.9.9",
+          "package" : "smart.who.int.dak-pnc#0.9.9",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/dak-pnc/v0.9.9"
         }
       ]
     },
@@ -9421,6 +9457,28 @@
           "package" : "unicas-ig#0.0.1",
           "fhir-version" : ["5.0.0"],
           "url" : "https://unicas-fhir.sanidad.gob.es/"
+        }
+      ]
+    },
+    {
+      "name" : "Medication IG DE",
+      "category" : "National Base",
+      "npm-name" : "de.fhir.medication",
+      "description" : "Developed for the German healthcare context, this specification provides a set of profiles and extensions for medication management, currently focused on Dosage and Timing, based on FHIR R4.",
+      "authority" : "HL7 Deutschland e.V.",
+      "country" : "de",
+      "history" : "http://ig.fhir.de/igs/medication/history.html",
+      "language" : ["de"],
+      "canonical" : "http://ig.fhir.de/igs/medication",
+      "ci-build" : "http://build.fhir.org/ig/hl7germany/medication-ig-de-r4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "de.fhir.medication#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://ig.fhir.de/igs/medication/1.0.0-ballot"
         }
       ]
     },
