@@ -2941,6 +2941,7 @@
     },
     {
       "name" : "Basisgegevensset Zorg || Patient Summary",
+      "npm-name" : "nictiz.fhir.nl.stu3.zib2017",
       "category" : "Patient Summary",
       "description" : "The Basisgegevensset Zorg, aka BgZ, is the minimum set of patient data that is important for continuity of care and is relevant irrespective of specialism, patient conditions and type of physicians. This set of patient data is recorded comparatively by all healthcare providers. This facilitates information exchange. The BgZ has been made consistent with the European Patient Summary.",
       "authority" : "Nictiz (NL)",
@@ -4134,7 +4135,7 @@
       "product" : ["fhir"],
       "country" : "no",
       "language" : ["en"],
-      "canonical" : "http://hl7.no/fhir/",
+      "canonical" : "http://hl7.no/fhir",
       "editions" : [
         {
           "name" : "HL7 Norway no-basis",
@@ -5561,21 +5562,21 @@
         },
         {
           "name" : "Trial Use",
-          "ig-version" : "1.0.0",
+          "ig-version" : "1.0.1",
           "package" : "hl7.fhir.be.vaccination#1.0.1",
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
         },
         {
           "name" : "Trial Use",
-          "ig-version" : "1.0.0",
+          "ig-version" : "1.0.2",
           "package" : "hl7.fhir.be.vaccination#1.0.2",
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
         },
         {
           "name" : "Trial Use",
-          "ig-version" : "1.0.0",
+          "ig-version" : "1.0.3",
           "package" : "hl7.fhir.be.vaccination#1.0.3",
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
@@ -6547,7 +6548,7 @@
       "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/acknowledgement/history.html",
       "language" : ["en"],
-      "canonical" : "http://medcomfhir.dk/ig/acknowledgement/",
+      "canonical" : "http://medcomfhir.dk/ig/acknowledgement",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement",
       "editions" : [
         {
@@ -6605,7 +6606,7 @@
       "country" : "dk",
       "history" : "http://medcomfhir.dk/ig/messaging/history.html",
       "language" : ["en"],
-      "canonical" : "http://medcomfhir.dk/ig/messaging/",
+      "canonical" : "http://medcomfhir.dk/ig/messaging",
       "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-medcom-messaging",
       "editions" : [
         {
@@ -7080,28 +7081,6 @@
       ]
     },
     {
-      "name" : "HL7 FHIR Implementation Guide: Public Health IG Release 1 - BE Realm | STU1",
-      "category" : "National Base",
-      "npm-name" : "hl7.fhir.be.public-health",
-      "description" : "Public Health IG",
-      "authority" : "eHealth Platform Belgium",
-      "country" : "be",
-      "history" : "https://www.ehealth.fgov.be/standards/fhir/public-health/history.html",
-      "language" : ["en"],
-      "canonical" : "https://www.ehealth.fgov.be/standards/fhir/public-health",
-      "ci-build" : "http://build.fhir.org/ig/hl7-be/public-health",
-      "editions" : [
-        {
-          "name" : "Trial Use",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.be.public-health#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
-        }
-      ],
-      "product" : ["fhir"]
-    },
-    {
       "name" : "Sharing of IPS (sIPS)",
       "category" : "Clinical Documents",
       "npm-name" : "ihe.iti.sips",
@@ -7243,14 +7222,14 @@
       "history" : "https://commonprofiles.care/fhir/history.html",
       "language" : ["en"],
       "canonical" : "https://commonprofiles.care/fhir",
-      "ci-build" : "https://build.fhir.org/ig/commonprofiles-care/fhir/",
+      "ci-build" : "https://build.fhir.org/ig/commonprofiles-care/fhir",
       "editions" : [
         {
           "name" : "Releases",
           "ig-version" : "1.0.1",
           "package" : "care.commonprofiles.fhir#1.0.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://commonprofiles.care/fhir/1.0.1/"
+          "url" : "https://commonprofiles.care/fhir/1.0.1"
         }
       ],
       "product" : ["fhir"]
@@ -7338,7 +7317,7 @@
           "ig-version" : "1.0.1",
           "package" : "hl7.fhir.kr.core#1.0.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1/"
+          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1"
         }
       ]
     },
@@ -7453,6 +7432,13 @@
       "canonical" : "https://www.ehealth.fgov.be/standards/fhir/public-health",
       "ci-build" : "http://build.fhir.org/ig/hl7-be/public-health",
       "editions" : [
+        {
+          "name" : "Trial Use",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.be.public-health#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
+        },
         {
           "name" : "Trial Use",
           "ig-version" : "1.0.2",
@@ -7782,7 +7768,7 @@
       "language" : ["en"],
       "canonical" : "https://nrces.in/ndhm/fhir/r4",
       "ci-build" : "https://nrces.in/ndhm/fhir/r4",
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Releases",
@@ -8179,7 +8165,7 @@
       "category" : "Frameworks",
       "npm-name" : "dk.ehealth.sundhed.fhir.ig.core",
       "description" : "The Danish eHealth Infrastructure Implementation Guide defines a set of FHIR profiles with extensions and bindings needed to create interoperable, quality-focused applications.",
-      "authority" : "Den telemedicinske infrastruktur (eHealth Infrastructure)",
+      "authority" : "Den telemedicinske infrastruktur",
       "country" : "dk",
       "history" : "http://ehealth.sundhed.dk/fhir/history.html",
       "language" : ["en"],
@@ -9442,8 +9428,8 @@
       "name" : "ÚNICAS Rare Diseases HL7 FHIR Implementation Guide",
       "category" : "Rare Diseases",
       "npm-name" : "unicas-ig",
-      "description" : "This is the implementation guide for ÚNICAS, a project whose objective is to create an ecosystem of partnerships to improve healthcare for pediatric patients with complex rare diseases. Through the network within the National Health System, the project aims to improve the diagnosis and care of patients with rare diseases.",
-      "authority" : "TIC Salut Social, CatSalut Departament de Salut de Catalunya, Sistema Nacional de Salud Ministerio de Sanidad de España",
+      "description" : "This is the implementation guide for ÚNICAS, a project whose objective is to create an ecosystem of partnerships to improve healthcare for pediatric patients with complex rare diseases. Through the network within the National Health System, the project aims to improve the diagnosis and care of patients with rare diseases. Published by TIC Salut Social, CatSalut Departament de Salut de Catalunya, Sistema Nacional de Salud Ministerio de Sanidad de España",
+      "authority" : "TIC Salut Social",
       "country" : "es",
       "history" : "https://unicas-fhir.sanidad.gob.es/history.html",
       "language" : ["es"],
@@ -9456,7 +9442,7 @@
           "ig-version" : "0.0.1",
           "package" : "unicas-ig#0.0.1",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://unicas-fhir.sanidad.gob.es/"
+          "url" : "https://unicas-fhir.sanidad.gob.es"
         }
       ]
     },
@@ -9486,7 +9472,7 @@
       "name" : "Vulcan FHIR to OMOP FHIR Implementation Guide",
       "category" : "research",
       "npm-name" : "hl7.fhir.uv.omop",
-      "description" : "??",
+      "description" : "This IG delivers FHIR‑to‑OMOP Logical Models, StructureMaps, and pragmatic, hands‑on implementer guidance, enabling you to: Transform data uniformly with minimal information loss, Accelerate observational research and real‑world‑evidence generation with FHIR, and Cut costs and time through faster, more consistent ETL pipelines",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/omop/history.html",
@@ -9508,7 +9494,7 @@
       "name" : "CardX - Cardiac Implantable Electronic Devices",
       "category" : "Care Management",
       "npm-name" : "hl7.fhir.uv.cardx-cied",
-      "description" : "??",
+      "description" : "The CardX - Cardiac Implantable Electronic Devices IG defines universal standards to enable interoperable data exchange for CIED use cases and data. The IG consists of FHIR profiles, extensions, transactions, and value sets needed to represent, query for, and exchange data for evidence-based management of CIED patients.",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/cardx-cied/history.html",
@@ -9530,7 +9516,7 @@
       "name" : "Pharmaceutical Clinical Trial Protocols",
       "category" : "Research",
       "npm-name" : "hl7.fhir.uv.pharmaceutical-research-protocol",
-      "description" : "??",
+      "description" : "The IG covers a range of use cases for digital representation of a Clinical Trial protocol.   The simplest use case is document oriented submission of a protocol to a Regulator. Complex use cases require detailed machine processable representation of a protocol.",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol/history.html",
@@ -9552,7 +9538,7 @@
       "name" : "Data Exchange Profiles for 2022 CDC Clinical Practice Guideline for Prescribing Opioids",
       "category" : "Quality/CDS",
       "npm-name" : "hl7.fhir.us.cdc-opioid-cpg",
-      "description" : "??",
+      "description" : "Defines exchange expectations for systems that implement the CDC's Clinical Practice Guideline for Prescribing Opioids, both in terms of the data required to evaluate whether recommendations are applicable, as well as the data required to represent proposals resulting from those recommendations.",
       "authority" : "HL7",
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/cdc-opioid-cpg/history.html",
@@ -9574,7 +9560,7 @@
       "name" : "HL7 Informative Document: Patient Information Quality Improvement (PIQI) Framework, Edition 1",
       "category" : "Frameworks",
       "npm-name" : "hl7.xprod.uv.piqi",
-      "description" : "??",
+      "description" : "The Patient Information Quality Improvement Framework or PIQI Framework (pronounced ‘picky’) creates a standard approach to evaluating data quality of patient-centric healthcare information. PIQI prioritizes portability and reusability, enabling seamless integration into various systems irrespective of the data source.",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/xprod/ig/uv/piqi/history.html",
@@ -9596,9 +9582,9 @@
       "name" : "US Behavioral Health Profiles",
       "category" : "Care Management",
       "npm-name" : "fhir.astp.bhp",
-      "description" : "??",
-      "authority" : "??",
-      "country" : "??",
+      "description" : "The United States Core Data for Interoperability (USCDI) Plus Behavioral Health (BH) dataset (also referred to as USCDI+ BH) aims to enhance the exchange and interoperability of behavioral health information across healthcare systems in the United States. Building on the USCDI foundation, this dataset addresses the unique needs and challenges associated with behavioral health data. It is designed to facilitate behavioral health integration with other healthcare services, support better clinical decision-making, and improve patient outcomes.",
+      "authority" : "US Government",
+      "country" : "us",
       "history" : "http://fhir.org/guides/astp/bhp/history.html",
       "language" : ["en"],
       "canonical" : "http://fhir.org/guides/astp/bhp",
