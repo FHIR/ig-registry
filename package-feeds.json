@@ -273,7 +273,7 @@
     },
 	{
       "name": "DHP Uzbekistan",
-      "url": "https://vadi2.github.io/DHP-temp/package-feed.xml",
+      "url": "https://vadimperetok.in/DHP-temp/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
     }
   ],
@@ -418,3 +418,4 @@
     }
   ]
 }
+
