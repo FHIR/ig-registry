@@ -1,0 +1,79 @@
+name: Validate Registry Files
+
+on:
+  push:
+    paths:
+      - '**.json'
+  pull_request:
+    paths:
+      - '**.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Get changed files
+        id: changed-files
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            # For PRs, get files changed in this PR
+            git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} > changed_files.txt
+          else
+            # For pushes, get files changed in the last commit
+            git diff --name-only HEAD~1 HEAD > changed_files.txt
+          fi
+          
+          # Filter for JSON files only
+          grep '\.json$' changed_files.txt || echo "No JSON files changed" > changed_files.txt
+          
+          echo "Changed files:"
+          cat changed_files.txt
+          
+          # Set environment variable for the validation script
+          echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+          cat changed_files.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      
+      - name: Check for escaped Unicode characters
+        run: |
+          if grep -q '\\u' *.json 2>/dev/null; then
+            echo "Error: Escaped Unicode characters found in JSON files"
+            echo "Failing lines:"
+            grep -n '\\u' *.json
+            exit 1
+          else
+            echo "✅ No escaped Unicode characters found."
+          fi
+      
+      - name: Run comprehensive validation
+        run: |
+          node validate-enhanced.js
+        env:
+          CHANGED_FILES: ${{ env.CHANGED_FILES }}
+
+  # Legacy validation job for backward compatibility
+  check-unicode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for escaped Unicode characters in fhir-ig-list.json
+        run: |
+          if grep -q '\\u' fhir-ig-list.json; then
+            echo "Error: Escaped Unicode characters found in fhir-ig-list.json"
+            echo "Failing lines:"
+            grep -n '\\u' fhir-ig-list.json
+            exit 1
+          else
+            echo "No escaped Unicode characters found."
+          fi

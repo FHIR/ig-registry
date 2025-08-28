@@ -1,0 +1,15 @@
+{
+  "name": "fhir-registry-validation",
+  "version": "1.0.0",
+  "description": "Validation scripts for FHIR registry JSON files",
+  "main": "validate-enhanced.js",
+  "scripts": {
+    "validate": "node validate-enhanced.js",
+    "test": "node validate-enhanced.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["fhir", "validation", "json"],
+  "license": "MIT"
+}
