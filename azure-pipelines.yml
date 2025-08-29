@@ -98,7 +98,7 @@ steps:
     echo "Running comprehensive validation..."
     echo "Changed files: $(changedFiles)"
     export CHANGED_FILES="$(changedFiles)"
-    node validate-enhanced.js
+    node validation.js
   displayName: 'Run comprehensive validation'
   env:
     CHANGED_FILES: $(changedFiles)
