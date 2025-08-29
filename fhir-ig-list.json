@@ -5137,7 +5137,6 @@
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/fhircast/history.html",
       "language" : ["en"],
-      "canonical" : "http://hl7.org/fhir/uv/fhircast",
       "ci-build" : "http://build.fhir.org/ig/HL7/fhircast-docs",
       "analysis" : {
         "content" : true,
@@ -5146,28 +5145,15 @@
         "extensions" : 1,
         "examples" : 1
       },
+      "canonical" : "http://fhircast.hl7.org",
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU3 (v3.0.0) Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.uv.fhircast#3.0.0-ballot",
+          "name" : "STU3 (v3.0.0)",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.uv.fhircast#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/fhircast/2024May"
-        },
-        {
-          "name" : "STU2",
-          "ig-version" : "2.0.0",
-          "package" : "hl7.fhir.uv.fhircast#2.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://fhircast.hl7.org/specification/STU2"
-        },
-        {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.fhircast#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://fhircast.hl7.org/specification/STU1"
+          "url" : "http://fhircast.hl7.org/STU3"
         }
       ]
     },
