@@ -118,7 +118,7 @@
     },
     {
       "name": "HL7 Germany",
-      "url": "https://ig.fhir.de/igs/publication-feed.xml",
+      "url": "https://ig.fhir.de/igs/package-feed.xml",
       "errors": "cto|hl7_de"
     },
     {
