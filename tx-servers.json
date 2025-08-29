@@ -19,7 +19,7 @@
     {
       "code": "hl7-ca",
       "name": "HL7 Canada Terminology Services",
-      "authority": "Published by HL7 Canada/\u2008Canada Health Infoway",
+      "authority": "Published by HL7 Canada/Canada Health Infoway",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ca-tx-servers.json"
     },
     {
