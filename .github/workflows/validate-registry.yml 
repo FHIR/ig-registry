@@ -15,42 +15,32 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       
-      - name: Get changed files
-        id: changed-files
+      - name: Get all JSON files
+        id: all-files
         run: |
-          if [ "${{ github.event_name }}" == "pull_request" ]; then
-            # For PRs, get files changed in this PR
-            git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} > changed_files.txt
-          else
-            # For pushes, get files changed in the last commit
-            git diff --name-only HEAD~1 HEAD > changed_files.txt
-          fi
+          # Find all JSON files in the repository
+          find . -name "*.json" -type f > all_json_files.txt
           
-          # Filter for JSON files only
-          grep '\.json$' changed_files.txt || echo "No JSON files changed" > changed_files.txt
-          
-          echo "Changed files:"
-          cat changed_files.txt
+          echo "All JSON files:"
+          cat all_json_files.txt
           
           # Set environment variable for the validation script
-          echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
-          cat changed_files.txt >> $GITHUB_ENV
+          echo "ALL_JSON_FILES<<EOF" >> $GITHUB_ENV
+          cat all_json_files.txt >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
       
       - name: Check for escaped Unicode characters
         run: |
-          if grep -q '\\u' *.json 2>/dev/null; then
+          if find . -name "*.json" -type f -exec grep -l '\\u' {} \; | head -1 | grep -q .; then
             echo "Error: Escaped Unicode characters found in JSON files"
-            echo "Failing lines:"
-            grep -n '\\u' *.json
+            echo "Failing files and lines:"
+            find . -name "*.json" -type f -exec grep -Hn '\\u' {} \;
             exit 1
           else
             echo "✅ No escaped Unicode characters found."
@@ -58,9 +48,9 @@ jobs:
       
       - name: Run comprehensive validation
         run: |
-          node validate-enhanced.js
+          node validation.js
         env:
-          CHANGED_FILES: ${{ env.CHANGED_FILES }}
+          ALL_JSON_FILES: ${{ env.ALL_JSON_FILES }}
 
   # Legacy validation job for backward compatibility
   check-unicode:
