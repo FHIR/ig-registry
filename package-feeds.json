@@ -152,6 +152,11 @@
       "errors": "tms|medcom_dk"
     },
     {
+      "name": "MedCom EHMI",
+      "url": "https://medcomehmi.dk/ig/package-feed.xml",
+      "errors": "olw|medcom_dk"
+    },
+    {
       "name": "Common FHIR profile vendor collaboration",
       "url": "https://commonprofiles.care/package-feed.xml",
       "errors": "info|commonprofiles.care"
