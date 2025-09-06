@@ -283,7 +283,7 @@
     },
     {
       "name": "CSIRO FHIR Implementation Guides",
-      "url": "http://starsapi.csiro.au/fhir-ig/package-feed.xml",
+      "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
       "errors": "stars-support|csiro_au"
     }
   ],
@@ -428,4 +428,5 @@
     }
   ]
 }
+
 
