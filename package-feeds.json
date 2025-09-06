@@ -280,6 +280,11 @@
       "name": "DHP Uzbekistan",
       "url": "https://vadimperetok.in/DHP-temp/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
+    },
+    {
+      "name": "CSIRO FHIR Implementation Guides",
+      "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
+      "errors": "stars-support|csiro_au"
     }
   ],
   "package-restrictions": [
@@ -423,4 +428,3 @@
     }
   ]
 }
-
