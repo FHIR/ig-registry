@@ -9585,6 +9585,28 @@
           "url" : "http://fhir.org/guides/astp/bhp/0.1.0"
         }
       ]
+    },
+    {
+      "name" : "Csiro Stars",
+      "category" : "Diagnostics",
+      "npm-name" : "csiro.stars",
+      "description" : "The STARS network provides restricted sample submission. This implementation guide outlines the requirements for users to implement a common standard FHIR protocol to transfer specimen information between laboratories for the purpose of testing.",
+      "authority" : "CSIRO",
+      "country" : "au",
+      "history" : "https://starsapi.csiro.au/fhir-ig/stars/history.html",
+      "language" : ["en"],
+      "canonical" : "https://starsapi.csiro.au/fhir-ig/stars",
+      "ci-build" : "https://starsapi.csiro.au/fhir-ig/stars",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Releases",
+          "ig-version" : "0.5.0",
+          "package" : "csiro.stars#0.5.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.0"
+        }
+      ]
     }
   ]
 }
