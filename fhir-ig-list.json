@@ -9592,7 +9592,7 @@
       "npm-name" : "csiro.stars",
       "description" : "The STARS network provides restricted sample submission. This implementation guide outlines the requirements for users to implement a common standard FHIR protocol to transfer specimen information between laboratories for the purpose of testing.",
       "authority" : "CSIRO",
-      "country" : "AU",
+      "country" : "au",
       "history" : "https://starsapi.csiro.au/fhir-ig/stars/history.html",
       "language" : ["en"],
       "canonical" : "https://starsapi.csiro.au/fhir-ig/stars",
