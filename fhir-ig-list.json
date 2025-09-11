@@ -8606,11 +8606,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 (v1.0.0) Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.cqm#1.0.0-ballot",
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.cqm#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/cqm/2025Jan"
+          "url" : "http://hl7.org/fhir/uv/cqm/STU1"
         }
       ]
     },
