@@ -8,7 +8,8 @@
       "access_info": "Open",
       "url": "http://tx.hl7europe.eu",
       "authoritative": [
-        "http://hl7europe.org/fhir/terminology/ehdsi*"
+        "http://hl7europe.org/fhir/terminology/ehdsi*",
+        "http://snomed.info/sct|http://snomed.info/sct/11000279109*"        
       ],
       "authoritative-valuesets": [
         "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*",
