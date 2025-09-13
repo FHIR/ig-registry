@@ -9565,21 +9565,21 @@
       ]
     },
     {
-      "name": "US HR1 Medicaid Work Requirements",
+      "name": "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
       "npm-name": "cori.fhir.ig.wrig",
       "category": "Care Management",
       "description": "Profiles and implementation details for US HR1 Medicaid Work Requirements exemption and activity verification.",
       "authority": "Cori System Organization",
-      "country": "US",
-      "history": "https://wrig.corisystem.org/",
-      "ci-build": "https://wrig.corisystem.org/",
+      "country": "us",
+      "history": "https://wrig.corisystem.org",
+      "ci-build": "https://build.fhir.org/ig/arosearose3/wrig",
       "editions": [
         {
           "name": "0.1.0",
           "ig-version": "0.1.0",
           "fhir-version": ["4.0.1"],
           "package": "cori.fhir.ig.wrig#0.1.0",
-          "url": "https://wrig.corisystem.org/"
+          "url": "https://wrig.corisystem.org"
         }
       ]
     },
