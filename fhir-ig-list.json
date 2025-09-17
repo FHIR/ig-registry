@@ -7316,13 +7316,6 @@
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "implementations" : [
-        {
-          "name" : "Source Code",
-          "type" : "source",
-          "url" : "https://github.com/jami-fhir-jp-wg/jp-core-v1x"
-        }
-      ],
       "history" : "https://jpfhir.jp/fhir/core/history.html",
       "canonical" : "http://jpfhir.jp/fhir/core",
       "editions" : [
@@ -7343,44 +7336,43 @@
       ]
     },
     {
-      "name" : "HL7Japan_JAMIeReferralImplementationGuide",
+      "name" : "Health Checkup Report Implementation Guide",
       "category" : "Clinical Documents",
-      "npm-name" : "eReferral",
-      "description" : "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "npm-name" : "jp-eCheckupReport.r4",
+      "description" : "This guide defines the FHIR data representation and associated profiles for Health Checkup Report",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "history" : "https://jpfhir.jp/fhir/eReferral/igv1/updateHistory.html",
-      "canonical" : "https://jpfhir.jp/fhir/eReferral",
+      "canonical" : "http://jpfhir.jp/fhir/eCheckupReport",
       "editions" : [
         {
-          "name" : "eReferral",
-          "ig-version" : "1.1.4",
-          "package" : "eReferral#1.1.4",
+          "name" : "Release",
+          "ig-version" : "1.6.0",
+          "package" : "eCheckupReport#1.6.0",
           "fhir-version" : ["4.0.1"],
           "url" : "https://jpfhir.jp/fhir/eReferral/igv1"
         }
       ]
     },
     {
-      "name" : "HL7JapanJAMIeDischargeSummaryImplementationGuide",
+      "name" : "Clinical Information Sharing Implementation Guide",
       "category" : "Clinical Documents",
-      "npm-name" : "eDischargeSummary",
-      "description" : "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "npm-name" : "jp-eCSCLINS.r4",
+      "description" : "This guide defines the FHIR data representation and associated profiles for the two documents and the five pieces of information defined by the Ministry of Health, Labor and Welfare",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "history" : "https://jpfhir.jp/fhir/eDisSummary/igv1/updateHistory.html",
-      "canonical" : "https://jpfhir.jp/fhir/eDisSummary",
+      "history" : "https://jpfhir.jp/fhir/clins/history.html",
+      "canonical" : "http://jpfhir.jp/fhir/clins",
       "editions" : [
         {
-          "name" : "eDischargeSummary",
-          "ig-version" : "1.1.4",
-          "package" : "eDischargeSummary#1.1.4",
+          "name" : "jp-eCSCLINS.r4",
+          "ig-version" : "1.11.0",
+          "package" : "clinical-information-sharing#1.11.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/eDisSummary/igv1"
+          "url" : "https://jpfhir.jp/fhir/clins/igv1/"
         }
       ]
     },
