@@ -8519,10 +8519,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.1.0",
-          "package" : "smart.who.int.pcmt-vaxprequal#0.1.0",
+          "ig-version" : "0.2.0",
+          "package" : "smart.who.int.pcmt-vaxprequal#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/pcmt-vaxprequal/v0.1.0"
+          "url" : "http://smart.who.int/pcmt-vaxprequal/v0.2.0"
         }
       ]
     },
@@ -8563,10 +8563,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.9.9",
-          "package" : "smart.who.int.dak-pnc#0.9.9",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-pnc#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/dak-pnc/v0.9.9"
+          "url" : "http://smart.who.int/dak-pnc/v1.0.0"
         }
       ]
     },
