@@ -7351,7 +7351,7 @@
           "ig-version" : "1.6.0",
           "package" : "eCheckupReport#1.6.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/eReferral/igv1"
+          "url" : "https://jpfhir.jp/fhir/eCheckup/igv1"
         }
       ]
     },
@@ -7372,7 +7372,7 @@
           "ig-version" : "1.11.0",
           "package" : "clinical-information-sharing#1.11.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/clins/igv1/"
+          "url" : "https://jpfhir.jp/fhir/clins/igv1"
         }
       ]
     },
