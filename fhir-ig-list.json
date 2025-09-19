@@ -1307,11 +1307,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "3.0.0-comment",
-          "package" : "ihe.qrph.madx#3.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "3.0.0",
+          "package" : "ihe.qrph.madx#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/mADX/3.0.0-comment"
+          "url" : "https://profiles.ihe.net/QRPH/mADX/3.0.0"
         }
       ]
     },
