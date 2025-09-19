@@ -7514,11 +7514,11 @@
       "ci-build" : "https://fhir.fi/finnish-scheduling",
       "editions" : [
         {
-          "name" : "STU 1 Draft",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.fi.scheduling#0.1.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-rc3",
+          "package" : "hl7.fhir.fi.scheduling#2.0.0-rc3",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+          "url" : "https://hl7.fi/fhir/finnish-scheduling/2.0.0-rc3"
         }
       ],
       "product" : ["fhir"]
