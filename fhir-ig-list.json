@@ -9618,7 +9618,7 @@
       "history": "https://sql-on-fhir.org/ig/history.html",
       "language": ["en"],
       "canonical": "https://sql-on-fhir.org/ig",
-      "ci-build": "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2/",
+      "ci-build": "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
       "product": ["fhir"],
       "editions": [
         {
