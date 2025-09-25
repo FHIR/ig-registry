@@ -9015,10 +9015,10 @@
       "editions" : [
         {
           "name" : "Releases Informative",
-          "ig-version" : "1.7.9",
-          "package" : "hl7.fhir.uv.tx-ecosystem#1.7.9",
+          "ig-version" : "1.8.0",
+          "package" : "hl7.fhir.uv.tx-ecosystem#1.8.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.9"
+          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.8.0"
         }
       ]
     },
