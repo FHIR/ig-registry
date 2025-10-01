@@ -257,6 +257,11 @@
       "errors": "zts|gematik_de"
     },
     {
+      "name": "gematik FHIR Packages",
+      "url": "https://gemspec.gematik.de/ig/fhir/package-feed.xml",
+      "errors": "patientteam|gematik_de"
+    },
+    {
       "name": "HL7 Poland",
       "url": "http://fhir.hl7.org.pl/packages/package-feed.xml",
       "errors": "bojanowski|hl7.org.pl"
