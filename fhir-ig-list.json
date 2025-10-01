@@ -9640,6 +9640,28 @@
           "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.0"
         }
       ]
+    },
+    {
+      "name" : "PL Base (R5)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.pl.base.r5",
+      "description" : "This guide lists the base profiles specified for the Polish realm.",
+      "authority" : "HL7 Poland",
+      "country" : "pl",
+      "history" : "https://hl7.org.pl/fhir/ig/pl-base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org.pl/fhir/ig/pl-base/ImplementationGuide/Hl7PlBaseIg",
+      "ci-build" : "http://build.fhir.org/ig/HL7-Poland/pl-fhir-base/",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.2",
+          "package" : "hl7.fhir.pl.base.r5#0.1.2",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://hl7.org.pl/ig/pl-base/0.1.2/"
+        }
+      ]
     }
   ]
 }
