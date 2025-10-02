@@ -9416,11 +9416,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.qrph.ccg#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.qrph.ccg#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0"
         }
       ]
     },
@@ -9686,24 +9686,24 @@
       ]
     },
     {
-      "name": "SQL on FHIR",
-      "category": "Infrastructure",
-      "npm-name": "org.sql-on-fhir.ig",
-      "description": "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
-      "authority": "SQL on FHIR Working Group",
-      "country": "uv",
-      "history": "https://sql-on-fhir.org/ig/history.html",
-      "language": ["en"],
-      "canonical": "https://sql-on-fhir.org/ig",
-      "ci-build": "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
-      "product": ["fhir"],
-      "editions": [
+      "name" : "SQL on FHIR",
+      "category" : "Infrastructure",
+      "npm-name" : "org.sql-on-fhir.ig",
+      "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+      "authority" : "SQL on FHIR Working Group",
+      "country" : "uv",
+      "history" : "https://sql-on-fhir.org/ig/history.html",
+      "language" : ["en"],
+      "canonical" : "https://sql-on-fhir.org/ig",
+      "ci-build" : "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
+      "product" : ["fhir"],
+      "editions" : [
         {
-          "name": "2.0.0",
-          "ig-version": "2.0.0",
-          "package": "org.sql-on-fhir.ig#2.0.0",
-          "fhir-version": ["5.0.0"],
-          "url": "https://sql-on-fhir.org/ig/2.0.0"
+          "name" : "2.0.0",
+          "ig-version" : "2.0.0",
+          "package" : "org.sql-on-fhir.ig#2.0.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://sql-on-fhir.org/ig/2.0.0"
         }
       ]
     }
