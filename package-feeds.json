@@ -290,6 +290,11 @@
       "name": "CSIRO FHIR Implementation Guides",
       "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
       "errors": "stars-support|csiro_au"
+    },
+	{
+      "name": "DGHS Bangladesh",
+      "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/package-feed.xml",
+      "errors": "digitalhealth|dghs_gov_bd"
     }
   ],
   "package-restrictions": [
@@ -433,3 +438,4 @@
     }
   ]
 }
+
