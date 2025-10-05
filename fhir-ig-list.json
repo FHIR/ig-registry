@@ -766,25 +766,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.uv.ips#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.uv.ips#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/ips/2024Sep"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.1.0",
-          "package" : "hl7.fhir.uv.ips#1.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/ips/STU1.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.uv.ips#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/ips/STU1"
+          "url" : "http://hl7.org/fhir/uv/ips/STU2"
         }
       ]
     },
@@ -1307,11 +1293,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "3.0.0-comment",
-          "package" : "ihe.qrph.madx#3.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "3.0.0",
+          "package" : "ihe.qrph.madx#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/mADX/3.0.0-comment"
+          "url" : "https://profiles.ihe.net/QRPH/mADX/3.0.0"
         }
       ]
     },
@@ -4365,25 +4351,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.cancer-reporting#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.cancer-reporting#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cancer-reporting/2025May"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.1",
-          "package" : "hl7.fhir.us.cancer-reporting#1.0.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cancer-reporting/STU1.0.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.cancer-reporting#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cancer-reporting/STU1"
+          "url" : "http://hl7.org/fhir/us/cancer-reporting/STU2"
         }
       ]
     },
@@ -5470,6 +5442,28 @@
           "package" : "hl7.fhir.be.pss#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "https://www.ehealth.fgov.be/standards/fhir/pss/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Belgium FHIR Implementation Guide - Digital Referral Prescription profiles",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.be.drp",
+      "description" : "HL7 Belgium FHIR Implementation Guide - Digital Referral Prescription profiles",
+      "authority" : "eHealth Platform (BE)",
+      "product" : ["fhir"],
+      "country" : "be",
+      "history" : "https://www.ehealth.fgov.be/standards/fhir/drp/history.html",
+      "language" : ["en"],
+      "canonical" : "https://www.ehealth.fgov.be/standards/fhir/drp",
+      "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+      "editions" : [
+        {
+          "name" : "Trial Use Test",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.be.drp#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.0.0"
         }
       ]
     },
@@ -7316,13 +7310,6 @@
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "implementations" : [
-        {
-          "name" : "Source Code",
-          "type" : "source",
-          "url" : "https://github.com/jami-fhir-jp-wg/jp-core-v1x"
-        }
-      ],
       "history" : "https://jpfhir.jp/fhir/core/history.html",
       "canonical" : "http://jpfhir.jp/fhir/core",
       "editions" : [
@@ -7343,44 +7330,43 @@
       ]
     },
     {
-      "name" : "HL7Japan_JAMIeReferralImplementationGuide",
+      "name" : "Health Checkup Report Implementation Guide",
       "category" : "Clinical Documents",
-      "npm-name" : "eReferral",
-      "description" : "診療情報提供書　HL7 Japan-JAMI eReferral ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "npm-name" : "jp-eCheckupReport.r4",
+      "description" : "This guide defines the FHIR data representation and associated profiles for Health Checkup Report",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "history" : "https://jpfhir.jp/fhir/eReferral/igv1/updateHistory.html",
-      "canonical" : "https://jpfhir.jp/fhir/eReferral",
+      "canonical" : "http://jpfhir.jp/fhir/eCheckupReport",
       "editions" : [
         {
-          "name" : "eReferral",
-          "ig-version" : "1.1.4",
-          "package" : "eReferral#1.1.4",
+          "name" : "Release",
+          "ig-version" : "1.6.0",
+          "package" : "eCheckupReport#1.6.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/eReferral/igv1"
+          "url" : "https://jpfhir.jp/fhir/eCheckup/igv1"
         }
       ]
     },
     {
-      "name" : "HL7JapanJAMIeDischargeSummaryImplementationGuide",
+      "name" : "Clinical Information Sharing Implementation Guide",
       "category" : "Clinical Documents",
-      "npm-name" : "eDischargeSummary",
-      "description" : "退院時サマリー　HL7 Japan-JAMI eDischargeSummary ImplementationGuide",
-      "authority" : "FHIR Japan / JAMI",
+      "npm-name" : "jp-eCSCLINS.r4",
+      "description" : "This guide defines the FHIR data representation and associated profiles for the two documents and the five pieces of information defined by the Ministry of Health, Labor and Welfare",
+      "authority" : "HL7 Japan (JAMI)",
       "product" : ["fhir"],
       "country" : "jp",
       "language" : ["ja"],
-      "history" : "https://jpfhir.jp/fhir/eDisSummary/igv1/updateHistory.html",
-      "canonical" : "https://jpfhir.jp/fhir/eDisSummary",
+      "history" : "https://jpfhir.jp/fhir/clins/history.html",
+      "canonical" : "http://jpfhir.jp/fhir/clins",
       "editions" : [
         {
-          "name" : "eDischargeSummary",
-          "ig-version" : "1.1.4",
-          "package" : "eDischargeSummary#1.1.4",
+          "name" : "jp-eCSCLINS.r4",
+          "ig-version" : "1.11.0",
+          "package" : "clinical-information-sharing#1.11.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://jpfhir.jp/fhir/eDisSummary/igv1"
+          "url" : "https://jpfhir.jp/fhir/clins/igv1"
         }
       ]
     },
@@ -8254,10 +8240,32 @@
       "editions" : [
         {
           "name" : "Releases Draft",
-          "ig-version" : "0.1.0",
-          "package" : "smart.who.int.icvp#0.1.0",
+          "ig-version" : "0.2.0",
+          "package" : "smart.who.int.icvp#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/icvp/0.1.0"
+          "url" : "http://smart.who.int/icvp/0.2.0"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
+      "name" : "SMART TRUST PHW",
+      "category" : "SMART (WHO)",
+      "npm-name" : "smart.who.int.trust-phw",
+      "description" : "Specifications for usage of Personal Health Wallet (PHW) with WHO GDHCN Trust Network",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/trust-phw/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/trust-phw",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-trust-phw",
+      "editions" : [
+        {
+          "name" : "Releases Draft",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.trust-phw#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://smart.who.int/trust-phw/0.1.0"
         }
       ],
       "product" : ["fhir"]
@@ -8519,10 +8527,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.1.0",
-          "package" : "smart.who.int.pcmt-vaxprequal#0.1.0",
+          "ig-version" : "0.2.0",
+          "package" : "smart.who.int.pcmt-vaxprequal#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/pcmt-vaxprequal/v0.1.0"
+          "url" : "http://smart.who.int/pcmt-vaxprequal/v0.2.0"
         }
       ]
     },
@@ -8563,10 +8571,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.9.9",
-          "package" : "smart.who.int.dak-pnc#0.9.9",
+          "ig-version" : "1.0.0",
+          "package" : "smart.who.int.dak-pnc#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/dak-pnc/v0.9.9"
+          "url" : "http://smart.who.int/dak-pnc/v1.0.0"
         }
       ]
     },
@@ -9001,10 +9009,10 @@
       "editions" : [
         {
           "name" : "Releases Informative",
-          "ig-version" : "1.7.9",
-          "package" : "hl7.fhir.uv.tx-ecosystem#1.7.9",
+          "ig-version" : "1.8.0",
+          "package" : "hl7.fhir.uv.tx-ecosystem#1.8.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.7.9"
+          "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.8.0"
         }
       ]
     },
@@ -9176,11 +9184,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.cgm#1.0.0-ballot",
+          "name" : "STU 1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.cgm#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/cgm/2025May"
+          "url" : "http://hl7.org/fhir/uv/cgm/STU1"
         }
       ]
     },
@@ -9565,6 +9573,25 @@
       ]
     },
     {
+      "name" : "US HR1 Medicaid Work Requirements IG (proposed, not supported by CMS)",
+      "npm-name" : "cori.fhir.ig.wrig",
+      "category" : "Care Management",
+      "description" : "Profiles and implementation details for US HR1 Medicaid Work Requirements exemption and activity verification.",
+      "authority" : "Cori System Organization",
+      "country" : "us",
+      "history" : "https://wrig.corisystem.org",
+      "ci-build" : "https://build.fhir.org/ig/arosearose3/wrig",
+      "editions" : [
+        {
+          "name" : "0.1.0",
+          "ig-version" : "0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "package" : "cori.fhir.ig.wrig#0.1.0",
+          "url" : "https://wrig.corisystem.org"
+        }
+      ]
+    },
+    {
       "name" : "US Behavioral Health Profiles",
       "category" : "Care Management",
       "npm-name" : "fhir.astp.bhp",
@@ -9605,6 +9632,50 @@
           "package" : "csiro.stars#0.5.0",
           "fhir-version" : ["5.0.0"],
           "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.0"
+        }
+      ]
+    },
+    {
+      "name" : "PL Base (R5)",
+      "category" : "Regional Base",
+      "npm-name" : "hl7.fhir.pl.base.r5",
+      "description" : "This guide lists the base profiles specified for the Polish realm.",
+      "authority" : "HL7 Poland",
+      "country" : "pl",
+      "history" : "https://hl7.org.pl/fhir/ig/pl-base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org.pl/fhir/ig/pl-base/ImplementationGuide/Hl7PlBaseIg",
+      "ci-build" : "http://build.fhir.org/ig/HL7-Poland/pl-fhir-base",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.1.2",
+          "package" : "hl7.fhir.pl.base.r5#0.1.2",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://hl7.org.pl/ig/pl-base/0.1.2"
+        }
+      ]
+    },
+    {
+      "name" : "SQL on FHIR",
+      "category" : "Infrastructure",
+      "npm-name" : "org.sql-on-fhir.ig",
+      "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+      "authority" : "SQL on FHIR Working Group",
+      "country" : "uv",
+      "history" : "https://sql-on-fhir.org/ig/history.html",
+      "language" : ["en"],
+      "canonical" : "https://sql-on-fhir.org/ig",
+      "ci-build" : "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "2.0.0",
+          "ig-version" : "2.0.0",
+          "package" : "org.sql-on-fhir.ig#2.0.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://sql-on-fhir.org/ig/2.0.0"
         }
       ]
     }
