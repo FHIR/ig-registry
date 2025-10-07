@@ -5771,11 +5771,11 @@
       "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
       "editions" : [
         {
-          "name" : "STU1.0.5",
-          "ig-version" : "1.0.5",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.5",
+          "name" : "STU1.0.8",
+          "ig-version" : "1.0.8",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.8",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.5"
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.8"
         }
       ]
     },
@@ -5820,6 +5820,27 @@
           "package" : "tw.gov.mohw.nhi.ci#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "https://nhicore.nhi.gov.tw/ci/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "EMPD",
+      "category" : "Medication",
+      "npm-name" : "tw.gov.mohw.nhi.empd",
+      "description" : "Taiwan Electronic Medication Prescription and Dispense Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/empd/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/empd",
+      "editions" : [
+        {
+          "name" : "STU0.1.0",
+          "ig-version" : "0.1.0",
+          "package" : "tw.gov.mohw.nhi.empd#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://nhicore.nhi.gov.tw/empd/0.1.0"
         }
       ]
     },
