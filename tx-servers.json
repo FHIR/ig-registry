@@ -47,12 +47,6 @@
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ch-tx-servers.json"
     },
     {
-      "code": "hl7-nz",
-      "name": "HL7 New Zealand / New Zealand Health Terminology Service",
-      "authority": "Published by HL7 New Zealand / Health New Zealand",
-      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-nz-tx-servers.json"
-    },
-    {
       "code": "tehik-ee",
       "name": "TEHIK Terminology Server",
       "authority": "Published by Estonian Health and Welfare Information Systems Centre (TEHIK)",
