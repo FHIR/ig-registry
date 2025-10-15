@@ -9614,10 +9614,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.5.0",
-          "package" : "csiro.stars#0.5.0",
+          "ig-version" : "0.5.1",
+          "package" : "csiro.stars#0.5.1",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.0"
+          "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.1"
         }
       ]
     },
