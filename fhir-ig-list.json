@@ -9395,11 +9395,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.qrph.ccg#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.qrph.ccg#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0"
         }
       ]
     },
