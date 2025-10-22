@@ -9213,11 +9213,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.cql#1.0.0-ballot",
+          "name" : "Informative 1 Informative",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.cql#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cql/2025May"
+          "url" : "http://hl7.org/fhir/us/cql/Informative1"
         }
       ]
     },
