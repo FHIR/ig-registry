@@ -7483,16 +7483,16 @@
       "language" : ["en"],
       "canonical" : "https://hl7.fi/fhir/finnish-base-profiles",
       "ci-build" : "https://fhir.fi/finnish-base-profiles",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.fi.base#1.0.0",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.fi.base#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://hl7.fi/fhir/finnish-base-profiles/1.0.0"
+          "url" : "https://hl7.fi/fhir/finnish-base-profiles/2.0.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "Finnish Scheduling",
