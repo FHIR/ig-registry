@@ -9703,7 +9703,7 @@
           "ig-version": "0.2.0",
           "package": "bd.fhir.core#0.2.0",
           "fhir-version": ["4.0.1"],
-          "url": "https://fhir.dghs.gov.bd/core/0.2.0"
+          "url": "https://fhir.dghs.gov.bd/core"
         }
       ]
     },
