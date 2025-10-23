@@ -9696,7 +9696,7 @@
       "history": "https://fhir.dghs.gov.bd/core/history.html",
       "language": ["en"],
       "canonical": "https://fhir.dghs.gov.bd/core",
-      "ci-build": "https://fhir.dghs.gov.bd/core/ci-build",
+      "ci-build": "https://fhir.dghs.gov.bd/core",
       "editions": [
         {
           "name": "Draft 0.2.0",
