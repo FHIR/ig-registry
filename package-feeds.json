@@ -291,10 +291,15 @@
       "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
       "errors": "stars-support|csiro_au"
     },
-	{
+	  {
       "name": "DGHS Bangladesh",
       "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/raw/branch/main/package-feed.xml",
       "errors": "digitalhealth|dghs_gov_bd"
+    },
+    {
+      "name": "HL7 Lithuania FHIR Implementation Guides",
+      "url": "https://hl7.lt/packages/package-feed.xml",
+      "errors": "info|medicinosnk_lt"
     }
   ],
   "package-restrictions": [
@@ -435,6 +440,10 @@
     {
       "mask": "tw.gov.mohw.*",
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml", "https://nhicore.nhi.gov.tw/packages/package-feed.xml" ]
+    },
+    {
+      "mask": "lt.hl7.fhir.*",
+      "feeds": [ "https://hl7.lt/packages/package-feed.xml", "https://hl7.lt/ig/package-feed.xml" ]
     }
   ]
 }
