@@ -7391,7 +7391,7 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
+          "name" : "STU 1.1",
           "ig-version" : "0.1.1",
           "package" : "hl7.fhir.eu.laboratory#0.1.1",
           "fhir-version" : ["4.0.1"],
@@ -7791,14 +7791,8 @@
       "language" : ["en"],
       "canonical" : "http://hl7.eu/fhir/extensions",
       "ci-build" : "http://build.fhir.org/ig/hl7-eu/extensions",
+      "product" : ["fhir"],
       "editions" : [
-        {
-          "name" : "Release",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.eu.extensions#0.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/extensions/0.1.0"
-        },
         {
           "name" : "Release",
           "ig-version" : "0.1.1",
@@ -7806,8 +7800,7 @@
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.eu/fhir/extensions/0.1.1"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "HL7 FHIR Implementation Guide Laboratory Report",
@@ -9341,7 +9334,7 @@
       "name" : "HL7 Europe Base and Core (R4)",
       "category" : "Regional Base",
       "npm-name" : "hl7.fhir.eu.base",
-      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "description" : "This guide lists the base and core profiles - FHIR R4 - specified for the European REALM.",
       "authority" : "HL7 Europe",
       "country" : "eu",
       "history" : "http://hl7.eu/fhir/base/history.html",
@@ -9351,11 +9344,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "0.1.0-ballot",
-          "package" : "hl7.fhir.eu.base#0.1.0-ballot",
+          "name" : "STU 1.0",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.fhir.eu.base#0.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/base/0.1.0-ballot"
+          "url" : "http://hl7.eu/fhir/base/0.1.0"
         }
       ]
     },
@@ -9363,7 +9356,7 @@
       "name" : "HL7 Europe Base and Core (R5)",
       "category" : "Regional Base",
       "npm-name" : "hl7.fhir.eu.base-r5",
-      "description" : "This guide lists the base and core profiles specified for the European REALM.",
+      "description" : "This guide lists the base and core profiles  - FHIR R5 - specified for the European REALM.",
       "authority" : "HL7 Europe",
       "country" : "eu",
       "history" : "http://hl7.eu/fhir/base-r5/history.html",
@@ -9373,11 +9366,143 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1",
-          "ig-version" : "0.1.0-ballot",
-          "package" : "hl7.fhir.eu.base-r5#0.1.0-ballot",
+          "name" : "STU 1.0",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.fhir.eu.base-r5#0.1.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
+          "url" : "http://hl7.eu/fhir/base-r5/0.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Imaging Study Report",
+      "category" : "Imaging",
+      "npm-name" : "hl7.fhir.eu.imaging-r5",
+      "description" : "This implementation guide specifies imaging study data in the European context, as defined in eHN Imaging Studies and Reports and refined by XtEHR Imaging Logical Model, as a FHIR model.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/imaging-r5/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/imaging-r5",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/imaging-r5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Preview",
+          "ig-version" : "0.1.0-snapshot1",
+          "package" : "hl7.fhir.eu.imaging-r5#0.1.0-snapshot1",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/imaging-r5/0.1.0-snapshot1"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Hospital Discharge Report",
+      "category" : "Discharge Report",
+      "npm-name" : "hl7.fhir.eu.hdr",
+      "description" : "This implementation guide specifies the Hospital Discharge Report in the European context, as defined in eHN Hospital Discharge Report guidelines.",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/hdr/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/hdr",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/hdr",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.hdr#0.1.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/hdr/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Medication Prescription and Dispense",
+      "category" : "Medication Management",
+      "npm-name" : "hl7.fhir.eu.mpd",
+      "description" : "This guide describes how to represent in HL7 FHIR Prescription and Dispense in the European context. (FHIR R4)",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/mpd/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/mpd",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.mpd#0.1.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/mpd/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "HL7 Europe Medication Prescription and Dispense",
+      "category" : "Medication Management",
+      "npm-name" : "hl7.fhir.eu.mpd-r5",
+      "description" : "This guide describes how to represent in HL7 FHIR Prescription and Dispense in the European context. (FHIR R5)",
+      "authority" : "HL7 Europe",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/mpd-r5/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/mpd-r5",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd-r5",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "0.1.0-ballot",
+          "package" : "hl7.fhir.eu.mpd-r5#0.1.0-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://hl7.eu/fhir/mpd-r5/0.1.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "xShare Project xShare Project IPS+ Implementation Guide",
+      "category" : "EHDS",
+      "npm-name" : "hl7.eu.fhir.xshare-ips-plus",
+      "description" : "This guide provides instructions to help you understand and implement your product in accordance with the xShare IPS+, facilitating in the access and adoption of the selected specifications.",
+      "authority" : "xShare project",
+      "country" : "eu",
+      "history" : "http://hl7.eu/fhir/ig/xshare-ips-plus/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.eu/fhir/ig/xshare-ips-plus",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/xshare-ips-plus",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release 1 Qa-preview",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.eu.fhir.xshare-ips-plus#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/ig/xshare-ips-plus/0.1.0"
+        }
+      ]
+    },
+    {
+      "name" : "xShare Project Yellow Button Implementation Guide",
+      "category" : "EHDS",
+      "npm-name" : "hl7.eu.fhir.xshare-yb",
+      "description" : "xShare envisions everyone sharing their health data in European Electronic Health Record Exchange Format (EEHRxF) with a click-of-a-button - the xShare yellow button - to be featured across health portals and patient apps, allowing people to exercise their data portability rights under GDPR.",
+      "authority" : "xShare project",
+      "country" : "eu",
+      "history" : "https://hl7.eu/fhir/ig/xshare-yb/history.html",
+      "language" : ["en"],
+      "canonical" : "https://hl7.eu/fhir/ig/xshare-yb/",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/xShare/",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1.0",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.eu.fhir.xshare-yb#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.eu/fhir/ig/xshare-yb/0.1.0"
         }
       ]
     },
