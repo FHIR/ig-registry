@@ -9493,8 +9493,8 @@
       "country" : "eu",
       "history" : "https://hl7.eu/fhir/ig/xshare-yb/history.html",
       "language" : ["en"],
-      "canonical" : "https://hl7.eu/fhir/ig/xshare-yb/",
-      "ci-build" : "http://build.fhir.org/ig/hl7-eu/xShare/",
+      "canonical" : "https://hl7.eu/fhir/ig/xshare-yb",
+      "ci-build" : "http://build.fhir.org/ig/hl7-eu/xShare",
       "product" : ["fhir"],
       "editions" : [
         {
