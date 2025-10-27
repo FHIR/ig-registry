@@ -9671,7 +9671,7 @@
       "description": "National base profiles, CodeSystems, and ValueSets for Bangladesh, developed and maintained by the Directorate General of Health Services (DGHS), Ministry of Health and Family Welfare.",
       "authority": "DGHS Bangladesh",
       "product": ["fhir"],
-      "country": "BD",
+      "country": "bd",
       "history": "https://fhir.dghs.gov.bd/core/history.html",
       "language": ["en"],
       "canonical": "https://fhir.dghs.gov.bd/core",
