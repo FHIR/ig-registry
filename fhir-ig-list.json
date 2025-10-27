@@ -3573,11 +3573,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.uv.v2mappings#1.0.0-ballot",
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.v2mappings#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/v2mappings/2024Jan"
+          "url" : "http://hl7.org/fhir/uv/v2mappings/STU1"
         }
       ]
     },
@@ -4554,25 +4554,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.davinci-pct#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.davinci-pct#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pct/2024May"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.1.0",
-          "package" : "hl7.fhir.us.davinci-pct#1.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pct/STU1.1"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-pct#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-pct/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-pct/STU2"
         }
       ]
     },
@@ -5771,11 +5757,11 @@
       "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
       "editions" : [
         {
-          "name" : "STU1.0.5",
-          "ig-version" : "1.0.5",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.5",
+          "name" : "STU1.0.8",
+          "ig-version" : "1.0.8",
+          "package" : "tw.gov.mohw.nhi.pas#1.0.8",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.5"
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.8"
         }
       ]
     },
@@ -5820,6 +5806,27 @@
           "package" : "tw.gov.mohw.nhi.ci#1.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "https://nhicore.nhi.gov.tw/ci/1.0.0"
+        }
+      ]
+    },
+    {
+      "name" : "EMPD",
+      "category" : "Medication",
+      "npm-name" : "tw.gov.mohw.nhi.empd",
+      "description" : "Taiwan Electronic Medication Prescription and Dispense Implementation Guide",
+      "authority" : "NHIA (TW)",
+      "product" : ["fhir"],
+      "country" : "tw",
+      "history" : "https://nhicore.nhi.gov.tw/empd/history.html",
+      "language" : ["zh-TW"],
+      "canonical" : "https://nhicore.nhi.gov.tw/empd",
+      "editions" : [
+        {
+          "name" : "STU0.1.0",
+          "ig-version" : "0.1.0",
+          "package" : "tw.gov.mohw.nhi.empd#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://nhicore.nhi.gov.tw/empd/0.1.0"
         }
       ]
     },
@@ -7833,16 +7840,16 @@
       "authority" : "Unspecified",
       "history" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/history.html",
       "language" : ["en"],
-      "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling",
       "ci-build" : "http://build.fhir.org/ig/gabriel0316/ig-tooling",
+      "canonical" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test",
       "product" : ["fhir"],
       "editions" : [
         {
           "name" : "DSTU 1",
-          "ig-version" : "0.4.0",
-          "package" : "hl7.at.fhir.gkl.ig-tooling#0.4.0",
+          "ig-version" : "0.5.3",
+          "package" : "hl7.at.fhir.gkl.ig-tooling#0.5.3",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling/0.4.0"
+          "url" : "https://gabriel0316.github.io/ig-tooling-pages/ig/ig-tooling-test/0.5.3"
         }
       ]
     },
@@ -8240,10 +8247,10 @@
       "editions" : [
         {
           "name" : "Releases Draft",
-          "ig-version" : "0.2.0",
-          "package" : "smart.who.int.icvp#0.2.0",
+          "ig-version" : "0.3.0",
+          "package" : "smart.who.int.icvp#0.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://smart.who.int/icvp/0.2.0"
+          "url" : "http://smart.who.int/icvp/0.3.0"
         }
       ],
       "product" : ["fhir"]
@@ -9206,11 +9213,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1 Ballot",
-          "ig-version" : "1.0.0-ballot",
-          "package" : "hl7.fhir.us.cql#1.0.0-ballot",
+          "name" : "Informative 1 Informative",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.us.cql#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/cql/2025May"
+          "url" : "http://hl7.org/fhir/us/cql/Informative1"
         }
       ]
     },
@@ -9388,11 +9395,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "1.0.0-comment",
-          "package" : "ihe.qrph.ccg#1.0.0-comment",
+          "name" : "Publication",
+          "ig-version" : "1.0.0",
+          "package" : "ihe.qrph.ccg#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0-comment"
+          "url" : "https://profiles.ihe.net/QRPH/CCG/1.0.0"
         }
       ]
     },
@@ -9628,10 +9635,10 @@
       "editions" : [
         {
           "name" : "Releases",
-          "ig-version" : "0.5.0",
-          "package" : "csiro.stars#0.5.0",
+          "ig-version" : "0.5.1",
+          "package" : "csiro.stars#0.5.1",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.0"
+          "url" : "https://starsapi.csiro.au/fhir-ig/stars/0.5.1"
         }
       ]
     },
@@ -9658,18 +9665,40 @@
       ]
     },
     {
-      "name" : "SQL on FHIR",
-      "category" : "Infrastructure",
-      "npm-name" : "org.sql-on-fhir.ig",
-      "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
-      "authority" : "SQL on FHIR Working Group",
-      "country" : "uv",
-      "history" : "https://sql-on-fhir.org/ig/history.html",
-      "language" : ["en"],
-      "canonical" : "https://sql-on-fhir.org/ig",
-      "ci-build" : "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
-      "product" : ["fhir"],
-      "editions" : [
+      "name": "Bangladesh FHIR Implementation Guide - Core Profiles",
+      "category": "National Base",
+      "npm-name": "bd.fhir.core",
+      "description": "National base profiles, CodeSystems, and ValueSets for Bangladesh, developed and maintained by the Directorate General of Health Services (DGHS), Ministry of Health and Family Welfare.",
+      "authority": "DGHS Bangladesh",
+      "product": ["fhir"],
+      "country": "BD",
+      "history": "https://fhir.dghs.gov.bd/core/history.html",
+      "language": ["en"],
+      "canonical": "https://fhir.dghs.gov.bd/core",
+      "ci-build": "https://fhir.dghs.gov.bd/core",
+      "editions": [
+        {
+          "name": "Draft 0.2.0",
+          "ig-version": "0.2.0",
+          "package": "bd.fhir.core#0.2.0",
+          "fhir-version": ["4.0.1"],
+          "url": "https://fhir.dghs.gov.bd/core"
+        }
+      ]
+    },
+    {
+      "name": "SQL on FHIR",
+      "category": "Infrastructure",
+      "npm-name": "org.sql-on-fhir.ig",
+      "description": "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+      "authority": "SQL on FHIR Working Group",
+      "country": "uv",
+      "history": "https://sql-on-fhir.org/ig/history.html",
+      "language": ["en"],
+      "canonical": "https://sql-on-fhir.org/ig",
+      "ci-build": "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
+      "product": ["fhir"],
+      "editions": [
         {
           "name" : "2.0.0",
           "ig-version" : "2.0.0",
