@@ -9832,6 +9832,50 @@
           "url" : "https://sql-on-fhir.org/ig/2.0.0"
         }
       ]
+    },
+    {
+      "name" : "Advance Care Planning (PZP)",
+      "category" : "Care Management",
+      "npm-name" : "iknl.fhir.r4.pzp",
+      "description" : "This implementation guide supports the Advance Care Planning (ACP) information standard (Dutch: Proactieve Zorgplanning) and is intended for use within the palliative care domain in the Netherlands.",
+      "authority" : "IKNL",
+      "country" : "nl",
+      "history" : "https://api.iknl.nl/docs/pzp/r4/history.html",
+      "language" : ["en"],
+      "canonical" : "https://api.iknl.nl/docs/pzp/r4",
+      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-R4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release 1",
+          "ig-version" : "1.0.0-rc1",
+          "package" : "iknl.fhir.r4.pzp#1.0.0-rc1",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc1"
+        }
+      ]
+    },
+    {
+      "name" : "Advance Care Planning (PZP)",
+      "category" : "Care Management",
+      "npm-name" : "iknl.fhir.stu3.pzp",
+      "description" : "This implementation guide supports the Advance Care Planning (ACP) information standard (Dutch: Proactieve Zorgplanning) and is intended for use within the palliative care domain in the Netherlands.",
+      "authority" : "IKNL",
+      "country" : "nl",
+      "history" : "https://api.iknl.nl/docs/pzp/stu3/history.html",
+      "language" : ["en"],
+      "canonical" : "https://api.iknl.nl/docs/pzp/stu3",
+      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-STU3",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release 1",
+          "ig-version" : "1.0.0-rc1",
+          "package" : "iknl.fhir.stu3.pzp#1.0.0-rc1",
+          "fhir-version" : ["3.0.2"],
+          "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc1"
+        }
+      ]
     }
   ]
 }
