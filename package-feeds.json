@@ -217,6 +217,11 @@
       "errors": "fhir|iknl_nl"
     },
     {
+      "name": "IKNL",
+      "url": "https://api.iknl.nl/docs/package-feed.xml",
+      "errors": "fhir|iknl_nl"
+    },
+    {
       "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
       "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
       "errors": "integration|tewhatuora_govt_nz"
