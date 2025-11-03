@@ -5288,6 +5288,13 @@
       "product" : ["fhir"],
       "editions" : [
         {
+          "name" : "Publication",
+          "ig-version" : "4.2.3",
+          "package" : "ihe.iti.mhd#4.2.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://profiles.ihe.net/ITI/MHD/4.2.3"
+        },
+        {
           "name" : "Publication Ballot",
           "ig-version" : "5.0.0-comment",
           "package" : "ihe.iti.mhd#5.0.0-comment",
