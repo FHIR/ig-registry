@@ -287,8 +287,8 @@
       "errors": "TWNHI_FHIR|nhi_gov_tw"
     },
 	{
-      "name": "DHP Uzbekistan",
-      "url": "https://vadimperetok.in/DHP-temp/package-feed.xml",
+      "name": "DHP & UZ Core Uzbekistan Packages",
+      "url": "https://raw.githubusercontent.com/uzinfocom-org/digital-health-ig/refs/heads/main/docs/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
     },
     {
@@ -452,6 +452,7 @@
     }
   ]
 }
+
 
 
 
