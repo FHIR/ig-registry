@@ -305,6 +305,11 @@
       "name": "HL7 Lithuania FHIR Implementation Guides",
       "url": "https://hl7.lt/packages/package-feed.xml",
       "errors": "info|medicinosnk_lt"
+    },
+    {
+      "name": "Service Well FHIR Liquid Converter Implementation Guides",
+      "url": "https://canonical.fhir.link/flc/package-feed.xml",
+      "errors": "support|servicewell_se"
     }
   ],
   "package-restrictions": [
