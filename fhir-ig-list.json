@@ -5270,7 +5270,6 @@
       "npm-name" : "ihe.iti.mhd",
       "description" : "Defines a simple HTTP interface to a Document Sharing environment, including: publishing/query (XDS-on-FHIR), point-to-point push (XDR, Direct, XDM), and federation of communities (XCA).",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "https://profiles.ihe.net/ITI/MHD/history.html",
@@ -5286,13 +5285,21 @@
         "codeSystems" : 1,
         "examples" : 48
       },
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "4.2.2",
-          "package" : "ihe.iti.mhd#4.2.2",
+          "ig-version" : "4.2.3",
+          "package" : "ihe.iti.mhd#4.2.3",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/MHD/4.2.2"
+          "url" : "https://profiles.ihe.net/ITI/MHD/4.2.3"
+        },
+        {
+          "name" : "Publication Ballot",
+          "ig-version" : "5.0.0-comment",
+          "package" : "ihe.iti.mhd#5.0.0-comment",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0-comment"
         }
       ]
     },
@@ -5302,7 +5309,6 @@
       "npm-name" : "ihe.iti.balp",
       "description" : "The Basic Audit Log Patterns (BALP) **Content Profile** defines some basic and reusable AuditEvent patterns. This includes basic audit log profiles for FHIR RESTful operations, to be used when there is not a more specific audit event defined. Where a more specific audit event can be defined it should be derived off of these basic patterns.",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "https://profiles.ihe.net/ITI/BALP/history.html",
       "language" : ["en"],
@@ -5316,13 +5322,14 @@
         "examples" : 63
       },
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.BasicAudit/branches/main/index.html",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "1.1.3",
-          "package" : "ihe.iti.balp#1.1.3",
+          "ig-version" : "1.1.4",
+          "package" : "ihe.iti.balp#1.1.4",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/BALP/1.1.3"
+          "url" : "https://profiles.ihe.net/ITI/BALP/1.1.4"
         }
       ]
     },
