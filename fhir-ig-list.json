@@ -9883,6 +9883,28 @@
           "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc1"
         }
       ]
+    },
+    {
+      "name" : "FLC Implementation Guide",
+      "category" : "Infrastructure",
+      "npm-name" : "flc.fhir.base",
+      "description" : "Implementationsguide for FLC made by Service Well",
+      "authority" : "Service Well",
+      "country" : "uv",
+      "history" : "http://canonical.fhir.link/flc/base/history.html",
+      "language" : ["en"],
+      "canonical" : "http://canonical.fhir.link/flc/base",
+      "ci-build" : "http://build.fhir.org/ig/servicewell/flc.fhir.base",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Pre-Release Draft",
+          "ig-version" : "0.2.3",
+          "package" : "flc.fhir.base#0.2.3",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://canonical.fhir.link/flc/base/0.2.3"
+        }
+      ]
     }
   ]
 }
