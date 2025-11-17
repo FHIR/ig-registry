@@ -9905,6 +9905,28 @@
           "url" : "http://canonical.fhir.link/flc/base/0.2.3"
         }
       ]
+    },
+    {
+      "name" : "ONCOFAIR FHIR Implementation Guide",
+      "category" : "Infrastructure",
+      "npm-name" : "ltsi.fhir.oncofair",
+      "description" : "The OncoFAIR project is designed to improve the interoperability and reuse of healthcare data in oncology, focusing on chemotherapy.",
+      "authority" : "KEREVAL, LTSI",
+      "country" : "France",
+      "history" : "http://oncofair.kereval.cloud/ig/history.html",
+      "language" : ["en"],
+      "ci-build" : "https://oncofair.github.io/FHIR-ImplementationGuide-Article/main/ig",
+      "canonical" : "http://oncofair-ig.kereval.cloud",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "final-text",
+          "ig-version" : "0.1.0",
+          "package" : "ltsi.fhir.oncofair#0.1.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://oncofair-ig.kereval.cloud/ltsi.fhir.oncofair"
+        }
+      ]
     }
   ]
 }
