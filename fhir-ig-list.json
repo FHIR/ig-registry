@@ -3447,8 +3447,8 @@
       "product" : ["fhir"],
       "country" : "it",
       "history" : "http://hl7.it/fhir/history.html",
-      "canonical" : "http://hl7.it/fhir",
-      "ci-build" : "http://hl7.it/fhir/build/base",
+      "canonical" : "http://hl7.it/fhir/base",
+      "ci-build" : "http://hl7.it/fhir/base",
       "language" : ["it"],
       "editions" : [
         {
