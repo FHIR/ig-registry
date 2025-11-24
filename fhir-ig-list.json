@@ -9913,7 +9913,7 @@
       "description" : "The OncoFAIR project is designed to improve the interoperability and reuse of healthcare data in oncology, focusing on chemotherapy.",
       "authority" : "KEREVAL, LTSI",
       "country" : "France",
-      "history" : "http://oncofair.kereval.cloud/ig/history.html",
+      "history" : "http://oncofair-ig.kereval.cloud/ltsi.fhir.oncofair/history.html",
       "language" : ["en"],
       "ci-build" : "https://oncofair.github.io/FHIR-ImplementationGuide-Article/main/ig",
       "canonical" : "http://oncofair-ig.kereval.cloud",
