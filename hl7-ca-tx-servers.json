@@ -12,7 +12,8 @@
         "https://fhir.infoway-inforoute.ca/CodeSystem*"
       ],
       "authoritative-valuesets": [
-        "https://fhir.infoway-inforoute.ca/ValueSet*"
+        "https://fhir.infoway-inforoute.ca/ValueSet*",
+        "http://snomed.info/sct/20611000087101*"
       ],
       "fhirVersions": [
         {
