@@ -310,7 +310,13 @@
       "name": "Service Well FHIR Liquid Converter Implementation Guides",
       "url": "https://canonical.fhir.link/flc/package-feed.xml",
       "errors": "support|servicewell_se"
+    },
+    {
+      "name":"ONCOFAIR IGs",
+      "url":"https://oncofair-ig.kereval.cloud/package-feed.xml",
+      "errors":"alain_ribault|kereval_com"
     }
+
   ],
   "package-restrictions": [
 	{
@@ -455,9 +461,6 @@
       "mask": "lt.hl7.fhir.*",
       "feeds": [ "https://hl7.lt/packages/package-feed.xml", "https://hl7.lt/ig/package-feed.xml" ]
     }
+    
   ]
 }
-
-
-
-
