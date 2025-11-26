@@ -9899,10 +9899,10 @@
       "editions" : [
         {
           "name" : "Pre-Release Draft",
-          "ig-version" : "0.2.3",
-          "package" : "flc.fhir.base#0.2.3",
+          "ig-version" : "0.2.4",
+          "package" : "flc.fhir.base#0.2.4",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://canonical.fhir.link/flc/base/0.2.3"
+          "url" : "http://canonical.fhir.link/flc/base/0.2.4"
         }
       ]
     }
