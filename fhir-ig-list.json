@@ -796,10 +796,10 @@
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.1.0",
-          "package" : "ihe.iti.pdqm#3.1.0",
+          "ig-version" : "3.2.0",
+          "package" : "ihe.iti.pdqm#3.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/PDQm/3.1.0"
+          "url" : "https://profiles.ihe.net/ITI/PDQm/3.2.0"
         }
       ]
     },
@@ -809,7 +809,6 @@
       "npm-name" : "ihe.iti.pixm",
       "description" : "Defines a lightweight RESTful interface to a Patient Identifier Cross-reference Manager, leveraging technologies readily available to mobile applications and lightweight browser based applications",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "history" : "https://profiles.ihe.net/ITI/PIXm/history.html",
       "language" : ["en"],
@@ -823,13 +822,14 @@
         "operations" : 1,
         "examples" : 17
       },
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "3.0.4",
-          "package" : "ihe.iti.pixm#3.0.4",
+          "ig-version" : "3.1.0",
+          "package" : "ihe.iti.pixm#3.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/PIXm/3.0.4"
+          "url" : "https://profiles.ihe.net/ITI/PIXm/3.1.0"
         }
       ]
     },
@@ -839,7 +839,6 @@
       "npm-name" : "ihe.iti.pmir",
       "description" : "Supports the creating, updating and deprecating of patient master identity information about a subject of care, as well as subscribing to these changes, using the HL7 FHIR standard and its RESTful transactions. In PMIR, “patient identity” information includes all information found in the FHIR Patient Resource such as identifier, name, phone, gender, birth date, address, marital status, photo, others to contact, preference for language, general practitioner, and links to other instances of identities. The “patient master identity” is a dominant identity managed centrally among many participating organizations (a.k.a., “Golden Patient Identity”).",
       "authority" : "IHE",
-      "product" : ["fhir"],
       "country" : "uv",
       "language" : ["en"],
       "history" : "https://profiles.ihe.net/ITI/PMIR/history.html",
@@ -848,20 +847,14 @@
       },
       "ci-build" : "http://build.fhir.org/ig/IHE/ITI.PMIR/branches/master/index.html",
       "canonical" : "https://profiles.ihe.net/ITI/PMIR",
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "Publication",
-          "ig-version" : "1.5.0",
-          "package" : "ihe.iti.pmir#1.5.0",
+          "ig-version" : "1.6.0",
+          "package" : "ihe.iti.pmir#1.6.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/PMIR/1.5.0"
-        },
-        {
-          "name" : "Publication",
-          "ig-version" : "1.3.0",
-          "package" : "ihe.iti.pmir#1.3.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://www.ihe.net/wp-content/uploads/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_PMIR_Rev1-3_TI_2020-12-11.pdf"
+          "url" : "https://profiles.ihe.net/ITI/PMIR/1.6.0"
         }
       ]
     },
@@ -3447,8 +3440,8 @@
       "product" : ["fhir"],
       "country" : "it",
       "history" : "http://hl7.it/fhir/history.html",
-      "canonical" : "http://hl7.it/fhir",
-      "ci-build" : "http://hl7.it/fhir/build/base",
+      "canonical" : "http://hl7.it/fhir/base",
+      "ci-build" : "http://hl7.it/fhir/base",
       "language" : ["it"],
       "editions" : [
         {
@@ -5287,13 +5280,6 @@
       },
       "product" : ["fhir"],
       "editions" : [
-        {
-          "name" : "Publication",
-          "ig-version" : "4.2.3",
-          "package" : "ihe.iti.mhd#4.2.3",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://profiles.ihe.net/ITI/MHD/4.2.3"
-        },
         {
           "name" : "Publication Ballot",
           "ig-version" : "5.0.0-comment",
@@ -7669,11 +7655,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.medication-rems#2.0.0-ballot",
+          "name" : "STU2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.medication-rems#2.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/medication-rems/2025Sep"
+          "url" : "http://hl7.org/fhir/us/medication-rems/STU2"
         }
       ]
     },
@@ -9903,6 +9889,28 @@
           "package" : "flc.fhir.base#0.2.4",
           "fhir-version" : ["4.0.1"],
           "url" : "http://canonical.fhir.link/flc/base/0.2.4"
+        }
+      ]
+    },
+    {
+      "name" : "ONCOFAIR FHIR Implementation Guide",
+      "category" : "Infrastructure",
+      "npm-name" : "ltsi.fhir.oncofair",
+      "description" : "The OncoFAIR project is designed to improve the interoperability and reuse of healthcare data in oncology, focusing on chemotherapy.",
+      "authority" : "KEREVAL, LTSI",
+      "country" : "fr",
+      "history" : "http://oncofair-ig.kereval.cloud/ltsi.fhir.oncofair/history.html",
+      "language" : ["en"],
+      "ci-build" : "https://oncofair.github.io/FHIR-ImplementationGuide-Article/main/ig",
+      "canonical" : "http://oncofair-ig.kereval.cloud",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "final-text",
+          "ig-version" : "0.1.0",
+          "package" : "ltsi.fhir.oncofair#0.1.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://oncofair-ig.kereval.cloud/ltsi.fhir.oncofair"
         }
       ]
     },
