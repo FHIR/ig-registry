@@ -316,12 +316,11 @@
       "url":"https://oncofair-ig.kereval.cloud/package-feed.xml",
       "errors":"alain_ribault|kereval_com"
     },
-	{
-	  "name": "Service Well Implementation Guides",
-	  "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
-	  "errors": "support|servicewell_se"
-	}
-
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+      "errors": "support|servicewell_se"
+    }
   ],
   "package-restrictions": [
 	{
