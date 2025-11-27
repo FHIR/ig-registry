@@ -310,7 +310,12 @@
       "name": "Service Well FHIR Liquid Converter Implementation Guides",
       "url": "https://canonical.fhir.link/flc/package-feed.xml",
       "errors": "support|servicewell_se"
-    }
+    },
+	{
+	  "name": "Service Well Implementation Guides",
+	  "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+	  "errors": "support|servicewell_se"
+	}
   ],
   "package-restrictions": [
 	{
@@ -457,6 +462,7 @@
     }
   ]
 }
+
 
 
 
