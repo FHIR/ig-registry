@@ -321,6 +321,7 @@
       "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
       "errors": "support|servicewell_se"
     }
+
   ],
   "package-restrictions": [
 	{
