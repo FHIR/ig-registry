@@ -5966,11 +5966,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.ph-library#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0-snapshot",
+          "package" : "hl7.fhir.us.ph-library#2.0.0-snapshot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/ph-library/2025Sep"
+          "url" : "http://hl7.org/fhir/us/ph-library/2.0.0-snapshot"
         }
       ]
     },
