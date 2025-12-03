@@ -9915,6 +9915,28 @@
       ]
     },
     {
+      "name" : "Basic National Terminology for Costa Rica",
+      "category" : "Terminology",
+      "npm-name" : "hl7.fhir.cr.terminology",
+      "description" : "This implementation guide defines the FHIR terminology resources used by the HL7 Costa Rica Initiative.",
+      "authority" : "HL7 Initiative in Costa Rica",
+      "country" : "cr",
+      "history" : "https://hl7.or.cr/fhir/terminology/history.html",
+      "language" : ["es"],
+      "canonical" : "https://hl7.or.cr/fhir/terminology",
+      "ci-build" : "http://build.fhir.org/ig/HL7-cr/terminology",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "2025-11 Draft",
+          "ig-version" : "0.0.1-ballot",
+          "package" : "hl7.fhir.cr.terminology#0.0.1-ballot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "https://hl7.or.cr/fhir/terminology/0.0.1-ballot"
+        }
+      ]
+    },
+    {
       "name" : "WOF Connect Implementation Guide",
       "category" : "Infrastructure",
       "npm-name" : "servicewell.fhir.wof-connect",

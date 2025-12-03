@@ -286,7 +286,7 @@
       "url": "https://nhicore.nhi.gov.tw/packages/package-feed.xml",
       "errors": "TWNHI_FHIR|nhi_gov_tw"
     },
-	{
+	  {
       "name": "DHP & UZ Core Uzbekistan Packages",
       "url": "https://raw.githubusercontent.com/uzinfocom-org/digital-health-ig/refs/heads/main/docs/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
@@ -315,6 +315,11 @@
       "name":"ONCOFAIR IGs",
       "url":"https://oncofair-ig.kereval.cloud/package-feed.xml",
       "errors":"alain_ribault|kereval_com"
+    },
+    {
+      "name": "HL7 FHIR Costa Rica Terminología",
+      "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
+      "errors": "info|hl7_or_cr"
     },
     {
       "name": "Service Well Implementation Guides",
@@ -465,6 +470,10 @@
     {
       "mask": "lt.hl7.fhir.*",
       "feeds": [ "https://hl7.lt/packages/package-feed.xml", "https://hl7.lt/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.cr.*",
+      "feeds": [ "https://hl7.or.cr/fhir/terminology/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
     }
     
   ]

@@ -21,6 +21,6 @@
 	"ihe.fhir.template" : "IHE/ihe-ig-template",
 	"openhie.fhir.template" : "openhie/openhie-ig-template",
 	"who.fhir.template" : "WorldHealthOrganization/smart-ig",
-	"hl7.fhir.cr.template": "https://fhir.hl7.or.cr/template"
+	"hl7.cr.fhir.template": "HL7-cr/ig-template"
 }
 
