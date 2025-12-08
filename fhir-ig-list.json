@@ -6168,16 +6168,16 @@
       "language" : ["en"],
       "canonical" : "http://hl7.org/fhir/us/davinci-vbpr",
       "ci-build" : "http://build.fhir.org/ig/HL7/davinci-vbpr",
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-vbpr#1.0.0",
+          "name" : "STU1.1",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.us.davinci-vbpr#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-vbpr/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-vbpr/STU1.1.0"
         }
-      ],
-      "product" : ["fhir"]
+      ]
     },
     {
       "name" : "International Birth And Child Model Implementation Guide",
