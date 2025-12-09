@@ -7580,6 +7580,28 @@
           "url" : "http://hl7.org/fhir/uv/phr/2025Jan"
         }
       ]
+    },
+    {
+      "name" : "AI Transparency on FHIR",
+      "category" : "AI",
+      "npm-name" : "hl7.fhir.uv.aitransparency",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/aitransparency/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/aitransparency",
+      "ci-build" : "http://build.fhir.org/ig/HL7/aitransparency-ig/branches/main/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.aitransparency#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/aitransparency/2026Jan"
+        }
+      ]
     }
   ]
 }
