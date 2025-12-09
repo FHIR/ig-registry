@@ -1,0 +1,63 @@
+{
+  "file-location" : "https://storage.googleapis.com/tx-fhir-org",
+  "files" : {
+    "loinc-2.80-a.db" : "loinc",
+    "rxnorm_02032025-a.db" : "rxnorm",
+    "ndc-20211101.db" : "ndc",
+    "unii_20240622.db" : "unii",
+    "sct_intl_20250201.cache" : "snomed!",
+    "ucum-essence-2.2.xml" : "ucum",
+    "cpt-2023-fragment-0.1.db" : "cpt",
+    "omop_v20250227.db" : "omop",
+    "sct_au_20230731.cache" : "snomed",
+    "sct_be_20231115.cache" : "snomed",
+    "sct_ca_20220930.cache" : "snomed",
+    "sct_ch_20230607.cache" : "snomed",
+    "sct_dk_20250331.cache" : "snomed",
+    "sct_ips_20241216.cache" : "snomed",
+    "sct_nl_20240930.cache" : "snomed",
+    "sct_se_20231130.cache" : "snomed",
+    "sct_uk_20230412.cache" : "snomed",
+    "sct_us_20250301.cache" : "snomed"
+  },
+  "packages" : {
+    "r5" : [
+      "hl7.terminology.r4",
+      "fhir.tx.support.r4",
+      "ihe.formatcode.fhir",
+      "fhir.dicom"
+    ],
+    "r4" : [
+      "hl7.terminology.r4",
+      "fhir.tx.support.r4",
+      "ihe.formatcode.fhir",
+      "fhir.dicom",
+      "hl7.fhir.us.core",
+      "us.nlm.vsac",
+      "us.cdc.phinvads",
+      "hl7.fhir.uv.sdc"
+    ],
+    "r3" : [
+      "hl7.terminology.r3#4.0.0",
+      "fhir.tx.support.r3"
+    ],
+    "r2" : [
+      "fhir.tx.support.r2"
+    ]
+  },
+  "endpoints" : {
+    "snomed" : {
+      "path" : "/snomed",
+      "type" : "snomed",
+      "mode" : "test"
+    },
+    "ln" : {
+      "path" : "/loinc",
+      "type" : "loinc"
+    },
+    "txreg" : {
+      "path" : "/tx-reg",
+      "type" : "tx-registry"
+    }
+  }
+}
