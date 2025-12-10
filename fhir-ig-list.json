@@ -9837,7 +9837,7 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "2025-11 Draft",
+          "name" : "Draft 0.0.1",
           "ig-version" : "0.0.1-ballot",
           "package" : "hl7.fhir.cr.terminology#0.0.1-ballot",
           "fhir-version" : ["5.0.0"],
