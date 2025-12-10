@@ -123,6 +123,17 @@
       }
     },
     {
+      "name" : "UZ Core",
+      "category" : "National Base",
+      "npm-name" : "uz.dhp.core",
+      "description" : "National implementation guide for Uzbekistan using FHIR R5",
+      "authority" : "MOH Uzbekistan",
+      "product" : ["fhir"],
+      "country" : "uz",
+      "language" : ["en", "ru", "uz"],
+      "canonical" : "https://dhp.uz/fhir/core"
+    },
+    {
       "name" : "CCDA on FHIR",
       "category" : "Clinical Documents",
       "npm-name" : "hl7.fhir.us.ccda",
