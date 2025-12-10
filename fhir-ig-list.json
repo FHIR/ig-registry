@@ -4182,9 +4182,9 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2 Ballot",
-          "ig-version" : "2.0.0-ballot",
-          "package" : "hl7.fhir.us.udap-security#2.0.0-ballot",
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.us.udap-security#2.0.0",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.org/fhir/us/udap-security/2025Jan"
         },
@@ -6829,11 +6829,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.davinci-vbpr#1.0.0",
+          "name" : "STU1.1",
+          "ig-version" : "1.1.0",
+          "package" : "hl7.fhir.us.davinci-vbpr#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/davinci-vbpr/STU1"
+          "url" : "http://hl7.org/fhir/us/davinci-vbpr/STU1.1.0"
         }
       ]
     },
@@ -9837,11 +9837,33 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "2025-11 Draft",
+          "name" : "Draft 0.0.1",
           "ig-version" : "0.0.1-ballot",
           "package" : "hl7.fhir.cr.terminology#0.0.1-ballot",
           "fhir-version" : ["5.0.0"],
           "url" : "https://hl7.or.cr/fhir/terminology/0.0.1-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "AI Transparency on FHIR",
+      "category" : "AI",
+      "npm-name" : "hl7.fhir.uv.aitransparency",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/aitransparency/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/aitransparency",
+      "ci-build" : "http://build.fhir.org/ig/HL7/aitransparency-ig/branches/main/index.html",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.aitransparency#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/aitransparency/2026Jan"
         }
       ]
     }
