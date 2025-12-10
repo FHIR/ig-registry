@@ -448,7 +448,7 @@
     },
     {
       "mask": "bfarm.terminologien.*",
-      "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
       "mask": "hl7.fhir.pl.*",
@@ -472,4 +472,5 @@
     }
     
   ]
+
 }
