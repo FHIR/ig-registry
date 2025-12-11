@@ -1,0 +1,69 @@
+name: Validate Registry Files
+
+on:
+  push:
+    paths:
+      - '**.json'
+  pull_request:
+    paths:
+      - '**.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Get all JSON files
+        id: all-files
+        run: |
+          # Find all JSON files in the repository
+          find . -name "*.json" -type f > all_json_files.txt
+          
+          echo "All JSON files:"
+          cat all_json_files.txt
+          
+          # Set environment variable for the validation script
+          echo "ALL_JSON_FILES<<EOF" >> $GITHUB_ENV
+          cat all_json_files.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      
+      - name: Check for escaped Unicode characters
+        run: |
+          if find . -name "*.json" -type f -exec grep -l '\\u' {} \; | head -1 | grep -q .; then
+            echo "Error: Escaped Unicode characters found in JSON files"
+            echo "Failing files and lines:"
+            find . -name "*.json" -type f -exec grep -Hn '\\u' {} \;
+            exit 1
+          else
+            echo "✅ No escaped Unicode characters found."
+          fi
+      
+      - name: Run comprehensive validation
+        run: |
+          node validation.js
+        env:
+          ALL_JSON_FILES: ${{ env.ALL_JSON_FILES }}
+
+  # Legacy validation job for backward compatibility
+  check-unicode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for escaped Unicode characters in fhir-ig-list.json
+        run: |
+          if grep -q '\\u' fhir-ig-list.json; then
+            echo "Error: Escaped Unicode characters found in fhir-ig-list.json"
+            echo "Failing lines:"
+            grep -n '\\u' fhir-ig-list.json
+            exit 1
+          else
+            echo "No escaped Unicode characters found."
+          fi

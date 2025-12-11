@@ -1,0 +1,25 @@
+{
+  "formatVersion": "1",
+  "description": "HL7 Switzerland list of published terminology servers",
+  "servers": [
+    {
+      "code": "hl7-ch",
+      "name": "HL7 Switzerland Terminology Server",
+      "access_info": "Open",
+      "url": "https://tx.fhir.ch",
+      "authoritative": [
+        "http://fhir.ch/ig/ch-*",
+        "http://snomed.info/sct|http://snomed.info/sct/2011000195101*"
+      ],
+      "authoritative-valuesets": [
+        "http://fhir.ch/ig/ch-*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://tx.fhir.ch/r4"
+        }
+      ]
+    }
+  ]
+}
