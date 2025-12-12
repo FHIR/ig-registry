@@ -3541,10 +3541,10 @@
       "editions" : [
         {
           "name" : "Publications",
-          "ig-version" : "7.0.0",
-          "package" : "hl7.terminology#7.0.0",
+          "ig-version" : "7.0.1",
+          "package" : "hl7.terminology#7.0.1",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://terminology.hl7.org/7.0.0"
+          "url" : "http://terminology.hl7.org/7.0.1"
         }
       ]
     },
