@@ -1145,7 +1145,6 @@
       "npm-name" : "hl7.fhir.us.ecr",
       "description" : "The Electronic Case Reporting (eCR) Implementation Guide supports Reporting, investigation, and management via electronic transmission of clinical data from Electronic Health Records to Public Health Agencies, along with the management and processing of population cases. Ths IG covers Bi-directional information exchange and triggering and decision support",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "language" : ["en"],
       "history" : "http://hl7.org/fhir/us/ecr/history.html",
@@ -1164,13 +1163,14 @@
         "codeSystems" : 8,
         "examples" : 94
       },
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2",
-          "ig-version" : "2.1.2",
-          "package" : "hl7.fhir.us.ecr#2.1.2",
+          "name" : "STU 3 Ballot",
+          "ig-version" : "3.0.0-ballot",
+          "package" : "hl7.fhir.us.ecr#3.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/ecr/STU2.1"
+          "url" : "http://hl7.org/fhir/us/ecr/2026Jan"
         }
       ]
     },
