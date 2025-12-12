@@ -36,14 +36,14 @@
         "codeSystems" : 4,
         "examples" : 111
       },
-      "product" : ["fhir", "fhir"],
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU8 Ballot",
-          "ig-version" : "8.0.0-ballot",
-          "package" : "hl7.fhir.us.core#8.0.0-ballot",
+          "name" : "STU9 Ballot",
+          "ig-version" : "9.0.0-ballot",
+          "package" : "hl7.fhir.us.core#9.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/core/2025Jan"
+          "url" : "http://hl7.org/fhir/us/core/2026Jan"
         }
       ]
     },
