@@ -12,13 +12,13 @@
       "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/*", 
       "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/*",
       "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/*",
-      "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
+      "http://snomed.info/sct|http://snomed.info/sct/21000325107*"
     ],
     "authoritative-valuesets" :[
        "https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/*", 
       "https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/*",
       "https://hl7chile.cl/fhir/ig/clcore/ValueSet/*",
-      "http://snomed.info/sct/21000325107/version/20250915"
+      "http://snomed.info/sct/21000325107*"
     ],
     "fhirVersions" : [{ 
       "version" : "R4", 
