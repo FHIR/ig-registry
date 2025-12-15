@@ -14,8 +14,14 @@ steps:
     addToPath: true
     architecture: 'x64'
 
+- task: UseNode@1
+  inputs:
+    version: '18.x'
+  displayName: 'Install Node.js'
+
+# Legacy Python validation - keeping for backward compatibility
 - task: PythonScript@0
-  displayName: 'Test fhir-ig-list.json is valid json.'
+  displayName: 'Test fhir-ig-list.json is valid JSON'
   inputs:
     scriptSource: 'inline'
     script: |
@@ -23,11 +29,13 @@ steps:
       
       f = open("fhir-ig-list.json","r")
       file_contents = f.read()
-      print(file_contents)
+      print("File contents preview:")
+      print(file_contents[:500] + "..." if len(file_contents) > 500 else file_contents)
       json_object = json.loads(file_contents)
+      print("✅ fhir-ig-list.json is valid JSON")
 
 - task: PythonScript@0
-  displayName: 'Test all fhir-version fields are lists.'
+  displayName: 'Test all fhir-version fields are lists'
   inputs:
     scriptSource: 'inline'
     script: |
@@ -48,6 +56,49 @@ steps:
       file_contents = json_file.read()
       jdata = json.loads(file_contents)
 
-      for _ in item_generator(jdata, "fhir-version"):
-          if type(_) != list:
-              raise Exception("one of the fhir-version fields has a non-list value, please fix this")
+      fhir_version_count = 0
+      for fhir_version in item_generator(jdata, "fhir-version"):
+          fhir_version_count += 1
+          if type(fhir_version) != list:
+              raise Exception(f"fhir-version field has a non-list value: {fhir_version} (type: {type(fhir_version).__name__})")
+      
+      print(f"✅ All {fhir_version_count} fhir-version fields are lists")
+
+# New comprehensive validation
+- script: |
+    echo "Getting changed files..."
+    if [ "$(Build.Reason)" == "PullRequest" ]; then
+      echo "Pull Request detected - comparing with target branch"
+      git fetch origin $(System.PullRequest.TargetBranch)
+      git diff --name-only HEAD origin/$(System.PullRequest.TargetBranch) | grep '\.json$' || echo "No JSON files changed"
+    else
+      echo "Push detected - comparing with previous commit"
+      git diff --name-only HEAD~1 HEAD | grep '\.json$' || echo "No JSON files changed"
+    fi > changed_files.txt
+    
+    echo "Changed JSON files:"
+    cat changed_files.txt
+    
+    export CHANGED_FILES=$(cat changed_files.txt | tr '\n' ' ')
+    echo "##vso[task.setvariable variable=changedFiles]$CHANGED_FILES"
+  displayName: 'Get changed files'
+
+- script: |
+    if grep -q '\\u' *.json 2>/dev/null; then
+      echo "❌ Error: Escaped Unicode characters found in JSON files"
+      echo "Failing lines:"
+      grep -n '\\u' *.json
+      exit 1
+    else
+      echo "✅ No escaped Unicode characters found."
+    fi
+  displayName: 'Check for escaped Unicode characters'
+
+- script: |
+    echo "Running comprehensive validation..."
+    echo "Changed files: $(changedFiles)"
+    export CHANGED_FILES="$(changedFiles)"
+    node validation.js
+  displayName: 'Run comprehensive validation'
+  env:
+    CHANGED_FILES: $(changedFiles)
