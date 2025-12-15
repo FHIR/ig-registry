@@ -51,6 +51,12 @@
       "name": "TEHIK Terminology Server",
       "authority": "Published by Estonian Health and Welfare Information Systems Centre (TEHIK)",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-ee-tx-servers.json"
-    }
+    },
+    {
+      "code": "hl7-cl",
+      "name": "HL7 Chilean Terminology Server",
+      "authority": "Published by HL7 Chile",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-cl-tx-servers.json"
+    },
   ]
 }
