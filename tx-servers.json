@@ -57,6 +57,6 @@
       "name": "HL7 Chilean Terminology Server",
       "authority": "Published by HL7 Chile",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-cl-tx-servers.json"
-    },
+    }
   ]
 }
