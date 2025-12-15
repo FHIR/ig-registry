@@ -8937,11 +8937,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU2",
-          "ig-version" : "2.0.1",
-          "package" : "hl7.fhir.uv.cds-hooks#2.0.1",
+          "name" : "R3 Ballot",
+          "ig-version" : "3.0.0-ballot",
+          "package" : "hl7.fhir.uv.cds-hooks#3.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://cds-hooks.hl7.org/STU2"
+          "url" : "http://cds-hooks.hl7.org/2026Jan"
         }
       ]
     },
