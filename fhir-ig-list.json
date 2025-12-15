@@ -9877,6 +9877,34 @@
           "url" : "http://hl7.org/fhir/uv/aitransparency/2026Jan"
         }
       ]
+    },
+    {
+      "name": "HL7 Czech FHIR Terminology",
+      "category": "Terminology",
+      "npm-name": "hl7.fhir.cz.terminology",
+      "description": "HL7 and NCEZ FHIR Terminology for the Czech Republic.",
+      "authority": "HL7 Czech Republic",
+      "country": "cz",
+      "history": "https://hl7.cz/terminology/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7.cz/terminology",
+      "ci-build": "http://build.fhir.org/ig/HL7-cz/terminology",
+      "product": [
+        "fhir"
+      ],
+      "editions": [
+        {
+          "name": "Release 1",
+          "ig-version": "0.1.0",
+          "package": "hl7.fhir.cz.terminology#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7.cz/terminology/0.1.0"
+        }
+      ]
     }
   ]
 }
