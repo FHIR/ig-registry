@@ -4291,7 +4291,6 @@
       "npm-name" : "hl7.fhir.us.central-cancer-registry-reporting",
       "description" : "This guide defines how healthcare organizations onboard a new research data partner. It provides guidance to extract data from EHRs, transform the data, and populate data marts",
       "authority" : "HL7",
-      "product" : ["fhir"],
       "country" : "us",
       "history" : "http://hl7.org/fhir/us/central-cancer-registry-reporting/history.html",
       "language" : ["en"],
@@ -4307,13 +4306,14 @@
         "valuesets" : 1,
         "examples" : 10
       },
+      "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.central-cancer-registry-reporting#1.0.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.us.central-cancer-registry-reporting#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/central-cancer-registry-reporting/STU1"
+          "url" : "http://hl7.org/fhir/us/central-cancer-registry-reporting/2026Jan"
         }
       ]
     },
