@@ -9893,6 +9893,28 @@
           "url" : "http://hl7.org/fhir/uv/phenomics-exchange/2026Jan"
         }
       ]
+    },
+    {
+      "name" : "Scalable Consent Management",
+      "category" : "Privacy / Security",
+      "npm-name" : "hl7.fhir.us.consent-management",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "us",
+      "history" : "http://hl7.org/fhir/us/consent-management/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/us/consent-management",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-consent-management",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.us.consent-management#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/us/consent-management/2026Jan"
+        }
+      ]
     }
   ]
 }
