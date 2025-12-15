@@ -5,6 +5,27 @@
     "code" : "hl7-au-test",
     "name" : "HL7 Australia Server",
     "access_info" : "This server is open to the public",
+    "url" : "https://tx.hl7.org.au/fhir",
+    "authoritative" : [
+      "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*",
+      "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|*",
+      "https://healthterminologies.gov.au/fhir/CodeSystem*",
+      "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0|*",
+      "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0|*"
+    ],
+    "authoritative-valuesets" : [
+       "https://healthterminologies.gov.au/fhir/ValueSet*",
+       "http://snomed.info/sct/32506021000036107*",
+       "https://www.rcpa.edu.au/fhir/ValueSet/*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R4",
+      "url" : "https://tx.hl7.org.au/fhir"
+    }]
+  }, {
+    "code" : "aehrc-au-test",
+    "name" : "AEHRC Server",
+    "access_info" : "This server is open to the public",
     "url" : "https://tx.ontoserver.csiro.au/fhir",
     "authoritative" : [
       "http://snomed.info/sct|http://snomed.info/sct/32506021000036107*",
