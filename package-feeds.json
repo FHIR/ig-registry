@@ -258,7 +258,7 @@
     },
     {
       "name": "BfArM FHIR Packages (Terminologies)",
-      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "url": "https://terminologien.bfarm.de/feeds?publishToHl7=true",
       "errors": "zts|gematik_de"
     },
     {
@@ -474,3 +474,4 @@
   ]
 
 }
+
