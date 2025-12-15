@@ -2830,11 +2830,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU3 Ballot",
-          "ig-version" : "3.0.0-ballot",
-          "package" : "hl7.fhir.uv.bulkdata#3.0.0-ballot",
+          "name" : "STU 3",
+          "ig-version" : "3.0.0",
+          "package" : "hl7.fhir.uv.bulkdata#3.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/uv/bulkdata/2025Sep"
+          "url" : "http://hl7.org/fhir/uv/bulkdata/STU3"
         }
       ]
     },
@@ -6548,10 +6548,10 @@
       "editions" : [
         {
           "name" : "CDA 2.0 Informative",
-          "ig-version" : "2.0.1-sd",
-          "package" : "hl7.cda.uv.core#2.0.1-sd",
+          "ig-version" : "2.0.2-sd",
+          "package" : "hl7.cda.uv.core#2.0.2-sd",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/cda/stds/core/2.0.1-sd"
+          "url" : "http://hl7.org/cda/stds/core/2.0.2-sd"
         }
       ]
     },
@@ -6701,11 +6701,11 @@
       "product" : ["fhir", "cda"],
       "editions" : [
         {
-          "name" : "CCDA 4.0",
-          "ig-version" : "4.0.0",
-          "package" : "hl7.cda.us.ccda#4.0.0",
+          "name" : "CCDA 5.0 Ballot",
+          "ig-version" : "5.0.0-ballot",
+          "package" : "hl7.cda.us.ccda#5.0.0-ballot",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/cda/us/ccda/4.0.0"
+          "url" : "http://hl7.org/cda/us/ccda/2026Jan"
         }
       ]
     },
@@ -9860,7 +9860,7 @@
       "name" : "AI Transparency on FHIR",
       "category" : "AI",
       "npm-name" : "hl7.fhir.uv.aitransparency",
-      "description" : "??",
+      "description" : "Healthcare systems increasingly use artificial intelligence to process patient data. This IG defines a standard way to communicate when and how AI was involved to downstream users. This track enables participants to implement transparent labeling and documentation of AI usage in healthcare data exchanges, ensuring clinicians and patients can make informed decisions about AI-influenced information",
       "authority" : "HL7",
       "country" : "uv",
       "history" : "http://hl7.org/fhir/uv/aitransparency/history.html",
