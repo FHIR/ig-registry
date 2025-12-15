@@ -3907,39 +3907,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 2.3",
-          "ig-version" : "2.3.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.3.0",
+          "name" : "STU 3 Ballot",
+          "ig-version" : "3.0.0-ballot",
+          "package" : "hl7.fhir.us.sdoh-clinicalcare#3.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.3"
-        },
-        {
-          "name" : "STU 2.2",
-          "ig-version" : "2.2.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.2.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2"
-        },
-        {
-          "name" : "STU 2.1",
-          "ig-version" : "2.1.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.1.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2.1"
-        },
-        {
-          "name" : "STU 2",
-          "ig-version" : "2.0.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#2.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU2"
-        },
-        {
-          "name" : "STU 1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.sdoh-clinicalcare#1.0.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/STU1"
+          "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/2026Jan"
         }
       ]
     },
@@ -4734,11 +4706,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU1",
-          "ig-version" : "1.0.0",
-          "package" : "hl7.fhir.us.central-cancer-registry-reporting#1.0.0",
+          "name" : "STU 2 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.us.central-cancer-registry-reporting#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.org/fhir/us/central-cancer-registry-reporting/STU1"
+          "url" : "http://hl7.org/fhir/us/central-cancer-registry-reporting/2026Jan"
         }
       ]
     },
