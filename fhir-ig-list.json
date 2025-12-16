@@ -7614,10 +7614,10 @@
       "editions" : [
         {
           "name" : "Release Informative",
-          "ig-version" : "0.8.0",
-          "package" : "hl7.fhir.uv.tools#0.8.0",
+          "ig-version" : "0.9.0",
+          "package" : "hl7.fhir.uv.tools#0.9.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/tools/0.8.0"
+          "url" : "http://hl7.org/fhir/tools/0.9.0"
         }
       ]
     },
