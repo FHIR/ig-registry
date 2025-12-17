@@ -25,6 +25,7 @@
   }, {
     "code" : "aehrc-au-test",
     "name" : "AEHRC Server",
+    "authority" : "Australian e-Health Research Centre (AeHRC)",
     "access_info" : "This server is open to the public",
     "url" : "https://tx.ontoserver.csiro.au/fhir",
     "authoritative" : [
