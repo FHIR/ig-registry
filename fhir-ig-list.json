@@ -9926,7 +9926,7 @@
       "history" : "https://interop.esante.gouv.fr/ig/documentation/history.html",
       "language" : ["en"],
       "canonical" : "https://interop.esante.gouv.fr/ig/documentation",
-      "ci-build" : "https://ansforge.github.io/IG-documentation/ig/main",
+      "ci-build" : "https://ansforge.github.io/IG-documentation/main/ig",
       "product" : ["fhir"],
       "editions" : [
         {
