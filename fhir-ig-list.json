@@ -9915,6 +9915,28 @@
           "url" : "http://hl7.org/fhir/us/consent-management/2026Jan"
         }
       ]
+    },
+    {
+      "name" : "Documentation des guides d'implémentation de l'ANS",
+      "category" : "Documentation",
+      "npm-name" : "ans.fr.documentation",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "https://interop.esante.gouv.fr/ig/documentation/history.html",
+      "language" : ["en"],
+      "canonical" : "https://interop.esante.gouv.fr/ig/documentation",
+      "ci-build" : "https://ansforge.github.io/IG-documentation/ig/main",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "release",
+          "ig-version" : "0.1.9",
+          "package" : "ans.fr.documentation#0.1.9",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.9"
+        }
+      ]
     }
   ]
 }
