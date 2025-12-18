@@ -9915,6 +9915,28 @@
           "url" : "http://hl7.org/fhir/us/consent-management/2026Jan"
         }
       ]
+    },
+    {
+      "name" : "Symptoms Data Standards",
+      "category" : "Clinical",
+      "npm-name" : "hl7.fhir.uv.symptoms",
+      "description" : "??",
+      "authority" : "HL7",
+      "country" : "uv",
+      "history" : "http://hl7.org/fhir/uv/symptoms/history.html",
+      "language" : ["en"],
+      "canonical" : "http://hl7.org/fhir/uv/symptoms",
+      "ci-build" : "http://build.fhir.org/ig/HL7/fhir-symptoms-ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1 Ballot",
+          "ig-version" : "1.0.0-ballot",
+          "package" : "hl7.fhir.uv.symptoms#1.0.0-ballot",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://hl7.org/fhir/uv/symptoms/2026Jan"
+        }
+      ]
     }
   ]
 }
