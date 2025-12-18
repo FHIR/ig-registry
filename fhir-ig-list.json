@@ -5173,11 +5173,11 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "Publication Ballot",
-          "ig-version" : "5.0.0-comment",
-          "package" : "ihe.iti.mhd#5.0.0-comment",
+          "name" : "FHIR R5",
+          "ig-version" : "5.0.0",
+          "package" : "ihe.iti.mhd#5.0.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0-comment"
+          "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0"
         }
       ]
     },
