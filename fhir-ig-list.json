@@ -9981,6 +9981,34 @@
           "url" : "http://hl7.org/ehrs/us/dhfpr2/2026Jan"
         }
       ]
+    },
+    {
+      "name" : "Médicosocial - Transfert de données DUI",
+      "category" : "Clinical Documents",
+      "npm-name" : "ans.fhir.fr.tddui",
+      "description" : "??",
+      "authority" : "ANS (FR)",
+      "country" : "fr",
+      "history" : "https://interop.esante.gouv.fr/ig/fhir/tddui/history.html",
+      "language" : [
+        "en"
+      ],
+      "canonical" : "https://interop.esante.gouv.fr/ig/fhir/tddui",
+      "ci-build" : "https://ansforge.github.io/IG-fhir-medicosocial-transfert-donnees-dui/ig/main",
+      "product" : [
+        "fhir"
+      ],
+      "editions" : [
+        {
+          "name" : "public-comment",
+          "ig-version" : "2.2.0-ballot",
+          "package" : "ans.fhir.fr.tddui#2.2.0-ballot",
+          "fhir-version" : [
+            "4.0.1"
+          ],
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/tddui/2.2.0-ballot"
+        }
+      ]
     }
   ]
 }
