@@ -9935,6 +9935,10 @@
           "package" : "ans.fr.documentation#0.1.9",
           "fhir-version" : ["4.0.1"],
           "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.9"
+        }
+      ]
+    },
+    {
       "name" : "Symptoms Data Standards",
       "category" : "Clinical",
       "npm-name" : "hl7.fhir.uv.symptoms",
