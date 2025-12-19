@@ -7680,10 +7680,10 @@
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "0.1.1",
-          "package" : "hl7.fhir.eu.extensions#0.1.1",
+          "ig-version" : "1.2.0",
+          "package" : "hl7.fhir.eu.extensions#1.2.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.eu/fhir/extensions/0.1.1"
+          "url" : "http://hl7.eu/fhir/extensions/1.2.0"
         }
       ]
     },
@@ -9378,16 +9378,16 @@
       "country" : "eu",
       "history" : "https://hl7.eu/fhir/ig/xshare-yb/history.html",
       "language" : ["en"],
-      "canonical" : "https://hl7.eu/fhir/ig/xshare-yb",
       "ci-build" : "http://build.fhir.org/ig/hl7-eu/xShare",
+      "canonical" : "http://hl7.eu/fhir/ig/xshare-yb",
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1.0",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.eu.fhir.xshare-yb#0.1.0",
+          "name" : "Release 1",
+          "ig-version" : "0.2.0",
+          "package" : "hl7.eu.fhir.xshare-yb#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/ig/xshare-yb/0.1.0"
+          "url" : "http://hl7.eu/fhir/ig/xshare-yb/0.2.0"
         }
       ]
     },
@@ -9688,27 +9688,27 @@
       "ci-build" : "https://fhir.dghs.gov.bd/core",
       "editions" : [
         {
-          "name" : "Draft 0.2.0",
-          "ig-version" : "0.2.0",
-          "package" : "bd.fhir.core#0.2.0",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://fhir.dghs.gov.bd/core"
+          "name": "Draft 0.2.0",
+          "ig-version": "0.2.0",
+          "package": "bd.fhir.core#0.2.0",
+          "fhir-version": ["4.0.1"],
+          "url": "https://fhir.dghs.gov.bd/core"
         }
       ]
     },
     {
-      "name" : "SQL on FHIR",
-      "category" : "Infrastructure",
-      "npm-name" : "org.sql-on-fhir.ig",
-      "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
-      "authority" : "SQL on FHIR Working Group",
-      "country" : "uv",
-      "history" : "https://sql-on-fhir.org/ig/history.html",
-      "language" : ["en"],
-      "canonical" : "https://sql-on-fhir.org/ig",
-      "ci-build" : "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
-      "product" : ["fhir"],
-      "editions" : [
+      "name": "SQL on FHIR",
+      "category": "Infrastructure",
+      "npm-name": "org.sql-on-fhir.ig",
+      "description": "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+      "authority": "SQL on FHIR Working Group",
+      "country": "uv",
+      "history": "https://sql-on-fhir.org/ig/history.html",
+      "language": ["en"],
+      "canonical": "https://sql-on-fhir.org/ig",
+      "ci-build": "https://build.fhir.org/ig/FHIR/sql-on-fhir-v2",
+      "product": ["fhir"],
+      "editions": [
         {
           "name" : "2.0.0",
           "ig-version" : "2.0.0",
