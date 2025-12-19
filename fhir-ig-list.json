@@ -9917,6 +9917,28 @@
       ]
     },
     {
+      "name" : "Documentation des guides d'implémentation de l'ANS",
+      "category" : "Documentation",
+      "npm-name" : "ans.fr.documentation",
+      "description" : "Documentation des guides d'implémentation de l'ANS",
+      "authority" : "ANS (FR)",
+      "country" : "fr",
+      "history" : "https://interop.esante.gouv.fr/ig/documentation/history.html",
+      "language" : ["en"],
+      "canonical" : "https://interop.esante.gouv.fr/ig/documentation",
+      "ci-build" : "https://ansforge.github.io/IG-documentation/main/ig",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "release",
+          "ig-version" : "0.1.9",
+          "package" : "ans.fr.documentation#0.1.9",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.9"
+        }
+      ]
+    },
+    {
       "name" : "Symptoms Data Standards",
       "category" : "Clinical",
       "npm-name" : "hl7.fhir.uv.symptoms",
