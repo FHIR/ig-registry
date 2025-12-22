@@ -9233,7 +9233,7 @@
           "ig-version" : "2.0.0-ballot",
           "package" : "hl7.fhir.eu.base#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/base/2.0.0-ballot"
+          "url" : "http://hl7.eu/fhir/base/0.1.0"
         }
       ]
     },
@@ -9255,7 +9255,7 @@
           "ig-version" : "2.0.0-ballot",
           "package" : "hl7.fhir.eu.base-r5#2.0.0-ballot",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.eu/fhir/base-r5/2.0.0-ballot"
+          "url" : "http://hl7.eu/fhir/base-r5/0.1.0"
         }
       ]
     },
