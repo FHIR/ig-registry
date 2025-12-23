@@ -9865,10 +9865,10 @@
       "editions" : [
         {
           "name" : "Release 1",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.cz.terminology#0.1.0",
+          "ig-version" : "0.2.0",
+          "package" : "hl7.fhir.cz.terminology#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://hl7.cz/terminology/0.1.0"
+          "url" : "https://hl7.cz/terminology/0.2.0"
         }
       ]
     },
