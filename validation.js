@@ -10,7 +10,7 @@ const MAX_LENGTHS = {
 const VALID_COUNTRIES = [
   'uv', 'eu', 'us', 'at', 'au', 'be', 'br', 'ca', 'ch', 'de', 'dk', 'pl',
   'fi', 'fr', 'gb', 'in', 'it', 'jp', 'kr', 'nl', 'no', 'nz', 'se', 'tw', 'es', 'bd',
-  'cr'
+  'cr', 'uz', 'cz'
 ];
 
 const VALID_PRODUCTS = ['fhir', 'cda', 'v2'];

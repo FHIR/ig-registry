@@ -1,0 +1,28 @@
+{
+  "formatVersion" : "1",
+  "description" : "HL7 Chile Terminology Server", 
+  "servers" : [{ 
+    "code" : "tx.hl7chile.cl",  
+    "name" : "tx.hl7chile.cl", 
+    "access_info" : "Este servidor es administrado por HL7 Chile de uso publico y gratuito.", 
+    "url" : "https://tx.hl7chile.cl", 
+    "usage" : [ 
+    ],
+    "authoritative" : [ 
+      "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/*", 
+      "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/*",
+      "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/*",
+      "http://snomed.info/sct|http://snomed.info/sct/21000325107*"
+    ],
+    "authoritative-valuesets" :[
+       "https://interoperabilidad.minsal.cl/fhir/ig/eis/ValueSet/*", 
+      "https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/*",
+      "https://hl7chile.cl/fhir/ig/clcore/ValueSet/*",
+      "http://snomed.info/sct/21000325107*"
+    ],
+    "fhirVersions" : [{ 
+      "version" : "R4", 
+      "url" : "https://tx.hl7chile.cl/r4" 
+    }]
+  }]
+}
