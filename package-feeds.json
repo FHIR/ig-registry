@@ -320,6 +320,11 @@
       "name": "HL7 FHIR Costa Rica Terminología",
       "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
       "errors": "info|hl7_or_cr"
+    },
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+      "errors": "support|servicewell_se"
     }
 
   ],
