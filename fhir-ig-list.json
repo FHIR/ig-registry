@@ -7186,10 +7186,17 @@
       "editions" : [
         {
           "name" : "STU 1",
-          "ig-version" : "1.0.1",
-          "package" : "hl7.fhir.kr.core#1.0.1",
+          "ig-version" : "1.0.2",
+          "package" : "hl7.fhir.kr.core#1.0.2",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1"
+          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.2"
+        },
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.kr.core#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU2"
         }
       ]
     },
