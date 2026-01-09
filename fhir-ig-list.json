@@ -10017,6 +10017,28 @@
           "url" : "https://interop.esante.gouv.fr/ig/fhir/tddui/2.2.0-ballot"
         }
       ]
+    },
+    {
+      "name" : "Base openEHR specification",
+      "category" : "openehr",
+      "npm-name" : "openehr.base",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "http://openehr.org/fhir/history.html",
+      "language" : ["en"],
+      "canonical" : "http://openehr.org/fhir",
+      "ci-build" : "http://build.fhir.org/ig/openehr-fhir/base-spec",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Release Informative",
+          "ig-version" : "0.1.0-snapshot",
+          "package" : "openehr.base#0.1.0-snapshot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://fhir.org/guides/openehr/base/0.1.0-snapshot"
+        }
+      ]
     }
   ]
 }

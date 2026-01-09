@@ -35,8 +35,8 @@
     "description" : "The canonical URL for the definition"
   }],
   "concept" : [{
-    "code" : "ViewDefinition",
-    "display" : "ViewDefinition",
+    "code" : "TestScript",
+    "display" : "TestScript",
     "definition" : "A ViewDefinition represents a tabular projection of a FHIR resource, where the columns and inclusion criteria are defined by FHIRPath expressions.",
     "property" : [{
       "code" : "url",
