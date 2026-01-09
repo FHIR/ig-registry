@@ -5554,14 +5554,14 @@
       "history" : "https://twcore.mohw.gov.tw/ig/twcore/history.html",
       "language" : ["zh-TW"],
       "canonical" : "https://twcore.mohw.gov.tw/ig/twcore",
-      "ci-build" : "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
+      "ci-build" : "https://build.fhir.org/ig/TU9IVy1UV0NvcmVJRw/VFcgQ29yZSBJRyBJVFJJ",
       "editions" : [
         {
-          "name" : "Trial Use",
-          "ig-version" : "0.3.2",
-          "package" : "tw.gov.mohw.twcore#0.3.2",
+          "name" : "STU 1.0.0",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.twcore#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/twcore/0.3.2"
+          "url" : "https://twcore.mohw.gov.tw/ig/twcore/1.0.0"
         }
       ]
     },
