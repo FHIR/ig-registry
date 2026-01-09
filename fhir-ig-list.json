@@ -10020,7 +10020,7 @@
     },
     {
       "name" : "Base openEHR specification",
-      "category" : "openehr",
+      "category" : "Infrastructure",
       "npm-name" : "openehr.base",
       "description" : "openEHR Base specification",
       "authority" : "openEHR",
