@@ -7680,10 +7680,10 @@
       "editions" : [
         {
           "name" : "Release",
-          "ig-version" : "0.1.1",
-          "package" : "hl7.fhir.eu.extensions#0.1.1",
+          "ig-version" : "1.2.0",
+          "package" : "hl7.fhir.eu.extensions#1.2.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.eu/fhir/extensions/0.1.1"
+          "url" : "http://hl7.eu/fhir/extensions/1.2.0"
         }
       ]
     },
@@ -9229,9 +9229,9 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1.0",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.eu.base#0.1.0",
+          "name" : "STU 2.0 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.eu.base#2.0.0-ballot",
           "fhir-version" : ["4.0.1"],
           "url" : "http://hl7.eu/fhir/base/0.1.0"
         }
@@ -9251,9 +9251,9 @@
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1.0",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.fhir.eu.base-r5#0.1.0",
+          "name" : "STU 2.0 Ballot",
+          "ig-version" : "2.0.0-ballot",
+          "package" : "hl7.fhir.eu.base-r5#2.0.0-ballot",
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.eu/fhir/base-r5/0.1.0"
         }
@@ -9378,16 +9378,16 @@
       "country" : "eu",
       "history" : "https://hl7.eu/fhir/ig/xshare-yb/history.html",
       "language" : ["en"],
-      "canonical" : "https://hl7.eu/fhir/ig/xshare-yb",
       "ci-build" : "http://build.fhir.org/ig/hl7-eu/xShare",
+      "canonical" : "http://hl7.eu/fhir/ig/xshare-yb",
       "product" : ["fhir"],
       "editions" : [
         {
-          "name" : "STU 1.0",
-          "ig-version" : "0.1.0",
-          "package" : "hl7.eu.fhir.xshare-yb#0.1.0",
+          "name" : "STU 1.2",
+          "ig-version" : "0.2.0",
+          "package" : "hl7.eu.fhir.xshare-yb#0.2.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://hl7.eu/fhir/ig/xshare-yb/0.1.0"
+          "url" : "http://hl7.eu/fhir/ig/xshare-yb/0.2.0"
         }
       ]
     },
