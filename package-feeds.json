@@ -320,6 +320,11 @@
       "name": "HL7 FHIR Costa Rica Terminología",
       "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
       "errors": "info|hl7_or_cr"
+    },
+    {
+      "name": "SQL on FHIR",
+      "url": "https://sql-on-fhir.org/ig/package-feed.xml",
+      "errors": "pathling|csiro_au"
     }
 
   ],
