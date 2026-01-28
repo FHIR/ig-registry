@@ -321,12 +321,16 @@
       "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
       "errors": "info|hl7_or_cr"
     },
-	{
+  	{
       "name": "HL7 Korea FHIR Implementation Guides",
       "url": "https://www.hl7korea.or.kr/fhir/package-feed.xml",
       "errors": "hl7korea|gmail_com"
-	}
-
+	  },
+    {
+      "name": "SQL on FHIR",
+      "url": "https://sql-on-fhir.org/ig/package-feed.xml",
+      "errors": "pathling|csiro_au"
+    }
   ],
   "package-restrictions": [
 	{
