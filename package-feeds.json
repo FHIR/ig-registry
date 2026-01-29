@@ -325,8 +325,17 @@
       "name": "Service Well Implementation Guides",
       "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
       "errors": "support|servicewell_se"
+    },
+  	{
+      "name": "HL7 Korea FHIR Implementation Guides",
+      "url": "https://www.hl7korea.or.kr/fhir/package-feed.xml",
+      "errors": "hl7korea|gmail_com"
+	  },
+    {
+      "name": "SQL on FHIR",
+      "url": "https://sql-on-fhir.org/ig/package-feed.xml",
+      "errors": "pathling|csiro_au"
     }
-
   ],
   "package-restrictions": [
 	{
@@ -355,7 +364,7 @@
     },
     {
       "mask": "hl7.fhir.kr.*",
-      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+      "feeds": [ "https://www.hl7korea.or.kr/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.eu.*",
@@ -479,4 +488,5 @@
   ]
 
 }
+
 

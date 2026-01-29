@@ -1,0 +1,23 @@
+{
+    "formatVersion": "1",
+    "description": "HL7 Nordics list of published terminology servers",
+    "servers": [
+      {
+        "code": "tx-nordics",
+        "name": "HL7 Nordics Terminology Server",
+        "access_info": "Open",
+        "url": "https://tx-nordics.fhir.org/fhir",
+        "authoritative": [
+            "http://npu-terminology.org" 
+        ],
+        "authoritative-valuesets": [
+        ],
+        "fhirVersions": [
+          {
+            "version": "R4",
+            "url": "https://tx-nordics.fhir.org/fhir/r4"
+          }        
+        ]
+      }
+    ]
+  }
