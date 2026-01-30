@@ -9987,12 +9987,12 @@
       "category" : "National Base",
       "npm-name" : "fhir.nl.gf",
       "description" : "This implementation guide specifies generic functions needed for (use case specific) data exchange standards in the Netherlands. These functions cover identification, authentication, authorization, data localization, consent and a care service directory.",
-      "authority" : "Ministry of Health, Welfare and Sport (NL)",
+      "authority" : "Ministry of Health, Welfare and Sport",
       "country" : "nl",
       "history" : "https://nuts-foundation.github.io/nl-generic-functions-ig/history.html",
       "language" : ["en"],
       "canonical" : "http://nuts-foundation.github.io/nl-generic-functions-ig",
-      "ci-build" : "https://build.fhir.org/ig/nuts-foundation/nl-generic-functions-ig/",
+      "ci-build" : "https://build.fhir.org/ig/nuts-foundation/nl-generic-functions-ig",
       "product" : ["fhir"],
       "editions" : [
         {
@@ -10000,7 +10000,7 @@
           "ig-version" : "0.3.0",
           "package" : "fhir.nl.gf#0.3.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://build.fhir.org/ig/nuts-foundation/nl-generic-functions-ig/branches/v0.3.0/"
+          "url" : "https://build.fhir.org/ig/nuts-foundation/nl-generic-functions-ig/branches/v0.3.0"
         }
       ]
     },
@@ -10008,7 +10008,7 @@
       "name" : "Médicosocial - Transfert de données DUI",
       "category" : "Clinical Documents",
       "npm-name" : "ans.fhir.fr.tddui",
-      "description" : "??",
+      "description" : "The Digital User File (DUI) centralizes all information concerning the person being cared for in social and medico-social facilities and services. The aim of this implementation guide is to define the specifications for DUI data transfer.",
       "authority" : "ANS (FR)",
       "country" : "fr",
       "history" : "https://interop.esante.gouv.fr/ig/fhir/tddui/history.html",
