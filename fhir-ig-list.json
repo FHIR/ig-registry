@@ -5554,14 +5554,14 @@
       "history" : "https://twcore.mohw.gov.tw/ig/twcore/history.html",
       "language" : ["zh-TW"],
       "canonical" : "https://twcore.mohw.gov.tw/ig/twcore",
-      "ci-build" : "https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build",
+      "ci-build" : "https://build.fhir.org/ig/TU9IVy1UV0NvcmVJRw/VFcgQ29yZSBJRyBJVFJJ",
       "editions" : [
         {
-          "name" : "Trial Use",
-          "ig-version" : "0.3.2",
-          "package" : "tw.gov.mohw.twcore#0.3.2",
+          "name" : "STU 1.0.0",
+          "ig-version" : "1.0.0",
+          "package" : "tw.gov.mohw.twcore#1.0.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twcore.mohw.gov.tw/ig/twcore/0.3.2"
+          "url" : "https://twcore.mohw.gov.tw/ig/twcore/1.0.0"
         }
       ]
     },
@@ -5642,11 +5642,11 @@
       "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
       "editions" : [
         {
-          "name" : "STU1.0.9",
-          "ig-version" : "1.0.9",
-          "package" : "tw.gov.mohw.nhi.pas#1.0.9",
+          "name" : "STU1.1.0",
+          "ig-version" : "1.1.0",
+          "package" : "tw.gov.mohw.nhi.pas#1.1.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nhicore.nhi.gov.tw/pas/1.0.9"
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.1.0"
         }
       ]
     },
@@ -7180,16 +7180,24 @@
       "authority" : "HL7 Korea",
       "product" : ["fhir"],
       "country" : "kr",
-      "language" : ["kr", "en"],
+      "language" : ["ko"],
       "history" : "http://www.hl7korea.or.kr/fhir/krcore/history.html",
+      "ci-build": "https://build.fhir.org/ig/hl7korea/krcore",
       "canonical" : "http://www.hl7korea.or.kr/fhir/krcore",
       "editions" : [
         {
           "name" : "STU 1",
-          "ig-version" : "1.0.1",
-          "package" : "hl7.fhir.kr.core#1.0.1",
+          "ig-version" : "1.0.2",
+          "package" : "hl7.fhir.kr.core#1.0.2",
           "fhir-version" : ["4.0.1"],
-          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.1"
+          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU1.0.2"
+        },
+        {
+          "name" : "STU 2",
+          "ig-version" : "2.0.0",
+          "package" : "hl7.fhir.kr.core#2.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://www.hl7korea.or.kr/fhir/krcore/STU2"
         }
       ]
     },
@@ -10008,7 +10016,7 @@
       "name" : "Médicosocial - Transfert de données DUI",
       "category" : "Clinical Documents",
       "npm-name" : "ans.fhir.fr.tddui",
-      "description" : "The Digital User File (DUI) centralizes all information concerning the person being cared for in social and medico-social facilities and services. The aim of this implementation guide is to define the specifications for DUI data transfer.",
+      "description" : "Clinical Documents",
       "authority" : "ANS (FR)",
       "country" : "fr",
       "history" : "https://interop.esante.gouv.fr/ig/fhir/tddui/history.html",
@@ -10029,6 +10037,28 @@
             "4.0.1"
           ],
           "url" : "https://interop.esante.gouv.fr/ig/fhir/tddui/2.2.0-ballot"
+        }
+      ]
+    },
+    {
+      "name" : "Base openEHR specification",
+      "category" : "Infrastructure",
+      "npm-name" : "openehr.base",
+      "description" : "openEHR Base specification",
+      "authority" : "openEHR",
+      "country" : "uv",
+      "history" : "http://openehr.org/fhir/history.html",
+      "language" : ["en"],
+      "canonical" : "http://openehr.org/fhir",
+      "ci-build" : "http://build.fhir.org/ig/openehr-fhir/base-spec",
+      "product" : ["openehr"],
+      "editions" : [
+        {
+          "name" : "Release Informative",
+          "ig-version" : "0.1.0-snapshot",
+          "package" : "openehr.base#0.1.0-snapshot",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://fhir.org/guides/openehr/base/0.1.0-snapshot"
         }
       ]
     }
