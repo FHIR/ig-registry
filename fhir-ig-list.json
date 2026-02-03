@@ -7182,7 +7182,7 @@
       "country" : "kr",
       "language" : ["ko"],
       "history" : "http://www.hl7korea.or.kr/fhir/krcore/history.html",
-      "ci-build": "https://build.fhir.org/ig/hl7korea/krcore",
+      "ci-build" : "https://build.fhir.org/ig/hl7korea/krcore",
       "canonical" : "http://www.hl7korea.or.kr/fhir/krcore",
       "editions" : [
         {
@@ -7622,10 +7622,10 @@
       "editions" : [
         {
           "name" : "Release Informative",
-          "ig-version" : "0.9.0",
-          "package" : "hl7.fhir.uv.tools#0.9.0",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.fhir.uv.tools#1.0.0",
           "fhir-version" : ["5.0.0"],
-          "url" : "http://hl7.org/fhir/tools/0.9.0"
+          "url" : "http://hl7.org/fhir/tools/1.0.0"
         }
       ]
     },
@@ -9998,22 +9998,16 @@
       "authority" : "ANS (FR)",
       "country" : "fr",
       "history" : "https://interop.esante.gouv.fr/ig/fhir/tddui/history.html",
-      "language" : [
-        "en"
-      ],
+      "language" : ["en"],
       "canonical" : "https://interop.esante.gouv.fr/ig/fhir/tddui",
       "ci-build" : "https://ansforge.github.io/IG-fhir-medicosocial-transfert-donnees-dui/ig/main",
-      "product" : [
-        "fhir"
-      ],
+      "product" : ["fhir"],
       "editions" : [
         {
           "name" : "public-comment",
           "ig-version" : "2.2.0-ballot",
           "package" : "ans.fhir.fr.tddui#2.2.0-ballot",
-          "fhir-version" : [
-            "4.0.1"
-          ],
+          "fhir-version" : ["4.0.1"],
           "url" : "https://interop.esante.gouv.fr/ig/fhir/tddui/2.2.0-ballot"
         }
       ]
