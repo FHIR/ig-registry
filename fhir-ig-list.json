@@ -9991,6 +9991,28 @@
       ]
     },
     {
+      "name" : "Generic Functions for data exchange Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.nl.gf",
+      "description" : "This implementation guide specifies generic functions needed for (use case specific) data exchange standards in the Netherlands. These functions cover identification, authentication, authorization, data localization, consent and a care service directory.",
+      "authority" : "Ministry of Health, Welfare and Sport",
+      "country" : "nl",
+      "history" : "https://minvws.github.io/generiekefuncties-docs/history.html",
+      "language" : ["en"],
+      "canonical" : "http://minvws.github.io/generiekefuncties-docs",
+      "ci-build" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "release for hl7-nl validation",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.fhir.nl.gf#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0"
+        }
+      ]
+    },
+    {
       "name" : "Médicosocial - Transfert de données DUI",
       "category" : "Clinical Documents",
       "npm-name" : "ans.fhir.fr.tddui",
