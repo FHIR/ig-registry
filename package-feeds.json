@@ -330,6 +330,11 @@
       "name": "SQL on FHIR",
       "url": "https://sql-on-fhir.org/ig/package-feed.xml",
       "errors": "pathling|csiro_au"
+    },
+    {
+      "name": "Health Samurai FHIR Implementation Guides",
+      "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
+      "errors": "hello|health-samurai_io"
     }
   ],
   "package-restrictions": [
@@ -478,8 +483,12 @@
     {
       "mask": "hl7.fhir.cr.*",
       "feeds": [ "https://hl7.or.cr/fhir/terminology/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
+    },
+    {
+      "mask": "io.health-samurai.*",
+      "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
     }
-    
+
   ]
 
 }
