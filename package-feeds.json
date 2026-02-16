@@ -321,6 +321,11 @@
       "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
       "errors": "info|hl7_or_cr"
     },
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+      "errors": "support|servicewell_se"
+    },
   	{
       "name": "HL7 Korea FHIR Implementation Guides",
       "url": "https://www.hl7korea.or.kr/fhir/package-feed.xml",
