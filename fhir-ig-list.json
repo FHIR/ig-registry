@@ -10033,6 +10033,28 @@
           "url" : "http://fhir.org/guides/openehr/base/0.1.0-snapshot"
         }
       ]
+    },
+    {
+      "name" : "Austrian Patient Summary (R4)",
+      "category" : "Patient Summary",
+      "npm-name" : "hl7.at.fhir.elga.aps.r4",
+      "description" : "??",
+      "authority" : "??",
+      "country" : "??",
+      "history" : "https://fhir.hl7.at/elga/aps/r4/history.html",
+      "language" : ["en"],
+      "canonical" : "https://fhir.hl7.at/elga/aps/r4",
+      "ci-build" : "http://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU1",
+          "ig-version" : "1.0.0",
+          "package" : "hl7.at.fhir.elga.aps.r4#1.0.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://fhir.hl7.at/elga/aps/r4/1.0.0"
+        }
+      ]
     }
   ]
 }
