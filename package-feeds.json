@@ -340,6 +340,11 @@
       "name": "Health Samurai FHIR Implementation Guides",
       "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
       "errors": "hello|health-samurai_io"
+    },
+    {
+      "name": "Xt-EHR Joint Action",
+      "url": "https://www.xt-ehr.eu/fhir/package-feed.xml",
+      "errors": "gcangioli|xtehr_eu"
     }
   ],
   "package-restrictions": [
@@ -492,8 +497,11 @@
     {
       "mask": "io.health-samurai.*",
       "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
+    },
+    {
+      "mask": "xtehr.eu.ehds.*",
+      "feeds": [ "https://www.xt-ehr.eu/fhir/package-feed.xml" ]
     }
-
   ]
 
 }
