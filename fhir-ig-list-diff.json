@@ -1,0 +1,30 @@
+{
+  "guides": [    
+            
+    {
+      "name": "PanCareSurPass Project HL7 FHIR Implementation Guide",
+      "category": "Patient Summary",
+      "npm-name": "hl7.eu.fhir.pcsp",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "http://hl7.eu/fhir/ig/pcsp/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "http://hl7.eu/fhir/ig/pcsp",
+      "ci-build": "http://build.fhir.org/ig/hl7-eu/pcsp",
+      "editions": [
+        {
+          "name": "Release 1 Qa-preview",
+          "ig-version": "0.1.0",
+          "package": "hl7.eu.fhir.pcsp#0.1.0",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "http://hl7.eu/fhir/ig/pcsp/0.1.0"
+        }
+      ]
+    }
+  ]
+}
