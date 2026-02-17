@@ -9837,6 +9837,28 @@
       ]
     },
     {
+      "name" : "WOF Connect Implementation Guide",
+      "category" : "Infrastructure",
+      "npm-name" : "servicewell.fhir.wof-connect",
+      "description" : "Well On FHIR (WOF) is Service Well AB’s initiative to provide shared FHIR APIs for healthcare. This wof.connect Implementation Guide defines the WOF Connect API and is part of a growing family of WOF IGs, including a forthcoming platform-level FHIR API (wof.platform) and other Service Well-authored guides.",
+      "authority" : "Service Well",
+      "country" : "uv",
+      "history" : "http://canonical.fhir.link/servicewell/wof-connect/history.html",
+      "language" : ["en"],
+      "canonical" : "http://canonical.fhir.link/servicewell/wof-connect",
+      "ci-build" : "http://build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "Pre-Release Draft",
+          "ig-version" : "0.1.0",
+          "package" : "servicewell.fhir.wof-connect#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "http://canonical.fhir.link/servicewell/wof-connect/0.1.0"
+        }
+      ]
+    },
+    {
       "name" : "AI Transparency on FHIR",
       "category" : "AI",
       "npm-name" : "hl7.fhir.uv.aitransparency",
@@ -9987,6 +10009,28 @@
           "package" : "hl7.ehrs.us.dhfpr2#2.0.0-ballot",
           "fhir-version" : ["5.0.0"],
           "url" : "http://hl7.org/ehrs/us/dhfpr2/2026Jan"
+        }
+      ]
+    },
+    {
+      "name" : "Generic Functions for data exchange Implementation Guide",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.nl.gf",
+      "description" : "This implementation guide specifies generic functions needed for (use case specific) data exchange standards in the Netherlands. These functions cover identification, authentication, authorization, data localization, consent and a care service directory.",
+      "authority" : "Ministry of Health, Welfare and Sport",
+      "country" : "nl",
+      "history" : "https://minvws.github.io/generiekefuncties-docs/history.html",
+      "language" : ["en"],
+      "canonical" : "http://minvws.github.io/generiekefuncties-docs",
+      "ci-build" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "release for hl7-nl validation",
+          "ig-version" : "0.1.0",
+          "package" : "hl7.fhir.nl.gf#0.1.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0"
         }
       ]
     },
