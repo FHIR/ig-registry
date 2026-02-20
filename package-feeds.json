@@ -217,6 +217,11 @@
       "errors": "fhir|iknl_nl"
     },
     {
+      "name": "IKNL",
+      "url": "https://api.iknl.nl/docs/package-feed.xml",
+      "errors": "fhir|iknl_nl"
+    },
+    {
       "name": "Health New Zealand Te Whatu Ora FHIR Implementation Guides",
       "url": "https://fhir-ig.digital.health.nz/package-feed.xml",
       "errors": "integration|tewhatuora_govt_nz"
@@ -253,7 +258,7 @@
     },
     {
       "name": "BfArM FHIR Packages (Terminologies)",
-      "url": "https://terminologien.bfarm.de/feeds/package-feed.xml",
+      "url": "https://terminologien.bfarm.de/feeds?publishToHl7=true",
       "errors": "zts|gematik_de"
     },
     {
@@ -281,15 +286,60 @@
       "url": "https://nhicore.nhi.gov.tw/packages/package-feed.xml",
       "errors": "TWNHI_FHIR|nhi_gov_tw"
     },
-	{
-      "name": "DHP Uzbekistan",
-      "url": "https://vadimperetok.in/DHP-temp/package-feed.xml",
+	  {
+      "name": "DHP & UZ Core Uzbekistan Packages",
+      "url": "https://raw.githubusercontent.com/uzinfocom-org/digital-health-ig/refs/heads/main/docs/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
     },
     {
       "name": "CSIRO FHIR Implementation Guides",
       "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
       "errors": "stars-support|csiro_au"
+    },
+	  {
+      "name": "DGHS Bangladesh",
+      "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/raw/branch/main/package-feed.xml",
+      "errors": "digitalhealth|dghs_gov_bd"
+    },
+    {
+      "name": "HL7 Lithuania FHIR Implementation Guides",
+      "url": "https://hl7.lt/packages/package-feed.xml",
+      "errors": "info|medicinosnk_lt"
+    },
+    {
+      "name": "Service Well FHIR Liquid Converter Implementation Guides",
+      "url": "https://canonical.fhir.link/flc/package-feed.xml",
+      "errors": "support|servicewell_se"
+    },
+    {
+      "name":"ONCOFAIR IGs",
+      "url":"https://oncofair-ig.kereval.cloud/package-feed.xml",
+      "errors":"alain_ribault|kereval_com"
+    },
+    {
+      "name": "HL7 FHIR Costa Rica Terminología",
+      "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
+      "errors": "info|hl7_or_cr"
+    },
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+      "errors": "support|servicewell_se"
+    },
+  	{
+      "name": "HL7 Korea FHIR Implementation Guides",
+      "url": "https://www.hl7korea.or.kr/fhir/package-feed.xml",
+      "errors": "hl7korea|gmail_com"
+	  },
+    {
+      "name": "SQL on FHIR",
+      "url": "https://sql-on-fhir.org/ig/package-feed.xml",
+      "errors": "pathling|csiro_au"
+    },
+    {
+      "name": "Health Samurai FHIR Implementation Guides",
+      "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
+      "errors": "hello|health-samurai_io"
     }
   ],
   "package-restrictions": [
@@ -319,7 +369,7 @@
     },
     {
       "mask": "hl7.fhir.kr.*",
-      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+      "feeds": [ "https://www.hl7korea.or.kr/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.eu.*",
@@ -344,7 +394,7 @@
     {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
-	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml", "https://packages.simplifier.net/rssfeed"]
+	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml"]
     },
     {
       "mask": "hl7.cda.*",
@@ -417,7 +467,7 @@
     },
     {
       "mask": "bfarm.terminologien.*",
-      "feeds": [ "https://terminologien.bfarm.de/feeds/package-feed.xml" ]
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
       "mask": "hl7.fhir.pl.*",
@@ -430,6 +480,22 @@
     {
       "mask": "tw.gov.mohw.*",
       "feeds": [ "https://twcore.mohw.gov.tw/ig/packages/package-feed.xml", "https://nhicore.nhi.gov.tw/packages/package-feed.xml" ]
+    },
+    {
+      "mask": "lt.hl7.fhir.*",
+      "feeds": [ "https://hl7.lt/packages/package-feed.xml", "https://hl7.lt/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.cr.*",
+      "feeds": [ "https://hl7.or.cr/fhir/terminology/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
+    },
+    {
+      "mask": "io.health-samurai.*",
+      "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
     }
+
   ]
+
 }
+
+
