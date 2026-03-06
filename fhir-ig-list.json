@@ -10077,6 +10077,28 @@
           "url" : "http://fhir.org/guides/openehr/base/0.1.0-snapshot"
         }
       ]
+    },
+    {
+      "name" : "Czech National FHIR R4 Core and Base Implementation Guide STU 1",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.cz.core",
+      "description" : "This implementation guide specifies Base and core profiles used by Czech Republic national interoperability project.",
+      "authority" : "HL7 Czech Republic",
+      "country" : "cz",
+      "history" : "https://hl7.cz/fhir/core/history.html",
+      "language" : ["en"],
+      "canonical" : "https://hl7.cz/fhir/core",
+      "ci-build" : "http://build.fhir.org/ig/HL7-cz/cz-core",
+      "product" : ["fhir"],
+      "editions" : [
+        {
+          "name" : "STU 1",
+          "ig-version" : "0.3.0",
+          "package" : "hl7.fhir.cz.core#0.3.0",
+          "fhir-version" : ["4.0.1"],
+          "url" : "https://hl7.cz/fhir/core/0.3.0"
+        }
+      ]
     }
   ]
 }
