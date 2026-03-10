@@ -9736,17 +9736,17 @@
       "history" : "https://api.iknl.nl/docs/pzp/r4/history.html",
       "language" : ["en"],
       "canonical" : "https://api.iknl.nl/docs/pzp/r4",
-      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-R4",
+      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-R4/branches/develop",
       "product" : ["fhir"],
-      "editions" : [
-        {
+        "editions" : [
+          {
           "name" : "Release 1",
-          "ig-version" : "1.0.0-rc1",
-          "package" : "iknl.fhir.r4.pzp#1.0.0-rc1",
+          "ig-version" : "1.0.0-rc2",
+          "package" : "iknl.fhir.r4.pzp#1.0.0-rc2",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc1"
+          "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc2"
         }
-      ]
+    ]
     },
     {
       "name" : "Advance Care Planning (PZP)",
@@ -9758,15 +9758,15 @@
       "history" : "https://api.iknl.nl/docs/pzp/stu3/history.html",
       "language" : ["en"],
       "canonical" : "https://api.iknl.nl/docs/pzp/stu3",
-      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-STU3",
+      "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-STU3/branches/develop",
       "product" : ["fhir"],
       "editions" : [
-        {
+          {
           "name" : "Release 1",
-          "ig-version" : "1.0.0-rc1",
-          "package" : "iknl.fhir.stu3.pzp#1.0.0-rc1",
+          "ig-version" : "1.0.0-rc2",
+          "package" : "iknl.fhir.stu3.pzp#1.0.0-rc2",
           "fhir-version" : ["3.0.2"],
-          "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc1"
+          "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc2"
         }
       ]
     },
