@@ -298,7 +298,7 @@
     },
 	  {
       "name": "DGHS Bangladesh",
-      "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/raw/branch/main/package-feed.xml",
+      "url": "https://fhir.dghs.gov.bd/core/package-feed.xml",
       "errors": "digitalhealth|dghs_gov_bd"
     },
     {
@@ -497,5 +497,6 @@
   ]
 
 }
+
 
 
