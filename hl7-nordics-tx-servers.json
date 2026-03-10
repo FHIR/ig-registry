@@ -8,7 +8,9 @@
         "access_info": "Open",
         "url": "https://tx-nordics.fhir.org/fhir",
         "authoritative": [
-            "http://npu-terminology.org" 
+            "http://npu-terminology.org",
+            "http://snomed.info/sct|http://snomed.info/sct/554471000005108*",
+            "http://snomed.info/sct|http://snomed.info/sct/45991000052106*"
         ],
         "authoritative-valuesets": [
         ],
@@ -20,4 +22,5 @@
         ]
       }
     ]
+
   }
