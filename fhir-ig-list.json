@@ -5579,24 +5579,10 @@
       "editions" : [
         {
           "name" : "STU1",
-          "ig-version" : "0.1.0",
-          "package" : "tw.gov.mohw.cdc.twidir#0.1.0",
+          "ig-version" : "1.4.0",
+          "package" : "tw.gov.mohw.cdc.twidir#1.4.0",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://twidir.cdc.gov.tw/twidir/0.1.0"
-        },
-        {
-          "name" : "STU1",
-          "ig-version" : "0.1.1",
-          "package" : "tw.gov.mohw.cdc.twidir#0.1.1",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twidir.cdc.gov.tw/twidir/0.1.1"
-        },
-        {
-          "name" : "STU1",
-          "ig-version" : "0.1.2",
-          "package" : "tw.gov.mohw.cdc.twidir#0.1.2",
-          "fhir-version" : ["4.0.1"],
-          "url" : "https://twidir.cdc.gov.tw/twidir/0.1.2"
+          "url" : "https://twidir.cdc.gov.tw/twidir/1.4.0"
         }
       ]
     },
@@ -5642,11 +5628,11 @@
       "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
       "editions" : [
         {
-          "name" : "STU1.1.0",
-          "ig-version" : "1.1.0",
-          "package" : "tw.gov.mohw.nhi.pas#1.1.0",
+          "name" : "STU1.1.1",
+          "ig-version" : "1.1.1",
+          "package" : "tw.gov.mohw.nhi.pas#1.1.1",
           "fhir-version" : ["4.0.1"],
-          "url" : "https://nhicore.nhi.gov.tw/pas/1.1.0"
+          "url" : "https://nhicore.nhi.gov.tw/pas/1.1.1"
         }
       ]
     },
