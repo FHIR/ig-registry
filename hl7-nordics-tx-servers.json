@@ -10,6 +10,7 @@
         "authoritative": [
             "http://npu-terminology.org",
             "http://snomed.info/sct|http://snomed.info/sct/554471000005108*",
+            "http://snomed.info/sct|http://snomed.info/sct/51000202101*",
             "http://snomed.info/sct|http://snomed.info/sct/45991000052106*"
         ],
         "authoritative-valuesets": [
@@ -24,3 +25,4 @@
     ]
 
   }
+
