@@ -9414,5 +9414,26 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment"
     }]
-  }]
+  },
+  {
+    "name" : "EHDS Logical Information Models",
+    "category" : "EHDS",
+    "npm-name" : "xtehr.eu.ehds.models",
+    "description" : "This is the second preview version of the EHDS Logical Information Models proposed by the Xt-EHR Joint Action.",
+    "authority" : "Xt-EHR Joint Action",
+    "country" : "eu",
+    "history" : "http://www.xt-ehr.eu/fhir/models/history.html",
+    "language" : ["en"],
+    "canonical" : "http://www.xt-ehr.eu/fhir/models",
+    "ci-build" : "http://build.fhir.org/ig/Xt-EHR/xt-ehr-common",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Edition 1 Preview",
+      "ig-version" : "0.3.0",
+      "package" : "xtehr.eu.ehds.models#0.3.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://www.xt-ehr.eu/fhir/models/0.3.0"
+    }]
+  }
+]
 }
