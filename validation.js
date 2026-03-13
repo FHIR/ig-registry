@@ -13,7 +13,7 @@ const VALID_COUNTRIES = [
   'cr', 'uz', 'cz'
 ];
 
-const VALID_PRODUCTS = ['fhir', 'cda', 'v2'];
+const VALID_PRODUCTS = ['fhir', 'cda', 'v2', 'openehr'];
 
 class ValidationError extends Error {
   constructor(message, file = null, guide = null) {

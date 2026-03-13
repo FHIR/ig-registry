@@ -303,7 +303,7 @@
     },
 	  {
       "name": "DGHS Bangladesh",
-      "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/raw/branch/main/package-feed.xml",
+      "url": "https://fhir.dghs.gov.bd/core/package-feed.xml",
       "errors": "digitalhealth|dghs_gov_bd"
     },
     {
@@ -325,8 +325,27 @@
       "name": "HL7 FHIR Costa Rica Terminología",
       "url": "https://hl7.or.cr/fhir/terminology/package-feed.xml",
       "errors": "info|hl7_or_cr"
+    },
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/package-feed.xml",
+      "errors": "support|servicewell_se"
+    },
+  	{
+      "name": "HL7 Korea FHIR Implementation Guides",
+      "url": "https://www.hl7korea.or.kr/fhir/package-feed.xml",
+      "errors": "hl7korea|gmail_com"
+	  },
+    {
+      "name": "SQL on FHIR",
+      "url": "https://sql-on-fhir.org/ig/package-feed.xml",
+      "errors": "pathling|csiro_au"
+    },
+    {
+      "name": "Health Samurai FHIR Implementation Guides",
+      "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
+      "errors": "hello|health-samurai_io"
     }
-
   ],
   "package-restrictions": [
 	{
@@ -355,7 +374,7 @@
     },
     {
       "mask": "hl7.fhir.kr.*",
-      "feeds": [ "http://www.hl7korea.or.kr/fhir/package-feed.xml" ]
+      "feeds": [ "https://www.hl7korea.or.kr/fhir/package-feed.xml" ]
     },
     {
       "mask": "hl7.fhir.eu.*",
@@ -478,9 +497,15 @@
     {
       "mask": "hl7.fhir.cr.*",
       "feeds": [ "https://hl7.or.cr/fhir/terminology/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
+    },
+    {
+      "mask": "io.health-samurai.*",
+      "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
     }
-    
+
   ]
 
 }
+
+
 

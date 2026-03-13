@@ -9,11 +9,15 @@
       "url": "http://tx.hl7europe.eu",
       "authoritative": [
         "http://hl7europe.org/fhir/terminology/ehdsi*",
-        "http://snomed.info/sct|http://snomed.info/sct/11000279109*"        
+        "http://snomed.info/sct|http://snomed.info/sct/11000279109*",
+        "http://npu-terminology.org"
       ],
       "authoritative-valuesets": [
         "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*",
         "http://terminology.ehdsi.eu/ValueSet*"
+      ],
+      "exclusions" : [
+        "http://hl7.org/fhir/sid/icd-10-cm"
       ],
       "fhirVersions": [
         {

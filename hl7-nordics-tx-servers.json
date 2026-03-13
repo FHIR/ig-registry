@@ -1,0 +1,28 @@
+{
+    "formatVersion": "1",
+    "description": "HL7 Nordics list of published terminology servers",
+    "servers": [
+      {
+        "code": "tx-nordics",
+        "name": "HL7 Nordics Terminology Server",
+        "access_info": "Open",
+        "url": "https://tx-nordics.fhir.org/fhir",
+        "authoritative": [
+            "http://npu-terminology.org",
+            "http://snomed.info/sct|http://snomed.info/sct/554471000005108*",
+            "http://snomed.info/sct|http://snomed.info/sct/51000202101*",
+            "http://snomed.info/sct|http://snomed.info/sct/45991000052106*"
+        ],
+        "authoritative-valuesets": [
+        ],
+        "fhirVersions": [
+          {
+            "version": "R4",
+            "url": "https://tx-nordics.fhir.org/fhir/r4"
+          }        
+        ]
+      }
+    ]
+
+  }
+
