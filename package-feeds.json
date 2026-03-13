@@ -81,6 +81,11 @@
       "url": "https://interop.esante.gouv.fr/ig/cda/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
     }, 
+	{
+      "name": "Agence du Numérique en Santé - Document IG",
+      "url": "https://interop.esante.gouv.fr/ig/document/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    }, 
     { 
         "name": "HL7 Denmark", 
         "url": "https://hl7.dk/fhir/package-feed.xml", 
@@ -417,6 +422,10 @@
   	{
       "mask": "ans.cda.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/cda/package-feed.xml" ]
+    },
+	{
+      "mask": "ans.fr.document.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/document/package-feed.xml" ]
     },
     {
       "mask": "ihe.*",
