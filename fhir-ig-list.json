@@ -9421,5 +9421,239 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment"
     }]
+  },
+  {
+    "name" : "Lithuanian Base FHIR Implementation Guide",
+    "category" : "Infrastructure",
+    "npm-name" : "lt.hl7.fhir.base",
+    "description" : "Base profiles and extensions for Lithuanian FHIR implementation guides",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/base/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/base",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-base",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.2.0",
+      "package" : "lt.hl7.fhir.base#0.2.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/base/0.2.0"
+    },
+    {
+      "name" : "DSTU2 Ballot",
+      "ig-version" : "0.3.0",
+      "package" : "lt.hl7.fhir.base#0.3.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/base/0.3.0"
+    }]
+  },
+  {
+    "name" : "Lithuanian Vital Signs FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.vitalsigns",
+    "description" : "Vital signs profiles and value sets for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/vitalsigns/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/vitalsigns",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.vitalsigns#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/vitalsigns/0.0.1"
+    },
+    {
+      "name" : "DSTU2 Ballot",
+      "ig-version" : "0.2.0",
+      "package" : "lt.hl7.fhir.vitalsigns#0.2.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/vitalsigns/0.2.0"
+    }]
+  },
+  {
+    "name" : "Lithuanian Breast Diagnostics FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.breast",
+    "description" : "Breast cancer screening and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/breast/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/breast",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-breast",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.breast#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/breast/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Cervical Cancer FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.cervical",
+    "description" : "Cervical cancer screening and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/cervical/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/cervical",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-cervical",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.cervical#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/cervical/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Colorectal Cancer FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.colorectal",
+    "description" : "Colorectal cancer screening and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/colorectal/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/colorectal",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-colorectal",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.colorectal#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/colorectal/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian CVD FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.cvd",
+    "description" : "Cardiovascular disease prevention and management profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/cvd/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/cvd",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-cvd",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.cvd#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/cvd/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Laboratory FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.lab",
+    "description" : "Laboratory observations and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/lab/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/lab",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-lab",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.lab#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/lab/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Lifestyle FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.lifestyle",
+    "description" : "Lifestyle observations and assessments for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/lifestyle/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/lifestyle",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-lifestyle",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.lifestyle#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/lifestyle/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Lung Cancer FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.lung",
+    "description" : "Lung cancer screening and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/lung/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/lung",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-lung",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.lung#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/lung/0.0.1"
+    }]
+  },
+  {
+    "name" : "Lithuanian Prostate Diagnostics FHIR Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "lt.hl7.fhir.prostate",
+    "description" : "Prostate cancer screening and diagnostics profiles for Lithuanian healthcare",
+    "authority" : "HL7 Lithuania",
+    "country" : "lt",
+    "history" : "https://hl7.lt/fhir/prostate/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/prostate",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-prostate",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "DSTU1 Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.prostate#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/prostate/0.0.1"
+    }]
+  },
+  {
+    "name" : "HL7 Europe General FHIR Implementation Guide",
+    "category" : "Infrastructure",
+    "npm-name" : "lt.hl7.fhir.eu",
+    "description" : "HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles",
+    "authority" : "HL7 Lithuania",
+    "country" : "eu",
+    "history" : "https://hl7.lt/fhir/eu/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.lt/fhir/eu",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-eu-ehds",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases Draft",
+      "ig-version" : "0.0.1",
+      "package" : "lt.hl7.fhir.eu#0.0.1",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://hl7.lt/fhir/eu/0.0.1"
+    }]
   }]
 }
