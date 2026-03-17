@@ -3301,10 +3301,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publication Normative",
-      "ig-version" : "1.4.0",
-      "package" : "ihe.formatcode.fhir#1.4.0",
+      "ig-version" : "1.5.0",
+      "package" : "ihe.formatcode.fhir#1.5.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.4.0"
+      "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.5.0"
     }]
   },
   {
@@ -9319,7 +9319,7 @@
       "ig-version" : "0.1.0",
       "package" : "hl7.fhir.nl.gf#0.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0" 
+      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0"
     }]
   },
   {
