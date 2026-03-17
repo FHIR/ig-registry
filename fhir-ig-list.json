@@ -9421,5 +9421,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment"
     }]
+  },
+  {
+    "name" : "Volet Traçabilité des notifications d'événements",
+    "category" : "Infrastructure",
+    "npm-name" : "ans.fhir.fr.nde",
+    "description" : "??",
+    "authority" : "ANS (FR)",
+    "country" : "fr",
+    "history" : "https://interop.esante.gouv.fr/ig/fhir/nde/history.html",
+    "language" : ["en"],
+    "canonical" : "https://interop.esante.gouv.fr/ig/fhir/nde",
+    "ci-build" : "https://ansforge.github.io/interop-ig-fhir-notification-evenements/main/ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1",
+      "ig-version" : "3.0.0",
+      "package" : "ans.fhir.fr.nde#3.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/nde/3.0.0"
+    }]
   }]
 }
