@@ -1,2 +1,7 @@
-
+# macOS System Files
 .DS_Store
+.DS_Store?
+
+# IDE Files (JetBrains/IntelliJ/PyCharm)
+.idea/
+

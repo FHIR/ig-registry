@@ -1,0 +1,27 @@
+{
+    "formatVersion": "1",
+    "description": "Lithuanian list of published terminology servers",
+    "servers": [
+      {
+        "code": "lmb",
+        "name": "LMB Terminology Server",
+        "access_info": "Open",
+        "url": "https://tx.hl7.lt/fhir",
+        "authoritative": [
+          "https://www.medicinosnk.lt/CodeSystem*",
+          "https://tx.hl7.lt/fhir/CodeSystem*",
+          "http://snomed.info/sct|http://snomed.info/sct/11000092103*"
+        ],
+        "authoritative-valuesets": [
+          "https://www.medicinosnk.lt/ValueSet*",
+          "https://tx.hl7.lt/fhir/ValueSet*"
+        ],
+        "fhirVersions": [
+          {
+            "version": "R5",
+            "url": "https://tx.hl7.lt/fhir"
+          }        
+        ]
+      }
+    ]
+  }
