@@ -2081,10 +2081,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release",
-      "ig-version" : "3.5.0",
-      "package" : "hl7.fhir.dk.core#3.5.0",
+      "ig-version" : "3.6.0",
+      "package" : "hl7.fhir.dk.core#3.6.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.dk/fhir/core/3.5.0"
+      "url" : "http://hl7.dk/fhir/core/3.6.0"
     }]
   },
   {
@@ -3301,10 +3301,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publication Normative",
-      "ig-version" : "1.4.0",
-      "package" : "ihe.formatcode.fhir#1.4.0",
+      "ig-version" : "1.5.0",
+      "package" : "ihe.formatcode.fhir#1.5.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.4.0"
+      "url" : "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.5.0"
     }]
   },
   {
@@ -3327,10 +3327,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publications",
-      "ig-version" : "7.0.1",
-      "package" : "hl7.terminology#7.0.1",
+      "ig-version" : "7.1.0",
+      "package" : "hl7.terminology#7.1.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://terminology.hl7.org/7.0.1"
+      "url" : "http://terminology.hl7.org/7.1.0"
     }]
   },
   {
@@ -4437,7 +4437,6 @@
     "history" : "http://hl7.org/fhir/us/health-care-surveys-reporting/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/us/health-care-surveys-reporting",
-    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-health-care-surveys-reporting",
     "analysis" : {
       "content" : true,
       "rest" : true,
@@ -4447,13 +4446,14 @@
       "profiles" : 4,
       "examples" : 13
     },
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-health-care-surveys-reporting-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.us.health-care-surveys-reporting#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.health-care-surveys-reporting#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/health-care-surveys-reporting/2025Sep"
+      "url" : "http://hl7.org/fhir/us/health-care-surveys-reporting/STU2"
     }]
   },
   {
@@ -5235,24 +5235,10 @@
     "canonical" : "https://twidir.cdc.gov.tw/twidir",
     "editions" : [{
       "name" : "STU1",
-      "ig-version" : "0.1.0",
-      "package" : "tw.gov.mohw.cdc.twidir#0.1.0",
+      "ig-version" : "1.4.0",
+      "package" : "tw.gov.mohw.cdc.twidir#1.4.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://twidir.cdc.gov.tw/twidir/0.1.0"
-    },
-    {
-      "name" : "STU1",
-      "ig-version" : "0.1.1",
-      "package" : "tw.gov.mohw.cdc.twidir#0.1.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://twidir.cdc.gov.tw/twidir/0.1.1"
-    },
-    {
-      "name" : "STU1",
-      "ig-version" : "0.1.2",
-      "package" : "tw.gov.mohw.cdc.twidir#0.1.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://twidir.cdc.gov.tw/twidir/0.1.2"
+      "url" : "https://twidir.cdc.gov.tw/twidir/1.4.0"
     }]
   },
   {
@@ -5294,11 +5280,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.1.0",
-      "ig-version" : "1.1.0",
-      "package" : "tw.gov.mohw.nhi.pas#1.1.0",
+      "name" : "STU1.1.1",
+      "ig-version" : "1.1.1",
+      "package" : "tw.gov.mohw.nhi.pas#1.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.1.0"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.1.1"
     }]
   },
   {
@@ -5495,10 +5481,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
-      "ig-version" : "2.0.0-snapshot",
-      "package" : "hl7.fhir.us.ph-library#2.0.0-snapshot",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.ph-library#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ph-library/2.0.0-snapshot"
+      "url" : "http://hl7.org/fhir/us/ph-library/STU2"
     }]
   },
   {
@@ -7114,10 +7100,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release Informative",
-      "ig-version" : "0.9.0",
-      "package" : "hl7.fhir.uv.tools#0.9.0",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.tools#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/tools/0.9.0"
+      "url" : "http://hl7.org/fhir/tools/1.0.0"
     }]
   },
   {
@@ -7642,10 +7628,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Releases",
-      "ig-version" : "1.2.0",
-      "package" : "smart.who.int.trust#1.2.0",
+      "ig-version" : "1.4.0",
+      "package" : "smart.who.int.trust#1.4.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://smart.who.int/trust/1.2.0"
+      "url" : "http://smart.who.int/trust/1.4.0"
     }]
   },
   {
@@ -7886,6 +7872,26 @@
       "package" : "smart.who.int.dak-pnc#1.0.0",
       "fhir-version" : ["4.0.1"],
       "url" : "http://smart.who.int/dak-pnc/v1.0.0"
+    }]
+  },
+  {
+    "name" : "SMART DAK SRV",
+    "category" : "SMART (WHO)",
+    "npm-name" : "smart.who.int.dak-srv",
+    "description" : "SMART Digital Adaptation Kit (DAK) for Surveillance",
+    "authority" : "World Health Organization",
+    "country" : "uv",
+    "history" : "http://smart.who.int/dak-srv/history.html",
+    "language" : ["en"],
+    "canonical" : "http://smart.who.int/dak-srv",
+    "ci-build" : "http://worldhealthorganization.github.io/smart-dak-srv",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.9.9",
+      "package" : "smart.who.int.dak-srv#0.9.9",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://smart.who.int/dak-srv/v0.9.9"
     }]
   },
   {
@@ -9039,14 +9045,14 @@
     "history" : "https://api.iknl.nl/docs/pzp/r4/history.html",
     "language" : ["en"],
     "canonical" : "https://api.iknl.nl/docs/pzp/r4",
-    "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-R4",
+    "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-R4/branches/develop",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc1",
-      "package" : "iknl.fhir.r4.pzp#1.0.0-rc1",
+      "ig-version" : "1.0.0-rc2",
+      "package" : "iknl.fhir.r4.pzp#1.0.0-rc2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc1"
+      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc2"
     }]
   },
   {
@@ -9059,14 +9065,14 @@
     "history" : "https://api.iknl.nl/docs/pzp/stu3/history.html",
     "language" : ["en"],
     "canonical" : "https://api.iknl.nl/docs/pzp/stu3",
-    "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-STU3",
+    "ci-build" : "http://build.fhir.org/ig/IKNL/PZP-FHIR-STU3/branches/develop",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc1",
-      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc1",
+      "ig-version" : "1.0.0-rc2",
+      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc2",
       "fhir-version" : ["3.0.2"],
-      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc1"
+      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc2"
     }]
   },
   {
@@ -9239,14 +9245,14 @@
     "history" : "https://interop.esante.gouv.fr/ig/documentation/history.html",
     "language" : ["en"],
     "canonical" : "https://interop.esante.gouv.fr/ig/documentation",
-    "ci-build" : "https://ansforge.github.io/IG-documentation/main/ig",
+    "ci-build" : "https://ansforge.github.io/IG-documentation/ig/main",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "release",
-      "ig-version" : "0.1.9",
-      "package" : "ans.fr.documentation#0.1.9",
+      "ig-version" : "0.1.10",
+      "package" : "ans.fr.documentation#0.1.10",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.9"
+      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.10"
     }]
   },
   {
@@ -9290,6 +9296,33 @@
     }]
   },
   {
+    "name" : "Generic Functions for data exchange Implementation Guide",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.nl.gf",
+    "description" : "This implementation guide specifies generic functions needed for (use case specific) data exchange standards in the Netherlands. These functions cover identification, authentication, authorization, data localization, consent and a care service directory.",
+    "authority" : "Ministry of Health, Welfare and Sport",
+    "country" : "nl",
+    "history" : "https://minvws.github.io/generiekefuncties-docs/history.html",
+    "language" : ["en"],
+    "canonical" : "http://minvws.github.io/generiekefuncties-docs",
+    "ci-build" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Ballot 1",
+      "ig-version" : "0.2.0-ballot",
+      "package" : "hl7.fhir.nl.gf#0.2.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/0.2.0-ballot"
+    },
+    {
+      "name" : "release for hl7-nl validation",
+      "ig-version" : "0.1.0",
+      "package" : "hl7.fhir.nl.gf#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0"
+    }]
+  },
+  {
     "name" : "Médicosocial - Transfert de données DUI",
     "category" : "Clinical Documents",
     "npm-name" : "ans.fhir.fr.tddui",
@@ -9328,5 +9361,86 @@
       "fhir-version" : ["5.0.0"],
       "url" : "http://fhir.org/guides/openehr/base/0.1.0-snapshot"
     }]
-  }]
+  },
+  {
+    "name" : "Czech National FHIR R4 Core and Base Implementation Guide STU 1",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.cz.core",
+    "description" : "This implementation guide specifies Base and core profiles used by Czech Republic national interoperability project.",
+    "authority" : "HL7 Czech Republic",
+    "country" : "cz",
+    "history" : "https://hl7.cz/fhir/core/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.cz/fhir/core",
+    "ci-build" : "http://build.fhir.org/ig/HL7-cz/cz-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1",
+      "ig-version" : "0.3.0",
+      "package" : "hl7.fhir.cz.core#0.3.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://hl7.cz/fhir/core/0.3.0"
+    }]
+  },
+  {
+    "name" : "Austrian Patient Summary (R4)",
+    "category" : "Patient Summary",
+    "npm-name" : "hl7.at.fhir.elga.aps.r4",
+    "description" : "The FHIR® implementation guide Austrian Patient Summary is derived from the HL7® Austria FHIR® Core implementation guide and ensures conformity with the International Patient Summary (IPS).",
+    "authority" : "ELGA GmbH",
+    "country" : "at",
+    "history" : "https://fhir.hl7.at/elga/aps/r4/history.html",
+    "language" : ["en"],
+    "canonical" : "https://fhir.hl7.at/elga/aps/r4",
+    "ci-build" : "http://build.fhir.org/ig/HL7Austria/ELGA-AustrianPatientSummary-R4",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.at.fhir.elga.aps.r4#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.hl7.at/elga/aps/r4/1.0.0"
+    }]
+  },
+  {
+    "name" : "FHIR International Patient Summary (FIPS)",
+    "category" : "Content Profile",
+    "npm-name" : "ihe.pcc.fiio",
+    "description" : "Additional options for implementing the HL7 International Patient Summary FHIR document and associated testing requirements.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/PCC/FIIO/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/PCC/FIIO",
+    "ci-build" : "http://build.fhir.org/ig/IHE/PCC.FIIO/branches/master/index.html",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication Ballot",
+      "ig-version" : "1.0.0-comment",
+      "package" : "ihe.pcc.fiio#1.0.0-comment",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment"
+    }]
+  },
+  {
+    "name" : "EHDS Logical Information Models",
+    "category" : "EHDS",
+    "npm-name" : "xtehr.eu.ehds.models",
+    "description" : "This is the second preview version of the EHDS Logical Information Models proposed by the Xt-EHR Joint Action.",
+    "authority" : "Xt-EHR Joint Action",
+    "country" : "eu",
+    "history" : "http://www.xt-ehr.eu/fhir/models/history.html",
+    "language" : ["en"],
+    "canonical" : "http://www.xt-ehr.eu/fhir/models",
+    "ci-build" : "http://build.fhir.org/ig/Xt-EHR/xt-ehr-common",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Edition 1 Preview",
+      "ig-version" : "0.3.0",
+      "package" : "xtehr.eu.ehds.models#0.3.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://www.xt-ehr.eu/fhir/models/0.3.0"
+    }]
+  }
+]
 }

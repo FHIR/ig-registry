@@ -81,6 +81,11 @@
       "url": "https://interop.esante.gouv.fr/ig/cda/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
     }, 
+	{
+      "name": "Agence du Numérique en Santé - Document IG",
+      "url": "https://interop.esante.gouv.fr/ig/document/package-feed.xml",
+      "errors": "nicolas_riss|esante_gouv_fr"
+    }, 
     { 
         "name": "HL7 Denmark", 
         "url": "https://hl7.dk/fhir/package-feed.xml", 
@@ -298,7 +303,7 @@
     },
 	  {
       "name": "DGHS Bangladesh",
-      "url": "https://git.dghs.gov.bd/gitadmin/BD-Core-FHIR-IG/raw/branch/main/package-feed.xml",
+      "url": "https://fhir.dghs.gov.bd/core/package-feed.xml",
       "errors": "digitalhealth|dghs_gov_bd"
     },
     {
@@ -335,6 +340,11 @@
       "name": "SQL on FHIR",
       "url": "https://sql-on-fhir.org/ig/package-feed.xml",
       "errors": "pathling|csiro_au"
+    },
+    {
+      "name": "Health Samurai FHIR Implementation Guides",
+      "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
+      "errors": "hello|health-samurai_io"
     }
   ],
   "package-restrictions": [
@@ -420,6 +430,10 @@
       "mask": "ans.fr.template*",
       "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
     },
+	{
+      "mask": "ans.fr.document.*",
+      "feeds": [ "https://interop.esante.gouv.fr/ig/document/package-feed.xml" ]
+    },
     {
       "mask": "ans.fr.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/package-feed.xml", "https://interop.esante.gouv.fr/package-feed.xml" ]
@@ -483,10 +497,15 @@
     {
       "mask": "hl7.fhir.cr.*",
       "feeds": [ "https://hl7.or.cr/fhir/terminology/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
+    },
+    {
+      "mask": "io.health-samurai.*",
+      "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
     }
-    
+
   ]
 
 }
+
 
 
