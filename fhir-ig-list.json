@@ -7160,10 +7160,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.eu.extensions#1.2.0",
+      "ig-version" : "1.3.0",
+      "package" : "hl7.fhir.eu.extensions#1.3.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/extensions/1.2.0"
+      "url" : "http://hl7.eu/fhir/extensions/1.3.0"
     }]
   },
   {
@@ -8631,11 +8631,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/imaging-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Preview",
-      "ig-version" : "0.1.0-snapshot1",
-      "package" : "hl7.fhir.eu.imaging-r5#0.1.0-snapshot1",
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.imaging-r5#1.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/imaging-r5/0.1.0-snapshot1"
+      "url" : "http://hl7.eu/fhir/imaging-r5/1.0.0-ballot"
     }]
   },
   {
@@ -9440,6 +9440,46 @@
       "package" : "xtehr.eu.ehds.models#0.3.0",
       "fhir-version" : ["5.0.0"],
       "url" : "http://www.xt-ehr.eu/fhir/models/0.3.0"
+    }]
+  },
+  {
+    "name" : "HL7 Europe Imaging Report",
+    "category" : "Imaging",
+    "npm-name" : "hl7.fhir.eu.imaging",
+    "description" : "??",
+    "authority" : "??",
+    "country" : "??",
+    "history" : "http://hl7.eu/fhir/imaging/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/imaging",
+    "ci-build" : "http://build.fhir.org/ig/hl7-eu/imaging-r4",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.imaging#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/imaging/1.0.0-ballot"
+    }]
+  },
+  {
+    "name" : "EU Health Data API",
+    "category" : "EHDS",
+    "npm-name" : "hl7.fhir.eu.health-data-api",
+    "description" : "??",
+    "authority" : "??",
+    "country" : "??",
+    "history" : "http://hl7.eu/fhir/health-data-api/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/health-data-api",
+    "ci-build" : "http://build.fhir.org/ig/euridice-org/eu-health-data-api",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.health-data-api#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/health-data-api/1.0.0-ballot"
     }]
   }]
 }
