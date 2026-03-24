@@ -501,8 +501,11 @@
     {
       "mask": "io.health-samurai.*",
       "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
+    },
+    {
+      "mask": "xtehr.eu.ehds.*",
+      "feeds": [ "http://www.xt-ehr.eu/fhir/package-feed.xml" ]
     }
-
   ]
 
 }
