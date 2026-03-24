@@ -69,7 +69,7 @@
     "name" : "AU Core",
     "category" : "National Base",
     "npm-name" : "hl7.fhir.au.core",
-    "description" : "AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and defines the minimum set of constraints on the FHIR resources to create the AU Core profiles.",
+    "description" : "AU Core implementation guide provides support for the use of FHIR®© in an Australian context, and sets the minimum expectations on FHIR resources to support conformance and implementation in systems.",
     "authority" : "HL7",
     "product" : ["fhir"],
     "country" : "au",
