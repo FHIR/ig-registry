@@ -7100,10 +7100,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release Informative",
-      "ig-version" : "1.1.1",
-      "package" : "hl7.fhir.uv.tools#1.1.1",
+      "ig-version" : "1.1.2",
+      "package" : "hl7.fhir.uv.tools#1.1.2",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/tools/1.1.1"
+      "url" : "http://hl7.org/fhir/tools/1.1.2"
     }]
   },
   {
