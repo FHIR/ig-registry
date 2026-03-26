@@ -345,6 +345,16 @@
       "name": "Health Samurai FHIR Implementation Guides",
       "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
       "errors": "hello|health-samurai_io"
+    },
+    {
+      "name": "HL7 Czech Republic Terminology",
+      "url": "https://hl7.cz/terminology/package-feed.xml",
+      "errors": "kruzik|hl7_cz"
+    },
+    {
+      "name": "HL7 Czech Republic FHIR Implementation Guides",
+      "url": "https://hl7.cz/fhir/package-feed.xml",
+      "errors": "kruzik|hl7_cz"
     }
   ],
   "package-restrictions": [
@@ -501,6 +511,10 @@
     {
       "mask": "io.health-samurai.*",
       "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.cz.*",
+      "feeds": [ "https://hl7.cz/terminology/package-feed.xml", "https://hl7.cz/fhir/package-feed.xml" ]
     },
     {
       "mask": "xtehr.eu.ehds.*",
