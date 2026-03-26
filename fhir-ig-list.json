@@ -5037,6 +5037,26 @@
     }]
   },
   {
+    "name": "HL7 Belgium FHIR Implementation Guide - Patient Dossier profiles",
+    "category": "National Base",
+    "npm-name": "hl7.fhir.be.patient-dossier",
+    "description": "HL7 Belgium FHIR Implementation Guide - Patient Dossier profiles",
+    "authority": "eHealth Platform (BE)",
+    "product": ["fhir"],
+    "country": "be",
+    "history": "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/history.html",
+    "language": ["en"],
+    "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-dossier",
+    "ci-build": "http://build.fhir.org/ig/hl7-be/patient-dossier",
+    "editions": [{
+      "name": "Trial Use",
+      "ig-version": "1.0.0",
+      "package": "hl7.fhir.be.patient-dossier#1.0.0",
+      "fhir-version": ["4.0.1"],
+      "url": "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/1.0.0"
+	  }]
+	},
+  {
     "name" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
     "category" : "National Base",
     "npm-name" : "hl7.fhir.be.core-clinical",
