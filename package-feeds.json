@@ -515,8 +515,11 @@
     {
       "mask": "hl7.fhir.cz.*",
       "feeds": [ "https://hl7.cz/terminology/package-feed.xml", "https://hl7.cz/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "xtehr.eu.ehds.*",
+      "feeds": [ "http://www.xt-ehr.eu/fhir/package-feed.xml" ]
     }
-
   ]
 
 }
