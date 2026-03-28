@@ -9202,14 +9202,14 @@
     "history" : "http://canonical.fhir.link/servicewell/wof-connect/history.html",
     "language" : ["en"],
     "canonical" : "http://canonical.fhir.link/servicewell/wof-connect",
-    "ci-build" : "http://build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
+    "ci-build" : "build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Pre-Release Draft",
-      "ig-version" : "0.1.0",
-      "package" : "servicewell.fhir.wof-connect#0.1.0",
+      "ig-version" : "0.1.1",
+      "package" : "servicewell.fhir.wof-connect#0.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://canonical.fhir.link/servicewell/wof-connect/0.1.0"
+      "url" : "http://canonical.fhir.link/servicewell/wof-connect/0.1.1"
     }]
   },
   {
