@@ -9518,5 +9518,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/ph-bulk-data/2026May"
     }]
+  },
+  {
+    "name" : "US Patient Care Summary (US-PCS) Implementation Guide",
+    "category" : "Patient Summary",
+    "npm-name" : "hl7.fhir.us.pcs",
+    "description" : "??",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/pcs/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/us/pcs",
+    "ci-build" : "http://build.fhir.org/ig/HL7/us-fhir-ps",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.us.pcs#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/pcs/2026May"
+    }]
   }]
 }
