@@ -8482,11 +8482,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/us-cql-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 1 Informative",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.us.cql#1.0.0",
+      "name" : "Informative 2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.us.cql#2.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/cql/Informative1"
+      "url" : "http://hl7.org/fhir/us/cql/2026May"
     }]
   },
   {
