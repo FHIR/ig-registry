@@ -9641,5 +9641,18 @@
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/clinical-study-protocol/2026May"
     }]
+  },
+  {
+    "name" : "German Dental FHIR Profiles (R4)",
+    "category" : "National Base",
+    "npm-name" : "de.cognovis.fhir.dental",
+    "description" : "FHIR R4 profiles for German dental practice \u2014 procedures (BEMA/GOZ), conditions (ICD-10-GM), findings (Zahnschema/FDI), communication, and treatment plans (HKP, PAR, KFO, ZE).",
+    "authority" : "cognovis GmbH",
+    "product" : ["fhir"],
+    "country" : "de",
+    "language" : ["de", "en"],
+    "canonical" : "https://fhir.cognovis.de/dental",
+    "ci-build" : "https://cognovis.github.io/fhir-dental-de/",
+    "editions" : []
   }]
 }
