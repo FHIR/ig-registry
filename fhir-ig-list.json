@@ -4251,11 +4251,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2",
-      "ig-version" : "2.1.0",
-      "package" : "hl7.fhir.us.davinci-ra#2.1.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.us.davinci-ra#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/davinci-ra/STU2.1"
+      "url" : "http://hl7.org/fhir/us/davinci-ra/2026May"
     }]
   },
   {
