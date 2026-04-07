@@ -5759,11 +5759,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/Vulcan-schedule-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.vulcan-schedule#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
+      "name" : "STU2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.uv.vulcan-schedule#2.0.0-ballot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/vulcan-schedule/2026May"
     }]
   },
   {
