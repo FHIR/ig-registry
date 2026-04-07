@@ -489,6 +489,14 @@
       "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
+      "mask": "de.gematik.epa.*",
+      "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
+    },
+    {
+      "mask": "de.gematik.ti.*",
+      "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
+    },
+    {
       "mask": "hl7.fhir.pl.*",
       "feeds": [ "https://fhir.hl7.org.pl/packages/package-feed.xml" ]
     },
