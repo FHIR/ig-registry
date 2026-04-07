@@ -9538,5 +9538,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/pcs/2026May"
     }]
+  },
+  {
+    "name" : "Data Exchange for Quality Measures",
+    "category" : "Quality / CDS",
+    "npm-name" : "hl7.fhir.uv.deqm",
+    "description" : "Provides a mechanism for healthcare providers and data aggregators to exchange quality measure information using subscription, query, and push methods",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/deqm/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/deqm",
+    "ci-build" : "http://build.fhir.org/ig/HL7/davinci-deqm",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.deqm#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/uv/deqm/2026May"
+    }]
   }]
 }
