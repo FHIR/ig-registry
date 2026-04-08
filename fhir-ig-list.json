@@ -9558,5 +9558,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/deqm/2026May"
     }]
+  },
+  {
+    "name" : "Terminology Fundamentals",
+    "category" : "Terminology",
+    "npm-name" : "hl7.xprod.uv.termfundamentals",
+    "description" : "??",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/xprod/uv/termfundamentals/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/xprod/uv/termfundamentals",
+    "ci-build" : "http://build.fhir.org/ig/HL7/terminology-fundamentals-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.xprod.uv.termfundamentals#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/xprod/uv/termfundamentals/2026May"
+    }]
   }]
 }
