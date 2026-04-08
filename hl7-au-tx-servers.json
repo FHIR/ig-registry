@@ -33,7 +33,8 @@
       "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats|*",
       "https://healthterminologies.gov.au/fhir/CodeSystem*",
       "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0|*",
-      "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0|*"
+      "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0|*",
+      "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1294.0|*"
     ],
     "authoritative-valuesets" : [
        "https://healthterminologies.gov.au/fhir/ValueSet*",
