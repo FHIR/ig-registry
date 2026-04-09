@@ -9558,5 +9558,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/deqm/2026May"
     }]
+  },
+  {
+    "name" : "Security for Scalable Registration, Authentication, and Authorization",
+    "category" : "Security",
+    "npm-name" : "hl7.fhir.uv.fast-security",
+    "description" : null,
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/fast-security/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/fast-security",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.fast-security#3.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/uv/fast-security/2026May"
+    }]
   }]
 }
