@@ -5759,11 +5759,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/Vulcan-schedule-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.vulcan-schedule#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
+      "name" : "STU2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.uv.vulcan-schedule#2.0.0-ballot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/vulcan-schedule/2026May"
     }]
   },
   {
@@ -8908,11 +8908,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/cardx-cied",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.cardx-cied#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.cardx-cied#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/cardx-cied/2025Sep"
+      "url" : "http://hl7.org/fhir/uv/cardx-cied/STU1"
     }]
   },
   {
@@ -9577,6 +9577,46 @@
       "package" : "ans.document.fr.core#0.1.0-snapshot",
       "fhir-version" : ["4.0.1"],
       "url" : "https://interop.esante.gouv.fr/ig/document/core/0.1.0-snapshot"
+    }]
+  },
+  {
+    "name" : "Terminology Fundamentals",
+    "category" : "Terminology",
+    "npm-name" : "hl7.xprod.uv.termfundamentals",
+    "description" : "??",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/xprod/uv/termfundamentals/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/xprod/uv/termfundamentals",
+    "ci-build" : "http://build.fhir.org/ig/HL7/terminology-fundamentals-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.xprod.uv.termfundamentals#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/xprod/uv/termfundamentals/2026May"
+    }]
+  },
+  {
+    "name" : "Security for Scalable Registration, Authentication, and Authorization",
+    "category" : "Security",
+    "npm-name" : "hl7.fhir.uv.fast-security",
+    "description" : null,
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/fast-security/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/fast-security",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-udap-security-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.fast-security#3.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/uv/fast-security/2026May"
     }]
   }]
 }
