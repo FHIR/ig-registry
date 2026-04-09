@@ -9560,6 +9560,26 @@
     }]
   },
   {
+    "name" : "ANS IG document core",
+    "category" : "Clinical Documents",
+    "npm-name" : "ans.document.fr.core",
+    "description" : "??",
+    "authority" : "ANS (FR)",
+    "country" : "fr",
+    "history" : "https://interop.esante.gouv.fr/ig/document/core/history.html",
+    "language" : ["en"],
+    "canonical" : "https://interop.esante.gouv.fr/ig/document/core",
+    "ci-build" : "https://ansforge.github.io/interop-IG-document-core/main/ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Draft Draft",
+      "ig-version" : "0.1.0-snapshot",
+      "package" : "ans.document.fr.core#0.1.0-snapshot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interop.esante.gouv.fr/ig/document/core/0.1.0-snapshot"
+    }]
+  },
+  {
     "name" : "Terminology Fundamentals",
     "category" : "Terminology",
     "npm-name" : "hl7.xprod.uv.termfundamentals",
