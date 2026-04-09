@@ -8927,6 +8927,7 @@
     "history" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/uv/pharmaceutical-research-protocol",
+    "replacedBy" : "hl7.fhir.uv.clinical-study-protocol",
     "ci-build" : "https://github.com/HL7/vulcan-udp-ig",
     "product" : ["fhir"],
     "editions" : [{
@@ -9619,6 +9620,26 @@
       "package" : "hl7.fhir.uv.fast-security#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/fast-security/2026May"
+    }]
+  },
+  {
+    "name" : "Pharmaceutical Clinical Trial Protocols",
+    "category" : "Research",
+    "npm-name" : "hl7.fhir.uv.clinical-study-protocol",
+    "description" : "The IG covers a range of use cases for digital representation of a Clinical Trial protocol.   The simplest use case is document oriented submission of a protocol to a Regulator. Complex use cases require detailed machine processable representation of a protocol.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/clinical-study-protocol/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/clinical-study-protocol",
+    "ci-build" : "https://github.com/HL7/vulcan-udp-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot2",
+      "package" : "hl7.fhir.uv.clinical-study-protocol#1.0.0-ballot2",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/clinical-study-protocol/2026May"
     }]
   }]
 }
