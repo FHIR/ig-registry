@@ -1375,6 +1375,7 @@
       "codeSystems" : 2,
       "examples" : 87
     },
+    "replacedBy" : "hl7.fhir.uv.deqm",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU5 (v5.0.0)",
@@ -3908,6 +3909,7 @@
     "analysis" : {
       "rest" : true
     },
+    "replacedBy" : "hl7.fhir.uv.fast-security",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
