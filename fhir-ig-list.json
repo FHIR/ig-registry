@@ -9603,7 +9603,7 @@
     "name" : "Security for Scalable Registration, Authentication, and Authorization",
     "category" : "Security",
     "npm-name" : "hl7.fhir.uv.fast-security",
-    "description" : null,
+    "description" : "This implementation guide describes how to extend OAuth 2.0 to support secure and scalable workflows for business-to-business (B2B) apps that implement the client credentials flow or authorization code flow.",
     "authority" : "HL7",
     "country" : "uv",
     "history" : "http://hl7.org/fhir/uv/fast-security/history.html",
