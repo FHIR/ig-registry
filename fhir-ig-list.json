@@ -9644,5 +9644,24 @@
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/clinical-study-protocol/2026May"
     }]
+},
+  {
+    "name" : "German Practice Management FHIR Profiles",
+    "category" : "Administration",
+    "npm-name" : "de.cognovis.fhir.praxis",
+    "description" : "FHIR R4 Implementation Guide for German ambulatory practice management (Praxisverwaltung). Covers billing (EBM/GOÄ), budget management (RLV/QZV), remittance, queue management, AI provenance (EU AI Act), and administrative workflows.",
+    "authority" : "cognovis GmbH",
+    "country" : "de",
+    "language" : ["de"],
+    "canonical" : "https://fhir.cognovis.de/praxis",
+    "ci-build" : "https://cognovis.github.io/fhir-praxis-de",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1",
+      "ig-version" : "0.33.0",
+      "fhir-version" : ["4.0.1"],
+      "package" : "de.cognovis.fhir.praxis#0.33.0",
+      "url" : "https://cognovis.github.io/fhir-praxis-de"
+    }]
   }]
 }
