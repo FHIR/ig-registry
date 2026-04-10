@@ -1866,13 +1866,16 @@
     "analysis" : {
       "rest" : true
     },
+    "withdrawnReason" : "Withdrawn before an initial publication due to a lack of support and interested parties with the capacity to complete",
     "product" : ["fhir"],
+    "withdrawn" : true,
+    "withDrawalDate" : "2026-04-10",
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.2.0",
-      "package" : "hl7.fhir.us.patient-reported-outcomes#0.2.0",
-      "fhir-version" : ["4.0.0"],
-      "url" : "http://hl7.org/fhir/us/patient-reported-outcomes/2019May"
+      "name" : "STU 1 Withdrawn",
+      "ig-version" : "0.2.0-withdrawal",
+      "package" : "hl7.fhir.us.patient-reported-outcomes#0.2.0-withdrawal",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/patient-reported-outcomes/0.2.0-withdrawal"
     }]
   },
   {
