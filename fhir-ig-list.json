@@ -9498,11 +9498,11 @@
     "ci-build" : "http://build.fhir.org/ig/Xt-EHR/xt-ehr-common",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Edition 1 Preview",
-      "ig-version" : "0.3.0",
-      "package" : "xtehr.eu.ehds.models#0.3.0",
+      "name" : "Edition 1",
+      "ig-version" : "1.0.0",
+      "package" : "xtehr.eu.ehds.models#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://www.xt-ehr.eu/fhir/models/0.3.0"
+      "url" : "http://www.xt-ehr.eu/fhir/models/1.0.0"
     }]
   },
   {
