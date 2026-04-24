@@ -9644,5 +9644,25 @@
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/clinical-study-protocol/2026May"
     }]
+  },
+  {
+    "name" : "SMART Scheduling Links",
+    "category" : "administration",
+    "npm-name" : "hl7.fhir.uv.smart-scheduling-links",
+    "description" : "The Implementation Guide (IG) provides a structured framework for integrating slots across multiple EHRs and or booking portals.  It will enable a patients a one stop place to view provider appointment availability and book via smart scheduling link. ",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/smart-scheduling-links/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/smart-scheduling-links",
+    "ci-build" : "http://build.fhir.org/ig/HL7/smart-scheduling-links",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
+    }]
   }]
 }
