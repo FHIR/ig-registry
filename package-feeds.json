@@ -355,6 +355,11 @@
       "name": "HL7 Czech Republic FHIR Implementation Guides",
       "url": "https://hl7.cz/fhir/package-feed.xml",
       "errors": "kruzik|hl7_cz"
+    },
+    {
+      "name": "Xt-EHR FHIR Implementation Guides",
+      "url": "http://www.xt-ehr.eu/fhir/package-feed.xml",
+      "errors": "gcangioli|xt-ehr_eu"
     }
   ],
   "package-restrictions": [
