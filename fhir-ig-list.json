@@ -8447,11 +8447,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/pco-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.us.pco#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.pco#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/pco/2025May"
+      "url" : "http://hl7.org/fhir/us/pco/STU1"
     }]
   },
   {
