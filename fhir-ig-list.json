@@ -8890,14 +8890,14 @@
     "history" : "http://hl7.org/fhir/uv/omop/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/uv/omop",
-    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "INFORMATIVE 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.omop#1.0.0-ballot",
+      "name" : "INFORMATIVE 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.omop#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/omop/2025Sep"
+      "url" : "http://hl7.org/fhir/uv/omop/INFORMATIVE1"
     }]
   },
   {
