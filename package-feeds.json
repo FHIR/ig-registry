@@ -356,6 +356,12 @@
       "url": "https://hl7.cz/fhir/package-feed.xml",
       "errors": "kruzik|hl7_cz"
     }
+    ,
+    {
+      "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
+      "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
+      "errors": "nhsn|cdc_gov"
+    }
   ],
   "package-restrictions": [
 	{
