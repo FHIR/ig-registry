@@ -9664,5 +9664,45 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
     }]
+  },
+  {
+    "name" : "NHSN Situational Awareness Framework for Reporting (NHSN SAFR) Implementation Guide",
+    "category" : "Public Health",
+    "npm-name" : "gov.cdc.nhsn.safr",
+    "description" : "The CDC National Healthcare Safety Network (NHSN) Situational Awareness Framework for Reporting (SAFR) Implementation Guide (IG) establishes a standardized, FHIR-based approach to support public health decision-making during emergencies.",
+    "authority" : "CDC National Healthcare Safety Network",
+    "country" : "us",
+    "history" : "http://www.cdc.gov/nhsn/fhirportal/safr/ig/history.html",
+    "language" : ["en"],
+    "canonical" : "http://www.cdc.gov/nhsn/fhirportal/safr/ig",
+    "ci-build" : "https://measures-ci.nhsnlink.org",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "R 1",
+      "ig-version" : "1.0.0",
+      "package" : "gov.cdc.nhsn.safr#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://www.cdc.gov/nhsn/fhirportal/safr/ig/1.0.0"
+    }]
+  },
+  {
+    "name" : "NHSN Digital Quality Measures (dQM) Content Package Implementation Guide",
+    "category" : "Public Health",
+    "npm-name" : "gov.cdc.nhsn.dqm",
+    "description" : "The CDC National Healthcare Safety Network (NHSN) digital Quality Measures (dQM) Implementation Guide (IG) establishes a standardized, FHIR-based approach to support reporting of public health quality measures to public health systems.",
+    "authority" : "CDC National Healthcare Safety Network",
+    "country" : "us",
+    "history" : "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/history.html",
+    "language" : ["en"],
+    "canonical" : "http://www.cdc.gov/nhsn/fhirportal/dqm/ig",
+    "ci-build" : "https://measures-ci.nhsnlink.org",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "R 1",
+      "ig-version" : "1.0.0",
+      "package" : "gov.cdc.nhsn.dqm#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/1.0.0"
+    }]
   }]
 }
