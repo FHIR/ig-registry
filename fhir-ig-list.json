@@ -8613,11 +8613,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/base",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2.0 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.eu.base#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.eu.base#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/base/0.1.0"
+      "url" : "http://hl7.eu/fhir/base/2.0.0"
     }]
   },
   {
@@ -8633,11 +8633,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/base-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2.0 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.eu.base-r5#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.eu.base-r5#2.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/base-r5/0.1.0"
+      "url" : "http://hl7.eu/fhir/base-r5/2.0.0"
     }]
   },
   {
@@ -9498,11 +9498,11 @@
     "ci-build" : "http://build.fhir.org/ig/Xt-EHR/xt-ehr-common",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Edition 1 Preview",
-      "ig-version" : "0.3.0",
-      "package" : "xtehr.eu.ehds.models#0.3.0",
+      "name" : "Edition 1",
+      "ig-version" : "1.0.0",
+      "package" : "xtehr.eu.ehds.models#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://www.xt-ehr.eu/fhir/models/0.3.0"
+      "url" : "http://www.xt-ehr.eu/fhir/models/1.0.0"
     }]
   },
   {
