@@ -9646,7 +9646,6 @@
     }]
   },
   {
-<<<<<<< master
     "name" : "MedMij STU3 Core",
     "category" : "National Base",
     "npm-name" : "medmij.fhir.nl.stu3.core",
@@ -9758,7 +9757,9 @@
       "package" : "medmij.fhir.nl.r4.pathology#1.0.0-alpha.1",
       "fhir-version" : ["4.0.1"],
       "url" : "https://simplifier.net/guide/medmij-r4-pathology-ig?version=1.0.0-alpha.1"
-=======
+    }]
+  },
+  {
     "name" : "SMART Scheduling Links",
     "category" : "administration",
     "npm-name" : "hl7.fhir.uv.smart-scheduling-links",
@@ -9776,7 +9777,6 @@
       "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
->>>>>>> master
     }]
   }]
 }
