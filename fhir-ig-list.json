@@ -9646,6 +9646,119 @@
     }]
   },
   {
+<<<<<<< master
+    "name" : "MedMij STU3 Core",
+    "category" : "National Base",
+    "npm-name" : "medmij.fhir.nl.stu3.core",
+    "description" : "Implementation guide for MedMij STU3 Core, which forms a foundation for all data services that are exchanged in FHIR STU3.",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-stu3-core-ig/Home/Release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-stu3-core-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.2.0",
+      "ig-version" : "1.2.0",
+      "package" : "medmij.fhir.nl.stu3.core#1.2.0",
+      "fhir-version" : ["3.0.2"],
+      "url" : "https://simplifier.net/guide/medmij-stu3-core-ig?version=1.2.0"
+    }]
+  },
+  {
+    "name" : "MedMij STU3 Long-term Healthcare",
+    "category" : "EHR Access",
+    "npm-name" : "medmij.fhir.nl.stu3.longtermhealthcare",
+    "description" : "Implementation guide for MedMij STU3 Long-term Healthcare, also known as 'Basisgegevens Langdurige Zorg+' or 'BgLZ+'..",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-stu3-long-term-healthcare-ig/Home/Release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-stu3-long-term-healthcare-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.0.0-rc.1",
+      "ig-version" : "1.0.0-rc.1",
+      "package" : "medmij.fhir.nl.stu3.longtermhealthcare#1.0.0-rc.1",
+      "fhir-version" : ["3.0.2"],
+      "url" : "https://simplifier.net/guide/medmij-stu3-long-term-healthcare-ig?version=1.0.0-rc.1"
+    }]
+  },
+  {
+    "name" : "MedMij R4 Core",
+    "category" : "National Base",
+    "npm-name" : "medmij.fhir.nl.r4.core",
+    "description" : "Implementation guide for MedMij R4 Core, which forms a foundation for all data services that are exchanged in FHIR R4.",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-r4-core-ig/Home/Release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-r4-core-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.0.0",
+      "ig-version" : "1.0.0",
+      "package" : "medmij.fhir.nl.r4.core#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://simplifier.net/guide/medmij-r4-core-ig?version=1.0.0"
+    }]
+  },
+  {
+    "name" : "MedMij R4 Dental Care",
+    "category" : "EHR Access",
+    "npm-name" : "medmij.fhir.nl.r4.dentalcare",
+    "description" : "Implementation guide for MedMij R4 Dental Care, also known as 'Mondzorg'.",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-r4-dentalcare-ig/Home/Release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-r4-dentalcare-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.0.0-beta.2",
+      "ig-version" : "1.0.0-beta.2",
+      "package" : "medmij.fhir.nl.r4.dentalcare#1.0.0-beta.2",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://simplifier.net/guide/medmij-r4-dentalcare-ig?version=1.0.0-beta.2"
+    }]
+  },
+  {
+    "name" : "MedMij R4 Image Availability",
+    "category" : "EHR Access",
+    "npm-name" : "medmij.fhir.nl.r4.imageavailability",
+    "description" : "Implementation guide for MedMij R4 Image Availability, also known as 'Beeldbeschikbaarheid' or 'BBS'.",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-r4-image-availability-ig/home/release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-r4-image-availability-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.0.0-rc.1",
+      "ig-version" : "1.0.0-rc.1",
+      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.1"
+    }]
+  },
+  {
+    "name" : "MedMij R4 Pathology",
+    "category" : "EHR Access",
+    "npm-name" : "medmij.fhir.nl.r4.pathology",
+    "description" : "Implementation guide for MedMij R4 Image Availability, also known as 'Beeldbeschikbaarheid' or 'BBS'.",
+    "authority" : "Stichting MedMij",
+    "country" : "nl",
+    "history" : "https://simplifier.net/guide/medmij-r4-pathology-ig/Home/Release-notes",
+    "language" : ["nl"],
+    "canonical" : "https://simplifier.net/guide/medmij-r4-pathology-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "IG 1.0.0-alpha.1",
+      "ig-version" : "1.0.0-alpha.1",
+      "package" : "medmij.fhir.nl.r4.pathology#1.0.0-alpha.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://simplifier.net/guide/medmij-r4-pathology-ig?version=1.0.0-alpha.1"
+=======
     "name" : "SMART Scheduling Links",
     "category" : "administration",
     "npm-name" : "hl7.fhir.uv.smart-scheduling-links",
@@ -9663,6 +9776,7 @@
       "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
+>>>>>>> master
     }]
   }]
 }
