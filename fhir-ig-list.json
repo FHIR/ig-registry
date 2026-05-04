@@ -1866,13 +1866,16 @@
     "analysis" : {
       "rest" : true
     },
+    "withdrawnReason" : "Withdrawn before an initial publication due to a lack of support and interested parties with the capacity to complete",
     "product" : ["fhir"],
+    "withdrawn" : true,
+    "withDrawalDate" : "2026-04-10",
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.2.0",
-      "package" : "hl7.fhir.us.patient-reported-outcomes#0.2.0",
-      "fhir-version" : ["4.0.0"],
-      "url" : "http://hl7.org/fhir/us/patient-reported-outcomes/2019May"
+      "name" : "STU 1 Withdrawn",
+      "ig-version" : "0.2.0-withdrawal",
+      "package" : "hl7.fhir.us.patient-reported-outcomes#0.2.0-withdrawal",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/patient-reported-outcomes/0.2.0-withdrawal"
     }]
   },
   {
@@ -4035,11 +4038,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.6.2",
-      "package" : "hl7.fhir.uv.shc-vaccination#0.6.2",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.shc-vaccination#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/shc-vaccination/2021Sep"
+      "url" : "http://hl7.org/fhir/uv/shc-vaccination/STU1"
     }]
   },
   {
@@ -8444,11 +8447,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/pco-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.us.pco#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.pco#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/pco/2025May"
+      "url" : "http://hl7.org/fhir/us/pco/STU1"
     }]
   },
   {
@@ -8887,14 +8890,14 @@
     "history" : "http://hl7.org/fhir/uv/omop/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/uv/omop",
-    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "INFORMATIVE 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.omop#1.0.0-ballot",
+      "name" : "INFORMATIVE 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.omop#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/omop/2025Sep"
+      "url" : "http://hl7.org/fhir/uv/omop/INFORMATIVE1"
     }]
   },
   {
@@ -9643,6 +9646,7 @@
     }]
   },
   {
+<<<<<<< master
     "name" : "MedMij STU3 Core",
     "category" : "National Base",
     "npm-name" : "medmij.fhir.nl.stu3.core",
@@ -9754,6 +9758,25 @@
       "package" : "medmij.fhir.nl.r4.pathology#1.0.0-alpha.1",
       "fhir-version" : ["4.0.1"],
       "url" : "https://simplifier.net/guide/medmij-r4-pathology-ig?version=1.0.0-alpha.1"
+=======
+    "name" : "SMART Scheduling Links",
+    "category" : "administration",
+    "npm-name" : "hl7.fhir.uv.smart-scheduling-links",
+    "description" : "The Implementation Guide (IG) provides a structured framework for integrating slots across multiple EHRs and or booking portals.  It will enable a patients a one stop place to view provider appointment availability and book via smart scheduling link. ",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/smart-scheduling-links/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/smart-scheduling-links",
+    "ci-build" : "http://build.fhir.org/ig/HL7/smart-scheduling-links",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
+>>>>>>> master
     }]
   }]
 }
