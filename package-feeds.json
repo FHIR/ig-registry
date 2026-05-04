@@ -361,6 +361,12 @@
       "url": "http://www.xt-ehr.eu/fhir/package-feed.xml",
       "errors": "gcangioli|xt-ehr_eu"
     }
+    ,
+    {
+      "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
+      "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
+      "errors": "nhsn|cdc_gov"
+    }
   ],
   "package-restrictions": [
 	{
@@ -532,6 +538,10 @@
     {
       "mask": "xtehr.eu.ehds.*",
       "feeds": [ "http://www.xt-ehr.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "gov.cdc.nhsn.*",
+      "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
     }
   ]
 
