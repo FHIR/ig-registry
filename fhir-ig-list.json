@@ -4392,11 +4392,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.uv.radiation-dose-summary#0.1.0",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.radiation-dose-summary#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/radiation-dose-summary/2022Jan"
+      "url" : "http://hl7.org/fhir/uv/radiation-dose-summary/STU1"
     }]
   },
   {
