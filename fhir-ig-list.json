@@ -9858,5 +9858,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/darts/2026May"
     }]
+  },
+  {
+    "name" : "HEARTLAND Protocol FHIR Implementation Guide",
+    "category" : "Quality / CDS",
+    "npm-name" : "heartland.fhir.us.protocol",
+    "description" : "FHIR R4 Implementation Guide for the HEARTLAND Protocol — an open, peer-reviewed clinical implementation toolkit for primary-care-led heart failure management in rural and resource-limited US settings (Cureus 2026, PMID 41948265). Defines profiles, extensions, questionnaires, and value sets for risk stratification, facility tier assignment, patient track assignment, and remote monitoring observations.",
+    "authority" : "HEARTLAND Protocol (independent peer-reviewed open project)",
+    "country" : "us",
+    "history" : "https://fhir.heartlandprotocol.org",
+    "language" : ["en"],
+    "canonical" : "https://fhir.heartlandprotocol.org",
+    "ci-build" : "https://fhir.heartlandprotocol.org/ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Release 0.1.0",
+      "ig-version" : "0.1.0",
+      "package" : "heartland.fhir.us.protocol#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.heartlandprotocol.org/ig"
+    }]
   }]
 }
