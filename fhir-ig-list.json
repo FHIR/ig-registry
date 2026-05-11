@@ -6814,11 +6814,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/laboratory",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1.1",
-      "ig-version" : "0.1.1",
-      "package" : "hl7.fhir.eu.laboratory#0.1.1",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.eu.laboratory#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/laboratory/0.1.1"
+      "url" : "http://hl7.eu/fhir/laboratory/2.0.0"
     }]
   },
   {
@@ -8565,12 +8565,53 @@
     "language" : ["en"],
     "canonical" : "http://fhir.ehdsi.eu/laboratory",
     "ci-build" : "https://build-fhir.ehdsi.eu/laboratory",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "MyHealth@EU wave 8 trial use release",
-      "ig-version" : "0.1.1",
-      "package" : "myhealth.eu.fhir.laboratory#0.1.1",
+      "name" : "Wave 9",
+      "ig-version" : "9.1.1",
+      "package" : "myhealth.eu.fhir.laboratory#9.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://fhir.ehdsi.eu/laboratory/0.1.1"
+      "url" : "http://fhir.ehdsi.eu/laboratory/9.1.1"
+    }]
+  },
+  {
+    "name" : "MyHealth@Eu Core",
+    "category" : "Regional Base",
+    "npm-name" : "myhealth.eu.fhir.core",
+    "description" : "MyHealth@Eu Core Implementation Guide for European Cross border services.",
+    "authority" : "eHMSEG STF Architecture WG",
+    "country" : "eu",
+    "history" : "http://fhir.ehdsi.eu/core/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.ehdsi.eu/core",
+    "ci-build" : "https://build-fhir.ehdsi.eu/core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Release",
+      "ig-version" : "1.0.0",
+      "package" : "myhealth.eu.fhir.core#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.ehdsi.eu/core/1.0.0"
+    }]
+  },
+  {
+    "name" : "MyHealth@Eu Master Value Sets Catalog",
+    "category" : "Terminology",
+    "npm-name" : "myhealth.eu.fhir.mvc-package",
+    "description" : "MyHealth@Eu Master Value Sets Catalog for European Cross border services.",
+    "authority" : "eHMSEG STF Architecture WG",
+    "country" : "eu",
+    "history" : "http://fhir.ehdsi.eu/mvc-package/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.ehdsi.eu/mvc-package",
+    "ci-build" : "https://build-fhir.ehdsi.eu/mvc-package",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Wave 9",
+      "ig-version" : "9.1.0",
+      "package" : "myhealth.eu.fhir.mvc-package#9.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.ehdsi.eu/mvc-package/9.1.0"
     }]
   },
   {
@@ -8713,7 +8754,7 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
+      "name" : "STU 1",
       "ig-version" : "0.1.0-ballot",
       "package" : "hl7.fhir.eu.mpd#0.1.0-ballot",
       "fhir-version" : ["4.0.1"],
@@ -8733,7 +8774,7 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
+      "name" : "STU 1",
       "ig-version" : "0.1.0-ballot",
       "package" : "hl7.fhir.eu.mpd-r5#0.1.0-ballot",
       "fhir-version" : ["5.0.0"],
