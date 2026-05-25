@@ -8754,11 +8754,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/mpd/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd/1.0.0"
     }]
   },
   {
@@ -8774,11 +8774,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd-r5#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd-r5#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/mpd-r5/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd-r5/1.0.0"
     }]
   },
   {
