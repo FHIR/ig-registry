@@ -9774,11 +9774,11 @@
     "canonical" : "https://simplifier.net/guide/medmij-r4-image-availability-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "IG 1.0.0-rc.1",
-      "ig-version" : "1.0.0-rc.1",
-      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.1",
+      "name" : "IG 1.0.0-rc.2",
+      "ig-version" : "1.0.0-rc.2",
+      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.1"
+      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.2"
     }]
   },
   {
