@@ -241,6 +241,27 @@ class Validator {
         'fhir-ig-list.json'
       );
     }
+
+    // Validate replacedBy references
+    const npmNameSet = new Set(npmNames);
+    data.guides.forEach((guide, index) => {
+      if (guide.replacedBy) {
+        const guideName = guide.name || `Guide #${index + 1}`;
+        if (guide.replacedBy === guide['npm-name']) {
+          this.addError(
+            `replacedBy cannot refer to itself: "${guide.replacedBy}"`,
+            'fhir-ig-list.json',
+            guideName
+          );
+        } else if (!npmNameSet.has(guide.replacedBy)) {
+          this.addError(
+            `replacedBy refers to unknown npm-name: "${guide.replacedBy}"`,
+            'fhir-ig-list.json',
+            guideName
+          );
+        }
+      }
+    });
   }
 
   // Validate package-feeds.json

@@ -345,6 +345,27 @@
       "name": "Health Samurai FHIR Implementation Guides",
       "url": "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml",
       "errors": "hello|health-samurai_io"
+    },
+    {
+      "name": "HL7 Czech Republic Terminology",
+      "url": "https://hl7.cz/terminology/package-feed.xml",
+      "errors": "kruzik|hl7_cz"
+    },
+    {
+      "name": "HL7 Czech Republic FHIR Implementation Guides",
+      "url": "https://hl7.cz/fhir/package-feed.xml",
+      "errors": "kruzik|hl7_cz"
+    },
+    {
+      "name": "Xt-EHR FHIR Implementation Guides",
+      "url": "http://www.xt-ehr.eu/fhir/package-feed.xml",
+      "errors": "gcangioli|xt-ehr_eu"
+    }
+    ,
+    {
+      "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
+      "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
+      "errors": "nhsn|cdc_gov"
     }
   ],
   "package-restrictions": [
@@ -479,6 +500,14 @@
       "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
+      "mask": "de.gematik.epa.*",
+      "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
+    },
+    {
+      "mask": "de.gematik.ti.*",
+      "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
+    },
+    {
       "mask": "hl7.fhir.pl.*",
       "feeds": [ "https://fhir.hl7.org.pl/packages/package-feed.xml" ]
     },
@@ -501,8 +530,19 @@
     {
       "mask": "io.health-samurai.*",
       "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
+    },
+    {
+      "mask": "hl7.fhir.cz.*",
+      "feeds": [ "https://hl7.cz/terminology/package-feed.xml", "https://hl7.cz/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "xtehr.eu.ehds.*",
+      "feeds": [ "http://www.xt-ehr.eu/fhir/package-feed.xml" ]
+    },
+    {
+      "mask": "gov.cdc.nhsn.*",
+      "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
     }
-
   ]
 
 }
