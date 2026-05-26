@@ -9249,7 +9249,7 @@
     "history" : "http://canonical.fhir.link/servicewell/wof-connect/history.html",
     "language" : ["en"],
     "canonical" : "http://canonical.fhir.link/servicewell/wof-connect",
-    "ci-build" : "build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
+    "ci-build" : "https://build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Pre-Release Draft",
