@@ -5302,11 +5302,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.1.1",
-      "ig-version" : "1.1.1",
-      "package" : "tw.gov.mohw.nhi.pas#1.1.1",
+      "name" : "STU1.2.3",
+      "ig-version" : "1.2.3",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.1.1"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.3"
     }]
   },
   {
