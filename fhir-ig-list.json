@@ -9943,5 +9943,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://fhir.heartlandprotocol.org/ig"
     }]
+  },
+  {
+    "name" : "Query & Response for Public Health",
+    "category" : "Public Health",
+    "npm-name" : "hl7.fhir.us.ph-query",
+    "description" : "This Implementation Guide provides guidance for public health program staff, architects and technical implementers as they work with trading partners to develop, test and implement FHIR-based RESTful API solutions to enhance authorized data collection to support program directives and services. It contains a discussion of technical and policy considerations for employing FHIR APIs and outlines potential public health use cases for a query and response paradigm.",
+    "authority" : "US Government",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/ph-query/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/us/ph-query",
+    "ci-build" : "http://build.fhir.org/ig/HL7/us-helios-QR",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.ph-query#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/ph-query/INFORMATIVE1"
+    }]
   }]
 }
