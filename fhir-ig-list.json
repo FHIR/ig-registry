@@ -3229,11 +3229,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.uv.order-catalog#0.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/order-catalog/2020Sep"
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.order-catalog#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/order-catalog/1.0.0"
     }]
   },
   {
