@@ -35,11 +35,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU9 Ballot",
-      "ig-version" : "9.0.0-ballot",
-      "package" : "hl7.fhir.us.core#9.0.0-ballot",
+      "name" : "STU9",
+      "ig-version" : "9.0.0",
+      "package" : "hl7.fhir.us.core#9.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/core/2026Jan"
+      "url" : "http://hl7.org/fhir/us/core/STU9"
     }]
   },
   {
@@ -2110,10 +2110,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release",
-      "ig-version" : "3.6.0",
-      "package" : "hl7.fhir.dk.core#3.6.0",
+      "ig-version" : "3.7.0",
+      "package" : "hl7.fhir.dk.core#3.7.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.dk/fhir/core/3.6.0"
+      "url" : "http://hl7.dk/fhir/core/3.7.0"
     }]
   },
   {
@@ -5302,11 +5302,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.1.1",
-      "ig-version" : "1.1.1",
-      "package" : "tw.gov.mohw.nhi.pas#1.1.1",
+      "name" : "STU1.2.3",
+      "ig-version" : "1.2.3",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.1.1"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.3"
     }]
   },
   {
@@ -8754,11 +8754,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/mpd/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd/1.0.0"
     }]
   },
   {
@@ -8774,11 +8774,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd-r5#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd-r5#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/mpd-r5/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd-r5/1.0.0"
     }]
   },
   {
@@ -9774,11 +9774,11 @@
     "canonical" : "https://simplifier.net/guide/medmij-r4-image-availability-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "IG 1.0.0-rc.1",
-      "ig-version" : "1.0.0-rc.1",
-      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.1",
+      "name" : "IG 1.0.0-rc.2",
+      "ig-version" : "1.0.0-rc.2",
+      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.1"
+      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.2"
     }]
   },
   {
@@ -9881,6 +9881,34 @@
     }]
   },
   {
+     "name": "FHIR Implementation Guide for Stroke",
+      "category": "Clinical Registries",
+      "npm-name": "mcaretech.stroke.vbhc",
+      "description": "FHIR Implementation Guide for Stroke: a dual focus on the patient journey and outcome measures, supporting interoperability, care pathway monitoring, and value-based healthcare analysis.",
+      "authority": "M-CareTech",
+      "country": "br",
+      "language": ["en"],
+      "canonical": "https://m-caretech.com.br/interopera/stroke-fhirig",
+      "ci-build": "https://m-caretech.com.br/interopera/stroke-fhirig",
+      "product": ["fhir"],
+      "implementations": [
+        {
+          "name": "Source Code",
+          "type": "source",
+          "url": "https://github.com/gabriellesantosleandro/stroke-fhirig"
+        }
+      ],
+      "editions": [
+        {
+          "name": "Release 1.0.0",
+          "ig-version": "1.0.0",
+          "package": "mcaretech.stroke.vbhc#1.0.0",
+          "fhir-version": ["4.0.1"],
+          "url": "https://m-caretech.com.br/interopera/stroke-fhirig"
+        }
+      ] 
+  },
+  {
     "name" : "De-identification, Anonymization and Redaction Toolkit Services (DARTS) FHIR IG",
     "category" : "Privacy / Security",
     "npm-name" : "hl7.fhir.us.darts",
@@ -9900,7 +9928,7 @@
       "url" : "http://hl7.org/fhir/us/darts/2026May"
     }]
   },
-    {
+  {
     "name" : "WOF Portal Implementation Guide",
     "category" : "Booking Service",
     "npm-name" : "servicewell.fhir.wof-portal",
@@ -9918,6 +9946,26 @@
       "package" : "servicewell.fhir.wof-portal#1.0.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://canonical.fhir.link/servicewell/wof-portal/1.0.0"
+    }]
+  },
+  {
+    "name" : "HEARTLAND Protocol FHIR Implementation Guide",
+    "category" : "Quality / CDS",
+    "npm-name" : "heartland.fhir.us.protocol",
+    "description" : "FHIR R4 Implementation Guide for the HEARTLAND Protocol — an open, peer-reviewed clinical implementation toolkit for primary-care-led heart failure management in rural and resource-limited US settings (Cureus 2026, PMID 41948265). Defines profiles, extensions, questionnaires, and value sets for risk stratification, facility tier assignment, patient track assignment, and remote monitoring observations.",
+    "authority" : "HEARTLAND Protocol",
+    "country" : "us",
+    "history" : "https://fhir.heartlandprotocol.org",
+    "language" : ["en"],
+    "canonical" : "https://fhir.heartlandprotocol.org",
+    "ci-build" : "https://fhir.heartlandprotocol.org/ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Release 0.1.0",
+      "ig-version" : "0.1.0",
+      "package" : "heartland.fhir.us.protocol#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.heartlandprotocol.org/ig"
     }]
   }]
 }
