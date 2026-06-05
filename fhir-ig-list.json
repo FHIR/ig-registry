@@ -3229,11 +3229,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.uv.order-catalog#0.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/order-catalog/2020Sep"
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.order-catalog#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/order-catalog/1.0.0"
     }]
   },
   {
@@ -7441,11 +7441,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/capstmt",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.application-feature#1.0.0-ballot",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/application-feature/2024Sep"
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.application-feature#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/application-feature/STU1"
     }]
   },
   {
@@ -9881,32 +9881,28 @@
     }]
   },
   {
-     "name": "FHIR Implementation Guide for Stroke",
-      "category": "Clinical Registries",
-      "npm-name": "mcaretech.stroke.vbhc",
-      "description": "FHIR Implementation Guide for Stroke: a dual focus on the patient journey and outcome measures, supporting interoperability, care pathway monitoring, and value-based healthcare analysis.",
-      "authority": "M-CareTech",
-      "country": "br",
-      "language": ["en"],
-      "canonical": "https://m-caretech.com.br/interopera/stroke-fhirig",
-      "ci-build": "https://m-caretech.com.br/interopera/stroke-fhirig",
-      "product": ["fhir"],
-      "implementations": [
-        {
-          "name": "Source Code",
-          "type": "source",
-          "url": "https://github.com/gabriellesantosleandro/stroke-fhirig"
-        }
-      ],
-      "editions": [
-        {
-          "name": "Release 1.0.0",
-          "ig-version": "1.0.0",
-          "package": "mcaretech.stroke.vbhc#1.0.0",
-          "fhir-version": ["4.0.1"],
-          "url": "https://m-caretech.com.br/interopera/stroke-fhirig"
-        }
-      ] 
+    "name" : "FHIR Implementation Guide for Stroke",
+    "category" : "Clinical Registries",
+    "npm-name" : "mcaretech.stroke.vbhc",
+    "description" : "FHIR Implementation Guide for Stroke: a dual focus on the patient journey and outcome measures, supporting interoperability, care pathway monitoring, and value-based healthcare analysis.",
+    "authority" : "M-CareTech",
+    "country" : "br",
+    "language" : ["en"],
+    "canonical" : "https://m-caretech.com.br/interopera/stroke-fhirig",
+    "ci-build" : "https://m-caretech.com.br/interopera/stroke-fhirig",
+    "product" : ["fhir"],
+    "implementations" : [{
+      "name" : "Source Code",
+      "type" : "source",
+      "url" : "https://github.com/gabriellesantosleandro/stroke-fhirig"
+    }],
+    "editions" : [{
+      "name" : "Release 1.0.0",
+      "ig-version" : "1.0.0",
+      "package" : "mcaretech.stroke.vbhc#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://m-caretech.com.br/interopera/stroke-fhirig"
+    }]
   },
   {
     "name" : "De-identification, Anonymization and Redaction Toolkit Services (DARTS) FHIR IG",
@@ -9966,6 +9962,26 @@
       "package" : "heartland.fhir.us.protocol#0.1.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://fhir.heartlandprotocol.org/ig"
+    }]
+  },
+  {
+    "name" : "Query & Response for Public Health",
+    "category" : "Public Health",
+    "npm-name" : "hl7.fhir.us.ph-query",
+    "description" : "This Implementation Guide provides guidance for public health program staff, architects and technical implementers as they work with trading partners to develop, test and implement FHIR-based RESTful API solutions to enhance authorized data collection to support program directives and services. It contains a discussion of technical and policy considerations for employing FHIR APIs and outlines potential public health use cases for a query and response paradigm.",
+    "authority" : "US Government",
+    "country" : "US",
+    "history" : "http://hl7.org/fhir/us/ph-query/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/us/ph-query",
+    "ci-build" : "http://build.fhir.org/ig/HL7/us-helios-QR",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.ph-query#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/ph-query/INFORMATIVE1"
     }]
   }]
 }
