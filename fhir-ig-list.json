@@ -9934,7 +9934,7 @@
     "npm-name" : "servicewell.fhir.wof-portal",
     "description" : "This IG defines the ServiceWell WOF Portal public API in FHIR, including the core structures and terminology needed for consistent integrations. This is the initial release (v1.0.0) and represents the first public version of the specification",
     "authority" : "Service Well",
-    "country" : "SE",
+    "country" : "se",
     "history" : "https://canonical.fhir.link/servicewell/wof-portal/history.html",
     "language" : ["en"],
     "canonical" : "https://canonical.fhir.link/servicewell/wof-portal",
