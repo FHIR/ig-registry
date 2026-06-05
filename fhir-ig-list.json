@@ -9970,7 +9970,7 @@
     "npm-name" : "hl7.fhir.us.ph-query",
     "description" : "This Implementation Guide provides guidance for public health program staff, architects and technical implementers as they work with trading partners to develop, test and implement FHIR-based RESTful API solutions to enhance authorized data collection to support program directives and services. It contains a discussion of technical and policy considerations for employing FHIR APIs and outlines potential public health use cases for a query and response paradigm.",
     "authority" : "US Government",
-    "country" : "US",
+    "country" : "us",
     "history" : "http://hl7.org/fhir/us/ph-query/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/us/ph-query",
