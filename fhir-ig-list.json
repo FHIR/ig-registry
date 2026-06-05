@@ -5039,18 +5039,18 @@
     "npm-name" : "hl7.fhir.be.core-clinical",
     "description" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core-clinical",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.core-clinical#1.0.0",
+      "ig-version" : "1.2.0",
+      "package" : "hl7.fhir.be.core-clinical#1.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
     }]
   },
   {
