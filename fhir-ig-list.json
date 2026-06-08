@@ -9962,5 +9962,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/ph-query/INFORMATIVE1"
     }]
+  },
+  {
+    "name" : "US Quality Core",
+    "category" : "Quality / CDS",
+    "npm-name" : "fhir.onc.us-quality-core",
+    "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
+    "authority" : "US Government",
+    "country" : "US",
+    "history" : "http://fhir.org/guides/onc/us-quality-core/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.org/guides/onc/us-quality-core",
+    "ci-build" : " http://build.fhir.org/guides/onc/us-quality-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.5.0",
+      "package" : "fhir.onc.us-quality-core#0.5.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.org/guides/onc/us-quality-core/0.5.0"
+    }]
   }]
 }
