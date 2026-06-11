@@ -6097,10 +6097,10 @@
     "product" : ["fhir", "cda"],
     "editions" : [{
       "name" : "CDA 2.0 Informative",
-      "ig-version" : "2.0.2-sd",
-      "package" : "hl7.cda.uv.core#2.0.2-sd",
+      "ig-version" : "2.0.3-sd",
+      "package" : "hl7.cda.uv.core#2.0.3-sd",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/cda/stds/core/2.0.2-sd"
+      "url" : "http://hl7.org/cda/stds/core/2.0.3-sd"
     }]
   },
   {
