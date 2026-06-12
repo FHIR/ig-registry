@@ -6236,11 +6236,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/CDA-ccda",
     "product" : ["fhir", "cda"],
     "editions" : [{
-      "name" : "CCDA 5.0 Ballot",
-      "ig-version" : "5.0.0-ballot",
-      "package" : "hl7.cda.us.ccda#5.0.0-ballot",
+      "name" : "CCDA 5.0",
+      "ig-version" : "5.0.0",
+      "package" : "hl7.cda.us.ccda#5.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/cda/us/ccda/2026Jan"
+      "url" : "http://hl7.org/cda/us/ccda/5.0.0"
     }]
   },
   {
