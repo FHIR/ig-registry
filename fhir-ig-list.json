@@ -8506,11 +8506,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/ehrsfm-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Normative 1 Ballot",
-      "ig-version" : "2.1.1-ballot",
-      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1-ballot",
+      "name" : "Normative 1 Normative",
+      "ig-version" : "2.1.1",
+      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/2025May"
+      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1"
     }]
   },
   {
