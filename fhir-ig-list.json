@@ -9948,7 +9948,7 @@
     "npm-name" : "fhir.onc.us-quality-core",
     "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
     "authority" : "US Government",
-    "country" : "US",
+    "country" : "us",
     "history" : "http://fhir.org/guides/onc/us-quality-core/history.html",
     "language" : ["en"],
     "canonical" : "http://fhir.org/guides/onc/us-quality-core",
