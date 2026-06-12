@@ -5018,18 +5018,18 @@
     "npm-name" : "hl7.fhir.be.core-clinical",
     "description" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core-clinical",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.core-clinical#1.0.0",
+      "ig-version" : "1.2.0",
+      "package" : "hl7.fhir.be.core-clinical#1.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
     }]
   },
   {
@@ -5058,7 +5058,6 @@
     "npm-name" : "hl7.fhir.be.vaccination",
     "description" : "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
     "language" : ["en"],
@@ -5073,33 +5072,13 @@
       "codeSystems" : 5,
       "examples" : 6
     },
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.vaccination#1.0.0",
+      "ig-version" : "1.1.3",
+      "package" : "hl7.fhir.be.vaccination#1.1.3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.vaccination#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.vaccination#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.3",
-      "package" : "hl7.fhir.be.vaccination#1.0.3",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.1.3"
     }]
   },
   {
