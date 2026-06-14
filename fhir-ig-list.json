@@ -5018,18 +5018,18 @@
     "npm-name" : "hl7.fhir.be.core-clinical",
     "description" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core-clinical",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.core-clinical#1.0.0",
+      "ig-version" : "1.2.0",
+      "package" : "hl7.fhir.be.core-clinical#1.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
     }]
   },
   {
@@ -5058,7 +5058,6 @@
     "npm-name" : "hl7.fhir.be.vaccination",
     "description" : "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
     "language" : ["en"],
@@ -5073,33 +5072,13 @@
       "codeSystems" : 5,
       "examples" : 6
     },
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.vaccination#1.0.0",
+      "ig-version" : "1.1.3",
+      "package" : "hl7.fhir.be.vaccination#1.1.3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.vaccination#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.vaccination#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.3",
-      "package" : "hl7.fhir.be.vaccination#1.0.3",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.1.3"
     }]
   },
   {
@@ -6236,11 +6215,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/CDA-ccda",
     "product" : ["fhir", "cda"],
     "editions" : [{
-      "name" : "CCDA 5.0 Ballot",
-      "ig-version" : "5.0.0-ballot",
-      "package" : "hl7.cda.us.ccda#5.0.0-ballot",
+      "name" : "CCDA 5.0",
+      "ig-version" : "5.0.0",
+      "package" : "hl7.cda.us.ccda#5.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/cda/us/ccda/2026Jan"
+      "url" : "http://hl7.org/cda/us/ccda/5.0.0"
     }]
   },
   {
@@ -8506,11 +8485,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/ehrsfm-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Normative 1 Ballot",
-      "ig-version" : "2.1.1-ballot",
-      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1-ballot",
+      "name" : "Normative 1 Normative",
+      "ig-version" : "2.1.1",
+      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/2025May"
+      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1"
     }]
   },
   {
@@ -9118,7 +9097,7 @@
       "url" : "https://sql-on-fhir.org/ig/2.0.0"
     }]
   },
-  {
+   {
     "name" : "Advance Care Planning (PZP)",
     "category" : "Care Management",
     "npm-name" : "iknl.fhir.r4.pzp",
@@ -9132,10 +9111,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc2",
-      "package" : "iknl.fhir.r4.pzp#1.0.0-rc2",
+      "ig-version" : "1.0.0-rc3",
+      "package" : "iknl.fhir.r4.pzp#1.0.0-rc3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc2"
+      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc3"
     }]
   },
   {
@@ -9152,10 +9131,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc2",
-      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc2",
+      "ig-version" : "1.0.0-rc3",
+      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc3",
       "fhir-version" : ["3.0.2"],
-      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc2"
+      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc3"
     }]
   },
   {
@@ -9969,7 +9948,7 @@
     "npm-name" : "fhir.onc.us-quality-core",
     "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
     "authority" : "US Government",
-    "country" : "US",
+    "country" : "us",
     "history" : "http://fhir.org/guides/onc/us-quality-core/history.html",
     "language" : ["en"],
     "canonical" : "http://fhir.org/guides/onc/us-quality-core",
