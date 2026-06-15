@@ -3307,10 +3307,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publications",
-      "ig-version" : "7.1.0",
-      "package" : "hl7.terminology#7.1.0",
+      "ig-version" : "7.2.0",
+      "package" : "hl7.terminology#7.2.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://terminology.hl7.org/7.1.0"
+      "url" : "http://terminology.hl7.org/7.2.0"
     }]
   },
   {
@@ -9097,7 +9097,7 @@
       "url" : "https://sql-on-fhir.org/ig/2.0.0"
     }]
   },
-   {
+  {
     "name" : "Advance Care Planning (PZP)",
     "category" : "Care Management",
     "npm-name" : "iknl.fhir.r4.pzp",
