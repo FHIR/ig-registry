@@ -4840,11 +4840,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "FHIR R5",
-      "ig-version" : "5.0.0",
-      "package" : "ihe.iti.mhd#5.0.0",
-      "fhir-version" : ["5.0.0"],
-      "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0"
+      "name" : "Publication",
+      "ig-version" : "4.2.4",
+      "package" : "ihe.iti.mhd#4.2.4",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/MHD/4.2.4"
     }]
   },
   {
