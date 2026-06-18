@@ -9311,10 +9311,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "release",
-      "ig-version" : "0.1.10",
-      "package" : "ans.fr.documentation#0.1.10",
+      "ig-version" : "0.1.11",
+      "package" : "ans.fr.documentation#0.1.11",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.10"
+      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.11"
     }]
   },
   {
