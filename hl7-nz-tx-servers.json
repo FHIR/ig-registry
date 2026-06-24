@@ -4,7 +4,7 @@
   "servers" : [{
     "code" : "nzhts",
     "name" : "New Zealand Health Terminology Service (NZHTS)",
-    "access_info" : "This server requires an API Key - see https://www.tewhatuora.govt.nz/health-services-and-programmes/digital-health/terminology-service",
+    "access_info" : "This server requires an API Key - see https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/data-and-standards/health-information-standards/nz-health-terminology-service-nzhts",
     "url" : "https://nzhts.digital.health.nz/fhir",
     "authoritative" : [
        "http://snomed.info/sct|http://snomed.info/sct/21000210109*"

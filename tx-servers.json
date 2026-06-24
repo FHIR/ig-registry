@@ -69,6 +69,12 @@
       "name": "HL7 Germany Terminology Server",
       "authority": "Published by HL7 Germany",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-de-tx-servers.json"
+    },
+    {
+      "code": "hl7-nz",
+      "name": "HL7 New Zealand / New Zealand Health Terminology Service",
+      "authority": "Published by Health New Zealand / HL7 New Zealand",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-nz-tx-servers.json"
     }
   ]
 }
