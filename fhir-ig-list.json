@@ -4840,11 +4840,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "FHIR R5",
-      "ig-version" : "5.0.0",
-      "package" : "ihe.iti.mhd#5.0.0",
-      "fhir-version" : ["5.0.0"],
-      "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0"
+      "name" : "Publication",
+      "ig-version" : "4.2.4",
+      "package" : "ihe.iti.mhd#4.2.4",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/MHD/4.2.4"
     }]
   },
   {
@@ -9960,6 +9960,46 @@
       "package" : "fhir.onc.us-quality-core#0.5.0",
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/onc/us-quality-core/0.5.0"
+    }]
+  },
+  {
+    "name" : "De-Identification Handbook",
+    "category" : "De-Identification",
+    "npm-name" : "ihe.iti.deid",
+    "description" : "This De-Identifaction Handbook defines the requirements for the de-identification of health information.",
+    "authority" : "IHE",
+    "country" : "USA",
+    "history" : "https://profiles.ihe.net/ITI/DeId/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/ITI/DeId",
+    "ci-build" : "http://build.fhir.org/ig/IHE/ITI.DeIdHandbook/branches/main/index.html",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication Ballot",
+      "ig-version" : "2.0.0-comment",
+      "package" : "ihe.iti.deid#2.0.0-comment",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0-comment"
+    }]
+  },
+  {
+    "name" : "Verifiable Health Links",
+    "category" : "ITI",
+    "npm-name" : "ihe.iti.vhl",
+    "description" : "Patient Mediated sharing of their health information using internet accessible verifiable health link.",
+    "authority" : "IHE",
+    "country" : "USA",
+    "history" : "https://profiles.ihe.net/ITI/VHL/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/ITI/VHL",
+    "ci-build" : "http://build.fhir.org/ig/IHE/ITI.VHL",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication Ballot",
+      "ig-version" : "1.0.0-comment",
+      "package" : "ihe.iti.vhl#1.0.0-comment",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/VHL/1.0.0-comment"
     }]
   }]
 }
