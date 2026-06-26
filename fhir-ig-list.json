@@ -6817,14 +6817,14 @@
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/infsec",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/infsec",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.infsec#1.0.0",
+      "ig-version" : "1.3.0",
+      "package" : "hl7.fhir.be.infsec#1.3.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
-    }],
-    "product" : ["fhir"]
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/infsec/1.3.0"
+    }]
   },
   {
     "name" : "Finnish Implementation Guide for SMART App Launch",
