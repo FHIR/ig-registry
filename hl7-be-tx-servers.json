@@ -12,7 +12,7 @@
     ],
     "fhirVersions" : [{
       "version" : "R4",
-      "url" : "http://178.104.103.200/tx/r4"
+      "url" : "https://178.104.103.200.sslip.io/tx/r4"
     }]
   }]
 }
