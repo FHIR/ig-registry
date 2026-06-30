@@ -1,0 +1,42 @@
+{
+  "formatVersion": "1",
+  "description": "Registry of FHIR Terminology Servers in the Czech Republic",
+  "servers": [
+    {
+      "code": "hl7-cz",
+      "name": "HL7 Czech Republic Terminology Server",
+      "access_info": "Open FHIR Terminology Server supporting publication and validation of Czech FHIR Implementation Guides. Provides Czech national terminologies, SNOMED CT Czech Republic Edition and selected international terminologies with Czech language designations where available.",
+      "url": "https://tx.hl7.cz",
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://tx.hl7.cz/tx/r4"
+        },
+        {
+          "version": "R5",
+          "url": "https://tx.hl7.cz/tx/r5"
+        }
+      ],
+      "usage" : [
+      ],
+      "authoritative": [
+        "https://hl7.cz/terminology/CodeSystem*",
+        "https://ncez.mzcr.cz/terminology/CodeSystem*",
+        "http://snomed.info/sct|http://snomed.info/sct/11000279109*",
+        "https://ncez.mzcr.cz/nclp/CodeSystem*",
+        "https://sukl.cz/terminology/CodeSystem*",
+        "https://uzis.cz/terminology/CodeSystem*"
+      ],
+      "authoritative-valuesets": [
+        "https://hl7.cz/terminology/ValueSet*",
+        "https://ncez.mzcr.cz/terminology/ValueSet*",
+        "https://uzis.cz/terminology/ValueSet*"
+      ],
+      "notes": [
+        "The server provides SNOMED CT Czech Republic Edition, subject to SNOMED International licensing conditions.",
+        "The server provides Czech designations for LOINC where available. The LOINC CodeSystem remains authoritative at loinc.org.",
+        "Czech designations may be provided either directly in the CodeSystem resources or through CodeSystem supplements."
+      ]
+    }
+  ]
+}
