@@ -63,6 +63,12 @@
       "name": "HL7 Nordics Terminology Server",
       "authority": "Published by nordic HL7 affiliates",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-nordics-tx-servers.json"
+    },
+    {
+      "code": "hl7-cz",
+      "name": "HL7 Czech Republic Terminology Services",
+      "authority": "Published by HL7 Czech Republic",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-cz-tx-servers.json"
     }
   ]
 }
