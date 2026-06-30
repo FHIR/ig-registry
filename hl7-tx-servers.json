@@ -20,5 +20,17 @@
       "version" : "R5",
       "url" : "http://tx.fhir.org/r5"
     }]
+  },{
+    "code" : "icd11",
+    "name" : "icd11 Test Server",
+    "access_info" : "This server is open to the public",
+    "url" : "https://icdapi-fhir-testing-byfzd6budwdmbabf.northeurope-01.azurewebsites.net/fhir",
+    "authoritative" : [
+      "http://id.who.int/*"
+    ],
+    "fhirVersions" : [{
+      "version" : "R5",
+      "url" : "https://icdapi-fhir-testing-byfzd6budwdmbabf.northeurope-01.azurewebsites.net/fhir"
+    }]    
   }]
 }
