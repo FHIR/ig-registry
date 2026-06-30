@@ -8,8 +8,7 @@
       "access_info": "Open",
       "url": "http://tx.hl7europe.eu",
       "authoritative": [
-        "http://hl7europe.org/fhir/terminology/ehdsi*",
-        "http://npu-terminology.org"
+        "http://hl7europe.org/fhir/terminology/ehdsi*"
       ],
       "authoritative-valuesets": [
         "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet*",
