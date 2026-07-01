@@ -69,6 +69,12 @@
       "name": "HL7 Germany Terminology Server",
       "authority": "Published by HL7 Germany",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-de-tx-servers.json"
+    },
+    {
+      "code": "echidna",
+      "name": "Echidna Terminology Server",
+      "authority": "Published by Echidna Systems",
+      "url": "https://tx.echidna.systems/tx-servers.json"
     }
   ]
 }
