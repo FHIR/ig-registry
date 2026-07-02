@@ -5327,6 +5327,26 @@
     }]
   },
   {
+    "name" : "IHE Pharmacy Medication Overview",
+    "category" : "Medication",
+    "npm-name" : "ihe.pharm.meow",
+    "description" : "IHE Pharmacy Medication Overview (MEOW) profile, allowing the exchange of a patient's medication information across systems.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/PHARM/MEOW/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/PHARM/MEOW",
+    "ci-build" : "http://build.fhir.org/ig/IHE/pharm-meow",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "FHIR R4 Preview",
+      "ig-version" : "1.0.0-preview",
+      "package" : "ihe.pharm.meow#1.0.0-preview",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/PHARM/MEOW/1.0.0-preview"
+    }]
+  },
+  {
     "name" : "IClaim",
     "category" : "Financial",
     "npm-name" : "tw.cathay.fhir.iclaim",
