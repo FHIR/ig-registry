@@ -10,11 +10,11 @@
       "fhirVersions": [
         {
           "version": "R4",
-          "url": "https://tx.hl7.cz/tx/r4"
+          "url": "https://tx.hl7.cz/r4"
         },
         {
           "version": "R5",
-          "url": "https://tx.hl7.cz/tx/r5"
+          "url": "https://tx.hl7.cz/r5"
         }
       ],
       "usage" : [
