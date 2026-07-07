@@ -9905,7 +9905,7 @@
     "country" : "de",
     "language" : ["de", "en"],
     "canonical" : "https://fhir.cognovis.de/dental",
-    "ci-build" : "https://cognovis.github.io/fhir-dental-de/",
+    "ci-build" : "https://cognovis.github.io/fhir-dental-de",
     "editions" : [{
       "name" : "STU1",
       "ig-version" : "0.35.0",
