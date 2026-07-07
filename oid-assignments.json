@@ -68,7 +68,16 @@
     "2.16.840.1.113883.4.642.40.62" : {   "id" : "hl7.fhir.uv.testing",                           "info" : "Grahame Grieve, 26-Sep 2025" },
     "2.16.840.1.113883.4.642.40.63" : {   "id" : "hl7.fhir.cr.terminology",                       "info" : "Alejandro Benavides, 27-Nov 2025" },
     "2.16.840.1.113883.4.642.40.64" : {   "id" : "hl7.fhir.uv.vulcan-schedule",                       "info" : "Jean Duteau, 17-Mar 2025" },
-
+    "2.16.840.1.113883.4.642.40.65" : {   "id" : "fhir.cdc.opioid-cds-r4",                        "info" : "Bryn Rhodes, 26-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.66" : {   "id" : "hl7.fhir.us.cdc-opioid-cpg",                    "info" : "Bryn Rhodes, 26-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.67" : {   "id" : "hl7.fhir.us.pacio-pfe",                         "info" : "Yunwei Wang, 29-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.68" : {   "id" : "hl7.fhir.us.pacio-adi",                         "info" : "Yunwei Wang, 29-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.69" : {   "id" : "hl7.fhir.us.pacio-toc",                         "info" : "Yunwei Wang, 29-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.70" : {   "id" : "hl7.fhir.us.smp",                               "info" : "Yunwei Wang, 29-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.71" : {   "id" : "hl7.cql",                                       "info" : "Bryn Rhodes, 29-Jun 2026" },
+    "2.16.840.1.113883.4.642.40.72" : {   "id" : "hl7.fhir.uv.pocd",                              "info" : "Erik Moll, 06-Jul 2026" },
+    "2.16.840.1.113883.4.642.40.73" : {   "id" : "hl7.fhir.uv.phd",                               "info" : "Bryn Rhodes, 06-Jul 2026" },
+    
     "1.3.6.1.4.1.19376.1.5.3.1.3.43" : {  "id" : "ihe.pcc.odh",                                   "info" : "John Moehrke, 04-Nov 2024" },
 
     "2.16.840.1.113883.2.51.22.1"   : {  "id" : "hl7.fhir.eu.laboratory",                         "info" : "Giorgio Cangioli, 19-Mar 2025" },

@@ -35,11 +35,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU9 Ballot",
-      "ig-version" : "9.0.0-ballot",
-      "package" : "hl7.fhir.us.core#9.0.0-ballot",
+      "name" : "STU9",
+      "ig-version" : "9.0.0",
+      "package" : "hl7.fhir.us.core#9.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/core/2026Jan"
+      "url" : "http://hl7.org/fhir/us/core/STU9"
     }]
   },
   {
@@ -101,11 +101,11 @@
     "canonical" : "http://hl7.org.au/fhir/ps",
     "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-ps",
     "editions" : [{
-      "name" : "Ballot for Working Standard",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.au.ps#1.0.0-ballot",
+      "name" : "Working Standard",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.au.ps#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://hl7.org.au/fhir/ps/1.0.0-ballot"
+      "url" : "https://hl7.org.au/fhir/ps/1.0.0"
     }],
     "analysis" : {
       "error" : "JsonObject"
@@ -189,32 +189,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.us.ccda#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.ccda#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ccda/2025Jan"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.us.ccda#1.2.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ccda/STU1.2"
-    },
-    {
-      "name" : "STU 1.1",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.us.ccda#1.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ccda/STU1.1"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.us.ccda#1.0.0",
-      "fhir-version" : ["3.0.1"],
-      "url" : "http://hl7.org/fhir/us/ccda/STU1"
+      "url" : "http://hl7.org/fhir/us/ccda/STU2"
     }]
   },
   {
@@ -672,10 +651,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.uv.ips#2.0.0",
+      "ig-version" : "2.0.1",
+      "package" : "hl7.fhir.uv.ips#2.0.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/ips/STU2"
+      "url" : "http://hl7.org/fhir/uv/ips/2.0.1"
     }]
   },
   {
@@ -1287,11 +1266,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.pddi#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.pddi#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/pddi/2023Jan"
+      "url" : "http://hl7.org/fhir/uv/pddi/STU1"
     }]
   },
   {
@@ -2110,10 +2089,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release",
-      "ig-version" : "3.6.0",
-      "package" : "hl7.fhir.dk.core#3.6.0",
+      "ig-version" : "3.7.0",
+      "package" : "hl7.fhir.dk.core#3.7.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.dk/fhir/core/3.6.0"
+      "url" : "http://hl7.dk/fhir/core/3.7.0"
     }]
   },
   {
@@ -3229,11 +3208,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.uv.order-catalog#0.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/order-catalog/2020Sep"
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.order-catalog#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/order-catalog/1.0.0"
     }]
   },
   {
@@ -3328,10 +3307,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publications",
-      "ig-version" : "7.1.0",
-      "package" : "hl7.terminology#7.1.0",
+      "ig-version" : "7.2.0",
+      "package" : "hl7.terminology#7.2.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://terminology.hl7.org/7.1.0"
+      "url" : "http://terminology.hl7.org/7.2.0"
     }]
   },
   {
@@ -4861,11 +4840,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "FHIR R5",
-      "ig-version" : "5.0.0",
-      "package" : "ihe.iti.mhd#5.0.0",
-      "fhir-version" : ["5.0.0"],
-      "url" : "https://profiles.ihe.net/ITI/MHD/5.0.0"
+      "name" : "Publication",
+      "ig-version" : "4.2.4",
+      "package" : "ihe.iti.mhd#4.2.4",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/MHD/4.2.4"
     }]
   },
   {
@@ -5039,18 +5018,18 @@
     "npm-name" : "hl7.fhir.be.core-clinical",
     "description" : "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core-clinical",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.core-clinical#1.0.0",
+      "ig-version" : "1.2.0",
+      "package" : "hl7.fhir.be.core-clinical#1.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
     }]
   },
   {
@@ -5079,7 +5058,6 @@
     "npm-name" : "hl7.fhir.be.vaccination",
     "description" : "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/history.html",
     "language" : ["en"],
@@ -5094,33 +5072,13 @@
       "codeSystems" : 5,
       "examples" : 6
     },
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.vaccination#1.0.0",
+      "ig-version" : "1.1.3",
+      "package" : "hl7.fhir.be.vaccination#1.1.3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.vaccination#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.vaccination#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.2"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.3",
-      "package" : "hl7.fhir.be.vaccination#1.0.3",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.0.3"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.1.3"
     }]
   },
   {
@@ -5302,11 +5260,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.1.1",
-      "ig-version" : "1.1.1",
-      "package" : "tw.gov.mohw.nhi.pas#1.1.1",
+      "name" : "STU1.2.4",
+      "ig-version" : "1.2.4",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.4",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.1.1"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.4"
     }]
   },
   {
@@ -5342,11 +5300,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/ci",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/ci",
     "editions" : [{
-      "name" : "STU1.0.1",
-      "ig-version" : "1.0.1",
-      "package" : "tw.gov.mohw.nhi.ci#1.0.1",
+      "name" : "STU1.0.2",
+      "ig-version" : "1.0.2",
+      "package" : "tw.gov.mohw.nhi.ci#1.0.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/ci/1.0.1"
+      "url" : "https://nhicore.nhi.gov.tw/ci/1.0.2"
     }]
   },
   {
@@ -5366,6 +5324,26 @@
       "package" : "tw.gov.mohw.nhi.empd#0.1.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://nhicore.nhi.gov.tw/empd/0.1.0"
+    }]
+  },
+  {
+    "name" : "IHE Pharmacy Medication Overview",
+    "category" : "Medication",
+    "npm-name" : "ihe.pharm.meow",
+    "description" : "IHE Pharmacy Medication Overview (MEOW) profile, allowing the exchange of a patient's medication information across systems.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/PHARM/MEOW/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/PHARM/MEOW",
+    "ci-build" : "http://build.fhir.org/ig/IHE/pharm-meow",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "FHIR R4 Preview",
+      "ig-version" : "1.0.0-preview",
+      "package" : "ihe.pharm.meow#1.0.0-preview",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/PHARM/MEOW/1.0.0-preview"
     }]
   },
   {
@@ -6118,10 +6096,10 @@
     "product" : ["fhir", "cda"],
     "editions" : [{
       "name" : "CDA 2.0 Informative",
-      "ig-version" : "2.0.2-sd",
-      "package" : "hl7.cda.uv.core#2.0.2-sd",
+      "ig-version" : "2.0.3-sd",
+      "package" : "hl7.cda.uv.core#2.0.3-sd",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/cda/stds/core/2.0.2-sd"
+      "url" : "http://hl7.org/cda/stds/core/2.0.3-sd"
     }]
   },
   {
@@ -6257,11 +6235,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/CDA-ccda",
     "product" : ["fhir", "cda"],
     "editions" : [{
-      "name" : "CCDA 5.0 Ballot",
-      "ig-version" : "5.0.0-ballot",
-      "package" : "hl7.cda.us.ccda#5.0.0-ballot",
+      "name" : "CCDA 5.0",
+      "ig-version" : "5.0.0",
+      "package" : "hl7.cda.us.ccda#5.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/cda/us/ccda/2026Jan"
+      "url" : "http://hl7.org/cda/us/ccda/5.0.0"
     }]
   },
   {
@@ -6424,11 +6402,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/crmi-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.uv.crmi#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.uv.crmi#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/crmi/2025Sep"
+      "url" : "http://hl7.org/fhir/uv/crmi/STU2"
     }]
   },
   {
@@ -6859,14 +6837,14 @@
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/infsec",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/infsec",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.infsec#1.0.0",
+      "ig-version" : "1.3.0",
+      "package" : "hl7.fhir.be.infsec#1.3.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/infsec/1.0.0"
-    }],
-    "product" : ["fhir"]
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/infsec/1.3.0"
+    }]
   },
   {
     "name" : "Finnish Implementation Guide for SMART App Launch",
@@ -7241,11 +7219,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-clinical-document/index.html",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.fhir-clinical-document#1.0.0",
+      "name" : "STU 1",
+      "ig-version" : "1.1.0",
+      "package" : "hl7.fhir.uv.fhir-clinical-document#1.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/fhir-clinical-document/STU1"
+      "url" : "http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1"
     }]
   },
   {
@@ -7441,11 +7419,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/capstmt",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.application-feature#1.0.0-ballot",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/application-feature/2024Sep"
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.application-feature#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/application-feature/STU1"
     }]
   },
   {
@@ -8527,11 +8505,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/ehrsfm-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Normative 1 Ballot",
-      "ig-version" : "2.1.1-ballot",
-      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1-ballot",
+      "name" : "Normative 1 Normative",
+      "ig-version" : "2.1.1",
+      "package" : "hl7.ehrs.uv.ehrsfmr2#2.1.1",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/2025May"
+      "url" : "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1"
     }]
   },
   {
@@ -8547,11 +8525,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/phrsfm-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Normative 1 Ballot",
-      "ig-version" : "2.0.1-ballot",
-      "package" : "hl7.ehrs.uv.phrsfmr2#2.0.1-ballot",
+      "name" : "Normative 1 Normative",
+      "ig-version" : "2.0.1",
+      "package" : "hl7.ehrs.uv.phrsfmr2#2.0.1",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/ehrs/uv/phrsfmr2/2025May"
+      "url" : "http://hl7.org/ehrs/uv/phrsfmr2/Normative1"
     }]
   },
   {
@@ -8754,11 +8732,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/mpd/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd/1.0.0"
     }]
   },
   {
@@ -8774,11 +8752,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/mpd-r5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.mpd-r5#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.mpd-r5#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.eu/fhir/mpd-r5/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/mpd-r5/1.0.0"
     }]
   },
   {
@@ -9153,10 +9131,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc2",
-      "package" : "iknl.fhir.r4.pzp#1.0.0-rc2",
+      "ig-version" : "1.0.0-rc3",
+      "package" : "iknl.fhir.r4.pzp#1.0.0-rc3",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc2"
+      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc3"
     }]
   },
   {
@@ -9173,10 +9151,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc2",
-      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc2",
+      "ig-version" : "1.0.0-rc3",
+      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc3",
       "fhir-version" : ["3.0.2"],
-      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc2"
+      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc3"
     }]
   },
   {
@@ -9249,14 +9227,14 @@
     "history" : "http://canonical.fhir.link/servicewell/wof-connect/history.html",
     "language" : ["en"],
     "canonical" : "http://canonical.fhir.link/servicewell/wof-connect",
-    "ci-build" : "http://build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
+    "ci-build" : "https://build.fhir.org/ig/servicewell/servicewell.fhir.wof-connect",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Pre-Release Draft",
-      "ig-version" : "0.1.0",
-      "package" : "servicewell.fhir.wof-connect#0.1.0",
+      "ig-version" : "0.1.1",
+      "package" : "servicewell.fhir.wof-connect#0.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://canonical.fhir.link/servicewell/wof-connect/0.1.0"
+      "url" : "http://canonical.fhir.link/servicewell/wof-connect/0.1.1"
     }]
   },
   {
@@ -9353,10 +9331,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "release",
-      "ig-version" : "0.1.10",
-      "package" : "ans.fr.documentation#0.1.10",
+      "ig-version" : "0.1.11",
+      "package" : "ans.fr.documentation#0.1.11",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.10"
+      "url" : "https://interop.esante.gouv.fr/ig/documentation/0.1.11"
     }]
   },
   {
@@ -9413,17 +9391,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Ballot 1",
-      "ig-version" : "0.2.0-ballot",
-      "package" : "hl7.fhir.nl.gf#0.2.0-ballot",
+      "ig-version" : "0.9.0-ballot",
+      "package" : "hl7.fhir.nl.gf#0.9.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/0.2.0-ballot"
-    },
-    {
-      "name" : "release for hl7-nl validation",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.nl.gf#0.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/v0.1.0"
+      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/0.9.0-ballot"
     }]
   },
   {
@@ -9559,11 +9530,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/us-helios-bulk/en/index.html",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.us.ph-bulk-data#2.0.0-ballot",
+      "name" : "Informative 2 Informative",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.ph-bulk-data#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ph-bulk-data/2026May"
+      "url" : "http://hl7.org/fhir/us/ph-bulk-data/INFORMATIVE2"
     }]
   },
   {
@@ -9774,11 +9745,11 @@
     "canonical" : "https://simplifier.net/guide/medmij-r4-image-availability-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "IG 1.0.0-rc.1",
-      "ig-version" : "1.0.0-rc.1",
-      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.1",
+      "name" : "IG 1.0.0-rc.2",
+      "ig-version" : "1.0.0-rc.2",
+      "package" : "medmij.fhir.nl.r4.imageavailability#1.0.0-rc.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.1"
+      "url" : "https://simplifier.net/guide/medmij-r4-image-availability-ig?version=1.0.0-rc.2"
     }]
   },
   {
@@ -9881,6 +9852,30 @@
     }]
   },
   {
+    "name" : "FHIR Implementation Guide for Stroke",
+    "category" : "Clinical Registries",
+    "npm-name" : "mcaretech.stroke.vbhc",
+    "description" : "FHIR Implementation Guide for Stroke: a dual focus on the patient journey and outcome measures, supporting interoperability, care pathway monitoring, and value-based healthcare analysis.",
+    "authority" : "M-CareTech",
+    "country" : "br",
+    "language" : ["en"],
+    "canonical" : "https://m-caretech.com.br/interopera/stroke-fhirig",
+    "ci-build" : "https://m-caretech.com.br/interopera/stroke-fhirig",
+    "product" : ["fhir"],
+    "implementations" : [{
+      "name" : "Source Code",
+      "type" : "source",
+      "url" : "https://github.com/gabriellesantosleandro/stroke-fhirig"
+    }],
+    "editions" : [{
+      "name" : "Release 1.0.0",
+      "ig-version" : "1.0.0",
+      "package" : "mcaretech.stroke.vbhc#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://m-caretech.com.br/interopera/stroke-fhirig"
+    }]
+  },
+  {
     "name" : "De-identification, Anonymization and Redaction Toolkit Services (DARTS) FHIR IG",
     "category" : "Privacy / Security",
     "npm-name" : "hl7.fhir.us.darts",
@@ -9917,6 +9912,126 @@
       "fhir-version" : ["4.0.1"],
       "package" : "de.cognovis.fhir.praxis#0.62.1",
       "url" : "https://cognovis.github.io/fhir-praxis-de"
+    }]
+  },
+  {
+    "name" : "WOF Portal Implementation Guide",
+    "category" : "Booking Service",
+    "npm-name" : "servicewell.fhir.wof-portal",
+    "description" : "This IG defines the ServiceWell WOF Portal public API in FHIR, including the core structures and terminology needed for consistent integrations. This is the initial release (v1.0.0) and represents the first public version of the specification",
+    "authority" : "Service Well",
+    "country" : "se",
+    "history" : "https://canonical.fhir.link/servicewell/wof-portal/history.html",
+    "language" : ["en"],
+    "canonical" : "https://canonical.fhir.link/servicewell/wof-portal",
+    "ci-build" : "https://build.fhir.org/ig/servicewell/servicewell.fhir.wof-portal/branches/main",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "V1 Release",
+      "ig-version" : "1.0.0",
+      "package" : "servicewell.fhir.wof-portal#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://canonical.fhir.link/servicewell/wof-portal/1.0.0"
+    }]
+  },
+  {
+    "name" : "HEARTLAND Protocol FHIR Implementation Guide",
+    "category" : "Quality / CDS",
+    "npm-name" : "heartland.fhir.us.protocol",
+    "description" : "FHIR R4 Implementation Guide for the HEARTLAND Protocol — an open, peer-reviewed clinical implementation toolkit for primary-care-led heart failure management in rural and resource-limited US settings (Cureus 2026, PMID 41948265). Defines profiles, extensions, questionnaires, and value sets for risk stratification, facility tier assignment, patient track assignment, and remote monitoring observations.",
+    "authority" : "HEARTLAND Protocol",
+    "country" : "us",
+    "history" : "https://fhir.heartlandprotocol.org",
+    "language" : ["en"],
+    "canonical" : "https://fhir.heartlandprotocol.org",
+    "ci-build" : "https://fhir.heartlandprotocol.org/ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Release 0.1.0",
+      "ig-version" : "0.1.0",
+      "package" : "heartland.fhir.us.protocol#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.heartlandprotocol.org/ig"
+    }]
+  },
+  {
+    "name" : "Query & Response for Public Health",
+    "category" : "Public Health",
+    "npm-name" : "hl7.fhir.us.ph-query",
+    "description" : "This Implementation Guide provides guidance for public health program staff, architects and technical implementers as they work with trading partners to develop, test and implement FHIR-based RESTful API solutions to enhance authorized data collection to support program directives and services. It contains a discussion of technical and policy considerations for employing FHIR APIs and outlines potential public health use cases for a query and response paradigm.",
+    "authority" : "US Government",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/ph-query/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/us/ph-query",
+    "ci-build" : "http://build.fhir.org/ig/HL7/us-helios-QR",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.ph-query#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/ph-query/INFORMATIVE1"
+    }]
+  },
+  {
+    "name" : "US Quality Core",
+    "category" : "Quality / CDS",
+    "npm-name" : "fhir.onc.us-quality-core",
+    "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
+    "authority" : "US Government",
+    "country" : "us",
+    "history" : "http://fhir.org/guides/onc/us-quality-core/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.org/guides/onc/us-quality-core",
+    "ci-build" : " http://build.fhir.org/guides/onc/us-quality-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.5.0",
+      "package" : "fhir.onc.us-quality-core#0.5.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.org/guides/onc/us-quality-core/0.5.0"
+    }]
+  },
+  {
+    "name" : "De-Identification Handbook",
+    "category" : "De-Identification",
+    "npm-name" : "ihe.iti.deid",
+    "description" : "This De-Identifaction Handbook defines the requirements for the de-identification of health information.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/ITI/DeId/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/ITI/DeId",
+    "ci-build" : "http://build.fhir.org/ig/IHE/ITI.DeIdHandbook/branches/main/index.html",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication Ballot",
+      "ig-version" : "2.0.0-comment",
+      "package" : "ihe.iti.deid#2.0.0-comment",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0-comment"
+    }]
+  },
+  {
+    "name" : "Verifiable Health Links",
+    "category" : "ITI",
+    "npm-name" : "ihe.iti.vhl",
+    "description" : "Patient Mediated sharing of their health information using internet accessible verifiable health link.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/ITI/VHL/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/ITI/VHL",
+    "ci-build" : "http://build.fhir.org/ig/IHE/ITI.VHL",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication Ballot",
+      "ig-version" : "1.0.0-comment",
+      "package" : "ihe.iti.vhl#1.0.0-comment",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/ITI/VHL/1.0.0-comment"
     }]
   }]
 }

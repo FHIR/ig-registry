@@ -11,7 +11,10 @@
             "http://npu-terminology.org",
             "http://snomed.info/sct|http://snomed.info/sct/554471000005108*",
             "http://snomed.info/sct|http://snomed.info/sct/51000202101*",
-            "http://snomed.info/sct|http://snomed.info/sct/45991000052106*"
+            "http://snomed.info/sct|http://snomed.info/sct/45991000052106*",
+            "urn:oid:1.2.208.176.2.4",
+            "urn:oid:1.2.208.176.2.4.12",
+            "http://hl7.dk/fhir/core/CodeSystem/icd10-danish-extensions"
         ],
         "authoritative-valuesets": [
         ],
