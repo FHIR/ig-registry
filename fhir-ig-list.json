@@ -9896,6 +9896,25 @@
     }]
   },
   {
+    "name" : "German Practice Management FHIR Profiles",
+    "category" : "Administration",
+    "npm-name" : "de.cognovis.fhir.praxis",
+    "description" : "FHIR R4 Implementation Guide for German ambulatory practice management (Praxisverwaltung). Covers billing (EBM/GOÄ), budget management (RLV/QZV), remittance, queue management, AI provenance (EU AI Act), and administrative workflows.",
+    "authority" : "cognovis GmbH",
+    "country" : "de",
+    "language" : ["de"],
+    "canonical" : "https://fhir.cognovis.de/praxis",
+    "ci-build" : "https://cognovis.github.io/fhir-praxis-de",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1",
+      "ig-version" : "0.62.1",
+      "fhir-version" : ["4.0.1"],
+      "package" : "de.cognovis.fhir.praxis#0.62.1",
+      "url" : "https://cognovis.github.io/fhir-praxis-de"
+    }]
+  },
+  {
     "name" : "WOF Portal Implementation Guide",
     "category" : "Booking Service",
     "npm-name" : "servicewell.fhir.wof-portal",
