@@ -101,11 +101,11 @@
     "canonical" : "http://hl7.org.au/fhir/ps",
     "ci-build" : "https://build.fhir.org/ig/hl7au/au-fhir-ps",
     "editions" : [{
-      "name" : "Ballot for Working Standard",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.au.ps#1.0.0-ballot",
+      "name" : "Working Standard",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.au.ps#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://hl7.org.au/fhir/ps/1.0.0-ballot"
+      "url" : "https://hl7.org.au/fhir/ps/1.0.0"
     }],
     "analysis" : {
       "error" : "JsonObject"
