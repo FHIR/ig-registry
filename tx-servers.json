@@ -76,5 +76,11 @@
       "authority": "Published by HL7 Czech Republic",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-cz-tx-servers.json"
     },
+    {
+      "code": "hl7-nz",
+      "name": "HL7 New Zealand / New Zealand Health Terminology Service",
+      "authority": "Published by Health New Zealand / HL7 New Zealand",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-nz-tx-servers.json"
+    }
   ]
 }
