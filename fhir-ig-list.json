@@ -10052,5 +10052,11 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/ITI/VHL/1.0.0-comment"
     }]
-  }]
+  },
+  {
+  "name": "mi-guia-fhir",
+  "canonical": "http://example.org/fhir/mi-guia",
+  "url": "https://github.com/iang79/mi-guia-fhir",
+  "status": "active"
+}]
 }
