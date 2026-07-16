@@ -10042,5 +10042,24 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/ITI/VHL/1.0.0-comment"
     }]
-  }]
+  },
+  {
+    "name": "CDA AU Schema",
+    "category": "Clinical Documents",
+    "npm-name": "au.digitalhealth.cda.schema",
+    "description": "This Implementation Guide defines an Health Connect Australia Provider Directory within Australian context.",
+    "authority": "ADHA",
+    "product": ["fhir"],
+    "country": "au",
+    "language": ["en"],
+    "history": "http://ns.electronichealth.net.au/cda/history.html",
+    "canonical": "http://ns.electronichealth.net.au/cda",
+    "ci-build": "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema/",
+    "editions": [{
+      "name": "Release",
+      "ig-version": "1.0.1",
+      "package": "au.digitalhealth.cda.schema#1.0.1",
+      "fhir-version": ["4.0.1"],
+      "url": "https://implementer.digitalhealth.gov.au/fhir/cda-au-schema/current/index.html"
+    }]
 }

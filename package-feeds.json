@@ -366,6 +366,11 @@
       "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
       "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
       "errors": "nhsn|cdc_gov"
+    },
+    {
+      "name": "Australian Digital Health Agency",
+      "url": "https://github.com/AuDigitalHealth/adha-fhir-packages/blob/main/package-feed.xml?raw=true",
+      "errors": "help|digitalhealth_gov_au"
     }
   ],
   "package-restrictions": [
