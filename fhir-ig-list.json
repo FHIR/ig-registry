@@ -10054,7 +10054,7 @@
     "language": ["en"],
     "history": "http://ns.electronichealth.net.au/cda/history.html",
     "canonical": "http://ns.electronichealth.net.au/cda",
-    "ci-build": "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema/",
+    "ci-build": "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema",
     "editions": [{
       "name": "Release",
       "ig-version": "1.0.1",
