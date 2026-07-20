@@ -366,6 +366,11 @@
       "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
       "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
       "errors": "nhsn|cdc_gov"
+    },
+    {
+      "name": "Medical Informatics Initiative (MII) Core Data Set Base",
+      "url": "https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml",
+      "errors": "julian_sass|charite_de"
     }
   ],
   "package-restrictions": [
@@ -546,6 +551,10 @@
     {
       "mask": "gov.cdc.nhsn.*",
       "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
+    },
+    {
+      "mask": "de.medizininformatikinitiative.kerndatensatz.base",
+      "feeds": ["https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml"]
     }
   ]
 
