@@ -20,7 +20,7 @@
       "usage" : [
       ],
       "languages" : {
-        "cz" : ["http://standardterms.edqm.eu"]
+        "cs" : ["http://standardterms.edqm.eu"]
       },
       "authoritative": [
         "https://hl7.cz/terminology/CodeSystem*",
