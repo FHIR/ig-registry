@@ -30,6 +30,7 @@
         "https://sukl.cz/terminology/CodeSystem*",
         "https://uzis.cz/terminology/CodeSystem*"
       ],
+      "exclusions" : ["http://hl7.org/fhir/*"],
       "authoritative-valuesets": [
         "https://hl7.cz/terminology/ValueSet*",
         "https://ncez.mzcr.cz/terminology/ValueSet*",
