@@ -371,6 +371,11 @@
       "name": "Medical Informatics Initiative (MII) Core Data Set Base",
       "url": "https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml",
       "errors": "julian_sass|charite_de"
+    },
+    {
+      "name": "Australian Digital Health Agency",
+      "url": "https://github.com/AuDigitalHealth/adha-fhir-packages/blob/main/package-feed.xml?raw=true",
+      "errors": "help|digitalhealth_gov_au"
     }
   ],
   "package-restrictions": [
