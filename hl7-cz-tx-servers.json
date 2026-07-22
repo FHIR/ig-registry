@@ -19,6 +19,9 @@
       ],
       "usage" : [
       ],
+      "languages" : {
+        "cz" : ["http://standardterms.edqm.eu"]
+      },
       "authoritative": [
         "https://hl7.cz/terminology/CodeSystem*",
         "https://ncez.mzcr.cz/terminology/CodeSystem*",
