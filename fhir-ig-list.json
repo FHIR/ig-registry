@@ -8809,6 +8809,46 @@
       "url" : "http://hl7.eu/fhir/health-data-api/1.0.0-ballot"
     }]
   },
+    {
+    "name" : "HL7 Europe European Patient Summary",
+    "category" : "Patient Summary",
+    "npm-name" : "hl7.fhir.eu.eps",
+    "description" : "This implementation guide specifies the Patient Summary in the European context, as defined by the Xt-EHR joint action and the eHN Guidelines.",
+    "authority" : "HL7 Europe",
+    "country" : "eu",
+    "history" : "http://hl7.eu/fhir/eps/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/eps",
+    "ci-build" : "http://build.fhir.org/ig/hl7-eu/eps",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.eps#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/eps/1.0.0-ballot"
+    }]
+  },
+  {
+    "name" : "HL7 Europe Common Cancer Model",
+    "category" : "Cancer Management",
+    "npm-name" : "hl7.fhir.eu.cancer-common",
+    "description" : "HL7 Europe Common Cancer Data Model FHIR IG",
+    "authority" : "HL7 Europe",
+    "country" : "eu",
+    "history" : "http://hl7.eu/fhir/cancer-common/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/cancer-common",
+    "ci-build" : "http://build.fhir.org/ig/hl7-eu/cancer-common",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.cancer-common#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/cancer-common/1.0.0-ballot"
+    }]
+  },
   {
     "name" : "xShare Project xShare Project IPS+ Implementation Guide",
     "category" : "EHDS",
@@ -9923,6 +9963,66 @@
       "package" : "hl7.fhir.us.darts#1.0.0-ballot",
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/darts/2026May"
+    }]
+  },
+  {
+    "name" : "MyHealth@Eu Patient Summary",
+    "category" : "Patient Summary",
+    "npm-name" : "myhealth.eu.fhir.eps",
+    "description" : "MyHealth@Eu Patient Summary profiles used for European Cross-border services",
+    "authority" : "MyHealth@Eu",
+    "country" : "EU",
+    "history" : "http://fhir.ehdsi.eu/eps/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.ehdsi.eu/eps",
+    "ci-build" : "https://build-fhir.ehdsi.eu/eps",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "First Release Preview",
+      "ig-version" : "1.0.0-poc",
+      "package" : "myhealth.eu.fhir.eps#1.0.0-poc",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.ehdsi.eu/eps/1.0.0-poc"
+    }]
+  },
+  {
+    "name" : "MyHealth@Eu Electronic Prescription and Dispense",
+    "category" : "Electronic Prescription and Dispense",
+    "npm-name" : "myhealth.eu.fhir.epd",
+    "description" : "MyHealth@Eu Electronic Prescription and Dispense profiles used for European Cross-border services",
+    "authority" : "MyHealth@Eu",
+    "country" : "EU",
+    "history" : "http://fhir.ehdsi.eu/epd/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.ehdsi.eu/epd",
+    "ci-build" : "https://build-fhir.ehdsi.eu/epd",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "First Release Preview",
+      "ig-version" : "1.0.0-poc",
+      "package" : "myhealth.eu.fhir.epd#1.0.0-poc",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.ehdsi.eu/epd/1.0.0-poc"
+    }]
+  },
+  {
+    "name" : "MyHealth@Eu Vaccination",
+    "category" : "Vaccination",
+    "npm-name" : "myhealth.eu.fhir.euvac",
+    "description" : "MyHealth@Eu Vaccination profiles used for European Cross-border services",
+    "authority" : "MyHealth@Eu",
+    "country" : "EU",
+    "history" : "http://fhir.ehdsi.eu/euvac/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.ehdsi.eu/euvac",
+    "ci-build" : "https://build-fhir.ehdsi.eu/euvac",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "First Release Preview",
+      "ig-version" : "10.0.0-preview",
+      "package" : "myhealth.eu.fhir.euvac#10.0.0-preview",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.ehdsi.eu/euvac/10.0.0-preview"
     }]
   },
   {
