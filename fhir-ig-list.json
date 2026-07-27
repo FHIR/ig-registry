@@ -3297,10 +3297,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publications",
-      "ig-version" : "7.2.0",
-      "package" : "hl7.terminology#7.2.0",
+      "ig-version" : "7.3.0",
+      "package" : "hl7.terminology#7.3.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://terminology.hl7.org/7.2.0"
+      "url" : "http://terminology.hl7.org/7.3.0"
     }]
   },
   {
@@ -8809,7 +8809,7 @@
       "url" : "http://hl7.eu/fhir/health-data-api/1.0.0-ballot"
     }]
   },
-    {
+  {
     "name" : "HL7 Europe European Patient Summary",
     "category" : "Patient Summary",
     "npm-name" : "hl7.fhir.eu.eps",
@@ -10184,24 +10184,23 @@
     }]
   },
   {
-    "name": "CDA AU Schema",
-    "category": "Clinical Documents",
-    "npm-name": "au.digitalhealth.cda.schema",
-    "description": "This FHIR Implementation Guide is a representation of the Clinical Document Architecture (CDA) R2.0 specification using HL7 FHIR Logical Models expressed as HL7 FHIR StructureDefinition instances. It is an adaptation of the HL7 International CDA Logical Model Specification with specific modifications and inclusions to represent the CDA schema including Australian CDA extensions using the FHIR StructureDefinition framework.",
-    "authority": "ADHA",
-    "product": ["fhir"],
-    "country": "au",
-    "language": ["en"],
-    "history": "http://ns.electronichealth.net.au/cda/history.html",
-    "canonical": "http://ns.electronichealth.net.au/cda",
-    "ci-build": "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema",
-    "editions": [{
-      "name": "Release",
-      "ig-version": "1.0.1",
-      "package": "au.digitalhealth.cda.schema#1.0.1",
-      "fhir-version": ["4.0.1"],
-      "url": "https://implementer.digitalhealth.gov.au/fhir/cda-au-schema/current/index.html"
+    "name" : "CDA AU Schema",
+    "category" : "Clinical Documents",
+    "npm-name" : "au.digitalhealth.cda.schema",
+    "description" : "This FHIR Implementation Guide is a representation of the Clinical Document Architecture (CDA) R2.0 specification using HL7 FHIR Logical Models expressed as HL7 FHIR StructureDefinition instances. It is an adaptation of the HL7 International CDA Logical Model Specification with specific modifications and inclusions to represent the CDA schema including Australian CDA extensions using the FHIR StructureDefinition framework.",
+    "authority" : "ADHA",
+    "product" : ["fhir"],
+    "country" : "au",
+    "language" : ["en"],
+    "history" : "http://ns.electronichealth.net.au/cda/history.html",
+    "canonical" : "http://ns.electronichealth.net.au/cda",
+    "ci-build" : "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema",
+    "editions" : [{
+      "name" : "Release",
+      "ig-version" : "1.0.1",
+      "package" : "au.digitalhealth.cda.schema#1.0.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://implementer.digitalhealth.gov.au/fhir/cda-au-schema/current/index.html"
     }]
-}
-  ]
+  }]
 }
