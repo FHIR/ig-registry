@@ -8017,11 +8017,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/FHIRPath",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "R2 Ballot",
-      "ig-version" : "3.0.0-ballot",
-      "package" : "hl7.fhirpath#3.0.0-ballot",
+      "name" : "R2",
+      "ig-version" : "3.0.0",
+      "package" : "hl7.fhirpath#3.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhirpath/2025Jan"
+      "url" : "http://hl7.org/fhirpath/STU3"
     }]
   },
   {
