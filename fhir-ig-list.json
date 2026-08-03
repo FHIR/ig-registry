@@ -5250,11 +5250,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.4",
-      "ig-version" : "1.2.4",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.4",
+      "name" : "STU1.2.5",
+      "ig-version" : "1.2.5",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.5",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.4"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.5"
     }]
   },
   {
