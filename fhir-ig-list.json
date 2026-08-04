@@ -5450,11 +5450,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.us.pacio-pfe#2.0.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.us.pacio-pfe#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/pacio-pfe/STU2"
+      "url" : "http://hl7.org/fhir/us/pacio-pfe/3.0.0-202609-ballot"
     }]
   },
   {
