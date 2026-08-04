@@ -130,22 +130,19 @@
     "npm-name" : "fhir.org.nz.ig.base",
     "description" : "Base New Zealand national implementation guide",
     "authority" : "HL7",
-    "product" : ["fhir"],
     "country" : "nz",
     "language" : ["en"],
     "canonical" : "http://fhir.org.nz/ig/base",
     "history" : "https://fhir.org.nz/ig/base/package-list.json",
-    "ci-build" : "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
+    "ci-build" : "http://build.fhir.org/ig/HL7NZ/nzbase",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "Release 3",
-      "ig-version" : "3.0.0",
-      "package" : "fhir.org.nz.ig.base#3.0.0",
+      "name" : "Releases",
+      "ig-version" : "3.1.0",
+      "package" : "fhir.org.nz.ig.base#3.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://fhir.org.nz/ig/base"
-    }],
-    "analysis" : {
-      "error" : "Error fetching package directly (http://fhir.org.nz/ig/base/1.0.0/package.tgz), or fetching package list for fhir.org.nz.ig.base from http://fhir.org.nz/ig/base/package-list.json: Unable to fetch: Invalid HTTP response 404 from https://fhir.org.nz/ig/base/1.0.0/package.tgz (Not Found) (content in /var/folders/85/j9nrkr152ds51j69d7nrxq7r0000gn/T/fhir-http-6.log)"
-    }
+      "url" : "http://fhir.org.nz/ig/base/3.1.0"
+    }]
   },
   {
     "name" : "UZ Core",
@@ -5250,11 +5247,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.4",
-      "ig-version" : "1.2.4",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.4",
+      "name" : "STU1.2.5",
+      "ig-version" : "1.2.5",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.5",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.4"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.5"
     }]
   },
   {
@@ -5450,11 +5447,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-pacio-pfe",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.us.pacio-pfe#2.0.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.us.pacio-pfe#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/pacio-pfe/STU2"
+      "url" : "http://hl7.org/fhir/us/pacio-pfe/3.0.0-202609-ballot"
     }]
   },
   {

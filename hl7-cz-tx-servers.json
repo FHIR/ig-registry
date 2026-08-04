@@ -20,7 +20,10 @@
       "usage" : [
       ],
       "languages" : {
-        "cs" : ["http://standardterms.edqm.eu"]
+        "cs" : [
+          "http://standardterms.edqm.eu",
+          "http://loinc.org*"
+        ]
       },
       "authoritative": [
         "https://hl7.cz/terminology/CodeSystem*",
@@ -34,7 +37,8 @@
       "authoritative-valuesets": [
         "https://hl7.cz/terminology/ValueSet*",
         "https://ncez.mzcr.cz/terminology/ValueSet*",
-        "https://uzis.cz/terminology/ValueSet*"
+        "https://uzis.cz/terminology/ValueSet*",
+        "https://sukl.cz/terminology/ValueSet*"
       ],
       "notes": [
         "The server provides SNOMED CT Czech Republic Edition, subject to SNOMED International licensing conditions.",
