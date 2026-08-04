@@ -10202,5 +10202,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://implementer.digitalhealth.gov.au/fhir/cda-au-schema/current/index.html"
     }]
+  },
+  {
+    "name" : "Testing Incubator",
+    "category" : "Incubator",
+    "npm-name" : "hl7.fhir.uv.testing",
+    "description" : "FHIR R6 Testing Incubator",
+    "authority" : "hl7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/testing/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/testing",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-testing-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Draft",
+      "ig-version" : "0.1.0-snapshot1",
+      "package" : "hl7.fhir.uv.testing#0.1.0-snapshot1",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/testing/0.1.0-snapshot1"
+    }]
   }]
 }
