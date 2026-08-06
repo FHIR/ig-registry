@@ -2651,11 +2651,11 @@
     "language" : ["en"],
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 3",
-      "ig-version" : "3.0.0",
-      "package" : "hl7.fhir.uv.bulkdata#3.0.0",
+      "name" : "STU 4 Ballot",
+      "ig-version" : "4.0.0-ballot",
+      "package" : "hl7.fhir.uv.bulkdata#4.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/bulkdata/STU3"
+      "url" : "http://hl7.org/fhir/uv/bulkdata/4.0.0-202609-ballot"
     }]
   },
   {
