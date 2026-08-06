@@ -37,6 +37,7 @@
       "authoritative-valuesets": [
         "https://hl7.cz/terminology/ValueSet*",
         "https://ncez.mzcr.cz/terminology/ValueSet*",
+        "https://ncez.mzcr.cz/nclp/ValueSet*",
         "https://uzis.cz/terminology/ValueSet*",
         "https://sukl.cz/terminology/ValueSet*"
       ],
