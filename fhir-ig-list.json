@@ -8979,11 +8979,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-omop-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "INFORMATIVE 1 Informative",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.omop#1.0.0",
+      "name" : "STU 1 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.uv.omop#2.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/omop/INFORMATIVE1"
+      "url" : "http://hl7.org/fhir/uv/omop/2.0.0-202609-ballot"
     }]
   },
   {
