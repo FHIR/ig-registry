@@ -78,5 +78,16 @@
       "code" : "canonical",
       "valueString" : "http://hl7.org/fhir/StructureDefinition/TestReport"
     }]
+  },{
+    "code" : "PublicationRecord",
+    "display" : "PublicationRecord",
+    "definition" : "The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/ebm-incubator/en/StructureDefinition-PublicationRecord.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/PublicationRecord"
+    }]
   }]
 }
