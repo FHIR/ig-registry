@@ -9053,11 +9053,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/piqi",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.xprod.uv.piqi#1.0.0-ballot",
+      "name" : "STU 2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.xprod.uv.piqi#2.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/xprod/ig/uv/piqi/2025Sep"
+      "url" : "http://hl7.org/xprod/ig/uv/piqi/2.0.0-202609-ballot"
     }]
   },
   {
