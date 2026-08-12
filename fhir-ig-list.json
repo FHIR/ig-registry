@@ -10219,7 +10219,7 @@
     "npm-name" : "hl7.fhir.us.quality-core",
     "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
     "authority" : "HL7",
-    "country" : "US",
+    "country" : "us",
     "history" : "http://hl7.org/fhir/us/quality-core/history.html",
     "language" : ["en"],
     "canonical" : "http://hl7.org/fhir/us/quality-core",
