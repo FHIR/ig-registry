@@ -4321,18 +4321,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/carin-digital-insurance-card",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.us.insurance-card#1.1.0",
+      "name" : "STU2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.us.insurance-card#2.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/insurance-card/STU1.1"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.us.insurance-card#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/insurance-card/STU1"
+      "url" : "http://hl7.org/fhir/us/insurance-card/2.0.0-202609-ballot"
     }]
   },
   {
