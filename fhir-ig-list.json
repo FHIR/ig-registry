@@ -1229,10 +1229,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 1 Ballot",
-      "ig-version" : "0.3.0",
-      "package" : "hl7.fhir.uv.pocd#0.3.0",
+      "ig-version" : "1.0.0-ballot3",
+      "package" : "hl7.fhir.uv.pocd#1.0.0-ballot3",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/pocd/2021Sep"
+      "url" : "http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3"
     }]
   },
   {
