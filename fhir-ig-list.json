@@ -10232,5 +10232,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://hl7.org/fhir/us/quality-core/1.0.0-202609-ballot"
     }]
+  },
+  {
+    "name" : "HL7 PHR-S FM R2.1 - Patient-Centric Med List and Med Reconciliation Functional Profile, Release 1",
+    "category" : "EHR-S Family",
+    "npm-name" : "hl7.ehrs.us.medlistfp",
+    "description" : "This is the Patient-Centric Med List and Med Reconciliation Functional Profile.",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/ehrs/us/medlistfp/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/ehrs/us/medlistfp",
+    "ci-build" : "http://build.fhir.org/ig/HL7/medlistfp-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.ehrs.us.medlistfp#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/ehrs/us/medlistfp/1.0.0-202609-ballot"
+    }]
   }]
 }
