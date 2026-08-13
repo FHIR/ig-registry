@@ -10252,5 +10252,25 @@
       "fhir-version" : ["5.0.0"],
       "url" : "http://hl7.org/ehrs/us/medlistfp/1.0.0-202609-ballot"
     }]
+  },
+  {
+    "name" : "SQL on FHIR",
+    "category" : "Infrastructure",
+    "npm-name" : "hl7.fhir.uv.sql-on-fhir",
+    "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+    "authority" : "hl7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/sql-on-fhir/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/sql-on-fhir",
+    "ci-build" : "http://build.fhir.org/ig/HL7/sql-on-fhir",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.sql-on-fhir#3.0.0-ballot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/sql-on-fhir/3.0.0-202609-ballot"
+    }]
   }]
 }
