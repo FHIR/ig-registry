@@ -1229,10 +1229,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 1 Ballot",
-      "ig-version" : "0.3.0",
-      "package" : "hl7.fhir.uv.pocd#0.3.0",
+      "ig-version" : "1.0.0-ballot3",
+      "package" : "hl7.fhir.uv.pocd#1.0.0-ballot3",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/pocd/2021Sep"
+      "url" : "http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3"
     }]
   },
   {
@@ -4321,18 +4321,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/carin-digital-insurance-card",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.us.insurance-card#1.1.0",
+      "name" : "STU2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.us.insurance-card#2.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/insurance-card/STU1.1"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.us.insurance-card#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/insurance-card/STU1"
+      "url" : "http://hl7.org/fhir/us/insurance-card/2.0.0-202609-ballot"
     }]
   },
   {
@@ -6966,11 +6959,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/cql-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.uv.cql#2.0.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.cql#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cql/STU2"
+      "url" : "http://hl7.org/fhir/uv/cql/3.0.0-202609-ballot"
     }]
   },
   {
@@ -9060,11 +9053,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/piqi",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.xprod.uv.piqi#1.0.0-ballot",
+      "name" : "STU 2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.xprod.uv.piqi#2.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/xprod/ig/uv/piqi/2025Sep"
+      "url" : "http://hl7.org/xprod/ig/uv/piqi/2.0.0-202609-ballot"
     }]
   },
   {
@@ -10218,6 +10211,66 @@
       "package" : "hl7.fhir.uv.testing#0.1.0-snapshot1",
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/testing/0.1.0-snapshot1"
+    }]
+  },
+  {
+    "name" : "US Quality Core Implementation Guide",
+    "category" : "Quality / CDS",
+    "npm-name" : "hl7.fhir.us.quality-core",
+    "description" : "The US Quality Core Implementation Guide provides guidance for implementing USCDI+ Quality in FHIR.",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/fhir/us/quality-core/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/us/quality-core",
+    "ci-build" : "http://build.fhir.org/ig/HL7/fhir-us-quality-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.us.quality-core#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/quality-core/1.0.0-202609-ballot"
+    }]
+  },
+  {
+    "name" : "HL7 PHR-S FM R2.1 - Patient-Centric Med List and Med Reconciliation Functional Profile, Release 1",
+    "category" : "EHR-S Family",
+    "npm-name" : "hl7.ehrs.us.medlistfp",
+    "description" : "This is the Patient-Centric Med List and Med Reconciliation Functional Profile.",
+    "authority" : "HL7",
+    "country" : "us",
+    "history" : "http://hl7.org/ehrs/us/medlistfp/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/ehrs/us/medlistfp",
+    "ci-build" : "http://build.fhir.org/ig/HL7/medlistfp-ig",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.ehrs.us.medlistfp#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/ehrs/us/medlistfp/1.0.0-202609-ballot"
+    }]
+  },
+  {
+    "name" : "SQL on FHIR",
+    "category" : "Infrastructure",
+    "npm-name" : "hl7.fhir.uv.sql-on-fhir",
+    "description" : "A specification for defining portable views of FHIR data that can be easily queried using tools such as SQL.",
+    "authority" : "hl7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/sql-on-fhir/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/sql-on-fhir",
+    "ci-build" : "http://build.fhir.org/ig/HL7/sql-on-fhir",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.sql-on-fhir#3.0.0-ballot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/sql-on-fhir/3.0.0-202609-ballot"
     }]
   }]
 }
