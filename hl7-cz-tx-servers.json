@@ -22,7 +22,9 @@
       "languages" : {
         "cs" : [
           "http://standardterms.edqm.eu",
-          "http://loinc.org*"
+          "http://loinc.org*",
+          "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0",
+          "http://www.orpha.net*"
         ]
       },
       "authoritative": [
@@ -33,17 +35,20 @@
         "https://sukl.cz/terminology/CodeSystem*",
         "https://uzis.cz/terminology/CodeSystem*"
       ],
-      "exclusions" : ["http://hl7.org/fhir/*"],
+      "exclusions" : [
+      ],
       "authoritative-valuesets": [
         "https://hl7.cz/terminology/ValueSet*",
         "https://ncez.mzcr.cz/terminology/ValueSet*",
         "https://ncez.mzcr.cz/nclp/ValueSet*",
         "https://uzis.cz/terminology/ValueSet*",
-        "https://sukl.cz/terminology/ValueSet*"
+        "https://sukl.cz/terminology/ValueSet*",
+        "http://snomed.info/sct/11000279109*"
       ],
       "notes": [
         "The server provides SNOMED CT Czech Republic Edition, subject to SNOMED International licensing conditions.",
         "The server provides Czech designations for LOINC where available. The LOINC CodeSystem remains authoritative at loinc.org.",
+        "The server provides Czech designations for OrphaCodes",
         "Czech designations may be provided either directly in the CodeSystem resources or through CodeSystem supplements."
       ]
     }
