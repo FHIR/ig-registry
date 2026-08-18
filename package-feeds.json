@@ -565,6 +565,10 @@
     {
       "mask": "de.medizininformatikinitiative.kerndatensatz.base",
       "feeds": ["https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml"]
+    },
+    {
+      "mask": "dvmd.kdl.r4",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     }
   ]
 
