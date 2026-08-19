@@ -99,6 +99,15 @@
     
     "2.16.840.1.113883.2.22.40.1"   : {  "id" : "hl7.fhir.cl.minsal.eis",                         "info" : "Franco Ulloa, 04-Aug 2026"}, 
     "2.16.840.1.113883.2.22.40.2"   : {  "id" : "hl7.fhir.cl.clcore",                             "info" : "Franco Ulloa, 04-Aug 2026"},
-    "2.16.840.1.113883.2.22.40.3"   : {  "id" : "hl7.fhir.cl.minsal.nid",                         "info" : "Franco Ulloa, 04-Aug 2026"} 
+    "2.16.840.1.113883.2.22.40.3"   : {  "id" : "hl7.fhir.cl.minsal.nid",                         "info" : "Franco Ulloa, 04-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.4"   : {  "id" : "hl7.fhir.cl.minsal.tei",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.5"   : {  "id" : "hl7.fhir.cl.minsal.snre",                        "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.6"   : {  "id" : "hl7.fhir.cl.minsal.hpd",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.7"   : {  "id" : "hl7.fhir.cl.minsal.mpi",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.8"   : {  "id" : "hl7.fhir.cl.minsal.r2bo",                        "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.9"   : {  "id" : "hl7.fhir.cl.minsal.quirurgico",                  "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.10"  : {  "id" : "hl7.fhir.cl.minsal.agenda",                      "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.11"  : {  "id" : "hl7.fhir.cl.minsal.mfr",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.12"  : {  "id" : "hl7.fhir.cl.minsal.urgencia",                    "info" : "Jorge Mansilla, 19-Aug 2026"},
   }
 }
