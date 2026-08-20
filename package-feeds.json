@@ -381,7 +381,12 @@
       "name": "Australian Digital Health Agency",
       "url": "https://github.com/AuDigitalHealth/adha-fhir-packages/blob/main/package-feed.xml?raw=true",
       "errors": "help|digitalhealth_gov_au"
-    }
+    },
+	  {
+      "name": "MINSAL CHILE R2BO",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/package-feed.xml",
+      "errors": "Franco_Ulloa|MINSAL_R2BO"
+    } ,
   ],
   "package-restrictions": [
 	{
