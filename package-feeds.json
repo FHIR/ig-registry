@@ -297,6 +297,11 @@
       "errors": "fhir|vadimperetok.in"
     },
     {
+      "name": "DHP Integrations Uzbekistan Packages",
+      "url": "https://raw.githubusercontent.com/uzinfocom-org/digital-health-integration/refs/heads/main/docs/package-feed.xml",
+      "errors": "fhir|vadimperetok.in"
+    },
+    {
       "name": "CSIRO FHIR Implementation Guides",
       "url": "https://starsapi.csiro.au/fhir-ig/package-feed.xml",
       "errors": "stars-support|csiro_au"
@@ -366,6 +371,16 @@
       "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
       "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
       "errors": "nhsn|cdc_gov"
+    },
+    {
+      "name": "Medical Informatics Initiative (MII) Core Data Set Base",
+      "url": "https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml",
+      "errors": "julian_sass|charite_de"
+    },
+    {
+      "name": "Australian Digital Health Agency",
+      "url": "https://github.com/AuDigitalHealth/adha-fhir-packages/blob/main/package-feed.xml?raw=true",
+      "errors": "help|digitalhealth_gov_au"
     }
   ],
   "package-restrictions": [
@@ -500,6 +515,10 @@
       "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
+      "mask": "de.gematik.hddt.terminology",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
+    },
+    {
       "mask": "de.gematik.epa.*",
       "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
     },
@@ -542,6 +561,14 @@
     {
       "mask": "gov.cdc.nhsn.*",
       "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
+    },
+    {
+      "mask": "de.medizininformatikinitiative.kerndatensatz.base",
+      "feeds": ["https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml"]
+    },
+    {
+      "mask": "dvmd.kdl.r4",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     }
   ]
 

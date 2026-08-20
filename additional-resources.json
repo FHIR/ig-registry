@@ -35,8 +35,8 @@
     "description" : "The canonical URL for the definition"
   }],
   "concept" : [{
-    "code" : "TestScript",
-    "display" : "TestScript",
+    "code" : "ViewDefinition",
+    "display" : "ViewDefinition",
     "definition" : "A ViewDefinition represents a tabular projection of a FHIR resource, where the columns and inclusion criteria are defined by FHIRPath expressions.",
     "property" : [{
       "code" : "url",
@@ -45,5 +45,60 @@
       "code" : "canonical",
       "valueString" : "http://hl7.org/fhir/uv/sql-on-fhir/StructureDefinition/ViewDefinition"
     }]
- }]
+  },{
+    "code" : "TestPlan",
+    "display" : "TestPlan",
+    "definition" : "A plan for executing testing on an artifact or specifications",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fhir-testing-ig/en/StructureDefinition-TestPlan.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/TestPlan"
+    }]
+  },{
+    "code" : "TestScript",
+    "display" : "TestScript",
+    "definition" : "A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fhir-testing-ig/en/StructureDefinition-TestScript.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/TestScript"
+    }]
+  },{
+    "code" : "TestReport",
+    "display" : "TestReport",
+    "definition" : "A summary of information based on the results of executing a TestScript.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fhir-testing-ig/en/StructureDefinition-TestReport.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/TestReport"
+    }]
+  },{
+    "code" : "PublicationRecord",
+    "display" : "PublicationRecord",
+    "definition" : "The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/ebm-incubator/en/StructureDefinition-PublicationRecord.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/PublicationRecord"
+    }]
+  },{
+    "code" : "StructureMap",
+    "display" : "PublicationRecord",
+    "definition" : "The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/mapping-language-ig/StructureDefinition-StructureMap.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/StructureMap"
+    }]
+  }]
 }
