@@ -108,6 +108,6 @@
     "2.16.840.1.113883.2.22.40.9"   : {  "id" : "hl7.fhir.cl.minsal.quirurgico",                  "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.10"  : {  "id" : "hl7.fhir.cl.minsal.agenda",                      "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.11"  : {  "id" : "hl7.fhir.cl.minsal.mfr",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
-    "2.16.840.1.113883.2.22.40.12"  : {  "id" : "hl7.fhir.cl.minsal.urgencia",                    "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.12"  : {  "id" : "hl7.fhir.cl.minsal.urgencia",                    "info" : "Jorge Mansilla, 19-Aug 2026"}
   }
 }
