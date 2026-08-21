@@ -10284,5 +10284,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://hl7.cz/fhir/lab/1.0.0"
     }]
+  },
+  {
+    "name" : "HL7 Belgium FHIR Implementation Guide - childreport profiles",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.childreport",
+    "description" : null,
+    "authority" : "??",
+    "country" : "??",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/childreport/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/childreport",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/childrecord",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.2",
+      "package" : "hl7.fhir.be.childreport#1.0.2",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/childreport/1.0.2"
+    }]
   }]
 }
