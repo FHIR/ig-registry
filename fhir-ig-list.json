@@ -4951,18 +4951,18 @@
     "npm-name" : "hl7.fhir.be.drp",
     "description" : "HL7 Belgium FHIR Implementation Guide - Digital Referral Prescription profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/drp/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/drp",
-    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral/branches/earlyadopter",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "Trial Use Test",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.drp#1.0.0",
+      "name" : "Trial Use",
+      "ig-version" : "1.1.0",
+      "package" : "hl7.fhir.be.drp#1.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.1.0"
     }]
   },
   {
