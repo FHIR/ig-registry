@@ -5100,39 +5100,18 @@
     "npm-name" : "hl7.fhir.be.allergy",
     "description" : "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/allergy/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/allergy",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/allergy",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.allergy#1.0.0",
+      "ig-version" : "1.2.1",
+      "package" : "hl7.fhir.be.allergy#1.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.allergy#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.be.allergy#1.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.be.allergy#1.2.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.1"
     }]
   },
   {
