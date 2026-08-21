@@ -8478,11 +8478,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/us-cql-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.us.cql#2.0.0-ballot",
+      "name" : "Informative 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.cql#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/cql/2026May"
+      "url" : "http://hl7.org/fhir/us/cql/2.0.0"
     }]
   },
   {
