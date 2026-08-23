@@ -10305,5 +10305,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://hl7.cz/fhir/lab/1.0.0"
     }]
+  },
+  {
+    "name" : "2022 CDC Clinical Practice Guideline for Prescribing Opioids Implementation Guide",
+    "category" : "Quality/CDS",
+    "npm-name" : "fhir.cdc.opioid-cds",
+    "description" : null,
+    "authority" : "??",
+    "country" : "??",
+    "history" : "http://fhir.org/guides/cdc/opioid-cds/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.org/guides/cdc/opioid-cds",
+    "ci-build" : "http://build.fhir.org/ig/security-rs/opioid-cds-r4",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "2022",
+      "ig-version" : "2022.1.1",
+      "package" : "fhir.cdc.opioid-cds#2022.1.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+    }]
   }]
 }
