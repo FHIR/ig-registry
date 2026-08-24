@@ -10326,4 +10326,24 @@
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
     }]
   }]
+},
+{
+  "name": "iCoverU Cancer Insurance Implementation Guide",
+  "category": "Financial",
+  "npm-name": "fhir.icoveru.cancer",
+  "description": "A FHIR R4 Implementation Guide for cancer-related commercial insurance claim estimation in Taiwan. It defines profiles, extensions, terminology, and examples for representing patients, insurance coverage, cancer diagnoses, clinical evidence, claims, coverage eligibility, and estimated insurance benefit calculations.",
+  "authority": "iCoverU",
+  "product": ["fhir"],
+  "country": "tw",
+  "language": ["zh"],
+  "canonical": "https://cfhir.icoveru.com.tw",
+  "editions": [{
+    "name": "Release 1",
+    "ig-version": "0.1.0",
+    "package": "fhir.icoveru.cancer#0.1.0",
+    "fhir-version": ["4.0.1"],
+    "url": "https://cfhir.icoveru.com.tw/0.1.0/"
+    }]
+  }
+ ]
 }
