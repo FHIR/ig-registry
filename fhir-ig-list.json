@@ -10325,7 +10325,6 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
     }]
-  }]
 },
 {
   "name": "iCoverU Cancer Insurance Implementation Guide",
