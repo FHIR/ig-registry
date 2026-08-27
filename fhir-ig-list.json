@@ -10344,7 +10344,7 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
     }]
-  },
+  }
     ]
   }]
 }
