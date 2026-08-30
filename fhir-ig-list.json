@@ -10343,6 +10343,27 @@
       "package" : "fhir.cdc.opioid-cds#2022.1.1",
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+    },
+    {
+    "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
+    "category" : "Laboratory Report",
+    "npm-name" : "hl7.fhir.cl.minsal.r2bo",
+    "description" : "Está guía de implementación representa un repositorio de notificaciones de todas las biopsias que terminen en casos oncológicos",
+    "authority" : "Ministerio de Salud de Chile",
+    "country" : "cl",
+    "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
+    "language" : ["es", "en"],
+    "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+    "ci-build" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1",
+      "ig-version" : "0.3.0-draft",
+      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.0-draft",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
     }]
+  }
+    ]
   }]
 }
