@@ -81,6 +81,12 @@
       "name": "HL7 New Zealand / New Zealand Health Terminology Service",
       "authority": "Published by Health New Zealand / HL7 New Zealand",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-nz-tx-servers.json"
+    },
+    {
+      "code": "tw-caty",
+      "name": "Taiwan KYHealth CATY Terminology Serve",
+      "authority": "Published by Taiwan KYHealth",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/tw-caty-tx-servers.json"
     }
   ]
 }

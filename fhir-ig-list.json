@@ -4951,18 +4951,18 @@
     "npm-name" : "hl7.fhir.be.drp",
     "description" : "HL7 Belgium FHIR Implementation Guide - Digital Referral Prescription profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/drp/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/drp",
-    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral/branches/earlyadopter",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "Trial Use Test",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.drp#1.0.0",
+      "name" : "Trial Use",
+      "ig-version" : "1.1.1",
+      "package" : "hl7.fhir.be.drp#1.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.1.1"
     }]
   },
   {
@@ -4999,10 +4999,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.be.core-clinical#1.2.0",
+      "ig-version" : "1.3.0",
+      "package" : "hl7.fhir.be.core-clinical#1.3.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.3.0"
     }]
   },
   {
@@ -5100,39 +5100,18 @@
     "npm-name" : "hl7.fhir.be.allergy",
     "description" : "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/allergy/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/allergy",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/allergy",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.allergy#1.0.0",
+      "ig-version" : "1.2.1",
+      "package" : "hl7.fhir.be.allergy#1.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.allergy#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.be.allergy#1.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.be.allergy#1.2.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.1"
     }]
   },
   {
@@ -9046,11 +9025,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/piqi",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.xprod.uv.piqi#2.0.0-ballot",
+      "name" : "Informative 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.xprod.uv.piqi#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/xprod/ig/uv/piqi/2.0.0-202609-ballot"
+      "url" : "http://hl7.org/xprod/ig/uv/piqi/1.0.0"
     }]
   },
   {
@@ -10307,6 +10286,46 @@
     }]
   },
   {
+    "name" : "HL7 Belgium FHIR Implementation Guide - childreport profiles",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.childreport",
+    "description" : "HL7 Belgium FHIR Implementation Guide - childreport profiles",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/childreport/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/childreport",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/childrecord",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.2",
+      "package" : "hl7.fhir.be.childreport#1.0.2",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/childreport/1.0.2"
+    }]
+  },
+  {
+    "name" : "eHealth FHIR Pregnancy Status Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.pregnancy-status",
+    "description" : "eHealth FHIR Pregnancy Status Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/pregnancy-status",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.pregnancy-status#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status/1.0.0"
+    }]
+  },
+  {
     "name" : "CDC Guideline for Prescribing Opioids",
     "description" : "2022 CDC Clinical Practice Guideline for Prescribing Opioids Implementation Guide",
     "category" : "Quality/CDS",
@@ -10324,6 +10343,46 @@
       "package" : "fhir.cdc.opioid-cds#2022.1.1",
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+    },
+    {
+    "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
+    "category" : "Laboratory Report",
+    "npm-name" : "hl7.fhir.cl.minsal.r2bo",
+    "description" : "Está guía de implementación representa un repositorio de notificaciones de todas las biopsias que terminen en casos oncológicos",
+    "authority" : "Ministerio de Salud de Chile",
+    "country" : "cl",
+    "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
+    "language" : ["es", "en"],
+    "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+    "ci-build" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1",
+      "ig-version" : "0.3.0-draft",
+      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.0-draft",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
     }]
+  },
+  {
+    "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.referral",
+    "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.referral#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+    }]
+  }]
   }]
 }
