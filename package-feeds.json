@@ -386,7 +386,7 @@
       "name": "MINSAL CHILE R2BO",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/package-feed.xml",
       "errors": "Franco_Ulloa|MINSAL_R2BO"
-    } ,
+    }
   ],
   "package-restrictions": [
 	{
