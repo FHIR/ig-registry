@@ -4959,10 +4959,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.be.drp#1.1.0",
+      "ig-version" : "1.1.1",
+      "package" : "hl7.fhir.be.drp#1.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.1.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.1.1"
     }]
   },
   {
@@ -10363,7 +10363,26 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
     }]
-  }
-    ]
+  },
+  {
+    "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.referral",
+    "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.referral#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+    }]
+  }]
   }]
 }
