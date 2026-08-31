@@ -10344,5 +10344,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
     }]
+  },
+  {
+    "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.referral",
+    "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.referral#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+    }]
   }]
 }
