@@ -10345,44 +10345,64 @@
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
     },
     {
-    "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
-    "category" : "Laboratory Report",
-    "npm-name" : "hl7.fhir.cl.minsal.r2bo",
-    "description" : "Está guía de implementación representa un repositorio de notificaciones de todas las biopsias que terminen en casos oncológicos",
-    "authority" : "Ministerio de Salud de Chile",
-    "country" : "cl",
-    "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
-    "language" : ["es", "en"],
-    "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
-    "ci-build" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
-    "product" : ["fhir"],
-    "editions" : [{
-      "name" : "STU 1",
-      "ig-version" : "0.3.0-draft",
-      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.0-draft",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
+      "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
+      "category" : "Laboratory Report",
+      "npm-name" : "hl7.fhir.cl.minsal.r2bo",
+      "description" : "Está guía de implementación representa un repositorio de notificaciones de todas las biopsias que terminen en casos oncológicos",
+      "authority" : "Ministerio de Salud de Chile",
+      "country" : "cl",
+      "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
+      "language" : ["es", "en"],
+      "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+      "ci-build" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+      "product" : ["fhir"],
+      "editions" : [{
+        "name" : "STU 1",
+        "ig-version" : "0.3.0-draft",
+        "package" : "hl7.fhir.cl.minsal.r2bo#0.3.0-draft",
+        "fhir-version" : ["4.0.1"],
+        "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
+      }]
+    },
+    {
+      "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.be.referral",
+      "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+      "authority" : "eHealth Platform (BE)",
+      "country" : "be",
+      "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+      "language" : ["en"],
+      "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
+      "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+      "product" : ["fhir"],
+      "editions" : [{
+        "name" : "Trial Use",
+        "ig-version" : "1.0.0",
+        "package" : "hl7.fhir.be.referral#1.0.0",
+        "fhir-version" : ["4.0.1"],
+        "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+      }]
     }]
   },
   {
-    "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
-    "category" : "National Base",
-    "npm-name" : "hl7.fhir.be.referral",
-    "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
-    "authority" : "eHealth Platform (BE)",
-    "country" : "be",
-    "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+    "name" : "Austrian Appointment Scheduling (R5)",
+    "category" : "Booking Service",
+    "npm-name" : "hl7.at.fhir.tc.wg.scheduling.r5",
+    "description" : "The Austrian Appointment Scheduling Implementation Guide (IG) defines a standardized, FHIR®-based approach for online appointment booking across the Austrian healthcare system.",
+    "authority" : "HL7 Austria",
+    "country" : "at",
+    "history" : "https://fhir.hl7.at/tc/wg/scheduling/r5/history.html",
     "language" : ["en"],
-    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
-    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "canonical" : "https://fhir.hl7.at/tc/wg/scheduling/r5",
+    "ci-build" : "http://build.fhir.org/ig/HL7Austria/TC-FHIR-AG-Scheduling-R5",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Trial Use",
+      "name" : "Informative",
       "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.referral#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+      "package" : "hl7.at.fhir.tc.wg.scheduling.r5#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://fhir.hl7.at/tc/wg/scheduling/r5/1.0.0"
     }]
-  }]
   }]
 }
