@@ -1,0 +1,24 @@
+{
+  "formatVersion": "1",
+  "description": "HL7 Germany list of published terminology servers",
+  "servers": [
+    {
+      "code": "hl7-de",
+      "name": "HL7 Germany Terminology Server",
+      "access_info": "open",
+      "url": "https://tx.fhir.de/fhir",
+      "authoritative": [
+        "http://snomed.info/sct|http://snomed.info/sct/11000274103*"
+      ],
+      "authoritative-valuesets": [
+        "http://snomed.info/sct/11000274103*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://tx.fhir.de/fhir"
+        }
+      ]
+    }
+  ]
+}

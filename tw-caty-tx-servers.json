@@ -1,0 +1,17 @@
+{
+  "formatVersion": "1",
+  "description": "Taiwan KYHealth published terminology servers",
+  "servers": [
+    {
+      "code": "tw-caty",
+      "name": "Taiwan CATY Terminology Server",
+      "url": "https://ts.caty.hdata.tw",
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://ts.caty.hdata.tw"
+        }
+      ]
+    }
+  ]
+}
