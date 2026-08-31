@@ -10391,7 +10391,7 @@
     "npm-name" : "hl7.at.fhir.tc.wg.scheduling.r5",
     "description" : "The Austrian Appointment Scheduling Implementation Guide (IG) defines a standardized, FHIR®-based approach for online appointment booking across the Austrian healthcare system.",
     "authority" : "HL7 Austria",
-    "country" : "AT",
+    "country" : "at",
     "history" : "https://fhir.hl7.at/tc/wg/scheduling/r5/history.html",
     "language" : ["en"],
     "canonical" : "https://fhir.hl7.at/tc/wg/scheduling/r5",
