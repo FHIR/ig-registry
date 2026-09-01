@@ -5200,6 +5200,26 @@
     }]
   },
   {
+    "name" : "TWNHIBASE",
+    "category" : "TWNHI Base",
+    "npm-name" : "tw.gov.mohw.nhi.base",
+    "description" : "Taiwan NHI Base Implementation Guide",
+    "authority" : "NHIA (TW)",
+    "product" : ["fhir"],
+    "country" : "tw",
+    "history" : "https://nhicore.nhi.gov.tw/base/history.html",
+    "language" : ["zh-TW"],
+    "canonical" : "https://nhicore.nhi.gov.tw/base",
+    "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/base",
+    "editions" : [{
+      "name" : "STU1.0.0",
+      "ig-version" : "1.0.0",
+      "package" : "tw.gov.mohw.nhi.base#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://nhicore.nhi.gov.tw/base/1.0.0"
+    }]
+  },
+  {
     "name" : "TWPAS",
     "category" : "Financial",
     "npm-name" : "tw.gov.mohw.nhi.pas",
@@ -5212,11 +5232,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.5",
-      "ig-version" : "1.2.5",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.5",
+      "name" : "STU1.2.6",
+      "ig-version" : "1.2.6",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.6",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.5"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.6"
     }]
   },
   {
