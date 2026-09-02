@@ -10341,7 +10341,7 @@
     "ig-version": "0.1.0",
     "package": "fhir.icoveru.cancer#0.1.0",
     "fhir-version": ["4.0.1"],
-    "url": "https://cfhir.icoveru.com.tw/0.1.0/"
+    "url": "https://cfhir.icoveru.com.tw/0.1.0"
     }]
   }
  ]
