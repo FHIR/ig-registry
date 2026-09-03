@@ -7601,9 +7601,9 @@
     "editions" : [{
       "name" : "Releases",
       "ig-version" : "1.7.1",
-      "package" : "smart.who.int.trust#1.7.1",
+      "package" : "smart.who.int.trust#1.7.2",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://smart.who.int/trust/v1.7.1"
+      "url" : "http://smart.who.int/trust/v1.7.2"
     }]
   },
   {
