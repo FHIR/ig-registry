@@ -7499,11 +7499,11 @@
     "ci-build" : "http://worldhealthorganization.github.io/smart-base",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Releases Draft",
-      "ig-version" : "0.2.0",
-      "package" : "smart.who.int.base#0.2.0",
+      "name" : "Releases",
+      "ig-version" : "1.0.0",
+      "package" : "smart.who.int.base#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://smart.who.int/base/0.2.0"
+      "url" : "http://smart.who.int/base/1.0.0"
     }]
   },
   {
@@ -7562,7 +7562,7 @@
       "ig-version" : "0.1.0",
       "package" : "smart.who.int.trust-phw#0.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://smart.who.int/trust-phw/0.1.0"
+      "url" : "http://smart.who.int/trust-phw/v0.1.0"
     }],
     "product" : ["fhir"]
   },
@@ -7600,10 +7600,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Releases",
-      "ig-version" : "1.6.0",
-      "package" : "smart.who.int.trust#1.6.0",
+      "ig-version" : "1.7.1",
+      "package" : "smart.who.int.trust#1.7.1",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://smart.who.int/trust/v1.6.0"
+      "url" : "http://smart.who.int/trust/v1.7.1"
     }]
   },
   {
