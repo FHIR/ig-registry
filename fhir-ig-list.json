@@ -10461,5 +10461,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://cfhir.icoveru.com.tw/0.1.0"
     }]
+  },
+  {
+    "name" : "Manifest-based Access to DICOM Objects (MADO)",
+    "category" : "Imaging",
+    "npm-name" : "ihe.rad.mado",
+    "description" : "Enables access to DICOM objects through a manifest-based approach, allowing clients to retrieve and manage medical imaging data efficiently.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/RAD/MADO/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/RAD/MADO",
+    "ci-build" : "http://build.fhir.org/ig/IHE/RAD.MADO",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication",
+      "ig-version" : "1.0.0",
+      "package" : "ihe.rad.mado#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/RAD/MADO/1.0.0"
+    }]
   }]
 }
