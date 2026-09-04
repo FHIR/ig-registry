@@ -10458,7 +10458,7 @@
     "editions" : [{
       "name" : "Publication",
       "ig-version" : "1.0.0",
-      "package" : "ihe.rad.mado#1.0.1",
+      "package" : "ihe.rad.mado#1.0.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://profiles.ihe.net/RAD/MADO/1.0.0"
     }]
