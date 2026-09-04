@@ -10374,7 +10374,7 @@
       "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
       "language" : ["es", "en"],
       "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
-      "ci-build" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+      "ci-build" : "https://build.fhir.org/ig/Minsal-CL/R2BO",
       "product" : ["fhir"],
       "editions" : [{
         "name" : "STU 1",
@@ -10426,21 +10426,24 @@
     }]
   },
   {
-    "name" : "iCoverU Cancer Insurance Implementation Guide",
-    "category" : "Financial",
-    "npm-name" : "fhir.icoveru.cancer",
-    "description" : "A FHIR R4 Implementation Guide for cancer-related commercial insurance claim estimation in Taiwan. It defines profiles, extensions, terminology, and examples for representing patients, insurance coverage, cancer diagnoses, clinical evidence, claims, coverage eligibility, and estimated insurance benefit calculations.",
-    "authority" : "iCoverU",
-    "product" : ["fhir"],
-    "country" : "tw",
-    "language" : ["zh"],
-    "canonical" : "https://cfhir.icoveru.com.tw",
-    "editions" : [{
-      "name" : "Release 1",
-      "ig-version" : "0.1.0",
-      "package" : "fhir.icoveru.cancer#0.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://cfhir.icoveru.com.tw/0.1.0"
-    }]
-  }]
+      "name" : "Guía de Estandares de Informacionde Salud",
+      "category" : "National Base",
+      "npm-name" : "hl7.fhir.cl.minsal.eis",
+      "description" : "Esta Guía de Estandares de Informacionde Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHI",
+      "authority" : "Ministerio de Salud de Chile",
+      "country" : "cl",
+      "history" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/history.html",
+      "language" : ["es"],
+      "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/eis",
+      "ci-build" : "https://build.fhir.org/ig/Minsal-CL/eis/",
+      "product" : ["fhir"],
+      "editions" : [{
+        "name" : "STU1",
+        "ig-version" : "0.2.0",
+        "package" : "hl7.fhir.cl.minsal.eiso#0.2.0",
+        "fhir-version" : ["4.0.1"],
+        "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/0.2.0"
+      }]
+    }
+  ]
 }
