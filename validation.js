@@ -10,10 +10,21 @@ const MAX_LENGTHS = {
 const VALID_COUNTRIES = [
   'uv', 'eu', 'us', 'at', 'au', 'be', 'br', 'ca', 'ch', 'de', 'dk', 'pl',
   'fi', 'fr', 'gb', 'in', 'it', 'jp', 'kr', 'nl', 'no', 'nz', 'se', 'tw', 'es', 'bd',
-  'cr', 'uz', 'cz'
+  'cr', 'uz', 'cz', 'cl'
 ];
 
 const VALID_PRODUCTS = ['fhir', 'cda', 'v2', 'openehr'];
+
+// Fields every edition must carry. An entry missing these is almost always not
+// an edition at all - see GUIDE_ONLY_FIELDS below.
+const EDITION_REQUIRED_FIELDS = ['name', 'ig-version', 'package', 'fhir-version', 'url'];
+
+// Fields that only ever appear on a guide, never on an edition. GitHub merges of
+// concurrent PRs routinely drop a whole new guide *inside* the previous guide's
+// "editions" array (the array is never closed), which still parses as valid JSON
+// but breaks every consumer that reads edition['fhir-version']. Seeing any of
+// these keys on an edition is the signature of that merge error.
+const GUIDE_ONLY_FIELDS = ['npm-name', 'editions', 'canonical', 'authority', 'category', 'country', 'ci-build'];
 
 class ValidationError extends Error {
   constructor(message, file = null, guide = null) {
@@ -119,6 +130,80 @@ class Validator {
     }
   }
 
+  // Validate a single edition. Catches the common GitHub merge error where a
+  // whole guide has been nested inside another guide's "editions" array.
+  validateEdition(edition, editionIndex, guideName) {
+    const where = `editions[${editionIndex}]`;
+
+    if (typeof edition !== 'object' || edition === null || Array.isArray(edition)) {
+      this.addError(
+        `${where} must be an object`,
+        'fhir-ig-list.json',
+        guideName
+      );
+      return false;
+    }
+
+    // Merge-error detection: a nested guide masquerading as an edition
+    const guideKeys = GUIDE_ONLY_FIELDS.filter(field => edition[field] !== undefined);
+    if (guideKeys.length > 0) {
+      const nestedName = edition['npm-name'] || edition.name || '(unnamed)';
+      this.addError(
+        `${where} looks like a GUIDE nested inside the "editions" array, not an edition ` +
+        `(it has guide-only field(s): ${guideKeys.join(', ')}). This is the classic GitHub ` +
+        `merge error where the previous guide's "editions" array was never closed. ` +
+        `Move "${nestedName}" out to the top level of "guides".`,
+        'fhir-ig-list.json',
+        guideName
+      );
+      return false;
+    }
+
+    let ok = true;
+
+    EDITION_REQUIRED_FIELDS.forEach(field => {
+      if (edition[field] === undefined) {
+        this.addError(
+          `${where} is missing required field: ${field}`,
+          'fhir-ig-list.json',
+          guideName
+        );
+        ok = false;
+      } else {
+        this.validateNotPlaceholder(edition[field], `${where}.${field}`, guideName);
+      }
+    });
+
+    // fhir-version must be a non-empty array of strings - consumers read .length on it
+    if (edition['fhir-version'] !== undefined) {
+      const versions = edition['fhir-version'];
+      if (!Array.isArray(versions)) {
+        this.addError(
+          `${where}.fhir-version must be an array (found ${typeof versions})`,
+          'fhir-ig-list.json',
+          guideName
+        );
+        ok = false;
+      } else if (versions.length === 0) {
+        this.addError(
+          `${where}.fhir-version must not be empty`,
+          'fhir-ig-list.json',
+          guideName
+        );
+        ok = false;
+      } else if (!versions.every(v => typeof v === 'string')) {
+        this.addError(
+          `${where}.fhir-version must contain only strings`,
+          'fhir-ig-list.json',
+          guideName
+        );
+        ok = false;
+      }
+    }
+
+    return ok;
+  }
+
   // Validate fhir-ig-list.json
   validateFhirIgList(data) {
     if (!data || !data.guides || !Array.isArray(data.guides)) {
@@ -132,6 +217,11 @@ class Validator {
     const npmNames = [];
     
     data.guides.forEach((guide, index) => {
+      if (typeof guide !== 'object' || guide === null || Array.isArray(guide)) {
+        this.addError(`guides[${index}] must be an object`, 'fhir-ig-list.json');
+        return;
+      }
+
       const guideName = guide.name || `Guide #${index + 1}`;
 
       // Check required fields
@@ -206,10 +296,35 @@ class Validator {
       });
 
       // Validate editions
+      if (guide.editions === undefined) {
+        this.addError(
+          `Missing required field: editions - every guide must list at least one published edition`,
+          'fhir-ig-list.json',
+          guideName
+        );
+      } else if (!Array.isArray(guide.editions)) {
+        this.addError(
+          `"editions" must be an array`,
+          'fhir-ig-list.json',
+          guideName
+        );
+      } else if (guide.editions.length === 0) {
+        this.addError(
+          `"editions" must not be empty - every guide must list at least one published edition`,
+          'fhir-ig-list.json',
+          guideName
+        );
+      }
+
       if (guide.editions && Array.isArray(guide.editions)) {
         const igVersions = [];
         
         guide.editions.forEach((edition, editionIndex) => {
+          // Structural checks first - this catches nested-guide merge errors
+          if (!this.validateEdition(edition, editionIndex, guideName)) {
+            return;
+          }
+
           // Collect ig-versions for uniqueness check
           if (edition['ig-version']) {
             igVersions.push(edition['ig-version']);
