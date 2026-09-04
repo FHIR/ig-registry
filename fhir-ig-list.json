@@ -355,7 +355,12 @@
     "history" : "http://fhir.org/guides/hspc/core/history.html",
     "canonical" : "http://fhir.org/guides/hspc/core",
     "ci-build" : "http://build.fhir.org/ig/hspc/core",
-    "editions" : [],
+    "editions" : [{
+      "name" : "First Release",
+      "ig-version" : "0.1.0",
+      "package" : "fhir.hspc.core#0.1.0",
+      "fhir-version" : ["1.9.0"],
+      "url" : "https://fhir.org/guides/hspc/core/0.1.0"}],
     "analysis" : {
     }
   },
