@@ -10386,12 +10386,12 @@
     }]
   },
   {
-    "name" : "VGR Base Profiles Implementation Guide",
+    "name" : "VGR Base Profiles Implementation Guide R4",
     "category" : "Regional Base",
     "npm-name" : "se.vgregion.fhir.base",
     "description" : "Region Västra Götaland's Base Profiles Implementation Guide",
     "authority" : "Region Västra Götaland",
-    "country" : "SE",
+    "country" : "se",
     "history" : "https://fhir.vgregion.se/ig/base/history.html",
     "language" : ["en"],
     "canonical" : "https://fhir.vgregion.se/ig/base",
