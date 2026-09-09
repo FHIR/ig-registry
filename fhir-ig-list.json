@@ -10417,11 +10417,11 @@
       "ci-build" : "https://build.fhir.org/ig/Minsal-CL/R2BO",
       "product" : ["fhir"],
       "editions" : [{
-        "name" : "STU 1",
-        "ig-version" : "0.3.0-draft",
-        "package" : "hl7.fhir.cl.minsal.r2bo#0.3.0-draft",
+        "name" : "STU1 Draft",
+        "ig-version" : "0.3.1-draft",
+        "package" : "hl7.fhir.cl.minsal.r2bo#0.3.1-draft",
         "fhir-version" : ["4.0.1"],
-        "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft"
+        "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.1-draft"
       }]
     },
     {
