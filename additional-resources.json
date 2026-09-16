@@ -90,6 +90,17 @@
       "valueString" : "http://hl7.org/fhir/StructureDefinition/PublicationRecord"
     }]
   },{
+    "code" : "GraphDefinition",
+    "display" : "GraphDefinition",
+    "definition" : "A formal computable definition of a graph of resources - that is, a coherent set of resources that form a graph by following references. The Graph Definition resource defines a set and makes rules about the set.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/api-incubator-ig/StructureDefinition-GraphDefinition.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition"
+    }]
+  },{
     "code" : "StructureMap",
     "display" : "PublicationRecord",
     "definition" : "The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
