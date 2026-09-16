@@ -111,5 +111,291 @@
       "code" : "canonical",
       "valueString" : "http://hl7.org/fhir/StructureDefinition/StructureMap"
     }]
+  },{
+    "code" : "BiologicallyDerivedProductDispense",
+    "display" : "BiologicallyDerivedProductDispense",
+    "definition" : "A record of dispensation of a biologically derived product.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-BiologicallyDerivedProductDispense.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProductDispense"
+    }]
+  },{
+    "code" : "ChargeItem",
+    "display" : "ChargeItem",
+    "definition" : "The resource ChargeItem describes the provision of healthcare provider products for a certain patient, therefore referring not only to the product, but containing in addition details of the provision, like date, time, amounts and participating organizations and persons. Main Usage of the ChargeItem is to enable the billing process and internal cost allocation.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-ChargeItem.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ChargeItem"
+    }]
+  },{
+    "code" : "ChargeItemDefinition",
+    "display" : "ChargeItemDefinition",
+    "definition" : "The ChargeItemDefinition resource provides the properties that apply to the (billing) codes necessary to calculate costs and prices. The properties may differ largely depending on type and realm, therefore this resource gives only a rough structure and requires profiling for each type of billing code system.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-ChargeItemDefinition.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition"
+    }]
+  },{
+    "code" : "ClinicalAssessment",
+    "display" : "ClinicalAssessment",
+    "definition" : "A record of a clinical assessment performed to determine what problem(s) may affect the patient and before planning the treatments or management strategies that are best to manage a patient's condition. Assessments are often 1:1 with a clinical consultation / encounter,  but this varies greatly depending on the clinical workflow.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/pc-incubator/StructureDefinition-ClinicalAssessment.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ClinicalAssessment"
+    }]
+  },{
+    "code" : "ConditionDefinition",
+    "display" : "ConditionDefinition",
+    "definition" : "A definition of a condition and information relevant to managing it.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/pc-incubator/StructureDefinition-ConditionDefinition.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ConditionDefinition"
+    }]
+  },{
+    "code" : "DeviceDispense",
+    "display" : "DeviceDispense",
+    "definition" : "Indicates that a device is to be or has been dispensed for a named person/patient.  This includes a description of the product (supply) provided and the instructions for using the device.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-DeviceDispense.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/DeviceDispense"
+    }]
+  },{
+    "code" : "DeviceUsage",
+    "display" : "DeviceUsage",
+    "definition" : "A record of a device being used by a patient where the record is the result of a report from the patient or a clinician.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-DeviceUsage.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/DeviceUsage"
+    }]
+  },{
+    "code" : "EncounterHistory",
+    "display" : "EncounterHistory",
+    "definition" : "A record of significant events/milestones key data throughout the history of an Encounter",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-EncounterHistory.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/EncounterHistory"
+    }]
+  },{
+    "code" : "EnrollmentRequest",
+    "display" : "EnrollmentRequest",
+    "definition" : "This resource provides the insurance enrollment details to the insurer regarding a specified coverage.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fm-incubator/StructureDefinition-EnrollmentRequest.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest"
+    }]
+  },{
+    "code" : "EnrollmentResponse",
+    "display" : "EnrollmentResponse",
+    "definition" : "This resource provides enrollment and plan details from the processing of an EnrollmentRequest resource.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fm-incubator/StructureDefinition-EnrollmentResponse.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/EnrollmentResponse"
+    }]
+  },{
+    "code" : "FormularyItem",
+    "display" : "FormularyItem",
+    "definition" : "This resource describes a product or service that is available through a program and includes the conditions and constraints of availability.  All of the information in this resource is specific to the inclusion of the item in the formulary and is not inherent to the item itself.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/phx-incubator/StructureDefinition-FormularyItem.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/FormularyItem"
+    }]
+  },{
+    "code" : "GenomicStudy",
+    "display" : "GenomicStudy",
+    "definition" : "A set of analyses performed to analyze and generate genomic data.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/cg-incubator/en/StructureDefinition-GenomicStudy.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/GenomicStudy"
+    }]
+  },{
+    "code" : "ImmunizationEvaluation",
+    "display" : "ImmunizationEvaluation",
+    "definition" : "Describes a comparison of an immunization event against published recommendations to determine if the administration is \"valid\" in relation to those  recommendations.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/immunization-incubator/en/StructureDefinition-ImmunizationEvaluation.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation"
+    }]
+  },{
+    "code" : "ImmunizationRecommendation",
+    "display" : "ImmunizationRecommendation",
+    "definition" : "A patient's point-in-time set of recommendations (i.e. forecasting) according to a published schedule with optional supporting justification.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/immunization-incubator/en/StructureDefinition-ImmunizationRecommendation.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"
+    }]
+  },{
+    "code" : "InsurancePlan",
+    "display" : "InsurancePlan",
+    "definition" : "Details of a Health Insurance plan provided by an organization under an InsuranceProduct.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-InsurancePlan.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/InsurancePlan"
+    }]
+  },{
+    "code" : "InsuranceProduct",
+    "display" : "InsuranceProduct",
+    "definition" : "Details of a Health Insurance product provided by an organization.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-InsuranceProduct.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/InsuranceProduct"
+    }]
+  },{
+    "code" : "InventoryItem",
+    "display" : "InventoryItem",
+    "definition" : "functional description of an inventory item used in inventory and supply-related workflows.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-InventoryItem.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/InventoryItem"
+    }]
+  },{
+    "code" : "InventoryReport",
+    "display" : "InventoryReport",
+    "definition" : "A report of inventory or stock items.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-InventoryReport.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/InventoryReport"
+    }]
+  },{
+    "code" : "Invoice",
+    "display" : "Invoice",
+    "definition" : "Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/fm-incubator/StructureDefinition-Invoice.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/Invoice"
+    }]
+  },{
+    "code" : "Linkage",
+    "display" : "Linkage",
+    "definition" : "Identifies two or more records (resource instances) that refer to the same real-world \"occurrence\".",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/pc-incubator/StructureDefinition-Linkage.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/Linkage"
+    }]
+  },{
+    "code" : "MolecularDefinition",
+    "display" : "MolecularDefinition",
+    "definition" : "Definitional content for a molecular entity, such as a nucleotide or protein sequence.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/cg-incubator/en/StructureDefinition-MolecularDefinition.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/MolecularDefinition"
+    }]
+  },{
+    "code" : "PersonalRelationship",
+    "display" : "PersonalRelationship",
+    "definition" : "Details about the relationship between 2 individuals.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-PersonalRelationship.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/PersonalRelationship"
+    }]
+  },{
+    "code" : "SupplyDelivery",
+    "display" : "SupplyDelivery",
+    "definition" : "Record of delivery of what is supplied.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-SupplyDelivery.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery"
+    }]
+  },{
+    "code" : "SupplyRequest",
+    "display" : "SupplyRequest",
+    "definition" : "A record of a non-patient specific request for a medication, substance, device, certain types of biologically derived product, and nutrition product used in the healthcare setting.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-SupplyRequest.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/SupplyRequest"
+    }]
+  },{
+    "code" : "Transport",
+    "display" : "Transport",
+    "definition" : "Record of transport.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/oo-incubator/en/StructureDefinition-Transport.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/Transport"
+    }]
+  },{
+    "code" : "VerificationResult",
+    "display" : "VerificationResult",
+    "definition" : "Describes validation requirements, source(s), status and dates for one or more elements.",
+    "property" : [{
+      "code" : "url",
+      "valueString" : "https://build.fhir.org/ig/HL7/admin-incubator/en/StructureDefinition-VerificationResult.html"
+    },{
+      "code" : "canonical",
+      "valueString" : "http://hl7.org/fhir/StructureDefinition/VerificationResult"
+    }]
   }]
 }
