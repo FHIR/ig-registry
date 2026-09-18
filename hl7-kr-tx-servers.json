@@ -1,0 +1,37 @@
+{
+  "formatVersion": "1",
+  "description": "Registry of FHIR terminology services operated for HL7 Korea implementation guides",
+  "servers": [
+    {
+      "code": "hl7-kr",
+      "name": "HL7 Korea Terminology Server",
+      "access_info": "Open read-only FHIR terminology service supporting terminology resources published by HL7 Korea, including KR Core. The server also hosts the SNOMED CT Korean Edition subject to SNOMED International licensing conditions.",
+      "url": "https://tx.healthall.co.kr/fhir/r4",
+      "usage": [
+        "publication",
+        "validation"
+      ],
+      "authoritative": [
+        "http://www.hl7korea.or.kr/*",
+        "https://www.hl7korea.or.kr/*"
+      ],
+      "authoritative-valuesets": [
+        "http://www.hl7korea.or.kr/*",
+        "https://www.hl7korea.or.kr/*"
+      ],
+      "exclusions": [
+        "http://snomed.info/xsct*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://tx.healthall.co.kr/fhir/r4"
+        },
+        {
+          "version": "R5",
+          "url": "https://tx.healthall.co.kr/fhir/r5"
+        }
+      ]
+    }
+  ]
+}
