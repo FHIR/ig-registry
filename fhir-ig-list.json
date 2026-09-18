@@ -6802,21 +6802,14 @@
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/public-health",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/public-health",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.public-health#1.0.0",
+      "ig-version" : "1.0.4",
+      "package" : "hl7.fhir.be.public-health#1.0.4",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.public-health#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
-    }],
-    "product" : ["fhir"]
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.4"
+    }]
   },
   {
     "name" : "eHealth FHIR Infrastructure and Security Profiles for Belgium",
