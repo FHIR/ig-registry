@@ -102,7 +102,7 @@
     }]
   },{
     "code" : "StructureMap",
-    "display" : "PublicationRecord",
+    "display" : "StructureMap",
     "definition" : "The PublicationRecord Resource enables reference to any knowledge artifact for purposes of identification and attribution. The PublicationRecord Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
     "property" : [{
       "code" : "url",
