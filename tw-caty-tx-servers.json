@@ -12,6 +12,16 @@
           "url": "https://ts.caty.hdata.tw"
         }
       ]
+    },    {
+      "code": "tw-nhi-caty",
+      "name": "Taiwan NHI Terminology Server(CATY)",
+      "url": "https://fhir.nhi.gov.tw/nhi_tsfhir",
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://fhir.nhi.gov.tw/nhi_tsfhir"
+        }
+      ]
     }
   ]
 }
