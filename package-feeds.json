@@ -22,6 +22,11 @@
       "errors": "grahame|fhir_org"
     },
     {
+      "name": "HL7.org EHR-S Publications",
+      "url": "http://hl7.org/ehrs/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "Common HL7 Terminology",
       "url": "http://terminology.hl7.org/package-feed.xml",
       "errors": "utg|hl7_org"
@@ -449,6 +454,10 @@
     {
       "mask": "hl7.xprod.*",
       "feeds": [ "http://hl7.org/xprod/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.ehrs.*",
+      "feeds": [ "http://hl7.org/ehrs/package-feed.xml", "http://fhir.org/templates/package-feed.xml" ]
     },
     {
       "mask": "hl7.tx.*",
