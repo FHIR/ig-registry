@@ -8338,10 +8338,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Releases Informative",
-      "ig-version" : "1.9.3",
-      "package" : "hl7.fhir.uv.tx-ecosystem#1.9.3",
+      "ig-version" : "1.9.5",
+      "package" : "hl7.fhir.uv.tx-ecosystem#1.9.5",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.9.3"
+      "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.9.5"
     }]
   },
   {
