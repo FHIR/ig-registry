@@ -391,6 +391,11 @@
       "name": "MINSAL CHILE R2BO",
       "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/package-feed.xml",
       "errors": "Franco_Ulloa|MINSAL_R2BO"
+    },
+    {
+      "name": "Region Västra Götaland (VGR) Sweden",
+      "url": "https://fhir.vgregion.se/ig/package-feed.xml",
+      "errors": "kompetensgrupp.fhir|vgregion.se"
     }
   ],
   "package-restrictions": [
