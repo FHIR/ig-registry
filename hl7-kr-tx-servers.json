@@ -13,11 +13,13 @@
       ],
       "authoritative": [
         "http://www.hl7korea.or.kr/*",
-        "https://www.hl7korea.or.kr/*"
+        "https://www.hl7korea.or.kr/*",
+        "http://snomed.info/sct|http://snomed.info/sct/11000267109*"
       ],
       "authoritative-valuesets": [
         "http://www.hl7korea.or.kr/*",
-        "https://www.hl7korea.or.kr/*"
+        "https://www.hl7korea.or.kr/*",
+        "http://snomed.info/sct/11000267109*"
       ],
       "exclusions": [
         "http://snomed.info/xsct*"
