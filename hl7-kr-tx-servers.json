@@ -22,7 +22,8 @@
         "http://snomed.info/sct/11000267109*"
       ],
       "exclusions": [
-        "http://snomed.info/xsct*"
+        "http://snomed.info/xsct*",
+        "http://hl7.org/fhir*"
       ],
       "fhirVersions": [
         {
