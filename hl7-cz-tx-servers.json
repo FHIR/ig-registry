@@ -23,7 +23,7 @@
         "cs" : [
           "http://hl7.org/*",
           "http://terminology.hl7.org/*",
-          "http://standardterms.edqm.eu",
+          "http://standardterms.edqm.eu*",
           "http://loinc.org*",
           "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0",
           "http://www.orpha.net*",
