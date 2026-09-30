@@ -21,10 +21,13 @@
       ],
       "languages" : {
         "cs" : [
+          "http://hl7.org/*",
+          "http://terminology.hl7.org/*",
           "http://standardterms.edqm.eu",
           "http://loinc.org*",
           "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0",
-          "http://www.orpha.net*"
+          "http://www.orpha.net*",
+          "http://dicom.nema.org/resources/ontology/*"
         ]
       },
       "authoritative": [
@@ -48,7 +51,10 @@
       "notes": [
         "The server provides SNOMED CT Czech Republic Edition, subject to SNOMED International licensing conditions.",
         "The server provides Czech designations for LOINC where available. The LOINC CodeSystem remains authoritative at loinc.org.",
+        "The server provides Czech designations for supported HL7 code systems where available.",
         "The server provides Czech designations for OrphaCodes",
+        "The server provides Czech designations for EDQM",
+        "The server provides Czech designations for DICOM Ontology"
         "Czech designations may be provided either directly in the CodeSystem resources or through CodeSystem supplements."
       ]
     }
