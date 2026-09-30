@@ -1,0 +1,23 @@
+{
+  "formatVersion": "1",
+  "description": "HL7 Austria's list of published terminology servers",
+  "servers": [
+    {
+      "code": "elga-dev-tergi-dev",
+      "name": "ELGA dev tergi with dev terminologies",
+      "access_info": "open",
+      "url": "https://dev-tergi-dev.elga.gv.at/fhir-server",
+      "exclusions": [],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://dev-tergi-dev.elga.gv.at/fhir-server/api/v4"
+        },
+        {
+          "version": "R5",
+          "url": "https://dev-tergi-dev.elga.gv.at/fhir-server/api/v5"
+        }
+      ]
+    }
+  ]
+}
