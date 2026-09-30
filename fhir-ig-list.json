@@ -153,7 +153,36 @@
     "product" : ["fhir"],
     "country" : "uz",
     "language" : ["en", "ru", "uz"],
-    "canonical" : "https://dhp.uz/fhir/core"
+    "history" : "https://dhp.uz/fhir/core/history.html",
+    "canonical" : "https://dhp.uz/fhir/core",
+    "ci-build" : "https://dhp.uz/fhir/core/ci-build",
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.9.2",
+      "package" : "uz.dhp.core#0.9.2",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://dhp.uz/fhir/core/0.9.2"
+    }]
+  },
+  {
+    "name" : "UZ DHP Integrations",
+    "category" : "Infrastructure",
+    "npm-name" : "uz.dhp.integrations",
+    "description" : "Profiles for Digital Health Platform integrations with systems in Uzbekistan, using FHIR R5",
+    "authority" : "MOH Uzbekistan",
+    "product" : ["fhir"],
+    "country" : "uz",
+    "language" : ["en", "ru", "uz"],
+    "history" : "https://dhp.uz/fhir/integrations/history.html",
+    "canonical" : "https://dhp.uz/fhir/integrations",
+    "ci-build" : "https://dhp.uz/fhir/integrations/ci-build",
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.9.0",
+      "package" : "uz.dhp.integrations#0.9.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://dhp.uz/fhir/integrations/0.9.0"
+    }]
   },
   {
     "name" : "CCDA on FHIR",
@@ -348,7 +377,13 @@
     "history" : "http://fhir.org/guides/hspc/core/history.html",
     "canonical" : "http://fhir.org/guides/hspc/core",
     "ci-build" : "http://build.fhir.org/ig/hspc/core",
-    "editions" : [],
+    "editions" : [{
+      "name" : "First Release",
+      "ig-version" : "0.1.0",
+      "package" : "fhir.hspc.core#0.1.0",
+      "fhir-version" : ["1.9.0"],
+      "url" : "https://fhir.org/guides/hspc/core/0.1.0"
+    }],
     "analysis" : {
     }
   },
@@ -2237,7 +2272,14 @@
     "canonical" : "https://mednet.swiss/fhir",
     "analysis" : {
     },
-    "language" : ["en"]
+    "language" : ["en"],
+    "editions" : [{
+      "name" : "CI Build",
+      "ig-version" : "0.20.0",
+      "package" : "swiss.mednet.fhir#0.20.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://doc.mednet.swiss/fhir"
+    }]
   },
   {
     "name" : "US Drug Formulary",
@@ -2345,11 +2387,11 @@
     "language" : ["en"],
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU2.1",
-      "ig-version" : "2.1.0",
-      "package" : "hl7.fhir.us.davinci-pdex#2.1.0",
+      "name" : "STU2.2",
+      "ig-version" : "2.2.0",
+      "package" : "hl7.fhir.us.davinci-pdex#2.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/davinci-pdex/STU2.1"
+      "url" : "http://hl7.org/fhir/us/davinci-pdex/STU2.2"
     }]
   },
   {
@@ -3294,10 +3336,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Publications",
-      "ig-version" : "7.3.0",
-      "package" : "hl7.terminology#7.3.0",
+      "ig-version" : "7.4.0",
+      "package" : "hl7.terminology#7.4.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://terminology.hl7.org/7.3.0"
+      "url" : "http://terminology.hl7.org/7.4.0"
     }]
   },
   {
@@ -3640,11 +3682,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 3 Ballot",
-      "ig-version" : "3.0.0-ballot",
-      "package" : "hl7.fhir.us.sdoh-clinicalcare#3.0.0-ballot",
+      "name" : "STU 3",
+      "ig-version" : "3.0.0",
+      "package" : "hl7.fhir.us.sdoh-clinicalcare#3.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/2026Jan"
+      "url" : "http://hl7.org/fhir/us/sdoh-clinicalcare/3.0.0"
     }]
   },
   {
@@ -4891,25 +4933,18 @@
     "npm-name" : "hl7.fhir.be.core",
     "description" : "HL7 Belgium FHIR Implementation Guide - Core profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/core/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/core",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "Trial Use Test",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.be.core#2.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
-    },
-    {
       "name" : "Trial Use",
-      "ig-version" : "2.0.1",
-      "package" : "hl7.fhir.be.core#2.0.1",
+      "ig-version" : "2.2.0",
+      "package" : "hl7.fhir.be.core#2.2.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core/2.0.1"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core/2.2.0"
     }]
   },
   {
@@ -4958,18 +4993,18 @@
     "npm-name" : "hl7.fhir.be.drp",
     "description" : "HL7 Belgium FHIR Implementation Guide - Digital Referral Prescription profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/drp/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/drp",
-    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral/branches/earlyadopter",
+    "product" : ["fhir"],
     "editions" : [{
-      "name" : "Trial Use Test",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.drp#1.0.0",
+      "name" : "Trial Use",
+      "ig-version" : "1.1.1",
+      "package" : "hl7.fhir.be.drp#1.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/drp/1.1.1"
     }]
   },
   {
@@ -5006,10 +5041,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.be.core-clinical#1.2.0",
+      "ig-version" : "1.3.0",
+      "package" : "hl7.fhir.be.core-clinical#1.3.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.2.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.3.0"
     }]
   },
   {
@@ -5107,39 +5142,18 @@
     "npm-name" : "hl7.fhir.be.allergy",
     "description" : "HL7 Belgium FHIR Implementation Guide - Allergy profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/allergy/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/allergy",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/allergy",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.allergy#1.0.0",
+      "ig-version" : "1.2.1",
+      "package" : "hl7.fhir.be.allergy#1.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.1",
-      "package" : "hl7.fhir.be.allergy#1.0.1",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.0.1"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.be.allergy#1.1.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.2.0",
-      "package" : "hl7.fhir.be.allergy#1.2.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.1"
     }]
   },
   {
@@ -5228,6 +5242,26 @@
     }]
   },
   {
+    "name" : "TWNHIBASE",
+    "category" : "TWNHI Base",
+    "npm-name" : "tw.gov.mohw.nhi.base",
+    "description" : "Taiwan NHI Base Implementation Guide",
+    "authority" : "NHIA (TW)",
+    "product" : ["fhir"],
+    "country" : "tw",
+    "history" : "https://nhicore.nhi.gov.tw/base/history.html",
+    "language" : ["zh-TW"],
+    "canonical" : "https://nhicore.nhi.gov.tw/base",
+    "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/base",
+    "editions" : [{
+      "name" : "STU1.0.0",
+      "ig-version" : "1.0.0",
+      "package" : "tw.gov.mohw.nhi.base#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://nhicore.nhi.gov.tw/base/1.0.0"
+    }]
+  },
+  {
     "name" : "TWPAS",
     "category" : "Financial",
     "npm-name" : "tw.gov.mohw.nhi.pas",
@@ -5240,11 +5274,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.5",
-      "ig-version" : "1.2.5",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.5",
+      "name" : "STU1.2.6",
+      "ig-version" : "1.2.6",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.6",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.5"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.6"
     }]
   },
   {
@@ -6790,21 +6824,14 @@
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/public-health",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/public-health",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.public-health#1.0.0",
+      "ig-version" : "1.0.4",
+      "package" : "hl7.fhir.be.public-health#1.0.4",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.public-health#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
-    }],
-    "product" : ["fhir"]
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.4"
+    }]
   },
   {
     "name" : "eHealth FHIR Infrastructure and Security Profiles for Belgium",
@@ -7080,10 +7107,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release Informative",
-      "ig-version" : "1.1.2",
-      "package" : "hl7.fhir.uv.tools#1.1.2",
+      "ig-version" : "1.2.0",
+      "package" : "hl7.fhir.uv.tools#1.2.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/tools/1.1.2"
+      "url" : "http://hl7.org/fhir/tools/1.2.0"
     }]
   },
   {
@@ -7507,11 +7534,31 @@
     "ci-build" : "http://worldhealthorganization.github.io/smart-base",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Releases Draft",
-      "ig-version" : "0.2.0",
-      "package" : "smart.who.int.base#0.2.0",
+      "name" : "Releases",
+      "ig-version" : "1.0.0",
+      "package" : "smart.who.int.base#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://smart.who.int/base/0.2.0"
+      "url" : "http://smart.who.int/base/1.0.0"
+    }]
+  },
+  {
+    "name" : "SMART Base Clinical",
+    "category" : "SMART (WHO)",
+    "npm-name" : "smart.who.int.base-clinical",
+    "description" : "This implementation guide defines common clinical artifacts for use with WHO SMART Guidelines content",
+    "authority" : "World Health Organization",
+    "country" : "uv",
+    "history" : "http://smart.who.int/base-clinical/history.html",
+    "language" : ["en"],
+    "canonical" : "http://smart.who.int/base-clinical",
+    "ci-build" : "http://worldhealthorganization.github.io/smart-base-clinical",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "1.0.0",
+      "package" : "smart.who.int.base-clinical#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://smart.who.int/base-clinical/1.0.0"
     }]
   },
   {
@@ -7570,7 +7617,7 @@
       "ig-version" : "0.1.0",
       "package" : "smart.who.int.trust-phw#0.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://smart.who.int/trust-phw/0.1.0"
+      "url" : "http://smart.who.int/trust-phw/v0.1.0"
     }],
     "product" : ["fhir"]
   },
@@ -7608,10 +7655,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Releases",
-      "ig-version" : "1.6.0",
-      "package" : "smart.who.int.trust#1.6.0",
+      "ig-version" : "1.7.2",
+      "package" : "smart.who.int.trust#1.7.2",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://smart.who.int/trust/v1.6.0"
+      "url" : "http://smart.who.int/trust/v1.7.2"
     }]
   },
   {
@@ -7947,11 +7994,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-cqm",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.uv.cqm#2.0.0-ballot",
+      "name" : "STU 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.uv.cqm#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cqm/2026May"
+      "url" : "http://hl7.org/fhir/uv/cqm/2.0.0"
     }]
   },
   {
@@ -8306,10 +8353,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Releases Informative",
-      "ig-version" : "1.9.3",
-      "package" : "hl7.fhir.uv.tx-ecosystem#1.9.3",
+      "ig-version" : "1.9.6",
+      "package" : "hl7.fhir.uv.tx-ecosystem#1.9.6",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.9.3"
+      "url" : "http://hl7.org/fhir/uv/tx-ecosystem/1.9.6"
     }]
   },
   {
@@ -8485,11 +8532,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/us-cql-ig",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Informative 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.fhir.us.cql#2.0.0-ballot",
+      "name" : "Informative 2",
+      "ig-version" : "2.0.0",
+      "package" : "hl7.fhir.us.cql#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/cql/2026May"
+      "url" : "http://hl7.org/fhir/us/cql/2.0.0"
     }]
   },
   {
@@ -9033,11 +9080,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/cdc-opioid-cpg",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.us.cdc-opioid-cpg#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.cdc-opioid-cpg#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/cdc-opioid-cpg/2025Sep"
+      "url" : "http://hl7.org/fhir/us/cdc-opioid-cpg/1.0.0"
     }]
   },
   {
@@ -9053,11 +9100,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/piqi",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 2 Ballot",
-      "ig-version" : "2.0.0-ballot",
-      "package" : "hl7.xprod.uv.piqi#2.0.0-ballot",
+      "name" : "Informative 1 Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.xprod.uv.piqi#1.0.0",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/xprod/ig/uv/piqi/2.0.0-202609-ballot"
+      "url" : "http://hl7.org/xprod/ig/uv/piqi/1.0.0"
     }]
   },
   {
@@ -9191,10 +9238,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc3",
-      "package" : "iknl.fhir.r4.pzp#1.0.0-rc3",
+      "ig-version" : "1.0.0",
+      "package" : "iknl.fhir.r4.pzp#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0-rc3"
+      "url" : "https://api.iknl.nl/docs/pzp/r4/1.0.0"
     }]
   },
   {
@@ -9211,10 +9258,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Release 1",
-      "ig-version" : "1.0.0-rc3",
-      "package" : "iknl.fhir.stu3.pzp#1.0.0-rc3",
+      "ig-version" : "1.0.0",
+      "package" : "iknl.fhir.stu3.pzp#1.0.0",
       "fhir-version" : ["3.0.2"],
-      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0-rc3"
+      "url" : "https://api.iknl.nl/docs/pzp/stu3/1.0.0"
     }]
   },
   {
@@ -9610,11 +9657,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/us-fhir-ps",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.us.pcs#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.us.pcs#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/pcs/2026May"
+      "url" : "http://hl7.org/fhir/us/pcs/1.0.0"
     }]
   },
   {
@@ -9630,11 +9677,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/davinci-deqm",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.deqm#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.deqm#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/deqm/2026May"
+      "url" : "http://hl7.org/fhir/uv/deqm/1.0.0"
     }]
   },
   {
@@ -10311,6 +10358,204 @@
       "package" : "hl7.fhir.cz.lab#1.0.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://hl7.cz/fhir/lab/1.0.0"
+    }]
+  },
+  {
+    "name" : "HL7 Belgium FHIR Implementation Guide - childreport profiles",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.childreport",
+    "description" : "HL7 Belgium FHIR Implementation Guide - childreport profiles",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/childreport/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/childreport",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/childrecord",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.2",
+      "package" : "hl7.fhir.be.childreport#1.0.2",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/childreport/1.0.2"
+    }]
+  },
+  {
+    "name" : "eHealth FHIR Pregnancy Status Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.pregnancy-status",
+    "description" : "eHealth FHIR Pregnancy Status Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/pregnancy-status",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.pregnancy-status#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/pregnancy-status/1.0.0"
+    }]
+  },
+  {
+    "name" : "CDC Guideline for Prescribing Opioids",
+    "description" : "2022 CDC Clinical Practice Guideline for Prescribing Opioids Implementation Guide",
+    "category" : "Quality/CDS",
+    "npm-name" : "fhir.cdc.opioid-cds",
+    "authority" : "cdc",
+    "country" : "us",
+    "history" : "http://fhir.org/guides/cdc/opioid-cds/history.html",
+    "language" : ["en"],
+    "canonical" : "http://fhir.org/guides/cdc/opioid-cds",
+    "ci-build" : "http://build.fhir.org/ig/security-rs/opioid-cds-r4",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "2022",
+      "ig-version" : "2022.1.1",
+      "package" : "fhir.cdc.opioid-cds#2022.1.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+    }]
+  },
+  {
+    "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
+    "category" : "Laboratory Report",
+    "npm-name" : "hl7.fhir.cl.minsal.r2bo",
+    "description" : "Está guía de implementación representa un repositorio de notificaciones de todas las biopsias que terminen en casos oncológicos",
+    "authority" : "Ministerio de Salud de Chile",
+    "country" : "cl",
+    "history" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/history.html",
+    "language" : ["es", "en"],
+    "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo",
+    "ci-build" : "https://build.fhir.org/ig/Minsal-CL/R2BO",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1 Draft",
+      "ig-version" : "0.3.2",
+      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.2",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.2"
+    }]
+  },
+  {
+    "name" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.be.referral",
+    "description" : "eHealth FHIR Referral Prescription Profiles for Belgium",
+    "authority" : "eHealth Platform (BE)",
+    "country" : "be",
+    "history" : "https://www.ehealth.fgov.be/standards/fhir/referral/history.html",
+    "language" : ["en"],
+    "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/referral",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Trial Use",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.be.referral#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
+    }]
+  },
+  {
+    "name" : "Austrian Appointment Scheduling (R5)",
+    "category" : "Booking Service",
+    "npm-name" : "hl7.at.fhir.tc.wg.scheduling.r5",
+    "description" : "The Austrian Appointment Scheduling Implementation Guide (IG) defines a standardized, FHIR®-based approach for online appointment booking across the Austrian healthcare system.",
+    "authority" : "HL7 Austria",
+    "country" : "at",
+    "history" : "https://fhir.hl7.at/tc/wg/scheduling/r5/history.html",
+    "language" : ["en"],
+    "canonical" : "https://fhir.hl7.at/tc/wg/scheduling/r5",
+    "ci-build" : "http://build.fhir.org/ig/HL7Austria/TC-FHIR-AG-Scheduling-R5",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Informative",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.at.fhir.tc.wg.scheduling.r5#1.0.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://fhir.hl7.at/tc/wg/scheduling/r5/1.0.0"
+    }]
+  },
+  {
+    "name" : "Guía de Estandares de Informacionde Salud",
+    "category" : "National Base",
+    "npm-name" : "hl7.fhir.cl.minsal.eis",
+    "description" : "Esta Guía de Estandares de Informacionde Salud desarrolla el Decreto Excento 231 del DEIS que reemplaza la norma técnica 820, y tiene como finalidad determinar compatibilidad de esta con el estándar FHI",
+    "authority" : "Ministerio de Salud de Chile",
+    "country" : "cl",
+    "history" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/history.html",
+    "language" : ["es"],
+    "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/eis",
+    "ci-build" : "https://build.fhir.org/ig/Minsal-CL/eis",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU1",
+      "ig-version" : "0.2.0",
+      "package" : "hl7.fhir.cl.minsal.eis#0.2.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/0.2.0"
+    }]
+  },
+  {
+    "name" : "iCoverU Cancer Insurance Implementation Guide",
+    "category" : "Financial",
+    "npm-name" : "fhir.icoveru.cancer",
+    "description" : "A FHIR R4 Implementation Guide for cancer-related commercial insurance claim estimation in Taiwan. It defines profiles, extensions, terminology, and examples for representing patients, insurance coverage, cancer diagnoses, clinical evidence, claims, coverage eligibility, and estimated insurance benefit calculations.",
+    "authority" : "iCoverU",
+    "product" : ["fhir"],
+    "country" : "tw",
+    "language" : ["zh"],
+    "canonical" : "https://cfhir.icoveru.com.tw",
+    "editions" : [{
+      "name" : "Release 1",
+      "ig-version" : "0.1.0",
+      "package" : "fhir.icoveru.cancer#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://cfhir.icoveru.com.tw/0.1.0"
+    }]
+  },
+  {
+    "name" : "Manifest-based Access to DICOM Objects (MADO)",
+    "category" : "Imaging",
+    "npm-name" : "ihe.rad.mado",
+    "description" : "Enables access to DICOM objects through a manifest-based approach, allowing clients to retrieve and manage medical imaging data efficiently.",
+    "authority" : "IHE",
+    "country" : "uv",
+    "history" : "https://profiles.ihe.net/RAD/MADO/history.html",
+    "language" : ["en"],
+    "canonical" : "https://profiles.ihe.net/RAD/MADO",
+    "ci-build" : "http://build.fhir.org/ig/IHE/RAD.MADO",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Publication",
+      "ig-version" : "1.0.0",
+      "package" : "ihe.rad.mado#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://profiles.ihe.net/RAD/MADO/1.0.0"
+    }]
+  },
+  {
+    "name" : "VGR Base Profiles Implementation Guide R4",
+    "category" : "Regional Base",
+    "npm-name" : "se.vgregion.fhir.base",
+    "description" : "Region Västra Götaland's Base Profiles Implementation Guide",
+    "authority" : "Region Västra Götaland",
+    "country" : "se",
+    "history" : "https://fhir.vgregion.se/ig/base/history.html",
+    "language" : ["en"],
+    "canonical" : "https://fhir.vgregion.se/ig/base",
+    "ci-build" : "https://fhir-dev.vgregion.se/ig/base",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "1.0.0",
+      "package" : "se.vgregion.fhir.base#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.vgregion.se/ig/base/1.0.0"
     }]
   }]
 }
