@@ -5274,11 +5274,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.6",
-      "ig-version" : "1.2.6",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.6",
+      "name" : "STU1.2.7",
+      "ig-version" : "1.2.7",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.7",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.6"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.7"
     }]
   },
   {
@@ -5332,12 +5332,13 @@
     "history" : "https://nhicore.nhi.gov.tw/empd/history.html",
     "language" : ["zh-TW"],
     "canonical" : "https://nhicore.nhi.gov.tw/empd",
+    "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/empd",
     "editions" : [{
-      "name" : "STU0.1.0",
-      "ig-version" : "0.1.0",
-      "package" : "tw.gov.mohw.nhi.empd#0.1.0",
+      "name" : "STU0.2.1",
+      "ig-version" : "0.2.1",
+      "package" : "tw.gov.mohw.nhi.empd#0.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/empd/0.1.0"
+      "url" : "https://nhicore.nhi.gov.tw/empd/0.2.1"
     }]
   },
   {
