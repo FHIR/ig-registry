@@ -10542,5 +10542,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://fhir.vgregion.se/ig/base/1.0.0"
     }]
+  },
+  {
+    "name" : "Generic Building Block IG NL",
+    "category" : "National Base",
+    "npm-name" : "nictiz.nl.gbb",
+    "description" : "Dutch Generic Building Blocks. EHDS First, completed with Dutch additions",
+    "authority" : "Nictiz",
+    "country" : "Netherlands",
+    "history" : "http://ig.nictiz.nl/gbb/history.html",
+    "language" : ["en"],
+    "canonical" : "http://ig.nictiz.nl/gbb",
+    "ci-build" : "http://build.fhir.org/ig/Nictiz/GBB-IG",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "1.0.0",
+      "ig-version" : "1.0.0-alpha.1",
+      "package" : "nictiz.nl.gbb#1.0.0-alpha.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://ig.nictiz.nl/gbb/1.0.0-alpha.1"
+    }]
   }]
 }
