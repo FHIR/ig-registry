@@ -153,13 +153,35 @@
     "product" : ["fhir"],
     "country" : "uz",
     "language" : ["en", "ru", "uz"],
+    "history" : "https://dhp.uz/fhir/core/history.html",
     "canonical" : "https://dhp.uz/fhir/core",
+    "ci-build" : "https://dhp.uz/fhir/core/ci-build",
     "editions" : [{
       "name" : "Releases",
-      "ig-version" : "0.8.0",
-      "package" : "uz.dhp.core#0.8.0",
+      "ig-version" : "0.9.2",
+      "package" : "uz.dhp.core#0.9.2",
       "fhir-version" : ["5.0.0"],
-      "url" : "https://dhp.uz/fhir/core"
+      "url" : "https://dhp.uz/fhir/core/0.9.2"
+    }]
+  },
+  {
+    "name" : "UZ DHP Integrations",
+    "category" : "Infrastructure",
+    "npm-name" : "uz.dhp.integrations",
+    "description" : "Profiles for Digital Health Platform integrations with systems in Uzbekistan, using FHIR R5",
+    "authority" : "MOH Uzbekistan",
+    "product" : ["fhir"],
+    "country" : "uz",
+    "language" : ["en", "ru", "uz"],
+    "history" : "https://dhp.uz/fhir/integrations/history.html",
+    "canonical" : "https://dhp.uz/fhir/integrations",
+    "ci-build" : "https://dhp.uz/fhir/integrations/ci-build",
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.9.0",
+      "package" : "uz.dhp.integrations#0.9.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://dhp.uz/fhir/integrations/0.9.0"
     }]
   },
   {
@@ -5252,11 +5274,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.6",
-      "ig-version" : "1.2.6",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.6",
+      "name" : "STU1.2.7",
+      "ig-version" : "1.2.7",
+      "package" : "tw.gov.mohw.nhi.pas#1.2.7",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.6"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.7"
     }]
   },
   {
@@ -5310,12 +5332,13 @@
     "history" : "https://nhicore.nhi.gov.tw/empd/history.html",
     "language" : ["zh-TW"],
     "canonical" : "https://nhicore.nhi.gov.tw/empd",
+    "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/empd",
     "editions" : [{
-      "name" : "STU0.1.0",
-      "ig-version" : "0.1.0",
-      "package" : "tw.gov.mohw.nhi.empd#0.1.0",
+      "name" : "STU0.2.1",
+      "ig-version" : "0.2.1",
+      "package" : "tw.gov.mohw.nhi.empd#0.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/empd/0.1.0"
+      "url" : "https://nhicore.nhi.gov.tw/empd/0.2.1"
     }]
   },
   {
@@ -6802,21 +6825,14 @@
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/public-health",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/public-health",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.public-health#1.0.0",
+      "ig-version" : "1.0.4",
+      "package" : "hl7.fhir.be.public-health#1.0.4",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.0"
-    },
-    {
-      "name" : "Trial Use",
-      "ig-version" : "1.0.2",
-      "package" : "hl7.fhir.be.public-health#1.0.2",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.2"
-    }],
-    "product" : ["fhir"]
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/public-health/1.0.4"
+    }]
   },
   {
     "name" : "eHealth FHIR Infrastructure and Security Profiles for Belgium",
@@ -10419,10 +10435,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU1 Draft",
-      "ig-version" : "0.3.1-draft",
-      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.1-draft",
+      "ig-version" : "0.3.2",
+      "package" : "hl7.fhir.cl.minsal.r2bo#0.3.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.1-draft"
+      "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.2"
     }]
   },
   {
