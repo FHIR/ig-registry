@@ -93,6 +93,12 @@
       "name": "Taiwan KYHealth CATY Terminology Serve",
       "authority": "Published by Taiwan KYHealth",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/tw-caty-tx-servers.json"
+    },
+    {
+      "code" : "hl7-at",
+      "name" : "HL7 Austria Terminology Servers",
+      "authority" : "Published by HL7 Austria",
+      "url" : "https://raw.githubusercontent.com/FHIR/ig-registry/master/hl7-at-tx-servers.json"
     }
   ]
 }
