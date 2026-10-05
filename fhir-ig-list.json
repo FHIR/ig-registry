@@ -10558,5 +10558,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://fhir.vgregion.se/ig/base/1.0.0"
     }]
+  },
+  {
+    "name" : "Czech FHIR Imaging Order",
+    "category" : "Imaging Order",
+    "npm-name" : "hl7.fhir.cz.img-order",
+    "description" : "Czech National Imaging Order FHIR IG R4 version 1.0.0",
+    "authority" : "HL7 Czech Republic",
+    "country" : "cz",
+    "history" : "https://hl7.cz/fhir/img-order/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.cz/fhir/img-order",
+    "ci-build" : "http://build.fhir.org/ig/HL7-cz/img-order",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.cz.img-order#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://hl7.cz/fhir/img-order/1.0.0"
+    }]
   }]
 }
