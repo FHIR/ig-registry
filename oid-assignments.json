@@ -96,8 +96,17 @@
     "2.16.840.1.113883.4.642.40.90" : {   "id" : "hl7.fhir.us.carin-rtpbc",                       "info" : "Reuben Daniels, 14-Sep 2026" },
     "2.16.840.1.113883.4.642.40.91" : {   "id" : "hl7.fhir.uv.smart-scheduling-links",            "info" : "Grahame Grieve, 19-Sep 2026" },
     "2.16.840.1.113883.4.642.40.92" : {   "id" : "hl7.fhir.uv.api-incubator",                     "info" : "Grahame Grieve, 1-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.93" : {   "id" : "hl7.fhir.uv.cds-hooks",                         "info" : "Grahame Grieve, 1-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.94" : {   "id" : "hl7.fhir.uv.cds-hooks-library",                 "info" : "Grahame Grieve, 1-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.95" : {   "id" : "hl7.fhir.uv.txmodule-incubator",                "info" : "Grahame Grieve, 1-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.96" : {   "id" : "hl7.fhir.uv.admin-incubator",                   "info" : "Grahame Grieve, 2-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.97" : {   "id" : "hl7.fhir.uv.extensions",                        "info" : "Grahame Grieve, 2-Oct 2026" },
+    
 
     "2.16.840.1.113883.4.642.40.1000" : {   "id" : "openehr.base",                                "info" : "Grahame Grieve, 12-Mar 2024" },
+    "2.16.840.1.113883.4.642.40.1001" : {   "id" : "fhir.onc.bhp",                                "info" : "Grahame Grieve, 2-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.1002" : {   "id" : "gov.cdc.nhsn.dqm",                            "info" : "Grahame Grieve, 3-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.1003" : {   "id" : "gov.cdc.nhsn.safr",                           "info" : "Grahame Grieve, 3-Oct 2026" },
     
     "1.3.6.1.4.1.19376.1.5.3.1.3.43" : {  "id" : "ihe.pcc.odh",                                   "info" : "John Moehrke, 04-Nov 2024" },
 
@@ -132,6 +141,8 @@
     "2.16.840.1.113883.4.642.40.200.13"  : {  "id" : "hl7.fhir.be.referral",                      "info" : "Grahame Grieve, 17-Sep 2026"},
     "2.16.840.1.113883.4.642.40.200.14"  : {  "id" : "hl7.fhir.be.patient-dossier",               "info" : "Grahame Grieve, 17-Sep 2026"},
     "2.16.840.1.113883.4.642.40.200.15"  : {  "id" : "hl7.fhir.be.child-report",                  "info" : "Grahame Grieve, 17-Sep 2026"},
-    "2.16.840.1.113883.4.642.40.200.16"  : {  "id" : "hl7.fhir.be.pregnancy-status",              "info" : "Grahame Grieve, 17-Sep 2026"}  
+    "2.16.840.1.113883.4.642.40.200.16"  : {  "id" : "hl7.fhir.be.pregnancy-status",              "info" : "Grahame Grieve, 17-Sep 2026"},
+    "2.16.840.1.113883.4.642.40.200.17"  : {  "id" : "hl7.fhir.be.glucose-monitoring",            "info" : "Grahame Grieve, 17-Sep 2026"}  
+    
   }
 }
