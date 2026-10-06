@@ -5,14 +5,14 @@
     "code" : "fps-be-tx",
     "name" : "Federal Public Service Health, Food Chain Safety and Environment",
     "access_info" : "This server is open to publishers of IGs",
-    "url" : "https://apps.health.belgium.be/ontoserver/fhir",
+    "url" : "http://178.104.103.200/tx/r4",
     "usage": ["publication"],
     "authoritative" : [
       "http://snomed.info/sct|http://snomed.info/sct/11000172109*"
     ],
     "fhirVersions" : [{
       "version" : "R4",
-      "url" : "https://apps.health.belgium.be/ontoserver/fhir"
+      "url" : "http://178.104.103.200/tx/r4"
     }]
   }]
 }
