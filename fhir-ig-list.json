@@ -7267,9 +7267,9 @@
     "canonical" : "http://fhir.hl7.nl/zorgviewer",
     "ci-build" : "https://build.fhir.org/ig/RIVO-Noord/zorgviewer-ig",
     "editions" : [{
-      "name" : "Sprint 70",
-      "ig-version" : "1.21.0",
-      "package" : "hl7.fhir.nl.zorgviewer#1.21.0",
+      "name" : "Monthly Oct-2026",
+      "ig-version" : "1.26.0",
+      "package" : "hl7.fhir.nl.zorgviewer#1.26.0",
       "fhir-version" : ["3.0.2"],
       "url" : "https://implementatiegids.zorgviewer.nl"
     }]
