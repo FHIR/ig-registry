@@ -366,6 +366,11 @@
       "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
       "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
       "errors": "nhsn|cdc_gov"
+    },
+    {
+      "name": "Service Well Implementation Guides",
+      "url": "https://canonical.fhir.link/servicewell/templates/package-feed.xml",
+      "errors": "support|servicewell_se"
     }
   ],
   "package-restrictions": [
@@ -542,6 +547,14 @@
     {
       "mask": "gov.cdc.nhsn.*",
       "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
+    },
+    {
+      "mask": "flc.fhir.*",
+      "feeds": [ "http://canonical.fhir.link/flc/package-feed.xml" ]
+    },
+    {
+      "mask": "servicewell.fhir.*",
+      "feeds": [ "https://canonical.fhir.link/servicewell/templates/package-feed.xml","https://canonical.fhir.link/servicewell/package-feed.xml" ]
     }
   ]
 
