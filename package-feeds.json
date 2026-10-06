@@ -22,6 +22,11 @@
       "errors": "grahame|fhir_org"
     },
     {
+      "name": "HL7.org EHR-S Publications",
+      "url": "http://hl7.org/ehrs/package-feed.xml",
+      "errors": "grahame|fhir_org"
+    },
+    {
       "name": "Common HL7 Terminology",
       "url": "http://terminology.hl7.org/package-feed.xml",
       "errors": "utg|hl7_org"
@@ -291,9 +296,9 @@
       "url": "https://nhicore.nhi.gov.tw/packages/package-feed.xml",
       "errors": "TWNHI_FHIR|nhi_gov_tw"
     },
-	  {
-      "name": "DHP & UZ Core Uzbekistan Packages",
-      "url": "https://raw.githubusercontent.com/uzinfocom-org/digital-health-ig/refs/heads/main/docs/package-feed.xml",
+    {
+      "name": "Uzbekistan Digital Health Platform Packages",
+      "url": "https://dhp.uz/package-feed.xml",
       "errors": "fhir|vadimperetok.in"
     },
     {
@@ -368,7 +373,27 @@
       "errors": "nhsn|cdc_gov"
     },
     {
-      "name": "Service Well Implementation Guides",
+      "name": "Medical Informatics Initiative (MII) Core Data Set Base",
+      "url": "https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml",
+      "errors": "julian_sass|charite_de"
+    },
+    {
+      "name": "Australian Digital Health Agency",
+      "url": "https://github.com/AuDigitalHealth/adha-fhir-packages/blob/main/package-feed.xml?raw=true",
+      "errors": "help|digitalhealth_gov_au"
+    },
+	  {
+      "name": "MINSAL CHILE R2BO",
+      "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/package-feed.xml",
+      "errors": "Franco_Ulloa|MINSAL_R2BO"
+    },
+    {
+      "name": "Region Västra Götaland (VGR) Sweden",
+      "url": "https://fhir.vgregion.se/ig/package-feed.xml",
+      "errors": "kompetensgrupp.fhir|vgregion.se"
+    },
+    {
+      "name": "Service Well Implementation Guides Template",
       "url": "https://canonical.fhir.link/servicewell/templates/package-feed.xml",
       "errors": "support|servicewell_se"
     }
@@ -434,6 +459,10 @@
     {
       "mask": "hl7.xprod.*",
       "feeds": [ "http://hl7.org/xprod/ig/package-feed.xml" ]
+    },
+    {
+      "mask": "hl7.ehrs.*",
+      "feeds": [ "http://hl7.org/ehrs/package-feed.xml", "http://fhir.org/templates/package-feed.xml" ]
     },
     {
       "mask": "hl7.tx.*",
@@ -505,6 +534,10 @@
       "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
+      "mask": "de.gematik.hddt.terminology",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
+    },
+    {
       "mask": "de.gematik.epa.*",
       "feeds": [ "https://gemspec.gematik.de/ig/fhir/package-feed.xml", "https://packages.simplifier.net/rssfeed" ]
     },
@@ -547,6 +580,14 @@
     {
       "mask": "gov.cdc.nhsn.*",
       "feeds": [ "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml" ]
+    },
+    {
+      "mask": "de.medizininformatikinitiative.kerndatensatz.base",
+      "feeds": ["https://raw.githubusercontent.com/medizininformatik-initiative/kerndatensatz-basis/gh-pages/package-feed.xml"]
+    },
+    {
+      "mask": "dvmd.kdl.r4",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     },
     {
       "mask": "flc.fhir.*",
