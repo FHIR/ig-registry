@@ -409,15 +409,24 @@ class Validator {
     }
   }
 
-  // Get list of changed JSON files (for CI environment)
+  // Get list of JSON files to check. Every *.json in the repo root is always
+  // syntax-checked (it's cheap), plus anything named in CHANGED_FILES /
+  // ALL_JSON_FILES. Those lists may be newline- or space-separated
+  // (Azure joins with spaces, GitHub with newlines), so split on any whitespace.
   getChangedJsonFiles() {
-    const changedFiles = process.env.CHANGED_FILES;
-    if (changedFiles) {
-      return changedFiles.split('\n').filter(file => file.endsWith('.json'));
+    const files = new Set(
+      fs.readdirSync('.').filter(file => file.endsWith('.json') && fs.statSync(file).isFile())
+    );
+    for (const envVar of ['CHANGED_FILES', 'ALL_JSON_FILES']) {
+      const list = process.env[envVar];
+      if (list) {
+        list.split(/\s+/)
+          .map(file => file.trim().replace(/^\.\//, ''))
+          .filter(file => file.endsWith('.json') && !file.includes('node_modules'))
+          .forEach(file => files.add(file));
+      }
     }
-    
-    // Fallback: validate known JSON files
-    return ['fhir-ig-list.json', 'package-feeds.json'].filter(file => fs.existsSync(file));
+    return [...files].sort();
   }
 
   // Main validation function
