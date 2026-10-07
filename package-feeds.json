@@ -591,7 +591,7 @@
     },
     {
       "mask": "flc.fhir.*",
-      "feeds": [ "http://canonical.fhir.link/flc/package-feed.xml" ]
+      "feeds": [ "https://canonical.fhir.link/flc/package-feed.xml" ]
     },
     {
       "mask": "servicewell.fhir.*",
