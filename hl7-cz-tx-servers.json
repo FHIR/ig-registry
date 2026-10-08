@@ -26,7 +26,7 @@
           "http://standardterms.edqm.eu*",
           "http://loinc.org*",
           "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.1.0",
-          "http://www.orpha.net*",
+          "https://www.orpha.net*",
           "http://dicom.nema.org/resources/ontology/*"
         ]
       },
