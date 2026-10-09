@@ -391,6 +391,11 @@
       "name": "Region Västra Götaland (VGR) Sweden",
       "url": "https://fhir.vgregion.se/ig/package-feed.xml",
       "errors": "kompetensgrupp.fhir|vgregion.se"
+    },
+    {
+      "name": "Service Well Implementation Guides Template",
+      "url": "https://canonical.fhir.link/servicewell/templates/package-feed.xml",
+      "errors": "support|servicewell_se"
     }
   ],
   "package-restrictions": [
@@ -583,6 +588,14 @@
     {
       "mask": "dvmd.kdl.r4",
       "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
+    },
+    {
+      "mask": "flc.fhir.*",
+      "feeds": [ "https://canonical.fhir.link/flc/package-feed.xml" ]
+    },
+    {
+      "mask": "servicewell.fhir.*",
+      "feeds": [ "https://canonical.fhir.link/servicewell/templates/package-feed.xml","https://canonical.fhir.link/servicewell/package-feed.xml" ]
     }
   ]
 
