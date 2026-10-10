@@ -3,12 +3,12 @@ const path = require('path');
 
 // Constants for validation rules
 const MAX_LENGTHS = {
-  authority: 40,
+  authority: 50,
   category: 30
 };
 
 const VALID_COUNTRIES = [
-  'uv', 'eu', 'us', 'at', 'au', 'be', 'br', 'ca', 'ch', 'de', 'dk', 'pl',
+  'uv', 'eu', 'us', 'at', 'au', 'be', 'br', 'ca', 'ch', 'de', 'dk', 'ph', 'pl',
   'fi', 'fr', 'gb', 'in', 'it', 'jp', 'kr', 'nl', 'no', 'nz', 'se', 'tw', 'es', 'bd',
   'cr', 'uz', 'cz', 'cl'
 ];

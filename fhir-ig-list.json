@@ -145,6 +145,26 @@
     }]
   },
   {
+    "name" : "PH Core",
+    "category" : "National Base",
+    "npm-name" : "fhir.ph.core",
+    "description" : "National base FHIR R4 profiles, extensions, and terminology for the Philippines, defining minimum conformance expectations for interoperable health information exchange.",
+    "authority" : "Department of Health - Republic of the Philippines",
+    "country" : "ph",
+    "language" : ["en"],
+    "history" : "https://fhir.doh.gov.ph/phcore/history.html",
+    "canonical" : "https://fhir.doh.gov.ph/phcore",
+    "ci-build" : "https://build.fhir.org/ig/UPM-NTHC/ph-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Draft 0.2.0",
+      "ig-version" : "0.2.0",
+      "package" : "fhir.ph.core#0.2.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.doh.gov.ph/phcore/0.2.0"
+    }]
+  },
+  {
     "name" : "UZ Core",
     "category" : "National Base",
     "npm-name" : "uz.dhp.core",
