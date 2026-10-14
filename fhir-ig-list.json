@@ -149,7 +149,7 @@
     "category" : "National Base",
     "npm-name" : "fhir.ph.core",
     "description" : "National base FHIR R4 profiles, extensions, and terminology for the Philippines, defining minimum conformance expectations for interoperable health information exchange.",
-    "authority" : "Department of Health - Republic of the Philippines",
+    "authority" : "Department of Health (Philippines)",
     "country" : "ph",
     "language" : ["en"],
     "history" : "https://fhir.doh.gov.ph/phcore/history.html",

@@ -3,7 +3,7 @@ const path = require('path');
 
 // Constants for validation rules
 const MAX_LENGTHS = {
-  authority: 50,
+  authority: 40,
   category: 30
 };
 
