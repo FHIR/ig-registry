@@ -596,6 +596,10 @@
     {
       "mask": "servicewell.fhir.*",
       "feeds": [ "https://canonical.fhir.link/servicewell/templates/package-feed.xml","https://canonical.fhir.link/servicewell/package-feed.xml" ]
+    },
+    {
+      "mask": "nictiz.nl.*",
+      "feeds": [ "https://ig.nictiz.nl/package-feed.xml" ]
     }
   ]
 
