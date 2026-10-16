@@ -604,6 +604,10 @@
     {
       "mask": "nictiz.nl.*",
       "feeds": [ "https://ig.nictiz.nl/package-feed.xml" ]
+    },
+    {
+      "mask": "de.hl7.terminology.translation.r4",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     }
   ]
 
