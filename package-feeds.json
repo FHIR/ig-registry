@@ -365,8 +365,7 @@
       "name": "Xt-EHR FHIR Implementation Guides",
       "url": "http://www.xt-ehr.eu/fhir/package-feed.xml",
       "errors": "gcangioli|xt-ehr_eu"
-    }
-    ,
+    },
     {
       "name": "The CDC NHSN Public Health Reporting FHIR Implementation Guides",
       "url": "https://www.cdc.gov/nhsn/fhirportal/package-feed.xml",
@@ -396,6 +395,11 @@
       "name": "Service Well Implementation Guides Template",
       "url": "https://canonical.fhir.link/servicewell/templates/package-feed.xml",
       "errors": "support|servicewell_se"
+    },
+    {
+      "name": "Nictiz Implementation Guides",
+      "url": "https://ig.nictiz.nl/package-feed.xml",
+      "errors": "servicedesk|nictiz_nl"
     }
   ],
   "package-restrictions": [
@@ -596,6 +600,10 @@
     {
       "mask": "servicewell.fhir.*",
       "feeds": [ "https://canonical.fhir.link/servicewell/templates/package-feed.xml","https://canonical.fhir.link/servicewell/package-feed.xml" ]
+    },
+    {
+      "mask": "nictiz.nl.*",
+      "feeds": [ "https://ig.nictiz.nl/package-feed.xml" ]
     }
   ]
 
