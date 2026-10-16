@@ -400,6 +400,11 @@
       "name": "Nictiz Implementation Guides",
       "url": "https://ig.nictiz.nl/package-feed.xml",
       "errors": "servicedesk|nictiz_nl"
+    },
+    {
+      "name": "Region Skåne ig-Templates",
+      "url": "https://bki.skane.se/fhir/templates/package-feed.xml",
+      "errors": "Informatik|skane.se"
     }
   ],
   "package-restrictions": [
