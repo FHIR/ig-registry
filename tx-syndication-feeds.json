@@ -1,5 +1,5 @@
 {
-  "documentation" : "this is a list of terminology syndication feeds that conform to the [describe] specification",
+  "documentation" : "this is a list of terminology syndication feeds that conform to the [FHIR syndication specification](https://fhir.github.io/fhir-syndication-ig)",
   "feeds" : [{
     "url" : "Where the feed is found - https:// url",
     "description" : "A useful description of who is hosting/providing the feed"
