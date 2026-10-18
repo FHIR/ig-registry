@@ -10667,5 +10667,24 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://ig.nictiz.nl/nlps/1.0.0-alpha.1"
     }]
+  },
+  {
+    "path" : "order/package-list.json",
+    "package-id" : "hl7.fhir.cz.order",
+    "title" : "Czech FHIR Order",
+    "canonical" : "https://hl7.cz/fhir/order",
+    "category" : "Order",
+    "ci-build" : "https://build.fhir.org/ig/HL7-cz/k-order",
+    "version-count" : 1,
+    "latest" : {
+      "version" : "1.0.0",
+      "date" : "2026-10-17",
+      "path" : "https://hl7.cz/fhir/order/1.0.0"
+    },
+    "milestone" : {
+      "version" : "1.0.0",
+      "date" : "2026-10-17",
+      "path" : "https://hl7.cz/fhir/order/1.0.0"
+    }
   }]
 }
