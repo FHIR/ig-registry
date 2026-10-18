@@ -145,6 +145,26 @@
     }]
   },
   {
+    "name" : "PH Core",
+    "category" : "National Base",
+    "npm-name" : "fhir.ph.core",
+    "description" : "National base FHIR R4 profiles, extensions, and terminology for the Philippines, defining minimum conformance expectations for interoperable health information exchange.",
+    "authority" : "Department of Health (Philippines)",
+    "country" : "ph",
+    "language" : ["en"],
+    "history" : "https://fhir.doh.gov.ph/phcore/history.html",
+    "canonical" : "https://fhir.doh.gov.ph/phcore",
+    "ci-build" : "https://build.fhir.org/ig/UPM-NTHC/ph-core",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "Draft 0.2.0",
+      "ig-version" : "0.2.0",
+      "package" : "fhir.ph.core#0.2.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.doh.gov.ph/phcore/0.2.0"
+    }]
+  },
+  {
     "name" : "UZ Core",
     "category" : "National Base",
     "npm-name" : "uz.dhp.core",
@@ -9217,13 +9237,22 @@
     "language" : ["en"],
     "canonical" : "https://fhir.dghs.gov.bd/core",
     "ci-build" : "https://fhir.dghs.gov.bd/core",
-    "editions" : [{
-      "name" : "Draft 0.2.0",
-      "ig-version" : "0.2.0",
-      "package" : "bd.fhir.core#0.2.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "https://fhir.dghs.gov.bd/core"
-    }]
+    "editions" : [
+      {
+        "name": "0.4.8",
+        "ig-version": "0.4.8",
+        "package": "bd.fhir.core#0.4.8",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.dghs.gov.bd/core/0.4.8"
+      },
+      {
+        "name": "Draft 0.2.0",
+        "ig-version": "0.2.0",
+        "package": "bd.fhir.core#0.2.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.dghs.gov.bd/core/0.2.0"
+      }
+    ]
   },
   {
     "name" : "SQL on FHIR",
@@ -10597,6 +10626,46 @@
       "package" : "hl7.fhir.cz.img-order#1.0.0",
       "fhir-version" : ["4.0.1"],
       "url" : "https://hl7.cz/fhir/img-order/1.0.0"
+    }]
+  },
+  {
+    "name" : "Generic Building Block IG NL",
+    "category" : "National Base",
+    "npm-name" : "nictiz.nl.gbb",
+    "description" : "Dutch Generic Building Blocks. EHDS First, completed with Dutch additions",
+    "authority" : "Nictiz",
+    "country" : "nl",
+    "history" : "http://ig.nictiz.nl/gbb/history.html",
+    "language" : ["en"],
+    "canonical" : "http://ig.nictiz.nl/gbb",
+    "ci-build" : "http://build.fhir.org/ig/Nictiz/GBB-IG",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "1.0.0",
+      "ig-version" : "1.0.0-alpha.1",
+      "package" : "nictiz.nl.gbb#1.0.0-alpha.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://ig.nictiz.nl/gbb/1.0.0-alpha.1"
+    }]
+  },
+  {
+    "name" : "Patient Summary IG NL",
+    "category" : "National Base",
+    "npm-name" : "nictiz.nl.nlps",
+    "description" : "Dutch Patient Summary. EHDS First, completed with Dutch additions",
+    "authority" : "Nictiz",
+    "country" : "nl",
+    "history" : "http://ig.nictiz.nl/nlps/history.html",
+    "language" : ["en"],
+    "canonical" : "http://ig.nictiz.nl/nlps",
+    "ci-build" : "http://build.fhir.org/ig/Nictiz/NL-PS-IG",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "1.0.0",
+      "ig-version" : "1.0.0-alpha.1",
+      "package" : "nictiz.nl.nlps#1.0.0-alpha.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://ig.nictiz.nl/nlps/1.0.0-alpha.1"
     }]
   }]
 }
