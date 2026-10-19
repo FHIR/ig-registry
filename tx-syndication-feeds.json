@@ -1,7 +1,22 @@
 {
-  "documentation" : "this is a list of terminology syndication feeds that conform to the [FHIR syndication specification](https://fhir.github.io/fhir-syndication-ig)",
+  "formatVersion": "1",
+  "description": "This JSON-5 file a list of terminology syndication feeds that conform to the [FHIR syndication specification](https://fhir.github.io/fhir-syndication-ig)",
+  "documentation" : "See https://github.com/FHIR/ig-registry/blob/master/tx-syndication-doco.md",
   "feeds" : [{
-    "url" : "Where the feed is found - https:// url",
-    "description" : "A useful description of who is hosting/providing the feed"
-  }]  
+    "url" : "https://mlds.ihtsdotools.org/api/feed",
+    "description" : "SNOMED International MLDS Terminology Release Syndication Feed",
+    "authority": "SNOMED International"
+  }, {
+    "url": "https://api.healthterminologies.gov.au/syndication/v1/syndication.xml",
+    "description" : "National Clinical Terminology Service Syndication Feed",
+    "authority": "Australian Digital Health Agency"
+  }, {
+    "url": "https://ontology.nhs.uk/production1/synd/syndication.xml",
+    "description": "NHS England Syndication Feed",
+    "authority": "NHS England"
+  }, {
+    "url": "https://terminologystandardsservice.ca/syndication/alias/production_snomed/syndication.xml",
+    "description": "Canada Health Infoway SNOMED Syndication Feed",
+    "authority": "Canada Health Infoway"
+  }]
 }
