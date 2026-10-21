@@ -9237,22 +9237,20 @@
     "language" : ["en"],
     "canonical" : "https://fhir.dghs.gov.bd/core",
     "ci-build" : "https://fhir.dghs.gov.bd/core",
-    "editions" : [
-      {
-        "name": "0.4.8",
-        "ig-version": "0.4.8",
-        "package": "bd.fhir.core#0.4.8",
-        "fhir-version": ["4.0.1"],
-        "url": "https://fhir.dghs.gov.bd/core/0.4.8"
-      },
-      {
-        "name": "Draft 0.2.0",
-        "ig-version": "0.2.0",
-        "package": "bd.fhir.core#0.2.0",
-        "fhir-version": ["4.0.1"],
-        "url": "https://fhir.dghs.gov.bd/core/0.2.0"
-      }
-    ]
+    "editions" : [{
+      "name" : "0.4.8",
+      "ig-version" : "0.4.8",
+      "package" : "bd.fhir.core#0.4.8",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.dghs.gov.bd/core/0.4.8"
+    },
+    {
+      "name" : "Draft 0.2.0",
+      "ig-version" : "0.2.0",
+      "package" : "bd.fhir.core#0.2.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.dghs.gov.bd/core/0.2.0"
+    }]
   },
   {
     "name" : "SQL on FHIR",
@@ -9941,11 +9939,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/smart-scheduling-links",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
+      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/1.0.0"
     }]
   },
   {
