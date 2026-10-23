@@ -130,6 +130,8 @@
     "2.16.840.1.113883.2.22.40.10"  : {  "id" : "hl7.fhir.cl.minsal.agenda",                      "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.11"  : {  "id" : "hl7.fhir.cl.minsal.mfr",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.12"  : {  "id" : "hl7.fhir.cl.minsal.urgencia",                    "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.13"  : {  "id" : "hl7.fhir.cl.clips",                              "info" : "Franco Ulloa, 20-Oct 2026"},
+    "2.16.840.1.113883.2.22.40.14"  : {  "id" : "hl7.fhir.cl.mhdig",                              "info" : "Franco Ulloa, 20-Oct 2026"},
 
     "2.16.840.1.113883.4.642.40.200.1"  : {  "id" : "hl7.fhir.be.core",                           "info" : "Grahame Grieve, 17-Sep 2026"},
     "2.16.840.1.113883.4.642.40.200.2"  : {  "id" : "hl7.fhir.be.vaccination",                    "info" : "Grahame Grieve, 17-Sep 2026"},
