@@ -10241,11 +10241,11 @@
     "ci-build" : "http://build.fhir.org/ig/IHE/ITI.DeIdHandbook/branches/main/index.html",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Publication Ballot",
-      "ig-version" : "2.0.0-comment",
-      "package" : "ihe.iti.deid#2.0.0-comment",
+      "name" : "Publication Normative",
+      "ig-version" : "2.0.0",
+      "package" : "ihe.iti.deid#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0-comment"
+      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0"
     }]
   },
   {
