@@ -6828,10 +6828,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.eu.laboratory#2.0.0",
+      "ig-version" : "2.1.0",
+      "package" : "hl7.fhir.eu.laboratory#2.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/laboratory/2.0.0"
+      "url" : "http://hl7.eu/fhir/laboratory/2.1.0"
     }]
   },
   {
@@ -8808,6 +8808,26 @@
     }]
   },
   {
+    "name" : "EU Imaging Manifest and Access (IHE-MADO additions)",
+    "category" : "Imaging",
+    "npm-name" : "hl7.fhir.eu.imaging-manifest",
+    "description" : "This implementation guide defines the European specific IHE-MADO specification following the definition in eHN Imaging Studies and Reports and refined by XtEHR Imaging Logical Model, as a DICOM and FHIR model.",
+    "authority" : "HL7 Europe",
+    "country" : "eu",
+    "history" : "http://hl7.eu/fhir/imaging-manifest/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/imaging-manifest",
+    "ci-build" : "http://build.fhir.org/ig/hl7-eu/imaging-manifest",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.imaging-manifest#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/imaging-manifest/1.0.0-ballot"
+    }]
+  },
+  {
     "name" : "HL7 Europe Hospital Discharge Report",
     "category" : "Discharge Report",
     "npm-name" : "hl7.fhir.eu.hdr",
@@ -8820,11 +8840,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/hdr",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.hdr#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.hdr#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/hdr/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/hdr/1.0.0"
     }]
   },
   {
