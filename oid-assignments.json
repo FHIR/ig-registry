@@ -104,7 +104,9 @@
     "2.16.840.1.113883.4.642.40.98" : {   "id" : "hl7.fhir.uv.oo-incubator",                      "info" : "Grahame Grieve, 7-Oct 2026" },
     "2.16.840.1.113883.4.642.40.99" : {   "id" : "hl7.fhir.uv.cow",                               "info" : "Grahame Grieve, 7-Oct 2026" },
     "2.16.840.1.113883.4.642.40.100" : {   "id" : "hl7.fhir.uv.dap",                              "info" : "Grahame Grieve, 9-Oct 2026" },
-    
+    "2.16.840.1.113883.4.642.40.101" : {   "id" : "hl7.fhir.uv.rwi-pharma",                       "info" : "Grahame Grieve, 20-Oct 2026" },
+    "2.16.840.1.113883.4.642.40.102" : {   "id" : "hl7.fhirpath",                                 "info" : "Brian Postlethwaite, 21-Oct 2026" },
+
     "2.16.840.1.113883.4.642.40.1000" : {   "id" : "openehr.base",                                "info" : "Grahame Grieve, 12-Mar 2024" },
     "2.16.840.1.113883.4.642.40.1001" : {   "id" : "fhir.onc.bhp",                                "info" : "Grahame Grieve, 2-Oct 2026" },
     "2.16.840.1.113883.4.642.40.1002" : {   "id" : "gov.cdc.nhsn.dqm",                            "info" : "Grahame Grieve, 3-Oct 2026" },
@@ -128,6 +130,8 @@
     "2.16.840.1.113883.2.22.40.10"  : {  "id" : "hl7.fhir.cl.minsal.agenda",                      "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.11"  : {  "id" : "hl7.fhir.cl.minsal.mfr",                         "info" : "Jorge Mansilla, 19-Aug 2026"},
     "2.16.840.1.113883.2.22.40.12"  : {  "id" : "hl7.fhir.cl.minsal.urgencia",                    "info" : "Jorge Mansilla, 19-Aug 2026"},
+    "2.16.840.1.113883.2.22.40.13"  : {  "id" : "hl7.fhir.cl.clips",                              "info" : "Franco Ulloa, 20-Oct 2026"},
+    "2.16.840.1.113883.2.22.40.14"  : {  "id" : "hl7.fhir.cl.mhdig",                              "info" : "Franco Ulloa, 20-Oct 2026"},
 
     "2.16.840.1.113883.4.642.40.200.1"  : {  "id" : "hl7.fhir.be.core",                           "info" : "Grahame Grieve, 17-Sep 2026"},
     "2.16.840.1.113883.4.642.40.200.2"  : {  "id" : "hl7.fhir.be.vaccination",                    "info" : "Grahame Grieve, 17-Sep 2026"},

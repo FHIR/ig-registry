@@ -5033,18 +5033,18 @@
     "npm-name" : "hl7.fhir.be.patient-dossier",
     "description" : "HL7 Belgium FHIR Implementation Guide - Patient Dossier profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/patient-dossier",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.be.patient-dossier#1.0.0",
+      "ig-version" : "1.1.0",
+      "package" : "hl7.fhir.be.patient-dossier#1.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/1.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/1.1.0"
     }]
   },
   {
@@ -5061,10 +5061,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.3.0",
-      "package" : "hl7.fhir.be.core-clinical#1.3.0",
+      "ig-version" : "1.4.0",
+      "package" : "hl7.fhir.be.core-clinical#1.4.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.3.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.4.0"
     }]
   },
   {
@@ -6828,10 +6828,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.eu.laboratory#2.0.0",
+      "ig-version" : "2.1.0",
+      "package" : "hl7.fhir.eu.laboratory#2.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/laboratory/2.0.0"
+      "url" : "http://hl7.eu/fhir/laboratory/2.1.0"
     }]
   },
   {
@@ -8808,6 +8808,26 @@
     }]
   },
   {
+    "name" : "EU Imaging Manifest and Access (IHE-MADO additions)",
+    "category" : "Imaging",
+    "npm-name" : "hl7.fhir.eu.imaging-manifest",
+    "description" : "This implementation guide defines the European specific IHE-MADO specification following the definition in eHN Imaging Studies and Reports and refined by XtEHR Imaging Logical Model, as a DICOM and FHIR model.",
+    "authority" : "HL7 Europe",
+    "country" : "eu",
+    "history" : "http://hl7.eu/fhir/imaging-manifest/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.eu/fhir/imaging-manifest",
+    "ci-build" : "http://build.fhir.org/ig/hl7-eu/imaging-manifest",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.eu.imaging-manifest#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.eu/fhir/imaging-manifest/1.0.0-ballot"
+    }]
+  },
+  {
     "name" : "HL7 Europe Hospital Discharge Report",
     "category" : "Discharge Report",
     "npm-name" : "hl7.fhir.eu.hdr",
@@ -8820,11 +8840,11 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-eu/hdr",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "0.1.0-ballot",
-      "package" : "hl7.fhir.eu.hdr#0.1.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.eu.hdr#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.eu/fhir/hdr/0.1.0-ballot"
+      "url" : "http://hl7.eu/fhir/hdr/1.0.0"
     }]
   },
   {
@@ -9237,22 +9257,20 @@
     "language" : ["en"],
     "canonical" : "https://fhir.dghs.gov.bd/core",
     "ci-build" : "https://fhir.dghs.gov.bd/core",
-    "editions" : [
-      {
-        "name": "0.4.8",
-        "ig-version": "0.4.8",
-        "package": "bd.fhir.core#0.4.8",
-        "fhir-version": ["4.0.1"],
-        "url": "https://fhir.dghs.gov.bd/core/0.4.8"
-      },
-      {
-        "name": "Draft 0.2.0",
-        "ig-version": "0.2.0",
-        "package": "bd.fhir.core#0.2.0",
-        "fhir-version": ["4.0.1"],
-        "url": "https://fhir.dghs.gov.bd/core/0.2.0"
-      }
-    ]
+    "editions" : [{
+      "name" : "0.4.8",
+      "ig-version" : "0.4.8",
+      "package" : "bd.fhir.core#0.4.8",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.dghs.gov.bd/core/0.4.8"
+    },
+    {
+      "name" : "Draft 0.2.0",
+      "ig-version" : "0.2.0",
+      "package" : "bd.fhir.core#0.2.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://fhir.dghs.gov.bd/core/0.2.0"
+    }]
   },
   {
     "name" : "SQL on FHIR",
@@ -9941,11 +9959,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/smart-scheduling-links",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU 1 Ballot",
-      "ig-version" : "1.0.0-ballot",
-      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0-ballot",
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.uv.smart-scheduling-links#1.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/2026May"
+      "url" : "http://hl7.org/fhir/uv/smart-scheduling-links/1.0.0"
     }]
   },
   {
@@ -10243,11 +10261,11 @@
     "ci-build" : "http://build.fhir.org/ig/IHE/ITI.DeIdHandbook/branches/main/index.html",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Publication Ballot",
-      "ig-version" : "2.0.0-comment",
-      "package" : "ihe.iti.deid#2.0.0-comment",
+      "name" : "Publication Normative",
+      "ig-version" : "2.0.0",
+      "package" : "ihe.iti.deid#2.0.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0-comment"
+      "url" : "https://profiles.ihe.net/ITI/DeId/2.0.0"
     }]
   },
   {
