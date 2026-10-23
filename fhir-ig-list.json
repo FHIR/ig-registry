@@ -10669,22 +10669,23 @@
     }]
   },
   {
-    "path" : "order/package-list.json",
-    "package-id" : "hl7.fhir.cz.order",
-    "title" : "Czech FHIR Order",
-    "canonical" : "https://hl7.cz/fhir/order",
+    "name" : "Czech FHIR Order",
     "category" : "Order",
-    "ci-build" : "https://build.fhir.org/ig/HL7-cz/k-order",
-    "version-count" : 1,
-    "latest" : {
-      "version" : "1.0.0",
-      "date" : "2026-10-17",
-      "path" : "https://hl7.cz/fhir/order/1.0.0"
-    },
-    "milestone" : {
-      "version" : "1.0.0",
-      "date" : "2026-10-17",
-      "path" : "https://hl7.cz/fhir/order/1.0.0"
-    }
+    "npm-name" : "hl7.fhir.cz.order",
+    "description" : "Czech national FHIR R4 implementation guide for consultation (K) and physiotherapy or occupational therapy (FT) order documents. Laboratory and imaging orders are covered by separate implementation guides.",
+    "authority" : "HL7 Czech Republic",
+    "country" : "cz",
+    "history" : "https://hl7.cz/fhir/order/history.html",
+    "language" : ["en"],
+    "canonical" : "https://hl7.cz/fhir/order",
+    "ci-build" : "http://build.fhir.org/ig/HL7-cz/k-order",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1",
+      "ig-version" : "1.0.0",
+      "package" : "hl7.fhir.cz.order#1.0.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://hl7.cz/fhir/order/1.0.0"
+    }]
   }]
 }
