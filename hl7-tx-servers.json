@@ -14,9 +14,6 @@
       "version" : "R4",
       "url" : "http://tx.fhir.org/r4"
     },{
-      "version" : "R3",
-      "url" : "http://tx.fhir.org/r3"
-    },{
       "version" : "R5",
       "url" : "http://tx.fhir.org/r5"
     }]
