@@ -80,26 +80,26 @@
       "name": "Agence du Numérique en Santé - FHIR IG",
       "url": "https://interop.esante.gouv.fr/ig/fhir/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
-    }, 
+    },
     {
       "name": "Agence du Numérique en Santé - CDA IG",
       "url": "https://interop.esante.gouv.fr/ig/cda/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
-    }, 
+    },
 	{
       "name": "Agence du Numérique en Santé - Document IG",
       "url": "https://interop.esante.gouv.fr/ig/document/package-feed.xml",
       "errors": "nicolas_riss|esante_gouv_fr"
-    }, 
-    { 
-        "name": "HL7 Denmark", 
-        "url": "https://hl7.dk/fhir/package-feed.xml", 
-        "errors": "jvi|trifork_com" 
-    }, 
-    { 
-        "name": "Kommunernes Landsforening (KL)", 
-        "url": "https://fhir.kl.dk/package-feed.xml", 
-        "errors": "jvi|trifork_com" 
+    },
+    {
+        "name": "HL7 Denmark",
+        "url": "https://hl7.dk/fhir/package-feed.xml",
+        "errors": "jvi|trifork_com"
+    },
+    {
+        "name": "Kommunernes Landsforening (KL)",
+        "url": "https://fhir.kl.dk/package-feed.xml",
+        "errors": "jvi|trifork_com"
     },
     {
         "name": "Danish FUT Infrastructure",
@@ -452,6 +452,10 @@
       "feeds": [ "https://hl7chile.cl/fhir/ig/package-feed.xml", "https://fhir.org/guides/package-feed.xml" ]
     },
     {
+      "mask": "hl7.fhir.cz.*",
+      "feeds": [ "https://hl7.cz/terminology/package-feed.xml", "https://hl7.cz/fhir/package-feed.xml" ]
+    },
+    {
       "mask": "hl7.fhir.*",
       "feeds": [ "http://hl7.org/fhir/package-feed.xml", "http://fhir.org/packages/package-feed.xml", "http://fhir.org/guides/package-feed.xml", "http://fhir.org/templates/package-feed.xml",
 	         "https://hl7.org/fhir/package-feed.xml", "https://fhir.org/packages/package-feed.xml", "https://fhir.org/guides/package-feed.xml", "https://fhir.org/templates/package-feed.xml"]
@@ -574,10 +578,6 @@
       "feeds": [ "https://storage.googleapis.com/health-samurai-igs/fhir-feed.xml" ]
     },
     {
-      "mask": "hl7.fhir.cz.*",
-      "feeds": [ "https://hl7.cz/terminology/package-feed.xml", "https://hl7.cz/fhir/package-feed.xml" ]
-    },
-    {
       "mask": "xtehr.eu.ehds.*",
       "feeds": [ "http://www.xt-ehr.eu/fhir/package-feed.xml" ]
     },
@@ -604,6 +604,10 @@
     {
       "mask": "nictiz.nl.*",
       "feeds": [ "https://ig.nictiz.nl/package-feed.xml" ]
+    },
+    {
+      "mask": "de.hl7.terminology.translation.r4",
+      "feeds": [ "https://terminologien.bfarm.de/feeds?publishToHl7=true" ]
     }
   ]
 
