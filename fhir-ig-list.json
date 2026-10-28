@@ -10705,5 +10705,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "https://hl7.cz/fhir/order/1.0.0"
     }]
+  },
+  {
+    "name" : "OO Incubator Implementation Guide",
+    "category" : "Orders and Observations",
+    "npm-name" : "hl7.fhir.uv.oo-incubator",
+    "description" : "The Orders and Observations Incubator Implementation Guide provides a consolidated workspace for emerging FHIR resources, profiles, operations, vocabularies, and other artifacts developed by the HL7 Orders and Observations Work Group. The content is actively evolving and supports trial use, pilot implementations, and community review.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/oo-incubator/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/oo-incubator",
+    "ci-build" : "http://build.fhir.org/ig/HL7/oo-incubator",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Preview",
+      "ig-version" : "0.1.0-snapshot",
+      "package" : "hl7.fhir.uv.oo-incubator#0.1.0-snapshot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/oo-incubator/0.1.0-202610-snapshot"
+    }]
   }]
 }
