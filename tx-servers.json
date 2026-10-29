@@ -95,6 +95,12 @@
       "name": "Taiwan KYHealth CATY Terminology Serve",
       "authority": "Published by Taiwan KYHealth",
       "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/tw-caty-tx-servers.json"
+    },
+    {
+      "code": "nictiz-nl",
+      "name": "Nictiz National Terminology Server",
+      "authority": "Published by Nictiz Netherlands",
+      "url": "https://raw.githubusercontent.com/FHIR/ig-registry/master/nictiz-nl-tx-servers.json"
     }
   ]
 }
