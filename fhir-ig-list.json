@@ -10688,7 +10688,7 @@
   },
   {
     "name" : "Acute Care IG NL",
-    "category" : "Acute Care",
+    "category" : "Care Management",
     "npm-name" : "nictiz.nl.az",
     "description" : "Information exchange in acute care in the Netherlands (Acute Zorg), built on nl-core. The first use case is the referral from the ambulance service to the GP out-of-hours service (AMB to HAP)",
     "authority" : "Nictiz",
