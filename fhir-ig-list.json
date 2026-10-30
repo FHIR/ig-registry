@@ -2725,7 +2725,7 @@
     "npm-name" : "nictiz.fhir.nl.stu3.zib2017",
     "category" : "Patient Summary",
     "description" : "The Basisgegevensset Zorg, aka BgZ, is the minimum set of patient data that is important for continuity of care and is relevant irrespective of specialism, patient conditions and type of physicians. This set of patient data is recorded comparatively by all healthcare providers. This facilitates information exchange. The BgZ has been made consistent with the European Patient Summary.",
-    "authority" : "Nictiz (NL)",
+    "authority" : "Nictiz",
     "product" : ["fhir"],
     "country" : "nl",
     "language" : ["nl", "en"],
@@ -10654,16 +10654,16 @@
     "authority" : "Nictiz",
     "country" : "nl",
     "history" : "http://ig.nictiz.nl/gbb/history.html",
-    "language" : ["en"],
+    "language" : ["en", "nl"],
     "canonical" : "http://ig.nictiz.nl/gbb",
     "ci-build" : "http://build.fhir.org/ig/Nictiz/GBB-IG",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "1.0.0",
-      "ig-version" : "1.0.0-alpha.1",
-      "package" : "nictiz.nl.gbb#1.0.0-alpha.1",
+      "ig-version" : "1.0.0-alpha.2",
+      "package" : "nictiz.nl.gbb#1.0.0-alpha.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://ig.nictiz.nl/gbb/1.0.0-alpha.1"
+      "url" : "http://ig.nictiz.nl/gbb/1.0.0-alpha.2"
     }]
   },
   {
@@ -10674,16 +10674,36 @@
     "authority" : "Nictiz",
     "country" : "nl",
     "history" : "http://ig.nictiz.nl/nlps/history.html",
-    "language" : ["en"],
+    "language" : ["en", "nl"],
     "canonical" : "http://ig.nictiz.nl/nlps",
     "ci-build" : "http://build.fhir.org/ig/Nictiz/NL-PS-IG",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "1.0.0",
-      "ig-version" : "1.0.0-alpha.1",
-      "package" : "nictiz.nl.nlps#1.0.0-alpha.1",
+      "ig-version" : "1.0.0-alpha.2",
+      "package" : "nictiz.nl.nlps#1.0.0-alpha.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://ig.nictiz.nl/nlps/1.0.0-alpha.1"
+      "url" : "http://ig.nictiz.nl/nlps/1.0.0-alpha.2"
+    }]
+  },
+  {
+    "name" : "Acute Care IG NL",
+    "category" : "Care Management",
+    "npm-name" : "nictiz.nl.az",
+    "description" : "Information exchange in acute care in the Netherlands (Acute Zorg), built on nl-core. The first use case is the referral from the ambulance service to the GP out-of-hours service (AMB to HAP)",
+    "authority" : "Nictiz",
+    "country" : "nl",
+    "history" : "http://ig.nictiz.nl/az/history.html",
+    "language" : ["en"],
+    "canonical" : "http://ig.nictiz.nl/az",
+    "ci-build" : "http://build.fhir.org/ig/Nictiz/AZ-IG",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "1.0.0",
+      "ig-version" : "1.0.0-beta.1",
+      "package" : "nictiz.nl.az#1.0.0-beta.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://ig.nictiz.nl/az/1.0.0-beta.1"
     }]
   },
   {
