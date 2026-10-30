@@ -10687,6 +10687,26 @@
     }]
   },
   {
+    "name" : "Acute Care IG NL",
+    "category" : "Acute Care",
+    "npm-name" : "nictiz.nl.az",
+    "description" : "Information exchange in acute care in the Netherlands (Acute Zorg), built on nl-core. The first use case is the referral from the ambulance service to the GP out-of-hours service (AMB to HAP)",
+    "authority" : "Nictiz",
+    "country" : "nl",
+    "history" : "http://ig.nictiz.nl/az/history.html",
+    "language" : ["en"],
+    "canonical" : "http://ig.nictiz.nl/az",
+    "ci-build" : "http://build.fhir.org/ig/Nictiz/AZ-IG",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "1.0.0",
+      "ig-version" : "1.0.0-beta.1",
+      "package" : "nictiz.nl.az#1.0.0-beta.1",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://ig.nictiz.nl/az/1.0.0-beta.1"
+    }]
+  },
+  {
     "name" : "Czech FHIR Order",
     "category" : "Order",
     "npm-name" : "hl7.fhir.cz.order",
