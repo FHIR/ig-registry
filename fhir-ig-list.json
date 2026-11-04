@@ -5041,10 +5041,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "1.1.0",
-      "package" : "hl7.fhir.be.patient-dossier#1.1.0",
+      "ig-version" : "1.1.1",
+      "package" : "hl7.fhir.be.patient-dossier#1.1.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/1.1.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/patient-dossier/1.1.1"
     }]
   },
   {
@@ -5122,18 +5122,18 @@
     "npm-name" : "hl7.fhir.be.mycarenet",
     "description" : "HL7 Belgium FHIR Implementation Guide - MyCareNet profiles",
     "authority" : "eHealth Platform (BE)",
-    "product" : ["fhir"],
     "country" : "be",
     "history" : "https://www.ehealth.fgov.be/standards/fhir/mycarenet/history.html",
     "language" : ["en"],
     "canonical" : "https://www.ehealth.fgov.be/standards/fhir/mycarenet",
     "ci-build" : "http://build.fhir.org/ig/hl7-be/mycarenet",
+    "product" : ["fhir"],
     "editions" : [{
       "name" : "Trial Use",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.be.mycarenet#2.0.0",
+      "ig-version" : "2.2.1",
+      "package" : "hl7.fhir.be.mycarenet#2.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/mycarenet/2.0.0"
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/mycarenet/2.2.1"
     }]
   },
   {
