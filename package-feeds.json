@@ -400,6 +400,11 @@
       "name": "Nictiz Implementation Guides",
       "url": "https://ig.nictiz.nl/package-feed.xml",
       "errors": "servicedesk|nictiz_nl"
+    },
+    {
+      "name": "Philippine DOH Implementation Guides",
+      "url": "https://fhir.doh.gov.ph/package-feed.xml",
+      "errors": "tfreyes|up_edu_ph"
     }
   ],
   "package-restrictions": [
@@ -475,6 +480,10 @@
     {
       "mask": "hl7.tx.*",
       "feeds": [ "http://terminology.hl7.org/package-feed.xml" ]
+    },
+    {
+      "mask": "fhir.ph.*",
+      "feeds": [ "https://fhir.doh.gov.ph/package-feed.xml" ]
     },
     {
       "mask": "fhir.*",
