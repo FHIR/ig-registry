@@ -157,11 +157,11 @@
     "ci-build" : "https://build.fhir.org/ig/UPM-NTHC/ph-core",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Draft 0.2.0",
-      "ig-version" : "0.2.0",
-      "package" : "fhir.ph.core#0.2.0",
+      "name" : "Draft 0.2.1",
+      "ig-version" : "0.2.1",
+      "package" : "fhir.ph.core#0.2.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://fhir.doh.gov.ph/phcore/0.2.0"
+      "url" : "https://fhir.doh.gov.ph/phcore/0.2.1"
     }]
   },
   {
