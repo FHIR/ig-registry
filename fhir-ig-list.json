@@ -5294,11 +5294,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/pas",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/pas",
     "editions" : [{
-      "name" : "STU1.2.7",
-      "ig-version" : "1.2.7",
-      "package" : "tw.gov.mohw.nhi.pas#1.2.7",
+      "name" : "STU1.3.0",
+      "ig-version" : "1.3.0",
+      "package" : "tw.gov.mohw.nhi.pas#1.3.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/pas/1.2.7"
+      "url" : "https://nhicore.nhi.gov.tw/pas/1.3.0"
     }]
   },
   {
