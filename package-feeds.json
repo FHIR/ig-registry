@@ -132,6 +132,11 @@
       "errors": "cto|hl7_de"
     },
     {
+      "name": "cognovis GmbH",
+      "url": "https://fhir.cognovis.de/dental-core/package-feed.xml",
+      "errors": "fhir|cognovis_de"
+    },
+    {
       "name": "Estonian FHIR Publications",
       "url": "https://fhir.ee/packages/package-feed.xml",
       "errors": "fhir|kodality_com"
