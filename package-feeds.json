@@ -9,27 +9,77 @@
     {
       "name": "HL7.org FHIR Publications",
       "url": "http://hl7.org/fhir/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org CDA Publications",
       "url": "http://hl7.org/cda/stds/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org Cross-Product Publications",
       "url": "http://hl7.org/xprod/ig/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org EHR-S Publications",
       "url": "http://hl7.org/ehrs/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "Common HL7 Terminology",
       "url": "http://terminology.hl7.org/package-feed.xml",
-      "errors": "utg|hl7_org"
+      "errors": "utg|hl7_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "CDS-Hooks",
@@ -39,17 +89,47 @@
     {
       "name": "FHIR Foundation Guides",
       "url": "http://fhir.org/guides/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "FHIR Foundation Support Packages",
       "url": "http://fhir.org/packages/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "FHIR Foundation Publishing Templates",
       "url": "http://fhir.org/templates/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7 Australia",
