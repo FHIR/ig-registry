@@ -39,7 +39,7 @@
 
   * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 var(--font-text);
+    margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.45 var(--font-text);
     padding-block: 20px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   }
   header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; margin-bottom: 14px; }
@@ -70,28 +70,29 @@
 
   .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
   table { border-collapse: collapse; width: 100%; min-width: 900px; font-variant-numeric: tabular-nums; }
-  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th {
-    position: sticky; top: 0; background: var(--surface); color: var(--muted); font-weight: 600; font-size: 12px;
+    position: sticky; top: 0; background: var(--surface); color: var(--muted); font-weight: 600; font-size: 13px;
     text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; user-select: none; white-space: nowrap; z-index: 1;
   }
   th .dir { color: var(--accent); margin-left: 4px; }
   tbody tr.group-start td { border-top: 2px solid var(--line); }
   tbody tr.alt td { background: var(--row-alt); }
   td.rs { vertical-align: top; }
-  td.mono, .mono { font-family: var(--font-mono); font-size: 12.5px; }
-  td .sub { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; word-break: break-all; }
+  td.mono, .mono { font-family: var(--font-mono); font-size: 15px; }
+  td .sub { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; word-break: break-all; }
+  td.reg { white-space: nowrap; font-family: var(--font-mono); font-size: 15px; }
   a { color: inherit; }
   td a:hover { color: var(--accent); }
 
-  .pill { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 11px; font-size: 14px; font-weight: 500; white-space: nowrap; }
   .pill.ok { background: var(--accent-soft); color: var(--ok); }
   .pill.warn { background: var(--warn-soft); color: var(--warn); }
   .pill.bad { background: var(--bad-soft); color: var(--bad); }
   .pill.muted { background: var(--row-alt); color: var(--muted); }
-  td.err { color: var(--bad); font-size: 12.5px; max-width: 320px; word-break: break-word; }
+  td.err { color: var(--bad); font-size: 14px; max-width: 320px; word-break: break-word; }
 
-  .legend { color: var(--muted); font-size: 12.5px; margin-top: 10px; }
+  .legend { color: var(--muted); font-size: 14px; margin-top: 10px; }
   .legend .pill { margin-right: 4px; }
   @media (prefers-reduced-motion: reduce) { .progress > div { transition: none; } }
 </style>
@@ -345,7 +346,7 @@
         const cls = (i === 0 ? 'group-start' : '') + (alt ? ' alt' : '');
         let html = `<tr class="${cls.trim()}">`;
         if (i === 0) {
-          html += `<td class="rs" rowspan="${g.length}">${esc(r.registry)}<span class="sub">${esc(r.registryName)}</span></td>`;
+          html += `<td class="rs reg" rowspan="${g.length}" title="${esc(r.registryName)}">${esc(r.registry)}</td>`;
           html += `<td class="rs" rowspan="${g.length}"><a href="${esc(r.serverUrl)}" target="_blank" rel="noopener">${esc(r.serverName || r.server)}</a>`
             + (r.serverName && r.serverName !== r.server ? `<span class="sub">${esc(r.server)}</span>` : '') + `</td>`;
           if (consistent) html += softwareCells(okRows[0] || null, g.length, false);
