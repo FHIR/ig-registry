@@ -10725,5 +10725,25 @@
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/oo-incubator/0.1.0-202610-snapshot"
     }]
+  },
+  {
+    "name" : "DEMo Demographic Data Collection",
+    "category" : "Administration",
+    "npm-name" : "hl7.fhir.us.demographic-collect",
+    "description" : "Standardized FHIR questionnaires and value sets for collecting granular patient demographic data, including race and ethnicity, language, sexual orientation and gender identity, pronouns, relationship status, disability, military service, and spiritual considerations. Developed through the AHIP, Civitas, and HL7 DEMo Initiative.",
+    "authority" : "HL7",
+    "country" : "us",
+    "language" : ["en"],
+    "history" : "http://hl7.org/fhir/us/demographic-collect/history.html",
+    "canonical" : "http://hl7.org/fhir/us/demographic-collect",
+    "ci-build" : "http://build.fhir.org/ig/HL7/demo-collect",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "CI Build",
+      "ig-version" : "0.1.0",
+      "package" : "hl7.fhir.us.demographic-collect#0.1.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://build.fhir.org/ig/HL7/demo-collect"
+    }]
   }]
 }
