@@ -590,6 +590,10 @@
       "mask": "ans.fr.template*",
       "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
     },
+  	{
+      "mask": "ans.cda.fr.template*",
+      "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
+    },
 	{
       "mask": "ans.fr.document.*",
       "feeds": [ "https://interop.esante.gouv.fr/ig/document/package-feed.xml" ]
