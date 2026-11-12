@@ -127,10 +127,10 @@
       <tr>
         <th data-key="registry" tabindex="0">Registry</th>
         <th data-key="server" tabindex="0">Server</th>
-        <th data-key="endpoint" tabindex="0">Endpoint</th>
         <th data-key="software" tabindex="0">Software</th>
         <th data-key="version" tabindex="0">Version</th>
         <th data-key="releaseDate" tabindex="0">Release date</th>
+        <th data-key="endpoint" tabindex="0">Endpoint</th>
         <th data-key="fhirVersion" tabindex="0">FHIR</th>
         <th data-key="ms" tabindex="0">Time</th>
         <th data-key="state" tabindex="0">Status</th>
@@ -141,7 +141,8 @@
 </div>
 <div class="legend">
   <span class="pill ok">ok</span> metadata read ·
-  <span class="pill warn">older</span> a newer version of the same software was seen on another endpoint ·
+  <span class="pill warn">older</span> a newer version of the same software was seen on another server ·
+  <span class="pill bad">!</span> the server's endpoints report different software or versions ·
   <span class="pill bad">error</span> no usable CapabilityStatement (network, CORS, timeout, non-FHIR response) ·
   <span class="pill muted">pending</span> not queried yet
 </div>
@@ -322,8 +323,24 @@
 
     const out = [];
     let alt = false;
+    // Software, version and release date belong to the server, so they are shown once per server
+    // (spanning its endpoint rows) when every readable endpoint agrees. When endpoints disagree,
+    // each row shows its own values, marked so the inconsistency stands out.
+    const softwareCells = (r, span, flag) => {
+      const rs = span > 1 ? ` rowspan="${span}"` : '';
+      const older = r && r.older
+        ? ` <span class="pill warn" title="latest seen for ${esc(r.software)}: ${esc(latest.get(r.software.toLowerCase()))}">older</span>` : '';
+      const differ = r && flag
+        ? ` <span class="pill bad" title="this server reports different software or versions on different endpoints">!</span>` : '';
+      return `<td class="rs"${rs}>${esc(r ? r.software : '')}</td>`
+        + `<td class="rs mono"${rs}>${esc(r ? r.version : '')}${older}${differ}</td>`
+        + `<td class="rs mono"${rs}>${esc(r ? r.releaseDate : '')}</td>`;
+    };
     for (const g of groupList) {
       alt = !alt;
+      const okRows = g.filter(r => r.state === 'ok');
+      const variants = new Set(okRows.map(r => [r.software, r.version, r.releaseDate].join('\u0000')));
+      const consistent = variants.size <= 1;
       g.forEach((r, i) => {
         const cls = (i === 0 ? 'group-start' : '') + (alt ? ' alt' : '');
         let html = `<tr class="${cls.trim()}">`;
@@ -331,14 +348,12 @@
           html += `<td class="rs" rowspan="${g.length}">${esc(r.registry)}<span class="sub">${esc(r.registryName)}</span></td>`;
           html += `<td class="rs" rowspan="${g.length}"><a href="${esc(r.serverUrl)}" target="_blank" rel="noopener">${esc(r.serverName || r.server)}</a>`
             + (r.serverName && r.serverName !== r.server ? `<span class="sub">${esc(r.server)}</span>` : '') + `</td>`;
+          if (consistent) html += softwareCells(okRows[0] || null, g.length, false);
         }
+        if (!consistent) html += softwareCells(r.state === 'ok' ? r : null, 1, true);
         const usedNote = r.usedUrl && r.usedUrl !== endpointUrl(r.endpoint) ? ` <span class="pill muted" title="redirected to https">https</span>` : '';
         html += `<td class="mono"><a href="${esc(endpointUrl(r.endpoint))}/metadata" target="_blank" rel="noopener">${esc(r.fhirLabel)}</a>`
           + `<span class="sub">${esc(r.endpoint)}</span>${usedNote}</td>`;
-        html += `<td>${esc(r.software)}</td>`;
-        html += `<td class="mono">${esc(r.version)}`
-          + (r.older ? ` <span class="pill warn" title="latest seen for ${esc(r.software)}: ${esc(latest.get(r.software.toLowerCase()))}">older</span>` : '') + `</td>`;
-        html += `<td class="mono">${esc(r.releaseDate)}</td>`;
         html += `<td class="mono">${esc(r.fhirVersion)}</td>`;
         html += `<td class="mono">${r.ms != null ? r.ms + ' ms' : ''}</td>`;
         if (r.state === 'ok') html += `<td><span class="pill ok">ok</span></td>`;
