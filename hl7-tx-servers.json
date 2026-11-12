@@ -8,7 +8,9 @@
     "url" : "http://tx.fhir.org",
     "authoritative" : [
       "http://hl7.org/*",
-      "http://terminology.hl7.org/*"
+      "http://terminology.hl7.org/*",
+      "http://id.who.int/icd/release/11/mms",
+      "https://fhir-terminology.ohdsi.org"
     ],
     "fhirVersions" : [{
       "version" : "R4",
