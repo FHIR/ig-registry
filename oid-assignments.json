@@ -110,6 +110,7 @@
     "2.16.840.1.113883.4.642.40.104" : {   "id" : "hl7.fhir.uv.incubators",                       "info" : "Grahame Grieve, 30-Oct 2026" },
     "2.16.840.1.113883.4.642.40.105" : {   "id" : "hl7.fhir.uv.emedicinal-product-info",          "info" : "Grahame Grieve, 6-Nov 2026" },
     "2.16.840.1.113883.4.642.40.106" : {   "id" : "hl7.fhir.us.demographic-collect",              "info" : "Reuben Daniels, 11-Nov 2026" },
+    "2.16.840.1.113883.4.642.40.107" : {   "id" : "hl7.fhir.us.consent-management",               "info" : "Grahame Grieve, 12-Nov 2026" },
 
     "2.16.840.1.113883.4.642.40.1000" : {   "id" : "openehr.base",                                "info" : "Grahame Grieve, 12-Mar 2024" },
     "2.16.840.1.113883.4.642.40.1001" : {   "id" : "fhir.onc.bhp",                                "info" : "Grahame Grieve, 2-Oct 2026" },

@@ -11,7 +11,7 @@
   "feeds": [
     {
       "name": "HL7.org FHIR Publications",
-      "url": "http://hl7.org/fhir/package-feed.xml",
+      "url": "https://hl7.org/fhir/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -26,7 +26,7 @@
     },
     {
       "name": "HL7.org CDA Publications",
-      "url": "http://hl7.org/cda/stds/package-feed.xml",
+      "url": "https://hl7.org/cda/stds/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -41,7 +41,7 @@
     },
     {
       "name": "HL7.org Cross-Product Publications",
-      "url": "http://hl7.org/xprod/ig/package-feed.xml",
+      "url": "https://hl7.org/xprod/ig/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -56,7 +56,7 @@
     },
     {
       "name": "HL7.org EHR-S Publications",
-      "url": "http://hl7.org/ehrs/package-feed.xml",
+      "url": "https://hl7.org/ehrs/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "FHIR Foundation Guides",
-      "url": "http://fhir.org/guides/package-feed.xml",
+      "url": "https://fhir.org/guides/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -106,7 +106,7 @@
     },
     {
       "name": "FHIR Foundation Support Packages",
-      "url": "http://fhir.org/packages/package-feed.xml",
+      "url": "https://fhir.org/packages/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -121,7 +121,7 @@
     },
     {
       "name": "FHIR Foundation Publishing Templates",
-      "url": "http://fhir.org/templates/package-feed.xml",
+      "url": "https://fhir.org/templates/package-feed.xml",
       "errors": "grahame|fhir_org",
       "signing": {
         "required": false,
@@ -136,12 +136,12 @@
     },
     {
       "name": "HL7 Australia",
-      "url": "http://hl7.org.au/fhir/package-feed.xml",
+      "url": "https://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
     },
     {
       "name": "HL7 Switzerland",
-      "url": "http://fhir.ch/package-feed.xml",
+      "url": "https://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
     },
     {
