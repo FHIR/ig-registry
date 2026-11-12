@@ -64,6 +64,38 @@
   button:disabled { opacity: 0.55; cursor: default; }
   button:focus-visible, input:focus-visible, select:focus-visible, th[tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 
+  /* Summary tiles: the overview, and one-click filters onto the table below. */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 12px; }
+  .tile {
+    display: flex; flex-direction: column; gap: 2px; text-align: left; cursor: pointer;
+    background: var(--surface); color: var(--fg); border: 1px solid var(--line); border-left-width: 5px; border-radius: 6px; padding: 10px 14px;
+  }
+  .tile:hover { border-color: var(--accent); }
+  .tile.active { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .tile .n { font-size: 32px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .tile .l { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .tile.ok { border-left-color: var(--ok); } .tile.ok .n { color: var(--ok); }
+  .tile.warn { border-left-color: var(--warn); } .tile.warn .n { color: var(--warn); }
+  .tile.bad { border-left-color: var(--bad); } .tile.bad .n { color: var(--bad); }
+  .tile.neutral { border-left-color: var(--accent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center; }
+  .chips .cap { color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 4px; }
+  .chip {
+    display: inline-flex; align-items: baseline; gap: 8px; cursor: pointer; font: inherit; color: var(--fg);
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 4px 12px;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.active { background: var(--accent-soft); border-color: var(--accent); }
+  .chip .cnt { font-weight: 600; } .chip .ver { font-family: var(--font-mono); font-size: 14px; color: var(--muted); }
+  .chip .ver b { color: var(--warn); font-weight: 600; }
+
+  /* Server status stripe on the first cell of each server group. */
+  tbody tr.group-start td:first-child { border-left: 5px solid var(--line); }
+  tbody tr.s-ok td:first-child { border-left-color: var(--ok); }
+  tbody tr.s-warn td:first-child { border-left-color: var(--warn); }
+  tbody tr.s-bad td:first-child { border-left-color: var(--bad); }
+  body.hide-urls td .sub.url { display: none; }
+
   .status { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; color: var(--muted); margin-bottom: 10px; min-height: 22px; }
   .progress { flex: 1 1 200px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; max-width: 320px; }
   .progress > div { height: 100%; width: 0; background: var(--accent); transition: width 0.2s; }
@@ -104,17 +136,20 @@
     <a href="https://github.com/FHIR/ig-registry/blob/master/tx-servers.json" target="_blank" rel="noopener">tx-servers registry</a>.</p>
 </header>
 
+<div class="tiles" id="tiles"></div>
+<div class="chips" id="chips"></div>
+
 <div class="toolbar">
-  <label for="master">Registry</label>
-  <input type="url" id="master" value="">
-  <button id="load" type="button">Load</button>
   <label for="filter">Filter <input type="text" id="filter" placeholder="server, software, version…"></label>
   <label for="software">Software
     <select id="software"><option value="">all</option></select>
   </label>
   <label><input type="checkbox" id="onlyOld"> only older than latest seen</label>
   <label><input type="checkbox" id="onlyErr"> only unreachable</label>
+  <label><input type="checkbox" id="showUrls"> show endpoint URLs</label>
   <button class="secondary" id="copy" type="button" disabled>Copy TSV</button>
+  <button class="secondary" id="load" type="button">Reload</button>
+  <input type="url" id="master" value="" title="Master registry file">
 </div>
 
 <div class="status">
@@ -168,6 +203,7 @@
   /** @type {Array<Row>} */
   let rows = [];
   let sortKey = 'registry', sortDir = 1;
+  let onlyOk = false; // set by the "up to date" tile
   /** latest version seen per software name (lower-cased) */
   let latest = new Map();
 
@@ -293,6 +329,7 @@
     if ($('software').value && r.software !== $('software').value) return false;
     if ($('onlyOld').checked && !r.older) return false;
     if ($('onlyErr').checked && r.state !== 'error') return false;
+    if (onlyOk && !(r.state === 'ok' && !r.older)) return false;
     if (!q) return true;
     return [r.registry, r.registryName, r.server, r.serverName, r.endpoint, r.fhirLabel, r.software, r.version,
       r.releaseDate, r.fhirVersion, r.state, r.error].join(' ').toLowerCase().includes(q);
@@ -342,8 +379,9 @@
       const okRows = g.filter(r => r.state === 'ok');
       const variants = new Set(okRows.map(r => [r.software, r.version, r.releaseDate].join('\u0000')));
       const consistent = variants.size <= 1;
+      const stripe = groupState(g, consistent);
       g.forEach((r, i) => {
-        const cls = (i === 0 ? 'group-start' : '') + (alt ? ' alt' : '');
+        const cls = (i === 0 ? 'group-start s-' + stripe : '') + (alt ? ' alt' : '');
         let html = `<tr class="${cls.trim()}">`;
         if (i === 0) {
           html += `<td class="rs reg" rowspan="${g.length}" title="${esc(r.registryName)}">${esc(r.registry)}</td>`;
@@ -354,7 +392,7 @@
         if (!consistent) html += softwareCells(r.state === 'ok' ? r : null, 1, true);
         const usedNote = r.usedUrl && r.usedUrl !== endpointUrl(r.endpoint) ? ` <span class="pill muted" title="redirected to https">https</span>` : '';
         html += `<td class="mono"><a href="${esc(endpointUrl(r.endpoint))}/metadata" target="_blank" rel="noopener">${esc(r.fhirLabel)}</a>`
-          + `<span class="sub">${esc(r.endpoint)}</span>${usedNote}</td>`;
+          + `<span class="sub url">${esc(r.endpoint)}</span>${usedNote}</td>`;
         html += `<td class="mono">${esc(r.fhirVersion)}</td>`;
         html += `<td class="mono">${r.ms != null ? r.ms + ' ms' : ''}</td>`;
         if (r.state === 'ok') html += `<td><span class="pill ok">ok</span></td>`;
@@ -370,11 +408,76 @@
       if (span) span.remove();
       if (th.dataset.key === sortKey) th.insertAdjacentHTML('beforeend', `<span class="dir">${sortDir > 0 ? '▲' : '▼'}</span>`);
     }
-    const ok = rows.filter(r => r.state === 'ok').length, err = rows.filter(r => r.state === 'error').length;
-    const old = rows.filter(r => r.older).length;
+    renderTiles();
     if (rows.length && !loading) {
-      $('msg').textContent = `${rows.length} endpoints on ${groups.size === 0 ? 0 : new Set(rows.map(r => r.registry + r.server)).size} servers · ${ok} ok · ${err} unreachable · ${old} older than latest seen · showing ${visible.length}`;
+      $('msg').textContent = `Showing ${visible.length} of ${rows.length} endpoints.`;
     }
+  }
+
+  // Worst state across a server's endpoints: drives the stripe on its first cell.
+  function groupState(g, consistent) {
+    if (g.some(r => r.state === 'error')) return 'bad';
+    if (!consistent || g.some(r => r.older)) return 'warn';
+    if (g.every(r => r.state === 'ok')) return 'ok';
+    return 'pending';
+  }
+
+  // Per-server summaries over the whole data set (not the filtered view), so the tiles always
+  // describe the ecosystem while the table shows the selection.
+  function serverGroups() {
+    const m = new Map();
+    for (const r of rows) {
+      const k = r.registry + '\u0000' + r.server;
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push(r);
+    }
+    return [...m.values()];
+  }
+
+  function renderTiles() {
+    const groups = serverGroups();
+    const states = groups.map(g => {
+      const ok = g.filter(r => r.state === 'ok');
+      const consistent = new Set(ok.map(r => [r.software, r.version, r.releaseDate].join('\u0000'))).size <= 1;
+      return groupState(g, consistent);
+    });
+    const count = (s) => states.filter(x => x === s).length;
+    const tiles = [
+      { id: 'all', cls: 'neutral', n: groups.length, l: 'servers', sub: `${rows.length} endpoints` },
+      { id: 'ok', cls: 'ok', n: count('ok'), l: 'up to date' },
+      { id: 'warn', cls: 'warn', n: count('warn'), l: 'older / inconsistent' },
+      { id: 'bad', cls: 'bad', n: count('bad'), l: 'unreachable' },
+    ];
+    const onlyOld = $('onlyOld').checked, onlyErr = $('onlyErr').checked;
+    const active = onlyErr ? 'bad' : onlyOld ? 'warn' : onlyOk ? 'ok' : (!$('software').value && !$('filter').value ? 'all' : '');
+    $('tiles').innerHTML = tiles.map(t =>
+      `<button type="button" class="tile ${t.cls}${active === t.id ? ' active' : ''}" data-tile="${t.id}">`
+      + `<span class="n">${t.n}</span><span class="l">${esc(t.l)}</span>${t.sub ? `<span class="l">${esc(t.sub)}</span>` : ''}</button>`).join('');
+
+    // One chip per software product: how many servers run it, and the newest version seen.
+    const bySoftware = new Map();
+    for (const g of groups) {
+      const r = g.find(x => x.state === 'ok' && x.software);
+      if (!r) continue;
+      const k = r.software;
+      if (!bySoftware.has(k)) bySoftware.set(k, { servers: 0, older: 0 });
+      bySoftware.get(k).servers++;
+      if (g.some(x => x.older)) bySoftware.get(k).older++;
+    }
+    const names = [...bySoftware.keys()].sort((a, b) => bySoftware.get(b).servers - bySoftware.get(a).servers || a.localeCompare(b));
+    const sel = $('software').value;
+    $('chips').innerHTML = names.length ? `<span class="cap">Software</span>` + names.map(n => {
+      const s = bySoftware.get(n);
+      const latestV = latest.get(n.toLowerCase()) || '';
+      const behind = s.older ? ` · <b>${s.older} behind</b>` : '';
+      return `<button type="button" class="chip${sel === n ? ' active' : ''}" data-software="${esc(n)}">`
+        + `<span class="cnt">${s.servers}</span> ${esc(n)} <span class="ver">latest ${esc(latestV)}${behind}</span></button>`;
+    }).join('') : '';
+  }
+
+  function clearFilters() {
+    $('onlyOld').checked = false; $('onlyErr').checked = false; $('software').value = ''; $('filter').value = '';
+    onlyOk = false;
   }
 
   let loading = false;
@@ -448,8 +551,29 @@
   $('load').addEventListener('click', load);
   $('filter').addEventListener('input', render);
   $('software').addEventListener('change', render);
-  $('onlyOld').addEventListener('change', render);
-  $('onlyErr').addEventListener('change', render);
+  $('onlyOld').addEventListener('change', () => { onlyOk = false; render(); });
+  $('onlyErr').addEventListener('change', () => { onlyOk = false; render(); });
+  const applyUrlToggle = () => { document.body.classList.toggle('hide-urls', !$('showUrls').checked); };
+  $('showUrls').addEventListener('change', applyUrlToggle);
+  applyUrlToggle();
+  // Tiles and chips act as filters: click to select, click again to clear.
+  $('tiles').addEventListener('click', (e) => {
+    const t = e.target.closest('[data-tile]');
+    if (!t) return;
+    const id = t.dataset.tile;
+    const wasActive = t.classList.contains('active');
+    clearFilters();
+    if (!wasActive && id === 'bad') $('onlyErr').checked = true;
+    if (!wasActive && id === 'warn') $('onlyOld').checked = true;
+    if (!wasActive && id === 'ok') onlyOk = true;
+    render();
+  });
+  $('chips').addEventListener('click', (e) => {
+    const c = e.target.closest('[data-software]');
+    if (!c) return;
+    $('software').value = c.classList.contains('active') ? '' : c.dataset.software;
+    render();
+  });
   $('copy').addEventListener('click', async () => {
     const text = toTsv();
     try {
