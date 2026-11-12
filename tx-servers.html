@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TX Registry Versions</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: one toolbar, one dense data table; server rows grouped by rowspan. */
+  :root {
+    --bg: #f7f8f6;
+    --surface: #ffffff;
+    --fg: #1d2420;
+    --muted: #5f6b64;
+    --line: #d9ded9;
+    --accent: #0f6e56;
+    --accent-soft: #e2f1ec;
+    --ok: #1f7a4d;
+    --warn: #a86a00;
+    --warn-soft: #fff3dc;
+    --bad: #b3261e;
+    --bad-soft: #fde8e6;
+    --row-alt: #f1f4f1;
+    --font-text: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141816; --surface: #1c221f; --fg: #e6ebe7; --muted: #9aa69f; --line: #303934;
+      --accent: #5cc3a3; --accent-soft: #1d3a31; --ok: #5cc38a; --warn: #e0a84a; --warn-soft: #3a2e14;
+      --bad: #f28b82; --bad-soft: #43201d; --row-alt: #191f1c; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141816; --surface: #1c221f; --fg: #e6ebe7; --muted: #9aa69f; --line: #303934;
+    --accent: #5cc3a3; --accent-soft: #1d3a31; --ok: #5cc38a; --warn: #e0a84a; --warn-soft: #3a2e14;
+    --bad: #f28b82; --bad-soft: #43201d; --row-alt: #191f1c; color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 var(--font-text);
+    padding-block: 20px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; margin-bottom: 14px; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); }
+  header a { color: var(--accent); }
+
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; margin-bottom: 12px;
+  }
+  .toolbar label { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); white-space: nowrap; }
+  .toolbar input[type="text"], .toolbar input[type="url"], .toolbar select {
+    font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px;
+  }
+  .toolbar input[type="url"] { min-width: 0; flex: 1 1 320px; font-family: var(--font-mono); font-size: 12px; }
+  .toolbar input[type="text"] { width: 220px; }
+  button {
+    font: inherit; font-weight: 500; color: #fff; background: var(--accent); border: 0; border-radius: 4px; padding: 6px 12px; cursor: pointer;
+  }
+  button.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+  button:disabled { opacity: 0.55; cursor: default; }
+  button:focus-visible, input:focus-visible, select:focus-visible, th[tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  .status { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; color: var(--muted); margin-bottom: 10px; min-height: 22px; }
+  .progress { flex: 1 1 200px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; max-width: 320px; }
+  .progress > div { height: 100%; width: 0; background: var(--accent); transition: width 0.2s; }
+
+  .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; min-width: 900px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th {
+    position: sticky; top: 0; background: var(--surface); color: var(--muted); font-weight: 600; font-size: 12px;
+    text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; user-select: none; white-space: nowrap; z-index: 1;
+  }
+  th .dir { color: var(--accent); margin-left: 4px; }
+  tbody tr.group-start td { border-top: 2px solid var(--line); }
+  tbody tr.alt td { background: var(--row-alt); }
+  td.rs { vertical-align: top; }
+  td.mono, .mono { font-family: var(--font-mono); font-size: 12.5px; }
+  td .sub { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; word-break: break-all; }
+  a { color: inherit; }
+  td a:hover { color: var(--accent); }
+
+  .pill { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+  .pill.ok { background: var(--accent-soft); color: var(--ok); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.bad { background: var(--bad-soft); color: var(--bad); }
+  .pill.muted { background: var(--row-alt); color: var(--muted); }
+  td.err { color: var(--bad); font-size: 12.5px; max-width: 320px; word-break: break-word; }
+
+  .legend { color: var(--muted); font-size: 12.5px; margin-top: 10px; }
+  .legend .pill { margin-right: 4px; }
+  @media (prefers-reduced-motion: reduce) { .progress > div { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>TX Registry Versions</h1>
+  <p>Software versions reported by every terminology server endpoint listed in the FHIR tooling
+    <a href="https://github.com/FHIR/ig-registry/blob/master/tx-servers.json" target="_blank" rel="noopener">tx-servers registry</a>.</p>
+</header>
+
+<div class="toolbar">
+  <label for="master">Registry</label>
+  <input type="url" id="master" value="">
+  <button id="load" type="button">Load</button>
+  <label for="filter">Filter <input type="text" id="filter" placeholder="server, software, version…"></label>
+  <label for="software">Software
+    <select id="software"><option value="">all</option></select>
+  </label>
+  <label><input type="checkbox" id="onlyOld"> only older than latest seen</label>
+  <label><input type="checkbox" id="onlyErr"> only unreachable</label>
+  <button class="secondary" id="copy" type="button" disabled>Copy TSV</button>
+</div>
+
+<div class="status">
+  <span id="msg">Click Load to fetch the registries and query each endpoint's <span class="mono">/metadata</span>.</span>
+  <div class="progress" id="progress" hidden><div></div></div>
+</div>
+
+<div class="table-wrap">
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th data-key="registry" tabindex="0">Registry</th>
+        <th data-key="server" tabindex="0">Server</th>
+        <th data-key="endpoint" tabindex="0">Endpoint</th>
+        <th data-key="software" tabindex="0">Software</th>
+        <th data-key="version" tabindex="0">Version</th>
+        <th data-key="releaseDate" tabindex="0">Release date</th>
+        <th data-key="fhirVersion" tabindex="0">FHIR</th>
+        <th data-key="ms" tabindex="0">Time</th>
+        <th data-key="state" tabindex="0">Status</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+<div class="legend">
+  <span class="pill ok">ok</span> metadata read ·
+  <span class="pill warn">older</span> a newer version of the same software was seen on another endpoint ·
+  <span class="pill bad">error</span> no usable CapabilityStatement (network, CORS, timeout, non-FHIR response) ·
+  <span class="pill muted">pending</span> not queried yet
+</div>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (id) => document.getElementById(id);
+  const TIMEOUT_MS = 20000;
+  const CONCURRENCY = 6;
+
+  // When served from the registry's own GitHub Pages site, read the registry files from the same
+  // origin so the page always shows what is deployed. Opened from disk, fall back to the raw files.
+  const RAW_BASE = 'https://raw.githubusercontent.com/FHIR/ig-registry/master/';
+  const hosted = /^https?:$/.test(location.protocol);
+  const localBase = hosted ? new URL('./', location.href).href : RAW_BASE;
+  $('master').value = localBase + 'tx-servers.json';
+  function localise(url) {
+    return hosted && String(url).startsWith(RAW_BASE) ? localBase + String(url).slice(RAW_BASE.length) : url;
+  }
+
+  /** @type {Array<Row>} */
+  let rows = [];
+  let sortKey = 'registry', sortDir = 1;
+  /** latest version seen per software name (lower-cased) */
+  let latest = new Map();
+
+  // The registry files are described as JSON5 but are plain JSON in practice. Be tolerant of
+  // the two JSON5 features that do show up in hand-edited files: // comment lines and trailing commas.
+  function parseLenient(text) {
+    try { return JSON.parse(text); } catch (e) { /* fall through */ }
+    const stripped = text
+      .split('\n').filter(l => !/^\s*\/\//.test(l)).join('\n')
+      .replace(/\/\*[\s\S]*?\*\//g, '')
+      .replace(/,\s*([}\]])/g, '$1');
+    return JSON.parse(stripped);
+  }
+
+  async function fetchJson(url, accept) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+    try {
+      const res = await fetch(url, { signal: ctrl.signal, headers: accept ? { Accept: accept } : {}, cache: 'no-store' });
+      const text = await res.text();
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return parseLenient(text);
+    } finally {
+      clearTimeout(t);
+    }
+  }
+
+  // Compare dotted / dashed versions numerically segment by segment ("1.0.1" < "1.10.0", "6.19.0-SNAPSHOT" < "6.19.0").
+  function versionParts(v) {
+    return String(v || '').trim().split(/[.\-_+ ]/).filter(Boolean);
+  }
+  function compareVersions(a, b) {
+    const pa = versionParts(a), pb = versionParts(b);
+    const n = Math.max(pa.length, pb.length);
+    for (let i = 0; i < n; i++) {
+      const x = pa[i], y = pb[i];
+      if (x === undefined) return /^\d+$/.test(y) ? -1 : 1;   // "1.0" < "1.0.1", but "1.0" > "1.0-SNAPSHOT"
+      if (y === undefined) return /^\d+$/.test(x) ? 1 : -1;
+      const nx = /^\d+$/.test(x), ny = /^\d+$/.test(y);
+      if (nx && ny) { if (+x !== +y) return +x - +y; continue; }
+      if (nx) return 1;        // numeric beats a pre-release tag
+      if (ny) return -1;
+      if (x !== y) return x < y ? -1 : 1;
+    }
+    return 0;
+  }
+
+  function endpointUrl(u) { return String(u).replace(/\/+$/, ''); }
+
+  async function queryMetadata(row) {
+    const base = endpointUrl(row.endpoint);
+    const candidates = [base];
+    if (/^http:\/\//i.test(base)) candidates.push(base.replace(/^http:/i, 'https:'));
+    let lastErr = null;
+    for (const b of candidates) {
+      const t0 = performance.now();
+      try {
+        const cs = await fetchJson(b + '/metadata', 'application/fhir+json, application/json;q=0.9');
+        row.ms = Math.round(performance.now() - t0);
+        if (!cs || cs.resourceType !== 'CapabilityStatement') {
+          throw new Error(cs && cs.resourceType ? `got ${cs.resourceType}` : 'not a CapabilityStatement');
+        }
+        row.software = (cs.software && cs.software.name) || (cs.implementation && cs.implementation.description) || '';
+        row.version = (cs.software && cs.software.version) || '';
+        row.releaseDate = (cs.software && cs.software.releaseDate) || '';
+        row.fhirVersion = cs.fhirVersion || '';
+        row.state = 'ok';
+        row.error = '';
+        row.usedUrl = b;
+        return;
+      } catch (e) {
+        row.ms = Math.round(performance.now() - t0);
+        lastErr = e;
+      }
+    }
+    row.state = 'error';
+    row.error = lastErr && lastErr.name === 'AbortError' ? `timeout after ${TIMEOUT_MS / 1000}s`
+      : (lastErr && lastErr.message) || 'failed';
+    if (row.error === 'Failed to fetch' || row.error === 'NetworkError when attempting to fetch resource.') {
+      row.error = 'network error (unreachable, blocked, or no CORS headers)';
+    }
+  }
+
+  async function runPool(items, worker, onEach) {
+    let i = 0;
+    const next = async () => {
+      while (i < items.length) {
+        const item = items[i++];
+        await worker(item);
+        onEach();
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, items.length) }, next));
+  }
+
+  function computeLatest() {
+    latest = new Map();
+    for (const r of rows) {
+      if (r.state !== 'ok' || !r.software || !r.version) continue;
+      const k = r.software.toLowerCase();
+      if (!latest.has(k) || compareVersions(r.version, latest.get(k)) > 0) latest.set(k, r.version);
+    }
+    for (const r of rows) {
+      r.older = r.state === 'ok' && r.version && latest.has(r.software.toLowerCase())
+        && compareVersions(r.version, latest.get(r.software.toLowerCase())) < 0;
+    }
+  }
+
+  function fillSoftwareFilter() {
+    const sel = $('software');
+    const current = sel.value;
+    const names = [...new Set(rows.filter(r => r.software).map(r => r.software))].sort((a, b) => a.localeCompare(b));
+    sel.innerHTML = '<option value="">all</option>' + names.map(n => `<option>${esc(n)}</option>`).join('');
+    sel.value = names.includes(current) ? current : '';
+  }
+
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function matches(r) {
+    const q = $('filter').value.trim().toLowerCase();
+    if ($('software').value && r.software !== $('software').value) return false;
+    if ($('onlyOld').checked && !r.older) return false;
+    if ($('onlyErr').checked && r.state !== 'error') return false;
+    if (!q) return true;
+    return [r.registry, r.registryName, r.server, r.serverName, r.endpoint, r.fhirLabel, r.software, r.version,
+      r.releaseDate, r.fhirVersion, r.state, r.error].join(' ').toLowerCase().includes(q);
+  }
+
+  // Sorting keeps a server's endpoints together: groups are ordered by the chosen column's
+  // "best" value within the group, then endpoints inside the group by the same column.
+  function cmpRows(a, b, key) {
+    let x = a[key], y = b[key];
+    if (key === 'version') return compareVersions(x, y);
+    if (key === 'ms') return (x ?? Infinity) - (y ?? Infinity);
+    if (key === 'endpoint') { x = a.fhirLabel + ' ' + a.endpoint; y = b.fhirLabel + ' ' + b.endpoint; }
+    if (key === 'state') { x = stateRank(a); y = stateRank(b); return x - y; }
+    return String(x ?? '').localeCompare(String(y ?? ''), undefined, { numeric: true, sensitivity: 'base' });
+  }
+  function stateRank(r) { return r.state === 'error' ? 0 : r.older ? 1 : r.state === 'ok' ? 2 : 3; }
+
+  function render() {
+    const visible = rows.filter(matches);
+    const groups = new Map();
+    for (const r of visible) {
+      const k = r.registry + '\u0000' + r.server;
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(r);
+    }
+    const groupList = [...groups.values()];
+    for (const g of groupList) g.sort((a, b) => cmpRows(a, b, sortKey) * sortDir);
+    groupList.sort((ga, gb) => cmpRows(ga[0], gb[0], sortKey) * sortDir || cmpRows(ga[0], gb[0], 'server'));
+
+    const out = [];
+    let alt = false;
+    for (const g of groupList) {
+      alt = !alt;
+      g.forEach((r, i) => {
+        const cls = (i === 0 ? 'group-start' : '') + (alt ? ' alt' : '');
+        let html = `<tr class="${cls.trim()}">`;
+        if (i === 0) {
+          html += `<td class="rs" rowspan="${g.length}">${esc(r.registry)}<span class="sub">${esc(r.registryName)}</span></td>`;
+          html += `<td class="rs" rowspan="${g.length}"><a href="${esc(r.serverUrl)}" target="_blank" rel="noopener">${esc(r.serverName || r.server)}</a>`
+            + (r.serverName && r.serverName !== r.server ? `<span class="sub">${esc(r.server)}</span>` : '') + `</td>`;
+        }
+        const usedNote = r.usedUrl && r.usedUrl !== endpointUrl(r.endpoint) ? ` <span class="pill muted" title="redirected to https">https</span>` : '';
+        html += `<td class="mono"><a href="${esc(endpointUrl(r.endpoint))}/metadata" target="_blank" rel="noopener">${esc(r.fhirLabel)}</a>`
+          + `<span class="sub">${esc(r.endpoint)}</span>${usedNote}</td>`;
+        html += `<td>${esc(r.software)}</td>`;
+        html += `<td class="mono">${esc(r.version)}`
+          + (r.older ? ` <span class="pill warn" title="latest seen for ${esc(r.software)}: ${esc(latest.get(r.software.toLowerCase()))}">older</span>` : '') + `</td>`;
+        html += `<td class="mono">${esc(r.releaseDate)}</td>`;
+        html += `<td class="mono">${esc(r.fhirVersion)}</td>`;
+        html += `<td class="mono">${r.ms != null ? r.ms + ' ms' : ''}</td>`;
+        if (r.state === 'ok') html += `<td><span class="pill ok">ok</span></td>`;
+        else if (r.state === 'error') html += `<td class="err"><span class="pill bad">error</span> ${esc(r.error)}</td>`;
+        else html += `<td><span class="pill muted">pending</span></td>`;
+        out.push(html + '</tr>');
+      });
+    }
+    $('rows').innerHTML = out.join('') || `<tr><td colspan="9" style="color:var(--muted)">No rows match.</td></tr>`;
+
+    for (const th of document.querySelectorAll('th[data-key]')) {
+      const span = th.querySelector('.dir');
+      if (span) span.remove();
+      if (th.dataset.key === sortKey) th.insertAdjacentHTML('beforeend', `<span class="dir">${sortDir > 0 ? '▲' : '▼'}</span>`);
+    }
+    const ok = rows.filter(r => r.state === 'ok').length, err = rows.filter(r => r.state === 'error').length;
+    const old = rows.filter(r => r.older).length;
+    if (rows.length && !loading) {
+      $('msg').textContent = `${rows.length} endpoints on ${groups.size === 0 ? 0 : new Set(rows.map(r => r.registry + r.server)).size} servers · ${ok} ok · ${err} unreachable · ${old} older than latest seen · showing ${visible.length}`;
+    }
+  }
+
+  let loading = false;
+  async function load() {
+    if (loading) return;
+    loading = true;
+    $('load').disabled = true; $('copy').disabled = true;
+    rows = []; latest = new Map();
+    const prog = $('progress'); prog.hidden = false; prog.firstElementChild.style.width = '0%';
+    $('msg').textContent = 'Loading master registry…';
+    render();
+    try {
+      const master = await fetchJson($('master').value.trim());
+      const regs = Array.isArray(master.registries) ? master.registries : [];
+      $('msg').textContent = `Loading ${regs.length} registries…`;
+      const regResults = await Promise.all(regs.map(async (reg) => {
+        try {
+          return { reg, data: await fetchJson(localise(reg.url)) };
+        } catch (e) {
+          return { reg, error: e.message || 'failed' };
+        }
+      }));
+      for (const { reg, data, error } of regResults) {
+        if (error) {
+          rows.push({ registry: reg.code, registryName: reg.name, server: '(registry)', serverName: reg.name, serverUrl: reg.url,
+            endpoint: reg.url, fhirLabel: '', state: 'error', error: `registry file: ${error}` });
+          continue;
+        }
+        for (const srv of (data.servers || [])) {
+          const fvs = Array.isArray(srv.fhirVersions) && srv.fhirVersions.length ? srv.fhirVersions : [{ version: '', url: srv.url }];
+          for (const fv of fvs) {
+            rows.push({ registry: reg.code, registryName: reg.name, server: srv.code || srv.name || srv.url, serverName: srv.name || srv.code || '',
+              serverUrl: srv.url || fv.url, endpoint: fv.url, fhirLabel: fv.version || '', state: 'pending',
+              software: '', version: '', releaseDate: '', fhirVersion: '', ms: null, error: '', older: false, usedUrl: '' });
+          }
+        }
+      }
+      const pending = rows.filter(r => r.state === 'pending');
+      let done = 0;
+      $('msg').textContent = `Querying ${pending.length} endpoints…`;
+      render();
+      await runPool(pending, queryMetadata, () => {
+        done++;
+        prog.firstElementChild.style.width = Math.round(100 * done / pending.length) + '%';
+        $('msg').textContent = `Querying endpoints… ${done}/${pending.length}`;
+        computeLatest();
+        render();
+      });
+      computeLatest();
+      fillSoftwareFilter();
+    } catch (e) {
+      $('msg').textContent = `Could not load the master registry: ${e.message}`;
+    } finally {
+      loading = false;
+      $('load').disabled = false; $('copy').disabled = rows.length === 0;
+      prog.hidden = true;
+      render();
+    }
+  }
+
+  function toTsv() {
+    const head = ['registry', 'server', 'server_url', 'fhir', 'endpoint', 'software', 'version', 'release_date', 'fhir_version', 'ms', 'status', 'older', 'error'];
+    const lines = [head.join('\t')];
+    for (const r of rows.filter(matches)) {
+      lines.push([r.registry, r.serverName || r.server, r.serverUrl, r.fhirLabel, r.endpoint, r.software, r.version, r.releaseDate,
+        r.fhirVersion, r.ms ?? '', r.state, r.older ? 'yes' : '', r.error].map(v => String(v ?? '').replace(/[\t\n]/g, ' ')).join('\t'));
+    }
+    return lines.join('\n');
+  }
+
+  $('load').addEventListener('click', load);
+  $('filter').addEventListener('input', render);
+  $('software').addEventListener('change', render);
+  $('onlyOld').addEventListener('change', render);
+  $('onlyErr').addEventListener('change', render);
+  $('copy').addEventListener('click', async () => {
+    const text = toTsv();
+    try {
+      await navigator.clipboard.writeText(text);
+      $('msg').textContent = 'Copied the visible rows as tab-separated text.';
+    } catch (e) {
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (e2) { /* ignore */ }
+      ta.remove();
+      $('msg').textContent = 'Copied the visible rows as tab-separated text.';
+    }
+  });
+  for (const th of document.querySelectorAll('th[data-key]')) {
+    const activate = () => {
+      const k = th.dataset.key;
+      if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = 1; }
+      render();
+    };
+    th.addEventListener('click', activate);
+    th.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+  }
+
+  // Load straight away: the page is useless until it has data.
+  load();
+})();
+</script>
+</body>
+</html>

@@ -17,6 +17,8 @@ This page only documents HL7's own ecosystem, the one used by the FHIR tools: wh
   International, and one per HL7 affiliate (`hl7-au-tx-servers.json`, `hl7-eu-tx-servers.json`, etc.),
   as listed in the master registration file
 * Coordination server: <http://ecosystem.hl7.org/tx-reg>
+* Server versions overview: <https://fhir.github.io/ig-registry/tx-servers.html> (`tx-servers.html` in this repository) - queries every
+  registered endpoint's `/metadata` and tabulates the reported software and version, to help spot servers that are behind
 
 The HL7 ecosystem exists to support design time and publication usage by the FHIR tools. It is not
 intended to support production use, and should not be used in operational systems. This is not a 
