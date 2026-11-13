@@ -10745,5 +10745,25 @@
       "fhir-version" : ["4.0.1"],
       "url" : "http://build.fhir.org/ig/HL7/demo-collect"
     }]
+  },
+  {
+    "name" : "Regulatory Workflows and Interactions - pharma",
+    "category" : "Pharmaceutical",
+    "npm-name" : "hl7.fhir.uv.rwi-pharma",
+    "description" : "Regulatory exchange is globally fragmented across authorities, product lines, procedures, and technologies. This IG establishes a common Task- and Subscription-based framework for regulatory workflows and interactions, enabling them to be exchanged, tracked, and acted upon with machine-readable status and event-driven notifications.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/rwi-pharma/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/rwi-pharma",
+    "ci-build" : "http://build.fhir.org/ig/HL7/reg-workflow-pharma",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.rwi-pharma#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/rwi-pharma/1.0.0-202701-ballot"
+    }]
   }]
 }
