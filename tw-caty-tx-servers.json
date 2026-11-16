@@ -1,3 +1,4 @@
+
 {
   "formatVersion": "1",
   "description": "Taiwan KYHealth published terminology servers",
@@ -6,16 +7,29 @@
       "code": "tw-caty",
       "name": "Taiwan CATY Terminology Server",
       "url": "https://ts.caty.hdata.tw",
+       "authoritative": [
+        "https://ts.caty.hdata.tw/CodeSystem/*"
+      ],
+      "authoritative-valuesets": [
+        "https://ts.caty.hdata.tw/ValueSet/*"
+      ],
       "fhirVersions": [
         {
           "version": "R4",
           "url": "https://ts.caty.hdata.tw"
         }
       ]
-    },    {
+    },
+    {
       "code": "tw-nhi-caty",
       "name": "Taiwan NHI Terminology Server(CATY)",
       "url": "https://fhir.nhi.gov.tw/nhi_tsfhir",
+      "authoritative": [
+        "https://fhir.nhi.gov.tw/nhi_tsfhir/CodeSystem/*"
+      ],
+      "authoritative-valuesets": [
+        "https://fhir.nhi.gov.tw/nhi_tsfhir/ValueSet/*"
+      ],
       "fhirVersions": [
         {
           "version": "R4",
@@ -25,3 +39,5 @@
     }
   ]
 }
+
+
