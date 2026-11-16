@@ -9552,24 +9552,24 @@
       "url" : "http://hl7.org/ehrs/us/dhfpr2/2026Jan"
     }]
   },
-  {
-    "name" : "Generic Functions for data exchange Implementation Guide",
+       {
+    "name" : "Generieke Functies - Care Service Directory",
     "category" : "National Base",
-    "npm-name" : "hl7.fhir.nl.gf",
-    "description" : "This implementation guide specifies generic functions needed for (use case specific) data exchange standards in the Netherlands. These functions cover identification, authentication, authorization, data localization, consent and a care service directory.",
+    "npm-name" : "nl.generiekefuncties.fhir",
+    "description" : "Specifies the technical components of the Generic Functions programme for data exchange in Dutch healthcare, led by the Ministry of Health, Welfare and Sport (VWS).",
     "authority" : "Ministry of Health, Welfare and Sport",
     "country" : "nl",
-    "history" : "https://minvws.github.io/generiekefuncties-docs/history.html",
+    "history" : "https://fhir.generiekefuncties.nl/history.html",
     "language" : ["en"],
-    "canonical" : "http://minvws.github.io/generiekefuncties-docs",
+    "canonical" : "https://fhir.generiekefuncties.nl",
     "ci-build" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "Ballot 1",
-      "ig-version" : "0.9.0-ballot",
-      "package" : "hl7.fhir.nl.gf#0.9.0-ballot",
+      "name" : "Trial Use 1",
+      "ig-version" : "26.1.0",
+      "package" : "nl.generiekefuncties.fhir#26.1.0",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://build.fhir.org/ig/minvws/generiekefuncties-docs/branches/0.9.0-ballot"
+      "url" : "https://fhir.generiekefuncties.nl/26.1.0"
     }]
   },
   {
