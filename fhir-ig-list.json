@@ -10739,11 +10739,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/demo-collect",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "CI Build",
-      "ig-version" : "0.1.0",
-      "package" : "hl7.fhir.us.demographic-collect#0.1.0",
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.us.demographic-collect#1.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://build.fhir.org/ig/HL7/demo-collect"
+      "url" : "http://hl7.org/fhir/us/demographic-collect/1.0.0-202701-ballot"
     }]
   },
   {
