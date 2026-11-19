@@ -5717,11 +5717,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/emedicinal-product-info",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.emedicinal-product-info#1.0.0",
+      "name" : "STU 2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.uv.emedicinal-product-info#2.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/2.0.0-202701-ballot"
     }]
   },
   {
