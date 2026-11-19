@@ -493,6 +493,11 @@
       "name": "Philippine DOH Implementation Guides",
       "url": "https://fhir.doh.gov.ph/package-feed.xml",
       "errors": "tfreyes|up_edu_ph"
+    },
+    {
+      "name": "Ministerie van VWS - The Netherlands",
+      "url": "https://code.overheid.nl/MinVWS/fhir-package-feed/raw/branch/main/package-feed.xml",
+      "errors": "wesselo|minvws_nl"
     }
   ],
   "package-restrictions": [
