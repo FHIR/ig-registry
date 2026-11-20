@@ -2586,18 +2586,11 @@
     "language" : ["en"],
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.uv.cpg#2.0.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.cpg#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cpg/STU2"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.cpg#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cpg/STU1"
+      "url" : "http://hl7.org/fhir/uv/cpg/3.0.0-202701-ballot"
     }]
   },
   {
