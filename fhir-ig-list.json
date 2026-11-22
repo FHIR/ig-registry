@@ -10758,5 +10758,25 @@
       "fhir-version" : ["5.0.0"],
       "url" : "http://hl7.org/fhir/uv/rwi-pharma/1.0.0-202701-ballot"
     }]
+  },
+  {
+    "name" : "Clinical Genomics Incubator Implementation Guide",
+    "category" : "Diagnostics",
+    "npm-name" : "hl7.fhir.uv.cg-incubator",
+    "description" : "The Clinical Genomics Incubator Implementation Guide provides a consolidated workspace for emerging FHIR resources, profiles, operations, vocabularies, and other artifacts developed by the HL7 Clinical Genomics Work Group. The content is actively evolving and supports trial use, pilot implementations, and community review.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/cg-incubator/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/cg-incubator",
+    "ci-build" : "http://build.fhir.org/ig/HL7/cg-incubator",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.cg-incubator#1.0.0-ballot",
+      "fhir-version" : ["6.0.0"],
+      "url" : "http://hl7.org/fhir/uv/cg-incubator/1.0.0-202701-ballot"
+    }]
   }]
 }
