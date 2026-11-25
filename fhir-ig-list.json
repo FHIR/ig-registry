@@ -10758,5 +10758,152 @@
       "fhir-version" : ["5.0.0"],
       "url" : "http://hl7.org/fhir/uv/rwi-pharma/1.0.0-202701-ballot"
     }]
+  },
+  {
+    "name": "RNDS IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.rnds.fhir",
+    "description": "Brazilian national FHIR Implementation Guide for the Rede Nacional de Dados em Saúde (RNDS), maintained by the Ministry of Health of Brazil. It provides technical specifications and guidance for interoperability with Brazil's National Health Data Network.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br",
+    "ci-build": "https://fhir.saude.gov.br",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.rnds.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br"
+      }
+    ]
+  },
+  {
+    "name": "RIRA IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.rira.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Registro de Regulação Assistencial (RIRA). It defines standardized healthcare regulation records, including service requests, appointments and related clinical information exchanged through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/rira",
+    "ci-build": "https://fhir.saude.gov.br/rira",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.rira.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/rira"
+      }
+    ]
+  },
+  {
+    "name": "RIA IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.ria.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Registro de Imunobiológico Administrado (RIA). It defines standardized representations and interoperability requirements for immunization administration records exchanged through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/ria",
+    "ci-build": "https://fhir.saude.gov.br/ria",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.ria.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/ria"
+      }
+    ]
+  },
+  {
+    "name": "RAC IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.rac.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Registro de Atendimento Clínico (RAC). It defines standardized clinical encounter records and related healthcare information to support interoperability and information exchange through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/rac",
+    "ci-build": "https://fhir.saude.gov.br/rac",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.rac.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/rac"
+      }
+    ]
+  },
+  {
+    "name": "SA IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.sa.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Sumário de Alta (SA). It defines standardized discharge summaries, including diagnoses, procedures, treatments and care recommendations, supporting continuity of care through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/sa",
+    "ci-build": "https://fhir.saude.gov.br/sa",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.sa.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/sa"
+      }
+    ]
+  },
+  {
+    "name": "REDFM IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.redfm.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos (REDFM). It defines standardized medication dispensing and supply records to support pharmaceutical care interoperability through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/redfm",
+    "ci-build": "https://fhir.saude.gov.br/redfm",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.redfm.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/redfm"
+      }
+    ]
+  },
+  {
+    "name": "REL IG",
+    "category": "National Base",
+    "npm-name": "br.gov.saude.rel.fhir",
+    "description": "Brazilian FHIR Implementation Guide for the Resultado de Exame Laboratorial (REL). It defines standardized laboratory test results, including observations, specimens and diagnostic reports, enabling interoperable exchange of laboratory information through the RNDS.",
+    "authority": "Ministério da Saúde do Brasil",
+    "country": "br",
+    "language": ["pt-BR"],
+    "canonical": "https://fhir.saude.gov.br/rel",
+    "ci-build": "https://fhir.saude.gov.br/rel",
+    "product": ["fhir"],
+    "editions": [
+      {
+        "name": "Release 1.0.0",
+        "ig-version": "1.0.0",
+        "package": "br.gov.saude.rel.fhir#1.0.0",
+        "fhir-version": ["4.0.1"],
+        "url": "https://fhir.saude.gov.br/rel"
+      }
+    ]
   }]
 }
