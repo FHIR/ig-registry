@@ -25,11 +25,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU9",
-      "ig-version" : "9.0.0",
-      "package" : "hl7.fhir.us.core#9.0.0",
+      "name" : "STU10 Ballot",
+      "ig-version" : "10.0.0-ballot",
+      "package" : "hl7.fhir.us.core#10.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/core/STU9"
+      "url" : "http://hl7.org/fhir/us/core/10.0.0-202701-ballot"
     }]
   },
   {
