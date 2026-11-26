@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "description": "Nictiz list of published terminology servers",
+  "servers": [
+    {
+      "code": "nictiz-nl",
+      "name": "Nictiz National Terminology Server",
+      "access_info": "This server requires an API Key - see https://www.nictiz.nl/wat-we-doen/activiteiten/terminologie/de-nationale-terminologieserver-nts/",
+      "url": "https://terminologieserver.nl/tx/fhir",
+      "languages" : {
+        "nl" : [
+          "http://loinc.org*"
+        ]
+      },
+      "authoritative": [
+        "http://snomed.info/sct|http://snomed.info/sct/11000146104*",
+        "http://nictiz.nl*",
+        "https://terminologieserver.nl*"
+      ],
+      "authoritative-valuesets": [
+        "http://snomed.info/sct/11000146104*",
+        "http://decor.nictiz.nl*",
+        "http://ig.nictiz.nl/*"
+      ],
+      "fhirVersions": [
+        {
+          "version": "R4",
+          "url": "https://terminologieserver.nl/tx/fhir"
+        }
+      ]
+    }
+  ]
+}
